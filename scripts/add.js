@@ -2,6 +2,7 @@ const path = require('path');
 const fs = require('fs');
 const ota = require('../lib/ota');
 const filename = process.argv[2];
+const baseURL = 'https://github.com/Koenkk/zigbee-OTA/raw/master';
 
 const manufacturerNameLookup = {
     4107: 'Hue',
@@ -32,7 +33,7 @@ const entry = {
     fileSize: parsed.header.totalImageSize,
     manufacturerCode: parsed.header.manufacturerCode,
     imageType: parsed.header.imageType,
-    url:  'TODO',
+    url:  `${baseURL}/${destination}`,
     path: destination,
 };
 
