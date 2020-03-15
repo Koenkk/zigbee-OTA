@@ -6,5 +6,37 @@
         "imageType": 261,
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Hue/WhiteLamp-Atmel-Target_0105_5.130.1.30000_0012.sbl-ota",
         "path": "images/Hue/WhiteLamp-Atmel-Target_0105_5.130.1.30000_0012.sbl-ota"
+    },
+    {
+        "fileVersion": 16783874,
+        "fileSize": 267452,
+        "manufacturerCode": 4107,
+        "imageType": 268,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Hue/100B-010C-01001A02-ConfLight-Lamps_0012.zigbee",
+        "path": "images/Hue/100B-010C-01001A02-ConfLight-Lamps_0012.zigbee"
+    },
+    {
+        "fileVersion": 1107326256,
+        "fileSize": 256632,
+        "manufacturerCode": 4107,
+        "imageType": 260,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Hue/ConnectedLamp-Atmel_0104_5.130.1.30000_0012.sbl-ota",
+        "path": "images/Hue/ConnectedLamp-Atmel_0104_5.130.1.30000_0012.sbl-ota"
+    },
+    {
+        "fileVersion": 1107323831,
+        "fileSize": 240760,
+        "manufacturerCode": 4107,
+        "imageType": 269,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Hue/Sensor-ATmega_6.1.1.27575_0012.sbl-ota",
+        "path": "images/Hue/Sensor-ATmega_6.1.1.27575_0012.sbl-ota"
+    },
+    {
+        "fileVersion": 1107324829,
+        "fileSize": 240760,
+        "manufacturerCode": 4107,
+        "imageType": 265,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Hue/Switch-ATmega_6.1.1.28573_0012.sbl-ota",
+        "path": "images/Hue/Switch-ATmega_6.1.1.28573_0012.sbl-ota"
     }
 ]
