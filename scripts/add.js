@@ -6,6 +6,7 @@ const baseURL = 'https://github.com/Koenkk/zigbee-OTA/raw/master';
 
 const manufacturerNameLookup = {
     4107: 'Hue',
+    4474: 'Insta',
 };
 
 if (!filename) {
@@ -27,14 +28,15 @@ if (!manufacturerNameLookup[parsed.header.manufacturerCode]) {
 const manufacturerName = manufacturerNameLookup[parsed.header.manufacturerCode];
 const indexJSON = JSON.parse(fs.readFileSync('index.json'));
 const destination = path.join('images', manufacturerName, path.basename(file));
+const destinationPosix = destination.replace(/\\/g, '/');
 
 const entry = {
     fileVersion: parsed.header.fileVersion,
     fileSize: parsed.header.totalImageSize,
     manufacturerCode: parsed.header.manufacturerCode,
     imageType: parsed.header.imageType,
-    url:  `${baseURL}/${destination}`,
-    path: destination,
+    url:  `${baseURL}/${destinationPosix}`,
+    path: destinationPosix,
 };
 
 const index = indexJSON.findIndex((i) => {

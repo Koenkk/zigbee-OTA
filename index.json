@@ -38,5 +38,13 @@
         "imageType": 265,
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Hue/Switch-ATmega_6.1.1.28573_0012.sbl-ota",
         "path": "images/Hue/Switch-ATmega_6.1.1.28573_0012.sbl-ota"
+    },
+    {
+        "fileVersion": 36832016,
+        "fileSize": 134487,
+        "manufacturerCode": 4474,
+        "imageType": 53250,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Insta/ZLL_WS_4f_J_Release_10.03.32.02.zigbee",
+        "path": "images/Insta/ZLL_WS_4f_J_Release_10.03.32.02.zigbee"
     }
 ]
