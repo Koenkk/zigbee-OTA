@@ -46,5 +46,21 @@
         "imageType": 53250,
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Insta/ZLL_WS_4f_J_Release_10.03.32.02.zigbee",
         "path": "images/Insta/ZLL_WS_4f_J_Release_10.03.32.02.zigbee"
+    },
+    {
+        "fileVersion": 16783620,
+        "fileSize": 271050,
+        "manufacturerCode": 4107,
+        "imageType": 270,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Hue/100B-010E-01001904-ConfLight-ModuLum_0012.zigbee",
+        "path": "images/Hue/100B-010E-01001904-ConfLight-ModuLum_0012.zigbee"
+    },
+    {
+        "fileVersion": 16780032,
+        "fileSize": 312950,
+        "manufacturerCode": 4107,
+        "imageType": 276,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Hue/100B-0114-01000B00-ConfLightBLE-Lamps-EFR32MG21.zigbee",
+        "path": "images/Hue/100B-0114-01000B00-ConfLightBLE-Lamps-EFR32MG21.zigbee"
     }
 ]
