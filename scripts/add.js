@@ -7,6 +7,7 @@ const baseURL = 'https://github.com/Koenkk/zigbee-OTA/raw/master';
 const manufacturerNameLookup = {
     4107: 'Hue',
     4474: 'Insta',
+    4448: 'Sengled',
 };
 
 if (!filename) {
