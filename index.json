@@ -110,5 +110,13 @@
         "imageType": 2100,
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sengled/RDS2017028_E1C-NB6_V0.0.22_20180314.ota",
         "path": "images/Sengled/RDS2017028_E1C-NB6_V0.0.22_20180314.ota"
+    },
+    {
+        "fileVersion": 16782592,
+        "fileSize": 417852,
+        "manufacturerCode": 4107,
+        "imageType": 274,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Hue/100B-0112-01001500-ConfLightBLE-Lamps-EFR32MG13.zigbee",
+        "path": "images/Hue/100B-0112-01001500-ConfLightBLE-Lamps-EFR32MG13.zigbee"
     }
 ]
