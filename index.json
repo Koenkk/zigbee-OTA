@@ -118,5 +118,21 @@
         "imageType": 274,
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Hue/100B-0112-01001500-ConfLightBLE-Lamps-EFR32MG13.zigbee",
         "path": "images/Hue/100B-0112-01001500-ConfLightBLE-Lamps-EFR32MG13.zigbee"
+    },
+    {
+        "fileVersion": 33562112,
+        "fileSize": 244474,
+        "manufacturerCode": 4107,
+        "imageType": 278,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Hue/100B-0116-02001E00-Switch-EFR32MG13.zigbee",
+        "path": "images/Hue/100B-0116-02001E00-Switch-EFR32MG13.zigbee"
+    },
+    {
+        "fileVersion": 3040,
+        "fileSize": 224990,
+        "manufacturerCode": 4420,
+        "imageType": 0,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lutron/Superman_v3_04_Release_3040.ota",
+        "path": "images/Lutron/Superman_v3_04_Release_3040.ota"
     }
 ]

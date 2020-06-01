@@ -8,6 +8,7 @@ const manufacturerNameLookup = {
     4107: 'Hue',
     4474: 'Insta',
     4448: 'Sengled',
+    4420: 'Lutron',
 };
 
 if (!filename) {
