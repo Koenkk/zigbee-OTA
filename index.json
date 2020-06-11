@@ -61,7 +61,6 @@
         "manufacturerCode": 4107,
         "imageType": 256,
         "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0100/1107322837/TI_0100_5.127.1.26581_0012.sbl-ota",
-        "path": "firmware/ZGB_100B_0100/1107322837/TI_0100_5.127.1.26581_0012.sbl-ota"
     },
     {
         "fileVersion": 1107322837,
@@ -69,7 +68,6 @@
         "manufacturerCode": 4107,
         "imageType": 259,
         "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0103/1107322837/LivCol_0103_5.127.1.26581_0012.sbl-ota",
-        "path": "firmware/ZGB_100B_0103/1107322837/LivCol_0103_5.127.1.26581_0012.sbl-ota"
     },
     {
         "fileVersion": 1107326256,
@@ -77,7 +75,6 @@
         "manufacturerCode": 4107,
         "imageType": 260,
         "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0104/1107326256/ConnectedLamp-Atmel_0104_5.130.1.30000_0012.sbl-ota",
-        "path": "firmware/ZGB_100B_0104/1107326256/ConnectedLamp-Atmel_0104_5.130.1.30000_0012.sbl-ota"
     },
     {
         "fileVersion": 1107326256,
@@ -85,7 +82,6 @@
         "manufacturerCode": 4107,
         "imageType": 261,
         "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0105/1107326256/WhiteLamp-Atmel-Target_0105_5.130.1.30000_0012.sbl-ota",
-        "path": "firmware/ZGB_100B_0105/1107326256/WhiteLamp-Atmel-Target_0105_5.130.1.30000_0012.sbl-ota"
     },
     {
         "fileVersion": 1107326256,
@@ -93,7 +89,6 @@
         "manufacturerCode": 4107,
         "imageType": 264,
         "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0108/1107326256/LivingColors-Target_0108_5.130.1.30000_0012.sbl-ota",
-        "path": "firmware/ZGB_100B_0108/1107326256/LivingColors-Target_0108_5.130.1.30000_0012.sbl-ota"
     },
     {
         "fileVersion": 1107324829,
@@ -101,7 +96,6 @@
         "manufacturerCode": 4107,
         "imageType": 265,
         "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0109/1107324829/Switch-ATmega_6.1.1.28573_0012.sbl-ota",
-        "path": "firmware/ZGB_100B_0109/1107324829/Switch-ATmega_6.1.1.28573_0012.sbl-ota"
     },
     {
         "fileVersion": 1107326256,
@@ -109,7 +103,6 @@
         "manufacturerCode": 4107,
         "imageType": 267,
         "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_010B/1107326256/ModuLum-ATmega_010B_5.130.1.30000_0012.sbl-ota",
-        "path": "firmware/ZGB_100B_010B/1107326256/ModuLum-ATmega_010B_5.130.1.30000_0012.sbl-ota"
     },
     {
         "fileVersion": 16783874,
@@ -117,7 +110,6 @@
         "manufacturerCode": 4107,
         "imageType": 268,
         "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_010C/16783874/100B-010C-01001A02-ConfLight-Lamps_0012.zigbee",
-        "path": "firmware/ZGB_100B_010C/16783874/100B-010C-01001A02-ConfLight-Lamps_0012.zigbee"
     },
     {
         "fileVersion": 1107323831,
@@ -125,7 +117,6 @@
         "manufacturerCode": 4107,
         "imageType": 269,
         "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_010D/1107323831/Sensor-ATmega_6.1.1.27575_0012.sbl-ota",
-        "path": "firmware/ZGB_100B_010D/1107323831/Sensor-ATmega_6.1.1.27575_0012.sbl-ota"
     },
     {
         "fileVersion": 16783620,
@@ -133,7 +124,6 @@
         "manufacturerCode": 4107,
         "imageType": 270,
         "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_010E/16783620/100B-010E-01001904-ConfLight-ModuLum_0012.zigbee",
-        "path": "firmware/ZGB_100B_010E/16783620/100B-010E-01001904-ConfLight-ModuLum_0012.zigbee"
     },
     {
         "fileVersion": 16779778,
@@ -141,7 +131,6 @@
         "manufacturerCode": 4107,
         "imageType": 271,
         "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_010F/16779778/100B-010F-01000A02-ConfLight-LedStrips_0012.zigbee",
-        "path": "firmware/ZGB_100B_010F/16779778/100B-010F-01000A02-ConfLight-LedStrips_0012.zigbee"
     },
     {
         "fileVersion": 16782848,
@@ -149,7 +138,6 @@
         "manufacturerCode": 4107,
         "imageType": 272,
         "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0110/16782848/100B-0110-01001600-ConfLight-Lamps-EFR32MG13.zigbee",
-        "path": "firmware/ZGB_100B_0110/16782848/100B-0110-01001600-ConfLight-Lamps-EFR32MG13.zigbee"
     },
     {
         "fileVersion": 16782848,
@@ -157,7 +145,6 @@
         "manufacturerCode": 4107,
         "imageType": 273,
         "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0111/16782848/100B-0111-01001600-ConfLight-ModuLum-EFR32MG13.zigbee",
-        "path": "firmware/ZGB_100B_0111/16782848/100B-0111-01001600-ConfLight-ModuLum-EFR32MG13.zigbee"
     },
     {
         "fileVersion": 16782592,
@@ -165,7 +152,6 @@
         "manufacturerCode": 4107,
         "imageType": 274,
         "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0112/16782592/100B-0112-01001500-ConfLightBLE-Lamps-EFR32MG13.zigbee",
-        "path": "firmware/ZGB_100B_0112/16782592/100B-0112-01001500-ConfLightBLE-Lamps-EFR32MG13.zigbee"
     },
     {
         "fileVersion": 16780804,
@@ -173,7 +159,6 @@
         "manufacturerCode": 4107,
         "imageType": 276,
         "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0114/16780804/100B-0114-01000E04-ConfLightBLE-Lamps-EFR32MG21.zigbee",
-        "path": "firmware/ZGB_100B_0114/16780804/100B-0114-01000E04-ConfLightBLE-Lamps-EFR32MG21.zigbee"
     },
     {
         "fileVersion": 16779264,
@@ -181,7 +166,6 @@
         "manufacturerCode": 4107,
         "imageType": 277,
         "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0115/16779264/100B-0115-01000800-SmartPlug-EFR32MG13.zigbee",
-        "path": "firmware/ZGB_100B_0115/16779264/100B-0115-01000800-SmartPlug-EFR32MG13.zigbee"
     },
     {
         "fileVersion": 33562112,
@@ -189,7 +173,6 @@
         "manufacturerCode": 4107,
         "imageType": 278,
         "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0116/33562112/100B-0116-02001E00-Switch-EFR32MG13.zigbee",
-        "path": "firmware/ZGB_100B_0116/33562112/100B-0116-02001E00-Switch-EFR32MG13.zigbee"
     },
     {
         "fileVersion": 3040,
@@ -197,6 +180,5 @@
         "manufacturerCode": 4420,
         "imageType": 0,
         "url": "http://fds.dc1.philips.com/firmware/ZGB_1144_0000/3040/Superman_v3_04_Release_3040.ota",
-        "path": "firmware/ZGB_1144_0000/3040/Superman_v3_04_Release_3040.ota"
     }
 ]
