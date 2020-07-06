@@ -180,5 +180,13 @@
         "manufacturerCode": 4420,
         "imageType": 0,
         "url": "http://fds.dc1.philips.com/firmware/ZGB_1144_0000/3040/Superman_v3_04_Release_3040.ota"
+    },
+    {
+        "fileVersion": 537919648,
+        "fileSize": 197247,
+        "manufacturerCode": 4405,
+        "imageType": 0,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/DresdenElektronik/1135-0000-201000A0-FLS-PP3_RGBW.zigbee",
+        "path": "images/DresdenElektronik/1135-0000-201000A0-FLS-PP3_RGBW.zigbee"
     }
 ]

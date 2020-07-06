@@ -9,6 +9,7 @@ const manufacturerNameLookup = {
     4474: 'Insta',
     4448: 'Sengled',
     4420: 'Lutron',
+    4405: 'DresdenElektronik',
 };
 
 const main = async () => {
