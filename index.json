@@ -1,184 +1,184 @@
 [
     {
-        "fileVersion":36832016,
-        "fileSize":134487,
-        "manufacturerCode":4474,
-        "imageType":53250,
-        "url":"https://github.com/Koenkk/zigbee-OTA/raw/master/images/Insta/ZLL_WS_4f_J_Release_10.03.32.02.zigbee",
-        "path":"images/Insta/ZLL_WS_4f_J_Release_10.03.32.02.zigbee"
+        "fileVersion": 36832016,
+        "fileSize": 134487,
+        "manufacturerCode": 4474,
+        "imageType": 53250,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Insta/ZLL_WS_4f_J_Release_10.03.32.02.zigbee",
+        "path": "images/Insta/ZLL_WS_4f_J_Release_10.03.32.02.zigbee"
     },
     {
-        "fileVersion":49,
-        "fileSize":134334,
-        "manufacturerCode":4448,
-        "imageType":1004,
-        "url":"https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sengled/1542704530003_RDS2017007_E11-N1EA_V0.0.49_20181026_release.ota",
-        "path":"images/Sengled/1542704530003_RDS2017007_E11-N1EA_V0.0.49_20181026_release.ota"
+        "fileVersion": 49,
+        "fileSize": 134334,
+        "manufacturerCode": 4448,
+        "imageType": 1004,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sengled/1542704530003_RDS2017007_E11-N1EA_V0.0.49_20181026_release.ota",
+        "path": "images/Sengled/1542704530003_RDS2017007_E11-N1EA_V0.0.49_20181026_release.ota"
     },
     {
-        "fileVersion":10,
-        "fileSize":136574,
-        "manufacturerCode":4448,
-        "imageType":5,
-        "url":"https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sengled/1554860326863_RDS2018021_E1G-G8E_V10_20190405_release.ota",
-        "path":"images/Sengled/1554860326863_RDS2018021_E1G-G8E_V10_20190405_release.ota"
+        "fileVersion": 10,
+        "fileSize": 136574,
+        "manufacturerCode": 4448,
+        "imageType": 5,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sengled/1554860326863_RDS2018021_E1G-G8E_V10_20190405_release.ota",
+        "path": "images/Sengled/1554860326863_RDS2018021_E1G-G8E_V10_20190405_release.ota"
     },
     {
-        "fileVersion":42,
-        "fileSize":134334,
-        "manufacturerCode":4448,
-        "imageType":1017,
-        "url":"https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sengled/1555679540244_RDS2017009_E11_U2E_V42_20190418_release.ota",
-        "path":"images/Sengled/1555679540244_RDS2017009_E11_U2E_V42_20190418_release.ota"
+        "fileVersion": 42,
+        "fileSize": 134334,
+        "manufacturerCode": 4448,
+        "imageType": 1017,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sengled/1555679540244_RDS2017009_E11_U2E_V42_20190418_release.ota",
+        "path": "images/Sengled/1555679540244_RDS2017009_E11_U2E_V42_20190418_release.ota"
     },
     {
-        "fileVersion":9,
-        "fileSize":116478,
-        "manufacturerCode":4448,
-        "imageType":3,
-        "url":"https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sengled/RDL2016091_1_E11-G13_V0.0.9_20170921_release.ota",
-        "path":"images/Sengled/RDL2016091_1_E11-G13_V0.0.9_20170921_release.ota"
+        "fileVersion": 9,
+        "fileSize": 116478,
+        "manufacturerCode": 4448,
+        "imageType": 3,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sengled/RDL2016091_1_E11-G13_V0.0.9_20170921_release.ota",
+        "path": "images/Sengled/RDL2016091_1_E11-G13_V0.0.9_20170921_release.ota"
     },
     {
-        "fileVersion":46,
-        "fileSize":121086,
-        "manufacturerCode":4448,
-        "imageType":1,
-        "url":"https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sengled/RDS2014011_Z01-A19_V0.0.46_20171028_release.ota",
-        "path":"images/Sengled/RDS2014011_Z01-A19_V0.0.46_20171028_release.ota"
+        "fileVersion": 46,
+        "fileSize": 121086,
+        "manufacturerCode": 4448,
+        "imageType": 1,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sengled/RDS2014011_Z01-A19_V0.0.46_20171028_release.ota",
+        "path": "images/Sengled/RDS2014011_Z01-A19_V0.0.46_20171028_release.ota"
     },
     {
-        "fileVersion":22,
-        "fileSize":136062,
-        "manufacturerCode":4448,
-        "imageType":2100,
-        "url":"https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sengled/RDS2017028_E1C-NB6_V0.0.22_20180314.ota",
-        "path":"images/Sengled/RDS2017028_E1C-NB6_V0.0.22_20180314.ota"
+        "fileVersion": 22,
+        "fileSize": 136062,
+        "manufacturerCode": 4448,
+        "imageType": 2100,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sengled/RDS2017028_E1C-NB6_V0.0.22_20180314.ota",
+        "path": "images/Sengled/RDS2017028_E1C-NB6_V0.0.22_20180314.ota"
     },
     {
-        "fileVersion":1107322837,
-        "fileSize":258104,
-        "manufacturerCode":4107,
-        "imageType":256,
-        "url":"http://fds.dc1.philips.com/firmware/ZGB_100B_0100/1107322837/TI_0100_5.127.1.26581_0012.sbl-ota"
+        "fileVersion": 1107322837,
+        "fileSize": 258104,
+        "manufacturerCode": 4107,
+        "imageType": 256,
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0100/1107322837/TI_0100_5.127.1.26581_0012.sbl-ota"
     },
     {
-        "fileVersion":1107322837,
-        "fileSize":258104,
-        "manufacturerCode":4107,
-        "imageType":259,
-        "url":"http://fds.dc1.philips.com/firmware/ZGB_100B_0103/1107322837/LivCol_0103_5.127.1.26581_0012.sbl-ota"
+        "fileVersion": 1107322837,
+        "fileSize": 258104,
+        "manufacturerCode": 4107,
+        "imageType": 259,
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0103/1107322837/LivCol_0103_5.127.1.26581_0012.sbl-ota"
     },
     {
-        "fileVersion":1107326256,
-        "fileSize":256632,
-        "manufacturerCode":4107,
-        "imageType":260,
-        "url":"http://fds.dc1.philips.com/firmware/ZGB_100B_0104/1107326256/ConnectedLamp-Atmel_0104_5.130.1.30000_0012.sbl-ota"
+        "fileVersion": 1107326256,
+        "fileSize": 256632,
+        "manufacturerCode": 4107,
+        "imageType": 260,
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0104/1107326256/ConnectedLamp-Atmel_0104_5.130.1.30000_0012.sbl-ota"
     },
     {
-        "fileVersion":1107326256,
-        "fileSize":256632,
-        "manufacturerCode":4107,
-        "imageType":261,
-        "url":"http://fds.dc1.philips.com/firmware/ZGB_100B_0105/1107326256/WhiteLamp-Atmel-Target_0105_5.130.1.30000_0012.sbl-ota"
+        "fileVersion": 1107326256,
+        "fileSize": 256632,
+        "manufacturerCode": 4107,
+        "imageType": 261,
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0105/1107326256/WhiteLamp-Atmel-Target_0105_5.130.1.30000_0012.sbl-ota"
     },
     {
-        "fileVersion":1107326256,
-        "fileSize":256632,
-        "manufacturerCode":4107,
-        "imageType":264,
-        "url":"http://fds.dc1.philips.com/firmware/ZGB_100B_0108/1107326256/LivingColors-Target_0108_5.130.1.30000_0012.sbl-ota"
+        "fileVersion": 1107326256,
+        "fileSize": 256632,
+        "manufacturerCode": 4107,
+        "imageType": 264,
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0108/1107326256/LivingColors-Target_0108_5.130.1.30000_0012.sbl-ota"
     },
     {
-        "fileVersion":1107324829,
-        "fileSize":240760,
-        "manufacturerCode":4107,
-        "imageType":265,
-        "url":"http://fds.dc1.philips.com/firmware/ZGB_100B_0109/1107324829/Switch-ATmega_6.1.1.28573_0012.sbl-ota"
+        "fileVersion": 1107324829,
+        "fileSize": 240760,
+        "manufacturerCode": 4107,
+        "imageType": 265,
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0109/1107324829/Switch-ATmega_6.1.1.28573_0012.sbl-ota"
     },
     {
-        "fileVersion":1107326256,
-        "fileSize":256632,
-        "manufacturerCode":4107,
-        "imageType":267,
-        "url":"http://fds.dc1.philips.com/firmware/ZGB_100B_010B/1107326256/ModuLum-ATmega_010B_5.130.1.30000_0012.sbl-ota"
+        "fileVersion": 1107326256,
+        "fileSize": 256632,
+        "manufacturerCode": 4107,
+        "imageType": 267,
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_010B/1107326256/ModuLum-ATmega_010B_5.130.1.30000_0012.sbl-ota"
     },
     {
-        "fileVersion":16783874,
-        "fileSize":267452,
-        "manufacturerCode":4107,
-        "imageType":268,
-        "url":"http://fds.dc1.philips.com/firmware/ZGB_100B_010C/16783874/100B-010C-01001A02-ConfLight-Lamps_0012.zigbee"
+        "fileVersion": 16783874,
+        "fileSize": 267452,
+        "manufacturerCode": 4107,
+        "imageType": 268,
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_010C/16783874/100B-010C-01001A02-ConfLight-Lamps_0012.zigbee"
     },
     {
-        "fileVersion":1107323831,
-        "fileSize":240760,
-        "manufacturerCode":4107,
-        "imageType":269,
-        "url":"http://fds.dc1.philips.com/firmware/ZGB_100B_010D/1107323831/Sensor-ATmega_6.1.1.27575_0012.sbl-ota"
+        "fileVersion": 1107323831,
+        "fileSize": 240760,
+        "manufacturerCode": 4107,
+        "imageType": 269,
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_010D/1107323831/Sensor-ATmega_6.1.1.27575_0012.sbl-ota"
     },
     {
-        "fileVersion":16783620,
-        "fileSize":271050,
-        "manufacturerCode":4107,
-        "imageType":270,
-        "url":"http://fds.dc1.philips.com/firmware/ZGB_100B_010E/16783620/100B-010E-01001904-ConfLight-ModuLum_0012.zigbee"
+        "fileVersion": 16783620,
+        "fileSize": 271050,
+        "manufacturerCode": 4107,
+        "imageType": 270,
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_010E/16783620/100B-010E-01001904-ConfLight-ModuLum_0012.zigbee"
     },
     {
-        "fileVersion":16779778,
-        "fileSize":250762,
-        "manufacturerCode":4107,
-        "imageType":271,
-        "url":"http://fds.dc1.philips.com/firmware/ZGB_100B_010F/16779778/100B-010F-01000A02-ConfLight-LedStrips_0012.zigbee"
+        "fileVersion": 16779778,
+        "fileSize": 250762,
+        "manufacturerCode": 4107,
+        "imageType": 271,
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_010F/16779778/100B-010F-01000A02-ConfLight-LedStrips_0012.zigbee"
     },
     {
-        "fileVersion":16782848,
-        "fileSize":307543,
-        "manufacturerCode":4107,
-        "imageType":272,
-        "url":"http://fds.dc1.philips.com/firmware/ZGB_100B_0110/16782848/100B-0110-01001600-ConfLight-Lamps-EFR32MG13.zigbee"
+        "fileVersion": 16782848,
+        "fileSize": 307543,
+        "manufacturerCode": 4107,
+        "imageType": 272,
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0110/16782848/100B-0110-01001600-ConfLight-Lamps-EFR32MG13.zigbee"
     },
     {
-        "fileVersion":16782848,
-        "fileSize":441566,
-        "manufacturerCode":4107,
-        "imageType":273,
-        "url":"http://fds.dc1.philips.com/firmware/ZGB_100B_0111/16782848/100B-0111-01001600-ConfLight-ModuLum-EFR32MG13.zigbee"
+        "fileVersion": 16782848,
+        "fileSize": 441566,
+        "manufacturerCode": 4107,
+        "imageType": 273,
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0111/16782848/100B-0111-01001600-ConfLight-ModuLum-EFR32MG13.zigbee"
     },
     {
-        "fileVersion":16782592,
-        "fileSize":417852,
-        "manufacturerCode":4107,
-        "imageType":274,
-        "url":"http://fds.dc1.philips.com/firmware/ZGB_100B_0112/16782592/100B-0112-01001500-ConfLightBLE-Lamps-EFR32MG13.zigbee"
+        "fileVersion": 16782592,
+        "fileSize": 417852,
+        "manufacturerCode": 4107,
+        "imageType": 274,
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0112/16782592/100B-0112-01001500-ConfLightBLE-Lamps-EFR32MG13.zigbee"
     },
     {
-        "fileVersion":16780804,
-        "fileSize":324910,
-        "manufacturerCode":4107,
-        "imageType":276,
-        "url":"http://fds.dc1.philips.com/firmware/ZGB_100B_0114/16780804/100B-0114-01000E04-ConfLightBLE-Lamps-EFR32MG21.zigbee"
+        "fileVersion": 16780804,
+        "fileSize": 324910,
+        "manufacturerCode": 4107,
+        "imageType": 276,
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0114/16780804/100B-0114-01000E04-ConfLightBLE-Lamps-EFR32MG21.zigbee"
     },
     {
-        "fileVersion":16779264,
-        "fileSize":373886,
-        "manufacturerCode":4107,
-        "imageType":277,
-        "url":"http://fds.dc1.philips.com/firmware/ZGB_100B_0115/16779264/100B-0115-01000800-SmartPlug-EFR32MG13.zigbee"
+        "fileVersion": 16779264,
+        "fileSize": 373886,
+        "manufacturerCode": 4107,
+        "imageType": 277,
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0115/16779264/100B-0115-01000800-SmartPlug-EFR32MG13.zigbee"
     },
     {
-        "fileVersion":33562112,
-        "fileSize":244474,
-        "manufacturerCode":4107,
-        "imageType":278,
-        "url":"http://fds.dc1.philips.com/firmware/ZGB_100B_0116/33562112/100B-0116-02001E00-Switch-EFR32MG13.zigbee"
+        "fileVersion": 33562112,
+        "fileSize": 244474,
+        "manufacturerCode": 4107,
+        "imageType": 278,
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0116/33562112/100B-0116-02001E00-Switch-EFR32MG13.zigbee"
     },
     {
-        "fileVersion":3040,
-        "fileSize":224990,
-        "manufacturerCode":4420,
-        "imageType":0,
-        "url":"http://fds.dc1.philips.com/firmware/ZGB_1144_0000/3040/Superman_v3_04_Release_3040.ota"
+        "fileVersion": 3040,
+        "fileSize": 224990,
+        "manufacturerCode": 4420,
+        "imageType": 0,
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_1144_0000/3040/Superman_v3_04_Release_3040.ota"
     }
 ]
