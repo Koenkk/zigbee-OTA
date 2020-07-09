@@ -175,11 +175,11 @@
         "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0116/33562112/100B-0116-02001E00-Switch-EFR32MG13.zigbee"
     },
     {
-        "fileVersion": 3040,
-        "fileSize": 224990,
+        "fileVersion": 3080,
+        "fileSize": 232594,
         "manufacturerCode": 4420,
         "imageType": 0,
-        "url": "http://fds.dc1.philips.com/firmware/ZGB_1144_0000/3040/Superman_v3_04_Release_3040.ota"
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_1144_0000/3080/Superman_v3_08_ProdKey_3080.ota",
     },
     {
         "fileVersion": 537919648,
