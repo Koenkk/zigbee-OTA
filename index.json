@@ -188,5 +188,13 @@
         "imageType": 0,
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/DresdenElektronik/1135-0000-201000A0-FLS-PP3_RGBW.zigbee",
         "path": "images/DresdenElektronik/1135-0000-201000A0-FLS-PP3_RGBW.zigbee"
+    },
+    {
+        "fileVersion": 36832016,
+        "fileSize": 133287,
+        "manufacturerCode": 4474,
+        "imageType": 53249,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Insta/ZLL_HS_4f_GJ_Release_10.03.32.02.zigbee",
+        "path": "images/Insta/ZLL_HS_4f_GJ_Release_10.03.32.02.zigbee"
     }
 ]
