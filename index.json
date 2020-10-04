@@ -196,5 +196,469 @@
         "imageType": 53249,
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Insta/ZLL_HS_4f_GJ_Release_10.03.32.02.zigbee",
         "path": "images/Insta/ZLL_HS_4f_GJ_Release_10.03.32.02.zigbee"
+    },
+    {
+        "fileVersion": 1057832,
+        "fileSize": 180052,
+        "manufacturerCode": 4489,
+        "imageType": 25,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Osram-Ledvance/A19_RGBW_IMG0019_00102428-encrypted.ota",
+        "path": "images/Osram-Ledvance/A19_RGBW_IMG0019_00102428-encrypted.ota"
+    },
+    {
+        "fileVersion": 1057832,
+        "fileSize": 170800,
+        "manufacturerCode": 4489,
+        "imageType": 13,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Osram-Ledvance/A19_TW_10_year_IMG000D_00102428-encrypted.ota",
+        "path": "images/Osram-Ledvance/A19_TW_10_year_IMG000D_00102428-encrypted.ota"
+    },
+    {
+        "fileVersion": 1057832,
+        "fileSize": 170140,
+        "manufacturerCode": 4489,
+        "imageType": 12,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Osram-Ledvance/A19_W_10_year_IMG000C_00102428-encrypted.ota",
+        "path": "images/Osram-Ledvance/A19_W_10_year_IMG000C_00102428-encrypted.ota"
+    },
+    {
+        "fileVersion": 1061121,
+        "fileSize": 182876,
+        "manufacturerCode": 4489,
+        "imageType": 61,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Osram-Ledvance/A60_DIM_Z3_IM003D_00103101-encrypted_11_20_2018_Tue_122925_01_withoutMF.ota",
+        "path": "images/Osram-Ledvance/A60_DIM_Z3_IM003D_00103101-encrypted_11_20_2018_Tue_122925_01_withoutMF.ota"
+    },
+    {
+        "fileVersion": 1061121,
+        "fileSize": 183628,
+        "manufacturerCode": 4489,
+        "imageType": 60,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Osram-Ledvance/A60_TW_Z3_IM003C_00103101-encrypted_11_20_2018_Tue_103138_93_withoutMF.ota",
+        "path": "images/Osram-Ledvance/A60_TW_Z3_IM003C_00103101-encrypted_11_20_2018_Tue_103138_93_withoutMF.ota"
+    },
+    {
+        "fileVersion": 1061121,
+        "fileSize": 182876,
+        "manufacturerCode": 4489,
+        "imageType": 52,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Osram-Ledvance/B40_DIM_Z3_IM0034_00103101-encrypted_11_26_2018_Mon_174522_20_withoutMF.ota",
+        "path": "images/Osram-Ledvance/B40_DIM_Z3_IM0034_00103101-encrypted_11_26_2018_Mon_174522_20_withoutMF.ota"
+    },
+    {
+        "fileVersion": 1061121,
+        "fileSize": 183624,
+        "manufacturerCode": 4489,
+        "imageType": 51,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Osram-Ledvance/B40_TW_Z3_IM0033_00103101-encrypted_11_23_2018_Fri_160706_13_withoutMF.ota",
+        "path": "images/Osram-Ledvance/B40_TW_Z3_IM0033_00103101-encrypted_11_23_2018_Fri_160706_13_withoutMF.ota"
+    },
+    {
+        "fileVersion": 1057832,
+        "fileSize": 179100,
+        "manufacturerCode": 4489,
+        "imageType": 27,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Osram-Ledvance/BR30_RGBW_IMG001B_00102428-encrypted.ota",
+        "path": "images/Osram-Ledvance/BR30_RGBW_IMG001B_00102428-encrypted.ota"
+    },
+    {
+        "fileVersion": 1057832,
+        "fileSize": 170776,
+        "manufacturerCode": 4489,
+        "imageType": 26,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Osram-Ledvance/BR30_TW_IMG001A_00102428-encrypted.ota",
+        "path": "images/Osram-Ledvance/BR30_TW_IMG001A_00102428-encrypted.ota"
+    },
+    {
+        "fileVersion": 1057832,
+        "fileSize": 170120,
+        "manufacturerCode": 4489,
+        "imageType": 15,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Osram-Ledvance/BR30_W_10_year_IMG000F_00102428-encrypted.ota",
+        "path": "images/Osram-Ledvance/BR30_W_10_year_IMG000F_00102428-encrypted.ota"
+    },
+    {
+        "fileVersion": 16909584,
+        "fileSize": 132672,
+        "manufacturerCode": 4364,
+        "imageType": 107,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Osram/ZLL_MK_0x01020510_CEILING_TW_OSRAM.ota",
+        "path": "images/Osram/ZLL_MK_0x01020510_CEILING_TW_OSRAM.ota"
+    },
+    {
+        "fileVersion": 16909584,
+        "fileSize": 142972,
+        "manufacturerCode": 4364,
+        "imageType": 98,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Osram/ZLL_MK_0x01020510_CLA60_RGBW_OSRAM.ota",
+        "path": "images/Osram/ZLL_MK_0x01020510_CLA60_RGBW_OSRAM.ota"
+    },
+    {
+        "fileVersion": 1061121,
+        "fileSize": 191128,
+        "manufacturerCode": 4489,
+        "imageType": 17,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Ledvance/CLA60_RGBW_Z3_IM0011_00103101-encrypted_11_27_2018_Tue_133608_15_withoutMF.ota",
+        "path": "images/Ledvance/CLA60_RGBW_Z3_IM0011_00103101-encrypted_11_27_2018_Tue_133608_15_withoutMF.ota"
+    },
+    {
+        "fileVersion": 16909577,
+        "fileSize": 133444,
+        "manufacturerCode": 4364,
+        "imageType": 8,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Osram/ZLL_MK_0x01020509_CLA60_TW.ota",
+        "path": "images/Osram/ZLL_MK_0x01020509_CLA60_TW.ota"
+    },
+    {
+        "fileVersion": 16909584,
+        "fileSize": 132672,
+        "manufacturerCode": 4364,
+        "imageType": 99,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Osram/ZLL_MK_0x01020510_CLA60_TW_OSRAM.ota",
+        "path": "images/Osram/ZLL_MK_0x01020510_CLA60_TW_OSRAM.ota"
+    },
+    {
+        "fileVersion": 16909584,
+        "fileSize": 123884,
+        "manufacturerCode": 4364,
+        "imageType": 19,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Osram/ZLL_MK_0x01020510_CLA60_W_CLEAR.ota",
+        "path": "images/Osram/ZLL_MK_0x01020510_CLA60_W_CLEAR.ota"
+    },
+    {
+        "fileVersion": 16909584,
+        "fileSize": 144008,
+        "manufacturerCode": 4364,
+        "imageType": 6,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Osram/ZLL_MK_0x01020510_CLASSIC_A60_RGBW.ota",
+        "path": "images/Osram/ZLL_MK_0x01020510_CLASSIC_A60_RGBW.ota"
+    },
+    {
+        "fileVersion": 16909584,
+        "fileSize": 132928,
+        "manufacturerCode": 4364,
+        "imageType": 20,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Osram/ZLL_MK_0x01020510_CLASSIC_B40_TW.ota",
+        "path": "images/Osram/ZLL_MK_0x01020510_CLASSIC_B40_TW.ota"
+    },
+    {
+        "fileVersion": 1057832,
+        "fileSize": 170776,
+        "manufacturerCode": 4489,
+        "imageType": 33,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Ledvance/Conv_Under_Cabinet_TW_IMG0021_00102428-encrypted.ota",
+        "path": "images/Ledvance/Conv_Under_Cabinet_TW_IMG0021_00102428-encrypted.ota"
+    },
+    {
+        "fileVersion": 1061377,
+        "fileSize": 179976,
+        "manufacturerCode": 4489,
+        "imageType": 101,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Ledvance/Downlight_TW_HCL_IM0065_00103201-encrypted_09_20_2019_Fri_142050_70_withoutMF.ota",
+        "path": "images/Ledvance/Downlight_TW_HCL_IM0065_00103201-encrypted_09_20_2019_Fri_142050_70_withoutMF.ota"
+    },
+    {
+        "fileVersion": 1061121,
+        "fileSize": 182876,
+        "manufacturerCode": 4489,
+        "imageType": 49,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Ledvance/PAR16_DIM_Z3_IM0031_00103101-encrypted_11_26_2018_Mon_175052_32_withoutMF.ota",
+        "path": "images/Ledvance/PAR16_DIM_Z3_IM0031_00103101-encrypted_11_26_2018_Mon_175052_32_withoutMF.ota"
+    },
+    {
+        "fileVersion": 1057809,
+        "fileSize": 170492,
+        "manufacturerCode": 4489,
+        "imageType": 35,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Ledvance/Edge_Lit_Under_Cabinet_IMG0023_00102411-encrypted.ota",
+        "path": "images/Ledvance/Edge_Lit_Under_Cabinet_IMG0023_00102411-encrypted.ota"
+    },
+    {
+        "fileVersion": 1057832,
+        "fileSize": 179960,
+        "manufacturerCode": 4489,
+        "imageType": 31,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Ledvance/FLEX_Outdoor_RGBW_IMG001F_00102428-encrypted.ota",
+        "path": "images/Ledvance/FLEX_Outdoor_RGBW_IMG001F_00102428-encrypted.ota"
+    },
+    {
+        "fileVersion": 1057832,
+        "fileSize": 178908,
+        "manufacturerCode": 4489,
+        "imageType": 30,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Ledvance/FLEX_RGBW_IMG001E_00102428-encrypted.ota",
+        "path": "images/Ledvance/FLEX_RGBW_IMG001E_00102428-encrypted.ota"
+    },
+    {
+        "fileVersion": 1061121,
+        "fileSize": 191068,
+        "manufacturerCode": 4489,
+        "imageType": 42,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Ledvance/Flex_RGBW_Z3_IM002A_00103101-encrypted_11_27_2018_Tue_134318_76_withoutMF.ota",
+        "path": "images/Ledvance/Flex_RGBW_Z3_IM002A_00103101-encrypted_11_27_2018_Tue_134318_76_withoutMF.ota"
+    },
+    {
+        "fileVersion": 16909584,
+        "fileSize": 142972,
+        "manufacturerCode": 4364,
+        "imageType": 108,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Osram/ZLL_MK_0x01020510_FLOOD_LIGHT_RGBW_OSRAM.ota",
+        "path": "images/Osram/ZLL_MK_0x01020510_FLOOD_LIGHT_RGBW_OSRAM.ota"
+    },
+    {
+        "fileVersion": 1057832,
+        "fileSize": 170776,
+        "manufacturerCode": 4489,
+        "imageType": 34,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Ledvance/Flushmount_TW_IMG0022_00102428-encrypted.ota",
+        "path": "images/Ledvance/Flushmount_TW_IMG0022_00102428-encrypted.ota"
+    },
+    {
+        "fileVersion": 16909584,
+        "fileSize": 142968,
+        "manufacturerCode": 4364,
+        "imageType": 103,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Osram/ZLL_MK_0x01020510_GARDENPOLE_MINI_RGBW_OSRAM.ota",
+        "path": "images/Osram/ZLL_MK_0x01020510_GARDENPOLE_MINI_RGBW_OSRAM.ota"
+    },
+    {
+        "fileVersion": 16909584,
+        "fileSize": 142968,
+        "manufacturerCode": 4364,
+        "imageType": 90,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Osram/ZLL_MK_0x01020510_GARDENPOLE_RGBW_LIGHTIFY.ota",
+        "path": "images/Osram/ZLL_MK_0x01020510_GARDENPOLE_RGBW_LIGHTIFY.ota"
+    },
+    {
+        "fileVersion": 1061123,
+        "fileSize": 191068,
+        "manufacturerCode": 4489,
+        "imageType": 59,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Ledvance/Gardenpole_RGBW_Z3_IM003B_00103103-encrypted_02_27_2019_Wed_150725_31_withoutMF.ota",
+        "path": "images/Ledvance/Gardenpole_RGBW_Z3_IM003B_00103103-encrypted_02_27_2019_Wed_150725_31_withoutMF.ota"
+    },
+    {
+        "fileVersion": 1061123,
+        "fileSize": 191068,
+        "manufacturerCode": 4489,
+        "imageType": 64,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Ledvance/Gardenpole_Mini_RGBW_Z3_IM0040_00103103-encrypted_02_27_2019_Wed_151557_92_withoutMF.ota",
+        "path": "images/Ledvance/Gardenpole_Mini_RGBW_Z3_IM0040_00103103-encrypted_02_27_2019_Wed_151557_92_withoutMF.ota"
+    },
+    {
+        "fileVersion": 16909584,
+        "fileSize": 140550,
+        "manufacturerCode": 4364,
+        "imageType": 5,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Osram/ZLL_MK_0x01020510_GARDENSPOT_RGB.ota",
+        "path": "images/Osram/ZLL_MK_0x01020510_GARDENSPOT_RGB.ota"
+    },
+    {
+        "fileVersion": 16909584,
+        "fileSize": 123884,
+        "manufacturerCode": 4364,
+        "imageType": 7,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Osram/ZLL_MK_0x01020510_GARDENSPOT_W.ota",
+        "path": "images/Osram/ZLL_MK_0x01020510_GARDENSPOT_W.ota"
+    },
+    {
+        "fileVersion": 16909584,
+        "fileSize": 142972,
+        "manufacturerCode": 4364,
+        "imageType": 92,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Osram/ZLL_MK_0x01020510_LIGHTIFY_INDOOR_FLEX.ota",
+        "path": "images/Osram/ZLL_MK_0x01020510_LIGHTIFY_INDOOR_FLEX.ota"
+    },
+    {
+        "fileVersion": 16909584,
+        "fileSize": 143228,
+        "manufacturerCode": 4364,
+        "imageType": 91,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Osram/ZLL_MK_0x01020510_LIGHTIFY_OUTDOOR_FLEX.ota",
+        "path": "images/Osram/ZLL_MK_0x01020510_LIGHTIFY_OUTDOOR_FLEX.ota"
+    },
+    {
+        "fileVersion": 16909584,
+        "fileSize": 132676,
+        "manufacturerCode": 4364,
+        "imageType": 101,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Osram/ZLL_MK_0x01020510_MR16_TW_OSRAM.ota",
+        "path": "images/Osram/ZLL_MK_0x01020510_MR16_TW_OSRAM.ota"
+    },
+    {
+        "fileVersion": 1057832,
+        "fileSize": 178524,
+        "manufacturerCode": 4489,
+        "imageType": 32,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Ledvance/Outdoor_Accent_Light_RGB_IMG0020_00102428-encrypted.ota",
+        "path": "images/Ledvance/Outdoor_Accent_Light_RGB_IMG0020_00102428-encrypted.ota"
+    },
+    {
+        "fileVersion": 1061121,
+        "fileSize": 191048,
+        "manufacturerCode": 4489,
+        "imageType": 92,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Ledvance/Outdoor_FLEX_RGBW_Z3_IM005C_00103101-encrypted_11_27_2018_Tue_135739_87_withoutMF.ota",
+        "path": "images/Ledvance/Outdoor_FLEX_RGBW_Z3_IM005C_00103101-encrypted_11_27_2018_Tue_135739_87_withoutMF.ota"
+    },
+    {
+        "fileVersion": 16909584,
+        "fileSize": 142968,
+        "manufacturerCode": 4364,
+        "imageType": 105,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Osram/ZLL_MK_0x01020510_OUTDOOR_LANTERN_B50_RGBW_OSRAM.ota",
+        "path": "images/Osram/ZLL_MK_0x01020510_OUTDOOR_LANTERN_B50_RGBW_OSRAM.ota"
+    },
+    {
+        "fileVersion": 16909584,
+        "fileSize": 142968,
+        "manufacturerCode": 4364,
+        "imageType": 110,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Osram/ZLL_MK_0x01020510_OUTDOOR_LANTERN_B90_RGBW_OSRAM.ota",
+        "path": "images/Osram/ZLL_MK_0x01020510_OUTDOOR_LANTERN_B90_RGBW_OSRAM.ota"
+    },
+    {
+        "fileVersion": 16909584,
+        "fileSize": 142968,
+        "manufacturerCode": 4364,
+        "imageType": 104,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Osram/ZLL_MK_0x01020510_OUTDOOR_LANTERN_W_RGBW_OSRAM.ota",
+        "path": "images/Osram/ZLL_MK_0x01020510_OUTDOOR_LANTERN_W_RGBW_OSRAM.ota"
+    },
+    {
+        "fileVersion": 16909584,
+        "fileSize": 142968,
+        "manufacturerCode": 4364,
+        "imageType": 106,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Osram/ZLL_MK_0x01020510_PANEL_RGBW_OSRAM.ota",
+        "path": "images/Osram/ZLL_MK_0x01020510_PANEL_RGBW_OSRAM.ota"
+    },
+    {
+        "fileVersion": 1061377,
+        "fileSize": 179964,
+        "manufacturerCode": 4489,
+        "imageType": 99,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Ledvance/Panel_TW_HCL_IM0063_00103201-encrypted_09_18_2019_Wed_113705_07_withoutMF.ota",
+        "path": "images/Ledvance/Panel_TW_HCL_IM0063_00103201-encrypted_09_18_2019_Wed_113705_07_withoutMF.ota"
+    },
+    {
+        "fileVersion": 1061121,
+        "fileSize": 183628,
+        "manufacturerCode": 4489,
+        "imageType": 90,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Ledvance/Panel_TW_Z3_IM005A_00103101-encrypted_11_23_2018_Fri_161331_81_withoutMF.ota",
+        "path": "images/Ledvance/Panel_TW_Z3_IM005A_00103101-encrypted_11_23_2018_Fri_161331_81_withoutMF.ota"
+    },
+    {
+        "fileVersion": 16909584,
+        "fileSize": 132672,
+        "manufacturerCode": 4364,
+        "imageType": 3,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Osram/ZLL_MK_0x01020510_PAR16_50_TW.ota",
+        "path": "images/Osram/ZLL_MK_0x01020510_PAR16_50_TW.ota"
+    },
+    {
+        "fileVersion": 16909584,
+        "fileSize": 142086,
+        "manufacturerCode": 4364,
+        "imageType": 17,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Osram/ZLL_MK_0x01020510_Par16Rgbw.ota",
+        "path": "images/Osram/ZLL_MK_0x01020510_Par16Rgbw.ota"
+    },
+    {
+        "fileVersion": 1061121,
+        "fileSize": 191080,
+        "manufacturerCode": 4489,
+        "imageType": 48,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Ledvance/PAR16_RGBW_Z3_IM0030_00103101-encrypted_11_27_2018_Tue_140612_79_withoutMF.ota",
+        "path": "images/Ledvance/PAR16_RGBW_Z3_IM0030_00103101-encrypted_11_27_2018_Tue_140612_79_withoutMF.ota"
+    },
+    {
+        "fileVersion": 1061121,
+        "fileSize": 183624,
+        "manufacturerCode": 4489,
+        "imageType": 46,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Ledvance/PAR16_TW_Z3_IM002E_00103101-encrypted_11_23_2018_Fri_162418_58_withoutMF.ota",
+        "path": "images/Ledvance/PAR16_TW_Z3_IM002E_00103101-encrypted_11_23_2018_Fri_162418_58_withoutMF.ota"
+    },
+    {
+        "fileVersion": 1057832,
+        "fileSize": 170120,
+        "manufacturerCode": 4489,
+        "imageType": 16,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Ledvance/PAR38_W_10_year_IMG0010_00102428-encrypted.ota",
+        "path": "images/Ledvance/PAR38_W_10_year_IMG0010_00102428-encrypted.ota"
+    },
+    {
+        "fileVersion": 1061121,
+        "fileSize": 178996,
+        "manufacturerCode": 4489,
+        "imageType": 45,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Ledvance/Plug_Z3_IM002D_00103101-encrypted_12_07_2018_Fri_103650_94_withoutMF.ota",
+        "path": "images/Ledvance/Plug_Z3_IM002D_00103101-encrypted_12_07_2018_Fri_103650_94_withoutMF.ota"
+    },
+    {
+        "fileVersion": 16909577,
+        "fileSize": 121680,
+        "manufacturerCode": 4364,
+        "imageType": 39,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Osram/ZLL_Plug01_OnOff_MK_0x01020509.ota",
+        "path": "images/Osram/ZLL_Plug01_OnOff_MK_0x01020509.ota"
+    },
+    {
+        "fileVersion": 1057832,
+        "fileSize": 179088,
+        "manufacturerCode": 4489,
+        "imageType": 29,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Ledvance/RT_RGBW_IMG001D_00102428-encrypted.ota",
+        "path": "images/Ledvance/RT_RGBW_IMG001D_00102428-encrypted.ota"
+    },
+    {
+        "fileVersion": 1057832,
+        "fileSize": 170776,
+        "manufacturerCode": 4489,
+        "imageType": 28,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Ledvance/RT_TW_IMG001C_00102428-encrypted.ota",
+        "path": "images/Ledvance/RT_TW_IMG001C_00102428-encrypted.ota"
+    },
+    {
+        "fileVersion": 16909577,
+        "fileSize": 123440,
+        "manufacturerCode": 4364,
+        "imageType": 46,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Osram/ZLL_SubstiTube_W_MK_0x01020509.ota",
+        "path": "images/Osram/ZLL_SubstiTube_W_MK_0x01020509.ota"
+    },
+    {
+        "fileVersion": 16909584,
+        "fileSize": 131904,
+        "manufacturerCode": 4364,
+        "imageType": 4,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Osram/ZLL_MK_0x01020510_Surface_Light_TW.ota",
+        "path": "images/Osram/ZLL_MK_0x01020510_Surface_Light_TW.ota"
+    },
+    {
+        "fileVersion": 16909584,
+        "fileSize": 123884,
+        "manufacturerCode": 4364,
+        "imageType": 9,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Osram/ZLL_MK_0x01020510_Surface_Light_W.ota",
+        "path": "images/Osram/ZLL_MK_0x01020510_Surface_Light_W.ota"
+    },
+    {
+        "fileVersion": 1061121,
+        "fileSize": 183628,
+        "manufacturerCode": 4489,
+        "imageType": 44,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Ledvance/Tibea_TW_Z3_IM002C_00103101-encrypted_11_23_2018_Fri_163423_97_withoutMF.ota",
+        "path": "images/Ledvance/Tibea_TW_Z3_IM002C_00103101-encrypted_11_23_2018_Fri_163423_97_withoutMF.ota"
+    },
+    {
+        "fileVersion": 1061121,
+        "fileSize": 183636,
+        "manufacturerCode": 4489,
+        "imageType": 70,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Ledvance/Undercabinet_TW_Z3_IM0046_00103101-encrypted_11_20_2018_Tue_101550_96_withoutMF.ota",
+        "path": "images/Ledvance/Undercabinet_TW_Z3_IM0046_00103101-encrypted_11_20_2018_Tue_101550_96_withoutMF.ota"
     }
 ]
