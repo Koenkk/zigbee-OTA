@@ -10,7 +10,6 @@ const manufacturerNameLookup = {
     4448: 'Sengled',
     4420: 'Lutron',
     4405: 'DresdenElektronik',
-    4476: 'Ikea',
     4489: 'Ledvance',
     4364: 'Osram'
 };
