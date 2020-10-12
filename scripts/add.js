@@ -11,7 +11,8 @@ const manufacturerNameLookup = {
     4420: 'Lutron',
     4405: 'DresdenElektronik',
     4489: 'Ledvance',
-    4364: 'Osram'
+    4364: 'Osram',
+    4098: 'Tuya'
 };
 
 const main = async () => {
