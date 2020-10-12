@@ -660,5 +660,13 @@
         "imageType": 70,
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Ledvance/Undercabinet_TW_Z3_IM0046_00103101-encrypted_11_20_2018_Tue_101550_96_withoutMF.ota",
         "path": "images/Ledvance/Undercabinet_TW_Z3_IM0046_00103101-encrypted_11_20_2018_Tue_101550_96_withoutMF.ota"
+    },
+    {
+        "fileVersion": 85,
+        "fileSize": 233894,
+        "manufacturerCode": 4098,
+        "imageType": 5634,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Tuya/1600167449-si32_zg_uart_connect_sleep_ZS5_ty_OTA_1.1.5.bin",
+        "path": "images/Tuya/1600167449-si32_zg_uart_connect_sleep_ZS5_ty_OTA_1.1.5.bin"
     }
 ]
