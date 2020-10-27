@@ -8,20 +8,20 @@
         "path": "images/Insta/ZLL_WS_4f_J_Release_10.03.32.02.zigbee"
     },
     {
-        "fileVersion": 49,
-        "fileSize": 134334,
+        "fileVersion": 71,
+        "fileSize": 142014,
         "manufacturerCode": 4448,
         "imageType": 1004,
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sengled/1542704530003_RDS2017007_E11-N1EA_V0.0.49_20181026_release.ota",
-        "path": "images/Sengled/1542704530003_RDS2017007_E11-N1EA_V0.0.49_20181026_release.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sengled/1586412538195_RDS2017007_E11-N1EA_V0.0.71_20200311_release.ota",
+        "path": "images/Sengled/1586412538195_RDS2017007_E11-N1EA_V0.0.71_20200311_release.ota"
     },
     {
-        "fileVersion": 10,
-        "fileSize": 136574,
+        "fileVersion": 14,
+        "fileSize": 142654,
         "manufacturerCode": 4448,
         "imageType": 5,
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sengled/1554860326863_RDS2018021_E1G-G8E_V10_20190405_release.ota",
-        "path": "images/Sengled/1554860326863_RDS2018021_E1G-G8E_V10_20190405_release.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sengled/1594881275531_RDSE2020003C0511_E1G-G8E_05m_10m_V0.0.14_20200711_release.ota",
+        "path": "images/Sengled/1594881275531_RDSE2020003C0511_E1G-G8E_05m_10m_V0.0.14_20200711_release.ota"
     },
     {
         "fileVersion": 42,
