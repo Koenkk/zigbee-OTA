@@ -668,5 +668,13 @@
         "imageType": 5634,
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Tuya/1600167449-si32_zg_uart_connect_sleep_ZS5_ty_OTA_1.1.5.bin",
         "path": "images/Tuya/1600167449-si32_zg_uart_connect_sleep_ZS5_ty_OTA_1.1.5.bin"
+    },
+    {
+        "fileVersion": 57,
+        "fileSize": 155646,
+        "manufacturerCode": 4098,
+        "imageType": 24256,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Tuya/ZPS_CS5490_039.ota",
+        "path": "images/Tuya/ZPS_CS5490_039.ota"
     }
 ]
