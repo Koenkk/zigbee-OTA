@@ -140,25 +140,25 @@
         "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0110/16782848/100B-0110-01001600-ConfLight-Lamps-EFR32MG13.zigbee"
     },
     {
-        "fileVersion": 16782848,
-        "fileSize": 441566,
+        "fileVersion": 16782852,
+        "fileSize": 453396,
         "manufacturerCode": 4107,
         "imageType": 273,
-        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0111/16782848/100B-0111-01001600-ConfLight-ModuLum-EFR32MG13.zigbee"
+        "url": "https://storage.googleapis.com/firmware-hue/100b-111/16782852/ad7789b8-8770-44af-b8c0-cd001f5e0eee/100B-0111-01001604-ConfLight-ModuLum-EFR32MG13.zigbee"
     },
     {
-        "fileVersion": 16782592,
-        "fileSize": 417852,
+        "fileVersion": 16782596,
+        "fileSize": 420884,
         "manufacturerCode": 4107,
         "imageType": 274,
-        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0112/16782592/100B-0112-01001500-ConfLightBLE-Lamps-EFR32MG13.zigbee"
+        "url": "https://storage.googleapis.com/firmware-hue/100b-112/16782596/6eeaf8f7-e2cc-4881-b58d-c985c409df16/100B-0112-01001504-ConfLightBLE-Lamps-EFR32MG13.zigbee"
     },
     {
-        "fileVersion": 16780804,
-        "fileSize": 324910,
+        "fileVersion": 16780812,
+        "fileSize": 330114,
         "manufacturerCode": 4107,
         "imageType": 276,
-        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0114/16780804/100B-0114-01000E04-ConfLightBLE-Lamps-EFR32MG21.zigbee"
+        "url": "https://storage.googleapis.com/firmware-hue/100b-114/16780812/be63f1c3-b395-44b1-8879-84c9d252f0fd/100B-0114-01000E0C-ConfLightBLE-Lamps-EFR32MG21.zigbee"
     },
     {
         "fileVersion": 16779264,
@@ -676,5 +676,12 @@
         "imageType": 24256,
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Tuya/ZPS_CS5490_039.ota",
         "path": "images/Tuya/ZPS_CS5490_039.ota"
+    },
+    {
+        "fileVersion": 16780544,
+        "fileSize": 358674,
+        "manufacturerCode": 4107,
+        "imageType": 279,
+        "url": "https://storage.googleapis.com/firmware-hue/100b-117/16780544/192a44f1-e3bf-46b9-aec8-499e273e1b8e/100B-0117-01000D00-ConfLightBLE-ModuLum-EFR32MG21.zigbee"
     }
 ]
