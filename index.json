@@ -683,5 +683,13 @@
         "manufacturerCode": 4107,
         "imageType": 279,
         "url": "https://storage.googleapis.com/firmware-hue/100b-117/16780544/192a44f1-e3bf-46b9-aec8-499e273e1b8e/100B-0117-01000D00-ConfLightBLE-ModuLum-EFR32MG21.zigbee"
+    },
+    {
+        "fileVersion": 26,
+        "fileSize": 131522,
+        "manufacturerCode": 4648,
+        "imageType": 0,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Terncy/TERNCY-SD01_v46.OTA",
+        "path": "images/Terncy/TERNCY-SD01_v46.OTA"
     }
 ]
