@@ -691,5 +691,13 @@
         "imageType": 0,
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Terncy/TERNCY-SD01_v46.OTA",
         "path": "images/Terncy/TERNCY-SD01_v46.OTA"
+    },
+    {
+        "fileVersion": 19055488,
+        "fileSize": 185294,
+        "manufacturerCode": 4151,
+        "imageType": 4364,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Eurotronic/20190408_EUROTRONIC_Spirit_Zigbee_0x00122C380.ota",
+        "path": "images/Eurotronic/20190408_EUROTRONIC_Spirit_Zigbee_0x00122C380.ota"
     }
 ]
