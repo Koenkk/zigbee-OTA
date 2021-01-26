@@ -699,5 +699,13 @@
         "imageType": 4364,
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Eurotronic/20190408_EUROTRONIC_Spirit_Zigbee_0x00122C380.ota",
         "path": "images/Eurotronic/20190408_EUROTRONIC_Spirit_Zigbee_0x00122C380.ota"
+    },
+    {
+        "fileVersion": 264,
+        "fileSize": 501899,
+        "manufacturerCode": 4678,
+        "imageType": 256,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Danfoss/1246-0100-01080108.0002_(DF4ECCE1).ota",
+        "path": "images/Danfoss/1246-0100-01080108.0002_(DF4ECCE1).ota"
     }
 ]
