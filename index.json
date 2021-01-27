@@ -726,5 +726,12 @@
         "modelId": "GL-C-008P",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/GLEDOPTO/GL-C-008P_V14_OTAV4_20210114_100%25.ota",
         "path": "images/GLEDOPTO/GL-C-008P_V14_OTAV4_20210114_100%.OTA"
+    },
+        "fileVersion": 264,
+        "fileSize": 501899,
+        "manufacturerCode": 4678,
+        "imageType": 256,
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Danfoss/1246-0100-01080108.0002_(DF4ECCE1).ota",
+        "path": "images/Danfoss/1246-0100-01080108.0002_(DF4ECCE1).ota"
     }
 ]
