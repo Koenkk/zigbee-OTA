@@ -140,32 +140,32 @@
         "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0110/16782848/100B-0110-01001600-ConfLight-Lamps-EFR32MG13.zigbee"
     },
     {
-        "fileVersion": 16782852,
-        "fileSize": 453396,
+        "fileVersion": 16783360,
+        "fileSize": 473444,
         "manufacturerCode": 4107,
         "imageType": 273,
-        "url": "https://storage.googleapis.com/firmware-hue/100b-111/16782852/ad7789b8-8770-44af-b8c0-cd001f5e0eee/100B-0111-01001604-ConfLight-ModuLum-EFR32MG13.zigbee"
+        "url": "https://firmware.meethue.com/storage/100b-111/16783360/cc7177c7-27b8-4fed-a6d1-00cb6ca0aced/100B-0111-01001800-ConfLight-ModuLum-EFR32MG13.zigbee"
     },
     {
-        "fileVersion": 16782596,
-        "fileSize": 420884,
+        "fileVersion": 16784128,
+        "fileSize": 438768,
         "manufacturerCode": 4107,
         "imageType": 274,
-        "url": "https://storage.googleapis.com/firmware-hue/100b-112/16782596/6eeaf8f7-e2cc-4881-b58d-c985c409df16/100B-0112-01001504-ConfLightBLE-Lamps-EFR32MG13.zigbee"
+        "url": "https://firmware.meethue.com/storage/100b-112/16784128/216623bc-a446-4d07-940e-f4be31c3ae45/100B-0112-01001B00-ConfLightBLE-Lamps-EFR32MG13.zigbee"
     },
     {
-        "fileVersion": 16780812,
-        "fileSize": 330114,
+        "fileVersion": 16782344,
+        "fileSize": 407060,
         "manufacturerCode": 4107,
         "imageType": 276,
-        "url": "https://storage.googleapis.com/firmware-hue/100b-114/16780812/be63f1c3-b395-44b1-8879-84c9d252f0fd/100B-0114-01000E0C-ConfLightBLE-Lamps-EFR32MG21.zigbee"
+        "url": "https://firmware.meethue.com/storage/100b-114/16782344/94b9903a-8b42-4e40-905b-7863d9eca38e/100B-0114-01001408-ConfLightBLE-Lamps-EFR32MG21.zigbee"
     },
     {
-        "fileVersion": 16779264,
-        "fileSize": 373886,
+        "fileVersion": 16780032,
+        "fileSize": 391086,
         "manufacturerCode": 4107,
         "imageType": 277,
-        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0115/16779264/100B-0115-01000800-SmartPlug-EFR32MG13.zigbee"
+        "url": "https://firmware.meethue.com/storage/100b-115/16780032/97ee324d-7b52-4769-a602-cafcf0dade4c/100B-0115-01000B00-SmartPlug-EFR32MG13.zigbee"
     },
     {
         "fileVersion": 33562112,
@@ -678,11 +678,11 @@
         "path": "images/Tuya/ZPS_CS5490_039.ota"
     },
     {
-        "fileVersion": 16780544,
-        "fileSize": 358674,
+        "fileVersion": 16780546,
+        "fileSize": 358710,
         "manufacturerCode": 4107,
         "imageType": 279,
-        "url": "https://storage.googleapis.com/firmware-hue/100b-117/16780544/192a44f1-e3bf-46b9-aec8-499e273e1b8e/100B-0117-01000D00-ConfLightBLE-ModuLum-EFR32MG21.zigbee"
+        "url": "https://firmware.meethue.com/storage/100b-117/16780546/bef36256-929e-4c88-ad39-144f2fab91aa/100B-0117-01000D02-ConfLightBLE-ModuLum-EFR32MG21.zigbee"
     },
     {
         "fileVersion": 26,
@@ -734,5 +734,12 @@
         "imageType": 256,
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Danfoss/1246-0100-01080108.0002_(DF4ECCE1).ota",
         "path": "images/Danfoss/1246-0100-01080108.0002_(DF4ECCE1).ota"
+    },
+    {
+        "fileVersion": 16778754,
+        "fileSize": 330214,
+        "manufacturerCode": 4107,
+        "imageType": 282,
+        "url": "https://firmware.meethue.com/storage/100b-11a/16778754/307362cd-5f4f-40a1-a205-7d871cfcde1a/100B-011A-01000602-SmartPlug-EFR32MG21.zigbee"
     }
 ]
