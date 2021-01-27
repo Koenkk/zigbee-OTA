@@ -133,25 +133,25 @@
         "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_010F/16779778/100B-010F-01000A02-ConfLight-LedStrips_0012.zigbee"
     },
     {
-        "fileVersion": 16782848,
-        "fileSize": 307543,
+        "fileVersion": 16783872,
+        "fileSize": 296248,
         "manufacturerCode": 4107,
         "imageType": 272,
-        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0110/16782848/100B-0110-01001600-ConfLight-Lamps-EFR32MG13.zigbee"
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0110/16783872/100B-0110-01001A00-ConfLight-Lamps-EFR32MG13.zigbee"
     },
     {
         "fileVersion": 16783360,
         "fileSize": 473444,
         "manufacturerCode": 4107,
         "imageType": 273,
-        "url": "https://firmware.meethue.com/storage/100b-111/16783360/cc7177c7-27b8-4fed-a6d1-00cb6ca0aced/100B-0111-01001800-ConfLight-ModuLum-EFR32MG13.zigbee"
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0111/16783360/100B-0111-01001800-ConfLight-ModuLum-EFR32MG13.zigbee"
     },
     {
         "fileVersion": 16784128,
         "fileSize": 438768,
         "manufacturerCode": 4107,
         "imageType": 274,
-        "url": "https://firmware.meethue.com/storage/100b-112/16784128/216623bc-a446-4d07-940e-f4be31c3ae45/100B-0112-01001B00-ConfLightBLE-Lamps-EFR32MG13.zigbee"
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0112/16784128/100B-0112-01001B00-ConfLightBLE-Lamps-EFR32MG13.zigbee"
     },
     {
         "fileVersion": 16782344,
@@ -165,7 +165,7 @@
         "fileSize": 391086,
         "manufacturerCode": 4107,
         "imageType": 277,
-        "url": "https://firmware.meethue.com/storage/100b-115/16780032/97ee324d-7b52-4769-a602-cafcf0dade4c/100B-0115-01000B00-SmartPlug-EFR32MG13.zigbee"
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0115/16780032/100B-0115-01000B00-SmartPlug-EFR32MG13.zigbee"
     },
     {
         "fileVersion": 33562112,
