@@ -13,7 +13,8 @@ const manufacturerNameLookup = {
     4489: 'Ledvance',
     4364: 'Osram',
     4648: 'Terncy',
-    4098: 'Tuya'
+    4098: 'Tuya',
+    4151: 'Eurotronic'
 };
 
 const main = async () => {
