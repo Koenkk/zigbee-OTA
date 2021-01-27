@@ -691,5 +691,32 @@
         "imageType": 0,
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Terncy/TERNCY-SD01_v46.OTA",
         "path": "images/Terncy/TERNCY-SD01_v46.OTA"
+    },
+    {
+        "fileVersion": 4,
+        "fileSize": 291546,
+        "manufacturerCode": 4687,
+        "imageType": 0,
+        "modelId": "GL-FL-005P",
+        "url": "https://github.com/washcroft/zigbee-OTA/raw/master/images/GLEDOPTO/GL-FL-005P_V14_OTAV4_20210119_100%25.ota",
+        "path": "images/GLEDOPTO/GL-FL-005P_V14_OTAV4_20210119_100%.OTA"
+    },
+    {
+        "fileVersion": 4,
+        "fileSize": 291546,
+        "manufacturerCode": 4687,
+        "imageType": 0,
+        "modelId": "GL-FL-006P",
+        "url": "https://github.com/washcroft/zigbee-OTA/raw/master/images/GLEDOPTO/GL-FL-006P_V14_OTAV4_20210119_100%25.ota",
+        "path": "images/GLEDOPTO/GL-FL-006P_V14_OTAV4_20210119_100%.OTA"
+    },
+    {
+        "fileVersion": 4,
+        "fileSize": 291546,
+        "manufacturerCode": 4687,
+        "imageType": 0,
+        "modelId": "GL-C-008P",
+        "url": "https://github.com/washcroft/zigbee-OTA/raw/master/images/GLEDOPTO/GL-C-008P_V14_OTAV4_20210114_100%25.ota",
+        "path": "images/GLEDOPTO/GL-C-008P_V14_OTAV4_20210114_100%.OTA"
     }
 ]
