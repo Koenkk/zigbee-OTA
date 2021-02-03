@@ -741,5 +741,14 @@
         "manufacturerCode": 4107,
         "imageType": 282,
         "url": "https://firmware.meethue.com/storage/100b-11a/16778754/307362cd-5f4f-40a1-a205-7d871cfcde1a/100B-011A-01000602-SmartPlug-EFR32MG21.zigbee"
+    },
+    {
+        "fileVersion": 5,
+        "fileSize": 291622,
+        "manufacturerCode": 4687,
+        "imageType": 0,
+        "modelId": "GL-S-007P",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/GLEDOPTO/GL-S-007P_V15_A1_OTAV5_20210201_90%.ota",
+        "path": "images/GLEDOPTO/GL-S-007P_V15_A1_OTAV5_20210201_90%.ota"
     }
 ]

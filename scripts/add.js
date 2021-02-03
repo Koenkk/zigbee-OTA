@@ -2,6 +2,7 @@ const path = require('path');
 const fs = require('fs');
 const ota = require('../lib/ota');
 const filenameOrURL = process.argv[2];
+const modelId = process.argv[3];
 const baseURL = 'https://github.com/Koenkk/zigbee-OTA/raw/master';
 
 const manufacturerNameLookup = {
@@ -15,7 +16,8 @@ const manufacturerNameLookup = {
     4648: 'Terncy',
     4098: 'Tuya',
     4151: 'Eurotronic',
-    4678: 'Danfoss'
+    4678: 'Danfoss',
+    4687: 'GLEDOPTO',
 };
 
 const main = async () => {
@@ -70,6 +72,10 @@ const main = async () => {
         imageType: parsed.header.imageType,
     };
 
+    if (modelId) {
+        entry.modelId = modelId;
+    }
+
     if (isURL) {
         entry.url = filenameOrURL;
     } else {
@@ -79,7 +85,7 @@ const main = async () => {
     }
 
     const index = indexJSON.findIndex((i) => {
-        return i.manufacturerCode === entry.manufacturerCode && i.imageType === entry.imageType
+        return i.manufacturerCode === entry.manufacturerCode && i.imageType === entry.imageType && (!i.modelId || i.modelId === entry.modelId)
     });
 
     if (index !== -1) {
