@@ -17,7 +17,7 @@ const manufacturerNameLookup = {
     4098: 'Tuya',
     4151: 'Eurotronic',
     4678: 'Danfoss',
-    4687: 'GLEDOPTO',
+    4687: 'Gledopto',
 };
 
 const main = async () => {
