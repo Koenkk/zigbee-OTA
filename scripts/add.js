@@ -1,5 +1,6 @@
 const path = require('path');
 const fs = require('fs');
+const crypto = require('crypto');
 const ota = require('../lib/ota');
 const filenameOrURL = process.argv[2];
 const modelId = process.argv[3];
@@ -65,11 +66,15 @@ const main = async () => {
     const indexJSON = JSON.parse(fs.readFileSync('index.json'));
     const destination = path.join('images', manufacturerName, path.basename(file));
 
+    const hash = crypto.createHash('sha512');
+    hash.update(buffer);
+
     const entry = {
         fileVersion: parsed.header.fileVersion,
         fileSize: parsed.header.totalImageSize,
         manufacturerCode: parsed.header.manufacturerCode,
         imageType: parsed.header.imageType,
+        sha512: hash.digest('hex'),
     };
 
     if (modelId) {
@@ -92,7 +97,7 @@ const main = async () => {
         console.log(`Updated existing entry (${JSON.stringify(entry)})`);
         indexJSON[index] = entry;
 
-        if (entry.path) {
+        if (entry.path && entry.path !== destination) {
             fs.unlinkSync(entry.path);
         }
     } else {
@@ -100,7 +105,7 @@ const main = async () => {
         indexJSON.push(entry);
     }
 
-    if (!isURL) {
+    if (!isURL && file !== path.resolve(destination)) {
         if (!fs.existsSync(path.dirname(destination))) {
             fs.mkdirSync(path.dirname(destination));
         }
