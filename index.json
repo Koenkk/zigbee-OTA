@@ -706,8 +706,8 @@
         "manufacturerCode": 4687,
         "imageType": 0,
         "modelId": "GL-FL-005P",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/GLEDOPTO/GL-FL-005P_V14_OTAV4_20210119_100%25.ota",
-        "path": "images/GLEDOPTO/GL-FL-005P_V14_OTAV4_20210119_100%.OTA"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Gledopto/GL-FL-005P_V14_OTAV4_20210119_100%25.ota",
+        "path": "images/Gledopto/GL-FL-005P_V14_OTAV4_20210119_100%.OTA"
     },
     {
         "fileVersion": 4,
@@ -715,8 +715,8 @@
         "manufacturerCode": 4687,
         "imageType": 0,
         "modelId": "GL-FL-006P",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/GLEDOPTO/GL-FL-006P_V14_OTAV4_20210119_100%25.ota",
-        "path": "images/GLEDOPTO/GL-FL-006P_V14_OTAV4_20210119_100%.OTA"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Gledopto/GL-FL-006P_V14_OTAV4_20210119_100%25.ota",
+        "path": "images/Gledopto/GL-FL-006P_V14_OTAV4_20210119_100%.OTA"
     },
     {
         "fileVersion": 4,
@@ -724,8 +724,8 @@
         "manufacturerCode": 4687,
         "imageType": 0,
         "modelId": "GL-C-008P",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/GLEDOPTO/GL-C-008P_V14_OTAV4_20210114_100%25.ota",
-        "path": "images/GLEDOPTO/GL-C-008P_V14_OTAV4_20210114_100%.OTA"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Gledopto/GL-C-008P_V14_OTAV4_20210114_100%25.ota",
+        "path": "images/Gledopto/GL-C-008P_V14_OTAV4_20210114_100%.OTA"
     },
     {
         "fileVersion": 264,
@@ -741,5 +741,14 @@
         "manufacturerCode": 4107,
         "imageType": 282,
         "url": "https://firmware.meethue.com/storage/100b-11a/16778754/307362cd-5f4f-40a1-a205-7d871cfcde1a/100B-011A-01000602-SmartPlug-EFR32MG21.zigbee"
+    },
+    {
+        "fileVersion": 5,
+        "fileSize": 291622,
+        "manufacturerCode": 4687,
+        "imageType": 0,
+        "modelId": "GL-S-007P",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Gledopto/GL-S-007P_V15_A1_OTAV5_20210201_90%.ota",
+        "path": "images/Gledopto/GL-S-007P_V15_A1_OTAV5_20210201_90%.ota"
     }
 ]
