@@ -80,7 +80,7 @@ const main = async () => {
         entry.url = filenameOrURL;
     } else {
         const destinationPosix = destination.replace(/\\/g, '/');
-        entry.url = `${baseURL}/${destinationPosix}`;
+        entry.url = `${baseURL}/${escape(destinationPosix)}`;
         entry.path = destinationPosix;
     }
 
