@@ -846,5 +846,14 @@
         "modelId": "GL-S-007P",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Gledopto/GL-S-007P_V15_A1_OTAV5_20210201_90%25.ota",
         "path": "images/Gledopto/GL-S-007P_V15_A1_OTAV5_20210201_90%.ota"
+    },
+    {
+        "fileVersion": 30,
+        "fileSize": 140414,
+        "manufacturerCode": 4448,
+        "imageType": 1016,
+        "sha512": "deca704c355a895b9d4c4b292e581866d7d0198ce2ecb63922465312e2a0062d9ca7596555d8becb6d7cc23f2be72b0081ce74437f6c6f6bdc608b439c6b0362",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sengled/1594189489604_RDS2017039_E12_N1E_V0.0.30_20200630_%28SVN396%29.ota",
+        "path": "images/Sengled/1594189489604_RDS2017039_E12_N1E_V0.0.30_20200630_(SVN396).ota"
     }
 ]
