@@ -98,7 +98,14 @@ const main = async () => {
         indexJSON[index] = entry;
 
         if (entry.path && entry.path !== destination) {
-            fs.unlinkSync(entry.path);
+            try {
+                fs.unlinkSync(path.resolve(entry.path));
+            } catch (err) {
+                if (err && err.code != 'ENOENT') {
+                    console.error("Error in call to fs.unlink", err);
+                    throw err;
+                }
+            }
         }
     } else {
         console.log(`Added new entry (${JSON.stringify(entry)})`);
