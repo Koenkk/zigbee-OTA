@@ -19,6 +19,7 @@ const manufacturerNameLookup = {
     4151: 'Eurotronic',
     4678: 'Danfoss',
     4687: 'Gledopto',
+    4447: 'Xiaomi',
 };
 
 const main = async () => {
