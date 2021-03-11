@@ -19,6 +19,7 @@ const manufacturerNameLookup = {
     4151: 'Eurotronic',
     4678: 'Danfoss',
     4687: 'Gledopto',
+    4447: 'Xiaomi',
 };
 
 const main = async () => {
@@ -98,7 +99,14 @@ const main = async () => {
         indexJSON[index] = entry;
 
         if (entry.path && entry.path !== destination) {
-            fs.unlinkSync(entry.path);
+            try {
+                fs.unlinkSync(path.resolve(entry.path));
+            } catch (err) {
+                if (err && err.code != 'ENOENT') {
+                    console.error("Error in call to fs.unlink", err);
+                    throw err;
+                }
+            }
         }
     } else {
         console.log(`Added new entry (${JSON.stringify(entry)})`);
