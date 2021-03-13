@@ -970,6 +970,7 @@
         "manufacturerCode": 4687,
         "imageType": 0,
         "sha512": "8eb197dc7e6f92afca457ce585e754ac3bf39e53cfb3f2e2433bf6317c51e0987cfe9224db046bf24522069651a85defe3bf62531c9eb4f2955b402ab55e9002",
+        "modelId": "GL-C-008P",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Gledopto/GL-C-008P_V17A1_OTAV7_20210303--V1-4.ota",
         "path": "images/Gledopto/GL-C-008P_V17A1_OTAV7_20210303--V1-4.ota"
     }
