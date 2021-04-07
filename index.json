@@ -864,8 +864,8 @@
         "sha512": "4971dd0e530a1368152b327b73e612bbc13d737ebeed322d9badc708c9e597c93d9f07a165d24507f2075bdaa94b5d58dc8d9513c10a5523949c63a3a37c4d16",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Datek/datek_han_adapter_v04.ota",
         "path": "images/Datek/datek_han_adapter_v04.ota"
-	},
-	{
+    },
+    {
         "fileVersion": 27,
         "fileSize": 271982,
         "manufacturerCode": 4447,
@@ -1254,5 +1254,25 @@
         "modelId": "lumi.airmonitor.acn01",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/OTA_lumi.airmonitor.acn01_V.0.22_test.20200630113132.ota",
         "path": "images/Xiaomi/OTA_lumi.airmonitor.acn01_V.0.22_test.20200630113132.ota"
+    },
+    {
+        "fileVersion": 7,
+        "fileSize": 291702,
+        "manufacturerCode": 4687,
+        "imageType": 0,
+        "sha512": "8c3431b4d60d31e3ac16468601b64b3f8da0c2cf122c638a654b71543de901bfaf2e3afe5a0a8084d20d32478ad61738c86f33a2548211ea8f2367900fb1b620",
+        "modelId": "GL-B-007P",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Gledopto/GL-B-007P_V17_OTAV7_20210305_100%25.ota",
+        "path": "images/Gledopto/GL-B-007P_V17_OTAV7_20210305_100%.ota"
+    },
+    {
+        "fileVersion": 7,
+        "fileSize": 291726,
+        "manufacturerCode": 4687,
+        "imageType": 0,
+        "sha512": "788341b48089076a6d1c6f020f34699428adc5103ba18d54fe3b0b00bbee2212bef13ba853fe3f1c1fb247f6d17d29608a937ed897fdd9e5b5294b4ceee13ebe",
+        "modelId": "GL-B-008P",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Gledopto/GL-B-008P_V17A1_OTAV7.ota",
+        "path": "images/Gledopto/GL-B-008P_V17A1_OTAV7.ota"
     }
 ]
