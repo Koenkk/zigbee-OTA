@@ -21,6 +21,7 @@ const manufacturerNameLookup = {
     4687: 'Gledopto',
     4919: 'Datek',
     4447: 'Xiaomi',
+    10132: 'ClimaxTechnology',
 };
 
 const main = async () => {
