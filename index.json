@@ -1273,5 +1273,14 @@
         "sha512": "5e36ceaa44c4b3e12f4ff415b00fb16a3d64aaa3d8bebaecc0590480f4850e8ff226be20356417da223679c4210b5c69e8159ae15628c098c59d074e86d97258",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/ClimaxTechnology/12128_OTA_3.18.ZIGBEE",
         "path": "images/ClimaxTechnology/12128_OTA_3.18.ZIGBEE"
+    },
+    {
+        "fileVersion": 262146,
+        "fileSize": 198738,
+        "manufacturerCode": 4117,
+        "imageType": 593,
+        "sha512": "6ff88b27a44d0762e62d70d278313803a241ace28433135be765bb3e3fe34ec848ce71d645e28c78a88005fac03e039d507553b2fc16e1fd1b024d571a9c84c9",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Develco/ED_Smoke_Sensor_SSIG_4.0.2.zigbee",
+        "path": "images/Develco/ED_Smoke_Sensor_SSIG_4.0.2.zigbee"
     }
 ]
