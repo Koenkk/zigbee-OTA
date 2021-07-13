@@ -4,6 +4,7 @@ const crypto = require('crypto');
 const ota = require('../lib/ota');
 const filenameOrURL = process.argv[2];
 const modelId = process.argv[3];
+const manufName = process.argv[4];
 const baseURL = 'https://github.com/Koenkk/zigbee-OTA/raw/master';
 
 const manufacturerNameLookup = {
@@ -77,6 +78,7 @@ const main = async () => {
         fileVersion: parsed.header.fileVersion,
         fileSize: parsed.header.totalImageSize,
         manufacturerCode: parsed.header.manufacturerCode,
+        manufName: parsed.header.manufName,
         imageType: parsed.header.imageType,
         sha512: hash.digest('hex'),
     };
@@ -94,7 +96,8 @@ const main = async () => {
     }
 
     const index = indexJSON.findIndex((i) => {
-        return i.manufacturerCode === entry.manufacturerCode && i.imageType === entry.imageType && (!i.modelId || i.modelId === entry.modelId)
+        return i.manufacturerCode === entry.manufacturerCode && i.imageType === entry.imageType && (!i.modelId || i.modelId === entry.modelId) &&
+            (!i.manufName || i.manufName === entry.manufName)
     });
 
     if (index !== -1) {
