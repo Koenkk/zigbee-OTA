@@ -1273,5 +1273,14 @@
         "sha512": "6ff88b27a44d0762e62d70d278313803a241ace28433135be765bb3e3fe34ec848ce71d645e28c78a88005fac03e039d507553b2fc16e1fd1b024d571a9c84c9",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Develco/ED_Smoke_Sensor_SSIG_4.0.2.zigbee",
         "path": "images/Develco/ED_Smoke_Sensor_SSIG_4.0.2.zigbee"
+    },
+    {
+        "fileVersion": 262145,
+        "fileSize": 202796,
+        "manufacturerCode": 4117,
+        "imageType": 832,
+        "sha512": "bcf8dd5ce9b622267a9999baa6df8928dd1d2511b8829a9f0a68594d9ef8b0b5f249e17828450e0845ce4d5b2d48369644c0c2327cbe65783b754061a759b6cd",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Develco/ED_HA_EMI_Norwegian_HAN_4.0.1.zigbee",
+        "path": "images/Develco/ED_HA_EMI_Norwegian_HAN_4.0.1.zigbee"
     }
 ]
