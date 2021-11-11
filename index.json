@@ -750,7 +750,11 @@
         "fileVersion": 87,
         "fileSize": 234174,
         "manufacturerCode": 4098,
-        "manufacturerName": ["_TZE200_ckud7u2l", "_TZE200_cwnjrr72", "_TZE200_ywdxldoj"],
+        "manufacturerName": [
+            "_TZE200_ckud7u2l",
+            "_TZE200_cwnjrr72",
+            "_TZE200_ywdxldoj"
+        ],
         "imageType": 5634,
         "sha512": "1113486a67403d922fc4a462b7477e0a0986fa8862a89b74ab8c5eac7b4ecb31c30f1da9ae1bbc1d6d50ae1fed66d38c37a1834ab71fd384c0555002783aba13",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Tuya/1615190575-si32_zg_uart_connect_sleep_ZS5_ty_OTA_1.1.7.bin",
@@ -1117,14 +1121,14 @@
         "path": "images/Xiaomi/OTA_LM15_LNN_V2.6.22_20180503_neutral1_19ms_DIO19Led.20181011142357.ota"
     },
     {
-        "fileVersion": 33,
-        "fileSize": 195838,
+        "fileVersion": 92,
+        "fileSize": 190574,
         "manufacturerCode": 4447,
         "imageType": 257,
-        "sha512": "818537d92af747ff6a56e3dab8bd57f45de75a89d593939b008c06dd82f58696719b07e37aec73ea0ebb6753be66be0c5091232df546fcd997e4679ad39e3df6",
+        "sha512": "908ec6fad40a3aac31099b3e85c5f30c0dc041ec365ffcfe585387c7cadf76fb5d19721a3c4d139bbf85703ea24ce9058b25b976d332b1edf7e29438c202516d",
         "modelId": "lumi.ctrl_ln2.aq1",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/PA_LM15_ln2_AQ1_V1.0.33_20180625_v33.20181011142943.ota",
-        "path": "images/Xiaomi/PA_LM15_ln2_AQ1_V1.0.33_20180625_v33.20181011142943.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/lumi.ctrl_ln2.aq1_20201106_v0092.ota",
+        "path": "images/Xiaomi/lumi.ctrl_ln2.aq1_20201106_v0092.ota"
     },
     {
         "fileVersion": 32,
@@ -1137,14 +1141,14 @@
         "path": "images/Xiaomi/LM15_ln2_V1.0.32_20180625_v32.20181008194246.ota"
     },
     {
-        "fileVersion": 33,
-        "fileSize": 193550,
+        "fileVersion": 92,
+        "fileSize": 188302,
         "manufacturerCode": 4447,
         "imageType": 257,
-        "sha512": "007d036cd1b02e8e4e299ad098087de35fafa43cd182f3fca517c9d38c6c6084d5b6cf504271c934e76322a172497d576839377955ccee012c90430ac3d42034",
+        "sha512": "da69c9358052d6b58a582558eb92f0b7141e791c563ea143748fd065c4228c9b4b4627c948c69c5dc5481119b621ea2be37dac9f32acb69d0b8cd825881330ab",
         "modelId": "lumi.ctrl_ln1.aq1",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/LM15_ln1_AQ1_V1.0.33_20180625_v33.20181011142900.ota",
-        "path": "images/Xiaomi/LM15_ln1_AQ1_V1.0.33_20180625_v33.20181011142900.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/lumi.ctrl_ln1.aq1_20201206_v0092.ota",
+        "path": "images/Xiaomi/lumi.ctrl_ln1.aq1_20201206_v0092.ota"
     },
     {
         "fileVersion": 32,
@@ -1328,5 +1332,5 @@
         "sha512": "966bbc8a44693eb5a91c4cf64bf59b91d291335d223cec1ffc65a6d7b3fe339be4e70b90908aea0bc0a6f7ea4ff130898b4492e0818d7f05220582097a543f9d",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Gledopto/GL-D-005P_V11076801_OTAV12_20211108_60%25.ota",
         "path": "images/Gledopto/GL-D-005P_V11076801_OTAV12_20211108_60%.ota"
-    } 
+    }
 ]
