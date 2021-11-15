@@ -63,20 +63,20 @@
         "path": "images/Sengled/RDS2017028_E1C-NB6_V0.0.22_20180314.ota"
     },
     {
-        "fileVersion": 1124096001,
+        "fileVersion": 1124096769,
         "fileSize": 258104,
         "manufacturerCode": 4107,
         "imageType": 256,
-        "sha512": "3ed48f3f754726db044efb03b74bda21eb0f85ad7814d43d3011ef84b4b1bc48f87b02d01bc926553eb746063e3e34d1e2ab7c9423ece92312af73b3313a7401",
-        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0100/1124096001/Ti_0100_ConnectedLamp-TI-Target_0012_88.1.sbl-ota"
+        "sha512": "bf49618c6dc1675378f8af397bfb50c9e37ada67088cba2bce506c2f61df1c0a65ab0f86c8a015a2ce285612140973cc82ed8faec7e17e211954fab2b8ad0972",
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0100/1124096769/100B_0100_ConnectedLamp-Target_0012_91.1.sbl-ota"
     },
     {
-        "fileVersion": 1124096001,
+        "fileVersion": 1124096769,
         "fileSize": 258104,
         "manufacturerCode": 4107,
         "imageType": 259,
-        "sha512": "686db1395a2f2042c08d17cc7afe77097ca42204dc94d413ea51d08e0508ed59942f9ff4317aa7827d9c9062f283cba82b6766009ed4c2298c80575e4c879e79",
-        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0103/1124096001/LivCol_0103_LivingColors-Hue-Target_0012_88.1.sbl-ota"
+        "sha512": "c3ac11bda849c429c09a12c3de6205294b6f206a199039c24d0bf7537310514166455bd11bafe1946312b3583c967dc07308b6074c15346d4252f17435a8ee03",
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0103/1124096769/100B_0103_LivingColors-Hue-Target_0012_91.1.sbl-ota"
     },
     {
         "fileVersion": 1124096001,
@@ -191,12 +191,12 @@
         "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0115/16780032/100B-0115-01000B00-SmartPlug-EFR32MG13.zigbee"
     },
     {
-        "fileVersion": 33562112,
-        "fileSize": 244474,
+        "fileVersion": 33566472,
+        "fileSize": 221830,
         "manufacturerCode": 4107,
         "imageType": 278,
-        "sha512": "85b1eabaa42483170566b4a3c56f995e697f7bc8b5b2e37b4f04c89cc5157f50a0831408690eb0bd4956f37b09a19ac49df973395e5c15f15bddcefa7f7dd32f",
-        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0116/33562112/100B-0116-02001E00-Switch-EFR32MG13.zigbee"
+        "sha512": "d961093ee0014066345c3ba2dd29df2ecbaccd8635e88c404e5a7fbf5903cae6926768d0e8f935b40fc53d2c040669ac52401d5b2419485c4ae672f886727a2a",
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0116/33566472/100B-0116-02002F08-Switch-EFR32MG13.zigbee"
     },
     {
         "fileVersion": 3080,
