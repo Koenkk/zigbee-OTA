@@ -1332,5 +1332,15 @@
         "sha512": "966bbc8a44693eb5a91c4cf64bf59b91d291335d223cec1ffc65a6d7b3fe339be4e70b90908aea0bc0a6f7ea4ff130898b4492e0818d7f05220582097a543f9d",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Gledopto/GL-D-005P_V11076801_OTAV12_20211108_60%25.ota",
         "path": "images/Gledopto/GL-D-005P_V11076801_OTAV12_20211108_60%.ota"
+    },
+    {
+        "fileVersion": 22,
+        "fileSize": 287046,
+        "manufacturerCode": 4447,
+        "imageType": 6169,
+        "sha512": "72fb5f32ce8497dc427661c2d5e7cd9d35652a1bdc0dc17592065346f40a9378a4abc1a0089ab1938f50697332d77e8326da016e0db70bd7006fb48a0e931205",
+        "modelId": "lumi.switch.n0agl1",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/lumi.switch.n0agl1_20210921_v0022.ota",
+        "path": "images/Xiaomi/lumi.switch.n0agl1_20210921_v0022.ota"
     }
 ]
