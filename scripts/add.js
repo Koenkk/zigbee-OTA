@@ -99,7 +99,7 @@ const main = async () => {
 
     if (index !== -1) {
         console.log(`Updated existing entry (${JSON.stringify(entry)})`);
-        indexJSON[index] = entry;
+        indexJSON[index] = {...indexJSON[index], ...entry};
 
         if (entry.path && entry.path !== destination) {
             try {
