@@ -1343,5 +1343,15 @@
         "modelId": "lumi.switch.n0agl1",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/lumi.switch.n0agl1_20210921_v0022.ota",
         "path": "images/Xiaomi/lumi.switch.n0agl1_20210921_v0022.ota"
+    },
+    {
+        "fileVersion": 10,
+        "fileSize": 281350,
+        "manufacturerCode": 4687,
+        "imageType": 0,
+        "sha512": "d9102634c87aebcf93ba44a480e2254c48377f73781598aac43eb293e224fc8d03ad94e69ba5261161d8fa09e873fdeb2ddbc0e570f517002667f349e4d3aa46",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Gledopto/GL-C-006P_V10276801OTAVA.ota",
+        "modelId": "GL-C-006P",
+        "path": "images/Gledopto/GL-C-006P_V10276801OTAVA.ota"
     }
 ]
