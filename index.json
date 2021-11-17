@@ -1331,6 +1331,7 @@
         "imageType": 0,
         "sha512": "966bbc8a44693eb5a91c4cf64bf59b91d291335d223cec1ffc65a6d7b3fe339be4e70b90908aea0bc0a6f7ea4ff130898b4492e0818d7f05220582097a543f9d",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Gledopto/GL-D-005P_V11076801_OTAV12_20211108_60%25.ota",
+        "modelId": "GL-D-005P",
         "path": "images/Gledopto/GL-D-005P_V11076801_OTAV12_20211108_60%.ota"
     },
     {
