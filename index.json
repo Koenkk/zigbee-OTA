@@ -1350,6 +1350,7 @@
         "manufacturerCode": 4447,
         "imageType": 14976,
         "sha512": "14cc79a247295b5cadee3794547baab43848a17e6bbef0ce79419352ae8170670db0ecc46ed82ceaf5670647f239fe7c5769183fcd989f9794b4b3a04587d8f3",
+        "modelId": "lumi.curtain.acn002",
         "url": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.curtain.acn002/20211018181955_OTA_lumi.curtain.acn002_0.0.0_1425_20210519_3B6D0A.ota"
      }
 ]
