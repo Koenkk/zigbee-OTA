@@ -1352,5 +1352,13 @@
         "sha512": "14cc79a247295b5cadee3794547baab43848a17e6bbef0ce79419352ae8170670db0ecc46ed82ceaf5670647f239fe7c5769183fcd989f9794b4b3a04587d8f3",
         "modelId": "lumi.curtain.acn002",
         "url": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.curtain.acn002/20211018181955_OTA_lumi.curtain.acn002_0.0.0_1425_20210519_3B6D0A.ota"
-     }
+    },
+    {
+        "fileVersion": 33565954,
+        "fileSize": 183866,
+        "manufacturerCode": 4107,
+        "imageType": 281,
+        "sha512": "deff3ced9b340b94d3ea181c23c6f5289e3ed0ba068ed235dce19e628f0d509b55c62432b406b06f761d895c65eaed608f3e67054d628d889277713ed510cc1e",
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0119/33565954/100B-0119-02002D02-Switch-EFR32MG22.zigbee"
+    }
 ]
