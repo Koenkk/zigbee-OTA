@@ -1360,5 +1360,13 @@
         "imageType": 281,
         "sha512": "deff3ced9b340b94d3ea181c23c6f5289e3ed0ba068ed235dce19e628f0d509b55c62432b406b06f761d895c65eaed608f3e67054d628d889277713ed510cc1e",
         "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0119/33565954/100B-0119-02002D02-Switch-EFR32MG22.zigbee"
+    },
+    {
+        "fileVersion": 16780550,
+        "fileSize": 383606,
+        "manufacturerCode": 4107,
+        "imageType": 280,
+        "sha512": "155e26f95c23ea2dc159afb21d7c429d50658e583ec45ec285c70187748a9c8f3935ddd39a0fd4f786961f710f19ac8389a39619a41197873d417ea5eb14c23e",
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0118/16780550/100B-0118-01000D06-PixelLum-EFR32MG21.zigbee"
     }
 ]
