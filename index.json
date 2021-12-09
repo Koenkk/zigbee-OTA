@@ -1298,13 +1298,13 @@
         "path": "images/Develco/ED_HA_EMI_Norwegian_HAN_4.0.1.zigbee"
     },
     {
-        "fileVersion": 25,
-        "fileSize": 282334,
+        "fileVersion": 26,
+        "fileSize": 288542,
         "manufacturerCode": 4447,
         "imageType": 396,
-        "sha512": "e6b33a11cad407734052a0a14ca423ec32e1e29bc35cac7c9a5960025d6715105c179a39503b0a3b3ec30e9b2e1af2c2c04e188a7175113662b2c5f78d63c0ef",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20210426151721_OTA_lumi.switch.b2nacn01_0.0.0_0025_20210416_A81FC5.ota",
-        "path": "images/Xiaomi/20210426151721_OTA_lumi.switch.b2nacn01_0.0.0_0025_20210416_A81FC5.ota"
+        "sha512": "265c02a7dea4dafb22a2d6b539f5691f8464c3a28d557ab9a8e270c03f41c92a3927ace4429c12e17c652dd6aefe5a6612718fe8195d6bff2f8bd9e42dc5fc26",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/OTA_lumi.switch.b2nacn01_0.0.0_0026_20211101_CE93A8.ota",
+        "path": "images/Xiaomi/OTA_lumi.switch.b2nacn01_0.0.0_0026_20211101_CE93A8.ota"
     },
     {
         "fileVersion": 25,
