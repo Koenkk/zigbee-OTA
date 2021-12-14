@@ -1368,5 +1368,14 @@
         "imageType": 280,
         "sha512": "155e26f95c23ea2dc159afb21d7c429d50658e583ec45ec285c70187748a9c8f3935ddd39a0fd4f786961f710f19ac8389a39619a41197873d417ea5eb14c23e",
         "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0118/16780550/100B-0118-01000D06-PixelLum-EFR32MG21.zigbee"
+    },
+    {
+        "fileVersion": 32,
+        "fileSize": 290670,
+        "manufacturerCode": 4447,
+        "imageType": 12,
+        "sha512": "0b17879da56f874d90e14b5d5ef600df04e9a32e4474d2924b38b53847d29122bb077fd846313d58e521ea4e5e7654bfd3e9b51942208bbdbb20897d4c8466c4",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/OTA_lumi.plug.macn01_0.0.0_0032_20211117_C0EB36.ota",
+        "path": "images/Xiaomi/OTA_lumi.plug.macn01_0.0.0_0032_20211117_C0EB36.ota"
     }
 ]
