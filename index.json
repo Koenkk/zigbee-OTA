@@ -183,12 +183,12 @@
         "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0114/16784128/100B-0114-01001B00-ConfLightBLE-Lamps-EFR32MG21.zigbee"
     },
     {
-        "fileVersion": 16780800,
-        "fileSize": 385466,
+        "fileVersion": 16781056,
+        "fileSize": 385678,
         "manufacturerCode": 4107,
         "imageType": 277,
-        "sha512": "c861e0dfadb0d695fac845c535f0faddbfb682931b324da0ad0e3e2d006295823725e16f08eb7672d11ae3c9621e571759813e9a1b0e07120ee3933f89752f57",
-        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0115/16780800/100B-0115-01000E00-SmartPlug-EFR32MG13.zigbee"
+        "sha512": "ffbab6ed1c88d9188ad68f8b4744a0e108955fa3b77744f53d213bfc9b1a134320d64f388b34a3c8b9073c637861009dca19b7902f34d5b9a7fb548c294ec95b",
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0115/16781056/100B-0115-01000F00-SmartPlug-EFR32MG13.zigbee"
     },
     {
         "fileVersion": 33566472,
