@@ -1408,5 +1408,15 @@
         "modelId": "lumi.plug.sacn03",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/OTA_lumi.plug.sacn03_0.0.0_0034_20211119_85CEC0.ota",
         "path": "images/Xiaomi/OTA_lumi.plug.sacn03_0.0.0_0034_20211119_85CEC0.ota"
+    },
+    {
+        "fileVersion": 10003,
+        "fileSize": 264682,
+        "manufacturerCode": 4098,
+        "modelId": "HC-SLM-1",
+        "imageType": 0,
+        "sha512": "8066c1fad5a58f8ae3a5e8d0493eaaec6cbd9719ce0f02642ddd441767def7ea6d90985e0775087214211a092d0028abbd5806bbe43e62abe06e9aa0428801f1",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Tuya/Home%20Control%20AS_HC-SLM-1%3D00.02.zigbee",
+        "path": "images/Tuya/Home Control AS_HC-SLM-1=00.02.zigbee"
     }
 ]
