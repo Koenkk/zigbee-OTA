@@ -835,12 +835,12 @@
         "path": "images/Danfoss/1246-0100-01180118.0002_(F5BFD8B8).ota"
     },
     {
-        "fileVersion": 16778754,
-        "fileSize": 330214,
+        "fileVersion": 16779776,
+        "fileSize": 331500,
         "manufacturerCode": 4107,
         "imageType": 282,
-        "sha512": "059cbd738cc448fcecba26deee737e307c7e7192a329a1741f0a2d1d992b3f596f3db0155042d6596274d22884d42dcfb59e349d7bc13591dab043757af0f81d",
-        "url": "https://firmware.meethue.com/storage/100b-11a/16778754/307362cd-5f4f-40a1-a205-7d871cfcde1a/100B-011A-01000602-SmartPlug-EFR32MG21.zigbee"
+        "sha512": "841764c72f1c28055e5be9bcbef58079895f72dfd6e1a5b778a999e9a039ab210d9d1ded1b9adf462531e8639179653b3f227ed2b20e4b0bc6db8ab1e90514dc",
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_011A/16779776/100B-011A-01000A00-SmartPlug-EFR32MG21.zigbee"
     },
     {
         "fileVersion": 5,
