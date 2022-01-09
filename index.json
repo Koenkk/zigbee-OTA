@@ -79,12 +79,22 @@
         "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0103/1124096769/100B_0103_LivingColors-Hue-Target_0012_91.1.sbl-ota"
     },
     {
+        "minFileVersion": 1107326256,
         "fileVersion": 1124096001,
         "fileSize": 256696,
         "manufacturerCode": 4107,
         "imageType": 260,
         "sha512": "39d64d99d718c82aa9874fb544497955b6cdbe7bff60bef19740c811a5af14eb02864f4a76ac01b7619882f317d4058f30b5b729fedb1789b564103bac7ac58c",
         "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0104/1124096001/Atmel_0104_ConnectedLamp-Target_0012_88.1.sbl-ota"
+    },
+    {
+        "maxFileVersion": 1107326255,
+        "fileVersion": 1107326256,
+        "fileSize": 256632,
+        "manufacturerCode": 4107,
+        "imageType": 260,
+        "sha512": "d2bf330b9a23114efb6a613ccefce691e4a67a98175033e65d3eaf6841312b5a542bd538ae19c06c3804aa06224d35acc184f4b37a6198b457df2a173a490f21",
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0104/1107326256/ConnectedLamp-Atmel_0104_5.130.1.30000_0012.sbl-ota"
     },
     {
         "fileVersion": 1107326256,
@@ -119,12 +129,22 @@
         "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_010B/1124096001/LSP_010B_ModuLum-ATmega_0012_88.1.sbl-ota"
     },
     {
+        "minFileVersion": 16783874,
         "fileVersion": 16785664,
         "fileSize": 267644,
         "manufacturerCode": 4107,
         "imageType": 268,
         "sha512": "efa1c94c60896468624c3f699bc2a1986c4667e5fe6512ecd7db722799be898f634144825035280e62becda576d8571fc22a421e553adc57b454f099c479fa93",
         "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_010C/16785664/100B-010C-01002100-ConfLight-Lamps_0012.zigbee"
+    },
+    {
+        "maxFileVersion": 16783873,
+        "fileVersion": 16783874,
+        "fileSize": 267452,
+        "manufacturerCode": 4107,
+        "imageType": 268,
+        "sha512": "c4591fe155bef8500779c36c7792f3960c4f83dde9dd47aa367113229c5bd73161f14cc92e6d6a0960e807c54626ce2ab0ce0d18c76d0206770dcda3a4776862",
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_010C/16783874/100B-010C-01001A02-ConfLight-Lamps_0012.zigbee"
     },
     {
         "fileVersion": 1107323831,
