@@ -9,6 +9,7 @@ const baseURL = 'https://github.com/Koenkk/zigbee-OTA/raw/master';
 const manufacturerNameLookup = {
     4107: 'Hue',
     4117: 'Develco',
+    4129: 'Legrand',
     4474: 'Insta',
     4448: 'Sengled',
     4420: 'Lutron',
