@@ -981,14 +981,14 @@
         "path": "images/Xiaomi/LM15_SP_aq_V1.3.30_20180724_v30_withCRC.20180724160524.ota"
     },
     {
-        "fileVersion": 90,
-        "fileSize": 186510,
+        "fileVersion": 92,
+        "fileSize": 185918,
         "manufacturerCode": 4447,
         "imageType": 257,
-        "sha512": "1a59b3f409b905562ea6a9b3303cd47185675b7521a5beeb66fbf3e294918145bc73396e72fe907f2819e5c5c9fc453cbd16c618d7385002bd47754395b23494",
+        "sha512": "d9c53f674955832d3b31903cf6f8812791380339cfebd4ffd801638f781ca3fb9d43b74e4bc78d96ce684c23fa3875f7451448ba48e701d6b0a4dbcbb5dcc0e5",
         "modelId": "lumi.plug",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/OTA_lumi.plug_V90_20191220_E2AB53.20200106152408.ota",
-        "path": "images/Xiaomi/OTA_lumi.plug_V90_20191220_E2AB53.20200106152408.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/lumi.plug_20211224_v92.ota",
+        "path": "images/Xiaomi/lumi.plug_20211224_v92.ota"
     },
     {
         "fileVersion": 19,
