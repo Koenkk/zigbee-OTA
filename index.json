@@ -1465,5 +1465,25 @@
         "sha512": "58290da7042fbcbc4fa759cd880bd687349025b3c54cbd7f5fc1ce1babd82fa3cccc890d536861b37c21ee7b302148c1e1124cc1ebdde217e3b6709147af5787",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-0012-364203-NLT-54.zigbee",
         "path": "images/Legrand/1021-0012-364203-NLT-54.zigbee"
+    },
+    {
+        "fileVersion": 35,
+        "fileSize": 213662,
+        "manufacturerCode": 4447,
+        "imageType": 8328,
+        "sha512": "41226c10d77a45f5e2481870d71df97777252afd5685cfd8a854ec610034aaf171b686eee1e9ebf9988183ad1b1ced7679785cd34c579de28fee13e8475d6a87",
+        "modelId": "lumi.motion.agl02",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20201214122537_OTA_lumi.motion.agl02_0.0.0_0035_20201113_D1D711.ota",
+        "path": "images/Xiaomi/20201214122537_OTA_lumi.motion.agl02_0.0.0_0035_20201113_D1D711.ota"
+    },
+    {
+        "fileVersion": 26,
+        "fileSize": 215070,
+        "manufacturerCode": 4447,
+        "imageType": 9352,
+        "sha512": "58ba1198607526207377379536cb116082f95d58db3a952623dc8e202cc4e67e0e2bfba225b7f73bfd033477381fa423a05bc4eddd0f0a60edfaae988c7fbc53",
+        "modelId": "lumi.motion.agl04",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20201224182256_OTA_lumi.motion.agl04_0.0.0_0026_20201123_561AD0.ota",
+        "path": "images/Xiaomi/20201224182256_OTA_lumi.motion.agl04_0.0.0_0026_20201123_561AD0.ota"
     }
 ]
