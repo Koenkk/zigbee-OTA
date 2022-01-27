@@ -1141,14 +1141,14 @@
         "path": "images/Xiaomi/OTA_LM15_LNN_V2.6.22_20180503_neutral1_19ms_DIO19Led.20181011142357.ota"
     },
     {
-        "fileVersion": 92,
-        "fileSize": 190574,
+        "fileVersion": 94,
+        "fileSize": 189854,
         "manufacturerCode": 4447,
         "imageType": 257,
-        "sha512": "908ec6fad40a3aac31099b3e85c5f30c0dc041ec365ffcfe585387c7cadf76fb5d19721a3c4d139bbf85703ea24ce9058b25b976d332b1edf7e29438c202516d",
+        "sha512": "171148adff1671d14dd50e49f022a2e00a3fb59255cc99edac74b6b65890ef77b118846f5a2e3892b937af834357fd1d5dc508acec0492e07553350a7a6798ed",
         "modelId": "lumi.ctrl_ln2.aq1",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/lumi.ctrl_ln2.aq1_20201106_v0092.ota",
-        "path": "images/Xiaomi/lumi.ctrl_ln2.aq1_20201106_v0092.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/lumi.ctrl_ln2.aq1_20211223_v0094.ota",
+        "path": "images/Xiaomi/lumi.ctrl_ln2.aq1_20211223_v0094.ota"
     },
     {
         "fileVersion": 32,
@@ -1161,14 +1161,14 @@
         "path": "images/Xiaomi/LM15_ln2_V1.0.32_20180625_v32.20181008194246.ota"
     },
     {
-        "fileVersion": 92,
-        "fileSize": 188302,
+        "fileVersion": 94,
+        "fileSize": 187630,
         "manufacturerCode": 4447,
         "imageType": 257,
-        "sha512": "da69c9358052d6b58a582558eb92f0b7141e791c563ea143748fd065c4228c9b4b4627c948c69c5dc5481119b621ea2be37dac9f32acb69d0b8cd825881330ab",
+        "sha512": "4c14b4dc098f7e24975ca640e0a36afc1d4d8e3875f31b97730b53b2b5741a8ed62eae889d939c4f1dcff52d90908a0d9a5c21ea42fb79fed8ba36a2ceefaa7d",
         "modelId": "lumi.ctrl_ln1.aq1",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/lumi.ctrl_ln1.aq1_20201206_v0092.ota",
-        "path": "images/Xiaomi/lumi.ctrl_ln1.aq1_20201206_v0092.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/lumi.ctrl_ln1.aq1_20211223_v0094.ota",
+        "path": "images/Xiaomi/lumi.ctrl_ln1.aq1_20211223_v0094.ota"
     },
     {
         "fileVersion": 32,
