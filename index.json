@@ -1508,5 +1508,15 @@
         "modelId": "lumi.switch.b2nc01",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/lumi.switch.b2nc01_v0022.ota",
         "path": "images/Xiaomi/lumi.switch.b2nc01_v0022.ota"
+    },
+    {
+        "fileVersion": 3888,
+        "fileSize": 300232,
+        "manufacturerCode": 4447,
+        "imageType": 2700,
+        "sha512": "a8f95d2b3d0298b04bddb9593db25c42b379084bd517bb4aa36d7bdcd342db9a9de89be6753cce7aa41bbe5951823e3f9631da3fde6e9cd983d290d6ee80a625",
+        "modelId": "lumi.switch.n2acn1",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/OTA_lumi.switch.n2acn1_0.0.0_1548_20211125_D550CC.ota",
+        "path": "images/Xiaomi/OTA_lumi.switch.n2acn1_0.0.0_1548_20211125_D550CC.ota"
     }
 ]
