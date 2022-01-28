@@ -1485,5 +1485,25 @@
         "modelId": "lumi.motion.agl04",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20201224182256_OTA_lumi.motion.agl04_0.0.0_0026_20201123_561AD0.ota",
         "path": "images/Xiaomi/20201224182256_OTA_lumi.motion.agl04_0.0.0_0026_20201123_561AD0.ota"
+    },
+    {
+        "fileVersion": 22,
+        "fileSize": 279518,
+        "manufacturerCode": 4447,
+        "imageType": 6280,
+        "sha512": "1d8c1fe23062b208701cf0de1e9f2d1222d2fb9ceab9c5eaa84796f02dbbde2caa8c0cf9ec0ffe10455e9309bc36b38ee478c933a2a8d04535e521ccada74c74",
+        "modelId": "lumi.switch.b1nc01",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/lumi.switch.b1nc01_v0022.ota",
+        "path": "images/Xiaomi/lumi.switch.b1nc01_v0022.ota"
+    },
+    {
+        "fileVersion": 22,
+        "fileSize": 281118,
+        "manufacturerCode": 4447,
+        "imageType": 6408,
+        "sha512": "4118d82f483fc4b3283131fa7782a26317383d8365e660296337bc835d19ec57efe3ad3537778a68831807a17a2e0414694905a309c64d9fbc68c1177cbf6286",
+        "modelId": "lumi.switch.b2nc01",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/lumi.switch.b2nc01_v0022.ota",
+        "path": "images/Xiaomi/lumi.switch.b2nc01_v0022.ota"
     }
 ]
