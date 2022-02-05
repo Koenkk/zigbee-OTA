@@ -105,12 +105,12 @@
         "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0105/1107326256/WhiteLamp-Atmel-Target_0105_5.130.1.30000_0012.sbl-ota"
     },
     {
-        "fileVersion": 1124097283,
+        "fileVersion": 1124097287,
         "fileSize": 256696,
         "manufacturerCode": 4107,
         "imageType": 264,
-        "sha512": "e360e33e526efe9df719653e5aee3f9341840becc966edd531b23c881ce61701285470d17c1378b107d746ac1072982aa2edc8d2fa53a3cbea882573c2a6fb1e",
-        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0108/1124097283/100B_0108_LivingColors-Target_0012_93.3.sbl-ota"
+        "sha512": "a27e68ca11b464a09f52987095e6389edf1e5e512b5d9af28be0a25c1ca57d7d50d68e188e292565339837d46adc3a07fccc6250f4c0214a547cea33ef39e1b6",
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0108/1124097287/100B_0108_LivingColors-Target_0012_93.7.sbl-ota"
     },
     {
         "fileVersion": 1107324829,
@@ -171,12 +171,12 @@
         "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_010F/16781312/100B-010F-01001000-ConfLight-LedStrips_0012.zigbee"
     },
     {
-        "fileVersion": 16785152,
-        "fileSize": 298688,
+        "fileVersion": 16785408,
+        "fileSize": 298884,
         "manufacturerCode": 4107,
         "imageType": 272,
-        "sha512": "011280b146f8327f27bced18f41a32f664662007090428cf860e90df59ab53581431c5a735c3890b02519d40f4ab883e68f1d6c2c8ed3766d78aeea2cf1eea40",
-        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0110/16785152/100B-0110-01001F00-ConfLight-Lamps-EFR32MG13.zigbee"
+        "sha512": "0f8042d7563e1335bbed3b93a501a2006dcc75391badf354ba002c13a8fbed68112dcc8b7f4efb86df1e39ae63a30572243b858a981cb1d81ac262a9d69b06e6",
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0110/16785408/100B-0110-01002000-ConfLight-Lamps-EFR32MG13.zigbee"
     },
     {
         "fileVersion": 16784640,
@@ -187,20 +187,20 @@
         "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0111/16784640/100B-0111-01001D00-ConfLight-ModuLum-EFR32MG13.zigbee"
     },
     {
-        "fileVersion": 16785920,
-        "fileSize": 445742,
+        "fileVersion": 16786176,
+        "fileSize": 445522,
         "manufacturerCode": 4107,
         "imageType": 274,
-        "sha512": "97a149c75e88646c373953a23f84edac4e3951716be37f566f56d35377923a14dad7c3292b5beb886a9c9782fe6c9701f6191d10215f1c412a0fd0ec9a6bbba2",
-        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0112/16785920/100B-0112-01002200-ConfLightBLE-Lamps-EFR32MG13.zigbee"
+        "sha512": "7027c7d150931e7da5d345fec3a21244ca1220aa527c1d62e9a0d9bc37baa14b29acb1f7f7ef80a4f5dd8ee2d18542a4513082fe9e8f86f36f2e61260317a0cd",
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0112/16786176/100B-0112-01002300-ConfLightBLE-Lamps-EFR32MG13.zigbee"
     },
     {
-        "fileVersion": 16784128,
-        "fileSize": 449020,
+        "fileVersion": 16784384,
+        "fileSize": 457738,
         "manufacturerCode": 4107,
         "imageType": 276,
-        "sha512": "f62d6235989428e8c25fdde0e5ac443691c3ad5d1f29eb58cffd34c5d09a59caf4060ef349e9740753bf4299f4880d442bb712df6808fa64fa3c78ad4ba05649",
-        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0114/16784128/100B-0114-01001B00-ConfLightBLE-Lamps-EFR32MG21.zigbee"
+        "sha512": "7cd75864725d39589842251574e039141a312a13c95f7f32f43ce42f386cd4663cab8f5687ea902b561d09362205a67ae4c8cb6a56c8fa6e895c36ebd3ea4e84",
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0114/16784384/100B-0114-01001C00-ConfLightBLE-Lamps-EFR32MG21.zigbee"
     },
     {
         "fileVersion": 16781056,
@@ -790,12 +790,12 @@
         "path": "images/Tuya/ZPS_CS5490_039.ota"
     },
     {
-        "fileVersion": 16784384,
-        "fileSize": 401116,
+        "fileVersion": 16784640,
+        "fileSize": 408362,
         "manufacturerCode": 4107,
         "imageType": 279,
-        "sha512": "67b5cc54b89e06d2c7ff220e64326a8fa09fe78c2df211f4f4bdb70d84bb2ee090da1d38edcafb9c92de4ef2efa80d35e38b57bbf5e36bc308f0a38f3b1ac1d1",
-        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0117/16784384/100B-0117-01001C00-ConfLightBLE-ModuLum-EFR32MG21.zigbee"
+        "sha512": "b8e2229f67de234473837c964ae5836eb4ec44947eb47c9e25ec802b8e5ab0760bdccdd68d3e6029e95df2f528703db096188edf97f1284749ed525004bb9dcc",
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0117/16784640/100B-0117-01001D00-ConfLightBLE-ModuLum-EFR32MG21.zigbee"
     },
     {
         "fileVersion": 26,
@@ -1385,12 +1385,12 @@
         "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0119/33565954/100B-0119-02002D02-Switch-EFR32MG22.zigbee"
     },
     {
-        "fileVersion": 16780550,
-        "fileSize": 383606,
+        "fileVersion": 16781312,
+        "fileSize": 403702,
         "manufacturerCode": 4107,
         "imageType": 280,
-        "sha512": "155e26f95c23ea2dc159afb21d7c429d50658e583ec45ec285c70187748a9c8f3935ddd39a0fd4f786961f710f19ac8389a39619a41197873d417ea5eb14c23e",
-        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0118/16780550/100B-0118-01000D06-PixelLum-EFR32MG21.zigbee"
+        "sha512": "1b22c814883112df1e91a5ed073fbec360b196944fb3dc21f9af220eff4733179938f079f834a24957294448562dbe645eb56affebb4cbd37953c8e447ddeb1c",
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0118/16781312/100B-0118-01001000-PixelLum-EFR32MG21.zigbee"
     },
     {
         "fileVersion": 50,
