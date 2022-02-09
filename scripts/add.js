@@ -24,6 +24,7 @@ const manufacturerNameLookup = {
     4919: 'Datek',
     4447: 'Xiaomi',
     10132: 'ClimaxTechnology',
+    4417: 'Telink',
 };
 
 const main = async () => {
