@@ -1518,5 +1518,14 @@
         "modelId": "lumi.switch.n2acn1",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/OTA_lumi.switch.n2acn1_0.0.0_1548_20211125_D550CC.ota",
         "path": "images/Xiaomi/OTA_lumi.switch.n2acn1_0.0.0_1548_20211125_D550CC.ota"
+    },
+    {
+        "fileVersion": 74,
+        "fileSize": 305986,
+        "manufacturerCode": 4417,
+        "imageType": 54179,
+        "sha512": "3c70afc8d2488c22b7a99ab53cf0250b6aa12b2eb5d703cb819620c07dc10dbdd7fe8e3a2ef63cdaedd9b97d502c71c2c2c199fb05121f977b87a86e8bbe91bb",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Telink/nas_wr01b_plug_OTA_1.0.10.bin",
+        "path": "images/Telink/nas_wr01b_plug_OTA_1.0.10.bin"
     }
 ]
