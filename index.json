@@ -1378,11 +1378,11 @@
         "path": "images/Xiaomi/lumi.switch.n0agl1_20210921_v0022.ota"
     },
     {
-        "fileVersion": 1427,
+        "fileVersion": 3611,
         "fileSize": 292464,
         "manufacturerCode": 4447,
         "imageType": 14976,
-        "sha512": "14cc79a247295b5cadee3794547baab43848a17e6bbef0ce79419352ae8170670db0ecc46ed82ceaf5670647f239fe7c5769183fcd989f9794b4b3a04587d8f3",
+        "sha512": "5e7a1ce3890ba30e293a0e8a2b98da8cb17f1d61eb4f19bee0d364ebc936e4bea9e2cd4cfba4963efa5b488c0650e3838825f2f800d419d472bc6b2e1215abf5",
         "modelId": "lumi.curtain.acn002",
         "url": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.curtain.acn002/20211129095422_OTA_lumi.curtain.acn002_0.0.0_1427_20211124_052557.ota"
     },
