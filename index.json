@@ -1271,14 +1271,13 @@
         "path": "images/Xiaomi/OTA_lumi.airrtc.tcpco2ecn01_OTA_v12.20180828161433.ota"
     },
     {
-        "fileVersion": 27,
-        "fileSize": 242542,
+        "fileVersion": 29,
+        "fileSize": 244350,
         "manufacturerCode": 4447,
         "imageType": 9480,
-        "sha512": "1f218054b403a66e3021b394d0b8d09096391399669e5f6bea6c575e7a4b0dca52200b87a8c9762f4f54808de71080e57916274f74c35c38b14cab4abf253952",
+        "sha512": "6810b06a486f7689c87186e593dfdd6f5e0900ac9da154d515c6dd8881c6688ffbaac82e370940ebf133098f26c9a2df1aaf81b6fe0bc2815ee6ac2958b424d5",
         "modelId": "lumi.airmonitor.acn01",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20211223104612_OTA_lumi.airmonitor.acn01_0.0.0_0027_20211222_3BA1AA.ota",
-        "path": "images/Xiaomi/20211223104612_OTA_lumi.airmonitor.acn01_0.0.0_0027_20211222_3BA1AA.ota"
+        "url": "http://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.airmonitor.acn01/20220222202427_OTA_lumi.airmonitor.acn01_0.0.0_0029_20220222_17EC2C.ota"
     },
     {
         "fileVersion": 7,
