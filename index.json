@@ -105,12 +105,22 @@
         "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0105/1107326256/WhiteLamp-Atmel-Target_0105_5.130.1.30000_0012.sbl-ota"
     },
     {
-        "fileVersion": 1124097283,
+        "minFileVersion": 1107326256,
+        "fileVersion": 1124097287,
         "fileSize": 256696,
         "manufacturerCode": 4107,
         "imageType": 264,
-        "sha512": "e360e33e526efe9df719653e5aee3f9341840becc966edd531b23c881ce61701285470d17c1378b107d746ac1072982aa2edc8d2fa53a3cbea882573c2a6fb1e",
-        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0108/1124097283/100B_0108_LivingColors-Target_0012_93.3.sbl-ota"
+        "sha512": "a27e68ca11b464a09f52987095e6389edf1e5e512b5d9af28be0a25c1ca57d7d50d68e188e292565339837d46adc3a07fccc6250f4c0214a547cea33ef39e1b6",
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0108/1124097287/100B_0108_LivingColors-Target_0012_93.7.sbl-ota"
+    },
+    {
+        "maxFileVersion": 1107326255,
+        "fileVersion": 1107326256,
+        "fileSize": 256632,
+        "manufacturerCode": 4107,
+        "imageType": 264,
+        "sha512": "7d6166daf46ad68275ada764d17d9fde78b364c4ebb0f81664fb8159efc81a225790d5f670e036489be80fa2a9fedf92201990336559d2299c16faeb396a46b6",
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0108/1107326256/LivingColors-Target_0108_5.130.1.30000_0012.sbl-ota"
     },
     {
         "fileVersion": 1107324829,
@@ -171,12 +181,12 @@
         "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_010F/16781312/100B-010F-01001000-ConfLight-LedStrips_0012.zigbee"
     },
     {
-        "fileVersion": 16785152,
-        "fileSize": 298688,
+        "fileVersion": 16785408,
+        "fileSize": 298884,
         "manufacturerCode": 4107,
         "imageType": 272,
-        "sha512": "011280b146f8327f27bced18f41a32f664662007090428cf860e90df59ab53581431c5a735c3890b02519d40f4ab883e68f1d6c2c8ed3766d78aeea2cf1eea40",
-        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0110/16785152/100B-0110-01001F00-ConfLight-Lamps-EFR32MG13.zigbee"
+        "sha512": "0f8042d7563e1335bbed3b93a501a2006dcc75391badf354ba002c13a8fbed68112dcc8b7f4efb86df1e39ae63a30572243b858a981cb1d81ac262a9d69b06e6",
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0110/16785408/100B-0110-01002000-ConfLight-Lamps-EFR32MG13.zigbee"
     },
     {
         "fileVersion": 16784640,
@@ -187,20 +197,20 @@
         "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0111/16784640/100B-0111-01001D00-ConfLight-ModuLum-EFR32MG13.zigbee"
     },
     {
-        "fileVersion": 16785920,
-        "fileSize": 445742,
+        "fileVersion": 16786176,
+        "fileSize": 445522,
         "manufacturerCode": 4107,
         "imageType": 274,
-        "sha512": "97a149c75e88646c373953a23f84edac4e3951716be37f566f56d35377923a14dad7c3292b5beb886a9c9782fe6c9701f6191d10215f1c412a0fd0ec9a6bbba2",
-        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0112/16785920/100B-0112-01002200-ConfLightBLE-Lamps-EFR32MG13.zigbee"
+        "sha512": "7027c7d150931e7da5d345fec3a21244ca1220aa527c1d62e9a0d9bc37baa14b29acb1f7f7ef80a4f5dd8ee2d18542a4513082fe9e8f86f36f2e61260317a0cd",
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0112/16786176/100B-0112-01002300-ConfLightBLE-Lamps-EFR32MG13.zigbee"
     },
     {
-        "fileVersion": 16784128,
-        "fileSize": 449020,
+        "fileVersion": 16784384,
+        "fileSize": 457738,
         "manufacturerCode": 4107,
         "imageType": 276,
-        "sha512": "f62d6235989428e8c25fdde0e5ac443691c3ad5d1f29eb58cffd34c5d09a59caf4060ef349e9740753bf4299f4880d442bb712df6808fa64fa3c78ad4ba05649",
-        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0114/16784128/100B-0114-01001B00-ConfLightBLE-Lamps-EFR32MG21.zigbee"
+        "sha512": "7cd75864725d39589842251574e039141a312a13c95f7f32f43ce42f386cd4663cab8f5687ea902b561d09362205a67ae4c8cb6a56c8fa6e895c36ebd3ea4e84",
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0114/16784384/100B-0114-01001C00-ConfLightBLE-Lamps-EFR32MG21.zigbee"
     },
     {
         "fileVersion": 16781056,
@@ -790,12 +800,12 @@
         "path": "images/Tuya/ZPS_CS5490_039.ota"
     },
     {
-        "fileVersion": 16784384,
-        "fileSize": 401116,
+        "fileVersion": 16784640,
+        "fileSize": 408362,
         "manufacturerCode": 4107,
         "imageType": 279,
-        "sha512": "67b5cc54b89e06d2c7ff220e64326a8fa09fe78c2df211f4f4bdb70d84bb2ee090da1d38edcafb9c92de4ef2efa80d35e38b57bbf5e36bc308f0a38f3b1ac1d1",
-        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0117/16784384/100B-0117-01001C00-ConfLightBLE-ModuLum-EFR32MG21.zigbee"
+        "sha512": "b8e2229f67de234473837c964ae5836eb4ec44947eb47c9e25ec802b8e5ab0760bdccdd68d3e6029e95df2f528703db096188edf97f1284749ed525004bb9dcc",
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0117/16784640/100B-0117-01001D00-ConfLightBLE-ModuLum-EFR32MG21.zigbee"
     },
     {
         "fileVersion": 26,
@@ -981,14 +991,14 @@
         "path": "images/Xiaomi/LM15_SP_aq_V1.3.30_20180724_v30_withCRC.20180724160524.ota"
     },
     {
-        "fileVersion": 90,
-        "fileSize": 186510,
+        "fileVersion": 92,
+        "fileSize": 185918,
         "manufacturerCode": 4447,
         "imageType": 257,
-        "sha512": "1a59b3f409b905562ea6a9b3303cd47185675b7521a5beeb66fbf3e294918145bc73396e72fe907f2819e5c5c9fc453cbd16c618d7385002bd47754395b23494",
+        "sha512": "d9c53f674955832d3b31903cf6f8812791380339cfebd4ffd801638f781ca3fb9d43b74e4bc78d96ce684c23fa3875f7451448ba48e701d6b0a4dbcbb5dcc0e5",
         "modelId": "lumi.plug",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/OTA_lumi.plug_V90_20191220_E2AB53.20200106152408.ota",
-        "path": "images/Xiaomi/OTA_lumi.plug_V90_20191220_E2AB53.20200106152408.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/lumi.plug_20211224_v92.ota",
+        "path": "images/Xiaomi/lumi.plug_20211224_v92.ota"
     },
     {
         "fileVersion": 19,
@@ -1141,14 +1151,14 @@
         "path": "images/Xiaomi/OTA_LM15_LNN_V2.6.22_20180503_neutral1_19ms_DIO19Led.20181011142357.ota"
     },
     {
-        "fileVersion": 92,
-        "fileSize": 190574,
+        "fileVersion": 94,
+        "fileSize": 189854,
         "manufacturerCode": 4447,
         "imageType": 257,
-        "sha512": "908ec6fad40a3aac31099b3e85c5f30c0dc041ec365ffcfe585387c7cadf76fb5d19721a3c4d139bbf85703ea24ce9058b25b976d332b1edf7e29438c202516d",
+        "sha512": "171148adff1671d14dd50e49f022a2e00a3fb59255cc99edac74b6b65890ef77b118846f5a2e3892b937af834357fd1d5dc508acec0492e07553350a7a6798ed",
         "modelId": "lumi.ctrl_ln2.aq1",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/lumi.ctrl_ln2.aq1_20201106_v0092.ota",
-        "path": "images/Xiaomi/lumi.ctrl_ln2.aq1_20201106_v0092.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/lumi.ctrl_ln2.aq1_20211223_v0094.ota",
+        "path": "images/Xiaomi/lumi.ctrl_ln2.aq1_20211223_v0094.ota"
     },
     {
         "fileVersion": 32,
@@ -1161,14 +1171,14 @@
         "path": "images/Xiaomi/LM15_ln2_V1.0.32_20180625_v32.20181008194246.ota"
     },
     {
-        "fileVersion": 92,
-        "fileSize": 188302,
+        "fileVersion": 94,
+        "fileSize": 187630,
         "manufacturerCode": 4447,
         "imageType": 257,
-        "sha512": "da69c9358052d6b58a582558eb92f0b7141e791c563ea143748fd065c4228c9b4b4627c948c69c5dc5481119b621ea2be37dac9f32acb69d0b8cd825881330ab",
+        "sha512": "4c14b4dc098f7e24975ca640e0a36afc1d4d8e3875f31b97730b53b2b5741a8ed62eae889d939c4f1dcff52d90908a0d9a5c21ea42fb79fed8ba36a2ceefaa7d",
         "modelId": "lumi.ctrl_ln1.aq1",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/lumi.ctrl_ln1.aq1_20201206_v0092.ota",
-        "path": "images/Xiaomi/lumi.ctrl_ln1.aq1_20201206_v0092.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/lumi.ctrl_ln1.aq1_20211223_v0094.ota",
+        "path": "images/Xiaomi/lumi.ctrl_ln1.aq1_20211223_v0094.ota"
     },
     {
         "fileVersion": 32,
@@ -1324,7 +1334,8 @@
         "imageType": 396,
         "sha512": "265c02a7dea4dafb22a2d6b539f5691f8464c3a28d557ab9a8e270c03f41c92a3927ace4429c12e17c652dd6aefe5a6612718fe8195d6bff2f8bd9e42dc5fc26",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/OTA_lumi.switch.b2nacn01_0.0.0_0026_20211101_CE93A8.ota",
-        "path": "images/Xiaomi/OTA_lumi.switch.b2nacn01_0.0.0_0026_20211101_CE93A8.ota"
+        "path": "images/Xiaomi/OTA_lumi.switch.b2nacn01_0.0.0_0026_20211101_CE93A8.ota",
+        "modelId": "lumi.switch.b2nacn01"
     },
     {
         "fileVersion": 26,
@@ -1333,16 +1344,18 @@
         "imageType": 268,
         "sha512": "45cc317c491ba0d3cf84d9d16572920009481d9be2527d43be156af8cedb263ebe76320c1e55bcbf114578967efa30d2abec840adfe8394cbc850931c5e4b258",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/OTA_lumi.switch.b1nacn01_0.0.0_0026_20211101_E70B9E.ota",
-        "path": "images/Xiaomi/OTA_lumi.switch.b1nacn01_0.0.0_0026_20211101_E70B9E.ota"
+        "path": "images/Xiaomi/OTA_lumi.switch.b1nacn01_0.0.0_0026_20211101_E70B9E.ota",
+        "modelId": "lumi.switch.b1nacn01"
     },
     {
-        "fileVersion": 38,
-        "fileSize": 287034,
+        "fileVersion": 39,
+        "fileSize": 287646,
         "manufacturerCode": 4447,
         "imageType": 1409,
-        "sha512": "d5e024dc89d1fefeaef63291f01ee9f2261c9ce4f4d329c6b70addb44b34b0453d136aa687a14d785cd2d7e006ef076697652525a44dca2939c8897e16f61956",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20210602140622_lumi.switch.n0acn2_0.0.0_0038_20210524_273333.ota",
-        "path": "images/Xiaomi/20210602140622_lumi.switch.n0acn2_0.0.0_0038_20210524_273333.ota"
+        "sha512": "c830f68703a1556c619000b8b67c055676953d40ac32090f3ca4fa8abc7c30902614a2890dcd926b9e8d496be769e103ef32c40c9dbbc4caec15417d00465de6",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/lumi.switch.n0acn2_0.0.0_0039_20211230_6DCD12.ota",
+        "path": "images/Xiaomi/lumi.switch.n0acn2_0.0.0_0039_20211230_6DCD12.ota",
+        "modelId": "lumi.switch.n0acn2"
     },
     {
         "fileVersion": 18,
@@ -1365,13 +1378,13 @@
         "path": "images/Xiaomi/lumi.switch.n0agl1_20210921_v0022.ota"
     },
     {
-        "fileVersion": 3609,
-        "fileSize": 292944,
+        "fileVersion": 3611,
+        "fileSize": 292464,
         "manufacturerCode": 4447,
         "imageType": 14976,
-        "sha512": "14cc79a247295b5cadee3794547baab43848a17e6bbef0ce79419352ae8170670db0ecc46ed82ceaf5670647f239fe7c5769183fcd989f9794b4b3a04587d8f3",
+        "sha512": "5e7a1ce3890ba30e293a0e8a2b98da8cb17f1d61eb4f19bee0d364ebc936e4bea9e2cd4cfba4963efa5b488c0650e3838825f2f800d419d472bc6b2e1215abf5",
         "modelId": "lumi.curtain.acn002",
-        "url": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.curtain.acn002/20211018181955_OTA_lumi.curtain.acn002_0.0.0_1425_20210519_3B6D0A.ota"
+        "url": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.curtain.acn002/20211129095422_OTA_lumi.curtain.acn002_0.0.0_1427_20211124_052557.ota"
     },
     {
         "fileVersion": 33565954,
@@ -1382,12 +1395,12 @@
         "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0119/33565954/100B-0119-02002D02-Switch-EFR32MG22.zigbee"
     },
     {
-        "fileVersion": 16780550,
-        "fileSize": 383606,
+        "fileVersion": 16781312,
+        "fileSize": 403702,
         "manufacturerCode": 4107,
         "imageType": 280,
-        "sha512": "155e26f95c23ea2dc159afb21d7c429d50658e583ec45ec285c70187748a9c8f3935ddd39a0fd4f786961f710f19ac8389a39619a41197873d417ea5eb14c23e",
-        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0118/16780550/100B-0118-01000D06-PixelLum-EFR32MG21.zigbee"
+        "sha512": "1b22c814883112df1e91a5ed073fbec360b196944fb3dc21f9af220eff4733179938f079f834a24957294448562dbe645eb56affebb4cbd37953c8e447ddeb1c",
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0118/16781312/100B-0118-01001000-PixelLum-EFR32MG21.zigbee"
     },
     {
         "fileVersion": 50,
@@ -1465,5 +1478,64 @@
         "sha512": "58290da7042fbcbc4fa759cd880bd687349025b3c54cbd7f5fc1ce1babd82fa3cccc890d536861b37c21ee7b302148c1e1124cc1ebdde217e3b6709147af5787",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-0012-364203-NLT-54.zigbee",
         "path": "images/Legrand/1021-0012-364203-NLT-54.zigbee"
+    },
+    {
+        "fileVersion": 35,
+        "fileSize": 213662,
+        "manufacturerCode": 4447,
+        "imageType": 8328,
+        "sha512": "41226c10d77a45f5e2481870d71df97777252afd5685cfd8a854ec610034aaf171b686eee1e9ebf9988183ad1b1ced7679785cd34c579de28fee13e8475d6a87",
+        "modelId": "lumi.motion.agl02",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20201214122537_OTA_lumi.motion.agl02_0.0.0_0035_20201113_D1D711.ota",
+        "path": "images/Xiaomi/20201214122537_OTA_lumi.motion.agl02_0.0.0_0035_20201113_D1D711.ota"
+    },
+    {
+        "fileVersion": 26,
+        "fileSize": 215070,
+        "manufacturerCode": 4447,
+        "imageType": 9352,
+        "sha512": "58ba1198607526207377379536cb116082f95d58db3a952623dc8e202cc4e67e0e2bfba225b7f73bfd033477381fa423a05bc4eddd0f0a60edfaae988c7fbc53",
+        "modelId": "lumi.motion.agl04",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20201224182256_OTA_lumi.motion.agl04_0.0.0_0026_20201123_561AD0.ota",
+        "path": "images/Xiaomi/20201224182256_OTA_lumi.motion.agl04_0.0.0_0026_20201123_561AD0.ota"
+    },
+    {
+        "fileVersion": 22,
+        "fileSize": 279518,
+        "manufacturerCode": 4447,
+        "imageType": 6280,
+        "sha512": "1d8c1fe23062b208701cf0de1e9f2d1222d2fb9ceab9c5eaa84796f02dbbde2caa8c0cf9ec0ffe10455e9309bc36b38ee478c933a2a8d04535e521ccada74c74",
+        "modelId": "lumi.switch.b1nc01",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/lumi.switch.b1nc01_v0022.ota",
+        "path": "images/Xiaomi/lumi.switch.b1nc01_v0022.ota"
+    },
+    {
+        "fileVersion": 22,
+        "fileSize": 281118,
+        "manufacturerCode": 4447,
+        "imageType": 6408,
+        "sha512": "4118d82f483fc4b3283131fa7782a26317383d8365e660296337bc835d19ec57efe3ad3537778a68831807a17a2e0414694905a309c64d9fbc68c1177cbf6286",
+        "modelId": "lumi.switch.b2nc01",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/lumi.switch.b2nc01_v0022.ota",
+        "path": "images/Xiaomi/lumi.switch.b2nc01_v0022.ota"
+    },
+    {
+        "fileVersion": 3888,
+        "fileSize": 300232,
+        "manufacturerCode": 4447,
+        "imageType": 2700,
+        "sha512": "a8f95d2b3d0298b04bddb9593db25c42b379084bd517bb4aa36d7bdcd342db9a9de89be6753cce7aa41bbe5951823e3f9631da3fde6e9cd983d290d6ee80a625",
+        "modelId": "lumi.switch.n2acn1",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/OTA_lumi.switch.n2acn1_0.0.0_1548_20211125_D550CC.ota",
+        "path": "images/Xiaomi/OTA_lumi.switch.n2acn1_0.0.0_1548_20211125_D550CC.ota"
+    },
+    {
+        "fileVersion": 74,
+        "fileSize": 305986,
+        "manufacturerCode": 4417,
+        "imageType": 54179,
+        "sha512": "3c70afc8d2488c22b7a99ab53cf0250b6aa12b2eb5d703cb819620c07dc10dbdd7fe8e3a2ef63cdaedd9b97d502c71c2c2c199fb05121f977b87a86e8bbe91bb",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Telink/nas_wr01b_plug_OTA_1.0.10.bin",
+        "path": "images/Telink/nas_wr01b_plug_OTA_1.0.10.bin"
     }
 ]
