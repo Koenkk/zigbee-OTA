@@ -1546,5 +1546,15 @@
         "modelId": "lumi.motion.ac01",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220124174454_OTA_lumi.motion.ac01_0.0.0_0053_20220124_93246C.ota",
         "path": "images/Xiaomi/20220124174454_OTA_lumi.motion.ac01_0.0.0_0053_20220124_93246C.ota"
+    },
+    {
+        "fileVersion": 16,
+        "fileSize": 221902,
+        "manufacturerCode": 4447,
+        "imageType": 9728,
+        "sha512": "cdef26f4a57cc100bbd7bf77ebb0d98c58bbb445d22c3726990ab8ac7809c6a9426c681710b43b79726280c561ebdc91cdf03e0aa4617f4b6ffac6083e1ed337",
+        "modelId": "lumi.sensor_smoke.acn03",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220308121818_OTA_lumi.sensor_smoke.acn03_0.0.0_0016_20202225_4367AB.bin",
+        "path": "images/Xiaomi/20220308121818_OTA_lumi.sensor_smoke.acn03_0.0.0_0016_20202225_4367AB.bin"
     }
 ]
