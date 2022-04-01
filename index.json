@@ -1556,5 +1556,15 @@
         "modelId": "lumi.sensor_smoke.acn03",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220308121818_OTA_lumi.sensor_smoke.acn03_0.0.0_0016_20202225_4367AB.bin",
         "path": "images/Xiaomi/20220308121818_OTA_lumi.sensor_smoke.acn03_0.0.0_0016_20202225_4367AB.bin"
+    },
+    {
+        "fileVersion": 25,
+        "fileSize": 320942,
+        "manufacturerCode": 4447,
+        "imageType": 6024,
+        "sha512": "e47e31cd84c6beff2d6225e6a4049612d48dc1bc4489345264820939bbd1cc6997824f09de27c340a7a3b33a0872a22077dd3865c37bc0ed63668b0c3db2c0e3",
+        "modelId": "lumi.dimmer.rcbac1",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220117102830_OTA_lumi.dimmer.rcbac1_0.0.0_0025_20220114_C70EAF.ota",
+        "path": "images/Xiaomi/20220117102830_OTA_lumi.dimmer.rcbac1_0.0.0_0025_20220114_C70EAF.ota"
     }
 ]
