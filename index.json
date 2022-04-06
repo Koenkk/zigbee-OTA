@@ -1566,5 +1566,15 @@
         "modelId": "lumi.dimmer.rcbac1",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220117102830_OTA_lumi.dimmer.rcbac1_0.0.0_0025_20220114_C70EAF.ota",
         "path": "images/Xiaomi/20220117102830_OTA_lumi.dimmer.rcbac1_0.0.0_0025_20220114_C70EAF.ota"
+    },
+    {
+        "fileVersion": 14,
+        "fileSize": 272814,
+        "manufacturerCode": 4447,
+        "imageType": 6156,
+        "sha512": "cf72fa36c7ab4bde8e77d5cabf4f6cce04d07789933c0b46541ad1fa8a70814c782447c3b8655017c9957f12bf32f7adf52e5d82e4525927e2ced9b8a11ca5be",
+        "modelId": "lumi.sensor_gas.acn02",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220210105858_OTA_lumi.sensor_gas.acn02_0.0.0.0014_20220105_64EC88.ota",
+        "path": "images/Xiaomi/20220210105858_OTA_lumi.sensor_gas.acn02_0.0.0.0014_20220105_64EC88.ota"
     }
 ]
