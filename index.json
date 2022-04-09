@@ -791,18 +791,15 @@
         "path": "images/Tuya/1615190575-si32_zg_uart_connect_sleep_ZS5_ty_OTA_1.1.7.bin"
     },
     {
-        "fileVersion": 2.0.4,
+        "fileVersion": 204,
         "fileSize": 49032,
         "manufacturerCode": 4098,
         "manufacturerName": [
-            // "_TZE200_hue3yfsn",
-            // "_TZE200_hue3yfsn",
             "_TZE200_hue3yfsn"
         ],
         "imageType": 9,
         "sha512": "dae622ddfb009cc189e54629b3df47292b3d5555512cb9e9cf5bb9a66fe95e595f1abcdb1a3349deb914fb0ed59453941d448ea63067750a7269b44db9825764"
         "url": "https://images.tuyaeu.com/smart/firmware/upgrade/ay156144560900410bUk/164155152229641863dfc.bin"
-        // "path": "images/Tuya/xxxxxxxxxxxxxxxxxx.bin"
     },
     {
         "fileVersion": 57,
