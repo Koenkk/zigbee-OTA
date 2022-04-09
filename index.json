@@ -799,7 +799,8 @@
         ],
         "imageType": 9,
         "sha512": "dae622ddfb009cc189e54629b3df47292b3d5555512cb9e9cf5bb9a66fe95e595f1abcdb1a3349deb914fb0ed59453941d448ea63067750a7269b44db9825764"
-        "url": "https://images.tuyaeu.com/smart/firmware/upgrade/ay156144560900410bUk/164155152229641863dfc.bin"
+        "url": "https://images.tuyaeu.com/smart/firmware/upgrade/ay156144560900410bUk/164155152229641863dfc.bin",
+        "path": "images/Tuya/TV02-Zigbee_MCU%20Module_2.0.4_164155152229641863dfc.bin"
     },
     {
         "fileVersion": 57,
