@@ -1588,5 +1588,29 @@
         "modelId": "lumi.sensor_gas.acn02",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220210105858_OTA_lumi.sensor_gas.acn02_0.0.0.0014_20220105_64EC88.ota",
         "path": "images/Xiaomi/20220210105858_OTA_lumi.sensor_gas.acn02_0.0.0.0014_20220105_64EC88.ota"
+    },
+    {
+        "fileVersion": 16785152,
+        "fileSize": 458138,
+        "manufacturerCode": 4107,
+        "imageType": 285,
+        "sha512": "6eb32213b842c3ceba6072e4a9491870b9eae00ecae18ce93411400b4911dcba5bde1d5f914d915626fb6840c48989951e04738b1ce2a6ec2e097516ee403324",
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_011D/16785152/100B-011D-01001F00-ConfLight-ModuLumV2-EFR32MG13.zigbee"
+    },
+    {
+        "fileVersion": 16785152,
+        "fileSize": 435626,
+        "manufacturerCode": 4107,
+        "imageType": 286,
+        "sha512": "fb11af9f62abf48018cb0ed890142caf0567855a26cec9e7dd26460c042ad32aa1a28afceade2d216f950285d98c6385c3b374ce2f4eee24e68e1050030c4da1",
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_011E/16785152/100B-011E-01001F00-ConfLight-PortableV2-EFR32MG13.zigbee"
+    },
+    {
+        "fileVersion": 16784896,
+        "fileSize": 399314,
+        "manufacturerCode": 4107,
+        "imageType": 287,
+        "sha512": "db3854c505d935a3c9af10d1cff977ff21b37904c51692ab7e96b453f489c8340d9066de25c8d5fd6e721501e8ee865bcdd3300a0c3e1819c07939728a0341b4",
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_011F/16784896/100B-011F-01001E00-ConfLightBLE-ModuLumV3-EFR32MG21.zigbee"
     }
 ]
