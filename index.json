@@ -229,6 +229,62 @@
         "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0116/33566472/100B-0116-02002F08-Switch-EFR32MG13.zigbee"
     },
     {
+        "fileVersion": 16784640,
+        "fileSize": 408362,
+        "manufacturerCode": 4107,
+        "imageType": 279,
+        "sha512": "b8e2229f67de234473837c964ae5836eb4ec44947eb47c9e25ec802b8e5ab0760bdccdd68d3e6029e95df2f528703db096188edf97f1284749ed525004bb9dcc",
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0117/16784640/100B-0117-01001D00-ConfLightBLE-ModuLum-EFR32MG21.zigbee"
+    },
+    {
+        "fileVersion": 16781312,
+        "fileSize": 403702,
+        "manufacturerCode": 4107,
+        "imageType": 280,
+        "sha512": "1b22c814883112df1e91a5ed073fbec360b196944fb3dc21f9af220eff4733179938f079f834a24957294448562dbe645eb56affebb4cbd37953c8e447ddeb1c",
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0118/16781312/100B-0118-01001000-PixelLum-EFR32MG21.zigbee"
+    },
+    {
+        "fileVersion": 33565954,
+        "fileSize": 183866,
+        "manufacturerCode": 4107,
+        "imageType": 281,
+        "sha512": "deff3ced9b340b94d3ea181c23c6f5289e3ed0ba068ed235dce19e628f0d509b55c62432b406b06f761d895c65eaed608f3e67054d628d889277713ed510cc1e",
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0119/33565954/100B-0119-02002D02-Switch-EFR32MG22.zigbee"
+    },
+    {
+        "fileVersion": 16779776,
+        "fileSize": 331500,
+        "manufacturerCode": 4107,
+        "imageType": 282,
+        "sha512": "841764c72f1c28055e5be9bcbef58079895f72dfd6e1a5b778a999e9a039ab210d9d1ded1b9adf462531e8639179653b3f227ed2b20e4b0bc6db8ab1e90514dc",
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_011A/16779776/100B-011A-01000A00-SmartPlug-EFR32MG21.zigbee"
+    },
+    {
+        "fileVersion": 16785152,
+        "fileSize": 458138,
+        "manufacturerCode": 4107,
+        "imageType": 285,
+        "sha512": "6eb32213b842c3ceba6072e4a9491870b9eae00ecae18ce93411400b4911dcba5bde1d5f914d915626fb6840c48989951e04738b1ce2a6ec2e097516ee403324",
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_011D/16785152/100B-011D-01001F00-ConfLight-ModuLumV2-EFR32MG13.zigbee"
+    },
+    {
+        "fileVersion": 16785152,
+        "fileSize": 435626,
+        "manufacturerCode": 4107,
+        "imageType": 286,
+        "sha512": "fb11af9f62abf48018cb0ed890142caf0567855a26cec9e7dd26460c042ad32aa1a28afceade2d216f950285d98c6385c3b374ce2f4eee24e68e1050030c4da1",
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_011E/16785152/100B-011E-01001F00-ConfLight-PortableV2-EFR32MG13.zigbee"
+    },
+    {
+        "fileVersion": 16784896,
+        "fileSize": 399314,
+        "manufacturerCode": 4107,
+        "imageType": 287,
+        "sha512": "db3854c505d935a3c9af10d1cff977ff21b37904c51692ab7e96b453f489c8340d9066de25c8d5fd6e721501e8ee865bcdd3300a0c3e1819c07939728a0341b4",
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_011F/16784896/100B-011F-01001E00-ConfLightBLE-ModuLumV3-EFR32MG21.zigbee"
+    },
+    {
         "fileVersion": 3080,
         "fileSize": 232594,
         "manufacturerCode": 4420,
@@ -812,14 +868,6 @@
         "path": "images/Tuya/ZPS_CS5490_039.ota"
     },
     {
-        "fileVersion": 16784640,
-        "fileSize": 408362,
-        "manufacturerCode": 4107,
-        "imageType": 279,
-        "sha512": "b8e2229f67de234473837c964ae5836eb4ec44947eb47c9e25ec802b8e5ab0760bdccdd68d3e6029e95df2f528703db096188edf97f1284749ed525004bb9dcc",
-        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0117/16784640/100B-0117-01001D00-ConfLightBLE-ModuLum-EFR32MG21.zigbee"
-    },
-    {
         "fileVersion": 26,
         "fileSize": 131522,
         "manufacturerCode": 4648,
@@ -875,14 +923,6 @@
         "sha512": "873effaa113e1d07643fbf25f6e26ee4b23f8deb7d006cce7fc490fd8ad7a5754de4c352b6f3d5e172022a34ea2699f5d1d8fda90f4348b25d5feaa169e38c85",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Danfoss/1246-0100-01180118.0002_%28F5BFD8B8%29.ota",
         "path": "images/Danfoss/1246-0100-01180118.0002_(F5BFD8B8).ota"
-    },
-    {
-        "fileVersion": 16779776,
-        "fileSize": 331500,
-        "manufacturerCode": 4107,
-        "imageType": 282,
-        "sha512": "841764c72f1c28055e5be9bcbef58079895f72dfd6e1a5b778a999e9a039ab210d9d1ded1b9adf462531e8639179653b3f227ed2b20e4b0bc6db8ab1e90514dc",
-        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_011A/16779776/100B-011A-01000A00-SmartPlug-EFR32MG21.zigbee"
     },
     {
         "fileVersion": 5,
@@ -1398,22 +1438,6 @@
         "url": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.curtain.acn002/20211129095422_OTA_lumi.curtain.acn002_0.0.0_1427_20211124_052557.ota"
     },
     {
-        "fileVersion": 33565954,
-        "fileSize": 183866,
-        "manufacturerCode": 4107,
-        "imageType": 281,
-        "sha512": "deff3ced9b340b94d3ea181c23c6f5289e3ed0ba068ed235dce19e628f0d509b55c62432b406b06f761d895c65eaed608f3e67054d628d889277713ed510cc1e",
-        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0119/33565954/100B-0119-02002D02-Switch-EFR32MG22.zigbee"
-    },
-    {
-        "fileVersion": 16781312,
-        "fileSize": 403702,
-        "manufacturerCode": 4107,
-        "imageType": 280,
-        "sha512": "1b22c814883112df1e91a5ed073fbec360b196944fb3dc21f9af220eff4733179938f079f834a24957294448562dbe645eb56affebb4cbd37953c8e447ddeb1c",
-        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0118/16781312/100B-0118-01001000-PixelLum-EFR32MG21.zigbee"
-    },
-    {
         "fileVersion": 50,
         "fileSize": 272190,
         "manufacturerCode": 4447,
@@ -1588,29 +1612,5 @@
         "modelId": "lumi.sensor_gas.acn02",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220210105858_OTA_lumi.sensor_gas.acn02_0.0.0.0014_20220105_64EC88.ota",
         "path": "images/Xiaomi/20220210105858_OTA_lumi.sensor_gas.acn02_0.0.0.0014_20220105_64EC88.ota"
-    },
-    {
-        "fileVersion": 16785152,
-        "fileSize": 458138,
-        "manufacturerCode": 4107,
-        "imageType": 285,
-        "sha512": "6eb32213b842c3ceba6072e4a9491870b9eae00ecae18ce93411400b4911dcba5bde1d5f914d915626fb6840c48989951e04738b1ce2a6ec2e097516ee403324",
-        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_011D/16785152/100B-011D-01001F00-ConfLight-ModuLumV2-EFR32MG13.zigbee"
-    },
-    {
-        "fileVersion": 16785152,
-        "fileSize": 435626,
-        "manufacturerCode": 4107,
-        "imageType": 286,
-        "sha512": "fb11af9f62abf48018cb0ed890142caf0567855a26cec9e7dd26460c042ad32aa1a28afceade2d216f950285d98c6385c3b374ce2f4eee24e68e1050030c4da1",
-        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_011E/16785152/100B-011E-01001F00-ConfLight-PortableV2-EFR32MG13.zigbee"
-    },
-    {
-        "fileVersion": 16784896,
-        "fileSize": 399314,
-        "manufacturerCode": 4107,
-        "imageType": 287,
-        "sha512": "db3854c505d935a3c9af10d1cff977ff21b37904c51692ab7e96b453f489c8340d9066de25c8d5fd6e721501e8ee865bcdd3300a0c3e1819c07939728a0341b4",
-        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_011F/16784896/100B-011F-01001E00-ConfLightBLE-ModuLumV3-EFR32MG21.zigbee"
     }
 ]
