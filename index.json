@@ -285,6 +285,14 @@
         "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_011F/16784896/100B-011F-01001E00-ConfLightBLE-ModuLumV3-EFR32MG21.zigbee"
     },
     {
+        "fileVersion": 16784896,
+        "fileSize": 373108,
+        "manufacturerCode": 4107,
+        "imageType": 288,
+        "sha512": "ba895e1e46ec217528fa9fd98e97e20d8e9ac64c8af64dc2212df624f5bcb3b6601d4c8786ff53a32e17ea681062f6fafe71fedec8b86766ea4602274500dfb8",
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0120/16784896/100B-0120-01001E00-ConfLightBLE-PortableV3-EFR32MG21.zigbee"
+    },
+    {
         "fileVersion": 3080,
         "fileSize": 232594,
         "manufacturerCode": 4420,
