@@ -237,12 +237,12 @@
         "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0117/16784640/100B-0117-01001D00-ConfLightBLE-ModuLum-EFR32MG21.zigbee"
     },
     {
-        "fileVersion": 16781312,
-        "fileSize": 403702,
+        "fileVersion": 16781828,
+        "fileSize": 405060,
         "manufacturerCode": 4107,
         "imageType": 280,
-        "sha512": "1b22c814883112df1e91a5ed073fbec360b196944fb3dc21f9af220eff4733179938f079f834a24957294448562dbe645eb56affebb4cbd37953c8e447ddeb1c",
-        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0118/16781312/100B-0118-01001000-PixelLum-EFR32MG21.zigbee"
+        "sha512": "c6e4cd66df7ff631702c6475c5369981a6913b943431e764820952f5a8b08a0d540c365d5ca685ffeb2c95317563d9d3ef57244e69cdf987522d99164452f6e1",
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0118/16781828/100B-0118-01001204-PixelLum-EFR32MG21.zigbee"
     },
     {
         "fileVersion": 33565954,
