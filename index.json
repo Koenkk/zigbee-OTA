@@ -1620,5 +1620,118 @@
         "modelId": "lumi.sensor_gas.acn02",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220210105858_OTA_lumi.sensor_gas.acn02_0.0.0.0014_20220105_64EC88.ota",
         "path": "images/Xiaomi/20220210105858_OTA_lumi.sensor_gas.acn02_0.0.0.0014_20220105_64EC88.ota"
+    },
+    {
+        "fileVersion": 5,
+        "fileSize": 240478,
+        "manufacturerCode": 4151,
+        "imageType": 1,
+        "sha512": "692417e8863827f120cda063850aee65b7b6eb58109d419ff58dced1d7c9251617312368bda0f8488aa26aeb7a8e3642339c7648af24cbff66b870401c9113da",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Eurotronic/ZLinky_router_v5.0.ota",
+        "path": "images/Eurotronic/ZLinky_router_v5.0.ota"
+    },
+    {
+        "fileVersion": 33555200,
+        "fileSize": 121086,
+        "manufacturerCode": 4338,
+        "imageType": 31545,
+        "sha512": "65176b191a5c934be2526fe9307d25fc75b7a93a3ded40f8410f47fbcc0ae5d0e6bdbbf2f9df898898f4c4e75946512127f41b514c5e16029fc7bc993be4060d",
+        "url": "https://www.ubisys.de/wp-content/uploads/10F2-7B39-0000-0004-02000300-spo-fmi4.ota.zigbee"
+    },
+    {
+        "fileVersion": 33620736,
+        "fileSize": 145662,
+        "manufacturerCode": 4338,
+        "imageType": 31537,
+        "sha512": "d60a5c040d80392a241df1b91aac78071ba636e12b17c172d5c33e54765185db6907d40f22a63ae367bdb7fd6fda69b8f8763ff39dd8561652f4237a7ee2762a",
+        "url": "https://www.ubisys.de/wp-content/uploads/10F2-7B31-0000-0006-02010300-spo-fmd.ota.zigbee"
+    },
+    {
+        "fileVersion": 33620736,
+        "fileSize": 145662,
+        "manufacturerCode": 4338,
+        "imageType": 31544,
+        "sha512": "c0dec27a23ec2c76adce316ffd0eb51ef07f2ef6e249dfff809c2e9acc6c38228ef22b2b8b16d229f0ff0cb8fa1c25dde9ccac22471a906f06c82fe7a0ac9eb6",
+        "url": "https://www.ubisys.de/wp-content/uploads/10F2-7B38-0000-0004-02010300-spo-rmd.ota.zigbee"
+    },
+    {
+        "fileVersion": 33555200,
+        "fileSize": 143870,
+        "manufacturerCode": 4338,
+        "imageType": 31540,
+        "sha512": "8b7730e291f20573b2d2c00ec1862a905c5a4d53d0db27710895ad77624fa624cc9e541948a71ab87f9c738cdbf0585f756e52e224748808f3636ca4549aeb1d",
+        "url": "https://www.ubisys.de/wp-content/uploads/10F2-7B34-0000-0007-02000300-spo-fmsh.ota.zigbee"
+    },
+    {
+        "fileVersion": 33555200,
+        "fileSize": 143870,
+        "manufacturerCode": 4338,
+        "imageType": 31543,
+        "sha512": "301bd6c9ed976b368db7267f737ff9ab32f1d861e5fdd36bb342763272854f3cb4c3436c89e14cc6563e2b2d0f6329c04975043b18fed7d71dff6add0291cbe8",
+        "url": "https://www.ubisys.de/wp-content/uploads/10F2-7B37-0000-0004-02000300-spo-rmsh.ota.zigbee"
+    },
+    {
+        "fileVersion": 33686272,
+        "fileSize": 116222,
+        "manufacturerCode": 4338,
+        "imageType": 31546,
+        "sha512": "fa0cced6c5f003601885ff104f9e7306a642083c089a89c00eb7e4f1bafb738608fa2907b1cf6c62f611e9c5df058c2d6bf1b93eca8079443d9e12570ab20bb7",
+        "url": "https://www.ubisys.de/wp-content/uploads/10F2-7B3A-0000-0005-02020300-m7b-r0.ota.zigbee"
+    },
+    {
+        "fileVersion": 33555200,
+        "fileSize": 141566,
+        "manufacturerCode": 4338,
+        "imageType": 31538,
+        "sha512": "27cdc8a0011a73790306a1a484974f7dfe3c12ee91964a0b31534827864e52b61f8b4987a1c0c590fba2b7f4aa039d01cdca1e899a15cf93e178ce38230eef8e",
+        "url": "https://www.ubisys.de/wp-content/uploads/10F2-7B32-0002-0007-02000300-spo-fms.ota.zigbee"
+    },
+    {
+        "fileVersion": 33555200,
+        "fileSize": 141566,
+        "manufacturerCode": 4338,
+        "imageType": 31541,
+        "sha512": "a4393cac18523c75c0c1621ce7b113d82bd81d5308044fe843b2f7d6e876d1440ac9154590c720ae0673b7feb2fc1202dfa75f11ea4cb4088d3956ae7af8ad50",
+        "url": "https://www.ubisys.de/wp-content/uploads/10F2-7B35-0000-0004-02000300-spo-rms.ota.zigbee"
+    },
+    {
+        "fileVersion": 33555200,
+        "fileSize": 141310,
+        "manufacturerCode": 4338,
+        "imageType": 31539,
+        "sha512": "591f79fbe2a3b1c735b6e5a232feb73e780b059b6d22bd9a4e0a728f5bd73b72be5358432ee93de28dca6819c2ff590de89ee9319a3d4e83e3869ea33b4f9055",
+        "url": "https://www.ubisys.de/wp-content/uploads/10F2-7B33-0000-0006-02000300-spo-fms2.ota.zigbee"
+    },
+    {
+        "fileVersion": 33555200,
+        "fileSize": 141310,
+        "manufacturerCode": 4338,
+        "imageType": 31542,
+        "sha512": "e0409ed8e5e990ef1a1ce3b325ef1ed1d09c5bac9c59d9d08613656b0ada307b97c0e4be34e94bcb0c022c9a7b017e62da7bd1a59b6198ac37ee91125f20ca2c",
+        "url": "https://www.ubisys.de/wp-content/uploads/10F2-7B36-0000-0004-02000300-spo-rms2.ota.zigbee"
+    },
+    {
+        "fileVersion": 33555200,
+        "fileSize": 149246,
+        "manufacturerCode": 4338,
+        "imageType": 31547,
+        "sha512": "ccc153ea31a14dffd1ad5924bb28a6e6d116e4b986e02339a107cf88d6b41e329c615487d26d0d1770c50751e13b5d76f8b504af691039716fe723fc0f8f5d83",
+        "url": "https://www.ubisys.de/wp-content/uploads/10F2-7B3B-0000-0001-02000300-m7b-h10.ota.zigbee"
+    },
+    {
+        "fileVersion": 16843520,
+        "fileSize": 186366,
+        "manufacturerCode": 4338,
+        "imageType": 31532,
+        "sha512": "d771a000a594c186f6fc5957070246267e76c44bd2696e4b47eb8dbc89fa8fba95747eb04941df35d73ab017eb929c3a79091d6cdf0c7cc1d12580318f6a3309",
+        "url": "https://www.ubisys.de/wp-content/uploads/10F2-7B2C-0000-0001-01010300-ld6.ota.zigbee"
+    },
+    {
+        "fileVersion": 18612992,
+        "fileSize": 171518,
+        "manufacturerCode": 4338,
+        "imageType": 31501,
+        "sha512": "4c025450a7ee6e7102b7b42a4e82163be44eeb731757959e28bed550bcc5f9dbeaab819dab37d7d815766a0bbc5b78de1986892cdf13b134ac7f2bd6dcdf72b8",
+        "url": "https://www.ubisys.de/wp-content/uploads/10F2-7B0D-0000-0001-011C0300-m7b-h1.ota.zigbee"
     }
 ]
