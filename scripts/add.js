@@ -18,7 +18,7 @@ const manufacturerNameLookup = {
     4364: 'Osram',
     4648: 'Terncy',
     4098: 'Tuya',
-    4151: 'Eurotronic',
+    4151: 'Jennic',
     4678: 'Danfoss',
     4687: 'Gledopto',
     4919: 'Datek',
