@@ -1340,6 +1340,15 @@
         "url": "http://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.airmonitor.acn01/20220222202427_OTA_lumi.airmonitor.acn01_0.0.0_0029_20220222_17EC2C.ota"
     },
     {
+        "fileVersion": 23,
+        "fileSize": 287666,
+        "manufacturerCode": 4447,
+        "imageType": 6169,
+        "sha512": "33628a75e7b8ce56a0abbead156769a015889157118798f747e5324d906317453f01c4dcbcff357ff74d8f5fb019449f102d36e55f42b985347e1bd8d53eb476",
+        "modelId": "lumi.switch.n0agl1",
+        "url": "http://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.switch.n0agl1/20220121143603_lumi.switch.n0agl1_0.0.0.0023_20211230_0717A1.ota"
+    },
+    {
         "fileVersion": 7,
         "fileSize": 291702,
         "manufacturerCode": 4687,
