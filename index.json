@@ -1741,5 +1741,32 @@
         "imageType": 31501,
         "sha512": "4c025450a7ee6e7102b7b42a4e82163be44eeb731757959e28bed550bcc5f9dbeaab819dab37d7d815766a0bbc5b78de1986892cdf13b134ac7f2bd6dcdf72b8",
         "url": "https://www.ubisys.de/wp-content/uploads/10F2-7B0D-0000-0001-011C0300-m7b-h1.ota.zigbee"
+    },
+    {
+        "fileVersion": 352399361,
+        "fileSize": 212770,
+        "manufacturerCode": 4687,
+        "imageType": 5145,
+        "sha512": "e6fdd4dc6ff83d019c35b41fdba2a610363980f4c11adef86d09cbf6fdfa5889bbf01ee4c330dce9eba1eb1cc9fcf37c44447ca06321699d281ff2cd3cb44a4e",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Gledopto/GL-C-002P_V105_20220419%281%29.ota",
+        "path": "images/Gledopto/GL-C-002P_V105_20220419(1).ota"
+    },
+    {
+        "fileVersion": 352399361,
+        "fileSize": 209138,
+        "manufacturerCode": 4687,
+        "imageType": 5202,
+        "sha512": "64df9200d6f1a48c8561dd6bfb8b0949fcb0b30a87c740674205e9a0f383844d66686479ed7480076a6ea3cd3c42fe4f1c7af55356132fdc9d4c571096604696",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Gledopto/GL-D-004P_V105_20220427%281%29.ota",
+        "path": "images/Gledopto/GL-D-004P_V105_20220427(1).ota"
+    },
+    {
+        "fileVersion": 352399361,
+        "fileSize": 209138,
+        "manufacturerCode": 4687,
+        "imageType": 5205,
+        "sha512": "8d51a793c2591aa494cda1bfe16eb5095bebdd1338604222c0ca5ac44006959ee740692eb193c8416c92d6607602a741745ec3f76b8ed1dabea3d548685bdcf3",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Gledopto/GL-D-007P_V105_20220418%281%29.ota",
+        "path": "images/Gledopto/GL-D-007P_V105_20220418(1).ota"
     }
 ]
