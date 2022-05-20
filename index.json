@@ -1768,5 +1768,14 @@
         "sha512": "8d51a793c2591aa494cda1bfe16eb5095bebdd1338604222c0ca5ac44006959ee740692eb193c8416c92d6607602a741745ec3f76b8ed1dabea3d548685bdcf3",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Gledopto/GL-D-007P_V105_20220418%281%29.ota",
         "path": "images/Gledopto/GL-D-007P_V105_20220418(1).ota"
+    },
+    {
+        "fileVersion": 4353,
+        "fileSize": 131086,
+        "manufacturerCode": 4742,
+        "imageType": 1,
+        "sha512": "b136d2656ea1197ae84f5e9c2244a9d9697bccab2c448324d9176bac791aff0161afc73c8a1574bbd51c0ea2e318840ca58a0a99da32669d3e5fc776bdf3473a",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sonoff/zbmini-l_v1.1.1.ota",
+        "path": "images/Sonoff/zbmini-l_v1.1.1.ota"
     }
 ]
