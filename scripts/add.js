@@ -26,6 +26,7 @@ const manufacturerNameLookup = {
     10132: 'ClimaxTechnology',
     4417: 'Telink',
     4338: 'ubisys',
+    4742: 'Sonoff',
 };
 
 const main = async () => {
