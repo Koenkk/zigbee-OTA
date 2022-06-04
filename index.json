@@ -914,14 +914,14 @@
         "path": "images/Gledopto/GL-FL-006P_V14_OTAV4_20210119_100%.ota"
     },
     {
-        "fileVersion": 7,
-        "fileSize": 291702,
+        "fileVersion": 18,
+        "fileSize": 291770,
         "manufacturerCode": 4687,
         "imageType": 0,
-        "sha512": "8eb197dc7e6f92afca457ce585e754ac3bf39e53cfb3f2e2433bf6317c51e0987cfe9224db046bf24522069651a85defe3bf62531c9eb4f2955b402ab55e9002",
+        "sha512": "a75787b319a84cc595ec3eaf1c3912100c62c4bc1102c0768852e4e73bd469cfaae9eb4164a91043d52ed45802ce285cd03e688bae0960f5ae366b7616cedbcf",
         "modelId": "GL-C-008P",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Gledopto/GL-C-008P_V17A1_OTAV7_20210303--V1-4.ota",
-        "path": "images/Gledopto/GL-C-008P_V17A1_OTAV7_20210303--V1-4.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Gledopto/GL-C-008P_V11076802.ota",
+        "path": "images/Gledopto/GL-C-008P_V11076802.ota"
     },
     {
         "fileVersion": 274,
