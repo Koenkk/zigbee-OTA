@@ -1787,5 +1787,15 @@
         "modelId": "lumi.curtain.aq2",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220212141304_OTA_lumi.curtain.aq2_0.0.0_0033_20220124_2C69FB.ota",
         "path": "images/Xiaomi/20220212141304_OTA_lumi.curtain.aq2_0.0.0_0033_20220124_2C69FB.ota"
+    },
+    {
+        "fileVersion": 18,
+        "fileSize": 291802,
+        "manufacturerCode": 4687,
+        "imageType": 0,
+        "modelId": "GL-G-001P",
+        "sha512": "111b3620c7bc4f989d9814ed35b968708048f445cf87d04a2432c460ff7892001c18e9f899d7504916a2005d99fd116751fc4c6cee65db80c29d297cfbbe5a84",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Gledopto/GL-G-001P_V11076801_OTAV12_20211028.ota",
+        "path": "images/Gledopto/GL-G-001P_V11076801_OTAV12_20211028.ota"
     }
 ]
