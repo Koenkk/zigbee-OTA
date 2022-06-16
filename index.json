@@ -1591,14 +1591,14 @@
         "path": "images/Telink/nas_wr01b_plug_OTA_1.0.10.bin"
     },
     {
-        "fileVersion": 53,
-        "fileSize": 317370,
+        "fileVersion": 54,
+        "fileSize": 317658,
         "manufacturerCode": 4447,
         "imageType": 8347,
-        "sha512": "2d7c7c0d3f3e58dbe2fd5a14224fb7bfcfa51c0763b9d7c3ff3203ab1b8b9ea832b1d619480e660c41d26d9860fbf27ad469670a4b2da424bf929f5f17577e25",
+        "sha512": "32174d5bc4abbb7295e7619a1684b0a37a9622dfc4cebbc6a39174e18fa3b9bde9b562cbb34e1eb9c61169c0f1f879245d4e452890dfc0645cd22e6ad36f468d",
         "modelId": "lumi.motion.ac01",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220124174454_OTA_lumi.motion.ac01_0.0.0_0053_20220124_93246C.ota",
-        "path": "images/Xiaomi/20220124174454_OTA_lumi.motion.ac01_0.0.0_0053_20220124_93246C.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220524105221_OTA_lumi.motion.ac01_0.0.0_0054_20220509_EB279B.ota",
+        "path": "images/Xiaomi/20220524105221_OTA_lumi.motion.ac01_0.0.0_0054_20220509_EB279B.ota"
     },
     {
         "fileVersion": 16,
