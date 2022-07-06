@@ -311,13 +311,13 @@
         "url": "http://fds.dc1.philips.com/firmware/ZGB_1144_0000/3080/Superman_v3_08_ProdKey_3080.ota"
     },
     {
-        "fileVersion": 537919648,
-        "fileSize": 197247,
+        "fileVersion": 537919733,
+        "fileSize": 202911,
         "manufacturerCode": 4405,
         "imageType": 0,
-        "sha512": "b8918dac641a07ede90529c33d6b811755a28cc75829263f5a0782e247e15613c4343947d5d006061be4fd93ebdc93df460e12bb5ae13092f41f3425586c98d1",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/DresdenElektronik/1135-0000-201000A0-FLS-PP3_RGBW.zigbee",
-        "path": "images/DresdenElektronik/1135-0000-201000A0-FLS-PP3_RGBW.zigbee"
+        "sha512": "5aa0a6156c8fe672b0fdfcc6e97bb21244cc5497ca86b75c2d371db85c0712334f88886a0903723f9230c21c6f3ee3a19a0e6ebdcdfc2ac5390fd4c8830be402",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/DresdenElektronik/1135-0000-201000F5-FLS-PP3_RGBW_16Mhz.zigbee",
+        "path": "images/DresdenElektronik/1135-0000-201000F5-FLS-PP3_RGBW_16Mhz.zigbee"
     },
     {
         "fileVersion": 36832016,
