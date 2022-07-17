@@ -1816,5 +1816,15 @@
         "modelId": "lumi.motion.ac02",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220615162122_OTA_lumi.motion.ac02_JN5189_0.0.0_0006_20220609_d7a08b.ota",
         "path": "images/Xiaomi/20220615162122_OTA_lumi.motion.ac02_JN5189_0.0.0_0006_20220609_d7a08b.ota"
+    },
+    {
+        "fileVersion": 17,
+        "fileSize": 186494,
+        "manufacturerCode": 4447,
+        "imageType": 257,
+        "sha512": "391074dec14591fea2f947701c75908c21802430c45a902109f698601136ac9f591373d180b25edc27c44a45f683ff373f101387047bfb100d700a9f1e847afa",
+        "modelId": "lumi.plug.maus01",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220104175358_OTA_lumi.plug.maus01_0.0.0_0017_20211224_83991F.ota",
+        "path": "images/Xiaomi/20220104175358_OTA_lumi.plug.maus01_0.0.0_0017_20211224_83991F.ota"
     }
 ]
