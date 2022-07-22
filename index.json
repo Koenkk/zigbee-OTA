@@ -80,12 +80,12 @@
     },
     {
         "minFileVersion": 1107326256,
-        "fileVersion": 1124096001,
-        "fileSize": 256696,
+        "fileVersion": 1107326256,
+        "fileSize": 256632,
         "manufacturerCode": 4107,
         "imageType": 260,
-        "sha512": "39d64d99d718c82aa9874fb544497955b6cdbe7bff60bef19740c811a5af14eb02864f4a76ac01b7619882f317d4058f30b5b729fedb1789b564103bac7ac58c",
-        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0104/1124096001/Atmel_0104_ConnectedLamp-Target_0012_88.1.sbl-ota"
+        "sha512": "d2bf330b9a23114efb6a613ccefce691e4a67a98175033e65d3eaf6841312b5a542bd538ae19c06c3804aa06224d35acc184f4b37a6198b457df2a173a490f21",
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0104/1107326256/ConnectedLamp-Atmel_0104_5.130.1.30000_0012.sbl-ota"
     },
     {
         "maxFileVersion": 1107326255,
@@ -106,12 +106,12 @@
     },
     {
         "minFileVersion": 1107326256,
-        "fileVersion": 1124097287,
-        "fileSize": 256696,
+        "fileVersion": 1107326256,
+        "fileSize": 256632,
         "manufacturerCode": 4107,
         "imageType": 264,
-        "sha512": "a27e68ca11b464a09f52987095e6389edf1e5e512b5d9af28be0a25c1ca57d7d50d68e188e292565339837d46adc3a07fccc6250f4c0214a547cea33ef39e1b6",
-        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0108/1124097287/100B_0108_LivingColors-Target_0012_93.7.sbl-ota"
+        "sha512": "7d6166daf46ad68275ada764d17d9fde78b364c4ebb0f81664fb8159efc81a225790d5f670e036489be80fa2a9fedf92201990336559d2299c16faeb396a46b6",
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0108/1107326256/LivingColors-Target_0108_5.130.1.30000_0012.sbl-ota"
     },
     {
         "maxFileVersion": 1107326255,
@@ -140,12 +140,12 @@
     },
     {
         "minFileVersion": 16783874,
-        "fileVersion": 16785664,
-        "fileSize": 267644,
+        "fileVersion": 16783874,
+        "fileSize": 267452,
         "manufacturerCode": 4107,
         "imageType": 268,
-        "sha512": "efa1c94c60896468624c3f699bc2a1986c4667e5fe6512ecd7db722799be898f634144825035280e62becda576d8571fc22a421e553adc57b454f099c479fa93",
-        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_010C/16785664/100B-010C-01002100-ConfLight-Lamps_0012.zigbee"
+        "sha512": "c4591fe155bef8500779c36c7792f3960c4f83dde9dd47aa367113229c5bd73161f14cc92e6d6a0960e807c54626ce2ab0ce0d18c76d0206770dcda3a4776862",
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_010C/16783874/100B-010C-01001A02-ConfLight-Lamps_0012.zigbee"
     },
     {
         "maxFileVersion": 16783873,
@@ -166,12 +166,12 @@
     },
     {
         "minFileVersion": 16783620,
-        "fileVersion": 16785152,
-        "fileSize": 271114,
+        "fileVersion": 16783620,
+        "fileSize": 271050,
         "manufacturerCode": 4107,
         "imageType": 270,
-        "sha512": "9639556342d4c7210bc57a4a71655a6f16804b207542fe4558cd40b0b26758488a6adbbd4fd7d4d6390d2a153ae1fc5c45b9f3cc07bd98ce6aeb66f7be228b6f",
-        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_010E/16785152/100B-010E-01001F00-ConfLight-ModuLum_0012.zigbee"
+        "sha512": "5843552ab361d2d063e36be24785afcb8af34491ae721c2426da6afec94967acd4005d5e2abfcca5ebd10f3c9e39656524775b50cef115f67c3f636b9609d3c2",
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_010E/16783620/100B-010E-01001904-ConfLight-ModuLum_0012.zigbee"
     },
     {
         "maxFileVersion": 16783619,
@@ -1826,5 +1826,14 @@
         "modelId": "lumi.plug.maus01",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220104175358_OTA_lumi.plug.maus01_0.0.0_0017_20211224_83991F.ota",
         "path": "images/Xiaomi/20220104175358_OTA_lumi.plug.maus01_0.0.0_0017_20211224_83991F.ota"
+    },
+    {
+        "fileVersion": 10205,
+        "fileSize": 224634,
+        "manufacturerCode": 4098,
+        "imageType": 0,
+        "sha512": "17357f99b497d42ea28e6c0ec994fea250cbcd27c833e730876efdbef4f2764fb796500cc3ee532135f067634ae94c0b2bb6da59871a6c3a612fec668e350a2d",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Tuya/home_control_as_hc_slm_1_00.02.zigbee",
+        "path": "images/Tuya/home_control_as_hc_slm_1_00.02.zigbee"
     }
 ]
