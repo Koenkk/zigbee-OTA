@@ -1826,5 +1826,15 @@
         "modelId": "lumi.plug.maus01",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220104175358_OTA_lumi.plug.maus01_0.0.0_0017_20211224_83991F.ota",
         "path": "images/Xiaomi/20220104175358_OTA_lumi.plug.maus01_0.0.0_0017_20211224_83991F.ota"
+    },
+    {
+        "fileVersion": 10205,
+        "fileSize": 224634,
+        "manufacturerCode": 4098,
+        "modelId": "HC-SLM-1",
+        "imageType": 0,
+        "sha512": "17357f99b497d42ea28e6c0ec994fea250cbcd27c833e730876efdbef4f2764fb796500cc3ee532135f067634ae94c0b2bb6da59871a6c3a612fec668e350a2d",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Tuya/home_control_as_hc_slm_1_00.02.zigbee",
+        "path": "images/Tuya/home_control_as_hc_slm_1_00.02.zigbee"
     }
 ]
