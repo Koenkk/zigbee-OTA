@@ -877,6 +877,18 @@
         "path": "images/Tuya/TV02-Zigbee_MCU_Module_2.0.4_164155152229641863dfc.bin"
     },
     {
+        "fileVersion": 69,
+        "fileSize": 274398,
+        "manufacturerCode": 4098,
+        "manufacturerName": [
+            "_TZ3000_cphmq0q7"
+        ],
+        "imageType": 5634,
+        "sha512": "d8a74b382adae13cc47ee4632f642511887f2efb9a82dadd84f374aeb8f6b50b53796799ff2272b0ee06c6104868197a7d3e724f3cb9ccb7d3415c8976ce9e11",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Tuya/1628482144-oem_si32_zg_mg21_measure_plug_OTA_1.0.5.bin",
+        "path": "images/Tuya/1628482144-oem_si32_zg_mg21_measure_plug_OTA_1.0.5.bin"
+    },
+    {
         "fileVersion": 57,
         "fileSize": 155646,
         "manufacturerCode": 4098,
