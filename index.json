@@ -969,14 +969,14 @@
         "path": "images/Xiaomi/OTA_lumi_switch_l3acn3_0_0_0_0027_20200619_283DA8_20200702151504.ota"
     },
     {
-        "fileVersion": 62,
-        "fileSize": 190302,
+        "fileVersion": 66,
+        "fileSize": 189374,
         "manufacturerCode": 4447,
         "imageType": 257,
-        "sha512": "ae207109dfd2afe1e85079d87cb39ace45c3d00392dba09d65ce38104570d805ade1591fd149ed810f98bd9d1c6636e772ff0cbcc1ec9444f67f48c51e912424",
+        "sha512": "5e1f09ef670a25902760c951d88ea417a3ddb888f18330355d04c9a61776a4b8551275d7488f9beecc81767cfc2726c7bcb8c26f198c10f0247eeb1d89f9d752",
         "modelId": "lumi.switch.b2nacn02",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/OTA_lumi.switch.b2nacn02_0.0.0_0062_20200827_3282B0.20200831122819.ota",
-        "path": "images/Xiaomi/OTA_lumi.switch.b2nacn02_0.0.0_0062_20200827_3282B0.20200831122819.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220106191002_OTA_lumi.switch.b2nacn02_0.0.0_0066_20211223_7588AC.ota",
+        "path": "images/Xiaomi/20220106191002_OTA_lumi.switch.b2nacn02_0.0.0_0066_20211223_7588AC.ota"
     },
     {
         "fileVersion": 18,
@@ -1119,14 +1119,14 @@
         "path": "images/Xiaomi/OTA_lumi.light.cwopcn01_V25_20200328_86DF8E.20200702155802.ota"
     },
     {
-        "fileVersion": 32,
-        "fileSize": 199550,
+        "fileVersion": 34,
+        "fileSize": 200446,
         "manufacturerCode": 4447,
         "imageType": 257,
-        "sha512": "0d3bc193aca543a6e4e0f40745d35d0e6e6200ae77241366c2040052cc2f2c801b6625fb59a0a83624ae4fcec1f4e08c044653997d4da23a274589ca99fe69fa",
+        "sha512": "1c7f550fd7318778b9bb53d8296f108e0fade70a34b0735964bdfa22efd87c987c39a7a89e48cf9d360a6eb0b8def6fe3c2ea5d36f11de9ffc7c648a05f5d312",
         "modelId": "lumi.light.aqcn02",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/lumi.light.aqcn02_32.ota",
-        "path": "images/Xiaomi/lumi.light.aqcn02_32.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220402154955_OTA_lumi.light.aqcn02_0.0.0_34_20220331_2215F2.ota",
+        "path": "images/Xiaomi/20220402154955_OTA_lumi.light.aqcn02_0.0.0_34_20220331_2215F2.ota"
     },
     {
         "fileVersion": 18,
@@ -1279,14 +1279,14 @@
         "path": "images/Xiaomi/OTA_withCRC_LMES_Dimmer3Controller_V1.2.30_20170801.20170818101543.ota"
     },
     {
-        "fileVersion": 92,
-        "fileSize": 189998,
+        "fileVersion": 93,
+        "fileSize": 189598,
         "manufacturerCode": 4447,
         "imageType": 257,
-        "sha512": "cca422035718dbe1718863c1294f9b55ab856af719fe3458a3f48f3845431d7adeb59090b54a5af1e601e79f0ae799fe2bd428e1866578d37b58e3cd537a82a2",
+        "sha512": "9f5bab3b3c7607ac939e9e38c99573c00a3d62b90b44598a2324dfc28ea6144501033cfaf10681f356f781df08efe6522e4d070dcac92ca22291dc25f0e7b09d",
         "modelId": "lumi.ctrl_86plug.aq1",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/OTA_lumi.ctrl_86plug.aq1_V92_20200320_A6E461.20200323114330.ota",
-        "path": "images/Xiaomi/OTA_lumi.ctrl_86plug.aq1_V92_20200320_A6E461.20200323114330.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220105120039_OTA_lumi.ctrl_86plug.aq1_0.0.0_0093_20211224_EFFE2B.ota",
+        "path": "images/Xiaomi/20220105120039_OTA_lumi.ctrl_86plug.aq1_0.0.0_0093_20211224_EFFE2B.ota"
     },
     {
         "fileVersion": 11,
@@ -1335,7 +1335,8 @@
         "imageType": 9480,
         "sha512": "6810b06a486f7689c87186e593dfdd6f5e0900ac9da154d515c6dd8881c6688ffbaac82e370940ebf133098f26c9a2df1aaf81b6fe0bc2815ee6ac2958b424d5",
         "modelId": "lumi.airmonitor.acn01",
-        "url": "http://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.airmonitor.acn01/20220222202427_OTA_lumi.airmonitor.acn01_0.0.0_0029_20220222_17EC2C.ota"
+        "url":"https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220222202427_OTA_lumi.airmonitor.acn01_0.0.0_0029_20220222_17EC2C.ota",
+        "path":"images/Xiaomi/20220222202427_OTA_lumi.airmonitor.acn01_0.0.0_0029_20220222_17EC2C.ota"
     },
     {
         "fileVersion": 23,
@@ -1344,7 +1345,8 @@
         "imageType": 6169,
         "sha512": "33628a75e7b8ce56a0abbead156769a015889157118798f747e5324d906317453f01c4dcbcff357ff74d8f5fb019449f102d36e55f42b985347e1bd8d53eb476",
         "modelId": "lumi.switch.n0agl1",
-        "url": "http://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.switch.n0agl1/20220121143603_lumi.switch.n0agl1_0.0.0.0023_20211230_0717A1.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220121143603_lumi.switch.n0agl1_0.0.0.0023_20211230_0717A1.ota",
+        "path": "images/Xiaomi/20220121143603_lumi.switch.n0agl1_0.0.0.0023_20211230_0717A1.ota"
     },
     {
         "fileVersion": 7,
@@ -1434,23 +1436,14 @@
         "path": "images/Gledopto/GL-D-005P_V11076801_OTAV12_20211108_60%.ota"
     },
     {
-        "fileVersion": 22,
-        "fileSize": 287046,
-        "manufacturerCode": 4447,
-        "imageType": 6169,
-        "sha512": "72fb5f32ce8497dc427661c2d5e7cd9d35652a1bdc0dc17592065346f40a9378a4abc1a0089ab1938f50697332d77e8326da016e0db70bd7006fb48a0e931205",
-        "modelId": "lumi.switch.n0agl1",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/lumi.switch.n0agl1_20210921_v0022.ota",
-        "path": "images/Xiaomi/lumi.switch.n0agl1_20210921_v0022.ota"
-    },
-    {
-        "fileVersion": 3611,
-        "fileSize": 292464,
+        "fileVersion": 3869,
+        "fileSize": 296320,
         "manufacturerCode": 4447,
         "imageType": 14976,
-        "sha512": "5e7a1ce3890ba30e293a0e8a2b98da8cb17f1d61eb4f19bee0d364ebc936e4bea9e2cd4cfba4963efa5b488c0650e3838825f2f800d419d472bc6b2e1215abf5",
+        "sha512": "978ce43adbeda1067d98313cdea390637c60969564bee8c5d0d7d4160729dccf034c8b0a458100c38cd5b98eb522a231ec7f089a1c6e91d8235e938537080b10",
         "modelId": "lumi.curtain.acn002",
-        "url": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.curtain.acn002/20211129095422_OTA_lumi.curtain.acn002_0.0.0_1427_20211124_052557.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220728181102_OTA_lumi.curtain.acn002_0.0.0_1529_20220720_47B747.ota",
+        "path": "images/Xiaomi/20220728181102_OTA_lumi.curtain.acn002_0.0.0_1529_20220720_47B747.ota"
     },
     {
         "fileVersion": 50,
@@ -1824,5 +1817,125 @@
         "sha512": "17357f99b497d42ea28e6c0ec994fea250cbcd27c833e730876efdbef4f2764fb796500cc3ee532135f067634ae94c0b2bb6da59871a6c3a612fec668e350a2d",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Tuya/home_control_as_hc_slm_1_00.02.zigbee",
         "path": "images/Tuya/home_control_as_hc_slm_1_00.02.zigbee"
+    },
+    {
+        "fileVersion": 32,
+        "fileSize": 268222,
+        "manufacturerCode": 4447,
+        "imageType": 528,
+        "sha512": "5c0ef08e8a09d8611d05f9816556f92aaf142854a36564f44a8583928fb87ad4d6870080fde39d29a0daca8f767ddc7382de23b9689a1a9c8baa86f85e62d0af",
+        "modelId": "lumi.switch.b1laus01",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/OTA_lumi.switch.b1laus01_0.0.0_0032_20200609_0C501F.20200811124320.ota",
+        "path": "images/Xiaomi/OTA_lumi.switch.b1laus01_0.0.0_0032_20200609_0C501F.20200811124320.ota"
+    },
+    {
+        "fileVersion": 32,
+        "fileSize": 270014,
+        "manufacturerCode": 4447,
+        "imageType": 656,
+        "sha512": "07666cf47deba2f10574cc52a39e7855fb3961d52272b29958ee51d48b375e407a5fabc755f737b44c113622e9b136d3650a6251b761a59d06eb3ba376d09294",
+        "modelId": "lumi.switch.b2laus01",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/OTA_lumi.switch.b2laus01_0.0.0_0032_20200609_CC225A.20200811140905.ota",
+        "path": "images/Xiaomi/OTA_lumi.switch.b2laus01_0.0.0_0032_20200609_CC225A.20200811140905.ota"
+    },
+    {
+        "fileVersion": 31,
+        "fileSize": 270126,
+        "manufacturerCode": 4447,
+        "imageType": 276,
+        "sha512": "7c43a39a05825af48d125be2ca24118e286f2b52c5912ed07b9c18fac9fee9681800e1815b3c294a109fc9b220587e6aac62d94be27bd994a0be67a47141fd57",
+        "modelId": "lumi.switch.b1naus01",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20211228180917_OTA_lumi.switch.b1naus01_0.0.0_0031_20211228_5689C8.ota",
+        "path": "images/Xiaomi/20211228180917_OTA_lumi.switch.b1naus01_0.0.0_0031_20211228_5689C8.ota"
+    },
+    {
+        "fileVersion": 31,
+        "fileSize": 289790,
+        "manufacturerCode": 4447,
+        "imageType": 404,
+        "sha512": "4516f165a9efaeed975e6c5af8f7854fda16baa5ab682033914c11a92629060ccdc9daf743efd1f13d25b8b0abe49a19fd9a75f457717a16d6f67b19ab1a00d3",
+        "modelId": "lumi.switch.b2naus01",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20211228180601_OTA_lumi.switch.b2naus01_0.0.0_0031_20211228_C784BB.ota",
+        "path": "images/Xiaomi/20211228180601_OTA_lumi.switch.b2naus01_0.0.0_0031_20211228_C784BB.ota"
+    },
+    {
+        "fileVersion": 33,
+        "fileSize": 291022,
+        "manufacturerCode": 4447,
+        "imageType": 1164,
+        "sha512": "a01487436dd5bc830b74851fc7360c541543e684b11e263e888551439b7a309beb9d61b808866fc98356ea45c1b5ca61bfb8af5e7d47784c9c505667154d2362",
+        "modelId": "lumi.switch.n3acn3",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220718144406_OTA_lumi.switch.n3acn3_0.0.0_0033_20211108_E03E80.ota",
+        "path": "images/Xiaomi/20220718144406_OTA_lumi.switch.n3acn3_0.0.0_0033_20211108_E03E80.ota"
+    },
+    {
+        "fileVersion": 65,
+        "fileSize": 187230,
+        "manufacturerCode": 4447,
+        "imageType": 257,
+        "sha512": "8945e228c2e8cff55d312e7592a01f93b6772334fbe46177c7966c1a896b0e9fa70ee62a70ac4a667ad4dbe9221f1d73b0048b754e3fdcfd1ed32b94fc1a69ab",
+        "modelId": "lumi.switch.b1nacn02",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20211228121851_OTA_lumi.switch.b1nacn02_0.0.0_0065_20211223_EB5B32.ota",
+        "path": "images/Xiaomi/20211228121851_OTA_lumi.switch.b1nacn02_0.0.0_0065_20211223_EB5B32.ota"
+    },
+    {
+        "fileVersion": 25,
+        "fileSize": 242382,
+        "manufacturerCode": 4447,
+        "imageType": 8968,
+        "sha512": "7580343aa5334c23561d0843ea6e8983358e35e3a2d5ebad03d9862632011753f3c72f4c93efcd60a65c1781da59d11217e144aab00d5aa597a70895433e65eb",
+        "modelId": "lumi.vibration.agl01",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/OTA_lumi.vibration.agl01_V1.0.25_20200528_F8C40C.20200529185424.ota",
+        "path": "images/Xiaomi/OTA_lumi.vibration.agl01_V1.0.25_20200528_F8C40C.20200529185424.ota"
+    },
+    {
+        "fileVersion": 6168,
+        "fileSize": 288213,
+        "manufacturerCode": 4447,
+        "imageType": 4105,
+        "sha512": "0d1bae25759420898d381b98e97858d2e47f48cd3495abd8754661d0e1957eb5b570a2ae7435acc435d5a18665409e07148abae6f1f4a190c9af786d94ec725d",
+        "modelId": "lumi.curtain.acn003",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220422195003_lumi.curtain.acn003_Multi_JN5189_FMSH_0.0.0_2424_20220422_1aa302.ota",
+        "path": "images/Xiaomi/20220422195003_lumi.curtain.acn003_Multi_JN5189_FMSH_0.0.0_2424_20220422_1aa302.ota"
+    },
+    {
+        "fileVersion": 6168,
+        "fileSize": 288213,
+        "manufacturerCode": 4447,
+        "imageType": 4105,
+        "sha512": "0d1bae25759420898d381b98e97858d2e47f48cd3495abd8754661d0e1957eb5b570a2ae7435acc435d5a18665409e07148abae6f1f4a190c9af786d94ec725d",
+        "modelId": "lumi.curtain.agl001",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220506181329_lumi.curtain.agl001_Multi_JN5189_FMSH_0.0.0_2424_20220422_1aa302.ota",
+        "path": "images/Xiaomi/20220506181329_lumi.curtain.agl001_Multi_JN5189_FMSH_0.0.0_2424_20220422_1aa302.ota"
+    },
+    {
+        "fileVersion": 28,
+        "fileSize": 294846,
+        "manufacturerCode": 4447,
+        "imageType": 2057,
+        "sha512": "72c0dcb313361f780eeb093dedbcb6f4089b43cdd0e37f87ae8e3782874f9fada121b376a1715c44002f962c86c70d2da923b8b11e96f1cf08693a0da5939acb",
+        "modelId": "lumi.light.rgbac1",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220222162717_OTA_lumi.light.rgbac1_0.0.0_0028_20220222_BFF63B.ota",
+        "path": "images/Xiaomi/20220222162717_OTA_lumi.light.rgbac1_0.0.0_0028_20220222_BFF63B.ota"
+    },
+    {
+        "fileVersion": 41,
+        "fileSize": 290846,
+        "manufacturerCode": 4447,
+        "imageType": 2440,
+        "sha512": "3e619b61a47be9b20920f64093f00793e3d1e1ec592316fa936bdc05b83895a023a8e8f82b4fa15b26708e70f466c9bc35db73a8996d70ed873cbfc7fbc4dbaf",
+        "modelId": "lumi.light.cbacn1",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20211203150519_OTA_lumi.light.cbacn1_0.0.0_0041_20211126_9526E8.ota",
+        "path": "images/Xiaomi/20211203150519_OTA_lumi.light.cbacn1_0.0.0_0041_20211126_9526E8.ota"
+    },
+    {
+        "fileVersion": 253363506,
+        "fileSize": 9315433,
+        "manufacturerCode": 4447,
+        "imageType": 3848,
+        "sha512": "a1ffc98de1e50ecae1407806d15143b03b0d3654db2fdb94e1e01cfc56d5d43fb11a6d22ec5aff2d34a579e75ed3bfc09330bff2ca601e233aa61e06ffbc6c63",
+        "modelId": "lumi.switch.n4acn4",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220331162803_OTA_lumi.switch.n4acn4_V5.2.6_0550_20220329_89D857.ota",
+        "path": "images/Xiaomi/20220331162803_OTA_lumi.switch.n4acn4_V5.2.6_0550_20220329_89D857.ota"
     }
 ]
