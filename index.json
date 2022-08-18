@@ -1944,7 +1944,7 @@
         "manufacturerCode": 4151,
         "imageType": 4105,
         "sha512": "2bf7320953ecbadeb641531ab3f6cf47b4b076ead5d21f9005ea80395bffbc66efe3c91f4a278982c8ca008154b1ab4c22955a953c78b5c0f88c804988a9bfb7",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/CSM300Z_TOF_OTA_ENC_V11_ENC.ota",
-        "path": "images/CSM300Z_TOF_OTA_ENC_V11_ENC.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Jennic/CSM300Z_TOF_OTA_ENC_V11_ENC.ota",
+        "path": "images/Jennic/CSM300Z_TOF_OTA_ENC_V11_ENC.ota"
     }
 ]
