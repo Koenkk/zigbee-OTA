@@ -1939,15 +1939,6 @@
         "path": "images/Xiaomi/20220331162803_OTA_lumi.switch.n4acn4_V5.2.6_0550_20220329_89D857.ota"
     },
     {
-        "fileVersion": 11,
-        "fileSize": 189022,
-        "manufacturerCode": 4151,
-        "imageType": 4105,
-        "sha512": "2bf7320953ecbadeb641531ab3f6cf47b4b076ead5d21f9005ea80395bffbc66efe3c91f4a278982c8ca008154b1ab4c22955a953c78b5c0f88c804988a9bfb7",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Jennic/CSM300Z_TOF_OTA_ENC_V11_ENC.ota",
-        "path": "images/Jennic/CSM300Z_TOF_OTA_ENC_V11_ENC.ota"
-    },
-    {
         "fileVersion": 23,
         "fileSize": 289838,
         "manufacturerCode": 4447,
@@ -1984,5 +1975,14 @@
         "sha512": "4fa445bdade02c393cc07b9750b81b608e2d447b5b6241e56c7af71ba495fcba7b7646ab7f69a038530bd8a1524fd43434ded40e297887b0c62cc344ac57a49b",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Jennic/ISM300Z_OTA_ENC_V2_ENC.ota",
         "path": "images/Jennic/ISM300Z_OTA_ENC_V2_ENC.ota"
+    },
+    {
+        "fileVersion": 11,
+        "fileSize": 194494,
+        "manufacturerCode": 4151,
+        "imageType": 4105,
+        "sha512": "5be8f673a9b2ee1d0348bc95fdfe119a083dfb84d3cffa4292392d834600c9ac8a48c9e502168891c1aa996b850fc5f68729302797012990819dfc6dc94faab2",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Jennic/CSM300Z_TOF_OTA_ENC_V11_ENC.ota",
+        "path": "images/Jennic/CSM300Z_TOF_OTA_ENC_V11_ENC.ota"
     }
 ]
