@@ -1335,8 +1335,8 @@
         "imageType": 9480,
         "sha512": "6810b06a486f7689c87186e593dfdd6f5e0900ac9da154d515c6dd8881c6688ffbaac82e370940ebf133098f26c9a2df1aaf81b6fe0bc2815ee6ac2958b424d5",
         "modelId": "lumi.airmonitor.acn01",
-        "url":"https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220222202427_OTA_lumi.airmonitor.acn01_0.0.0_0029_20220222_17EC2C.ota",
-        "path":"images/Xiaomi/20220222202427_OTA_lumi.airmonitor.acn01_0.0.0_0029_20220222_17EC2C.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220222202427_OTA_lumi.airmonitor.acn01_0.0.0_0029_20220222_17EC2C.ota",
+        "path": "images/Xiaomi/20220222202427_OTA_lumi.airmonitor.acn01_0.0.0_0029_20220222_17EC2C.ota"
     },
     {
         "fileVersion": 23,
@@ -1984,5 +1984,13 @@
         "sha512": "5be8f673a9b2ee1d0348bc95fdfe119a083dfb84d3cffa4292392d834600c9ac8a48c9e502168891c1aa996b850fc5f68729302797012990819dfc6dc94faab2",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Jennic/CSM300Z_TOF_OTA_ENC_V11_ENC.ota",
         "path": "images/Jennic/CSM300Z_TOF_OTA_ENC_V11_ENC.ota"
+    },
+    {
+        "fileVersion": 33569561,
+        "fileSize": 185770,
+        "manufacturerCode": 4107,
+        "imageType": 289,
+        "sha512": "b117d19666222b0b1962585f1e47e525c643d3d784fa3a59c0299cd1533a3799a1c72553c7964708879fe0131d4c5cb9fcc5af681d8059d18e6f47b942a5e4fb",
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0121/33569561/100B-0121-02003B19-Switch-EFR32MG22-40xf.zigbee"
     }
 ]
