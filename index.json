@@ -1622,12 +1622,12 @@
         "path": "images/Xiaomi/20220210105858_OTA_lumi.sensor_gas.acn02_0.0.0.0014_20220105_64EC88.ota"
     },
     {
-        "fileVersion": 5,
-        "fileSize": 240478,
+        "fileVersion": 6,
+        "fileSize": 243758,
         "manufacturerCode": 4151,
         "imageType": 1,
-        "sha512": "692417e8863827f120cda063850aee65b7b6eb58109d419ff58dced1d7c9251617312368bda0f8488aa26aeb7a8e3642339c7648af24cbff66b870401c9113da",
-        "url": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/download/v5.0/ZLinky_router_v5.0.ota"
+        "sha512": "70e60f0ed0b78ac71193b7171a153d8d07a8a7dea7dc6f7dad2cf5cdab3c2d8982c92fc12d2615577cd1e31810563e56f56f3a4c36cfbf8f9321e1464ef82286",
+        "url": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/download/v6.0/ZLinky_router_v6.0.ota"
     },
     {
         "fileVersion": 33555200,
