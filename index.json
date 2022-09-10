@@ -1992,5 +1992,14 @@
         "imageType": 289,
         "sha512": "b117d19666222b0b1962585f1e47e525c643d3d784fa3a59c0299cd1533a3799a1c72553c7964708879fe0131d4c5cb9fcc5af681d8059d18e6f47b942a5e4fb",
         "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0121/33569561/100B-0121-02003B19-Switch-EFR32MG22-40xf.zigbee"
+    },
+    {
+        "fileVersion": 532,
+        "fileSize": 563956,
+        "manufacturerCode": 4678,
+        "imageType": 512,
+        "sha512": "1fde5e0d38b87e3aa8d3e06ec779b1713cafede5ea0422f45321358f03c8f087ec751bee9e6f864485ae042f7d9224b90e0be78d5b466a0dc79b09761903d43a",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Danfoss/IconZigBeeModule_Fri_07022021_V.02.14_withHOST.ota",
+        "path": "images/Danfoss/IconZigBeeModule_Fri_07022021_V.02.14_withHOST.ota"
     }
 ]
