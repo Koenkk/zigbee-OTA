@@ -1992,5 +1992,15 @@
         "imageType": 289,
         "sha512": "b117d19666222b0b1962585f1e47e525c643d3d784fa3a59c0299cd1533a3799a1c72553c7964708879fe0131d4c5cb9fcc5af681d8059d18e6f47b942a5e4fb",
         "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0121/33569561/100B-0121-02003B19-Switch-EFR32MG22-40xf.zigbee"
+    },
+    {
+        "fileVersion": 2839,
+        "fileSize": 294136,
+        "manufacturerCode": 4447,
+        "imageType": 5404,
+        "sha512": "140be0a40f40f84fcb1878ba623ad5830bfab2049f489ee7acf8ae22c1db1e4991fbf39832482a55fee2fc5b20681d9ab5592d457d1e5bf705b0c75af45eff1f",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20211124154453_OTA_lumi.switch.n1aeu1_0.0.0_1123_20211110.ota",
+        "path": "images/Xiaomi/20211124154453_OTA_lumi.switch.n1aeu1_0.0.0_1123_20211110.ota",
+        "modelId": "lumi.switch.n1aeu1"
     }
 ]
