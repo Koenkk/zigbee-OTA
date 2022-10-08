@@ -2002,5 +2002,35 @@
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20211124154453_OTA_lumi.switch.n1aeu1_0.0.0_1123_20211110.ota",
         "path": "images/Xiaomi/20211124154453_OTA_lumi.switch.n1aeu1_0.0.0_1123_20211110.ota",
         "modelId": "lumi.switch.n1aeu1"
+    },
+    {
+        "fileVersion": 10343,
+        "fileSize": 408418,
+        "manufacturerCode": 123,
+        "imageType": 321,
+        "sha512": "b27714b307f6e6ac8fb1c3dacf3ebda25afd7c36fe7cea72637aedd90c1164807035d51e00743069ef4bd165787feab4ce3c678808dddf109e5e76847b695843",
+        "modelId": "PEHPL0X",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Perenio/007B-0141-00002867-good_image_PL_1_3_43.zigbee",
+        "path": "images/Perenio/007B-0141-00002867-good_image_PL_1_3_43.zigbee"
+    },
+    {
+        "fileVersion": 1090715650,
+        "fileSize": 158446,
+        "manufacturerCode": 4456,
+        "imageType": 1026,
+        "sha512": "e0cc45970c75311a3a4b0f592c023583f8224d6ca0b2c0612539131b7210e095903fd139c50c4f54c9f97b4b40bd0e0637969aa54b229dbba00e1e40333a4edc",
+        "modelId": "ZHA-PirSensor",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Perenio/LDS_MotionSensor_1168-0402-41030002.zigbee",
+        "path": "images/Perenio/LDS_MotionSensor_1168-0402-41030002.zigbee"
+    },
+    {
+        "fileVersion": 5,
+        "fileSize": 131742,
+        "manufacturerCode": 4151,
+        "imageType": 1026,
+        "sha512": "6b2bd58cef1936e5a93399619ada984e2e0aa783e6d9cd193f622c3ce8c45a8d9ca86d4e65032303f38a50f8dc2b8373d324be5b006595b650d3425f431f58b3",
+        "modelId": "PECLS01",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Perenio/LeakSensor_v5.OTA.zigbee",
+        "path": "images/Perenio/LeakSensor_v5.OTA.zigbee"
     }
 ]
