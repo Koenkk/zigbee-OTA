@@ -1436,14 +1436,14 @@
         "path": "images/Gledopto/GL-D-005P_V11076801_OTAV12_20211108_60%.ota"
     },
     {
-        "fileVersion": 3869,
-        "fileSize": 296320,
+        "fileVersion": 3870,
+        "fileSize": 296304,
         "manufacturerCode": 4447,
         "imageType": 14976,
-        "sha512": "978ce43adbeda1067d98313cdea390637c60969564bee8c5d0d7d4160729dccf034c8b0a458100c38cd5b98eb522a231ec7f089a1c6e91d8235e938537080b10",
+        "sha512": "2436508af75c9b0139d304f8b62ce5579ad721fffec74967db7256bb030f47f8172a2b2ef2003eede1c868410b007ac6c89b3936dd44dffd07fdff155bcb7451",
         "modelId": "lumi.curtain.acn002",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220728181102_OTA_lumi.curtain.acn002_0.0.0_1529_20220720_47B747.ota",
-        "path": "images/Xiaomi/20220728181102_OTA_lumi.curtain.acn002_0.0.0_1529_20220720_47B747.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20221009111923_OTA_lumi.curtain.acn002_0.0.0_1530_20221009_6C9C3D.ota",
+        "path": "images/Xiaomi/20221009111923_OTA_lumi.curtain.acn002_0.0.0_1530_20221009_6C9C3D.ota"
     },
     {
         "fileVersion": 50,
