@@ -2031,5 +2031,14 @@
         "modelId": "PECLS01",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Perenio/LeakSensor_v5.OTA.zigbee",
         "path": "images/Perenio/LeakSensor_v5.OTA.zigbee"
+    },
+    {
+        "fileVersion": 268985691,
+        "fileSize": 200036,
+        "manufacturerCode": 4364,
+        "imageType": 57374,
+        "sha512": "42767fd8ade66a47263d2ba1916ee07e002fb1dea3968841922957fd35341fe0a3b7831891796a1dfd1ce3c9b4686984ab9acd9a4e77eef9299facbc0ca51500",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Ledvance/Zigbee3toDALI_1008655B.ota",
+        "path": "images/Ledvance/Zigbee3toDALI_1008655B.ota"
     }
 ]
