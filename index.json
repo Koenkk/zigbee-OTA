@@ -2049,5 +2049,14 @@
         "sha512": "d6779d7e0879c86d8a7479f352d187cb854cc8586b57245dc96f6c202ccf455a19acb5d360b9ae62510e5b7ae2ea67a95841ff822a5a3a69199d5841dbcf2dbe",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Develco/ED%20-%20HA%20-%20VOC%20Sensor-SSIG%204.0.1.zigbee",
         "path": "images/Develco/ED - HA - VOC Sensor-SSIG 4.0.1.zigbee"
+    },
+    {
+        "fileVersion": 4099,
+        "fileSize": 156778,
+        "manufacturerCode": 4742,
+        "imageType": 65,
+        "sha512": "38bc090584b844a0fe75900d6c0efb34a57d776b8d549fa3938cda437de4a454885f557a43ba51c7fa524f79de279a17c9da1d6c656c351f82b6eb46db1cf2b7",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sonoff/s40zbLite_v1.0.3.ota",
+        "path": "images/Sonoff/s40zbLite_v1.0.3.ota"
     }
 ]
