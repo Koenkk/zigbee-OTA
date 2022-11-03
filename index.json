@@ -2040,5 +2040,14 @@
         "sha512": "42767fd8ade66a47263d2ba1916ee07e002fb1dea3968841922957fd35341fe0a3b7831891796a1dfd1ce3c9b4686984ab9acd9a4e77eef9299facbc0ca51500",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Ledvance/Zigbee3toDALI_1008655B.ota",
         "path": "images/Ledvance/Zigbee3toDALI_1008655B.ota"
+    },
+    {
+        "fileVersion": 4099,
+        "fileSize": 156778,
+        "manufacturerCode": 4742,
+        "imageType": 65,
+        "sha512": "38bc090584b844a0fe75900d6c0efb34a57d776b8d549fa3938cda437de4a454885f557a43ba51c7fa524f79de279a17c9da1d6c656c351f82b6eb46db1cf2b7",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sonoff/s40zbLite_v1.0.3.ota",
+        "path": "images/Sonoff/s40zbLite_v1.0.3.ota"
     }
 ]
