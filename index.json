@@ -2058,5 +2058,14 @@
         "sha512": "38bc090584b844a0fe75900d6c0efb34a57d776b8d549fa3938cda437de4a454885f557a43ba51c7fa524f79de279a17c9da1d6c656c351f82b6eb46db1cf2b7",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sonoff/s40zbLite_v1.0.3.ota",
         "path": "images/Sonoff/s40zbLite_v1.0.3.ota"
+    },
+    {
+        "fileVersion": 822175248,
+        "fileSize": 229422,
+        "manufacturerCode": 4454,
+        "imageType": 787,
+        "sha512": "91605b5a7f965ac34a1e72bd2e2adba7abea877182b043b6d21e78ef1aa68005eba7011c548116ef2df74d29c7036e6a2616c65597705fd64d01d2f528ceb986",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-0313-31016610-upgradeMe.ota",
+        "path": "images/Innr/1166-0313-31016610-upgradeMe.ota"
     }
 ]
