@@ -27,6 +27,7 @@ const manufacturerNameLookup = {
     4417: 'Telink',
     4338: 'ubisys',
     4742: 'Sonoff',
+    4659: 'Third Reality',
 };
 
 const main = async () => {
