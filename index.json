@@ -1601,14 +1601,14 @@
         "path": "images/Xiaomi/20220308121818_OTA_lumi.sensor_smoke.acn03_0.0.0_0016_20202225_4367AB.bin"
     },
     {
-        "fileVersion": 25,
-        "fileSize": 320942,
+        "fileVersion": 28,
+        "fileSize": 323310,
         "manufacturerCode": 4447,
         "imageType": 6024,
-        "sha512": "e47e31cd84c6beff2d6225e6a4049612d48dc1bc4489345264820939bbd1cc6997824f09de27c340a7a3b33a0872a22077dd3865c37bc0ed63668b0c3db2c0e3",
+        "sha512": "338048fb41dadb33f029b951c11acbc9ed3a866506ccd8f98d365f2ee87eef6b21dc31f4097359b8baa1295d52c5913804c043ec9e85d3e68696778bd6f5bb3f",
         "modelId": "lumi.dimmer.rcbac1",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220117102830_OTA_lumi.dimmer.rcbac1_0.0.0_0025_20220114_C70EAF.ota",
-        "path": "images/Xiaomi/20220117102830_OTA_lumi.dimmer.rcbac1_0.0.0_0025_20220114_C70EAF.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20221024195531_OTA_lumi.dimmer.rcbac1_V28_20221021_.ota",
+        "path": "images/Xiaomi/20221024195531_OTA_lumi.dimmer.rcbac1_V28_20221021_.ota"
     },
     {
         "fileVersion": 14,
@@ -2048,5 +2048,31 @@
         "imageType": 54185,
         "sha512": "a696fbeb2fc2f899d23f605099add1930b9a6c5ee69f07fb04e6d22ce8349c676898fcaab1c3cb00981ff37528a61116905ca36ffdaea4f6425d47af3cb7790a",
         "url": "https://tr-zha.s3.amazonaws.com/firmwares/TRTL_ThermalSensor_PROD_OTA_V21_1.00.21.ota"
+    },
+        "fileVersion": 262145,
+        "fileSize": 194471,
+        "manufacturerCode": 4117,
+        "imageType": 800,
+        "sha512": "d6779d7e0879c86d8a7479f352d187cb854cc8586b57245dc96f6c202ccf455a19acb5d360b9ae62510e5b7ae2ea67a95841ff822a5a3a69199d5841dbcf2dbe",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Develco/ED%20-%20HA%20-%20VOC%20Sensor-SSIG%204.0.1.zigbee",
+        "path": "images/Develco/ED - HA - VOC Sensor-SSIG 4.0.1.zigbee"
+    },
+    {
+        "fileVersion": 4099,
+        "fileSize": 156778,
+        "manufacturerCode": 4742,
+        "imageType": 65,
+        "sha512": "38bc090584b844a0fe75900d6c0efb34a57d776b8d549fa3938cda437de4a454885f557a43ba51c7fa524f79de279a17c9da1d6c656c351f82b6eb46db1cf2b7",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sonoff/s40zbLite_v1.0.3.ota",
+        "path": "images/Sonoff/s40zbLite_v1.0.3.ota"
+    },
+    {
+        "fileVersion": 822175248,
+        "fileSize": 229422,
+        "manufacturerCode": 4454,
+        "imageType": 787,
+        "sha512": "91605b5a7f965ac34a1e72bd2e2adba7abea877182b043b6d21e78ef1aa68005eba7011c548116ef2df74d29c7036e6a2616c65597705fd64d01d2f528ceb986",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-0313-31016610-upgradeMe.ota",
+        "path": "images/Innr/1166-0313-31016610-upgradeMe.ota"
     }
 ]
