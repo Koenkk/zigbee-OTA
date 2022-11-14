@@ -2049,6 +2049,7 @@
         "sha512": "a696fbeb2fc2f899d23f605099add1930b9a6c5ee69f07fb04e6d22ce8349c676898fcaab1c3cb00981ff37528a61116905ca36ffdaea4f6425d47af3cb7790a",
         "url": "https://tr-zha.s3.amazonaws.com/firmwares/TRTL_ThermalSensor_PROD_OTA_V21_1.00.21.ota"
     },
+    {
         "fileVersion": 262145,
         "fileSize": 194471,
         "manufacturerCode": 4117,
