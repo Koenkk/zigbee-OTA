@@ -1976,13 +1976,13 @@
         "path": "images/Jennic/ISM300Z_OTA_ENC_V3_ENC.ota"
     },
     {
-        "fileVersion": 12,
-        "fileSize": 190574,
+        "fileVersion": 13,
+        "fileSize": 190974,
         "manufacturerCode": 4151,
         "imageType": 4105,
-        "sha512": "08d84602978a2b779dca39208bfdc7f43880c808768ed80a0489a3b30b847331679002844d37b5b5eb084e0b986641d754c8846500106fa395645da46a4c4400",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Jennic/CSM300Z_TOF_OTA_ENC_V12_ENC.ota",
-        "path": "images/Jennic/CSM300Z_TOF_OTA_ENC_V12_ENC.ota"
+        "sha512": "3f0fe80f5d7dc6d335e133a9fdd13e8bf060e1df7a1883d770a662604773f74563f7057d5b14d518689a9591ff44e4086dcbc212a84585a16ad8ec7578768ff7",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Jennic/CSM300Z_TOF_OTA_ENC_V13_ENC.ota",
+        "path": "images/Jennic/CSM300Z_TOF_OTA_ENC_V13_ENC.ota"
     },
     {
         "fileVersion": 33569561,
