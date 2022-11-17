@@ -1918,14 +1918,14 @@
         "path": "images/Xiaomi/20220222162717_OTA_lumi.light.rgbac1_0.0.0_0028_20220222_BFF63B.ota"
     },
     {
-        "fileVersion": 41,
-        "fileSize": 290846,
+        "fileVersion": 42,
+        "fileSize": 294494,
         "manufacturerCode": 4447,
         "imageType": 2440,
-        "sha512": "3e619b61a47be9b20920f64093f00793e3d1e1ec592316fa936bdc05b83895a023a8e8f82b4fa15b26708e70f466c9bc35db73a8996d70ed873cbfc7fbc4dbaf",
+        "sha512": "066cfce29f21c97cc4f331b0f39f86257ca695bec0fd86fd48492b4729aaff367d23e02c40b4fcab0241e0f15db04f0da20649b1d0786563d8e2d997d2560e4e",
         "modelId": "lumi.light.cbacn1",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20211203150519_OTA_lumi.light.cbacn1_0.0.0_0041_20211126_9526E8.ota",
-        "path": "images/Xiaomi/20211203150519_OTA_lumi.light.cbacn1_0.0.0_0041_20211126_9526E8.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220923154322_OTA_lumi.light.cbacn1_0.0.0_0042_20220920_15C53A.ota",
+        "path": "images/Xiaomi/20220923154322_OTA_lumi.light.cbacn1_0.0.0_0042_20220920_15C53A.ota"
     },
     {
         "fileVersion": 253363506,
