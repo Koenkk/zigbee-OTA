@@ -25,6 +25,6 @@ jobs:
         uses: github/super-linter@v4
         env:
           VALIDATE_ALL_CODEBASE: false
-          FILTER_REGEX_EXCLUDE: .*images/.*
+          FILTER_REGEX_INCLUDE: .*.json
           DEFAULT_BRANCH: master
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
