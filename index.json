@@ -2067,5 +2067,14 @@
         "sha512": "91605b5a7f965ac34a1e72bd2e2adba7abea877182b043b6d21e78ef1aa68005eba7011c548116ef2df74d29c7036e6a2616c65597705fd64d01d2f528ceb986",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-0313-31016610-upgradeMe.ota",
         "path": "images/Innr/1166-0313-31016610-upgradeMe.ota"
+    },
+    {
+        "fileVersion": 654404144,
+        "fileSize": 235306,
+        "manufacturerCode": 4454,
+        "imageType": 786,
+        "sha512": "e04ad772d6e3c263adc8108eb80c811cd1aad5e750241bc77e44067f4b9530098fa31b7b03abec412d9d28e732f9d25ffaf96f7f0ec619e1a18b51cc90b5a35b",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-0312-27016A30-upgradeMe.zigbee",
+        "path": "images/Innr/1166-0312-27016A30-upgradeMe.zigbee"
     }
 ]
