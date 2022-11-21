@@ -28,6 +28,7 @@ const manufacturerNameLookup = {
     4338: 'ubisys',
     4742: 'Sonoff',
     4659: 'Third Reality',
+    4454: 'Innr',
 };
 
 const main = async () => {
@@ -142,4 +143,4 @@ const main = async () => {
     }
 }
 
-return main();
+main();

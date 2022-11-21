@@ -1918,14 +1918,14 @@
         "path": "images/Xiaomi/20220222162717_OTA_lumi.light.rgbac1_0.0.0_0028_20220222_BFF63B.ota"
     },
     {
-        "fileVersion": 41,
-        "fileSize": 290846,
+        "fileVersion": 42,
+        "fileSize": 294494,
         "manufacturerCode": 4447,
         "imageType": 2440,
-        "sha512": "3e619b61a47be9b20920f64093f00793e3d1e1ec592316fa936bdc05b83895a023a8e8f82b4fa15b26708e70f466c9bc35db73a8996d70ed873cbfc7fbc4dbaf",
+        "sha512": "066cfce29f21c97cc4f331b0f39f86257ca695bec0fd86fd48492b4729aaff367d23e02c40b4fcab0241e0f15db04f0da20649b1d0786563d8e2d997d2560e4e",
         "modelId": "lumi.light.cbacn1",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20211203150519_OTA_lumi.light.cbacn1_0.0.0_0041_20211126_9526E8.ota",
-        "path": "images/Xiaomi/20211203150519_OTA_lumi.light.cbacn1_0.0.0_0041_20211126_9526E8.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220923154322_OTA_lumi.light.cbacn1_0.0.0_0042_20220920_15C53A.ota",
+        "path": "images/Xiaomi/20220923154322_OTA_lumi.light.cbacn1_0.0.0_0042_20220920_15C53A.ota"
     },
     {
         "fileVersion": 253363506,
@@ -1976,13 +1976,13 @@
         "path": "images/Jennic/ISM300Z_OTA_ENC_V3_ENC.ota"
     },
     {
-        "fileVersion": 12,
-        "fileSize": 190574,
+        "fileVersion": 13,
+        "fileSize": 190974,
         "manufacturerCode": 4151,
         "imageType": 4105,
-        "sha512": "08d84602978a2b779dca39208bfdc7f43880c808768ed80a0489a3b30b847331679002844d37b5b5eb084e0b986641d754c8846500106fa395645da46a4c4400",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Jennic/CSM300Z_TOF_OTA_ENC_V12_ENC.ota",
-        "path": "images/Jennic/CSM300Z_TOF_OTA_ENC_V12_ENC.ota"
+        "sha512": "3f0fe80f5d7dc6d335e133a9fdd13e8bf060e1df7a1883d770a662604773f74563f7057d5b14d518689a9591ff44e4086dcbc212a84585a16ad8ec7578768ff7",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Jennic/CSM300Z_TOF_OTA_ENC_V13_ENC.ota",
+        "path": "images/Jennic/CSM300Z_TOF_OTA_ENC_V13_ENC.ota"
     },
     {
         "fileVersion": 33569561,
@@ -2083,5 +2083,14 @@
         "imageType": 54181,
         "sha512": "0864730bdf1d4455681fd4866ec934f325114a50c2375985dffd36bbc4d7ea9d8464f1bcfa3241482a3c4afedbfc32c1fbdec6e5a3f4629b765393768a198889",
         "url": "https://tr-zha.s3.amazonaws.com/firmwares/SmartSwitchGen3_Zigbee_PROD_V12_v1.00.12.ota"
+    }
+    {
+        "fileVersion": 654404144,
+        "fileSize": 235306,
+        "manufacturerCode": 4454,
+        "imageType": 786,
+        "sha512": "e04ad772d6e3c263adc8108eb80c811cd1aad5e750241bc77e44067f4b9530098fa31b7b03abec412d9d28e732f9d25ffaf96f7f0ec619e1a18b51cc90b5a35b",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-0312-27016A30-upgradeMe.zigbee",
+        "path": "images/Innr/1166-0312-27016A30-upgradeMe.zigbee"
     }
 ]
