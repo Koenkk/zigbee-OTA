@@ -28,7 +28,7 @@ const manufacturerNameLookup = {
     4338: 'ubisys',
     4742: 'Sonoff',
     4454: 'Innr',
-	4659: 'ThirdReality',
+    4659: 'ThirdReality',
 };
 
 const main = async () => {
