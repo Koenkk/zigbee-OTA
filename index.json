@@ -2086,5 +2086,13 @@
         "modelId": "aqara.feeder.acn001",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220726141832_OTA_aqara.feeder.acn001_0.0.0_3733_20220725_089168.ota",
         "path": "images/Xiaomi/20220726141832_OTA_aqara.feeder.acn001_0.0.0_3733_20220725_089168.ota"
+    },
+    {
+        "fileVersion": 49,
+        "fileSize": 145746,
+        "manufacturerCode": 4659,
+        "imageType": 54179,
+        "sha512": "929637894934b7aede459920cc1d6ef377a2fee9bc03237bc867cd0037647e09a5e52b1f04e5ff3bf0a73666002dc22cf4fb2c690729c4d5cf04178f3f6fb6c5",
+        "url": "https://tr-zha.s3.amazonaws.com/firmwares/TRTL_WaterLeak_DEV_V31_v1.00.31.ota"
     }
 ]
