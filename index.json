@@ -2102,5 +2102,13 @@
         "imageType": 54185,
         "sha512": "a696fbeb2fc2f899d23f605099add1930b9a6c5ee69f07fb04e6d22ce8349c676898fcaab1c3cb00981ff37528a61116905ca36ffdaea4f6425d47af3cb7790a",
         "url": "https://tr-zha.s3.amazonaws.com/firmwares/TRTL_ThermalSensor_PROD_OTA_V21_1.00.21.ota"
+    },
+    {
+        "fileVersion": 86,
+        "fileSize": 151410,
+        "manufacturerCode": 4659,
+        "imageType": 54183,
+        "sha512": "4283f9f04b689c6c1c2841219c9ece38bceda4ff0769755f7d08052baf9685e8eb964d80b063ae71f2cfd2e253d1731be086a3ddc638e0ed5f5cc11e76920683",
+        "url": "https://tr-zha.s3.amazonaws.com/firmwares/SmartCurtain_Zigbee_PROD_OTA_V56_1.00.56.ota"
     }
 ]
