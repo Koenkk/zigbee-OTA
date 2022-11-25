@@ -1279,14 +1279,14 @@
         "path": "images/Xiaomi/OTA_withCRC_LMES_Dimmer3Controller_V1.2.30_20170801.20170818101543.ota"
     },
     {
-        "fileVersion": 93,
-        "fileSize": 189598,
+        "fileVersion": 94,
+        "fileSize": 189934,
         "manufacturerCode": 4447,
         "imageType": 257,
-        "sha512": "9f5bab3b3c7607ac939e9e38c99573c00a3d62b90b44598a2324dfc28ea6144501033cfaf10681f356f781df08efe6522e4d070dcac92ca22291dc25f0e7b09d",
+        "sha512": "2a481a36e2aa077c110d7efc30f5f3709f799469eba7dde9defa57c80d327b645c74bc332ff22e004d64ec67fa88abd8f1f1572efbfd48c582292cfaf2cf07a0",
         "modelId": "lumi.ctrl_86plug.aq1",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220105120039_OTA_lumi.ctrl_86plug.aq1_0.0.0_0093_20211224_EFFE2B.ota",
-        "path": "images/Xiaomi/20220105120039_OTA_lumi.ctrl_86plug.aq1_0.0.0_0093_20211224_EFFE2B.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220728184843_OTA_lumi.ctrl_86plug.aq1_0.0.0_0094_20220722_42FE08.ota",
+        "path": "images/Xiaomi/20220728184843_OTA_lumi.ctrl_86plug.aq1_0.0.0_0094_20220722_42FE08.ota"
     },
     {
         "fileVersion": 11,
