@@ -2102,5 +2102,13 @@
         "imageType": 54185,
         "sha512": "a696fbeb2fc2f899d23f605099add1930b9a6c5ee69f07fb04e6d22ce8349c676898fcaab1c3cb00981ff37528a61116905ca36ffdaea4f6425d47af3cb7790a",
         "url": "https://tr-zha.s3.amazonaws.com/firmwares/TRTL_ThermalSensor_PROD_OTA_V21_1.00.21.ota"
+    },
+    {
+        "fileVersion": 49,
+        "fileSize": 144178,
+        "manufacturerCode": 4659,
+        "imageType": 54178,
+        "sha512": "4f5907785f58994b7c6dc731c86141d9cda07c849eda56f7fd1759a6c6eedf03bb810a7b88077393559e96d10d38dc54154e92dffd57a930dd5144f33061d4ff",
+        "url": "https://tr-zha.s3.amazonaws.com/firmwares/TRTL_DoorSensor_DEV_V31_v1.00.31.ota"
     }
 ]
