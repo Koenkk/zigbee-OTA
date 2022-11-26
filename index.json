@@ -1279,14 +1279,14 @@
         "path": "images/Xiaomi/OTA_withCRC_LMES_Dimmer3Controller_V1.2.30_20170801.20170818101543.ota"
     },
     {
-        "fileVersion": 93,
-        "fileSize": 189598,
+        "fileVersion": 94,
+        "fileSize": 189934,
         "manufacturerCode": 4447,
         "imageType": 257,
-        "sha512": "9f5bab3b3c7607ac939e9e38c99573c00a3d62b90b44598a2324dfc28ea6144501033cfaf10681f356f781df08efe6522e4d070dcac92ca22291dc25f0e7b09d",
+        "sha512": "2a481a36e2aa077c110d7efc30f5f3709f799469eba7dde9defa57c80d327b645c74bc332ff22e004d64ec67fa88abd8f1f1572efbfd48c582292cfaf2cf07a0",
         "modelId": "lumi.ctrl_86plug.aq1",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220105120039_OTA_lumi.ctrl_86plug.aq1_0.0.0_0093_20211224_EFFE2B.ota",
-        "path": "images/Xiaomi/20220105120039_OTA_lumi.ctrl_86plug.aq1_0.0.0_0093_20211224_EFFE2B.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220728184843_OTA_lumi.ctrl_86plug.aq1_0.0.0_0094_20220722_42FE08.ota",
+        "path": "images/Xiaomi/20220728184843_OTA_lumi.ctrl_86plug.aq1_0.0.0_0094_20220722_42FE08.ota"
     },
     {
         "fileVersion": 11,
@@ -1621,12 +1621,12 @@
         "path": "images/Xiaomi/20220210105858_OTA_lumi.sensor_gas.acn02_0.0.0.0014_20220105_64EC88.ota"
     },
     {
-        "fileVersion": 5,
-        "fileSize": 240478,
+        "fileVersion": 12,
+        "fileSize": 245710,
         "manufacturerCode": 4151,
         "imageType": 1,
-        "sha512": "692417e8863827f120cda063850aee65b7b6eb58109d419ff58dced1d7c9251617312368bda0f8488aa26aeb7a8e3642339c7648af24cbff66b870401c9113da",
-        "url": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/download/v5.0/ZLinky_router_v5.0.ota"
+        "sha512": "5d7e0a20141b78b85b4b046e623bc2bba24b28563464fe70227e79d0acdd5c0bde2adbd9d2557bd6cdfef2036d964c35c9e1746a8f1356af3325dd96f7a80e56",
+        "url": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/download/v12.0/ZLinky_router_v12.ota"
     },
     {
         "fileVersion": 33555200,
@@ -2112,5 +2112,37 @@
         "sha512": "40e4980fd6518dc32b19f6afd0aa3e49dd38ffa0aee1f2f7b05709cdf90273fb836e35468b6362e9756c63f19293907f50d381c379d5b9921074394e0cef4d62",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20221122180726_OTA_lumi.airrtc.agl001_0.0.0_0925_20221122_A6C469.ota",
         "path": "images/Xiaomi/20221122180726_OTA_lumi.airrtc.agl001_0.0.0_0925_20221122_A6C469.ota"
-    }
+    },
+    {
+        "fileVersion": 86,
+        "fileSize": 151410,
+        "manufacturerCode": 4659,
+        "imageType": 54183,
+        "sha512": "4283f9f04b689c6c1c2841219c9ece38bceda4ff0769755f7d08052baf9685e8eb964d80b063ae71f2cfd2e253d1731be086a3ddc638e0ed5f5cc11e76920683",
+        "url": "https://tr-zha.s3.amazonaws.com/firmwares/SmartCurtain_Zigbee_PROD_OTA_V56_1.00.56.ota"
+    },
+    {
+        "fileVersion": 33,
+        "fileSize": 126738,
+        "manufacturerCode": 4659,
+        "imageType": 54184,
+        "sha512": "b9c8f0a3cd32793be15817eaa98a737d1e0d41428ea84a09436b1e11670fd21b61416552cd13b4d87bd7f3ea8e2d6a8fd775e10f6c95f74961fc30fdbd689d05",
+        "url": "https://tr-zha.s3.amazonaws.com/firmwares/SmartButton_Zigbee_PROD_OTA_V21_1.00.21.ota"
+    },
+    {
+        "fileVersion": 49,
+        "fileSize": 144178,
+        "manufacturerCode": 4659,
+        "imageType": 54178,
+        "sha512": "4f5907785f58994b7c6dc731c86141d9cda07c849eda56f7fd1759a6c6eedf03bb810a7b88077393559e96d10d38dc54154e92dffd57a930dd5144f33061d4ff",
+        "url": "https://tr-zha.s3.amazonaws.com/firmwares/TRTL_DoorSensor_DEV_V31_v1.00.31.ota"
+    },
+    {
+         "fileVersion": 49,
+         "fileSize": 144674,
+         "manufacturerCode": 4659,
+         "imageType": 54177,
+         "sha512": "466cb8bd86be94e1ab9b2ecb5d861b4c8703fae3ae890e9adfa5d9849074fe5496521b89783eee20cb658934bff97108bb0539078daf034098d00c275c47647b",
+         "url": "https://tr-zha.s3.amazonaws.com/firmwares/TRTL_PIR_DEV_V31_v1.00.31.ota"
+     }
 ]
