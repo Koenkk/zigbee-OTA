@@ -2104,6 +2104,14 @@
         "url": "https://tr-zha.s3.amazonaws.com/firmwares/TRTL_ThermalSensor_PROD_OTA_V21_1.00.21.ota"
     },
     {
+        "fileVersion": 33,
+        "fileSize": 126738,
+        "manufacturerCode": 4659,
+        "imageType": 54184,
+        "sha512": "b9c8f0a3cd32793be15817eaa98a737d1e0d41428ea84a09436b1e11670fd21b61416552cd13b4d87bd7f3ea8e2d6a8fd775e10f6c95f74961fc30fdbd689d05",
+        "url": "https://tr-zha.s3.amazonaws.com/firmwares/SmartButton_Zigbee_PROD_OTA_V21_1.00.21.ota"
+    },
+    {
         "fileVersion": 49,
         "fileSize": 144178,
         "manufacturerCode": 4659,
