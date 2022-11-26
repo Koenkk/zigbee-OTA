@@ -1621,12 +1621,12 @@
         "path": "images/Xiaomi/20220210105858_OTA_lumi.sensor_gas.acn02_0.0.0.0014_20220105_64EC88.ota"
     },
     {
-        "fileVersion": 5,
-        "fileSize": 240478,
+        "fileVersion": 12,
+        "fileSize": 245710,
         "manufacturerCode": 4151,
         "imageType": 1,
-        "sha512": "692417e8863827f120cda063850aee65b7b6eb58109d419ff58dced1d7c9251617312368bda0f8488aa26aeb7a8e3642339c7648af24cbff66b870401c9113da",
-        "url": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/download/v5.0/ZLinky_router_v5.0.ota"
+        "sha512": "5d7e0a20141b78b85b4b046e623bc2bba24b28563464fe70227e79d0acdd5c0bde2adbd9d2557bd6cdfef2036d964c35c9e1746a8f1356af3325dd96f7a80e56",
+        "url": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/download/v12.0/ZLinky_router_v12.ota"
     },
     {
         "fileVersion": 33555200,
@@ -2110,5 +2110,29 @@
         "imageType": 54183,
         "sha512": "4283f9f04b689c6c1c2841219c9ece38bceda4ff0769755f7d08052baf9685e8eb964d80b063ae71f2cfd2e253d1731be086a3ddc638e0ed5f5cc11e76920683",
         "url": "https://tr-zha.s3.amazonaws.com/firmwares/SmartCurtain_Zigbee_PROD_OTA_V56_1.00.56.ota"
-    }
+    },
+    {
+        "fileVersion": 33,
+        "fileSize": 126738,
+        "manufacturerCode": 4659,
+        "imageType": 54184,
+        "sha512": "b9c8f0a3cd32793be15817eaa98a737d1e0d41428ea84a09436b1e11670fd21b61416552cd13b4d87bd7f3ea8e2d6a8fd775e10f6c95f74961fc30fdbd689d05",
+        "url": "https://tr-zha.s3.amazonaws.com/firmwares/SmartButton_Zigbee_PROD_OTA_V21_1.00.21.ota"
+    },
+    {
+        "fileVersion": 49,
+        "fileSize": 144178,
+        "manufacturerCode": 4659,
+        "imageType": 54178,
+        "sha512": "4f5907785f58994b7c6dc731c86141d9cda07c849eda56f7fd1759a6c6eedf03bb810a7b88077393559e96d10d38dc54154e92dffd57a930dd5144f33061d4ff",
+        "url": "https://tr-zha.s3.amazonaws.com/firmwares/TRTL_DoorSensor_DEV_V31_v1.00.31.ota"
+    },
+    {
+         "fileVersion": 49,
+         "fileSize": 144674,
+         "manufacturerCode": 4659,
+         "imageType": 54177,
+         "sha512": "466cb8bd86be94e1ab9b2ecb5d861b4c8703fae3ae890e9adfa5d9849074fe5496521b89783eee20cb658934bff97108bb0539078daf034098d00c275c47647b",
+         "url": "https://tr-zha.s3.amazonaws.com/firmwares/TRTL_PIR_DEV_V31_v1.00.31.ota"
+     }
 ]
