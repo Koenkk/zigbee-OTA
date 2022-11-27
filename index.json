@@ -2138,11 +2138,20 @@
         "url": "https://tr-zha.s3.amazonaws.com/firmwares/TRTL_DoorSensor_DEV_V31_v1.00.31.ota"
     },
     {
-         "fileVersion": 49,
-         "fileSize": 144674,
-         "manufacturerCode": 4659,
-         "imageType": 54177,
-         "sha512": "466cb8bd86be94e1ab9b2ecb5d861b4c8703fae3ae890e9adfa5d9849074fe5496521b89783eee20cb658934bff97108bb0539078daf034098d00c275c47647b",
-         "url": "https://tr-zha.s3.amazonaws.com/firmwares/TRTL_PIR_DEV_V31_v1.00.31.ota"
-     }
+        "fileVersion": 49,
+        "fileSize": 144674,
+        "manufacturerCode": 4659,
+        "imageType": 54177,
+        "sha512": "466cb8bd86be94e1ab9b2ecb5d861b4c8703fae3ae890e9adfa5d9849074fe5496521b89783eee20cb658934bff97108bb0539078daf034098d00c275c47647b",
+        "url": "https://tr-zha.s3.amazonaws.com/firmwares/TRTL_PIR_DEV_V31_v1.00.31.ota"
+    },
+    {
+        "fileVersion": 17039617,
+        "fileSize": 331404,
+        "manufacturerCode": 123,
+        "imageType": 321,
+        "sha512": "bde5d227300b33ff337d37202794f409b595c0c437ee0c2b60e97e9c1c6e000c74aee32d1210b15cb31a1b41c2f638a8708581af7452bda1d74803078305e9fc",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Uhome/007B-0141-01040101-good_image.zigbee",
+        "path": "images/Uhome/007B-0141-01040101-good_image.zigbee"
+    }
 ]

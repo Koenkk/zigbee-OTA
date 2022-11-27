@@ -29,6 +29,7 @@ const manufacturerNameLookup = {
     4742: 'Sonoff',
     4454: 'Innr',
     4659: 'ThirdReality',
+    123: 'Uhome',
 };
 
 const main = async () => {
