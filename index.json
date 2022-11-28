@@ -2153,5 +2153,13 @@
         "sha512": "bde5d227300b33ff337d37202794f409b595c0c437ee0c2b60e97e9c1c6e000c74aee32d1210b15cb31a1b41c2f638a8708581af7452bda1d74803078305e9fc",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Uhome/007B-0141-01040101-good_image.zigbee",
         "path": "images/Uhome/007B-0141-01040101-good_image.zigbee"
+    },
+    {
+        "fileVersion": 18,
+        "fileSize": 146322,
+        "manufacturerCode": 4659,
+        "imageType": 54181,
+        "sha512": "0864730bdf1d4455681fd4866ec934f325114a50c2375985dffd36bbc4d7ea9d8464f1bcfa3241482a3c4afedbfc32c1fbdec6e5a3f4629b765393768a198889",
+        "url": "https://tr-zha.s3.amazonaws.com/firmwares/SmartSwitchGen3_Zigbee_PROD_V12_v1.00.12.ota"
     }
 ]
