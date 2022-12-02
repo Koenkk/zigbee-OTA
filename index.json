@@ -131,12 +131,22 @@
         "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0109/1107324829/Switch-ATmega_6.1.1.28573_0012.sbl-ota"
     },
     {
+        "minFileVersion": 1107326256,
         "fileVersion": 1124096001,
         "fileSize": 256696,
         "manufacturerCode": 4107,
         "imageType": 267,
         "sha512": "054b2889587615e1b28096a7fdd1d3f045d78166b68183186ad25a82dc16522a43ebbfebe13203ee14c2752ac2e26dcacf7a5e50cd02bf157aed6e691e81460f",
         "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_010B/1124096001/LSP_010B_ModuLum-ATmega_0012_88.1.sbl-ota"
+    },
+    {
+        "maxFileVersion": 1107326255,
+        "fileVersion": 1107326256,
+        "fileSize": 256632,
+        "manufacturerCode": 4107,
+        "imageType": 267,
+        "sha512": "903dc359ddab530136e2aced646633627555a4317696f9a1c61300ff2006109e316443f7807b03397021e9162698dc9ba7fcbb3749f6f5a83883b9aafc78eb10",
+        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_010B/1107326256/ModuLum-ATmega_010B_5.130.1.30000_0012.sbl-ota"
     },
     {
         "minFileVersion": 16783874,
