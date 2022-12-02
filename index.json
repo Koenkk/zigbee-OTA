@@ -2169,5 +2169,14 @@
         "imageType": 54182,
         "sha512": "3efc15290e26da645d03b5fe0ad1420037af8563da483cb584d343c0ba3392d2c499366a68c33aa0d61786afe381b058d69172cfd9e987f700453679911af40c",
         "url": "https://tr-zha.s3.amazonaws.com/firmwares/SmartPlug_Zigbee_PROD_OTA_V20_v1.00.20.ota"
+    },
+    {
+        "fileVersion": 385953793,
+        "fileSize": 209202,
+        "manufacturerCode": 4687,
+        "imageType": 5172,
+        "sha512": "e71026da82d79c789b859a82792b7a45b91e58175a6fe6ac2a77deb9c4c295656647866b513ebc3fbfe38f58c2a72598de36b34abb2b6294788ccc2791fcd456",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Gledopto/GL-S-006P_V107_20220906.ota",
+        "path": "images/Gledopto/GL-S-006P_V107_20220906.ota"
     }
 ]
