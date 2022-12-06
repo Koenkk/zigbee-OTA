@@ -2208,5 +2208,14 @@
         "modelId": "lumi.light.acn026",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20221007112800_lumi.light.acn026_0.0.0_0037_20221007_9B3C04.ota",
         "path": "images/Xiaomi/20221007112800_lumi.light.acn026_0.0.0_0037_20221007_9B3C04.ota"
+    },
+    {
+        "fileVersion": 10,
+        "fileSize": 287022,
+        "manufacturerCode": 4098,
+        "imageType": 44,
+        "sha512": "a663c437d505b34b08c6a049c999ea6af4ed99db9192f0f7ec8b284644d518f6dafbb889e648bc216581e1a05a918811594fdcc4af66ab1c1178205c895038c7",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Tuya/ZB21S3_HZC_Dimmer1_ECO_1.01_20221021.ota",
+        "path": "images/Tuya/ZB21S3_HZC_Dimmer1_ECO_1.01_20221021.ota"
     }
 ]
