@@ -519,13 +519,13 @@
         "path": "images/Ledvance/Downlight_TW_HCL_IM0065_00103201-encrypted_09_20_2019_Fri_142050_70_withoutMF.ota"
     },
     {
-        "fileVersion": 1061121,
-        "fileSize": 182876,
+        "fileVersion": 17130496,
+        "fileSize": 185112,
         "manufacturerCode": 4489,
         "imageType": 49,
-        "sha512": "8499fdb8abaf530aaad05c4c6a20a41a6d11d9256a35a4d7c61d723a2d24a2b02e891cf3ecfa4e0ee8e64680266d6603a608c746bd414342e267d95b5b59e1e9",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Ledvance/PAR16_DIM_Z3_IM0031_00103101-encrypted_11_26_2018_Mon_175052_32_withoutMF.ota",
-        "path": "images/Ledvance/PAR16_DIM_Z3_IM0031_00103101-encrypted_11_26_2018_Mon_175052_32_withoutMF.ota"
+        "sha512": "9ead17873dd80c19bd7c5ed9647f15a02f66d314a9ead8f142f93e1bc32139badc403e33fa0a2fd4d74d35defd0ed1df41eebba7abed88e1519e9d4e88f97927",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Ledvance/PAR16_DIM_Z3_IM0031_01056400-encrypted_202129091143_withoutMF.ota",
+        "path": "images/Ledvance/PAR16_DIM_Z3_IM0031_01056400-encrypted_202129091143_withoutMF.ota"
     },
     {
         "fileVersion": 1057809,
