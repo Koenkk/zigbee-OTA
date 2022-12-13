@@ -2228,12 +2228,12 @@
         "path": "images/Legrand/1021-0015-194203-NLC-25.zigbee"
     },
     {
-        "fileVersion": 8650754,
+        "fileVersion": 262146,
         "fileSize": 208018,
         "manufacturerCode": 4117,
         "imageType": 386,
-        "sha512": "1e9f4d77d0e5af64575768983ac828f119b20e444cc8c522916a9c10ab5aad266a98b763b14959a0c4c2523e192b88f1212f244cd842a5c59f6cba26869dd47f",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Develco/ED_HA_Motion_Sensor_Mini-SSIG_B_4.0.2.zigbee",
-        "path": "images/Develco/ED_HA_Motion_Sensor_Mini-SSIG_B_4.0.2.zigbee"
+        "sha512": "160ebf2451f9fd6f377ba674a964e2194a173608a9f8d5cd76a9c11d5bfdebc51223d0f237f745b0db7102ae6b18f7f1436b6721240b26eb6851513ffb075b95",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Develco/ED_HA_Motion_Sensor_Mini-SSIG_4.0.2.zigbee",
+        "path": "images/Develco/ED_HA_Motion_Sensor_Mini-SSIG_4.0.2.zigbee"
     }
 ]
