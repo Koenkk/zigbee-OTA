@@ -2245,5 +2245,15 @@
         "modelId": "lumi.airm.fhac01",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220920171525_OTA_lumi.airm.fhac01_0.0.0_0026_20220919_BEDF49.ota",
         "path": "images/Xiaomi/20220920171525_OTA_lumi.airm.fhac01_0.0.0_0026_20220919_BEDF49.ota"
+    },
+    {
+        "fileVersion": 48,
+        "fileSize": 284750,
+        "manufacturerCode": 4447,
+        "imageType": 4104,
+        "sha512": "41788737db26cfe01890a1c5f400b5f3ffb01f4d8ac81606e55a7bfbc0c1d8a22ae8725ff9ff2d9a4bff890fce3271a6fbc808c2a43f3bddf07c7ea75d630432",
+        "modelId": "lumi.curtain.hagl07",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20211122110505_OTA_lumi.curtain.hagl07_V48_20211119_2C5A.ota",
+        "path": "images/Xiaomi/20211122110505_OTA_lumi.curtain.hagl07_V48_20211119_2C5A.ota"
     }
 ]
