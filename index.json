@@ -2235,5 +2235,15 @@
         "sha512": "160ebf2451f9fd6f377ba674a964e2194a173608a9f8d5cd76a9c11d5bfdebc51223d0f237f745b0db7102ae6b18f7f1436b6721240b26eb6851513ffb075b95",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Develco/ED_HA_Motion_Sensor_Mini-SSIG_4.0.2.zigbee",
         "path": "images/Develco/ED_HA_Motion_Sensor_Mini-SSIG_4.0.2.zigbee"
+    },
+    {
+        "fileVersion": 26,
+        "fileSize": 274750,
+        "manufacturerCode": 4447,
+        "imageType": 7432,
+        "sha512": "89a392b29fab601cb7d17980806dbf131ebfdbd807fa12031fb92caa71f48f204b989f4477621cd309fcdb23c961ff1adefaff698d4bf0e97383c480fa1a7eba",
+        "modelId": "lumi.airm.fhac01",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220920171525_OTA_lumi.airm.fhac01_0.0.0_0026_20220919_BEDF49.ota",
+        "path": "images/Xiaomi/20220920171525_OTA_lumi.airm.fhac01_0.0.0_0026_20220919_BEDF49.ota"
     }
 ]
