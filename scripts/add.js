@@ -16,6 +16,7 @@ const manufacturerNameLookup = {
     4405: 'DresdenElektronik',
     4489: 'Ledvance',
     4364: 'Osram',
+    4644: 'Namron',
     4648: 'Terncy',
     4098: 'Tuya',
     4151: 'Jennic',

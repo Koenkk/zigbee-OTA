@@ -2255,5 +2255,50 @@
         "modelId": "lumi.curtain.hagl07",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20211122110505_OTA_lumi.curtain.hagl07_V48_20211119_2C5A.ota",
         "path": "images/Xiaomi/20211122110505_OTA_lumi.curtain.hagl07_V48_20211119_2C5A.ota"
+    },        
+    {    
+        "fileVersion": 18,
+        "fileSize": 247634,
+        "manufacturerCode": 4644,
+        "imageType": 6001,
+        "sha512": "3bec1e5057bc2bafdac5a48e27f4d5bcd139a9eb6023ef0112a94cde064295ebb83eb9b8cf9e507f17439f0e16de1dabd8149c21b3614963752689c421fc0219",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Namron/4512737-Firmware-35.ota",
+        "path": "images/Namron/4512737-Firmware-35.ota"
+    },
+    {
+        "fileVersion": 25,
+        "fileSize": 160154,
+        "manufacturerCode": 4644,
+        "imageType": 1008,
+        "sha512": "af27753c8e1c53e38f3330e161143f01492a9d124156a9e1a8ead138143695e1496a5d0266494892e8a6d1055f6b8a7272ea5327d6d8061ba4be94f74c39c418",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Namron/4512721-Firmware-35.ota",
+        "path": "images/Namron/4512721-Firmware-35.ota"
+    },
+    {
+        "fileVersion": 47,
+        "fileSize": 241342,
+        "manufacturerCode": 4644,
+        "imageType": 2004,
+        "sha512": "0aeb77ba2d00b84af63582a3c71e98fda84f9bfdd079a19c203e34b18ff1f722417484e03e0be841793c14f9e3eb50e77412f4918d3b50ada1c1e85bba4c2d7a",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Namron/4512704-Firmware-35.ota",
+        "path": "images/Namron/4512704-Firmware-35.ota"
+    },
+    {
+        "fileVersion": 22,
+        "fileSize": 144312,
+        "manufacturerCode": 4644,
+        "imageType": 1234,
+        "sha512": "e338a39c7e4d9c902d0c36e9d83c14e75e562acfa26c87a2e7c730bfe310700a3f2504f2c2ee828ebac2f69db0fc32ec3ebd80de97ef9357244846c7ad7d7baa",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Namron/4512726-Firmware-35.ota",
+        "path": "images/Namron/4512726-Firmware-35.ota"
+    },
+    {
+        "fileVersion": 18,
+        "fileSize": 247634,
+        "manufacturerCode": 4644,
+        "imageType": 6002,
+        "sha512": "d72c7dde8266a595b84e0566a6e6e77055ace5778d511eaa0dba7b8c69bbbd03bff72d9ce831d7460660f401999c79562251d4bb326554252057e01111672260",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Namron/4512738-Firmware-35.ota",
+        "path": "images/Namron/4512738-Firmware-35.ota"
     }
 ]
