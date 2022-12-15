@@ -1009,14 +1009,14 @@
         "path": "images/Xiaomi/OTA_lumi.remote.b286acn03_V1.0.21_20191127.20200310172748.ota"
     },
     {
-        "fileVersion": 18,
-        "fileSize": 206254,
+        "fileVersion": 31,
+        "fileSize": 211150,
         "manufacturerCode": 4447,
         "imageType": 8584,
-        "sha512": "186b58858180282fb106aa5a5b7e47764fd3ef82b8a4467681331bcec4cbf66805fe7ef30f9f27c50b892c4b42ad98c7618030c20947d02fe17eeba8f3e7bb65",
+        "sha512": "2012c8d42ad631e5bb8e95a8a6fe2eab308c2379d52880636b956cdf4a01aa9d68101ca5b76c5dcdb2f485edfb67361fe641b54ac838f0b5a7b4cf8f6c71c486",
         "modelId": "lumi.remote.b1acn02",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/OTA_lumi.remote.b1acn02_V1.0.18_20190814.20190823153451.ota",
-        "path": "images/Xiaomi/OTA_lumi.remote.b1acn02_V1.0.18_20190814.20190823153451.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20221123140517_OTA_lumi.remote.b1acn02_0.0.0_0031_20221010_8D956D.ota",
+        "path": "images/Xiaomi/20221123140517_OTA_lumi.remote.b1acn02_0.0.0_0031_20221010_8D956D.ota"
     },
     {
         "fileVersion": 20,
@@ -1621,14 +1621,14 @@
         "path": "images/Xiaomi/20221024195531_OTA_lumi.dimmer.rcbac1_V28_20221021_.ota"
     },
     {
-        "fileVersion": 14,
+        "fileVersion": 15,
         "fileSize": 272814,
         "manufacturerCode": 4447,
         "imageType": 6156,
-        "sha512": "cf72fa36c7ab4bde8e77d5cabf4f6cce04d07789933c0b46541ad1fa8a70814c782447c3b8655017c9957f12bf32f7adf52e5d82e4525927e2ced9b8a11ca5be",
+        "sha512": "30bb22bc010d09c39bd37bd0c868491a79989883bc16b38026d6a21aa02235529348b4d7f9cd9dd686ba24ba71416595dce4a161543e24c643616ddf5f437d34",
         "modelId": "lumi.sensor_gas.acn02",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220210105858_OTA_lumi.sensor_gas.acn02_0.0.0.0014_20220105_64EC88.ota",
-        "path": "images/Xiaomi/20220210105858_OTA_lumi.sensor_gas.acn02_0.0.0.0014_20220105_64EC88.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20221022145158_OTA_lumi.sensor_gas.acn02_0.0.0.0015_20220708_CEB08C.ota",
+        "path": "images/Xiaomi/20221022145158_OTA_lumi.sensor_gas.acn02_0.0.0.0015_20220708_CEB08C.ota"
     },
     {
         "fileVersion": 12,
