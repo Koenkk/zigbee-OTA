@@ -1727,12 +1727,12 @@
         "url": "https://www.ubisys.de/wp-content/uploads/10F2-7B3B-0000-0001-02000300-m7b-h10.ota.zigbee"
     },
     {
-        "fileVersion": 16843520,
-        "fileSize": 186366,
+        "fileVersion": 17892352,
+        "fileSize": 236030,
         "manufacturerCode": 4338,
         "imageType": 31532,
-        "sha512": "d771a000a594c186f6fc5957070246267e76c44bd2696e4b47eb8dbc89fa8fba95747eb04941df35d73ab017eb929c3a79091d6cdf0c7cc1d12580318f6a3309",
-        "url": "https://www.ubisys.de/wp-content/uploads/10F2-7B2C-0000-0001-01010300-ld6.ota.zigbee"
+        "sha512": "b68da7ad070e737721b3a7914991a1d09a2909bbbb5e788ce8e1468509994d6fd0cdad6c029c1ca654be16f58a8c0d27d5df1f2914ddd522c006d95327a07b5c",
+        "url": "https://www.ubisys.de/wp-content/uploads/10F2-7B2C-0000-0001-01110400-ld6.ota.zigbee"
     },
     {
         "fileVersion": 18612992,
@@ -2255,8 +2255,8 @@
         "modelId": "lumi.curtain.hagl07",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20211122110505_OTA_lumi.curtain.hagl07_V48_20211119_2C5A.ota",
         "path": "images/Xiaomi/20211122110505_OTA_lumi.curtain.hagl07_V48_20211119_2C5A.ota"
-    },        
-    {    
+    },
+    {
         "fileVersion": 18,
         "fileSize": 247634,
         "manufacturerCode": 4644,
@@ -2300,5 +2300,69 @@
         "sha512": "d72c7dde8266a595b84e0566a6e6e77055ace5778d511eaa0dba7b8c69bbbd03bff72d9ce831d7460660f401999c79562251d4bb326554252057e01111672260",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Namron/4512738-Firmware-35.ota",
         "path": "images/Namron/4512738-Firmware-35.ota"
+    },
+    {
+        "fileVersion": 26411533,
+        "fileSize": 129278,
+        "manufacturerCode": 4338,
+        "imageType": 31522,
+        "sha512": "94d2430f2c4ddd9ecbad6199608958715ce48269f352e18636e62bf7f6d7c17b1d9fb444fc9f8b4dea26da265f4cc34d4df27557b97095a30140e0470a9f9c65",
+        "url": "https://www.ubisys.de/wp-content/uploads/10F2-7B22-0002-0007-0193020D-spo-fms.ota.zigbee"
+    },
+    {
+        "fileVersion": 17760774,
+        "fileSize": 249624,
+        "manufacturerCode": 4338,
+        "imageType": 31490,
+        "sha512": "f20e26fbd86d742823b83de7ab0b533dc7eeeb79bd40f542ea4d4401027c284531fc854b3cd70035e9a6fc8b84ffa50b6d4491a0037664cec65dc137f22b422d",
+        "url": "https://www.ubisys.de/wp-content/uploads/10F2-7B02-0002-0007-010F0206-spo-fms.ota.zigbee"
+    },
+    {
+        "fileVersion": 26345997,
+        "fileSize": 129278,
+        "manufacturerCode": 4338,
+        "imageType": 31525,
+        "sha512": "d549288431cc6d66f78df33e8160d2310f375154675f5563291798edda18e1b75480c0160b8aafd24e9c1f8b105d73f2553a771e378d218c0ff3998639170ff0",
+        "url": "https://www.ubisys.de/wp-content/uploads/10F2-7B25-0000-0004-0192020D-spo-rms.ota.zigbee"
+    },
+    {
+        "fileVersion": 17760774,
+        "fileSize": 249898,
+        "manufacturerCode": 4338,
+        "imageType": 31493,
+        "sha512": "c7ad49a637ccda86cecce4e6f70be476852f04a8932015339c3286d0418d1954d9d840264032ef4dcb9c9f79eb3c9efa7d34eb79662ee8c2d475511350865212",
+        "url": "https://www.ubisys.de/wp-content/uploads/10F2-7B05-0000-0004-010F0206-spo-rms.ota.zigbee"
+    },
+    {
+        "fileVersion": 26345997,
+        "fileSize": 129022,
+        "manufacturerCode": 4338,
+        "imageType": 31523,
+        "sha512": "6b59596d69c0049ac8111ddec0edee16c7fe3353900e9d04eef7a3d42a7cda10152883e743b8114b2140957fc417fa64c62b15fc236a4d8d86a10cb786742cf2",
+        "url": "https://www.ubisys.de/wp-content/uploads/10F2-7B23-0000-0006-0192020D-spo-fms2.ota.zigbee"
+    },
+    {
+        "fileVersion": 17695238,
+        "fileSize": 249626,
+        "manufacturerCode": 4338,
+        "imageType": 31491,
+        "sha512": "6854c83722a924171843254ec3896a3ca6c720f5713cf5d5ca58844e5ecc03978c72e3769874c21d5fa856928d075ba0ce6bf05e5bae7c49454862d5746aad09",
+        "url": "https://www.ubisys.de/wp-content/uploads/10F2-7B03-0000-0006-010E0206-spo-fms2.ota.zigbee"
+    },
+    {
+        "fileVersion": 26345997,
+        "fileSize": 129022,
+        "manufacturerCode": 4338,
+        "imageType": 31526,
+        "sha512": "2af49c67b63c7d42450091c3a8d5682f3c3d06f11470b61ffa194b3da67fffc9151f653e0b54c886ee78482313b12e2a7893c0b465e577f541e830c598f6408d",
+        "url": "https://www.ubisys.de/wp-content/uploads/10F2-7B26-0000-0004-0192020D-spo-rms2.ota.zigbee"
+    },
+    {
+        "fileVersion": 17695238,
+        "fileSize": 249626,
+        "manufacturerCode": 4338,
+        "imageType": 31494,
+        "sha512": "55abe3c7586a905fe89262cf5d89003d3a160f280f5111a3b33c0dcbab824672e4120818e4ef8bedaf43e45046426db3f2919bd603fc4cee761bcc22c8e0563d",
+        "url": "https://www.ubisys.de/wp-content/uploads/10F2-7B06-0000-0004-010E0206-spo-rms2.ota.zigbee"
     }
 ]
