@@ -63,12 +63,12 @@
         "path": "images/Sengled/RDS2017028_E1C-NB6_V0.0.22_20180314.ota"
     },
     {
-        "fileVersion": 1124097291,
+        "fileVersion": 1124099330,
         "fileSize": 258104,
         "manufacturerCode": 4107,
         "imageType": 256,
-        "sha512": "ed1ed4504275e37bfb265b1194c0947ad5db15a4573a51f70b027476326683e1e61850533e0528b437f829adcf83ebe313155e428ca44097ac442160396bd1b7",
-        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0100/1124097291/ConnectedLamp-TI-Target_0012.sbl-ota"
+        "sha512": "14db73c3be211143cf2046361d3421c5cbc60052f11ae5b129f269a77b4ce5489b0a376c7e5829087afed206fcbe9beda9c997a061afbb88c843caed477493cb",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_0100/60ecddb6-be67-4c91-b4cb-a87d0f392473/ConnectedLamp-TI-Target_0012.sbl-ota"
     },
     {
         "fileVersion": 1124097291,
@@ -76,16 +76,16 @@
         "manufacturerCode": 4107,
         "imageType": 259,
         "sha512": "e9d0bf784255e79c680563d4a4280c026070153df53b97ed507590376b42807c549d4493f2fc44fc625e98feba3182000c17ab954173e7456310b70f4b49e562",
-        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0103/1124097291/LivingColors-Hue-Target_0012.sbl-ota"
+        "url": "https://otau.meethue.com/storage/ZGB_100B_0103/5509a154-fe62-4cd3-bb11-19b46da0e074/LivingColors-Hue-Target_0012.sbl-ota"
     },
     {
         "minFileVersion": 1107326256,
-        "fileVersion": 1124096001,
+        "fileVersion": 1124099330,
         "fileSize": 256696,
         "manufacturerCode": 4107,
         "imageType": 260,
-        "sha512": "39d64d99d718c82aa9874fb544497955b6cdbe7bff60bef19740c811a5af14eb02864f4a76ac01b7619882f317d4058f30b5b729fedb1789b564103bac7ac58c",
-        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0104/1124096001/Atmel_0104_ConnectedLamp-Target_0012_88.1.sbl-ota"
+        "sha512": "096b0ba7f6c3b4d26a988ef6f79ca593c237e570934fc2e2bef6e885864226c727b9a963d59086ca6d7f5493706808129117f936ae6695cbe59288b13daada30",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_0104/e7e4aac2-7479-434a-b790-b6bd2d3cbd6c/ConnectedLamp-Atmel-Target_0012.sbl-ota"
     },
     {
         "maxFileVersion": 1107326255,
@@ -102,16 +102,16 @@
         "manufacturerCode": 4107,
         "imageType": 261,
         "sha512": "a3492bec9fd9b3149be9135ea9175d6161617188c04428230bbea161660c0cef2f9c83ecc185b758e1337d4f99e08f3978fd9102eec67843bac66e6dbc1e39a9",
-        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0105/1107326256/WhiteLamp-Atmel-Target_0105_5.130.1.30000_0012.sbl-ota"
+        "url": "https://otau.meethue.com/storage/ZGB_100B_0105/6b0b2e69-652d-4941-9da9-a4e7ff0fc70c/WhiteLamp-Atmel-Target_0105_5.130.1.30000_0012.sbl-ota"
     },
     {
         "minFileVersion": 1107326256,
-        "fileVersion": 1124097287,
+        "fileVersion": 1124099330,
         "fileSize": 256696,
         "manufacturerCode": 4107,
         "imageType": 264,
-        "sha512": "a27e68ca11b464a09f52987095e6389edf1e5e512b5d9af28be0a25c1ca57d7d50d68e188e292565339837d46adc3a07fccc6250f4c0214a547cea33ef39e1b6",
-        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0108/1124097287/100B_0108_LivingColors-Target_0012_93.7.sbl-ota"
+        "sha512": "1613c7f6372c7931e40cf78c57f32a81bbaea84bc3c5f0d193e0271b00a152f52b0fde23fd5a675c709d6d0b7cac6acfbab6029ab25c4971ba706317993ebcbb",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_0108/55fb9cf3-afb6-4ef5-8887-905699da7ee8/LivingColors-Atmel-Target_0012.sbl-ota"
     },
     {
         "maxFileVersion": 1107326255,
@@ -128,16 +128,16 @@
         "manufacturerCode": 4107,
         "imageType": 265,
         "sha512": "d20057d6c4e61d4ccdd3947b8a8c9bf9e126a26c080b9ce3e6839a0615b912c6f93246a60c55a44f2c8b8ec49f5041f46ac38b8a3c0a1c6ab44f062cc62089cf",
-        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0109/1107324829/Switch-ATmega_6.1.1.28573_0012.sbl-ota"
+        "url": "https://otau.meethue.com/storage/ZGB_100B_0109/0e1147ca-9b7e-4de1-b282-8b81c3c8e030/Switch-ATmega_6.1.1.28573_0012.sbl-ota"
     },
     {
         "minFileVersion": 1107326256,
-        "fileVersion": 1124096001,
+        "fileVersion": 1124099330,
         "fileSize": 256696,
         "manufacturerCode": 4107,
         "imageType": 267,
-        "sha512": "054b2889587615e1b28096a7fdd1d3f045d78166b68183186ad25a82dc16522a43ebbfebe13203ee14c2752ac2e26dcacf7a5e50cd02bf157aed6e691e81460f",
-        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_010B/1124096001/LSP_010B_ModuLum-ATmega_0012_88.1.sbl-ota"
+        "sha512": "a9cdee21be081de3dfe02a7904cb730e0f3a726bac5f18ec2c5d3aa0f5c69e18071a9c42cc08f8f77b956901ba8b0cc53c209d429f5bf017f0e1a98d33ce15b1",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_010B/26ca95ed-e2ac-4df4-b93e-d5d02516a04a/ModuLum-ATmega_0012.sbl-ota"
     },
     {
         "maxFileVersion": 1107326255,
@@ -150,12 +150,12 @@
     },
     {
         "minFileVersion": 16783874,
-        "fileVersion": 16785664,
-        "fileSize": 267644,
+        "fileVersion": 16786688,
+        "fileSize": 267324,
         "manufacturerCode": 4107,
         "imageType": 268,
-        "sha512": "efa1c94c60896468624c3f699bc2a1986c4667e5fe6512ecd7db722799be898f634144825035280e62becda576d8571fc22a421e553adc57b454f099c479fa93",
-        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_010C/16785664/100B-010C-01002100-ConfLight-Lamps_0012.zigbee"
+        "sha512": "5dd29c7405a2f3cd9058fd5e6999cc76a2cbffc0c531acddc5bae99588ca37f2f79288202c02b846abbf07d32e1e398a7fd7747d630541c05210bb43d238f8ef",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_010C/0f7ed133-fa2f-48f6-810d-533fd1d4994a/100B-010C-01002500-ConfLight-Lamps_0012.zigbee"
     },
     {
         "maxFileVersion": 16783873,
@@ -172,16 +172,16 @@
         "manufacturerCode": 4107,
         "imageType": 269,
         "sha512": "10e549c55d262b2f227b75817f6620be407f537e04ac08db4dbebdf53e8d460299a2cda248b3be13476757d61a1c79b632963c4f126cd26b7c18ea6a2ab4ac59",
-        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_010D/1107323831/Sensor-ATmega_6.1.1.27575_0012.sbl-ota"
+        "url": "https://otau.meethue.com/storage/ZGB_100B_010D/bd3f218f-190b-4498-b6b3-69aea563fd9d/Sensor-ATmega_6.1.1.27575_0012.sbl-ota"
     },
     {
         "minFileVersion": 16783620,
-        "fileVersion": 16785152,
-        "fileSize": 271114,
+        "fileVersion": 16786176,
+        "fileSize": 269002,
         "manufacturerCode": 4107,
         "imageType": 270,
-        "sha512": "9639556342d4c7210bc57a4a71655a6f16804b207542fe4558cd40b0b26758488a6adbbd4fd7d4d6390d2a153ae1fc5c45b9f3cc07bd98ce6aeb66f7be228b6f",
-        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_010E/16785152/100B-010E-01001F00-ConfLight-ModuLum_0012.zigbee"
+        "sha512": "6fce8e14bba99e7d187da799b2b289010cfed5baf2ce70bb5f6f1ed50624d62bdd160b1e4217623eb494220a98031a8a4cf1f0a519af6096bedfeacea872a797",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_010E/b8bba8c0-d137-4015-b107-2825eb28c123/100B-010E-01002300-ConfLight-ModuLum_0012.zigbee"
     },
     {
         "maxFileVersion": 16783619,
@@ -193,20 +193,20 @@
         "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_010E/16783620/100B-010E-01001904-ConfLight-ModuLum_0012.zigbee"
     },
     {
-        "fileVersion": 16781312,
-        "fileSize": 250826,
+        "fileVersion": 16782336,
+        "fileSize": 250762,
         "manufacturerCode": 4107,
         "imageType": 271,
-        "sha512": "2a37ccd3e4bda55e0be06c55ea4ea50e5bd866138eaec9af15af3103d63395a7f61bb9ff310e8876f8c9d6967421a3ab7fd699db7b07558a79f01830d1413627",
-        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_010F/16781312/100B-010F-01001000-ConfLight-LedStrips_0012.zigbee"
+        "sha512": "96aaf00fb08c6cd08c5eeafd04f68822eebfaf3af6160cbf36bef2c7ab03ac27824ed7a720ca491920cbc3f3b539db44682674ec48f61113cf1dea77c3a11a62",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_010F/f4fdc59a-14dc-4516-8c29-be905ed23635/100B-010F-01001400-ConfLight-LedStrips_0012.zigbee"
     },
     {
-        "fileVersion": 16785410,
-        "fileSize": 298928,
+        "fileVersion": 16785664,
+        "fileSize": 293368,
         "manufacturerCode": 4107,
         "imageType": 272,
-        "sha512": "ad318f864d6bf536415881ac7466fe37ca39781dafbb34b966048d2289c95cf8202029a6d5819adb6c403ea65e7e3c68c2a6f3fa1840f851084a32e7bb149796",
-        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0110/16785410/100B-0110-01002002-ConfLight-Lamps-EFR32MG13.zigbee"
+        "sha512": "2252a8cfc02f842bf2e1c45597f64278e05a934395e38fb5d7690ba782aba8ec033ef84b2c83c6701d8f34636e93e13f8ab7fbc5ff982e336bee34d2af503c0c",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_0110/70b64072-dbf5-4383-9140-511e1483dbd4/100B-0110-01002100-ConfLight-Lamps-EFR32MG13.zigbee"
     },
     {
         "fileVersion": 16784640,
@@ -214,7 +214,7 @@
         "manufacturerCode": 4107,
         "imageType": 273,
         "sha512": "d7f6adc33b7d1d165e1aab6975825a789e3daa83d8d86fe20b057fb603926548a6eeb6a0af09f20108d87a71aacfed654dc273eb79d4dcf917f254aa13876027",
-        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0111/16784640/100B-0111-01001D00-ConfLight-ModuLum-EFR32MG13.zigbee"
+        "url": "https://otau.meethue.com/storage/ZGB_100B_0111/ad34031b-3c49-420f-9782-f37e205db2a9/100B-0111-01001D00-ConfLight-ModuLum-EFR32MG13.zigbee"
     },
     {
         "fileVersion": 16786432,
@@ -222,7 +222,7 @@
         "manufacturerCode": 4107,
         "imageType": 274,
         "sha512": "f30e0633129ff4569b644ac1edccd6bfe22e872e641520665c945fac6f41f3e757b333206e5d2c9ad0f2be042c0992159d55800c7c71bcb0c0514da877a206cf",
-        "url": "https://firmware.meethue.com/storage/100b-112/16786432/a91f7e5d-ea2d-4f90-aab4-f9dcf29ff03b/100B-0112-01002400-ConfLightBLE-Lamps-EFR32MG13.zigbee"
+        "url": "https://otau.meethue.com/storage/ZGB_100B_0112/3ddd2b84-5fa0-4c7f-a695-e238c85ccaef/100B-0112-01002400-ConfLightBLE-Lamps-EFR32MG13.zigbee"
     },
     {
         "fileVersion": 16784906,
@@ -230,7 +230,7 @@
         "manufacturerCode": 4107,
         "imageType": 276,
         "sha512": "e097485e23a42329b6c18c0ab3561fd1491fcc2eda0058487987190566b6e3eecc788164cc89bee326083c799aa61a3bf077d375667f4aeb628060784c494599",
-        "url": "https://firmware.meethue.com/storage/100b-114/16784906/8d31fa8d-489f-4a46-87e9-08523be33c38/100B-0114-01001E0A-ConfLightBLE-Lamps-EFR32MG21.zigbee"
+        "url": "https://otau.meethue.com/storage/ZGB_100B_0114/090d8075-bcc7-4bf6-aead-bfc9d4926468/100B-0114-01001E0A-ConfLightBLE-Lamps-EFR32MG21.zigbee"
     },
     {
         "fileVersion": 16781056,
@@ -238,7 +238,7 @@
         "manufacturerCode": 4107,
         "imageType": 277,
         "sha512": "ffbab6ed1c88d9188ad68f8b4744a0e108955fa3b77744f53d213bfc9b1a134320d64f388b34a3c8b9073c637861009dca19b7902f34d5b9a7fb548c294ec95b",
-        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0115/16781056/100B-0115-01000F00-SmartPlug-EFR32MG13.zigbee"
+        "url": "https://otau.meethue.com/storage/ZGB_100B_0115/acfcd164-eff8-4ee2-8025-2dbd7db105e5/100B-0115-01000F00-SmartPlug-EFR32MG13.zigbee"
     },
     {
         "fileVersion": 33566472,
@@ -246,7 +246,7 @@
         "manufacturerCode": 4107,
         "imageType": 278,
         "sha512": "d961093ee0014066345c3ba2dd29df2ecbaccd8635e88c404e5a7fbf5903cae6926768d0e8f935b40fc53d2c040669ac52401d5b2419485c4ae672f886727a2a",
-        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0116/33566472/100B-0116-02002F08-Switch-EFR32MG13.zigbee"
+        "url": "https://otau.meethue.com/storage/ZGB_100B_0116/5ce84476-ad41-4b8b-a5ae-52d0e8df749a/100B-0116-02002F08-Switch-EFR32MG13.zigbee"
     },
     {
         "fileVersion": 16784640,
@@ -254,7 +254,7 @@
         "manufacturerCode": 4107,
         "imageType": 279,
         "sha512": "b8e2229f67de234473837c964ae5836eb4ec44947eb47c9e25ec802b8e5ab0760bdccdd68d3e6029e95df2f528703db096188edf97f1284749ed525004bb9dcc",
-        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0117/16784640/100B-0117-01001D00-ConfLightBLE-ModuLum-EFR32MG21.zigbee"
+        "url": "https://otau.meethue.com/storage/ZGB_100B_0117/8b153ab6-112f-42a9-8f2c-510700f4d749/100B-0117-01001D00-ConfLightBLE-ModuLum-EFR32MG21.zigbee"
     },
     {
         "fileVersion": 16782080,
@@ -262,7 +262,7 @@
         "manufacturerCode": 4107,
         "imageType": 280,
         "sha512": "7f5692708d72208435257f7df691729eb437eaff7f81ae71a7534f10ec493498b2b72b3ea3701f0172a52d95eaaa401cdfe65d2aa0005747ef39496c6762c3f0",
-        "url": "https://firmware.meethue.com/storage/100b-118/16782080/a9f90013-51bf-4ed7-9b42-74fb59759f13/100B-0118-01001300-PixelLum-EFR32MG21.zigbee"
+        "url": "https://otau.meethue.com/storage/ZGB_100B_0118/adc79217-d09f-4cbd-8165-80c16e7e5b1d/100B-0118-01001300-PixelLum-EFR32MG21.zigbee"
     },
     {
         "fileVersion": 33565954,
@@ -270,7 +270,7 @@
         "manufacturerCode": 4107,
         "imageType": 281,
         "sha512": "deff3ced9b340b94d3ea181c23c6f5289e3ed0ba068ed235dce19e628f0d509b55c62432b406b06f761d895c65eaed608f3e67054d628d889277713ed510cc1e",
-        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0119/33565954/100B-0119-02002D02-Switch-EFR32MG22.zigbee"
+        "url": "https://otau.meethue.com/storage/ZGB_100B_0119/ab6c4f9d-d29c-4e80-8502-863167defbf6/100B-0119-02002D02-Switch-EFR32MG22.zigbee"
     },
     {
         "fileVersion": 16779776,
@@ -278,7 +278,7 @@
         "manufacturerCode": 4107,
         "imageType": 282,
         "sha512": "841764c72f1c28055e5be9bcbef58079895f72dfd6e1a5b778a999e9a039ab210d9d1ded1b9adf462531e8639179653b3f227ed2b20e4b0bc6db8ab1e90514dc",
-        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_011A/16779776/100B-011A-01000A00-SmartPlug-EFR32MG21.zigbee"
+        "url": "https://otau.meethue.com/storage/ZGB_100B_011A/2c1a6216-b003-45e0-9d75-f87857e82f00/100B-011A-01000A00-SmartPlug-EFR32MG21.zigbee"
     },
     {
         "fileVersion": 16785408,
@@ -286,7 +286,7 @@
         "manufacturerCode": 4107,
         "imageType": 285,
         "sha512": "17d23fa07574054f73331fd1672b74c6ccbe87367f7b0b753b9c701bb1cdbbe78b22ca5be5e646c2eeedc68ce0110d480282a610c4773d9de3f1a43ed0a0b4ee",
-        "url": "https://firmware.meethue.com/storage/100b-11d/16785408/67752bd1-f7da-4476-a91b-d47405e9eced/100B-011D-01002000-ConfLight-ModuLumV2-EFR32MG13.zigbee"
+        "url": "https://otau.meethue.com/storage/ZGB_100B_011D/1c1bf7b6-e9b3-40ab-a920-87cb6b09492d/100B-011D-01002000-ConfLight-ModuLumV2-EFR32MG13.zigbee"
     },
     {
         "fileVersion": 16785408,
@@ -294,7 +294,7 @@
         "manufacturerCode": 4107,
         "imageType": 286,
         "sha512": "7960f1b536bfabd20a2f32b71727723ebe4a59059b2f8ef33ae0b913090bafb8b007faa4410460ed40b85c10d49a83adeaf4f9ad39b2178b8c61c5503fb922d0",
-        "url": "https://firmware.meethue.com/storage/100b-11e/16785408/99c39103-f975-42d3-80ea-b8e1d94b9c19/100B-011E-01002000-ConfLight-PortableV2-EFR32MG13.zigbee"
+        "url": "https://otau.meethue.com/storage/ZGB_100B_011E/45441e84-b66b-4e75-8778-d9627a52cefd/100B-011E-01002000-ConfLight-PortableV2-EFR32MG13.zigbee"
     },
     {
         "fileVersion": 16785154,
@@ -302,7 +302,7 @@
         "manufacturerCode": 4107,
         "imageType": 287,
         "sha512": "0119150a6fd8378f7fed041ee3f2a5cc61621d0f15c0722a33eaf1ebab9e8ccfd6ae0d59453f33bfe12d3d1d5ba4f80c7bef85ab82164130a3761947461e93e2",
-        "url": "https://firmware.meethue.com/storage/100b-11f/16785154/0f681f5b-9847-484b-a2d9-a5233623a2c8/100B-011F-01001F02-ConfLightBLE-ModuLumV3-EFR32MG21.zigbee"
+        "url": "https://otau.meethue.com/storage/ZGB_100B_011F/95971a7b-e3c6-4a80-b28b-cc3fb90d5e9f/100B-011F-01001F02-ConfLightBLE-ModuLumV3-EFR32MG21.zigbee"
     },
     {
         "fileVersion": 16785152,
@@ -310,7 +310,7 @@
         "manufacturerCode": 4107,
         "imageType": 288,
         "sha512": "d4d21cfd5092c658e8f91ed5b85f083c9b9b93006f7894db9aa71f42728de910077537f0248dc4d40ec2ac4c7db25199f21734817b70bd93327cc51b1cbdb435",
-        "url": "https://firmware.meethue.com/storage/100b-120/16785152/e2392168-d647-4256-b148-e9903bca6459/100B-0120-01001F00-ConfLightBLE-PortableV3-EFR32MG21.zigbee"
+        "url": "https://otau.meethue.com/storage/ZGB_100B_0120/2e408b16-42a1-43c6-915c-de7c8d876b2a/100B-0120-01001F00-ConfLightBLE-PortableV3-EFR32MG21.zigbee"
     },
     {
         "fileVersion": 3080,
@@ -318,7 +318,23 @@
         "manufacturerCode": 4420,
         "imageType": 0,
         "sha512": "eb1e76825aca6a6418042d71821921d4c073aa1ada0d52eaffd967ce2ccba7a5dda07a6caab70f19b3a2f9630d43b055c06d16050101b655413ba271375bea57",
-        "url": "http://fds.dc1.philips.com/firmware/ZGB_1144_0000/3080/Superman_v3_08_ProdKey_3080.ota"
+        "url": "https://otau.meethue.com/storage/ZGB_1144_0000/04071b69-217b-4d73-8cf3-367ed2dc7ca8/Superman_v3_08_ProdKey_3080.ota"
+    },
+    {
+        "fileVersion": 33569561,
+        "fileSize": 185770,
+        "manufacturerCode": 4107,
+        "imageType": 289,
+        "sha512": "b117d19666222b0b1962585f1e47e525c643d3d784fa3a59c0299cd1533a3799a1c72553c7964708879fe0131d4c5cb9fcc5af681d8059d18e6f47b942a5e4fb",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_0121/f28229fd-c450-4d0c-ada4-21f855674e06/100B-0121-02003B19-Switch-EFR32MG22-40xf.zigbee"
+    },
+    {
+        "fileVersion": 16778496,
+        "fileSize": 382604,
+        "manufacturerCode": 4107,
+        "imageType": 291,
+        "sha512": "1b01de65aa15a5a6f69bd81fa77d6b295fe3457bdf27386d4f21fbb9e920249e3bb6311959a1ebe81ffffd391211d3d4685dc9f824430d9f9a310ca62aa168ec",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_0123/da4dbc65-bf08-474c-865c-bed9fcc64bae/100B-0123-01000500-PixelLumXL-EFR32MG21.zigbee"
     },
     {
         "fileVersion": 537919733,
@@ -1993,14 +2009,6 @@
         "sha512": "3f0fe80f5d7dc6d335e133a9fdd13e8bf060e1df7a1883d770a662604773f74563f7057d5b14d518689a9591ff44e4086dcbc212a84585a16ad8ec7578768ff7",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Jennic/CSM300Z_TOF_OTA_ENC_V13_ENC.ota",
         "path": "images/Jennic/CSM300Z_TOF_OTA_ENC_V13_ENC.ota"
-    },
-    {
-        "fileVersion": 33569561,
-        "fileSize": 185770,
-        "manufacturerCode": 4107,
-        "imageType": 289,
-        "sha512": "b117d19666222b0b1962585f1e47e525c643d3d784fa3a59c0299cd1533a3799a1c72553c7964708879fe0131d4c5cb9fcc5af681d8059d18e6f47b942a5e4fb",
-        "url": "http://fds.dc1.philips.com/firmware/ZGB_100B_0121/33569561/100B-0121-02003B19-Switch-EFR32MG22-40xf.zigbee"
     },
     {
         "fileVersion": 2839,
