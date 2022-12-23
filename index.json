@@ -2255,8 +2255,8 @@
         "modelId": "lumi.curtain.hagl07",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20211122110505_OTA_lumi.curtain.hagl07_V48_20211119_2C5A.ota",
         "path": "images/Xiaomi/20211122110505_OTA_lumi.curtain.hagl07_V48_20211119_2C5A.ota"
-    },        
-    {    
+    },
+    {
         "fileVersion": 18,
         "fileSize": 247634,
         "manufacturerCode": 4644,
@@ -2300,5 +2300,15 @@
         "sha512": "d72c7dde8266a595b84e0566a6e6e77055ace5778d511eaa0dba7b8c69bbbd03bff72d9ce831d7460660f401999c79562251d4bb326554252057e01111672260",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Namron/4512738-Firmware-35.ota",
         "path": "images/Namron/4512738-Firmware-35.ota"
+    },
+    {
+        "fileVersion": 38,
+        "fileSize": 475360,
+        "manufacturerCode": 4447,
+        "imageType": 129,
+        "sha512": "ce1958c3df56e24e6e15844b54ad12a44b4c86d5c12023738fcc616791b531e6dcd8fc9f7ea7aad896b6d0b23425f2c01cf02508fe4a8566497f178a98acfeaf",
+        "modelId": "lumi.light.acn014",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20221209103401_lumi.light.acn014_0.0.0_0038_20221207_10E6C5.ota",
+        "path": "images/Xiaomi/20221209103401_lumi.light.acn014_0.0.0_0038_20221207_10E6C5.ota"
     }
 ]
