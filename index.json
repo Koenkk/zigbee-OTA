@@ -976,13 +976,13 @@
         "path": "images/Sengled/1594189489604_RDS2017039_E12_N1E_V0.0.30_20200630_SVN396.ota"
     },
     {
-        "fileVersion": 67134800,
-        "fileSize": 196814,
+        "fileVersion": 117466448,
+        "fileSize": 197946,
         "manufacturerCode": 4919,
         "imageType": 8205,
-        "sha512": "4971dd0e530a1368152b327b73e612bbc13d737ebeed322d9badc708c9e597c93d9f07a165d24507f2075bdaa94b5d58dc8d9513c10a5523949c63a3a37c4d16",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Datek/datek_han_adapter_v04.ota",
-        "path": "images/Datek/datek_han_adapter_v04.ota"
+        "sha512": "b6cb70d63eaf47bc9236f7678b817e45abf100210da1a8dc6ec7795c6edda90855c9a234627171a991a9acfe2829d66591d1c30f057d1976047d19852a180516",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Datek/datek_han_adapter_v07.ota",
+        "path": "images/Datek/datek_han_adapter_v07.ota"
     },
     {
         "fileVersion": 27,
