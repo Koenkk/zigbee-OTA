@@ -2274,6 +2274,7 @@
         "path": "images/Namron/4512737-Firmware-35.ota"
     },
     {
+        "modelId": "4512721",
         "fileVersion": 25,
         "fileSize": 160154,
         "manufacturerCode": 4644,
@@ -2281,6 +2282,16 @@
         "sha512": "af27753c8e1c53e38f3330e161143f01492a9d124156a9e1a8ead138143695e1496a5d0266494892e8a6d1055f6b8a7272ea5327d6d8061ba4be94f74c39c418",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Namron/4512721-Firmware-35.ota",
         "path": "images/Namron/4512721-Firmware-35.ota"
+    },
+    {
+        "modelId": "4512705",
+        "fileVersion": 25,
+        "fileSize": 160153,
+        "manufacturerCode": 4644,
+        "imageType": 1008,
+        "sha512": "b4d6e2ee31ad7a90ec0d87d3a00ca08a587ac5ca276484a2ffdc8ff94dcb6b63199f679e6659a2b5217aa4a6bf067c8bc10692ca541ddec354184939a673cb71",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Namron/4512705-Firmware-35.ota",
+        "path": "images/Namron/4512705-Firmware-35.ota"
     },
     {
         "fileVersion": 47,
