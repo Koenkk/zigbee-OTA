@@ -2363,5 +2363,14 @@
         "sha512": "b4d6e2ee31ad7a90ec0d87d3a00ca08a587ac5ca276484a2ffdc8ff94dcb6b63199f679e6659a2b5217aa4a6bf067c8bc10692ca541ddec354184939a673cb71",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Namron/4512719-Firmware-35.ota",
         "path": "images/Namron/4512719-Firmware-35.ota"
+    },
+    {
+        "fileVersion": 10,
+        "fileSize": 287022,
+        "manufacturerCode": 4714,
+        "imageType": 44,
+        "sha512": "327e1afaec8baf9d367c5cd43d3dcda80e6014e56a3e400a9094249dd74e1eb2354b7106dd119b3eb661e9051cf64a2f9273a66ba0f089f7374eacb410a749bf",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/EcoDim/Zigbee_Dimmer_1_Gang.ota",
+        "path": "images/EcoDim/Zigbee_Dimmer_1_Gang.ota"
     }
 ]
