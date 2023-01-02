@@ -31,7 +31,7 @@ const manufacturerNameLookup = {
     4454: 'Innr',
     4659: 'ThirdReality',
     123: 'Uhome',
-	4714: 'EcoDim',
+    4714: 'EcoDim',
 };
 
 const main = async () => {
