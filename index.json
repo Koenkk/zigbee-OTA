@@ -2106,12 +2106,12 @@
         "path": "images/Xiaomi/20220726141832_OTA_aqara.feeder.acn001_0.0.0_3733_20220725_089168.ota"
     },
     {
-        "fileVersion": 49,
-        "fileSize": 145746,
+        "fileVersion": 50,
+        "fileSize": 146002,
         "manufacturerCode": 4659,
         "imageType": 54179,
-        "sha512": "929637894934b7aede459920cc1d6ef377a2fee9bc03237bc867cd0037647e09a5e52b1f04e5ff3bf0a73666002dc22cf4fb2c690729c4d5cf04178f3f6fb6c5",
-        "url": "https://tr-zha.s3.amazonaws.com/firmwares/TRTL_WaterLeak_DEV_V31_v1.00.31.ota"
+        "sha512": "fe23a9232afca5e074c280e2a7a5aeb8f8fe41accae42825089f4495c6ecbed02c8e7e0faa11762df81c336a2600727362ed5f80ee345e1d25fddc5e9137d944",
+        "url": "https://tr-zha.s3.amazonaws.com/firmwares/TRTL_WaterLeak_DEV_V32_v1.00.32.ota"
     },
     {
         "fileVersion": 33,
