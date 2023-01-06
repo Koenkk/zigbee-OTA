@@ -31,6 +31,7 @@ const manufacturerNameLookup = {
     4454: 'Innr',
     4659: 'ThirdReality',
     123: 'Uhome',
+    4617: 'Bosch',
 };
 
 const main = async () => {

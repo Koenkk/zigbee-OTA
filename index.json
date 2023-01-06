@@ -2363,5 +2363,15 @@
         "sha512": "b4d6e2ee31ad7a90ec0d87d3a00ca08a587ac5ca276484a2ffdc8ff94dcb6b63199f679e6659a2b5217aa4a6bf067c8bc10692ca541ddec354184939a673cb71",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Namron/4512719-Firmware-35.ota",
         "path": "images/Namron/4512719-Firmware-35.ota"
+    },
+    {
+        "modelId": "RBSH-TRV0-ZB-EU",
+        "fileVersion": 872617236,
+        "fileSize": 165916,
+        "manufacturerCode": 4617,
+        "imageType": 12298,
+        "sha512": "1c8f98b906c857e9259db94b257cc818d0f929002802f068e46ec8fdb6d64d2fdae71d946af3582278377aa36afb04f214daba71ae13d1f14453f9bf94dcd339",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Bosch/0x1209_0x300a_0x34031514.ota",
+        "path": "images/Bosch/0x1209_0x300a_0x34031514.ota"
     }
 ]
