@@ -2097,14 +2097,14 @@
         "path": "images/Innr/1166-0312-27016A30-upgradeMe.zigbee"
     },
     {
-        "fileVersion": 9505,
+        "fileVersion": 9761,
         "fileSize": 324224,
         "manufacturerCode": 4447,
         "imageType": 4873,
-        "sha512": "22b7cd81ebbb193754ade952df931432247d6df52194beb84c30b4e234ee9809e2e349e3ebda4c3e86c9abd0dc997ec303d86aec4cba405d3b0bacf86269e081",
+        "sha512": "20955a8996973680d9b1f110c9d5583c072bcb99032a1070fc0c6663323539928d82d46f34a21109e68882272a459d205eecc0ae3b3bae66a8866dc0c2094b2f",
         "modelId": "aqara.feeder.acn001",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220726141832_OTA_aqara.feeder.acn001_0.0.0_3733_20220725_089168.ota",
-        "path": "images/Xiaomi/20220726141832_OTA_aqara.feeder.acn001_0.0.0_3733_20220725_089168.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20221213122302_OTA_aqara.feeder.acn001_0.0.0_3833_20220914_03DFD1.ota",
+        "path": "images/Xiaomi/20221213122302_OTA_aqara.feeder.acn001_0.0.0_3833_20220914_03DFD1.ota"
     },
     {
         "fileVersion": 50,
