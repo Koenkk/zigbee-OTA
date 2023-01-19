@@ -982,8 +982,8 @@
         "manufacturerCode": 4919,
         "imageType": 8205,
         "sha512": "d5e28bcae888e97f6cc59c18fb9e406dbd53bf2b796b3807e1247a6d831a2bece433f8961702fe7437b5a26fe26b30ddcc802cc4d15660d27fd2be31b1311ff5",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Datek/han_adapter_0.7.ota",
-        "path": "images/Datek/han_adapter_0.7.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Datek/han_adapter-0.7_MG13_nonreworked.ota",
+        "path": "images/Datek/han_adapter-0.7_MG13_nonreworked.ota"
     },
     {
         "fileVersion": 27,
@@ -2374,5 +2374,23 @@
         "sha512": "1c8f98b906c857e9259db94b257cc818d0f929002802f068e46ec8fdb6d64d2fdae71d946af3582278377aa36afb04f214daba71ae13d1f14453f9bf94dcd339",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Bosch/0x1209_0x300a_0x34031514.ota",
         "path": "images/Bosch/0x1209_0x300a_0x34031514.ota"
+    },
+    {
+        "fileVersion": 536898096,
+        "fileSize": 235962,
+        "manufacturerCode": 4919,
+        "imageType": 8226,
+        "sha512": "516f3a1b31f6018cc794c3959adb0eac84e6477db2a60b8eba63f10ac9527e5d9368d9cbbd5e4257ea7587f1b58c3132c43f0bd788dac93819ab24caa1671150",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Datek/han_adapter-2.0_MG13_reworked.ota",
+        "path": "images/Datek/han_adapter-2.0_MG13_reworked.ota"
+    },
+    {
+        "fileVersion": 536898096,
+        "fileSize": 241258,
+        "manufacturerCode": 4919,
+        "imageType": 8224,
+        "sha512": "2dd671e994f521d602f083e4f3a7720e9d251672e1b4068333a0025a9de9519f8b6d629c4b55d0ef8cc44735d8ce98cea9b477c1a92526fe5a72eb762b70dacc",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Datek/eva_meter_reader-2.0_MG21.ota",
+        "path": "images/Datek/eva_meter_reader-2.0_MG21.ota"
     }
 ]
