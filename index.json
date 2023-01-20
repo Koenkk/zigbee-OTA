@@ -225,12 +225,12 @@
         "url": "https://otau.meethue.com/storage/ZGB_100B_0112/3ddd2b84-5fa0-4c7f-a695-e238c85ccaef/100B-0112-01002400-ConfLightBLE-Lamps-EFR32MG13.zigbee"
     },
     {
-        "fileVersion": 16784906,
-        "fileSize": 478740,
+        "fileVersion": 16784918,
+        "fileSize": 476514,
         "manufacturerCode": 4107,
         "imageType": 276,
-        "sha512": "e097485e23a42329b6c18c0ab3561fd1491fcc2eda0058487987190566b6e3eecc788164cc89bee326083c799aa61a3bf077d375667f4aeb628060784c494599",
-        "url": "https://otau.meethue.com/storage/ZGB_100B_0114/090d8075-bcc7-4bf6-aead-bfc9d4926468/100B-0114-01001E0A-ConfLightBLE-Lamps-EFR32MG21.zigbee"
+        "sha512": "03a3c4e37d9422d2495037ccf2b016f432eecfc9550029fef0ec79e3b251a928df050d63806c7235130bad480e3e04b2ae78f9ea4f2a6ade35fc0c53fb0f1566",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_0114/71956165-b5dd-4856-a330-e09d6d243ccb/100B-0114-01001E16-ConfLightBLE-Lamps-EFR32MG21.zigbee"
     },
     {
         "fileVersion": 16781056,
