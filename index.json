@@ -1664,12 +1664,12 @@
         "url": "https://www.ubisys.de/wp-content/uploads/10F2-7B39-0000-0004-02000300-spo-fmi4.ota.zigbee"
     },
     {
-        "fileVersion": 33620736,
-        "fileSize": 145662,
+        "fileVersion": 34604035,
+        "fileSize": 149246,
         "manufacturerCode": 4338,
         "imageType": 31537,
-        "sha512": "d60a5c040d80392a241df1b91aac78071ba636e12b17c172d5c33e54765185db6907d40f22a63ae367bdb7fd6fda69b8f8763ff39dd8561652f4237a7ee2762a",
-        "url": "https://www.ubisys.de/wp-content/uploads/10F2-7B31-0000-0006-02010300-spo-fmd.ota.zigbee"
+        "sha512": "64b5827c739845812f1e698a8951c6ffcbe692705ace20fdd8e29c0ab3243ac579b9af0eacee1e768932c7f48761c24a5bc65b6d410bc908b284b25cc016b9f1",
+        "url": "https://www.ubisys.de/wp-content/uploads/10F2-7B31-0000-0006-02100403-spo-fmd.ota.zigbee"
     },
     {
         "fileVersion": 33620736,
