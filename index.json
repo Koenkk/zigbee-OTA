@@ -2170,8 +2170,8 @@
         "manufacturerCode": 123,
         "imageType": 321,
         "sha512": "d001b624595e347ee2d8b4a45f01bd97af3d79eff166dd8f335313a7f992709189f3b38b052caf6c7b3182b4d772d2b5a22119d6fbf97a83c246a37c753c7c3f",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Uhome/007B-0141-01060101-good_image.zigbee",
-        "path": "images/Uhome/007B-0141-01060101-good_image.zigbee"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/UHome/007B-0141-01060101-good_image.zigbee",
+        "path": "images/UHome/007B-0141-01060101-good_image.zigbee"
     },
     {
         "fileVersion": 18,

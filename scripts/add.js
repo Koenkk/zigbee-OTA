@@ -30,7 +30,7 @@ const manufacturerNameLookup = {
     4742: 'Sonoff',
     4454: 'Innr',
     4659: 'ThirdReality',
-    123: 'Uhome',
+    123: 'UHome',
     4617: 'Bosch',
 };
 
