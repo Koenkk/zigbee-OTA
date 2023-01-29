@@ -26,7 +26,6 @@ const manufacturerNameLookup = {
     4447: 'Xiaomi',
     10132: 'ClimaxTechnology',
     4417: 'Telink',
-    4338: 'ubisys',
     4742: 'Sonoff',
     4454: 'Innr',
     4659: 'ThirdReality',
