@@ -2297,5 +2297,15 @@
         "sha512": "3457d78a27d06423636276f07a969120b674aef552d19bbabc2e2f71852fbf4d873416c15fce313d25a5c05c0745bfd201cd001d699e73779457bc91e127b471",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Datek/mains_power_outlet-2.5.ota",
         "path": "images/Datek/mains_power_outlet-2.5.ota"
+    },
+    {
+        "fileVersion": 27,
+        "fileSize": 215886,
+        "manufacturerCode": 4447,
+        "imageType": 9096,
+        "sha512": "8beb3aac5eeb05cec5d6d4299066a929b2b4268d318864c407d8ed29f7a99a0d876c96afa01ca58b603203e6b8e7eff813d8616bfb69e9e4d391b35030bd17fd",
+        "modelId": "lumi.sen_ill.agl01",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/OTA_lumi.sen_ill.agl01_V1.0.27_20200312.20200507152054.ota",
+        "path": "images/Xiaomi/OTA_lumi.sen_ill.agl01_V1.0.27_20200312.20200507152054.ota"
     }
 ]
