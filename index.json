@@ -2317,5 +2317,15 @@
         "modelId": "lumi.remote.cagl02",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220607183723_OTA_lumi.remote.cagl02_V1.0.25_20220602_44D1AF.ota",
         "path": "images/Xiaomi/20220607183723_OTA_lumi.remote.cagl02_V1.0.25_20220602_44D1AF.ota"
+    },
+    {
+        "fileVersion": 29,
+        "fileSize": 227710,
+        "manufacturerCode": 4447,
+        "imageType": 8456,
+        "sha512": "a786eccd33e389777f731f08590dc1d69c6192a03d0ac52cb1901bdf03707a30ac8bdd083beeed75c79923282542ec460d54b0b59a15be371fa2ace1c815cf6b",
+        "modelId": "lumi.sensor_ht.agl02",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20230110152017_OTA_lumi.sensor_ht.agl02_0.0.0_0029_20230109_88D8F4.ota",
+        "path": "images/Xiaomi/20230110152017_OTA_lumi.sensor_ht.agl02_0.0.0_0029_20230109_88D8F4.ota"
     }
 ]
