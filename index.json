@@ -2029,11 +2029,11 @@
         "path": "images/Xiaomi/20221122180726_OTA_lumi.airrtc.agl001_0.0.0_0925_20221122_A6C469.ota"
     },
     {
-        "fileVersion": 86,
+        "fileVersion": 56,
         "fileSize": 151410,
         "manufacturerCode": 4659,
         "imageType": 54183,
-        "sha512": "4283f9f04b689c6c1c2841219c9ece38bceda4ff0769755f7d08052baf9685e8eb964d80b063ae71f2cfd2e253d1731be086a3ddc638e0ed5f5cc11e76920683",
+        "sha512": "36ff1a705900c6560b2ad3a8e4e05c3952ea4c9dd98e9f33fd13d5a0ad048c33777d58886f8d6d8241dcb95334e50504df043e2d5f9f4220a837e2ec93e58031",
         "url": "https://tr-zha.s3.amazonaws.com/firmwares/SmartCurtain_Zigbee_PROD_OTA_V56_1.00.56.ota"
     },
     {
