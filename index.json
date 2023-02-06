@@ -2037,12 +2037,12 @@
         "url": "https://tr-zha.s3.amazonaws.com/firmwares/SmartCurtain_Zigbee_PROD_OTA_V56_1.00.56.ota"
     },
     {
-        "fileVersion": 33,
-        "fileSize": 126738,
+        "fileVersion": 23,
+        "fileSize": 128130,
         "manufacturerCode": 4659,
         "imageType": 54184,
-        "sha512": "b9c8f0a3cd32793be15817eaa98a737d1e0d41428ea84a09436b1e11670fd21b61416552cd13b4d87bd7f3ea8e2d6a8fd775e10f6c95f74961fc30fdbd689d05",
-        "url": "https://tr-zha.s3.amazonaws.com/firmwares/SmartButton_Zigbee_PROD_OTA_V21_1.00.21.ota"
+        "sha512": "be73e3cb13d44d6ecd48a8cfa170e7885fdf37ec7ee82ae462db8945d86f60a94855b9c009775ac6330cfa35db353ba8a86c5c3618ea3b1a7ee185efc10010b7",
+        "url": "https://tr-zha.s3.amazonaws.com/firmwares/SmartButton_Zigbee_PROD_OTA_V23_1.00.23.ota"
     },
     {
         "fileVersion": 49,
