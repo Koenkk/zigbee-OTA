@@ -2053,11 +2053,11 @@
         "url": "https://tr-zha.s3.amazonaws.com/firmwares/TRTL_DoorSensor_DEV_V31_v1.00.31.ota"
     },
     {
-        "fileVersion": 49,
+        "fileVersion": 31,
         "fileSize": 144674,
         "manufacturerCode": 4659,
         "imageType": 54177,
-        "sha512": "466cb8bd86be94e1ab9b2ecb5d861b4c8703fae3ae890e9adfa5d9849074fe5496521b89783eee20cb658934bff97108bb0539078daf034098d00c275c47647b",
+        "sha512": "3a5e1dd0b99a1d29f98e0f9932388f00d71a37d36a5f422163dc4ae2104db9938ec024e103b650908252db71037c7f8939bcd7093456aba2d8689afa600c942c",
         "url": "https://tr-zha.s3.amazonaws.com/firmwares/TRTL_PIR_DEV_V31_v1.00.31.ota"
     },
     {
