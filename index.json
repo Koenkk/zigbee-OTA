@@ -2327,5 +2327,14 @@
         "modelId": "lumi.sensor_ht.agl02",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20230110152017_OTA_lumi.sensor_ht.agl02_0.0.0_0029_20230109_88D8F4.ota",
         "path": "images/Xiaomi/20230110152017_OTA_lumi.sensor_ht.agl02_0.0.0_0029_20230109_88D8F4.ota"
+    },
+    {
+        "fileVersion": 56,
+        "fileSize": 187759,
+        "manufacturerCode": 4644,
+        "imageType": 103,
+        "sha512": "a26bc37b7dfad1fa473eef13677505df70ec6ae5e3012351dec1344bac53756b4423ae2fbfdb21056b11da8b762455df15481500f7b505f5e2892c33629e0a21",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Namron/4512700-Firmware-35.ota",
+        "path": "images/Namron/4512700-Firmware-35.ota"
     }
 ]
