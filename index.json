@@ -2336,5 +2336,277 @@
         "sha512": "a26bc37b7dfad1fa473eef13677505df70ec6ae5e3012351dec1344bac53756b4423ae2fbfdb21056b11da8b762455df15481500f7b505f5e2892c33629e0a21",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Namron/4512700-Firmware-35.ota",
         "path": "images/Namron/4512700-Firmware-35.ota"
+    },
+    {
+        "fileVersion": 587757105,
+        "fileSize": 215596,
+        "manufacturerCode": 4476,
+        "imageType": 8705,
+        "sha512": "b5374e7b0af41df8829ece494056605f507aeef88286578b80aa569972b35af558e762c0802df12534e2b4e7a7f1490a48e3cb7263e3cd2ec36ae4399da1021d",
+        "url": "http://fw.ota.homesmart.ikea.net/global/GW1.0/01.19.046/bin/10035514-2.1-TRADFRI-bulb-ws-2.3.087.ota.ota.signed"
+    },
+    {
+        "fileVersion": 587765297,
+        "fileSize": 209136,
+        "manufacturerCode": 4476,
+        "imageType": 4353,
+        "sha512": "5df768d57b7932e54a5551957d0f11d42aef3a7cc418d59d8a2e4bd5eceba0ceb793b99431d99a9ffe4ab82d374e21de24750cb05f7ba2d2239ca416f3f2f607",
+        "url": "http://fw.ota.homesmart.ikea.net/global/GW1.0/01.19.046/bin/10005777-TRADFRI-control-outlet-2.3.089.ota.ota.signed"
+    },
+    {
+        "fileVersion": 587699761,
+        "fileSize": 192136,
+        "manufacturerCode": 4476,
+        "imageType": 4549,
+        "sha512": "2274c7f57cf5c5e80eeb5f3c5bbe00dd2ccecb31350d0235b43776c751c27c34d91f0783ac4244518dc430c4e77e7611f1fef5346db9bafebec555cd5ea88321",
+        "url": "http://fw.ota.homesmart.ikea.net/global/GW1.0/01.19.046/bin/10005778-10.1-TRADFRI-onoff-shortcut-control-2.3.079.ota.ota.signed"
+    },
+    {
+        "fileVersion": 587806257,
+        "fileSize": 227500,
+        "manufacturerCode": 4476,
+        "imageType": 10243,
+        "sha512": "fcdcc6198cd5f41d3602000207fa4a4c7678279dce4c2e8467d2044293e27d8d9d63e0aa71b5125af62a74b599bfb0dd28645961fb034c803722b732d20802d0",
+        "url": "http://fw.ota.homesmart.ikea.net/global/GW1.0/01.19.046/bin/10035515-TRADFRI-bulb-cws-2.3.093.ota.ota.signed"
+    },
+    {
+        "fileVersion": 587757105,
+        "fileSize": 215340,
+        "manufacturerCode": 4476,
+        "imageType": 8707,
+        "sha512": "79c7701845d17ef6a6cb68adaf2142203714554e73aadd9beb9ff379d439b46058f4832a2e13e67ecaeaa4a6f602e8d3428c7da600b3e8897a46bd171439225e",
+        "url": "http://fw.ota.homesmart.ikea.net/global/GW1.0/01.19.046/bin/10035534-2.1-TRADFRI-bulb-ws-gu10-2.3.087.ota.ota.signed"
+    },
+    {
+        "fileVersion": 587761201,
+        "fileSize": 200000,
+        "manufacturerCode": 4476,
+        "imageType": 4487,
+        "sha512": "d2361716837f01804282e66661cd41d3f404495310c299fd23e4fefa6f91127fdd88c2cb6f1f1083bbbd3528d0defa376bcdb901a99fa77ccfc9ec23e8ed6e78",
+        "url": "http://fw.ota.homesmart.ikea.net/global/GW1.0/01.19.046/bin/10037585-5.1-TRADFRI-connected-blind-2.3.088.ota.ota.signed"
+    },
+    {
+        "fileVersion": 587753009,
+        "fileSize": 197052,
+        "manufacturerCode": 4476,
+        "imageType": 4354,
+        "sha512": "11ec71f9cfc3e0f0cb7a93e2e14b9ee4586bea6704618c94816e003e7b58e8a142b80b2105ce1b54bcad3c53d611893d0fb8823728d768884c2a2b04fbcd32a4",
+        "url": "http://fw.ota.homesmart.ikea.net/global/GW1.0/01.19.046/bin/10037603-3.1-TRADFRI-signal-repeater-2.3.086.ota.ota.signed"
+    },
+    {
+        "fileVersion": 587814449,
+        "fileSize": 214716,
+        "manufacturerCode": 4476,
+        "imageType": 16900,
+        "sha512": "174db37ed164bab160291c0a33546b7f6245a6106b7e59d49d332a19ac4c5b1407546025e54ee300192f8251ddf21178eaff607aa4e1840f67f88b9fe4562f19",
+        "url": "http://fw.ota.homesmart.ikea.net/global/GW1.0/01.19.046/bin/10038562-2.1-TRADFRI-sy5882-bulb-ws-2.3.095.ota.ota.signed"
+    },
+    {
+        "fileVersion": 537011747,
+        "fileSize": 186814,
+        "manufacturerCode": 4476,
+        "imageType": 4552,
+        "sha512": "a0e82ae8bab520f7528c01479523d08ebd980fad823040e00ab418a37143dea94a868728b2d428369bdf363eca934ce3345bab752d680167443f0c30f4e3bed8",
+        "url": "http://fw.ota.homesmart.ikea.net/global/GW1.0/01.19.046/bin/10039874-1.0-TRADFRI-motion-sensor-2-2.0.022.ota.ota.signed"
+    },
+    {
+        "fileVersion": 587728433,
+        "fileSize": 193800,
+        "manufacturerCode": 4476,
+        "imageType": 4554,
+        "sha512": "632ff22ce725d1f3ff396e88e3aa3818b60b6852328db7429e659fefbdf8da47caf1f35850934a19e7b7d289581aa2bca1276aeb7c259ad4e6e3b89719a66063",
+        "url": "http://fw.ota.homesmart.ikea.net/global/GW1.0/01.19.046/bin/10043101-3.1-TRADFRI-dimmer-2.3.080.ota.ota.signed"
+    },
+    {
+        "fileVersion": 587806257,
+        "fileSize": 211572,
+        "manufacturerCode": 4476,
+        "imageType": 16643,
+        "sha512": "fb2389bd31fce76347b09840e7581704bc9c2c49e66b81145dd6ed34ba316577bf2ef145c82c55ead34a7e48589b0f077428d49862e2e18269c1ba30026d4659",
+        "url": "http://fw.ota.homesmart.ikea.net/global/GW1.0/01.19.046/bin/10046695-1.1-TRADFRI-light-unified-w-2.3.093.ota.ota.signed"
+    },
+    {
+        "fileVersion": 587757105,
+        "fileSize": 215884,
+        "manufacturerCode": 4476,
+        "imageType": 16902,
+        "sha512": "e0278859f76e309e6a490fa4f0d0b0c2df13454d54bf12ab5e4235cd506af6f047e17e123d8057ddb9c859b7fe6e2b4d765e87e7e4897b918fa3653bf2c12817",
+        "url": "http://fw.ota.homesmart.ikea.net/global/GW1.0/01.19.046/bin/10047227-1.2-TRADFRI-cv-cct-unified-2.3.087.ota.ota.signed"
+    },
+    {
+        "fileVersion": 587757105,
+        "fileSize": 215656,
+        "manufacturerCode": 4476,
+        "imageType": 16901,
+        "sha512": "e91056ea8732e35ad9ce3c2363eccd35441e9ba6a066c07f913f51b2a711b99c5496fae9a693e180657fbae1d40693d48ba0b15211516456107a2b8ea40a568c",
+        "url": "http://fw.ota.homesmart.ikea.net/global/GW1.0/01.19.046/bin/10050896-TRADFRI-sy5882-unified-2.3.087.ota.ota.signed"
+    },
+    {
+        "fileVersion": 587728433,
+        "fileSize": 191828,
+        "manufacturerCode": 4476,
+        "imageType": 4550,
+        "sha512": "16dd611b6a9e7bd2e5218c3519a4ce758fb6e883651321708affe3b6a28239765484a0c468caa5aa30f18a3123236627572e8009a018c900ceee9912fe951276",
+        "url": "http://fw.ota.homesmart.ikea.net/global/GW1.0/01.19.046/bin/10054470-TRADFRI-shortcut-button-2.3.080.ota.ota.signed"
+    },
+    {
+        "fileVersion": 268572245,
+        "fileSize": 228582,
+        "manufacturerCode": 4476,
+        "imageType": 10242,
+        "sha512": "4ac636df806c882e9d07f9ed3caf32760e536f2d6e5fa2fa803430ec78c8c7e69d67dbd69533d381a0ed5bd319029bcdc26000abb512e20a1f71e3b50953e7f9",
+        "url": "http://fw.ota.homesmart.ikea.net/global/GW1.0/01.19.046/bin/10057275-mgm210l_light_cws_cv_rgbw_1.0.021.ota.ota.signed"
+    },
+    {
+        "fileVersion": 65569,
+        "fileSize": 230566,
+        "manufacturerCode": 4476,
+        "imageType": 16644,
+        "sha512": "446b8d98be9a8c367de8235be9c49ade139f37114cbc854218efcbfe74efea4ad300cdffcbd4c897b8ba8a9a57c98fe5b0934781a094a597665640544b325a93",
+        "url": "http://fw.ota.homesmart.ikea.net/global/GW1.0/01.19.046/bin/10075356-zingo_sigma_driver_silverglans_ww-1.0.021.ota.ota.signed"
+    },
+    {
+        "fileVersion": 65552,
+        "fileSize": 227662,
+        "manufacturerCode": 4476,
+        "imageType": 8450,
+        "sha512": "161acf6c7cf11c369bfa3ca4c6d9556c29838e42a7228f2daaf6aef3bd86d2feee4f7515125d099b98f81f3f91f1609b836f3364dcbdfb46fb63060cd0a7d636",
+        "url": "http://fw.ota.homesmart.ikea.net/global/GW1.0/01.19.046/bin/10076691-zingo_lds_bulb_hwpwm_ww-1.0.010.ota.ota.signed"
+    },
+    {
+        "fileVersion": 65554,
+        "fileSize": 236794,
+        "manufacturerCode": 4476,
+        "imageType": 8709,
+        "sha512": "3139bf1eaf67ab277e66fdf87e136651af60898767d050c80c01d7525aebda6c5160c5a0d28e8779395057d833cc7389239258658a2fc0c4c0ad9f9c750638fe",
+        "url": "http://fw.ota.homesmart.ikea.net/global/GW1.0/01.19.046/bin/10076692-zingo_lds_bulb_hwpwmcs_ws-1.0.012.ota.ota.signed"
+    },
+    {
+        "fileVersion": 65538,
+        "fileSize": 253042,
+        "manufacturerCode": 4476,
+        "imageType": 16649,
+        "sha512": "8da7b17490bab8fa3443286ac40fa30460531be2ba72ef70a134c25be87d3266e4372e1be931452b51db40d8b978c4b132ef5f397b3124875f63a93156324104",
+        "url": "http://fw.ota.homesmart.ikea.net/global/GW1.0/01.19.046/bin/10077684-zingo_ikea_driver_hwpwm_ww-1.0.002.ota.ota.signed"
+    },
+    {
+        "fileVersion": 581,
+        "fileSize": 218698,
+        "manufacturerCode": 4476,
+        "imageType": 4555,
+        "sha512": "19b8a3da5a647728dab3729dbfdcefb59924eb77e642e907fd5d9d0ad5354d7860d53c4e31cf7dd3a6d8bdcd7c2e81bdf31f952e25e38b6fe1a0da2bbf9854f4",
+        "url": "http://fw.ota.homesmart.ikea.net/global/GW1.0/01.19.046/bin/10078031-zingo_kt_styrbar_remote-2.4.5.ota.ota.signed"
+    },
+    {
+        "fileVersion": 65538,
+        "fileSize": 220362,
+        "manufacturerCode": 4476,
+        "imageType": 4365,
+        "sha512": "3d1389e5480fc8bde71f98f3c8135855c5887246f5be74435531deecede2f4c566a4e0360cebadb6503ac9f966f1608be0de3abe0461052c5e2aa0c9e6d49695",
+        "url": "http://fw.ota.homesmart.ikea.net/global/GW1.0/01.19.046/bin/10078247-zingo_lds_plugin_unit-1.0.002.ota.ota.signed"
+    },
+    {
+        "fileVersion": 69635,
+        "fileSize": 259294,
+        "manufacturerCode": 4476,
+        "imageType": 8708,
+        "sha512": "55df06450faf5969dfc783df6d3edd90a057d6f060cced787ca2a942fadea1376770eb30f1b0e7f551a914426bdcb0d56b008460572a55b344574d456b0a8752",
+        "url": "http://fw.ota.homesmart.ikea.net/global/GW1.0/01.19.046/bin/10080506-zingo_kt_bulb_hwpwmcs_ws-1.1.003.ota.ota.signed"
+    },
+    {
+        "fileVersion": 69633,
+        "fileSize": 231282,
+        "manufacturerCode": 4476,
+        "imageType": 4364,
+        "sha512": "f62b53e8a4092f81546d7e0afe7150d1811801abcb1e8b671d5d1cd6737a3017603b7d79d93eb9b40cf162d32355e9c10274b36963cbed75d32f4433a307e10a",
+        "url": "http://fw.ota.homesmart.ikea.net/global/GW1.0/01.19.046/bin/10082261-zingo_lds_starkvind-1.1.001.ota.ota.signed"
+    },
+    {
+        "fileVersion": 65542,
+        "fileSize": 212454,
+        "manufacturerCode": 4476,
+        "imageType": 16645,
+        "sha512": "4eb5dfaa0bc9b8dc8d35437a18e2e7d57123d9c9f869a0f0aed5bb7e9e6fcf03e282f7cdbb856774145273ecf1303d00f44a14c3f1b0c2dca047ddd152551c82",
+        "url": "http://fw.ota.homesmart.ikea.net/global/GW1.0/01.19.046/bin/10082264-zingo_lds_stoftmoln-1.0.006.ota.ota.signed"
+    },
+    {
+        "fileVersion": 587753009,
+        "fileSize": 215340,
+        "manufacturerCode": 4476,
+        "imageType": 16641,
+        "sha512": "7e2046f84ee0b0900b2bb4acf7cd01abefdcf093b86adae268445c970589df23ee3dba51889c7e9d148c632ce445a16eb7367840d11ac7cd5331fa48f080b8b3",
+        "url": "http://fw.ota.homesmart.ikea.net/global/GW1.0/01.19.046/bin/159495-TRADFRI-transformer-2.3.086.ota.ota.signed"
+    },
+    {
+        "fileVersion": 587814449,
+        "fileSize": 216620,
+        "manufacturerCode": 4476,
+        "imageType": 8706,
+        "sha512": "726556e5036715ba9119d88b4a9ab9743036c8326616b7a53b4b6074ba62be0b2f880eac4b74ac5ee9ad5b6d6775908271438cbd2a23d3e8da29dac8437a29d8",
+        "url": "http://fw.ota.homesmart.ikea.net/global/GW1.0/01.19.046/bin/159695-2.1-TRADFRI-bulb-ws-1000lm-2.3.095.ota.ota.signed"
+    },
+    {
+        "fileVersion": 587810353,
+        "fileSize": 207340,
+        "manufacturerCode": 4476,
+        "imageType": 8449,
+        "sha512": "1c3c9411f6bc9262133ee844ee3568c9fca3224ed0ca3aa3346c67d0dee2afaba693e6c16b0f13722814801663ff8efd66be7a3f0a2a2e9685909b71502d27a5",
+        "url": "http://fw.ota.homesmart.ikea.net/global/GW1.0/01.19.046/bin/159696-TRADFRI-bulb-w-1000lm-2.3.094.ota.ota.signed"
+    },
+    {
+        "fileVersion": 587757105,
+        "fileSize": 215852,
+        "manufacturerCode": 4476,
+        "imageType": 16898,
+        "sha512": "6e154ec8f536f4a2196941e3e894d43e0c90b6039b6e656380b90fd6a434cdcdc8fd47019724af5835780e7698d75e20ec877e0563409ebff72a45f0779a86bc",
+        "url": "http://fw.ota.homesmart.ikea.net/global/GW1.0/01.19.046/bin/159697-TRADFRI-driver-hp-2.3.087.ota.ota.signed"
+    },
+    {
+        "fileVersion": 587757105,
+        "fileSize": 215596,
+        "manufacturerCode": 4476,
+        "imageType": 16897,
+        "sha512": "9acbf50da5e45f68fc7869b3abc769f43fb02896f67289ab89d36abc5e78a999eb15161f6f3c326628dd6ab2000c4fe0cb80fce4f0a204c0739745614f00bdf5",
+        "url": "http://fw.ota.homesmart.ikea.net/global/GW1.0/01.19.046/bin/159698-TRADFRI-driver-lp-2.3.087.ota.ota.signed"
+    },
+    {
+        "fileVersion": 604241925,
+        "fileSize": 207084,
+        "manufacturerCode": 4476,
+        "imageType": 4545,
+        "sha512": "9ff157623c31e3850a23f71654847b4f1fbf2ada2cc185aefc46c7528d5761088f064fe30cd5b7ba46d28117d456dfb2c0c5d7465da73c751e90afc50eccaf37",
+        "url": "http://fw.ota.homesmart.ikea.net/global/GW1.0/01.19.046/bin/159699-5.1-TRADFRI-remote-control-24.4.5.ota.ota.signed"
+    },
+    {
+        "fileVersion": 604241925,
+        "fileSize": 214316,
+        "manufacturerCode": 4476,
+        "imageType": 4548,
+        "sha512": "48c372c3d3b30585d987c7447591b3742301e83b5133360f57f59b2d81c8499c4fac9b32fec386dc48fe8b33502a095e29b3dd5bb45382550ef471e24d7a64a4",
+        "url": "http://fw.ota.homesmart.ikea.net/global/GW1.0/01.19.046/bin/159700-TRADFRI-motion-sensor-24.4.5.ota.ota.signed"
+    },
+    {
+        "fileVersion": 587367985,
+        "fileSize": 179390,
+        "manufacturerCode": 4476,
+        "imageType": 4546,
+        "sha512": "d8cc65bb2dc56b48027e049b2a919e0e88c9ff84a1f04edaf23643095bc5f84943180a2558143feba3385fffc7faa94cf99be786a9746888b0f47f227e368f2a",
+        "url": "http://fw.ota.homesmart.ikea.net/global/GW1.0/01.19.046/bin/159701-2.1-TRADFRI-wireless-dimmer-2.3.028.ota.ota.signed"
+    },
+    {
+        "fileVersion": 374866365,
+        "fileSize": 169662,
+        "manufacturerCode": 4476,
+        "imageType": 2,
+        "sha512": "f7140fbbec319c68fe1e378a157ccc4051effbe2600039fde54c63aca17974ad9fdb6d7b99772775da77014df87d0d737f9eae784ead112249d52e396affc5db",
+        "url": "http://fw.ota.homesmart.ikea.net/global/GW1.0/01.19.046/bin/190579-ncp_572_445.ebl.ota.ota.signed"
+    },
+    {
+        "fileVersion": 587798065,
+        "fileSize": 214572,
+        "manufacturerCode": 4476,
+        "imageType": 16899,
+        "sha512": "d6217f5113940ec18ca391317715e48c32b49a3649f56c4be464a8cf0eba78789842e7e918d52df5bb521a24787fb0cf10544cb6bca77166f56cd652a4f353d5",
+        "url": "http://fw.ota.homesmart.ikea.net/global/GW1.0/01.19.046/bin/191100-4.1-TRADFRI-sy5882-driver-ws-2.3.091.ota.ota.signed"
     }
 ]
