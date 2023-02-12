@@ -2336,5 +2336,15 @@
         "sha512": "a26bc37b7dfad1fa473eef13677505df70ec6ae5e3012351dec1344bac53756b4423ae2fbfdb21056b11da8b762455df15481500f7b505f5e2892c33629e0a21",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Namron/4512700-Firmware-35.ota",
         "path": "images/Namron/4512700-Firmware-35.ota"
+    },
+    {
+        "fileVersion": 28,
+        "fileSize": 312872,
+        "manufacturerCode": 4447,
+        "imageType": 131,
+        "sha512": "23241485157ab6164f147c3ecbdbcf668b78d8c542583802ce81e096e27200872c6a841da83f7433a47c5be9f2b7b1af153421a7fb71aeb998f8d6b6d3e4f8bd",
+        "modelId": "lumi.light.acn003",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220331205509_OTA_lumi.light.acn003_0.0.0_0028_20220331_D275B9.ota",
+        "path": "images/Xiaomi/20220331205509_OTA_lumi.light.acn003_0.0.0_0028_20220331_D275B9.ota"
     }
 ]
