@@ -31,6 +31,7 @@ const manufacturerNameLookup = {
     4659: 'ThirdReality',
     123: 'UHome',
     4617: 'Bosch',
+    4476: 'Ikea',
 };
 
 const main = async () => {
