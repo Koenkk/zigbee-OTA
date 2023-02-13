@@ -2346,5 +2346,15 @@
         "modelId": "lumi.light.acn003",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220331205509_OTA_lumi.light.acn003_0.0.0_0028_20220331_D275B9.ota",
         "path": "images/Xiaomi/20220331205509_OTA_lumi.light.acn003_0.0.0_0028_20220331_D275B9.ota"
+    },
+    {
+        "fileVersion": 285474816,
+        "fileSize": 204794,
+        "manufacturerCode": 4444,
+        "imageType": 4,
+        "sha512": "44e421aecf5b0c5793a1ba836257f8601408e1dcc2832846b0093e7c2f2a4c100632b8a71ef346b9c611be1d15602bcc3b693002994830b8e857da6e931f6722",
+        "modelId": "V3-BTZBE",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Danalock/115C-0004-11040000-ZigbeeXM_101-029_E1_DanalockV3_17.4.0_20221213143911.ota",
+        "path": "images/Danalock/115C-0004-11040000-ZigbeeXM_101-029_E1_DanalockV3_17.4.0_20221213143911.ota"
     }
 ]
