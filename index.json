@@ -1711,14 +1711,14 @@
         "path": "images/Gledopto/GL-D-006P_V105_20220511.ota"
     },
     {
-        "fileVersion": 6,
-        "fileSize": 194926,
+        "fileVersion": 10,
+        "fileSize": 196238,
         "manufacturerCode": 4447,
         "imageType": 11528,
-        "sha512": "f36de744a9baf100688b07f6d6d1d7507c4d86e9154f3819390f3f589a162e174978cde74ecbde3f3210c269893d1778dab217b1b86b9dea82fa06bafa2e0b82",
+        "sha512": "22fb7b610d169f433ef0bad5a6c6e5f0abfb5b09a1ed2155bc5da23b6cfd204659441136947270b98514581e97233cd2db33002ec277796e1e2ae1572abf2853",
         "modelId": "lumi.motion.ac02",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220615162122_OTA_lumi.motion.ac02_JN5189_0.0.0_0006_20220609_d7a08b.ota",
-        "path": "images/Xiaomi/20220615162122_OTA_lumi.motion.ac02_JN5189_0.0.0_0006_20220609_d7a08b.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20230130180718_OTA_lumi.motion.ac02_0.0.0_0010_20230104_390E3D.ota",
+        "path": "images/Xiaomi/20230130180718_OTA_lumi.motion.ac02_0.0.0_0010_20230104_390E3D.ota"
     },
     {
         "fileVersion": 17,
