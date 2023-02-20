@@ -1550,14 +1550,14 @@
         "path": "images/Legrand/1021-0012-3c4203-NLT-60.zigbee"
     },
     {
-        "fileVersion": 35,
-        "fileSize": 213662,
+        "fileVersion": 37,
+        "fileSize": 215918,
         "manufacturerCode": 4447,
         "imageType": 8328,
-        "sha512": "41226c10d77a45f5e2481870d71df97777252afd5685cfd8a854ec610034aaf171b686eee1e9ebf9988183ad1b1ced7679785cd34c579de28fee13e8475d6a87",
+        "sha512": "082c60b0481de354ecb1580fc78618990dc32bd19f512694e4ba3fbd90a1fbcc0b49fae17cd3bfa476b10c4a2e304d9faaecdf38e8f55574afca8388c2e13fb7",
         "modelId": "lumi.motion.agl02",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20201214122537_OTA_lumi.motion.agl02_0.0.0_0035_20201113_D1D711.ota",
-        "path": "images/Xiaomi/20201214122537_OTA_lumi.motion.agl02_0.0.0_0035_20201113_D1D711.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20230209143954_OTA_lumi.motion.agl02_0.0.0_0037_20230209_78D49C.ota",
+        "path": "images/Xiaomi/20230209143954_OTA_lumi.motion.agl02_0.0.0_0037_20230209_78D49C.ota"
     },
     {
         "fileVersion": 26,
