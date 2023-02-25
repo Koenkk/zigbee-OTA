@@ -949,13 +949,13 @@
         "path": "images/Gledopto/GL-C-008P_V17A1_OTAV7_20210303--V1-4.ota"
     },
     {
-        "fileVersion": 274,
-        "fileSize": 379806,
+        "fileVersion": 276,
+        "fileSize": 385719,
         "manufacturerCode": 4678,
         "imageType": 256,
-        "sha512": "873effaa113e1d07643fbf25f6e26ee4b23f8deb7d006cce7fc490fd8ad7a5754de4c352b6f3d5e172022a34ea2699f5d1d8fda90f4348b25d5feaa169e38c85",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Danfoss/1246-0100-01180118.0002_%28F5BFD8B8%29.ota",
-        "path": "images/Danfoss/1246-0100-01180118.0002_(F5BFD8B8).ota"
+        "sha512": "6b89fd90146747fde88e4896a3cb7b8600ee733679d234cb0288632c820264fcb8e5c25a79a04a4faa2114742a6f3fd37b107be6c60e927eea253fe6d8744d6a",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Danfoss/1246-0100-01200120.0002_%282B60A723%29.ota",
+        "path": "images/Danfoss/1246-0100-01200120.0002_(2B60A723).ota"
     },
     {
         "fileVersion": 5,
