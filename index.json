@@ -2356,5 +2356,13 @@
         "modelId": "V3-BTZBE",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Danalock/115C-0004-11040000-ZigbeeXM_101-029_E1_DanalockV3_17.4.0_20221213143911.ota",
         "path": "images/Danalock/115C-0004-11040000-ZigbeeXM_101-029_E1_DanalockV3_17.4.0_20221213143911.ota"
+    },
+    {
+        "fileVersion": 2334,
+        "fileSize": 263916,
+        "manufacturerCode": 4447,
+        "imageType": 5017,
+        "sha512": "e7d4d0fdbe1d6cea2b1d3c292061fa05902a625c2cc9aaee436c6a7d5996dce4c2725e3fa16939e6d32fba6f87ee509b87c87f2dbd7e01e15a2da13f9f812023",
+        "url": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.airrtc.agl001/20230221164442_OTA_lumi.airrtc.agl001_0.0.0_0930_20230220_0DE632.ota"
     }
 ]
