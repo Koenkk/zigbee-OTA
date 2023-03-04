@@ -2019,14 +2019,13 @@
         "url": "https://tr-zha.s3.amazonaws.com/firmwares/TRTL_ThermalSensor_PROD_OTA_V21_1.00.21.ota"
     },
     {
-        "fileVersion": 2329,
-        "fileSize": 261468,
+        "fileVersion": 2334,
+        "fileSize": 263916,
         "manufacturerCode": 4447,
         "imageType": 5017,
         "modelId": "lumi.airrtc.agl001",
-        "sha512": "40e4980fd6518dc32b19f6afd0aa3e49dd38ffa0aee1f2f7b05709cdf90273fb836e35468b6362e9756c63f19293907f50d381c379d5b9921074394e0cef4d62",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20221122180726_OTA_lumi.airrtc.agl001_0.0.0_0925_20221122_A6C469.ota",
-        "path": "images/Xiaomi/20221122180726_OTA_lumi.airrtc.agl001_0.0.0_0925_20221122_A6C469.ota"
+        "sha512": "e7d4d0fdbe1d6cea2b1d3c292061fa05902a625c2cc9aaee436c6a7d5996dce4c2725e3fa16939e6d32fba6f87ee509b87c87f2dbd7e01e15a2da13f9f812023",
+        "url": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.airrtc.agl001/20230221164442_OTA_lumi.airrtc.agl001_0.0.0_0930_20230220_0DE632.ota"
     },
     {
         "fileVersion": 56,
