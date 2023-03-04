@@ -1560,14 +1560,14 @@
         "path": "images/Xiaomi/20230209143954_OTA_lumi.motion.agl02_0.0.0_0037_20230209_78D49C.ota"
     },
     {
-        "fileVersion": 26,
-        "fileSize": 215070,
+        "fileVersion": 27,
+        "fileSize": 217470,
         "manufacturerCode": 4447,
         "imageType": 9352,
-        "sha512": "58ba1198607526207377379536cb116082f95d58db3a952623dc8e202cc4e67e0e2bfba225b7f73bfd033477381fa423a05bc4eddd0f0a60edfaae988c7fbc53",
+        "sha512": "c7d5486e4cf6bd592b2e66e5a0d005b1813b182da2f88c871fc20b797db7cc3633a426d80ee968d225e1918831914864f54eb39a117abf8aa82e21f40ece2bed",
         "modelId": "lumi.motion.agl04",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20201224182256_OTA_lumi.motion.agl04_0.0.0_0026_20201123_561AD0.ota",
-        "path": "images/Xiaomi/20201224182256_OTA_lumi.motion.agl04_0.0.0_0026_20201123_561AD0.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20230112205436_OTA_lumi.motion.agl04_0.0.0_0027_20230109_4D9D5F.ota",
+        "path": "images/Xiaomi/20230112205436_OTA_lumi.motion.agl04_0.0.0_0027_20230109_4D9D5F.ota"
     },
     {
         "fileVersion": 24,
@@ -2356,5 +2356,15 @@
         "modelId": "V3-BTZBE",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Danalock/115C-0004-11040000-ZigbeeXM_101-029_E1_DanalockV3_17.4.0_20221213143911.ota",
         "path": "images/Danalock/115C-0004-11040000-ZigbeeXM_101-029_E1_DanalockV3_17.4.0_20221213143911.ota"
+    },
+    {
+        "fileVersion": 30,
+        "fileSize": 214798,
+        "manufacturerCode": 4447,
+        "imageType": 8200,
+        "sha512": "b8ebb6f7d216870587e7ff91f26116452d9fb2a47b5b1766992f02ec31bd43e59329920dd60e1754cb388ec7a9e3b41c2f979a749fb73dcc6cd16215e230d060",
+        "modelId": "lumi.magnet.agl02",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20230110152619_OTA_lumi.magnet.agl02_0.0.0_0030_20230109_D7EBD0.ota",
+        "path": "images/Xiaomi/20230110152619_OTA_lumi.magnet.agl02_0.0.0_0030_20230109_D7EBD0.ota"
     }
 ]
