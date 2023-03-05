@@ -2025,7 +2025,8 @@
         "imageType": 5017,
         "modelId": "lumi.airrtc.agl001",
         "sha512": "e7d4d0fdbe1d6cea2b1d3c292061fa05902a625c2cc9aaee436c6a7d5996dce4c2725e3fa16939e6d32fba6f87ee509b87c87f2dbd7e01e15a2da13f9f812023",
-        "url": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.airrtc.agl001/20230221164442_OTA_lumi.airrtc.agl001_0.0.0_0930_20230220_0DE632.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20230221164442_OTA_lumi.airrtc.agl001_0.0.0_0930_20230220_0DE632.ota",
+        "path": "images/Xiaomi/20230221164442_OTA_lumi.airrtc.agl001_0.0.0_0930_20230220_0DE632.ota"
     },
     {
         "fileVersion": 56,
