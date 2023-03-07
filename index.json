@@ -2366,5 +2366,14 @@
         "modelId": "lumi.magnet.agl02",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20230110152619_OTA_lumi.magnet.agl02_0.0.0_0030_20230109_D7EBD0.ota",
         "path": "images/Xiaomi/20230110152619_OTA_lumi.magnet.agl02_0.0.0_0030_20230109_D7EBD0.ota"
+    },
+    {
+        "fileVersion": 2590,
+        "fileSize": 264144,
+        "manufacturerCode": 4447,
+        "imageType": 5017,
+        "sha512": "8e360ede89d13ee7f046cebca8b0d6d46806617f91907c44270dd478f86cadc6e521f774113a3c4d434b1ff27e375f5a586e78cdca421363f84feaa6e36346fa",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20230221165005_OTA_lumi.airrtc.agl001_0.0.0_1030_20230220_712488.ota",
+        "path": "images/Xiaomi/20230221165005_OTA_lumi.airrtc.agl001_0.0.0_1030_20230220_712488.ota"
     }
 ]
