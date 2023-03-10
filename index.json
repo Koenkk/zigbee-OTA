@@ -2373,7 +2373,7 @@
         "manufacturerCode": 4476,
         "imageType": 4366,
         "sha512": "175480020799090a72659b404770dcb79992bde22933805e9218979e263c110886ad77bf948764798b25dc0da439178a9745ac598c2819b45c3a1005585a9931",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/IKEA/ota_t0x110e_m0x117c_v0x01000032.ota",
+        "url": "https://github.com/ilueckel/zigbee-OTA/raw/master/images/IKEA/ota_t0x110e_m0x117c_v0x01000032.ota",
         "path": "images/IKEA/ota_t0x110e_m0x117c_v0x01000032.ota"
     }
 ]
