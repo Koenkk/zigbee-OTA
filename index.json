@@ -2045,12 +2045,12 @@
         "url": "https://tr-zha.s3.amazonaws.com/firmwares/SmartButton_Zigbee_PROD_OTA_V23_1.00.23.ota"
     },
     {
-        "fileVersion": 31,
-        "fileSize": 144178,
+        "fileVersion": 33,
+        "fileSize": 144834,
         "manufacturerCode": 4659,
         "imageType": 54178,
-        "sha512": "c2e821f778c60a897818ced3305cbd6c7fc85f01c0817b6b3775ac5669b3d9a5622e128828dde994db6a0a8387b50c89cb6518611061a6259800fcc93397a4e4",
-        "url": "https://tr-zha.s3.amazonaws.com/firmwares/TRTL_DoorSensor_DEV_V31_v1.00.31.ota"
+        "sha512": "15076561e09af5cc8c06c8228c378043a82dcfb979f00b8ccc344bf29002deb64723ce46b1d9620f3e7c5afb7f52993fedcf71ed247d785f8a31eeb1a6c3d6dd",
+        "url": "https://tr-zha.s3.amazonaws.com/firmwares/TRTL_DoorSensor_DEV_V33_v1.00.33.ota"
     },
     {
         "fileVersion": 31,
