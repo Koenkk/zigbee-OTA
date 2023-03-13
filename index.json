@@ -2366,5 +2366,14 @@
         "modelId": "lumi.magnet.agl02",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20230110152619_OTA_lumi.magnet.agl02_0.0.0_0030_20230109_D7EBD0.ota",
         "path": "images/Xiaomi/20230110152619_OTA_lumi.magnet.agl02_0.0.0_0030_20230109_D7EBD0.ota"
+    },
+    {
+        "fileVersion": 10,
+        "fileSize": 287022,
+        "manufacturerCode": 4714,
+        "imageType": 44,
+        "sha512": "327e1afaec8baf9d367c5cd43d3dcda80e6014e56a3e400a9094249dd74e1eb2354b7106dd119b3eb661e9051cf64a2f9273a66ba0f089f7374eacb410a749bf",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/EcoDim/Zigbee_Dimmer_1_Gang.ota",
+        "path": "images/EcoDim/Zigbee_Dimmer_1_Gang.ota"
     }
 ]
