@@ -22,6 +22,7 @@ const manufacturerNameLookup = {
     4448: 'Sengled',
     4454: 'Innr',
     4474: 'Insta',
+    4476: 'IKEA',
     4489: 'Ledvance',
     4617: 'Bosch',
     4644: 'Namron',
