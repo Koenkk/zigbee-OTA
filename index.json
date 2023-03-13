@@ -1618,14 +1618,14 @@
         "path": "images/Xiaomi/20220524105221_OTA_lumi.motion.ac01_0.0.0_0054_20220509_EB279B.ota"
     },
     {
-        "fileVersion": 16,
-        "fileSize": 221902,
+        "fileVersion": 17,
+        "fileSize": 222094,
         "manufacturerCode": 4447,
         "imageType": 9728,
-        "sha512": "cdef26f4a57cc100bbd7bf77ebb0d98c58bbb445d22c3726990ab8ac7809c6a9426c681710b43b79726280c561ebdc91cdf03e0aa4617f4b6ffac6083e1ed337",
+        "sha512": "d5a8e5c323acd99ceaf02ab061e7145dbcf2da028c9d73a6042d02536f0b8aaefbc798b9b47e8fb03345721c0231374c8654e3979e73b10ba51997ad9d41cf0a",
         "modelId": "lumi.sensor_smoke.acn03",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220308121818_OTA_lumi.sensor_smoke.acn03_0.0.0_0016_20202225_4367AB.bin",
-        "path": "images/Xiaomi/20220308121818_OTA_lumi.sensor_smoke.acn03_0.0.0_0016_20202225_4367AB.bin"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220718113235_OTA_lumi.sensor_smoke.acn03_0.0.0_0017_20220617_CB9276.ota",
+        "path": "images/Xiaomi/20220718113235_OTA_lumi.sensor_smoke.acn03_0.0.0_0017_20220617_CB9276.ota"
     },
     {
         "fileVersion": 29,
@@ -2003,12 +2003,12 @@
         "path": "images/Xiaomi/20221213122302_OTA_aqara.feeder.acn001_0.0.0_3833_20220914_03DFD1.ota"
     },
     {
-        "fileVersion": 31,
-        "fileSize": 145746,
+        "fileVersion": 34,
+        "fileSize": 146386,
         "manufacturerCode": 4659,
         "imageType": 54179,
-        "sha512": "fec2e5eb195b2bd111dda364e8e851db76484e3fa88dc00ab4b166f15b832417ab30c051a53855813e7b80d07491e56bd0919a473e4df6a01dd51facf58be725",
-        "url": "https://tr-zha.s3.amazonaws.com/firmwares/TRTL_WaterLeak_DEV_V31_v1.00.31.ota"
+        "sha512": "1872934ea34ff3908a8efa851846c5cd89e7e71aa2029ec9ff4963bcafad161c52c8b415f00e9ca7e5eb22712f35f488d73fe2b674e2cb53aa49ec61e7998f9d",
+        "url": "https://tr-zha.s3.amazonaws.com/firmwares/TRTL_WaterLeak_DEV_V34_v1.00.34.ota"
     },
     {
         "fileVersion": 21,
@@ -2045,20 +2045,20 @@
         "url": "https://tr-zha.s3.amazonaws.com/firmwares/SmartButton_Zigbee_PROD_OTA_V23_1.00.23.ota"
     },
     {
-        "fileVersion": 31,
-        "fileSize": 144178,
+        "fileVersion": 33,
+        "fileSize": 144834,
         "manufacturerCode": 4659,
         "imageType": 54178,
-        "sha512": "c2e821f778c60a897818ced3305cbd6c7fc85f01c0817b6b3775ac5669b3d9a5622e128828dde994db6a0a8387b50c89cb6518611061a6259800fcc93397a4e4",
-        "url": "https://tr-zha.s3.amazonaws.com/firmwares/TRTL_DoorSensor_DEV_V31_v1.00.31.ota"
+        "sha512": "15076561e09af5cc8c06c8228c378043a82dcfb979f00b8ccc344bf29002deb64723ce46b1d9620f3e7c5afb7f52993fedcf71ed247d785f8a31eeb1a6c3d6dd",
+        "url": "https://tr-zha.s3.amazonaws.com/firmwares/TRTL_DoorSensor_DEV_V33_v1.00.33.ota"
     },
     {
-        "fileVersion": 31,
-        "fileSize": 144674,
+        "fileVersion": 33,
+        "fileSize": 145314,
         "manufacturerCode": 4659,
         "imageType": 54177,
-        "sha512": "3a5e1dd0b99a1d29f98e0f9932388f00d71a37d36a5f422163dc4ae2104db9938ec024e103b650908252db71037c7f8939bcd7093456aba2d8689afa600c942c",
-        "url": "https://tr-zha.s3.amazonaws.com/firmwares/TRTL_PIR_DEV_V31_v1.00.31.ota"
+        "sha512": "90986d82cb9348486f8df1eb365196456bde2de6a175287a268bbf6a6d0e9ec331c6851c2fd4221d24e72758b1e09328f5dea5973aa0e9b7a723cfb60689a390",
+        "url": "https://tr-zha.s3.amazonaws.com/firmwares/TRTL_PIR_DEV_V33_v1.00.33.ota"
     },
     {
         "fileVersion": 17170689,
@@ -2263,13 +2263,13 @@
     },
     {
         "modelId": "RBSH-TRV0-ZB-EU",
-        "fileVersion": 872617236,
-        "fileSize": 165916,
+        "fileVersion": 872682772,
+        "fileSize": 165875,
         "manufacturerCode": 4617,
         "imageType": 12298,
-        "sha512": "1c8f98b906c857e9259db94b257cc818d0f929002802f068e46ec8fdb6d64d2fdae71d946af3582278377aa36afb04f214daba71ae13d1f14453f9bf94dcd339",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Bosch/0x1209_0x300a_0x34031514.ota",
-        "path": "images/Bosch/0x1209_0x300a_0x34031514.ota"
+        "sha512": "f298dcb46a62a09d5206128704d6df86b2bcc9ef48e2498518a856bebdd9196c67a8e0445cdbe1e837077afea5d9d291f5be3709ac018aeb93a8b68e12608a87",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Bosch/0x1209_0x300a_0x34041514.ota",
+        "path": "images/Bosch/0x1209_0x300a_0x34041514.ota"
     },
     {
         "fileVersion": 536898096,
