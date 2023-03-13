@@ -30,6 +30,7 @@ const manufacturerNameLookup = {
     4659: 'ThirdReality',
     4678: 'Danfoss',
     4687: 'Gledopto',
+    4714: 'EcoDim',
     4742: 'Sonoff',
     4919: 'Datek',
     10132: 'ClimaxTechnology',

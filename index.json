@@ -2375,5 +2375,14 @@
         "sha512": "175480020799090a72659b404770dcb79992bde22933805e9218979e263c110886ad77bf948764798b25dc0da439178a9745ac598c2819b45c3a1005585a9931",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/IKEA/ota_t0x110e_m0x117c_v0x01000032.ota",
         "path": "images/IKEA/ota_t0x110e_m0x117c_v0x01000032.ota"
+    },
+    {
+        "fileVersion": 10,
+        "fileSize": 287022,
+        "manufacturerCode": 4714,
+        "imageType": 44,
+        "sha512": "327e1afaec8baf9d367c5cd43d3dcda80e6014e56a3e400a9094249dd74e1eb2354b7106dd119b3eb661e9051cf64a2f9273a66ba0f089f7374eacb410a749bf",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/EcoDim/Zigbee_Dimmer_1_Gang.ota",
+        "path": "images/EcoDim/Zigbee_Dimmer_1_Gang.ota"
     }
 ]
