@@ -2384,5 +2384,221 @@
         "sha512": "327e1afaec8baf9d367c5cd43d3dcda80e6014e56a3e400a9094249dd74e1eb2354b7106dd119b3eb661e9051cf64a2f9273a66ba0f089f7374eacb410a749bf",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/EcoDim/Zigbee_Dimmer_1_Gang.ota",
         "path": "images/EcoDim/Zigbee_Dimmer_1_Gang.ota"
+    },
+    {
+        "fileVersion": 269051408,
+        "fileSize": 230710,
+        "manufacturerCode": 4454,
+        "imageType": 274,
+        "sha512": "215e9c69557798b17153a921f76313c71bff860a569a8188e0b8d5db18f97eb5b7d92c36860509d7c2a6de2a4fe08f909a8390f1623b47654aa6290407b7a994",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-0112-10096610-RS_226v1-upgradeMe.ota",
+        "path": "images/Innr/1166-0112-10096610-RS_226v1-upgradeMe.ota"
+    },
+    {
+        "fileVersion": 537160240,
+        "fileSize": 236978,
+        "manufacturerCode": 4454,
+        "imageType": 277,
+        "sha512": "e6dbd3ab1d4b457cd6d8f102835ecb569364455de465d4068ea927551111137ed68da30d4b61c4c9908cd6cb701487cf50fb316ac2b1113c901daad5c13bd7c6",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-0115-20046A30-RS_230_C-upgradeMe.ota",
+        "path": "images/Innr/1166-0115-20046A30-RS_230_C-upgradeMe.ota"
+    },
+    {
+        "fileVersion": 537422384,
+        "fileSize": 236066,
+        "manufacturerCode": 4454,
+        "imageType": 282,
+        "sha512": "0d21ed79d6c102790ec2017ec768c334cf175f381df3556505f6aa078d3b26373411b4ee0b656fb505923a178c94e13f4c6c0c2f0c09b3e72d227113aceed55f",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-011A-20086A30-RS_229_T-upgradeMe.ota",
+        "path": "images/Innr/1166-011A-20086A30-RS_229_T-upgradeMe.ota"
+    },
+    {
+        "fileVersion": 269575696,
+        "fileSize": 230886,
+        "manufacturerCode": 4454,
+        "imageType": 283,
+        "sha512": "7f0201c41d7010261a363497694dda3b0cc03dd2a103c82bd5d6e13e85ea305c47ba8d62e65e21c5e0cb3a58da3ea52e04cbafb8b4aca057157a525d0871be20",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-011B-10116610-RB_245_v2-upgradeMe.ota",
+        "path": "images/Innr/1166-011B-10116610-RB_245_v2-upgradeMe.ota"
+    },
+    {
+        "fileVersion": 537029168,
+        "fileSize": 236070,
+        "manufacturerCode": 4454,
+        "imageType": 284,
+        "sha512": "74994baf707f7300353c63ab595a33ba4f1f8a8cb3a58b04d6fa8b68098e36e8cc863881c5491d480d037960ce8c0ce8543fafe74c409de9ffca64987cc893cc",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-011C-20026A30-RB_248_T_v2-upgradeMe.ota",
+        "path": "images/Innr/1166-011C-20026A30-RB_248_T_v2-upgradeMe.ota"
+    },
+    {
+        "fileVersion": 537029168,
+        "fileSize": 231406,
+        "manufacturerCode": 4454,
+        "imageType": 288,
+        "sha512": "83410df888984666b83ecf87ee4fc0059082ac30acfbbadd8a3cdce62302501cc927aabd631dc741f3e351526caac506e7b80d5b26601c36b7064a1210ed2064",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-0120-20026A30-RF_263-upgradeMe.ota",
+        "path": "images/Innr/1166-0120-20026A30-RF_263-upgradeMe.ota"
+    },
+    {
+        "fileVersion": 537029168,
+        "fileSize": 231406,
+        "manufacturerCode": 4454,
+        "imageType": 289,
+        "sha512": "c2f46b6db03e16664479f0293e7dfa88b6d92f3620bc277e86bf5e75f552fe7077f64fa95899748cd140f9a073c567c69e5fc5591e2377409fad2e0ae819b0ee",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-0121-20026A30-RF_265-upgradeMe.ota",
+        "path": "images/Innr/1166-0121-20026A30-RF_265-upgradeMe.ota"
+    },
+    {
+        "fileVersion": 537029168,
+        "fileSize": 231406,
+        "manufacturerCode": 4454,
+        "imageType": 290,
+        "sha512": "3ddad977b5bfe38a842a0e1ab49c50769d76375ba2db2bbe5379f58e9116a0bea0e49f35d257b25ea895be39024ce21f54d31923311bc2c7d66ce1eca9a5dbd6",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-0122-20026A30-RF_261-upgradeMe.ota",
+        "path": "images/Innr/1166-0122-20026A30-RF_261-upgradeMe.ota"
+    },
+    {
+        "fileVersion": 537160240,
+        "fileSize": 231406,
+        "manufacturerCode": 4454,
+        "imageType": 292,
+        "sha512": "7d883752d7d3b215a90f1add7bc5b14a2c468dd72bf4936722627339c48d579be505c747e80cebf6669362f25c48423b523ce6fc78ab3a8d157d4b48a4a8332a",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-0124-20046A30-RF_264-upgradeMe.ota",
+        "path": "images/Innr/1166-0124-20046A30-RF_264-upgradeMe.ota"
+    },
+    {
+        "fileVersion": 604050705,
+        "fileSize": 261711,
+        "manufacturerCode": 4454,
+        "imageType": 296,
+        "sha512": "8d1eb89f429439fa49bab731591b58c6ad62064f45594d4d22a5b980ac807ce46696ce45bdb5025488131516c89c370c710c9dd9e4d69fc12aa80c8b423caad1",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-0128-24011511-RS_226_v2-upgradeMe.ota",
+        "path": "images/Innr/1166-0128-24011511-RS_226_v2-upgradeMe.ota"
+    },
+    {
+        "fileVersion": 604050705,
+        "fileSize": 268311,
+        "manufacturerCode": 4454,
+        "imageType": 297,
+        "sha512": "5e10cdfd552f503db9ae2d01b784f0adc15a3d50b8d151cc2cd3f678e7934e14fb92ff40100345cebeda573b258a253266b9323112a31d161c77386bcc9c2ba2",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-0129-24011511-RS_227_T-upgradeMe.ota",
+        "path": "images/Innr/1166-0129-24011511-RS_227_T-upgradeMe.ota"
+    },
+    {
+        "fileVersion": 604050705,
+        "fileSize": 261711,
+        "manufacturerCode": 4454,
+        "imageType": 298,
+        "sha512": "93f9dae79d6685494612ee27c59c3889de627396174aa78a5dd626d239c56027448e16bfbc70d16d6b0aad24a20233d20c4dc6c6c0e5ca260660cb2d090fe333",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-012A-24011511-RB_245_v3-upgradeMe.ota",
+        "path": "images/Innr/1166-012A-24011511-RB_245_v3-upgradeMe.ota"
+    },
+    {
+        "fileVersion": 604050705,
+        "fileSize": 268307,
+        "manufacturerCode": 4454,
+        "imageType": 299,
+        "sha512": "63dd6994410d155888f0b6d06f21b296c510bdcb0d208e59224f1d4e53bb62d90477edc7aff44ab5684f5b845adf1808eae45cfb365df18a8a15cdffef452824",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-012B-24011511-RB_249_T-upgradeMe.ota",
+        "path": "images/Innr/1166-012B-24011511-RB_249_T-upgradeMe.ota"
+    },
+    {
+        "fileVersion": 604050705,
+        "fileSize": 291130,
+        "manufacturerCode": 4454,
+        "imageType": 300,
+        "sha512": "37ce981b912a0bdaba3435127594a94ef4aa135aa5dc0750ef844abc8378f5ef5f7078a02b5bf1c5636f203db6bdc860b72a6eddd2a0a46679af206ebb5585c9",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-012C-24011511-RB_251_C-upgradeMe.ota",
+        "path": "images/Innr/1166-012C-24011511-RB_251_C-upgradeMe.ota"
+    },
+    {
+        "fileVersion": 604050705,
+        "fileSize": 261711,
+        "manufacturerCode": 4454,
+        "imageType": 301,
+        "sha512": "57191d741f326db3504ea8c061c17de7f55740236e9ef021f3499f229c2525a367a31bf4fee59349d7a522e6b6ab6a10d106d9133304cc03c9f01314fa4a07e0",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-012D-24011511-RB_266-upgradeMe.ota",
+        "path": "images/Innr/1166-012D-24011511-RB_266-upgradeMe.ota"
+    },
+    {
+        "fileVersion": 604050705,
+        "fileSize": 268307,
+        "manufacturerCode": 4454,
+        "imageType": 302,
+        "sha512": "1577a35a5eaae9b06bc48ed59312bf799a5fb553a1ad367c1503be89ffd6f1a919d08a3787d99fb7252c2eb4ced58d254b6372c0abd814a86698cc7d9b35bd90",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-012E-24011511-RB_279_T-upgradeMe.ota",
+        "path": "images/Innr/1166-012E-24011511-RB_279_T-upgradeMe.ota"
+    },
+    {
+        "fileVersion": 604050705,
+        "fileSize": 291138,
+        "manufacturerCode": 4454,
+        "imageType": 303,
+        "sha512": "e98cae11a8ea9a01c7f3e6d6841f84c2e078500137ff0015d6eb5f4ec22d6efe8052284364fe4c3437482e343065be0fe75c7550394aa9585a4c98f0345741c1",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-012F-24011511-RB_286_C-upgradeMe.ota",
+        "path": "images/Innr/1166-012F-24011511-RB_286_C-upgradeMe.ota"
+    },
+    {
+        "fileVersion": 537029168,
+        "fileSize": 231406,
+        "manufacturerCode": 4454,
+        "imageType": 544,
+        "sha512": "1fb89b2184d2564e0ecec1adbc2a839fb64bd7ebb0eecc53ea7158c23941546a0946873056c38807b0700c0d2822636576f86404371fff64204a1b06f0d5c010",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-0220-20026A30-BF_263-upgradeMe.ota",
+        "path": "images/Innr/1166-0220-20026A30-BF_263-upgradeMe.ota"
+    },
+    {
+        "fileVersion": 537029168,
+        "fileSize": 231406,
+        "manufacturerCode": 4454,
+        "imageType": 545,
+        "sha512": "29c01a141853afb877ce7ba9df86b0eba2ddb067164d996333c71128fe15d7d3d7dcc4e0bd7662cb7dd440b1705d157aaf30479b75bec445c2b3e7c4a646f9d3",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-0221-20026A30-BF_265-upgradeMe.ota",
+        "path": "images/Innr/1166-0221-20026A30-BF_265-upgradeMe.ota"
+    },
+    {
+        "fileVersion": 604050705,
+        "fileSize": 261711,
+        "manufacturerCode": 4454,
+        "imageType": 557,
+        "sha512": "c3a22a321f042f64b0aabc016ca30ad84d4917908f98296906a8ec8af4bafb4d1f583bb81386ece0cfce36cc7ba97474bc8c4f9c7deeca2710145ba3cd3e244f",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-022D-24011511-BY_266-upgradeMe.ota",
+        "path": "images/Innr/1166-022D-24011511-BY_266-upgradeMe.ota"
+    },
+    {
+        "fileVersion": 604050705,
+        "fileSize": 291142,
+        "manufacturerCode": 4454,
+        "imageType": 559,
+        "sha512": "ff5634cc35089bf246fe0b903bbecc01824e6a995bfa84db9d3104c871f61529537dedc4174af3da2592ae8b534012d818f75343c3b8ac783d17f62a6303fb21",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-022F-24011511-BY_286_C-upgradeMe.ota",
+        "path": "images/Innr/1166-022F-24011511-BY_286_C-upgradeMe.ota"
+    },
+    {
+        "fileVersion": 654404144,
+        "fileSize": 235306,
+        "manufacturerCode": 4454,
+        "imageType": 785,
+        "sha512": "cc6096c0d0f29ef27b883b2fe77672e1956fdcf8fbe028e61052f103d68af0d082d61e32dc41a583c9165186924b727e45c3e83e0b17f1077410cbea3d588720",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-0311-27016A30-SP_222-upgradeMe.ota",
+        "path": "images/Innr/1166-0311-27016A30-SP_222-upgradeMe.ota"
+    },
+    {
+        "fileVersion": 537029168,
+        "fileSize": 236826,
+        "manufacturerCode": 4454,
+        "imageType": 1044,
+        "sha512": "9e80707893222af177ceb158353d1829f5df6b86dab5edda769f62fd60bb4ae8289e63c1d3f139ea4db4a21a6c0779de36767645ee6a51ce6dd9a04d6af81958",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-0414-20026A30-AE_280_C-upgradeMe.ota",
+        "path": "images/Innr/1166-0414-20026A30-AE_280_C-upgradeMe.ota"
+    },
+    {
+        "fileVersion": 537094704,
+        "fileSize": 235482,
+        "manufacturerCode": 4454,
+        "imageType": 2432,
+        "sha512": "9acfaa6978264a588a742a65148536269737c46f81b337709b2cd61f2fdf8ba8e67b94445dd3f85348dfe7d5bb167e03ebef941cde23384b0d1ca17b93d0e5a3",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-0980-20036A30-RCL_240_T-upgradeMe.ota",
+        "path": "images/Innr/1166-0980-20036A30-RCL_240_T-upgradeMe.ota"
     }
 ]
