@@ -42,7 +42,7 @@ const main = async () => {
     }
 
     const isURL = filenameOrURL.toLowerCase().startsWith("http");
-    let file = null;
+    const files = [];
 
     if (isURL) {
         const downloadFile = async (url, path) => {
@@ -67,84 +67,96 @@ const main = async () => {
             });
         }
 
-        file = path.resolve("temp");
+        const file = path.resolve("temp");
         await downloadFile(filenameOrURL, file);
+        files.push(file);
     } else {
-        file = path.resolve(filenameOrURL);
-        if (!fs.existsSync(file)) {
-            throw new Error(`${file} does not exist`);
+        const file = path.resolve(filenameOrURL);
+        if (fs.lstatSync(file).isFile()) {
+            if (!fs.existsSync(file)) {
+                throw new Error(`${file} does not exist`);
+            }
+            files.push(file);
+        } else {
+            const otaExtension = ['.ota', '.zigbee'];
+            const otasInDirectory = fs.readdirSync(file)
+                .filter((f) => otaExtension.includes(path.extname(f).toLowerCase()))
+                .map((f) => path.join(file, f));
+            files.push(...otasInDirectory);
         }
     }
 
-    const buffer = fs.readFileSync(file);
-    const parsed = ota.parseImage(buffer);
+    for (const file of files) {
+        const buffer = fs.readFileSync(file);
+        const parsed = ota.parseImage(buffer);
 
-    if (!manufacturerNameLookup[parsed.header.manufacturerCode]) {
-        throw new Error(`${parsed.header.manufacturerCode} not in manufacturerNameLookup (please add it)`);
-    }
+        if (!manufacturerNameLookup[parsed.header.manufacturerCode]) {
+            throw new Error(`${parsed.header.manufacturerCode} not in manufacturerNameLookup (please add it)`);
+        }
 
-    const manufacturerName = manufacturerNameLookup[parsed.header.manufacturerCode];
-    const indexJSON = JSON.parse(fs.readFileSync('index.json'));
-    const destination = path.join('images', manufacturerName, path.basename(file));
+        const manufacturerName = manufacturerNameLookup[parsed.header.manufacturerCode];
+        const indexJSON = JSON.parse(fs.readFileSync('index.json'));
+        const destination = path.join('images', manufacturerName, path.basename(file));
 
-    const hash = crypto.createHash('sha512');
-    hash.update(buffer);
+        const hash = crypto.createHash('sha512');
+        hash.update(buffer);
 
-    const entry = {
-        fileVersion: parsed.header.fileVersion,
-        fileSize: parsed.header.totalImageSize,
-        manufacturerCode: parsed.header.manufacturerCode,
-        imageType: parsed.header.imageType,
-        sha512: hash.digest('hex'),
-    };
+        const entry = {
+            fileVersion: parsed.header.fileVersion,
+            fileSize: parsed.header.totalImageSize,
+            manufacturerCode: parsed.header.manufacturerCode,
+            imageType: parsed.header.imageType,
+            sha512: hash.digest('hex'),
+        };
 
-    if (modelId) {
-        entry.modelId = modelId;
-    }
+        if (modelId) {
+            entry.modelId = modelId;
+        }
 
-    if (isURL) {
-        entry.url = filenameOrURL;
-    } else {
-        const destinationPosix = destination.replace(/\\/g, '/');
-        entry.url = `${baseURL}/${escape(destinationPosix)}`;
-        entry.path = destinationPosix;
-    }
+        if (isURL) {
+            entry.url = filenameOrURL;
+        } else {
+            const destinationPosix = destination.replace(/\\/g, '/');
+            entry.url = `${baseURL}/${escape(destinationPosix)}`;
+            entry.path = destinationPosix;
+        }
 
-    const index = indexJSON.findIndex((i) => {
-        return i.manufacturerCode === entry.manufacturerCode && i.imageType === entry.imageType && (!i.modelId || i.modelId === entry.modelId)
-    });
+        const index = indexJSON.findIndex((i) => {
+            return i.manufacturerCode === entry.manufacturerCode && i.imageType === entry.imageType && (!i.modelId || i.modelId === entry.modelId)
+        });
 
-    if (index !== -1) {
-        console.log(`Updated existing entry (${JSON.stringify(entry)})`);
-        indexJSON[index] = {...indexJSON[index], ...entry};
+        if (index !== -1) {
+            console.log(`Updated existing entry (${JSON.stringify(entry)})`);
+            indexJSON[index] = {...indexJSON[index], ...entry};
 
-        if (entry.path && entry.path !== destination) {
-            try {
-                fs.unlinkSync(path.resolve(entry.path));
-            } catch (err) {
-                if (err && err.code != 'ENOENT') {
-                    console.error("Error in call to fs.unlink", err);
-                    throw err;
+            if (entry.path && entry.path !== destination) {
+                try {
+                    fs.unlinkSync(path.resolve(entry.path));
+                } catch (err) {
+                    if (err && err.code != 'ENOENT') {
+                        console.error("Error in call to fs.unlink", err);
+                        throw err;
+                    }
                 }
             }
-        }
-    } else {
-        console.log(`Added new entry (${JSON.stringify(entry)})`);
-        indexJSON.push(entry);
-    }
-
-    if (!isURL && file !== path.resolve(destination)) {
-        if (!fs.existsSync(path.dirname(destination))) {
-            fs.mkdirSync(path.dirname(destination));
+        } else {
+            console.log(`Added new entry (${JSON.stringify(entry)})`);
+            indexJSON.push(entry);
         }
 
-        fs.copyFileSync(file, destination);
-    }
+        if (!isURL && file !== path.resolve(destination)) {
+            if (!fs.existsSync(path.dirname(destination))) {
+                fs.mkdirSync(path.dirname(destination));
+            }
 
-    fs.writeFileSync('index.json', JSON.stringify(indexJSON, null, '    '));
+            fs.copyFileSync(file, destination);
+        }
 
-    if (isURL) {
-        fs.unlinkSync(file);
+        fs.writeFileSync('index.json', JSON.stringify(indexJSON, null, '    '));
+
+        if (isURL) {
+            fs.unlinkSync(file);
+        }
     }
 }
 
