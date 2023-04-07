@@ -2078,12 +2078,12 @@
         "url": "https://tr-zha.s3.amazonaws.com/firmwares/SmartSwitchGen3_Zigbee_PROD_V12_v1.00.12.ota"
     },
     {
-        "fileVersion": 268513322,
-        "fileSize": 200482,
+        "fileVersion": 268513324,
+        "fileSize": 204610,
         "manufacturerCode": 4659,
         "imageType": 54182,
-        "sha512": "e37eac9315a55169e7402028e3a37c228d3a5256ef50178e8b34be3c5c5cbdea3735cd791ed04a0701b9160e58ea03620484959261ad622554d13e1021b282da",
-        "url": "https://tr-zha.s3.amazonaws.com/firmwares/SmartPlug_Zigbee_PROD_OTA_V41_v1.00.41.ota"
+        "sha512": "3a1d4fbe2e70b9b99e82a317285ae4dbc91f48401d3b41a7a1a811a8fef02b934c6d5c5e81288282460a3167e99563c26948a253392dd0040be3c5070d211937",
+        "url": "https://tr-zha.s3.amazonaws.com/firmwares/SmartPlug_Zigbee_PROD_OTA_V43_v1.00.43.ota"
     },
     {
         "fileVersion": 385953793,
