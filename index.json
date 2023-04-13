@@ -2600,5 +2600,14 @@
         "sha512": "9acfaa6978264a588a742a65148536269737c46f81b337709b2cd61f2fdf8ba8e67b94445dd3f85348dfe7d5bb167e03ebef941cde23384b0d1ca17b93d0e5a3",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-0980-20036A30-RCL_240_T-upgradeMe.ota",
         "path": "images/Innr/1166-0980-20036A30-RCL_240_T-upgradeMe.ota"
+    },
+    {
+        "fileVersion": 16777233,
+        "fileSize": 283326,
+        "manufacturerCode": 4476,
+        "imageType": 4367,
+        "sha512": "995c25c09706dd39498d1adb6f0aca700c193dc1d5b18069f2057f5d2f05096527731330278f4ca15350d4e72489e0349e285af5d5befae25c5e992c847a50b6",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/IKEA/ota_t0x110f_m0x117c_v0x01000011.ota",
+        "path": "images/IKEA/ota_t0x110f_m0x117c_v0x01000011.ota"
     }
 ]
