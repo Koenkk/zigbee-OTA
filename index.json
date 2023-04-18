@@ -2609,5 +2609,23 @@
         "sha512": "995c25c09706dd39498d1adb6f0aca700c193dc1d5b18069f2057f5d2f05096527731330278f4ca15350d4e72489e0349e285af5d5befae25c5e992c847a50b6",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/IKEA/ota_t0x110f_m0x117c_v0x01000011.ota",
         "path": "images/IKEA/ota_t0x110f_m0x117c_v0x01000011.ota"
+    },
+    {
+        "fileVersion": 22,
+        "fileSize": 245148,
+        "manufacturerCode": 4644,
+        "imageType": 6001,
+        "sha512": "ce40cfc670692384590fc58b84fd9b0d1a6f7b1fa28c6a34ea46fd404b536135151e0fa70bef5ff0c1eeca3fe0d27174806fd1b4863e5bc10afaeca49e0b14f0",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Namron/NAMRON_AS_4512737%286001%29%20V22.ota",
+        "path": "images/Namron/NAMRON_AS_4512737(6001) V22.ota"
+    },
+    {
+        "fileVersion": 22,
+        "fileSize": 245148,
+        "manufacturerCode": 4644,
+        "imageType": 6002,
+        "sha512": "c6eb11b68bbbacee5ee8dc483a93d07db60003a8345fdd512e05603b9ab1b3dd06f692e01a3be71f3411fdd43a3446198fc7dc806c9b80cab3c86226a41941a7",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Namron/NAMRON_AS_4512738%286002%29%20V22.ota",
+        "path": "images/Namron/NAMRON_AS_4512738(6002) V22.ota"
     }
 ]
