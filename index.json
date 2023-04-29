@@ -2008,7 +2008,7 @@
         "manufacturerCode": 4659,
         "imageType": 54179,
         "sha512": "1872934ea34ff3908a8efa851846c5cd89e7e71aa2029ec9ff4963bcafad161c52c8b415f00e9ca7e5eb22712f35f488d73fe2b674e2cb53aa49ec61e7998f9d",
-        "url": "https://tr-zha.s3.amazonaws.com/firmwares/TRTL_WaterLeak_DEV_V34_v1.00.34.ota"
+        "url": "https://tr-zha.s3.amazonaws.com/firmware/TRTL_WaterLeak_DEV_V34_v1.00.34.ota"
     },
     {
         "fileVersion": 21,
@@ -2016,7 +2016,7 @@
         "manufacturerCode": 4659,
         "imageType": 54185,
         "sha512": "1f4f7234af883251e5c5d7549cf50686aebdbf0485a9ac0fe00fb7c3fe83432dbf4bb25b3f10c61cf9c16273d3b12893c51c15234db23b1288ab87bf150b6484",
-        "url": "https://tr-zha.s3.amazonaws.com/firmwares/TRTL_ThermalSensor_PROD_OTA_V21_1.00.21.ota"
+        "url": "https://tr-zha.s3.amazonaws.com/firmware/TRTL_ThermalSensor_PROD_OTA_V21_1.00.21.ota"
     },
     {
         "fileVersion": 2590,
@@ -2034,7 +2034,7 @@
         "manufacturerCode": 4659,
         "imageType": 54183,
         "sha512": "36ff1a705900c6560b2ad3a8e4e05c3952ea4c9dd98e9f33fd13d5a0ad048c33777d58886f8d6d8241dcb95334e50504df043e2d5f9f4220a837e2ec93e58031",
-        "url": "https://tr-zha.s3.amazonaws.com/firmwares/SmartCurtain_Zigbee_PROD_OTA_V56_1.00.56.ota"
+        "url": "https://tr-zha.s3.amazonaws.com/firmware/SmartCurtain_Zigbee_PROD_OTA_V56_1.00.56.ota"
     },
     {
         "fileVersion": 23,
@@ -2042,7 +2042,7 @@
         "manufacturerCode": 4659,
         "imageType": 54184,
         "sha512": "be73e3cb13d44d6ecd48a8cfa170e7885fdf37ec7ee82ae462db8945d86f60a94855b9c009775ac6330cfa35db353ba8a86c5c3618ea3b1a7ee185efc10010b7",
-        "url": "https://tr-zha.s3.amazonaws.com/firmwares/SmartButton_Zigbee_PROD_OTA_V23_1.00.23.ota"
+        "url": "https://tr-zha.s3.amazonaws.com/firmware/SmartButton_Zigbee_PROD_OTA_V23_1.00.23.ota"
     },
     {
         "fileVersion": 33,
@@ -2050,7 +2050,7 @@
         "manufacturerCode": 4659,
         "imageType": 54178,
         "sha512": "15076561e09af5cc8c06c8228c378043a82dcfb979f00b8ccc344bf29002deb64723ce46b1d9620f3e7c5afb7f52993fedcf71ed247d785f8a31eeb1a6c3d6dd",
-        "url": "https://tr-zha.s3.amazonaws.com/firmwares/TRTL_DoorSensor_DEV_V33_v1.00.33.ota"
+        "url": "https://tr-zha.s3.amazonaws.com/firmware/TRTL_DoorSensor_DEV_V33_v1.00.33.ota"
     },
     {
         "fileVersion": 33,
@@ -2058,7 +2058,7 @@
         "manufacturerCode": 4659,
         "imageType": 54177,
         "sha512": "90986d82cb9348486f8df1eb365196456bde2de6a175287a268bbf6a6d0e9ec331c6851c2fd4221d24e72758b1e09328f5dea5973aa0e9b7a723cfb60689a390",
-        "url": "https://tr-zha.s3.amazonaws.com/firmwares/TRTL_PIR_DEV_V33_v1.00.33.ota"
+        "url": "https://tr-zha.s3.amazonaws.com/firmware/TRTL_PIR_DEV_V33_v1.00.33.ota"
     },
     {
         "fileVersion": 17170689,
@@ -2075,7 +2075,7 @@
         "manufacturerCode": 4659,
         "imageType": 54181,
         "sha512": "782d79438a0ae68870f56003d6547df21bef0c9174f212c26a38241486edcb0c77bcb0c13fdf31167d089f495a55e77597013ce698d30c48342208138f7918d0",
-        "url": "https://tr-zha.s3.amazonaws.com/firmwares/SmartSwitchGen3_Zigbee_PROD_V15_v1.00.15.ota"
+        "url": "https://tr-zha.s3.amazonaws.com/firmware/SmartSwitchGen3_Zigbee_PROD_V15_v1.00.15.ota"
     },
     {
         "fileVersion": 268513324,
@@ -2083,7 +2083,7 @@
         "manufacturerCode": 4659,
         "imageType": 54182,
         "sha512": "3a1d4fbe2e70b9b99e82a317285ae4dbc91f48401d3b41a7a1a811a8fef02b934c6d5c5e81288282460a3167e99563c26948a253392dd0040be3c5070d211937",
-        "url": "https://tr-zha.s3.amazonaws.com/firmwares/SmartPlug_Zigbee_PROD_OTA_V43_v1.00.43.ota"
+        "url": "https://tr-zha.s3.amazonaws.com/firmware/SmartPlug_Zigbee_PROD_OTA_V43_v1.00.43.ota"
     },
     {
         "fileVersion": 385953793,
