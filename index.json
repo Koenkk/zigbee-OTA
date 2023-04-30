@@ -150,12 +150,12 @@
     },
     {
         "minFileVersion": 16783874,
-        "fileVersion": 16783874,
-        "fileSize": 267452,
+        "fileVersion": 16786688,
+        "fileSize": 267324,
         "manufacturerCode": 4107,
         "imageType": 268,
-        "sha512": "c4591fe155bef8500779c36c7792f3960c4f83dde9dd47aa367113229c5bd73161f14cc92e6d6a0960e807c54626ce2ab0ce0d18c76d0206770dcda3a4776862",
-        "url": "https://otau.meethue.com/storage/ZGB_100B_010C/2ef158a5-ffb4-43ac-9d59-3cb71078f6f7/100B-010C-01001A02-ConfLight-Lamps_0012.zigbee"
+        "sha512": "5dd29c7405a2f3cd9058fd5e6999cc76a2cbffc0c531acddc5bae99588ca37f2f79288202c02b846abbf07d32e1e398a7fd7747d630541c05210bb43d238f8ef",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_010C/0f7ed133-fa2f-48f6-810d-533fd1d4994a/100B-010C-01002500-ConfLight-Lamps_0012.zigbee"
     },
     {
         "maxFileVersion": 16783873,
