@@ -80,12 +80,12 @@
     },
     {
         "minFileVersion": 1107326256,
-        "fileVersion": 1107326256,
-        "fileSize": 256632,
+        "fileVersion": 1124099330,
+        "fileSize": 256696,
         "manufacturerCode": 4107,
         "imageType": 260,
-        "sha512": "d2bf330b9a23114efb6a613ccefce691e4a67a98175033e65d3eaf6841312b5a542bd538ae19c06c3804aa06224d35acc184f4b37a6198b457df2a173a490f21",
-        "url": "https://otau.meethue.com/storage/ZGB_100B_0104/631d2194-554e-4016-b954-f3c226482f04/ConnectedLamp-Atmel_0104_5.130.1.30000_0012.sbl-ota"
+        "sha512": "096b0ba7f6c3b4d26a988ef6f79ca593c237e570934fc2e2bef6e885864226c727b9a963d59086ca6d7f5493706808129117f936ae6695cbe59288b13daada30",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_0104/e7e4aac2-7479-434a-b790-b6bd2d3cbd6c/ConnectedLamp-Atmel-Target_0012.sbl-ota"
     },
     {
         "maxFileVersion": 1107326255,
@@ -106,12 +106,12 @@
     },
     {
         "minFileVersion": 1107326256,
-        "fileVersion": 1107326256,
-        "fileSize": 256632,
+        "fileVersion": 1124099330,
+        "fileSize": 256696,
         "manufacturerCode": 4107,
         "imageType": 264,
-        "sha512": "7d6166daf46ad68275ada764d17d9fde78b364c4ebb0f81664fb8159efc81a225790d5f670e036489be80fa2a9fedf92201990336559d2299c16faeb396a46b6",
-        "url": "https://otau.meethue.com/storage/ZGB_100B_0108/fb2b4e6e-f8c4-44b0-88cb-aac2e88c9fa0/LivingColors-Target_0108_5.130.1.30000_0012.sbl-ota"
+        "sha512": "1613c7f6372c7931e40cf78c57f32a81bbaea84bc3c5f0d193e0271b00a152f52b0fde23fd5a675c709d6d0b7cac6acfbab6029ab25c4971ba706317993ebcbb",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_0108/55fb9cf3-afb6-4ef5-8887-905699da7ee8/LivingColors-Atmel-Target_0012.sbl-ota"
     },
     {
         "maxFileVersion": 1107326255,
@@ -132,12 +132,12 @@
     },
     {
         "minFileVersion": 1107326256,
-        "fileVersion": 1107326256,
-        "fileSize": 256632,
+        "fileVersion": 1124099330,
+        "fileSize": 256696,
         "manufacturerCode": 4107,
         "imageType": 267,
-        "sha512": "903dc359ddab530136e2aced646633627555a4317696f9a1c61300ff2006109e316443f7807b03397021e9162698dc9ba7fcbb3749f6f5a83883b9aafc78eb10",
-        "url": "https://otau.meethue.com/storage/ZGB_100B_010B/e3d57ccf-94b9-4786-8b3f-569c5c8883f8/ModuLum-ATmega_010B_5.130.1.30000_0012.sbl-ota"
+        "sha512": "a9cdee21be081de3dfe02a7904cb730e0f3a726bac5f18ec2c5d3aa0f5c69e18071a9c42cc08f8f77b956901ba8b0cc53c209d429f5bf017f0e1a98d33ce15b1",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_010B/26ca95ed-e2ac-4df4-b93e-d5d02516a04a/ModuLum-ATmega_0012.sbl-ota"
     },
     {
         "maxFileVersion": 1107326255,
@@ -176,12 +176,12 @@
     },
     {
         "minFileVersion": 16783620,
-        "fileVersion": 16783620,
-        "fileSize": 271050,
+        "fileVersion": 16786176,
+        "fileSize": 269002,
         "manufacturerCode": 4107,
         "imageType": 270,
-        "sha512": "5843552ab361d2d063e36be24785afcb8af34491ae721c2426da6afec94967acd4005d5e2abfcca5ebd10f3c9e39656524775b50cef115f67c3f636b9609d3c2",
-        "url": "https://otau.meethue.com/storage/ZGB_100B_010E/3e979745-cc00-43cf-a51c-73a3d9d91430/100B-010E-01001904-ConfLight-ModuLum_0012.zigbee"
+        "sha512": "6fce8e14bba99e7d187da799b2b289010cfed5baf2ce70bb5f6f1ed50624d62bdd160b1e4217623eb494220a98031a8a4cf1f0a519af6096bedfeacea872a797",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_010E/b8bba8c0-d137-4015-b107-2825eb28c123/100B-010E-01002300-ConfLight-ModuLum_0012.zigbee"
     },
     {
         "maxFileVersion": 16783619,
