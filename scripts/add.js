@@ -34,6 +34,7 @@ const manufacturerNameLookup = {
     4742: 'Sonoff',
     4919: 'Datek',
     10132: 'ClimaxTechnology',
+    26214: 'Sprut.device',
 };
 
 const main = async () => {
