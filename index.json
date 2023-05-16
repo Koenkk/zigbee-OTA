@@ -1523,13 +1523,13 @@
         "path": "images/Xiaomi/lumi.relay.c2acn01_20211201_v0047.ota"
     },
     {
-        "fileVersion": 3228163,
-        "fileSize": 243063,
+        "fileVersion": 3555843,
+        "fileSize": 244903,
         "manufacturerCode": 4129,
         "imageType": 16,
-        "sha512": "248ba55d43f96a567d19721fb02c6edddaffba04c35b172011f586e93873dadd86668ecdd38112bb94e463f7f7fb8964c3abc5ffba8d407ec3fcb9202e3cd97d",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-0010-314203-NLM-49.zigbee",
-        "path": "images/Legrand/1021-0010-314203-NLM-49.zigbee"
+        "sha512": "688bdb97a31b73ae12d975adaadf80fd3752cf68ec6446fcbcab442be05554dc0d3abc648d17946d0e49ebf777c8e5b19a06188296968e4f3ad5434b379c5682",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-0010-364203-NLM-54.zigbee",
+        "path": "images/Legrand/1021-0010-364203-NLM-54.zigbee"
     },
     {
         "fileVersion": 5128707,
@@ -1541,13 +1541,13 @@
         "path": "images/Legrand/Legrand-412171-78.fw"
     },
     {
-        "fileVersion": 3949059,
-        "fileSize": 198951,
+        "fileVersion": 4145667,
+        "fileSize": 200343,
         "manufacturerCode": 4129,
         "imageType": 18,
-        "sha512": "b1107b43642d0fa07b950d695fa9002d3b1054051bf1341c86e236484c754913ae0f0e506b5e34c53812991c0a5b042b5750a1fcbc4b111432c7233d99f1b0cb",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-0012-3c4203-NLT-60.zigbee",
-        "path": "images/Legrand/1021-0012-3c4203-NLT-60.zigbee"
+        "sha512": "469e38372bfe8e030b08499aa8e077553082d1b0a5b6c5d918e204610ec1bd11d242baf12940dc09e255966e1569643361d76d891ee46e698ac32ed893796644",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-0012-3f4203-NLT-63.zigbee",
+        "path": "images/Legrand/1021-0012-3f4203-NLT-63.zigbee"
     },
     {
         "fileVersion": 37,
