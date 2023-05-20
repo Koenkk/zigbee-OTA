@@ -1638,14 +1638,14 @@
         "path": "images/Xiaomi/20221213165155_OTA_lumi.dimmer.rcbac1_0.0.0_0029_20221212_A8A063.ota"
     },
     {
-        "fileVersion": 15,
-        "fileSize": 272814,
+        "fileVersion": 17,
+        "fileSize": 274110,
         "manufacturerCode": 4447,
         "imageType": 6156,
-        "sha512": "30bb22bc010d09c39bd37bd0c868491a79989883bc16b38026d6a21aa02235529348b4d7f9cd9dd686ba24ba71416595dce4a161543e24c643616ddf5f437d34",
+        "sha512": "552e0562121fed5cfce3d0a64f66750ed68f597b3fdd3ff4e53277cb742540accb23b0a52ee4a4d64c83590370609aab90ac34c711b3027f6ea6785f04610108",
         "modelId": "lumi.sensor_gas.acn02",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20221022145158_OTA_lumi.sensor_gas.acn02_0.0.0.0015_20220708_CEB08C.ota",
-        "path": "images/Xiaomi/20221022145158_OTA_lumi.sensor_gas.acn02_0.0.0.0015_20220708_CEB08C.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20230425180824_OTA_lumi.sensor_gas.acn02_0.0.0_0017_20230423_3F1EAA.ota",
+        "path": "images/Xiaomi/20230425180824_OTA_lumi.sensor_gas.acn02_0.0.0_0017_20230423_3F1EAA.ota"
     },
     {
         "fileVersion": 13,
