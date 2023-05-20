@@ -281,12 +281,12 @@
         "url": "https://otau.meethue.com/storage/ZGB_100B_011A/9dde1a62-062d-4a0f-9a70-d7975ba81c38/100B-011A-01000B02-SmartPlug-EFR32MG21.zigbee"
     },
     {
-        "fileVersion": 16785408,
-        "fileSize": 453930,
+        "fileVersion": 16785666,
+        "fileSize": 470910,
         "manufacturerCode": 4107,
         "imageType": 285,
-        "sha512": "17d23fa07574054f73331fd1672b74c6ccbe87367f7b0b753b9c701bb1cdbbe78b22ca5be5e646c2eeedc68ce0110d480282a610c4773d9de3f1a43ed0a0b4ee",
-        "url": "https://otau.meethue.com/storage/ZGB_100B_011D/1c1bf7b6-e9b3-40ab-a920-87cb6b09492d/100B-011D-01002000-ConfLight-ModuLumV2-EFR32MG13.zigbee"
+        "sha512": "55c25989c7597481954549cb7a6ba626ee22d5b172e2c07bf828d6aaf1fedbc7689513e1ab96046abcf947e6a6fb1d6da370bd246e8024f5f6a4e388b2919b3d",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_011D/466ea3c4-5a8f-453e-adc0-870bb777f076/100B-011D-01002102-ConfLight-ModuLumV2-EFR32MG13.zigbee"
     },
     {
         "fileVersion": 16785408,
