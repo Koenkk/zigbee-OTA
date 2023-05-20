@@ -2638,6 +2638,16 @@
         "path": "images/Legrand/Legrand-067776-55.ota"
     },
     {
+        "modelId": "RBSH-SP-ZB-EU",
+        "fileVersion": 654338608,
+        "fileSize": 253738,
+        "manufacturerCode": 4617,
+        "imageType": 12290,
+        "sha512": "850fbcb8d6f9835d04459e8435eebf19cbb642ccddb22486000ba61d0a5628964232b27566194cc41f00742b564918b1d39f974a5892b1e279c7278d51e4d665",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Bosch/0x1209_0x3002_0x27006a30.ota",
+        "path": "images/Bosch/0x1209_0x3002_0x27006a30.ota"
+    },
+    {
         "modelId": "RBSH-TRV0-ZB-EU",
         "fileVersion": 889525524,
         "fileSize": 166009,
