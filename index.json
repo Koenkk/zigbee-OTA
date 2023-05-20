@@ -2262,16 +2262,6 @@
         "path": "images/Namron/4512719-Firmware-35.ota"
     },
     {
-        "modelId": "RBSH-TRV0-ZB-EU",
-        "fileVersion": 872682772,
-        "fileSize": 165875,
-        "manufacturerCode": 4617,
-        "imageType": 12298,
-        "sha512": "f298dcb46a62a09d5206128704d6df86b2bcc9ef48e2498518a856bebdd9196c67a8e0445cdbe1e837077afea5d9d291f5be3709ac018aeb93a8b68e12608a87",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Bosch/0x1209_0x300a_0x34041514.ota",
-        "path": "images/Bosch/0x1209_0x300a_0x34041514.ota"
-    },
-    {
         "fileVersion": 536898096,
         "fileSize": 235962,
         "manufacturerCode": 4919,
@@ -2656,5 +2646,15 @@
         "sha512": "850fbcb8d6f9835d04459e8435eebf19cbb642ccddb22486000ba61d0a5628964232b27566194cc41f00742b564918b1d39f974a5892b1e279c7278d51e4d665",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Bosch/0x1209_0x3002_0x27006a30.ota",
         "path": "images/Bosch/0x1209_0x3002_0x27006a30.ota"
+    },
+    {
+        "modelId": "RBSH-TRV0-ZB-EU",
+        "fileVersion": 889525524,
+        "fileSize": 166009,
+        "manufacturerCode": 4617,
+        "imageType": 12298,
+        "sha512": "254e39aab13838a3ac46210987cece2baa4eb9a19406e7de54c30dcbb9389da2e5c4e65af7696c9d5fab3c7b76fe81a29a32d00a17db0df8b9c7f8b93dc658cc",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Bosch/0x1209_0x300a_0x35051514.ota",
+        "path": "images/Bosch/0x1209_0x300a_0x35051514.ota"
     }
 ]
