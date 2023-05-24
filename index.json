@@ -1405,13 +1405,13 @@
         "path": "images/ClimaxTechnology/12128_OTA_3.18.ZIGBEE"
     },
     {
-        "fileVersion": 262149,
-        "fileSize": 201462,
+        "fileVersion": 262152,
+        "fileSize": 201716,
         "manufacturerCode": 4117,
         "imageType": 593,
-        "sha512": "eb53467c3dec6ad394fe36152bb0e81f4aeaff6fd7c5c5589bf575578c8cdf6126d6219cbfdde0a1db3db7aef07124feacdf4c87cd062c9117e54f92795c5e45",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Develco/ED_Smoke_Sensor_SSIG_4.0.5.zigbee",
-        "path": "images/Develco/ED_Smoke_Sensor_SSIG_4.0.5.zigbee"
+        "sha512": "07bc44d6510a22f99b4ce5baf56a23aa29a8c34f213dbc5c2407fc89c6c7c3542e43082e15285aeaaa94eff4579002da8e6cc30cf35455f57dbfaf7d3db5bf2c",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Develco/FireAlarm_4.0.8.zigbee",
+        "path": "images/Develco/FireAlarm_4.0.8.zigbee"
     },
     {
         "fileVersion": 262145,
