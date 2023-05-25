@@ -2656,5 +2656,14 @@
         "sha512": "254e39aab13838a3ac46210987cece2baa4eb9a19406e7de54c30dcbb9389da2e5c4e65af7696c9d5fab3c7b76fe81a29a32d00a17db0df8b9c7f8b93dc658cc",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Bosch/0x1209_0x300a_0x35051514.ota",
         "path": "images/Bosch/0x1209_0x300a_0x35051514.ota"
+    },
+    {
+        "fileVersion": 262145,
+        "fileSize": 197745,
+        "manufacturerCode": 4117,
+        "imageType": 576,
+        "sha512": "98171927e5045f7593eada86e5da1c6888b719848bc8771814e38f792d3f37f7480679e3dcb76a7ea20cb149b19512d4aebf3e105f7c1975cbd1a1ff3c3e71e9",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Develco/WindowSensor_4.0.1.zigbee",
+        "path": "images/Develco/WindowSensor_4.0.1.zigbee"
     }
 ]
