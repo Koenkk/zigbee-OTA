@@ -289,12 +289,12 @@
         "url": "https://otau.meethue.com/storage/ZGB_100B_011D/466ea3c4-5a8f-453e-adc0-870bb777f076/100B-011D-01002102-ConfLight-ModuLumV2-EFR32MG13.zigbee"
     },
     {
-        "fileVersion": 16785408,
-        "fileSize": 431190,
+        "fileVersion": 16785666,
+        "fileSize": 445838,
         "manufacturerCode": 4107,
         "imageType": 286,
-        "sha512": "7960f1b536bfabd20a2f32b71727723ebe4a59059b2f8ef33ae0b913090bafb8b007faa4410460ed40b85c10d49a83adeaf4f9ad39b2178b8c61c5503fb922d0",
-        "url": "https://otau.meethue.com/storage/ZGB_100B_011E/45441e84-b66b-4e75-8778-d9627a52cefd/100B-011E-01002000-ConfLight-PortableV2-EFR32MG13.zigbee"
+        "sha512": "cc02e793fc2e22558f374fbf9786731747b8537694c72e54b5a9d31a853d170025586c14c1a1d89e76e64358d9b9bce0748f171c7585d10952f1248cb83c0b6f",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_011E/83674003-b78b-471b-80cf-0ce580077378/100B-011E-01002102-ConfLight-PortableV2-EFR32MG13.zigbee"
     },
     {
         "fileVersion": 16785410,
@@ -305,12 +305,12 @@
         "url": "https://otau.meethue.com/storage/ZGB_100B_011F/c6193212-2531-4346-ad96-c5d48963ce9c/100B-011F-01002002-ConfLightBLE-ModuLumV3-EFR32MG21.zigbee"
     },
     {
-        "fileVersion": 16785152,
-        "fileSize": 373288,
+        "fileVersion": 16785410,
+        "fileSize": 386628,
         "manufacturerCode": 4107,
         "imageType": 288,
-        "sha512": "d4d21cfd5092c658e8f91ed5b85f083c9b9b93006f7894db9aa71f42728de910077537f0248dc4d40ec2ac4c7db25199f21734817b70bd93327cc51b1cbdb435",
-        "url": "https://otau.meethue.com/storage/ZGB_100B_0120/2e408b16-42a1-43c6-915c-de7c8d876b2a/100B-0120-01001F00-ConfLightBLE-PortableV3-EFR32MG21.zigbee"
+        "sha512": "3f4704f3d5ef1bf7542f75e9dda2763f2d76eb9b6f46516ee75cc17f47f5c4012c77b8cfa4e56fb00867e4c98937221f7b51736fb0557308cf550c5d6635089f",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_0120/85a46316-db06-48c5-ac7d-e43c315bf743/100B-0120-01002002-ConfLightBLE-PortableV3-EFR32MG21.zigbee"
     },
     {
         "fileVersion": 3080,
