@@ -1692,6 +1692,15 @@
         "path": "images/Sonoff/zbmini-l_v1.1.1.ota"
     },
     {
+        "fileVersion": 4110,
+        "fileSize": 259018,
+        "manufacturerCode": 4742,
+        "imageType": 4,
+        "sha512": "c80d29e84e3019a84f7a3bdb3e84a3b462e2516c7de5120cdbb68a0e474fcb8b1c5d8eb79b204ad2d9c5af2bed4e544588b192b7884d493a11f82d4ac8625177",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sonoff/zbminil2_v1.0.14.ota",
+        "path": "images/Sonoff/zbminil2_v1.0.14.ota"
+    },
+    {
         "fileVersion": 18,
         "fileSize": 291802,
         "manufacturerCode": 4687,
