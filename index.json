@@ -2674,5 +2674,14 @@
         "sha512": "98171927e5045f7593eada86e5da1c6888b719848bc8771814e38f792d3f37f7480679e3dcb76a7ea20cb149b19512d4aebf3e105f7c1975cbd1a1ff3c3e71e9",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Develco/WindowSensor_4.0.1.zigbee",
         "path": "images/Develco/WindowSensor_4.0.1.zigbee"
+    },
+    {
+        "fileVersion": 538,
+        "fileSize": 387114,
+        "manufacturerCode": 4747,
+        "imageType": 9,
+        "sha512": "30365c2d1945dd90cbeab116ccf77b2fd991fbaa82de76cf8a391469a0bee7d7075883186fb262f527a23750a89d795ced1a4bd53d8f46142b3ca000c7b77f74",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/NodOn/128b-0009-021A-700_p1771_nodon_sin_rs_fw_efr32_V021A.zigbee",
+        "path": "images/NodOn/128b-0009-021A-700_p1771_nodon_sin_rs_fw_efr32_V021A.zigbee"
     }
 ]
