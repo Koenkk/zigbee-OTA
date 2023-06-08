@@ -14,6 +14,7 @@ const manufacturerNameLookup = {
     4129: 'Legrand',
     4151: 'Jennic',
     4364: 'Osram',
+    4338: 'Ubisys',
     4405: 'DresdenElektronik',
     4417: 'Telink',
     4420: 'Lutron',

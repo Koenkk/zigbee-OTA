@@ -2676,6 +2676,54 @@
         "path": "images/Develco/WindowSensor_4.0.1.zigbee"
     },
     {
+        "fileVersion": 34735108,
+        "fileSize": 144894,
+        "manufacturerCode": 4338,
+        "imageType": 31539,
+        "sha512": "a0987b2ad7e4eb09254e545cba5657520d22d98ebc7940267234ffd0b5a1b8a631a6de32fb2017893b653e9382f9e1f11ef946a59c71d11428c458f1104a2733",
+        "url": "https://www.ubisys.de/wp-content/uploads/10F2-7B33-0000-0006-02120404-spo-fms2.ota.zigbee"
+    },
+    {
+        "fileVersion": 34735108,
+        "fileSize": 124414,
+        "manufacturerCode": 4338,
+        "imageType": 31545,
+        "sha512": "b16b394f50351d36f466567737f8b254277a14f1742ab1e545d904c0b57411414e01e2e65ac8619216404d3afb7c241e5893d68911f52cdba90baedbcb8d59a1",
+        "url": "https://www.ubisys.de/wp-content/uploads/10F2-7B39-0000-0004-02120404-spo-fmi4.ota.zigbee"
+    },
+    {
+        "fileVersion": 34669572,
+        "fileSize": 148990,
+        "manufacturerCode": 4338,
+        "imageType": 31537,
+        "sha512": "8c35903cf0e110889e1546566d5ad756897c0770706d05b5bae374aaa9bea80f90ca9b8afe0ab23b76eb83e484799fb3066bf8affc73f5bce06160682ae0eb02",
+        "url": "https://www.ubisys.de/wp-content/uploads/10F2-7B31-0000-0006-02110404-spo-fmd.ota.zigbee%20"
+    },
+    {
+        "fileVersion": 34604035,
+        "fileSize": 147198,
+        "manufacturerCode": 4338,
+        "imageType": 31540,
+        "sha512": "fc6efdaeea170b974b2c0243eef417df6eb37de8d1f97b1fdd4792b1f4f85384d7d1f1e8b9c9fb81f2a429fbdbe3392b127db7fd58b9de2969a5ac87030bc989",
+        "url": "https://www.ubisys.de/wp-content/uploads/10F2-7B34-0000-0007-02100403-spo-fmsh.ota.zigbee"
+    },
+    {
+        "fileVersion": 34604035,
+        "fileSize": 119550,
+        "manufacturerCode": 4338,
+        "imageType": 31546,
+        "sha512": "69d1b747b1b3a3694e40f6e6f765c8f7e49e6b5cf4073a553e136fe118be3945bea448709dd199b0a82496e9f5506ed5cd239a13fef7ec490f27e341e9d79567",
+        "url": "https://www.ubisys.de/wp-content/uploads/10F2-7B3A-0000-0005-02100403-m7b-r0.ota.zigbee"
+    },
+    {
+        "fileVersion": 34735108,
+        "fileSize": 144894,
+        "manufacturerCode": 4338,
+        "imageType": 31541,
+        "sha512": "5e1622936797ca71b7b4bca2aaed3da30935ce95ad4f9efdaa979199dc78a867b92227454c94606b698627e804e20a30d8bce35ea39ca4e2f1e258240c7da486",
+        "url": "https://www.ubisys.de/wp-content/uploads/10F2-7B35-0000-0004-02120404-spo-rms.ota.zigbee"
+    },
+    {
         "fileVersion": 538,
         "fileSize": 387114,
         "manufacturerCode": 4747,
