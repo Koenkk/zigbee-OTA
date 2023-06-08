@@ -33,6 +33,7 @@ const manufacturerNameLookup = {
     4687: 'Gledopto',
     4714: 'EcoDim',
     4742: 'Sonoff',
+    4747: 'NodOn',
     4919: 'Datek',
     10132: 'ClimaxTechnology',
     26214: 'Sprut.device',
