@@ -877,19 +877,20 @@
         "path": "images/Ledvance/Undercabinet_TW_Z3_IM0046_00103101-encrypted_11_20_2018_Tue_101550_96_withoutMF.ota"
     },
     {
-        "fileVersion": 87,
-        "fileSize": 234174,
+        "fileVersion": 71,
+        "fileSize": 222762,
         "manufacturerCode": 4098,
         "manufacturerName": [
             "_TZE200_ckud7u2l",
             "_TZE200_cwnjrr72",
             "_TZE200_ywdxldoj",
-            "_TZE200_cpmgn2cf"
+            "_TZE200_cpmgn2cf",
+            "_TZ3000_1dd0d5yi"
         ],
         "imageType": 5634,
-        "sha512": "1113486a67403d922fc4a462b7477e0a0986fa8862a89b74ab8c5eac7b4ecb31c30f1da9ae1bbc1d6d50ae1fed66d38c37a1834ab71fd384c0555002783aba13",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Tuya/1615190575-si32_zg_uart_connect_sleep_ZS5_ty_OTA_1.1.7.bin",
-        "path": "images/Tuya/1615190575-si32_zg_uart_connect_sleep_ZS5_ty_OTA_1.1.7.bin"
+        "sha512": "41ebf9932d11708b81144232b2c3fccc7a58d76116be63785b978b91afb1180e32d8ba4f4c8f2f0960637f1662ec9ac28aa42b74e5ab57574000889671d2b8b9",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Tuya/1662693814-oem_mg21_zg_nh_win_cover_relay_OTA_1.0.7.bin",
+        "path": "images/Tuya/1662693814-oem_mg21_zg_nh_win_cover_relay_OTA_1.0.7.bin"
     },
     {
         "fileVersion": 57,
