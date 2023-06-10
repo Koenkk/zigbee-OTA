@@ -2133,13 +2133,13 @@
         "path": "images/Tuya/ZB21S3_HZC_Dimmer1_ECO_1.01_20221021.ota"
     },
     {
-        "fileVersion": 1655299,
-        "fileSize": 248759,
+        "fileVersion": 2048515,
+        "fileSize": 250807,
         "manufacturerCode": 4129,
         "imageType": 21,
-        "sha512": "a412013e82512454543a6901c7973169571c11a0dffd3b22a529b2fac6e21a0309f5fca9f20d8c3564660cada652ea4ee017c5e117541230cba25f15f3784528",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-0015-194203-NLC-25.zigbee",
-        "path": "images/Legrand/1021-0015-194203-NLC-25.zigbee"
+        "sha512": "4ec11345a33794888376be7a035715fe0054ecacc41dafa0dce2e343182030a23fd583c86af2f3313b38e8dbda3464739ea737d6211b1cc3f2943149dbe0df78",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-0015-001f4203-NLC-31.zigbee",
+        "path": "images/Legrand/1021-0015-001f4203-NLC-31.zigbee"
     },
     {
         "fileVersion": 262146,
