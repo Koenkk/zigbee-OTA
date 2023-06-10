@@ -1523,13 +1523,13 @@
         "path": "images/Xiaomi/lumi.relay.c2acn01_20211201_v0047.ota"
     },
     {
-        "fileVersion": 3555843,
-        "fileSize": 244903,
+        "fileVersion": 3621379,
+        "fileSize": 244951,
         "manufacturerCode": 4129,
         "imageType": 16,
-        "sha512": "688bdb97a31b73ae12d975adaadf80fd3752cf68ec6446fcbcab442be05554dc0d3abc648d17946d0e49ebf777c8e5b19a06188296968e4f3ad5434b379c5682",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-0010-364203-NLM-54.zigbee",
-        "path": "images/Legrand/1021-0010-364203-NLM-54.zigbee"
+        "sha512": "cf0fcf21cbcccd4583ed3125189dae0c13ca05e8d7508878731febfd3ba94e0d9bae802e78c9c4e74d4b7e346753b8178ee694f577f73cb5c6a312c4c9e55058",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-0010-00374203-NLM-55.zigbee",
+        "path": "images/Legrand/1021-0010-00374203-NLM-55.zigbee"
     },
     {
         "fileVersion": 5128707,
