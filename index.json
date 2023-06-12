@@ -2748,16 +2748,6 @@
         "manufacturerCode": 4129,
         "imageType": 14,
         "sha512": "721e4575c4091878d25d3d3861318c34d43221cf7eb8c00cfb1713ef9428585370b0afbf3b75c3dde19a4077c30a7b0813bbe10daec173aef7a19b3343a13c7c",
-        "modelId": "/mnt/c/Users/SilentT/Downloads/legrand/1021-000f-00364203-NLL-54.zigbee",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-000e-00464203-NLF-70.zigbee",
-        "path": "images/Legrand/1021-000e-00464203-NLF-70.zigbee"
-    },
-    {
-        "fileVersion": 4604419,
-        "fileSize": 254391,
-        "manufacturerCode": 4129,
-        "imageType": 14,
-        "sha512": "721e4575c4091878d25d3d3861318c34d43221cf7eb8c00cfb1713ef9428585370b0afbf3b75c3dde19a4077c30a7b0813bbe10daec173aef7a19b3343a13c7c",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-000e-00464203-NLF-70.zigbee",
         "path": "images/Legrand/1021-000e-00464203-NLF-70.zigbee"
     },
