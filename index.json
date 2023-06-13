@@ -2831,5 +2831,17 @@
         "sha512": "71c6f68473f6933f5dcc26ea2a132d6351e09a1973c4b956c70de99435bd005ac919ee44bd6f7c4cfeec10504a9a3a4f89f2ca765e62617cce91aef8b6de5f8e",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-002f-000c4203-NLH-12.zigbee",
         "path": "images/Legrand/1021-002f-000c4203-NLH-12.zigbee"
+    },
+    {
+        "fileVersion": 71,
+        "fileSize": 222762,
+        "manufacturerCode": 4098,
+        "manufacturerName": [
+            "_TZ3000_1dd0d5yi"
+        ],
+        "imageType": 5634,
+        "sha512": "41ebf9932d11708b81144232b2c3fccc7a58d76116be63785b978b91afb1180e32d8ba4f4c8f2f0960637f1662ec9ac28aa42b74e5ab57574000889671d2b8b9",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Tuya/1662693814-oem_mg21_zg_nh_win_cover_relay_OTA_1.0.7.bin",
+        "path": "images/Tuya/1662693814-oem_mg21_zg_nh_win_cover_relay_OTA_1.0.7.bin"
     }
 ]
