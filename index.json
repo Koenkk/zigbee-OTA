@@ -2843,5 +2843,14 @@
         "sha512": "41ebf9932d11708b81144232b2c3fccc7a58d76116be63785b978b91afb1180e32d8ba4f4c8f2f0960637f1662ec9ac28aa42b74e5ab57574000889671d2b8b9",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Tuya/1662693814-oem_mg21_zg_nh_win_cover_relay_OTA_1.0.7.bin",
         "path": "images/Tuya/1662693814-oem_mg21_zg_nh_win_cover_relay_OTA_1.0.7.bin"
+    },
+    {
+        "fileVersion": 4035969065,
+        "fileSize": 244046,
+        "manufacturerCode": 4405,
+        "imageType": 256,
+        "sha512": "5bed3c388500298046902ea8b47f229d1ce416feafe42518a3da1cc2841d5ea38553eb5dc864804ecd417f7af19cca599e4249dd3f51296026a293a595cca0ae",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/DresdenElektronik/1135-0100-F0900029-Kobold.zigbee",
+        "path": "images/DresdenElektronik/1135-0100-F0900029-Kobold.zigbee"
     }
 ]
