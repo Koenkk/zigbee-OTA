@@ -2852,5 +2852,14 @@
         "sha512": "5bed3c388500298046902ea8b47f229d1ce416feafe42518a3da1cc2841d5ea38553eb5dc864804ecd417f7af19cca599e4249dd3f51296026a293a595cca0ae",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/DresdenElektronik/1135-0100-F0900029-Kobold.zigbee",
         "path": "images/DresdenElektronik/1135-0100-F0900029-Kobold.zigbee"
+    },
+    {
+        "fileVersion": 2097179,
+        "fileSize": 491614,
+        "manufacturerCode": 4405,
+        "imageType": 257,
+        "sha512": "2fdcef8bb3d69f5f534d60982fbfba4078b15a963948e1549367732df431f0076abe0bc8f8183585e850cdc55826509aa2d431001026d1aa242cd8c7a93af8af",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/DresdenElektronik/1135-0101-0020001B-Hive.zigbee",
+        "path": "images/DresdenElektronik/1135-0101-0020001B-Hive.zigbee"
     }
 ]
