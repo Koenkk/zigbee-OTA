@@ -2813,5 +2813,13 @@
         "sha512": "2fdcef8bb3d69f5f534d60982fbfba4078b15a963948e1549367732df431f0076abe0bc8f8183585e850cdc55826509aa2d431001026d1aa242cd8c7a93af8af",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/DresdenElektronik/1135-0101-0020001B-Hive.zigbee",
         "path": "images/DresdenElektronik/1135-0101-0020001B-Hive.zigbee"
+    },
+    {
+        "fileVersion": 30,
+        "fileSize": 129346,
+        "manufacturerCode": 4659,
+        "imageType": 54187,
+        "sha512": "c5450020390de89648441b5bb9e05e3c752216fe100aa88acb302a170d7dfad541580fd1a205df5156beb2d053422bc319eae3e4e9efd8fbdda1a71c5bc4443e",
+        "url": "https://tr-zha.s3.amazonaws.com/firmware/Vibrate_Sensor_PROD_OTA_V30_v1.00.30.ota"
     }
 ]
