@@ -2676,12 +2676,12 @@
         "path": "images/Develco/WindowSensor_4.0.1.zigbee"
     },
     {
-        "fileVersion": 538,
-        "fileSize": 387114,
+        "fileVersion": 541,
+        "fileSize": 387238,
         "manufacturerCode": 4747,
         "imageType": 9,
-        "sha512": "30365c2d1945dd90cbeab116ccf77b2fd991fbaa82de76cf8a391469a0bee7d7075883186fb262f527a23750a89d795ced1a4bd53d8f46142b3ca000c7b77f74",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/NodOn/128b-0009-021A-700_p1771_nodon_sin_rs_fw_efr32_V021A.zigbee",
-        "path": "images/NodOn/128b-0009-021A-700_p1771_nodon_sin_rs_fw_efr32_V021A.zigbee"
+        "sha512": "04e54428ee79dba041a7d41968ebdd584bf2281c08371ecfca885189484b233244c9e331f1f77173730e0f5890721da50a3982c8d6245d7af4be9fe89ef68426",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/NodOn/128b-0009-021D-700_p1771_nodon_sin_rs_fw_efr32_V021D.zigbee",
+        "path": "images/NodOn/128b-0009-021D-700_p1771_nodon_sin_rs_fw_efr32_V021D.zigbee"
     }
 ]
