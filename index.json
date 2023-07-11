@@ -2046,12 +2046,12 @@
         "url": "https://tr-zha.s3.amazonaws.com/firmware/SmartCurtain_Zigbee_PROD_OTA_V56_1.00.56.ota"
     },
     {
-        "fileVersion": 23,
-        "fileSize": 128130,
+        "fileVersion": 26,
+        "fileSize": 128146,
         "manufacturerCode": 4659,
         "imageType": 54184,
-        "sha512": "be73e3cb13d44d6ecd48a8cfa170e7885fdf37ec7ee82ae462db8945d86f60a94855b9c009775ac6330cfa35db353ba8a86c5c3618ea3b1a7ee185efc10010b7",
-        "url": "https://tr-zha.s3.amazonaws.com/firmware/SmartButton_Zigbee_PROD_OTA_V23_1.00.23.ota"
+        "sha512": "151681781db74618208a5901e93ce460ba0596b10de98fb848d87267ea92d654c9d4d711245b90a479aa7ade50afc113a97b67131b6a53eec92a02a05417fbc5",
+        "url": "https://tr-zha.s3.amazonaws.com/firmware/Button_PROD_OTA_V26_v1.00.26.ota"
     },
     {
         "fileVersion": 33,
@@ -2087,12 +2087,12 @@
         "url": "https://tr-zha.s3.amazonaws.com/firmware/SmartSwitchGen3_Zigbee_PROD_V15_v1.00.15.ota"
     },
     {
-        "fileVersion": 268513340,
-        "fileSize": 205618,
+        "fileVersion": 268513342,
+        "fileSize": 205682,
         "manufacturerCode": 4659,
         "imageType": 54182,
-        "sha512": "56e4cef33e9adb38a2e386f8d1a08003fd45365a6438817858e74358923476c1bb9d4a0011d5c49735a21a8fa01f7794351e2f0f8e7d8359a3760f49220b4c99",
-        "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/SmartPlug_Zigbee_PROD_OTA_V59_v1.00.59.ota"
+        "sha512": "303de7ccd38dcc77fbc9e5a1ede1caf739dfae9dcec869ff3e31fafbe30a5210f7a7c3290f7b14b77a12677da245efb753f34c618c1546e1e8ad713f6d2e04eb",
+        "url": "https://tr-zha.s3.amazonaws.com/firmware/SmartPlug_Zigbee_PROD_OTA_V61_v1.00.61.ota"
     },
     {
         "fileVersion": 385953793,
@@ -2676,13 +2676,13 @@
         "path": "images/Develco/WindowSensor_4.0.1.zigbee"
     },
     {
-        "fileVersion": 538,
-        "fileSize": 387114,
+        "fileVersion": 541,
+        "fileSize": 387238,
         "manufacturerCode": 4747,
         "imageType": 9,
-        "sha512": "30365c2d1945dd90cbeab116ccf77b2fd991fbaa82de76cf8a391469a0bee7d7075883186fb262f527a23750a89d795ced1a4bd53d8f46142b3ca000c7b77f74",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/NodOn/128b-0009-021A-700_p1771_nodon_sin_rs_fw_efr32_V021A.zigbee",
-        "path": "images/NodOn/128b-0009-021A-700_p1771_nodon_sin_rs_fw_efr32_V021A.zigbee"
+        "sha512": "04e54428ee79dba041a7d41968ebdd584bf2281c08371ecfca885189484b233244c9e331f1f77173730e0f5890721da50a3982c8d6245d7af4be9fe89ef68426",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/NodOn/128b-0009-021D-700_p1771_nodon_sin_rs_fw_efr32_V021D.zigbee",
+        "path": "images/NodOn/128b-0009-021D-700_p1771_nodon_sin_rs_fw_efr32_V021D.zigbee"
     },
     {
         "fileVersion": 1380147,
@@ -2821,5 +2821,23 @@
         "imageType": 54187,
         "sha512": "c5450020390de89648441b5bb9e05e3c752216fe100aa88acb302a170d7dfad541580fd1a205df5156beb2d053422bc319eae3e4e9efd8fbdda1a71c5bc4443e",
         "url": "https://tr-zha.s3.amazonaws.com/firmware/Vibrate_Sensor_PROD_OTA_V30_v1.00.30.ota"
+    },
+    {
+        "fileVersion": 541,
+        "fileSize": 404342,
+        "manufacturerCode": 4747,
+        "imageType": 2,
+        "sha512": "2633cd834dac414cebfdb71e43a7a0e3b5f637316af3915abb917626cf84d9e37d1f08bf70b3d270b8a13ac34079c947411d147710a2a5c3257311af27a2c1f0",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/NodOn/128b-0002-021D-700_p1771_nodon_sin_2_fw_efr32_V021D.zigbee",
+        "path": "images/NodOn/128b-0002-021D-700_p1771_nodon_sin_2_fw_efr32_V021D.zigbee"
+    },
+    {
+        "fileVersion": 541,
+        "fileSize": 401402,
+        "manufacturerCode": 4747,
+        "imageType": 10,
+        "sha512": "fb81608a3cc6e7ffd4efcfc409449d0f75bcea27e6ee1405b8f30e4c59f72346f203d97d1ecc549a2145138f494c1fcdcf65c048cb537bc420989026c97ed40c",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/NodOn/128b-000A-021D-700_p1771_nodon_sin_1_fw_efr32_V021D.zigbee",
+        "path": "images/NodOn/128b-000A-021D-700_p1771_nodon_sin_1_fw_efr32_V021D.zigbee"
     }
 ]
