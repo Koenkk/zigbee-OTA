@@ -2839,5 +2839,14 @@
         "sha512": "fb81608a3cc6e7ffd4efcfc409449d0f75bcea27e6ee1405b8f30e4c59f72346f203d97d1ecc549a2145138f494c1fcdcf65c048cb537bc420989026c97ed40c",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/NodOn/128b-000A-021D-700_p1771_nodon_sin_1_fw_efr32_V021D.zigbee",
         "path": "images/NodOn/128b-000A-021D-700_p1771_nodon_sin_1_fw_efr32_V021D.zigbee"
+    },
+    {
+        "fileVersion": 5,
+        "fileSize": 218494,
+        "manufacturerCode": 26214,
+        "imageType": 13,
+        "sha512": "bf3155e470014ebd73b132102e26b460629030b314d00fe78ddd0c3ca157409e9c0e1d23aa93e34454391688f6294719be964627969cefcfc48efbb3c1dfdc96",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sprut.device/zb_wb_msw4_005.ota",
+        "path": "images/Sprut.device/zb_wb_msw4_005.ota"
     }
 ]
