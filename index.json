@@ -2848,5 +2848,13 @@
         "sha512": "bf3155e470014ebd73b132102e26b460629030b314d00fe78ddd0c3ca157409e9c0e1d23aa93e34454391688f6294719be964627969cefcfc48efbb3c1dfdc96",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sprut.device/zb_wb_msw4_005.ota",
         "path": "images/Sprut.device/zb_wb_msw4_005.ota"
+    },
+    {
+        "fileVersion": 587290161,
+        "fileSize": 180310,
+        "manufacturerCode": 4476,
+        "imageType": 4550,
+        "sha512": "122ba564e43f83a0193e6810e3a7d1deb49f0bcc54a551d9b1a6713a0cc9d1db5bf4587cf34b841634903af7ad11981a831183e7e0b8fe1c769dc3387b591eb3",
+        "url": "http://fw.ota.homesmart.ikea.net/global/GW1.0/01.13.021/bin/10054470-TRADFRI-shortcut-button-2.3.015.ota.ota.signed"
     }
 ]
