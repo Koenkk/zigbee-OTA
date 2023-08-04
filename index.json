@@ -2868,5 +2868,23 @@
         "modelId": "lumi.switch.acn030",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220607175754_OTA_lumi.switch.acn030_0.0.0_211551_20220217_BBD96B.ota",
         "path": "images/Xiaomi/20220607175754_OTA_lumi.switch.acn030_0.0.0_211551_20220217_BBD96B.ota"
+    },
+    {
+        "fileVersion": 571806993,
+        "fileSize": 319518,
+        "manufacturerCode": 4454,
+        "imageType": 304,
+        "sha512": "cfe7aab8c926345f38aa817a6ac652519cd891eeba8162e680b98dc91e6025ff150a04e618c8abc5528110965d1bf036f324619269d33bb97a535ce766b71a5f",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-0130-22151511-upgradeMe%20%20RS%20232%20C%2020230714.ota",
+        "path": "images/Innr/1166-0130-22151511-upgradeMe  RS 232 C 20230714.ota"
+    },
+    {
+        "fileVersion": 604509457,
+        "fileSize": 319414,
+        "manufacturerCode": 4454,
+        "imageType": 305,
+        "sha512": "0d1374689790b7d92eecc068303f87ef0d5df1aadddb0a498c9dca73db9313b2239be14b4b63420660da8512a692909cce64b6ff74769fa62bc4fef610c9c366",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-0131-24081511-upgradeMe%20%20RB%20255%20C%2020230714.ota",
+        "path": "images/Innr/1166-0131-24081511-upgradeMe  RB 255 C 20230714.ota"
     }
 ]
