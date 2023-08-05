@@ -2886,5 +2886,14 @@
         "sha512": "0d1374689790b7d92eecc068303f87ef0d5df1aadddb0a498c9dca73db9313b2239be14b4b63420660da8512a692909cce64b6ff74769fa62bc4fef610c9c366",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-0131-24081511-upgradeMe%20%20RB%20255%20C%2020230714.ota",
         "path": "images/Innr/1166-0131-24081511-upgradeMe  RB 255 C 20230714.ota"
+    },
+    {
+        "fileVersion": 402731009,
+        "fileSize": 209202,
+        "manufacturerCode": 4687,
+        "imageType": 5155,
+        "sha512": "fbeba0b73f91a865a5200c77b75589b53369b44d97d3ed445e0f36f0d581372bf4b414cff7dd32eadfb9e57d4c431639f76344cba62d6125044be1b564d995ec",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Gledopto/GL-D-007P.ota",
+        "path": "images/Gledopto/GL-D-007P.ota"
     }
 ]
