@@ -80,12 +80,12 @@
     },
     {
         "minFileVersion": 1107326256,
-        "fileVersion": 1124099330,
+        "fileVersion": 1124101125,
         "fileSize": 256696,
         "manufacturerCode": 4107,
         "imageType": 260,
-        "sha512": "096b0ba7f6c3b4d26a988ef6f79ca593c237e570934fc2e2bef6e885864226c727b9a963d59086ca6d7f5493706808129117f936ae6695cbe59288b13daada30",
-        "url": "https://otau.meethue.com/storage/ZGB_100B_0104/e7e4aac2-7479-434a-b790-b6bd2d3cbd6c/ConnectedLamp-Atmel-Target_0012.sbl-ota"
+        "sha512": "e98b8b2ac7c4a138cd082315024e9ae63ab598d8a0c7f9bc1af3943332f376bc6fb28645cb7463635855fd6cc87fb710c068c09187b635ed680195daf7451124",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_0104/3d70cb22-87b2-4f1b-b7e8-3659d5feb9ed/ConnectedLamp-Atmel-Target_0012.sbl-ota"
     },
     {
         "maxFileVersion": 1107326255,
@@ -97,21 +97,21 @@
         "url": "https://otau.meethue.com/storage/ZGB_100B_0104/631d2194-554e-4016-b954-f3c226482f04/ConnectedLamp-Atmel_0104_5.130.1.30000_0012.sbl-ota"
     },
     {
-        "fileVersion": 1107326256,
-        "fileSize": 256632,
+        "fileVersion": 1124101125,
+        "fileSize": 256696,
         "manufacturerCode": 4107,
         "imageType": 261,
-        "sha512": "a3492bec9fd9b3149be9135ea9175d6161617188c04428230bbea161660c0cef2f9c83ecc185b758e1337d4f99e08f3978fd9102eec67843bac66e6dbc1e39a9",
-        "url": "https://otau.meethue.com/storage/ZGB_100B_0105/6b0b2e69-652d-4941-9da9-a4e7ff0fc70c/WhiteLamp-Atmel-Target_0105_5.130.1.30000_0012.sbl-ota"
+        "sha512": "740fbe9a6b17223df73e4e8c63de1cca14c2459c7aeb8b405455044230260424d96173ac16dbce2e9835d25381ce54ec90499464b972ec4325803b8deb9757ea",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_0105/3a3ef80b-f5d5-452d-b206-3369e2335c2c/WhiteLamp-Atmel-Target_0012.sbl-ota"
     },
     {
         "minFileVersion": 1107326256,
-        "fileVersion": 1124099330,
+        "fileVersion": 1124101125,
         "fileSize": 256696,
         "manufacturerCode": 4107,
         "imageType": 264,
-        "sha512": "1613c7f6372c7931e40cf78c57f32a81bbaea84bc3c5f0d193e0271b00a152f52b0fde23fd5a675c709d6d0b7cac6acfbab6029ab25c4971ba706317993ebcbb",
-        "url": "https://otau.meethue.com/storage/ZGB_100B_0108/55fb9cf3-afb6-4ef5-8887-905699da7ee8/LivingColors-Atmel-Target_0012.sbl-ota"
+        "sha512": "b7312ee8fc9364c4993d70c050d34b10d12b65ea6485533f51aa49013b9ceadacf238b06e756aeefd3b03cb0feef2d7b5ef88a413fcce765ab8b28527ef7a732",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_0108/bb7a6da3-e9a8-45c2-bf35-aa31f107bf6c/LivingColors-Atmel-Target_0012.sbl-ota"
     },
     {
         "maxFileVersion": 1107326255,
@@ -132,12 +132,12 @@
     },
     {
         "minFileVersion": 1107326256,
-        "fileVersion": 1124099330,
+        "fileVersion": 1124101125,
         "fileSize": 256696,
         "manufacturerCode": 4107,
         "imageType": 267,
-        "sha512": "a9cdee21be081de3dfe02a7904cb730e0f3a726bac5f18ec2c5d3aa0f5c69e18071a9c42cc08f8f77b956901ba8b0cc53c209d429f5bf017f0e1a98d33ce15b1",
-        "url": "https://otau.meethue.com/storage/ZGB_100B_010B/26ca95ed-e2ac-4df4-b93e-d5d02516a04a/ModuLum-ATmega_0012.sbl-ota"
+        "sha512": "c57964e557ef1e8725411dd91cd780d9983944f2f22fdb6c843e2424746eb10f1b56a0f5a196da60584b1c09dc6da1f0a06b18c81cf0599b8360ede8c6d10b00",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_010B/6f4bd781-da68-45a3-b848-44b0f13c40ca/ModuLum-ATmega_0012.sbl-ota"
     },
     {
         "maxFileVersion": 1107326255,
@@ -150,12 +150,12 @@
     },
     {
         "minFileVersion": 16783874,
-        "fileVersion": 16786688,
+        "fileVersion": 16786946,
         "fileSize": 267324,
         "manufacturerCode": 4107,
         "imageType": 268,
-        "sha512": "5dd29c7405a2f3cd9058fd5e6999cc76a2cbffc0c531acddc5bae99588ca37f2f79288202c02b846abbf07d32e1e398a7fd7747d630541c05210bb43d238f8ef",
-        "url": "https://otau.meethue.com/storage/ZGB_100B_010C/0f7ed133-fa2f-48f6-810d-533fd1d4994a/100B-010C-01002500-ConfLight-Lamps_0012.zigbee"
+        "sha512": "8690113eae7314858735fa926173a3a9348f72fe00f68f83ef6177057005456fb9a0dbe2450eb8433b32597c45d25db7405572a160cddaeacfd9dc0848f96578",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_010C/d9a066d2-2cef-4c3c-81b8-cb7cc067c4dd/100B-010C-01002602-ConfLight-Lamps_0012.zigbee"
     },
     {
         "maxFileVersion": 16783873,
@@ -176,12 +176,12 @@
     },
     {
         "minFileVersion": 16783620,
-        "fileVersion": 16786176,
+        "fileVersion": 16786434,
         "fileSize": 269002,
         "manufacturerCode": 4107,
         "imageType": 270,
-        "sha512": "6fce8e14bba99e7d187da799b2b289010cfed5baf2ce70bb5f6f1ed50624d62bdd160b1e4217623eb494220a98031a8a4cf1f0a519af6096bedfeacea872a797",
-        "url": "https://otau.meethue.com/storage/ZGB_100B_010E/b8bba8c0-d137-4015-b107-2825eb28c123/100B-010E-01002300-ConfLight-ModuLum_0012.zigbee"
+        "sha512": "bdd3f8bc393635038dd2a9bf266a90200e0930a9671fe45b132a00888d93497b7872578d7e6574d25397a0b6d152a070cc938b6bf04a8698bcf266d9e9d9a679",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_010E/1abd98e0-be57-4dfb-90ed-0aeac03f70c7/100B-010E-01002402-ConfLight-ModuLum_0012.zigbee"
     },
     {
         "maxFileVersion": 16783619,
@@ -193,12 +193,12 @@
         "url": "https://otau.meethue.com/storage/ZGB_100B_010E/3e979745-cc00-43cf-a51c-73a3d9d91430/100B-010E-01001904-ConfLight-ModuLum_0012.zigbee"
     },
     {
-        "fileVersion": 16782336,
+        "fileVersion": 16782594,
         "fileSize": 250762,
         "manufacturerCode": 4107,
         "imageType": 271,
-        "sha512": "96aaf00fb08c6cd08c5eeafd04f68822eebfaf3af6160cbf36bef2c7ab03ac27824ed7a720ca491920cbc3f3b539db44682674ec48f61113cf1dea77c3a11a62",
-        "url": "https://otau.meethue.com/storage/ZGB_100B_010F/f4fdc59a-14dc-4516-8c29-be905ed23635/100B-010F-01001400-ConfLight-LedStrips_0012.zigbee"
+        "sha512": "583821169d19cba4652af94522e91274187c7dc644894832ad9b6d8c8fc2c17c73aceac58b41dbd82752dbe7e2718bfe92c16f8a4596cdce1d9bb5b5a9383fa2",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_010F/a470dd07-8dff-4216-9f36-af3285bc2634/100B-010F-01001502-ConfLight-LedStrips_0012.zigbee"
     },
     {
         "fileVersion": 16785922,
