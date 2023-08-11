@@ -2020,12 +2020,12 @@
         "url": "https://tr-zha.s3.amazonaws.com/firmware/TRTL_WaterLeak_DEV_V34_v1.00.34.ota"
     },
     {
-        "fileVersion": 21,
-        "fileSize": 124946,
+        "fileVersion": 23,
+        "fileSize": 125010,
         "manufacturerCode": 4659,
         "imageType": 54185,
-        "sha512": "1f4f7234af883251e5c5d7549cf50686aebdbf0485a9ac0fe00fb7c3fe83432dbf4bb25b3f10c61cf9c16273d3b12893c51c15234db23b1288ab87bf150b6484",
-        "url": "https://tr-zha.s3.amazonaws.com/firmware/TRTL_ThermalSensor_PROD_OTA_V21_1.00.21.ota"
+        "sha512": "974bd55bc461e25306fa2bc02604d1617a5dd5da7e9b0474ead828a201e89ec5b909c8775d143b970feafe077cfe222c68215967e107ca73ba8ab0ef2cfd5b1f",
+        "url": "https://tr-zha.s3.amazonaws.com/firmware/TRTL_ThermalSensor_PROD_OTA_V23_1.00.23.ota"
     },
     {
         "fileVersion": 2590,
