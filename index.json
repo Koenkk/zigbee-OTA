@@ -2070,13 +2070,13 @@
         "url": "https://tr-zha.s3.amazonaws.com/firmware/TRTL_PIR_DEV_V33_v1.00.33.ota"
     },
     {
-        "fileVersion": 17367297,
-        "fileSize": 333036,
+        "fileVersion": 17694977,
+        "fileSize": 333712,
         "manufacturerCode": 123,
         "imageType": 321,
-        "sha512": "57cce34088d2f969eb19bf041bf882fa83e9d2a5a2d03345ee2ce618ece295ab978b9580e0490ef1ce444345845b6c63b335a55a37647c6e2b4aab06279452fc",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/UHome/007B-0141-01090101-good_image.zigbee",
-        "path": "images/UHome/007B-0141-01090101-good_image.zigbee"
+        "sha512": "254e4cbc885512a4dc03bd0c9d9d0a2f080c8f8a78dbf2b1e18872a7edfa6474fcefaf6a52f8fa78eec807e5b6c53c229825fdb4c714800bccabc9fe25c8f465",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/UHome/007B-0141-010E0101-good_image.zigbee",
+        "path": "images/UHome/007B-0141-010E0101-good_image.zigbee"
     },
     {
         "fileVersion": 15,
