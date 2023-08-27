@@ -2895,5 +2895,15 @@
         "sha512": "fbeba0b73f91a865a5200c77b75589b53369b44d97d3ed445e0f36f0d581372bf4b414cff7dd32eadfb9e57d4c431639f76344cba62d6125044be1b564d995ec",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Gledopto/GL-D-007P.ota",
         "path": "images/Gledopto/GL-D-007P.ota"
+    },
+    {
+        "fileVersion": 672539,
+        "fileSize": 942962,
+        "manufacturerCode": 4447,
+        "imageType": 141,
+        "sha512": "25007f79ccb030715cd9fa1a0acd447554aa1b8c0627116b0ae06e5135e6c5922e64eace80452e9a05423487d499df1fa0a23a30aead31fac2f15c51f9d82895",
+        "modelId": "lumi.light.acn132",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20230610160234_lumi.light.acn132_mcu_0.0.0_2627_20230606_DA1C86.ota",
+        "path": "images/Xiaomi/20230610160234_lumi.light.acn132_mcu_0.0.0_2627_20230606_DA1C86.ota"
     }
 ]
