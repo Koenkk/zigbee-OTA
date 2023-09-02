@@ -329,12 +329,12 @@
         "url": "https://otau.meethue.com/storage/ZGB_100B_0121/f28229fd-c450-4d0c-ada4-21f855674e06/100B-0121-02003B19-Switch-EFR32MG22-40xf.zigbee"
     },
     {
-        "fileVersion": 16778496,
-        "fileSize": 382604,
+        "fileVersion": 16779268,
+        "fileSize": 410122,
         "manufacturerCode": 4107,
         "imageType": 291,
-        "sha512": "1b01de65aa15a5a6f69bd81fa77d6b295fe3457bdf27386d4f21fbb9e920249e3bb6311959a1ebe81ffffd391211d3d4685dc9f824430d9f9a310ca62aa168ec",
-        "url": "https://otau.meethue.com/storage/ZGB_100B_0123/da4dbc65-bf08-474c-865c-bed9fcc64bae/100B-0123-01000500-PixelLumXL-EFR32MG21.zigbee"
+        "sha512": "db8ad8f71c1af40b99c7def0af7b07929c55a6a67c9667a59e3a47631b857eeac4da4445aff50f3710e38afe62a74009fdb3d1f84792763ac459a4dee49c4d52",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_0123/592b1c9b-d602-42d6-b16a-f6fed664dc04/100B-0123-01000804-PixelLumXL-EFR32MG21.zigbee"
     },
     {
         "fileVersion": 537919733,
