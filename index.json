@@ -2114,14 +2114,14 @@
         "path": "images/Xiaomi/20220923181338_OTA_lumi.light.acn004_0.0.0_0027_20220923_94CEB4.ota"
     },
     {
-        "fileVersion": 38,
-        "fileSize": 365564,
+        "fileVersion": 39,
+        "fileSize": 313636,
         "manufacturerCode": 4447,
         "imageType": 138,
-        "sha512": "5cb353a2485b720bb6b848346abe9e691922c030f3646b8c4dee273dd92dad30a096fd1f98b6733362146b9c6c66e60d16754ff3950aa6968aacc696816ed725",
+        "sha512": "be269dd7205e5a53081f70f0749801c88fee80e79e96b8b2341c99f4128a16a1d85fede10bdb3175b31332d7860f05e77bf2a22422313e043f3a1fe900dfa273",
         "modelId": "lumi.light.acn026",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20221130214703_OTA_lumi.light.acn026_0.0.0_0038_20221130_2FA7EA.ota",
-        "path": "images/Xiaomi/20221130214703_OTA_lumi.light.acn026_0.0.0_0038_20221130_2FA7EA.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20230725180308_OTA_lumi.light.acn026_0.0.0_0039_20230625_08D3F0.ota",
+        "path": "images/Xiaomi/20230725180308_OTA_lumi.light.acn026_0.0.0_0039_20230625_08D3F0.ota"
     },
     {
         "fileVersion": 10,
@@ -2905,5 +2905,15 @@
         "modelId": "lumi.light.acn132",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20230610160234_lumi.light.acn132_mcu_0.0.0_2627_20230606_DA1C86.ota",
         "path": "images/Xiaomi/20230610160234_lumi.light.acn132_mcu_0.0.0_2627_20230606_DA1C86.ota"
+    },
+    {
+        "fileVersion": 1380147,
+        "fileSize": 326064,
+        "manufacturerCode": 4447,
+        "imageType": 2828,
+        "sha512": "b46f4d4870bbe38de40dcaad10a7d44cbe684f49608c5a849a5e00490fe77f9bf1b899a5b036ce9e39f5b212239d3b7689eac449181ec07dd0e631e6c2ff0dbf",
+        "modelId": "lumi.switch.n3acn1",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220301115859_OTA_lumi.switch.n3acn1_0.0.0_211551_20220217_C7F604.ota",
+        "path": "images/Xiaomi/20220301115859_OTA_lumi.switch.n3acn1_0.0.0_211551_20220217_C7F604.ota"
     }
 ]
