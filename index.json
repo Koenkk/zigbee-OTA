@@ -97,12 +97,22 @@
         "url": "https://otau.meethue.com/storage/ZGB_100B_0104/631d2194-554e-4016-b954-f3c226482f04/ConnectedLamp-Atmel_0104_5.130.1.30000_0012.sbl-ota"
     },
     {
+        "minFileVersion": 1107326256,
         "fileVersion": 1124101125,
         "fileSize": 256696,
         "manufacturerCode": 4107,
         "imageType": 261,
         "sha512": "740fbe9a6b17223df73e4e8c63de1cca14c2459c7aeb8b405455044230260424d96173ac16dbce2e9835d25381ce54ec90499464b972ec4325803b8deb9757ea",
         "url": "https://otau.meethue.com/storage/ZGB_100B_0105/3a3ef80b-f5d5-452d-b206-3369e2335c2c/WhiteLamp-Atmel-Target_0012.sbl-ota"
+    },
+    {
+        "maxFileVersion": 1107326255,
+        "fileVersion": 1107326256,
+        "fileSize": 256632,
+        "manufacturerCode": 4107,
+        "imageType": 261,
+        "sha512": "a3492bec9fd9b3149be9135ea9175d6161617188c04428230bbea161660c0cef2f9c83ecc185b758e1337d4f99e08f3978fd9102eec67843bac66e6dbc1e39a9",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_0105/6b0b2e69-652d-4941-9da9-a4e7ff0fc70c/WhiteLamp-Atmel-Target_0105_5.130.1.30000_0012.sbl-ota"
     },
     {
         "minFileVersion": 1107326256,
