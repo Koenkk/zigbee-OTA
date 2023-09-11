@@ -2124,14 +2124,14 @@
         "path": "images/Xiaomi/20220923181338_OTA_lumi.light.acn004_0.0.0_0027_20220923_94CEB4.ota"
     },
     {
-        "fileVersion": 39,
-        "fileSize": 313636,
+        "fileVersion": 40,
+        "fileSize": 313724,
         "manufacturerCode": 4447,
         "imageType": 138,
-        "sha512": "be269dd7205e5a53081f70f0749801c88fee80e79e96b8b2341c99f4128a16a1d85fede10bdb3175b31332d7860f05e77bf2a22422313e043f3a1fe900dfa273",
+        "sha512": "eb41fa79a19c11139746c43420b1193dac7a4edd17e28e438c96db93004a02b90d2dde23aa615470a9b36bb148aa89bfcf929b791a67aabf0b1d5ad47aceda9b",
         "modelId": "lumi.light.acn026",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20230725180308_OTA_lumi.light.acn026_0.0.0_0039_20230625_08D3F0.ota",
-        "path": "images/Xiaomi/20230725180308_OTA_lumi.light.acn026_0.0.0_0039_20230625_08D3F0.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20230904170929_lumi.light.acn026_0.0.0_0040_20230904_72FBFF.ota",
+        "path": "images/Xiaomi/20230904170929_lumi.light.acn026_0.0.0_0040_20230904_72FBFF.ota"
     },
     {
         "fileVersion": 10,
@@ -2347,14 +2347,14 @@
         "path": "images/Namron/4512700-Firmware-35.ota"
     },
     {
-        "fileVersion": 28,
-        "fileSize": 312872,
+        "fileVersion": 29,
+        "fileSize": 315524,
         "manufacturerCode": 4447,
         "imageType": 131,
-        "sha512": "23241485157ab6164f147c3ecbdbcf668b78d8c542583802ce81e096e27200872c6a841da83f7433a47c5be9f2b7b1af153421a7fb71aeb998f8d6b6d3e4f8bd",
+        "sha512": "25a205565f0ba9400cf57e7f633e9fb16fe473d23ac79897269d07ead4a2507a1585abcbb55994be551fbf130c28d4bf34a705d9d7d3083a21e2441cfcbd4a20",
         "modelId": "lumi.light.acn003",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220331205509_OTA_lumi.light.acn003_0.0.0_0028_20220331_D275B9.ota",
-        "path": "images/Xiaomi/20220331205509_OTA_lumi.light.acn003_0.0.0_0028_20220331_D275B9.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20230905121119_OTA_lumi.light.acn003_0.0.0_0029_20230712_1D4A6E.ota",
+        "path": "images/Xiaomi/20230905121119_OTA_lumi.light.acn003_0.0.0_0029_20230712_1D4A6E.ota"
     },
     {
         "fileVersion": 285474816,
