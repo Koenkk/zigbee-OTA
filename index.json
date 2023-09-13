@@ -2934,5 +2934,14 @@
         "sha512": "73a338d4d3888404d4ad13ee4fcce80ecbd8ab3f6f58b60097b84b7605daed5bc0195b6988e9c1594183d2a7f8a3fc4aa2277807bf0741193e9a24a8cbdbf854",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-0033-00084203-NLJ.zigbee",
         "path": "images/Legrand/1021-0033-00084203-NLJ.zigbee"
+    },
+    {
+        "fileVersion": 4,
+        "fileSize": 286646,
+        "manufacturerCode": 4714,
+        "imageType": 1000,
+        "sha512": "9b7835e32ef5af35385710332838099c5dce99a398ae04a1a769d67935fb0752ca4da58892f13bc842cbf8f9ae20516142fe9b66eff3e8ebef6577a71a1d9b0b",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/EcoDim/ZB21S3_HZC_Dimmer1_EcoDim-Zigbee%203.0_1.01_20230908.ota",
+        "path": "images/EcoDim/ZB21S3_HZC_Dimmer1_EcoDim-Zigbee 3.0_1.01_20230908.ota"
     }
 ]
