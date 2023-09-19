@@ -2943,5 +2943,15 @@
         "sha512": "9b7835e32ef5af35385710332838099c5dce99a398ae04a1a769d67935fb0752ca4da58892f13bc842cbf8f9ae20516142fe9b66eff3e8ebef6577a71a1d9b0b",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/EcoDim/ZB21S3_HZC_Dimmer1_EcoDim-Zigbee%203.0_1.01_20230908.ota",
         "path": "images/EcoDim/ZB21S3_HZC_Dimmer1_EcoDim-Zigbee 3.0_1.01_20230908.ota"
+    },
+    {
+        "fileVersion": 27,
+        "fileSize": 329030,
+        "manufacturerCode": 4447,
+        "imageType": 6416,
+        "sha512": "bb6883f20f2c4cd287941b3eda81f1f2afc3168e23848caf04e6464ddce103ca4eddb4fd7e747cc17fa4a606839df85aa9ef942746703b7945426d6a74d1d417",
+        "modelId": "lumi.switch.acn047",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20230606111609_OTA_lumi.switch.acn047_0.0.0_0027_20230606_4820EC.ota",
+        "path": "images/Xiaomi/20230606111609_OTA_lumi.switch.acn047_0.0.0_0027_20230606_4820EC.ota"
     }
 ]
