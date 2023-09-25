@@ -36,6 +36,7 @@ const manufacturerNameLookup = {
     4919: 'Datek',
     10132: 'ClimaxTechnology',
     26214: 'Sprut.device',
+    4877: 'thirdreality',
 };
 
 const main = async () => {

@@ -2953,5 +2953,13 @@
         "modelId": "lumi.switch.acn047",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20230606111609_OTA_lumi.switch.acn047_0.0.0_0027_20230606_4820EC.ota",
         "path": "images/Xiaomi/20230606111609_OTA_lumi.switch.acn047_0.0.0_0027_20230606_4820EC.ota"
+    },
+    {
+        "fileVersion": 48,
+        "fileSize": 288518,
+        "manufacturerCode": 4877,
+        "imageType": 0,
+        "sha512": "ee63e42dc6e061023e8cad372a1f488b00f201c2926c2642fad9002803f50bf3887be966dfac29375f6f1c933a6917bb8a8eaab5c9d39ccbb99d5439e691872d",
+        "url": "https://tr-zha.s3.amazonaws.com/firmware/FW_ha_v0.00.48.ota"
     }
 ]
