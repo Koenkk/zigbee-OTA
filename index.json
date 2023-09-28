@@ -2955,11 +2955,11 @@
         "path": "images/Xiaomi/20230606111609_OTA_lumi.switch.acn047_0.0.0_0027_20230606_4820EC.ota"
     },
     {
-        "fileVersion": 48,
+        "fileVersion": 50,
         "fileSize": 288518,
         "manufacturerCode": 4877,
         "imageType": 0,
-        "sha512": "ee63e42dc6e061023e8cad372a1f488b00f201c2926c2642fad9002803f50bf3887be966dfac29375f6f1c933a6917bb8a8eaab5c9d39ccbb99d5439e691872d",
-        "url": "https://tr-zha.s3.amazonaws.com/firmware/FW_ha_v0.00.48.ota"
+        "sha512": "91b4a437d4a5ed98df3d79d682094bfa396e401544d96d19288bfe9bb541c0a127c9dd163a04863286bc7bec1fbf3431c94274fb189e5dbeea017ec0804a0bcb",
+        "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/FW_ha_v0.00.50.ota"
     }
 ]
