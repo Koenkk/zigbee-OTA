@@ -2648,13 +2648,13 @@
         "path": "images/Xiaomi/20220607180259_OTA_lumi.switch.acn031_0.0.0_211551_20220217_C7F604.ota"
     },
     {
-        "fileVersion": 3686915,
+        "fileVersion": 3687423,
         "fileSize": 255223,
         "manufacturerCode": 4129,
         "imageType": 19,
-        "sha512": "af3424833bbd9fbb0508bed7627d85e180e7df4d17275200c6ce4d1ad4f1d357d22304621525b260c9b1df38572a94381f37371e5e695171b1e579721fe5a108",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-0013-00384203-NLV.zigbee",
-        "path": "images/Legrand/1021-0013-00384203-NLV.zigbee"
+        "sha512": "4e65766fd2cf3c67731f6245fa509aaf2cd8fa92407e86a29ae4016fac4fb90731ac6fc7f026d83ae2b7f986825537e3b2c755f0a010f52eb4c4cfdb59ffce50",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-0013-003843FF-NLV.zigbee",
+        "path": "images/Legrand/1021-0013-003843FF-NLV.zigbee"
     },
     {
         "modelId": "RBSH-SP-ZB-EU",
