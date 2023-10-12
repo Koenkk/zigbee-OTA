@@ -2960,6 +2960,6 @@
         "manufacturerCode": 4877,
         "imageType": 0,
         "sha512": "91b4a437d4a5ed98df3d79d682094bfa396e401544d96d19288bfe9bb541c0a127c9dd163a04863286bc7bec1fbf3431c94274fb189e5dbeea017ec0804a0bcb",
-        "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/FW_ha_v0.00.50.ota"
+        "url": "https://tr-zha.s3.amazonaws.com/firmware/FW_ha_v0.00.50.ota"
     }
 ]
