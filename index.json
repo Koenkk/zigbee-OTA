@@ -1493,14 +1493,14 @@
         "path": "images/Xiaomi/OTA_lumi.plug.sacn02_0.0.0_0050_20211108_AB5B77.ota"
     },
     {
-        "fileVersion": 32,
-        "fileSize": 290670,
+        "fileVersion": 33,
+        "fileSize": 278846,
         "manufacturerCode": 4447,
         "imageType": 12,
-        "sha512": "0b17879da56f874d90e14b5d5ef600df04e9a32e4474d2924b38b53847d29122bb077fd846313d58e521ea4e5e7654bfd3e9b51942208bbdbb20897d4c8466c4",
+        "sha512": "b868720b5c0778c7fc0aa6e64cf74aa4bf63c96c19bf52bc904767a8e3acea5e41aee83dcfab33f46d0429b68e23518d75d073ebcc02d5c6447811d68a26c644",
         "modelId": "lumi.plug.macn01",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/OTA_lumi.plug.macn01_0.0.0_0032_20211117_C0EB36.ota",
-        "path": "images/Xiaomi/OTA_lumi.plug.macn01_0.0.0_0032_20211117_C0EB36.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20231018104830_OTA_lumi.plug.macn01_0.0.0_0033_20230913_6AE20B.ota",
+        "path": "images/Xiaomi/20231018104830_OTA_lumi.plug.macn01_0.0.0_0033_20230913_6AE20B.ota"
     },
     {
         "fileVersion": 24,
@@ -1513,14 +1513,14 @@
         "path": "images/Xiaomi/OTA_lumi.switch.b3n01_0.0.0_0024_20211116_8C7C7F.ota"
     },
     {
-        "fileVersion": 34,
-        "fileSize": 275774,
+        "fileVersion": 35,
+        "fileSize": 281438,
         "manufacturerCode": 4447,
         "imageType": 5128,
-        "sha512": "1f1bc04c0df3af154fed2901a05f130603e1841aa0665f969a3a66cbdceb36cd58d325ee31a9680c63ff44e47e0f80d620827803bf85d9e93779a9a4cdbf7f0e",
+        "sha512": "a70384a8c11b7bc55c60fa0990ccd8d06dcf5aa7eba276bf584890c0fe5b1b56a41e14b58377f87b25af5fc488e228cdc33bb82d5b37358ae14350f9d84d91c1",
         "modelId": "lumi.plug.sacn03",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/OTA_lumi.plug.sacn03_0.0.0_0034_20211119_85CEC0.ota",
-        "path": "images/Xiaomi/OTA_lumi.plug.sacn03_0.0.0_0034_20211119_85CEC0.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20231016122117_OTA_lumi.plug.sacn03_0.0.0_0035_20230913_DA8E33.ota",
+        "path": "images/Xiaomi/20231016122117_OTA_lumi.plug.sacn03_0.0.0_0035_20230913_DA8E33.ota"
     },
     {
         "fileVersion": 47,
