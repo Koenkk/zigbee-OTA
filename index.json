@@ -2072,12 +2072,12 @@
         "url": "https://tr-zha.s3.amazonaws.com/firmware/TRTL_DoorSensor_DEV_V33_v1.00.33.ota"
     },
     {
-        "fileVersion": 33,
-        "fileSize": 145314,
+        "fileVersion": 51,
+        "fileSize": 131042,
         "manufacturerCode": 4659,
         "imageType": 54177,
-        "sha512": "90986d82cb9348486f8df1eb365196456bde2de6a175287a268bbf6a6d0e9ec331c6851c2fd4221d24e72758b1e09328f5dea5973aa0e9b7a723cfb60689a390",
-        "url": "https://tr-zha.s3.amazonaws.com/firmware/TRTL_PIR_DEV_V33_v1.00.33.ota"
+        "sha512": "e5a031490e7bbdcf6dd67a64096ce10f58891f3e6ac5db187932b23442a9b001387b6600f357113a8e7577dc2c1d290faf691b5ca9d792cf1ee7f81752fcd659",
+        "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/Motion_Sensor_PROD_OTA_V51_v1.00.51.ota"
     },
     {
         "fileVersion": 17694977,
