@@ -2064,12 +2064,12 @@
         "url": "https://tr-zha.s3.amazonaws.com/firmware/Button_PROD_OTA_V26_v1.00.26.ota"
     },
     {
-        "fileVersion": 33,
-        "fileSize": 144834,
+        "fileVersion": 48,
+        "fileSize": 130850,
         "manufacturerCode": 4659,
         "imageType": 54178,
-        "sha512": "15076561e09af5cc8c06c8228c378043a82dcfb979f00b8ccc344bf29002deb64723ce46b1d9620f3e7c5afb7f52993fedcf71ed247d785f8a31eeb1a6c3d6dd",
-        "url": "https://tr-zha.s3.amazonaws.com/firmware/TRTL_DoorSensor_DEV_V33_v1.00.33.ota"
+        "sha512": "2e3d0cb24b7256f70fd3ca0239e6b72a60dab2812ad6f0d65db3c9b0021afe49eed6662946c3f990060d9d7655fbdccb0ff28b3662609b6ea493342fb19ea7b8",
+        "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/Door_Sensor_PROD_OTA_V48_v1.00.48.ota"
     },
     {
         "fileVersion": 33,
