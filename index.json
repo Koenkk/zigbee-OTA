@@ -2842,13 +2842,13 @@
         "path": "images/NodOn/128b-0002-021D-700_p1771_nodon_sin_2_fw_efr32_V021D.zigbee"
     },
     {
-        "fileVersion": 541,
-        "fileSize": 401402,
+        "fileVersion": 543,
+        "fileSize": 401588,
         "manufacturerCode": 4747,
         "imageType": 10,
-        "sha512": "fb81608a3cc6e7ffd4efcfc409449d0f75bcea27e6ee1405b8f30e4c59f72346f203d97d1ecc549a2145138f494c1fcdcf65c048cb537bc420989026c97ed40c",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/NodOn/128b-000A-021D-700_p1771_nodon_sin_1_fw_efr32_V021D.zigbee",
-        "path": "images/NodOn/128b-000A-021D-700_p1771_nodon_sin_1_fw_efr32_V021D.zigbee"
+        "sha512": "e40fdab5bc41b290ba85b8b1da167b3d4b1698b73b7231e6122a9e8f6e17ddd15b58dbb0a81b0fc91d7098a7d0b094a25ed894d5b77fc5311da4473992e36ea5",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/NodOn/128b-000A-021F-700_nodon_sin_1_fw_efr32_V021F.zigbee",
+        "path": "images/NodOn/128b-000A-021F-700_nodon_sin_1_fw_efr32_V021F.zigbee"
     },
     {
         "fileVersion": 5,
@@ -2979,5 +2979,14 @@
         "sha512": "54c954123b43a4c41376f57e4ab1869dca2698c178a82251725174e976da9107ebb7ddf632aa8223ba49a6b5e3dba7a878db7dcf801dcc5c3b888c2d5c1378a5",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Telink/1141-0203-10043001-z03mmc.zigbee",
         "path": "images/Telink/1141-0203-10043001-z03mmc.zigbee"
+    },
+    {
+        "fileVersion": 65793,
+        "fileSize": 27162,
+        "manufacturerCode": 4747,
+        "imageType": 266,
+        "sha512": "384ba32f433aa559534d246e498ff289bc6acb029379c816249b1e4e40dddef70da39a0e82b168a36851918c8d89f8fe245b15031faa860ff2175a077c2e364b",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/NodOn/128b-010A-10101-700_nodon_sin_1_fm_stm32_V10101.zigbee",
+        "path": "images/NodOn/128b-010A-10101-700_nodon_sin_1_fm_stm32_V10101.zigbee"
     }
 ]
