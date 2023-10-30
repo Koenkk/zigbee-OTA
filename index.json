@@ -2988,5 +2988,13 @@
         "sha512": "384ba32f433aa559534d246e498ff289bc6acb029379c816249b1e4e40dddef70da39a0e82b168a36851918c8d89f8fe245b15031faa860ff2175a077c2e364b",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/NodOn/128b-010A-10101-700_nodon_sin_1_fm_stm32_V10101.zigbee",
         "path": "images/NodOn/128b-010A-10101-700_nodon_sin_1_fm_stm32_V10101.zigbee"
+    },
+    {
+        "fileVersion": 6,
+        "fileSize": 141202,
+        "manufacturerCode": 4659,
+        "imageType": 54190,
+        "sha512": "f101ecec6f23d82eb532e5cb4412d1d1dcc625febfb73abb74b1b3f608ae5792f2b010ffc9ada6fb309de0b0e3be332a82e904ee8c3406f77eaea722594a2057",
+        "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/Air_Pressure_Sensor_PROD_OTA_V6_v1.00.06.ota"
     }
 ]
