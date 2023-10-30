@@ -2833,13 +2833,13 @@
         "url": "https://tr-zha.s3.amazonaws.com/firmware/Vibrate_Sensor_PROD_OTA_V30_v1.00.30.ota"
     },
     {
-        "fileVersion": 541,
-        "fileSize": 404342,
+        "fileVersion": 543,
+        "fileSize": 404528,
         "manufacturerCode": 4747,
         "imageType": 2,
-        "sha512": "2633cd834dac414cebfdb71e43a7a0e3b5f637316af3915abb917626cf84d9e37d1f08bf70b3d270b8a13ac34079c947411d147710a2a5c3257311af27a2c1f0",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/NodOn/128b-0002-021D-700_p1771_nodon_sin_2_fw_efr32_V021D.zigbee",
-        "path": "images/NodOn/128b-0002-021D-700_p1771_nodon_sin_2_fw_efr32_V021D.zigbee"
+        "sha512": "6713ef76826e239834ee4aaaf413a8f941c764df68f5a02ac7360ea720e51ae83f46725231a2c303860006fcd9e7820c11f00c879854e49f0195f6debf4bdd5f",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/NodOn/128b-0002-021F-700_nodon_sin_2_fw_efr32_V021F.zigbee",
+        "path": "images/NodOn/128b-0002-021F-700_nodon_sin_2_fw_efr32_V021F.zigbee"
     },
     {
         "fileVersion": 543,
@@ -2988,5 +2988,14 @@
         "sha512": "384ba32f433aa559534d246e498ff289bc6acb029379c816249b1e4e40dddef70da39a0e82b168a36851918c8d89f8fe245b15031faa860ff2175a077c2e364b",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/NodOn/128b-010A-10101-700_nodon_sin_1_fm_stm32_V10101.zigbee",
         "path": "images/NodOn/128b-010A-10101-700_nodon_sin_1_fm_stm32_V10101.zigbee"
+    },
+    {
+        "fileVersion": 65793,
+        "fileSize": 27162,
+        "manufacturerCode": 4747,
+        "imageType": 258,
+        "sha512": "4e9eaa29e4bd1277595d6bc779f4f45b9e70dc5407d7fe200c08884e533e0f377f054021cfb89c7e6fad5ffd1dcd35ec22ae90e39ebc94874c95ab2acdb2e77c",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/NodOn/128b-0102-10101-700_nodon_sin_2_fm_stm32_V10101.zigbee",
+        "path": "images/NodOn/128b-0102-10101-700_nodon_sin_2_fm_stm32_V10101.zigbee"
     }
 ]
