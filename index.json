@@ -2056,12 +2056,12 @@
         "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/SmartCurtain_PROD_OTA_V68_v1.00.68.ota"
     },
     {
-        "fileVersion": 26,
-        "fileSize": 128146,
+        "fileVersion": 28,
+        "fileSize": 128242,
         "manufacturerCode": 4659,
         "imageType": 54184,
-        "sha512": "151681781db74618208a5901e93ce460ba0596b10de98fb848d87267ea92d654c9d4d711245b90a479aa7ade50afc113a97b67131b6a53eec92a02a05417fbc5",
-        "url": "https://tr-zha.s3.amazonaws.com/firmware/Button_PROD_OTA_V26_v1.00.26.ota"
+        "sha512": "1000494cb194337de4aeec9c2d5a37a25a3f20a61af10036e01225faa7434865801991495ddb26902e8b48301088dad067e1db5d1ffb395790bbf68c59bff6ac",
+        "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/Button_PROD_OTA_V28_v1.00.28.ota"
     },
     {
         "fileVersion": 48,
@@ -2097,12 +2097,12 @@
         "url": "https://tr-zha.s3.amazonaws.com/firmware/SmartSwitchGen3_PROD_OTA_V18_v1.00.18.ota"
     },
     {
-        "fileVersion": 268513342,
-        "fileSize": 205682,
+        "fileVersion": 268513348,
+        "fileSize": 206146,
         "manufacturerCode": 4659,
         "imageType": 54182,
-        "sha512": "303de7ccd38dcc77fbc9e5a1ede1caf739dfae9dcec869ff3e31fafbe30a5210f7a7c3290f7b14b77a12677da245efb753f34c618c1546e1e8ad713f6d2e04eb",
-        "url": "https://tr-zha.s3.amazonaws.com/firmware/SmartPlug_Zigbee_PROD_OTA_V61_v1.00.61.ota"
+        "sha512": "431b3ee669a5f7f8667e916f7658289be32409376ca82719486a8089c88183bd6d1ca8247c641269bcc5d68836c2f2028ded59362da8ed3fdf13b8fd757054d7",
+        "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/SmartPlug_Zigbee_PROD_OTA_V67_v1.00.67.ota"
     },
     {
         "fileVersion": 385953793,
@@ -2825,12 +2825,12 @@
         "path": "images/DresdenElektronik/1135-0101-0020001B-Hive.zigbee"
     },
     {
-        "fileVersion": 30,
-        "fileSize": 129346,
+        "fileVersion": 40,
+        "fileSize": 130114,
         "manufacturerCode": 4659,
         "imageType": 54187,
-        "sha512": "c5450020390de89648441b5bb9e05e3c752216fe100aa88acb302a170d7dfad541580fd1a205df5156beb2d053422bc319eae3e4e9efd8fbdda1a71c5bc4443e",
-        "url": "https://tr-zha.s3.amazonaws.com/firmware/Vibrate_Sensor_PROD_OTA_V30_v1.00.30.ota"
+        "sha512": "75437b4b5be9680507f150ffe0d41d37ff36262fc1fc58a464689934c150136ca5fa40c929ad46fbb2b62b353293d6f624761efb169346e1cac1d38b35971aae",
+        "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/Vibrate_Sensor_PROD_OTA_V40_v1.00.40.ota"
     },
     {
         "fileVersion": 543,
@@ -2997,5 +2997,13 @@
         "sha512": "4e9eaa29e4bd1277595d6bc779f4f45b9e70dc5407d7fe200c08884e533e0f377f054021cfb89c7e6fad5ffd1dcd35ec22ae90e39ebc94874c95ab2acdb2e77c",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/NodOn/128b-0102-10101-700_nodon_sin_2_fm_stm32_V10101.zigbee",
         "path": "images/NodOn/128b-0102-10101-700_nodon_sin_2_fm_stm32_V10101.zigbee"
+    },
+    {
+        "fileVersion": 6,
+        "fileSize": 141202,
+        "manufacturerCode": 4659,
+        "imageType": 54190,
+        "sha512": "f101ecec6f23d82eb532e5cb4412d1d1dcc625febfb73abb74b1b3f608ae5792f2b010ffc9ada6fb309de0b0e3be332a82e904ee8c3406f77eaea722594a2057",
+        "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/Air_Pressure_Sensor_PROD_OTA_V6_v1.00.06.ota"
     }
 ]
