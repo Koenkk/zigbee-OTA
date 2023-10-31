@@ -2972,13 +2972,13 @@
         "path": "images/Hue/C202 Firmware Upgrade 20230824.ota"
     },
     {
-        "fileVersion": 268709889,
-        "fileSize": 129378,
+        "fileVersion": 268775425,
+        "fileSize": 129298,
         "manufacturerCode": 4417,
         "imageType": 515,
-        "sha512": "54c954123b43a4c41376f57e4ab1869dca2698c178a82251725174e976da9107ebb7ddf632aa8223ba49a6b5e3dba7a878db7dcf801dcc5c3b888c2d5c1378a5",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Telink/1141-0203-10043001-z03mmc.zigbee",
-        "path": "images/Telink/1141-0203-10043001-z03mmc.zigbee"
+        "sha512": "3c62be5c6558ea918932fe52fcdc0c622d8fdedb9fd3d8e62fb1c430c4f95f64d710388efe3e565bda4403e18f624f586e8fc2a3b3570b00687470faf58d807e",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Telink/1141-0203-10053001-z03mmc.zigbee",
+        "path": "images/Telink/1141-0203-10053001-z03mmc.zigbee"
     },
     {
         "fileVersion": 65793,
