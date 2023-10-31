@@ -2686,13 +2686,13 @@
         "path": "images/Develco/WindowSensor_4.0.1.zigbee"
     },
     {
-        "fileVersion": 541,
-        "fileSize": 387238,
+        "fileVersion": 543,
+        "fileSize": 387384,
         "manufacturerCode": 4747,
         "imageType": 9,
-        "sha512": "04e54428ee79dba041a7d41968ebdd584bf2281c08371ecfca885189484b233244c9e331f1f77173730e0f5890721da50a3982c8d6245d7af4be9fe89ef68426",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/NodOn/128b-0009-021D-700_p1771_nodon_sin_rs_fw_efr32_V021D.zigbee",
-        "path": "images/NodOn/128b-0009-021D-700_p1771_nodon_sin_rs_fw_efr32_V021D.zigbee"
+        "sha512": "ae3dae174f703fede77d6dea1620f8d143c71d867c1ca5c8741f8f00f2f9c3149464262b6c88de62512f49b28ae9cef009222991d6ceb311481e0c70e50a84c8",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/NodOn/128b-0009-021F-700_nodon_sin_rs_fw_efr32_V021F.zigbee",
+        "path": "images/NodOn/128b-0009-021F-700_nodon_sin_rs_fw_efr32_V021F.zigbee"
     },
     {
         "fileVersion": 1380147,
@@ -3005,5 +3005,14 @@
         "imageType": 54190,
         "sha512": "f101ecec6f23d82eb532e5cb4412d1d1dcc625febfb73abb74b1b3f608ae5792f2b010ffc9ada6fb309de0b0e3be332a82e904ee8c3406f77eaea722594a2057",
         "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/Air_Pressure_Sensor_PROD_OTA_V6_v1.00.06.ota"
+    },
+    {
+        "fileVersion": 65794,
+        "fileSize": 30206,
+        "manufacturerCode": 4747,
+        "imageType": 265,
+        "sha512": "54f663c338f26aa89245edc79bbbdc911763897f2ca6ba92d72ce447f03f23d0d33a669af68e87ef84d95fa0df0231441f56fc45cb768a5e12ca2f1e77c2f1b9",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/NodOn/128b-0109-10102-700_nodon_sin_rs_fm_stm32_V10102.zigbee",
+        "path": "images/NodOn/128b-0109-10102-700_nodon_sin_rs_fm_stm32_V10102.zigbee"
     }
 ]
