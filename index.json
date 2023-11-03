@@ -2963,15 +2963,6 @@
         "url": "https://tr-zha.s3.amazonaws.com/firmware/FW_ha_v0.00.50.ota"
     },
     {
-        "fileVersion": 11,
-        "fileSize": 249722,
-        "manufacturerCode": 4107,
-        "imageType": 1000,
-        "sha512": "830d749352e7cfec2731c8b6f9ca09f41df268b36ae85b05bc569373401340020e889f2b2c91f36b8eff8e4836ebbd44d9f5a032d8691d63cdf3bc709bb2cadd",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Hue/C202%20Firmware%20Upgrade%2020230824.ota",
-        "path": "images/Hue/C202 Firmware Upgrade 20230824.ota"
-    },
-    {
         "fileVersion": 268775425,
         "fileSize": 129298,
         "manufacturerCode": 4417,
