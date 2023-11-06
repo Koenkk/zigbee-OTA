@@ -2807,13 +2807,13 @@
         "path": "images/Tuya/1662693814-oem_mg21_zg_nh_win_cover_relay_OTA_1.0.7.bin"
     },
     {
-        "fileVersion": 4035969065,
-        "fileSize": 244046,
+        "fileVersion": 268435498,
+        "fileSize": 244094,
         "manufacturerCode": 4405,
         "imageType": 256,
-        "sha512": "5bed3c388500298046902ea8b47f229d1ce416feafe42518a3da1cc2841d5ea38553eb5dc864804ecd417f7af19cca599e4249dd3f51296026a293a595cca0ae",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/DresdenElektronik/1135-0100-F0900029-Kobold.zigbee",
-        "path": "images/DresdenElektronik/1135-0100-F0900029-Kobold.zigbee"
+        "sha512": "0905f0e6a469be3893f2c665156f18077258e24439e283c9f4b121553a94e8eb142e6250e721585ddd9aceef75da3c10a03defaee89885d7cb8f08449a20912d",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/DresdenElektronik/1135-100-1000002A-UPAktorApp.zigbee",
+        "path": "images/DresdenElektronik/1135-100-1000002A-UPAktorApp.zigbee"
     },
     {
         "fileVersion": 2097179,
