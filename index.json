@@ -2114,14 +2114,14 @@
         "path": "images/Gledopto/GL-S-006P_V107_20220906.ota"
     },
     {
-        "fileVersion": 27,
-        "fileSize": 294030,
+        "fileVersion": 30,
+        "fileSize": 290336,
         "manufacturerCode": 4447,
         "imageType": 4361,
-        "sha512": "3346d23e787c491576544f21ef4453d686a745e4c7c0c2e8a81734a7b5da5b6669be86572e0d215a6972ccd990972060712d5cd0ebda98e946bf4790b54a2659",
+        "sha512": "dd7ee3b0161bcc819308004e550877adfec1adde7f140bd42835aeba386bb9105b9002f7e72f6e2563e8c1135a8f0736d629a3107094bab74c9c9ce34826b99b",
         "modelId": "lumi.light.acn004",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220923181338_OTA_lumi.light.acn004_0.0.0_0027_20220923_94CEB4.ota",
-        "path": "images/Xiaomi/20220923181338_OTA_lumi.light.acn004_0.0.0_0027_20220923_94CEB4.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20230908121913_OTA_lumi.light.acn004_0.0.0_0030_20230908_D28C7F.ota",
+        "path": "images/Xiaomi/20230908121913_OTA_lumi.light.acn004_0.0.0_0030_20230908_D28C7F.ota"
     },
     {
         "fileVersion": 40,
