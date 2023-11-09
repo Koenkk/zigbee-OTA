@@ -3023,5 +3023,14 @@
         "sha512": "d3b6ffd8d09750ceed10584649775e6aa2681085196e31bd5a1478f7ec1e8a5571244c47f9289d74cd3dad2d003307eb0083cb51f7d93afd02b916672d23baea",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/NodOn/128b-0106-010401-700_nodon_sin_xx_met_fm_stm32_V010401.zigbee",
         "path": "images/NodOn/128b-0106-010401-700_nodon_sin_xx_met_fm_stm32_V010401.zigbee"
+    },
+    {
+        "fileVersion": 5212,
+        "fileSize": 578278,
+        "manufacturerCode": 4474,
+        "imageType": 529,
+        "sha512": "ab539a1d694d9488a0deeaa2b0b809bc19b88ba7323eecba7f8abff7e989cee43112b29eb39a8548c0da480d258d7be0f681adb5b848bece0b2a55692c3b2b95",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Insta/V00.00.52.12.ota",
+        "path": "images/Insta/V00.00.52.12.ota"
     }
 ]
