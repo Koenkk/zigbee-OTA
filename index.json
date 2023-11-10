@@ -3023,5 +3023,14 @@
         "sha512": "d3b6ffd8d09750ceed10584649775e6aa2681085196e31bd5a1478f7ec1e8a5571244c47f9289d74cd3dad2d003307eb0083cb51f7d93afd02b916672d23baea",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/NodOn/128b-0106-010401-700_nodon_sin_xx_met_fm_stm32_V010401.zigbee",
         "path": "images/NodOn/128b-0106-010401-700_nodon_sin_xx_met_fm_stm32_V010401.zigbee"
+    },
+    {
+        "fileVersion": 4101,
+        "fileSize": 258206,
+        "manufacturerCode": 4742,
+        "imageType": 2060,
+        "sha512": "fdcd4e238b25a971d79746a0305e185567e027c3ba08ed42ac7ca003601c25ccce497fd1f8e6ede1e0e7b058768bc2daf3ebc985174fc6265a9df4acc4f81467",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sonoff/snzb-06p_v1.0.5.ota",
+        "path": "images/Sonoff/snzb-06p_v1.0.5.ota"
     }
 ]
