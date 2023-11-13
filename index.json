@@ -3032,5 +3032,14 @@
         "sha512": "fdcd4e238b25a971d79746a0305e185567e027c3ba08ed42ac7ca003601c25ccce497fd1f8e6ede1e0e7b058768bc2daf3ebc985174fc6265a9df4acc4f81467",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sonoff/snzb-06p_v1.0.5.ota",
         "path": "images/Sonoff/snzb-06p_v1.0.5.ota"
+    },
+    {
+        "fileVersion": 199696,
+        "fileSize": 181164,
+        "manufacturerCode": 4117,
+        "imageType": 736,
+        "sha512": "eaf4e925dbdf32f171fb8323c52b8652620dea5d62bc007e61ee61d276bdd90f097400a1c1bc48980d78c276117415e274c34529b481be82c28cd3695e2be817",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Develco/ZR_Smartplug_SSIG_3.12.16.zigbee",
+        "path": "images/Develco/ZR_Smartplug_SSIG_3.12.16.zigbee"
     }
 ]
