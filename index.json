@@ -1638,14 +1638,14 @@
         "path": "images/Xiaomi/20220718113235_OTA_lumi.sensor_smoke.acn03_0.0.0_0017_20220617_CB9276.ota"
     },
     {
-        "fileVersion": 29,
-        "fileSize": 323566,
+        "fileVersion": 32,
+        "fileSize": 324974,
         "manufacturerCode": 4447,
         "imageType": 6024,
-        "sha512": "2a4201e1b3ed02d46f38444ff148b6ae540ec639e0ae9ccca83aefabd3aac2bccfcb09ab014d41606daba182092ab19ff014efc2db0f756e8ebbaeaea33da116",
+        "sha512": "912cda8267a5acb70bc47f5120007b9470d27cc14db74a3f3ba18bf5a3345ca021031e0f3f1ba931aad31b565bbd44cf2cf3efe8877490f75df85b72b0d672b0",
         "modelId": "lumi.dimmer.rcbac1",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20221213165155_OTA_lumi.dimmer.rcbac1_0.0.0_0029_20221212_A8A063.ota",
-        "path": "images/Xiaomi/20221213165155_OTA_lumi.dimmer.rcbac1_0.0.0_0029_20221212_A8A063.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20230907173909_OTA_lumi.dimmer.rcbac1_0.0.0_0032_20230828_7D307D.ota",
+        "path": "images/Xiaomi/20230907173909_OTA_lumi.dimmer.rcbac1_0.0.0_0032_20230828_7D307D.ota"
     },
     {
         "fileVersion": 17,
