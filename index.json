@@ -2675,7 +2675,7 @@
         "sha512": "bd44eda56bd48503e922001b101522a7340d7e4b68528d3a3d1f6073492631f96e51178573fa2b00da601483b5c5c864b906f14408b0f28d008364c4b195bf52",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Bosch/0x1209_0x300a_0x35091514.ota",
         "path": "images/Bosch/0x1209_0x300a_0x35091514.ota"
-    }
+    },
     {
         "fileVersion": 262145,
         "fileSize": 197745,
@@ -3100,3 +3100,4 @@
         "path": "images/Sonoff/trvzb_v1.1.1.ota"
     }
 ]
+
