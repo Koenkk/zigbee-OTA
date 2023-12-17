@@ -2715,6 +2715,16 @@
         "path": "images/Xiaomi/20220607175331_OTA_lumi.switch.acn029_0.0.0_211551_20220217_08B622.ota"
     },
     {
+        "fileVersion": 3752451,
+        "fileSize": 251559,
+        "manufacturerCode": 4129,
+        "imageType": 14,
+        "sha512": "4cc677a11ce1eccf4a713855585e6a6c7c017ec4554b9709c9cd91094aadc3ec2e383de3bada2ba0b75065bc5ffbef7bf5ba6515fb3d2dd3ed06f58407bd37a5",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-000e-00394203-NLF.zigbee",
+        "path": "images/Legrand/1021-000e-00394203-NLF.zigbee"
+    },	
+    {
+        "minFileVersion": 3752451,		
         "fileVersion": 4801027,
         "fileSize": 254839,
         "manufacturerCode": 4129,
