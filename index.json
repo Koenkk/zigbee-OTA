@@ -1666,13 +1666,13 @@
         "url": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/download/v13.0/ZLinky_router_v13.ota"
     },
     {
-        "fileVersion": 352399361,
-        "fileSize": 212770,
+        "fileVersion": 587280385,
+        "fileSize": 212866,
         "manufacturerCode": 4687,
         "imageType": 5145,
-        "sha512": "e6fdd4dc6ff83d019c35b41fdba2a610363980f4c11adef86d09cbf6fdfa5889bbf01ee4c330dce9eba1eb1cc9fcf37c44447ca06321699d281ff2cd3cb44a4e",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Gledopto/GL-C-002P_V105_20220419%281%29.ota",
-        "path": "images/Gledopto/GL-C-002P_V105_20220419(1).ota"
+        "sha512": "18e6d553f93a1173edb1e8aaca5023bcdb147067f5e5f776f4f207ce0a35c12910c850ef553e97fbd488e18957d5418017adce4d00d7a6007b1850f7020ea88b",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Gledopto/GL-C-002P_V20351203_20230721.ota",
+        "path": "images/Gledopto/GL-C-002P_V20351203_20230721.ota"
     },
     {
         "fileVersion": 352399361,
@@ -2656,8 +2656,8 @@
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-0013-002f4203-NLV.zigbee",
         "path": "images/Legrand/1021-0013-002f4203-NLV.zigbee"
     },
-	{
-		"minFileVersion": 3097091, 
+    {
+        "minFileVersion": 3097091,
         "fileVersion": 3949059,
         "fileSize": 254391,
         "manufacturerCode": 4129,
@@ -2722,9 +2722,9 @@
         "sha512": "4cc677a11ce1eccf4a713855585e6a6c7c017ec4554b9709c9cd91094aadc3ec2e383de3bada2ba0b75065bc5ffbef7bf5ba6515fb3d2dd3ed06f58407bd37a5",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-000e-00394203-NLF.zigbee",
         "path": "images/Legrand/1021-000e-00394203-NLF.zigbee"
-    },	
+    },
     {
-        "minFileVersion": 3752451,		
+        "minFileVersion": 3752451,
         "fileVersion": 4801027,
         "fileSize": 254839,
         "manufacturerCode": 4129,
@@ -2741,9 +2741,9 @@
         "sha512": "853abd58cd50dcfe84ffc123c2f2066e834de31c87b7493d343368f1a945585910164ce789e5dbbf3280c5c398f65898879a67000dfc259f64be58467111676f",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-000f-00224203-NLL.zigbee",
         "path": "images/Legrand/1021-000f-00224203-NLL.zigbee"
-    },	
+    },
     {
-        "minFileVersion": 2245123,		
+        "minFileVersion": 2245123,
         "fileVersion": 3949059,
         "fileSize": 256471,
         "manufacturerCode": 4129,
