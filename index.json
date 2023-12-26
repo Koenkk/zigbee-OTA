@@ -1610,6 +1610,18 @@
         "path": "images/Xiaomi/20220302113302_OTA_lumi.switch.n2acn1_0.0.0_211551_20220217_BBD96B.ota"
     },
     {
+        "fileVersion": 70,
+        "fileSize": 256770,
+        "manufacturerCode": 4417,
+        "manufacturerName": [
+            "_TZ3210_ngqk6jia"
+        ],
+        "imageType": 54179,
+        "sha512": "0d2b6be4f0e8b0efdc2f581aee73055a4b3f05a26888e2c3fd0527f81a2f01af445001a91935f2c95ecbda9f83254ef80a9a51c18e592ac9ed00daedb686cbc8",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Telink/1663234985-oem_ztu_dimmer1_klt_OTA_1.0.6.bin",
+        "path": "images/Telink/1663234985-oem_ztu_dimmer1_klt_OTA_1.0.6.bin"
+    },
+    {
         "fileVersion": 192,
         "fileSize": 307682,
         "manufacturerCode": 4417,
