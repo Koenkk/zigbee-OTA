@@ -2650,6 +2650,7 @@
         "path": "images/Xiaomi/20220607180259_OTA_lumi.switch.acn031_0.0.0_211551_20220217_C7F604.ota"
     },
     {
+        "maxFileVersion": 3097091,
         "fileVersion": 3097091,
         "fileSize": 240567,
         "manufacturerCode": 4129,
@@ -2736,6 +2737,7 @@
         "path": "images/Legrand/1021-000e-00494203-NLF.zigbee"
     },
     {
+        "maxFileVersion": 2245123,
         "fileVersion": 2245123,
         "fileSize": 251495,
         "manufacturerCode": 4129,
