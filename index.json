@@ -1790,16 +1790,6 @@
         "path": "images/Xiaomi/20211228180917_OTA_lumi.switch.b1naus01_0.0.0_0031_20211228_5689C8.ota"
     },
     {
-        "fileVersion": 31,
-        "fileSize": 289790,
-        "manufacturerCode": 4447,
-        "imageType": 404,
-        "sha512": "4516f165a9efaeed975e6c5af8f7854fda16baa5ab682033914c11a92629060ccdc9daf743efd1f13d25b8b0abe49a19fd9a75f457717a16d6f67b19ab1a00d3",
-        "modelId": "lumi.switch.b2naus01",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20211228180601_OTA_lumi.switch.b2naus01_0.0.0_0031_20211228_C784BB.ota",
-        "path": "images/Xiaomi/20211228180601_OTA_lumi.switch.b2naus01_0.0.0_0031_20211228_C784BB.ota"
-    },
-    {
         "fileVersion": 33,
         "fileSize": 291022,
         "manufacturerCode": 4447,
