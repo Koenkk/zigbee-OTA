@@ -1622,6 +1622,15 @@
         "path": "images/Telink/1663234985-oem_ztu_dimmer1_klt_OTA_1.0.6.bin"
     },
     {
+        "fileVersion": 192,
+        "fileSize": 307682,
+        "manufacturerCode": 4417,
+        "imageType": 54179,
+        "modelId": "TS011F",
+        "sha512": "01939ca4fc790432d2c233e19b2440c1e0248d2ce85c9299e0b88928cb2341de675350ac7b78187a25f06a2768f93db0a17c4ba950b60c82c072e0c0833cfcfb",
+        "url": "https://images.tuyaeu.com/smart/firmware/upgrade/20220907/1662545193-oem_zg_tl8258_plug_OTA_3.0.0.bin"
+    },
+    {
         "fileVersion": 54,
         "fileSize": 317658,
         "manufacturerCode": 4447,
