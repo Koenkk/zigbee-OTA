@@ -2302,13 +2302,13 @@
         "path": "images/Datek/eva_meter_reader-2.0_MG21.ota"
     },
     {
-        "fileVersion": 620782928,
-        "fileSize": 253618,
+        "fileVersion": 654468432,
+        "fileSize": 253278,
         "manufacturerCode": 4919,
         "imageType": 0,
-        "sha512": "3457d78a27d06423636276f07a969120b674aef552d19bbabc2e2f71852fbf4d873416c15fce313d25a5c05c0745bfd201cd001d699e73779457bc91e127b471",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Datek/mains_power_outlet-2.5.ota",
-        "path": "images/Datek/mains_power_outlet-2.5.ota"
+        "sha512": "431e3fb76a5bde82947a925099d5b5b8639c2e0ba1ad6fe85e7dcd598a8f43c41a86bb78c34ee2fdbe4ae5465e35bb2e24065408fe4aa13c492881848214b6ab",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Datek/mains_power_outlet_2.7.ota",
+        "path": "images/Datek/mains_power_outlet_2.7.ota"
     },
     {
         "fileVersion": 27,
