@@ -1,10 +1,12 @@
 const path = require('path');
 const fs = require('fs');
 const crypto = require('crypto');
+const tls = require('tls');
 const ota = require('../lib/ota');
 const filenameOrURL = process.argv[2];
 const modelId = process.argv[3];
 const baseURL = 'https://github.com/Koenkk/zigbee-OTA/raw/master';
+const caCerts = './cacerts.pem';
 
 const manufacturerNameLookup = {
     123: 'UHome',
@@ -53,7 +55,11 @@ const main = async () => {
             const file = fs.createWriteStream(path);
 
             return new Promise((resolve, reject) => {
-                const request = lib.get(url, function(response) {
+                const ca = [...tls.rootCertificates];
+                if(fs.existsSync(caCerts)) {
+                    ca.push(fs.readFileSync(caCerts));
+                }
+                const request = lib.get(url, { ca },  function(response) {
                     if (response.statusCode >= 200 && response.statusCode < 300) {
                         response.pipe(file);
                         file.on('finish', function() {
