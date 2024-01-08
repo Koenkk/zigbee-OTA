@@ -960,13 +960,13 @@
         "path": "images/Gledopto/GL-C-008P_V17A1_OTAV7_20210303--V1-4.ota"
     },
     {
-        "fileVersion": 276,
-        "fileSize": 385719,
+        "fileVersion": 284,
+        "fileSize": 391402,
         "manufacturerCode": 4678,
         "imageType": 256,
-        "sha512": "6b89fd90146747fde88e4896a3cb7b8600ee733679d234cb0288632c820264fcb8e5c25a79a04a4faa2114742a6f3fd37b107be6c60e927eea253fe6d8744d6a",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Danfoss/1246-0100-01200120.0002_%282B60A723%29.ota",
-        "path": "images/Danfoss/1246-0100-01200120.0002_(2B60A723).ota"
+        "sha512": "63dafd3332dd2f8901a5094c5d8437861244b78c6348bc3be2b3e7a135e33765cad0001dd842f22a992978e34afe4f7674e082092f03d35040dc0e3fda5f6ae6",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Danfoss/PSoC4_1246-0100-01280128.0002_%284CA01CD1%29.ota",
+        "path": "images/Danfoss/PSoC4_1246-0100-01280128.0002_(4CA01CD1).ota"
     },
     {
         "fileVersion": 5,
@@ -3134,5 +3134,14 @@
         "sha512": "b132f02055dffcbf55ccf94f164f1cc1fedb350be4755b56a8da1c3c51ae6814bba3e8650376ce76a0783394eae1315e912deba917efd4f36557c92068b437ef",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sonoff/trvzb_v1.1.1.ota",
         "path": "images/Sonoff/trvzb_v1.1.1.ota"
+    },
+    {
+        "fileVersion": 28,
+        "fileSize": 463202,
+        "manufacturerCode": 4678,
+        "imageType": 288,
+        "sha512": "2be3ce5ff9e9b378a447285a7f2f099313a8ec067c5565b0ceb9fcb917ba663d022b05ceaeddd20d0205d9b98b1c2986570699d749031f4b54ffd04d14d593c8",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Danfoss/PSoC6_1246-0120-00280028.0002_%2890215AC0%29.ota",
+        "path": "images/Danfoss/PSoC6_1246-0120-00280028.0002_(90215AC0).ota"
     }
 ]
