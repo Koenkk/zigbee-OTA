@@ -3143,5 +3143,14 @@
         "sha512": "2be3ce5ff9e9b378a447285a7f2f099313a8ec067c5565b0ceb9fcb917ba663d022b05ceaeddd20d0205d9b98b1c2986570699d749031f4b54ffd04d14d593c8",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Danfoss/PSoC6_1246-0120-00280028.0002_%2890215AC0%29.ota",
         "path": "images/Danfoss/PSoC6_1246-0120-00280028.0002_(90215AC0).ota"
+    },
+    {
+        "fileVersion": 22,
+        "fileSize": 173726,
+        "manufacturerCode": 4636,
+        "imageType": 5129,
+        "sha512": "7b1c6733fbf0f081e5e4ebb946616d88ccd482790a5365d0cfa9c2d050a6dddef56291bb749a33c903c57944782d69100562614755202e3be013eaf58ed70e38",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Aurora/MainsPowerOutlet_JN5169_PCB_ARC_OTA_0x1409_v22.ota",
+        "path": "images/Aurora/MainsPowerOutlet_JN5169_PCB_ARC_OTA_0x1409_v22.ota"
     }
 ]

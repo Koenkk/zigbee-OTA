@@ -39,6 +39,7 @@ const manufacturerNameLookup = {
     10132: 'ClimaxTechnology',
     26214: 'Sprut.device',
     4877: 'thirdreality',
+    4636: 'Aurora',
 };
 
 const main = async () => {
