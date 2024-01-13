@@ -1247,14 +1247,14 @@
         "path": "images/Xiaomi/OTA_LM15_LNN_V2.6.22_20180503_neutral1_19ms_DIO19Led.20181011142357.ota"
     },
     {
-        "fileVersion": 94,
-        "fileSize": 189854,
+        "fileVersion": 95,
+        "fileSize": 190334,
         "manufacturerCode": 4447,
         "imageType": 257,
-        "sha512": "171148adff1671d14dd50e49f022a2e00a3fb59255cc99edac74b6b65890ef77b118846f5a2e3892b937af834357fd1d5dc508acec0492e07553350a7a6798ed",
+        "sha512": "e2a0d6d247b177a34471d2098e5069c0752cec764871e9b9e1f368427af2a66d54f0d57fa9c2ef135f4ce4f76f86dc38f7c9992040c09ab9bbf291a47c357ff2",
         "modelId": "lumi.ctrl_ln2.aq1",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/lumi.ctrl_ln2.aq1_20211223_v0094.ota",
-        "path": "images/Xiaomi/lumi.ctrl_ln2.aq1_20211223_v0094.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20230202185209_OTA_lumi.ctrl_ln2.aq1_0.0.0_0095_20220725_0B0798.ota",
+        "path": "images/Xiaomi/20230202185209_OTA_lumi.ctrl_ln2.aq1_0.0.0_0095_20220725_0B0798.ota"
     },
     {
         "fileVersion": 32,
