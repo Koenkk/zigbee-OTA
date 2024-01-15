@@ -2981,6 +2981,15 @@
         "path": "images/EcoDim/ZB21S3_HZC_Dimmer1_EcoDim-Zigbee 3.0_1.01_20230908.ota"
     },
     {
+        "fileVersion": 16869200,
+        "fileSize": 286646,
+        "manufacturerCode": 4714,
+        "imageType": 60,
+        "sha512": "018905c8e3b60f4f78bdad4a37ff775cc8229fdfd0baf411e2987c3636740a6397ab81ae5e37eebdeb1e234cbc401e5d6e5c0025f9bb884e77344cd301343cc5",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/EcoDim/ZB21S3_HZC_Dimmer1_EcoDim-Zigbee%203.0_1.01_20230908.ota",
+        "path": "images/EcoDim/ZB21S3_HZC_Dimmer1_EcoDim-Zigbee 3.0_1.01_20230908.ota"
+    },
+    {
         "fileVersion": 27,
         "fileSize": 329030,
         "manufacturerCode": 4447,
