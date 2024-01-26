@@ -2673,13 +2673,13 @@
     },
     {
         "modelId": "RBSH-SP-ZB-EU",
-        "fileVersion": 671115824,
-        "fileSize": 253778,
+        "fileVersion": 687893040,
+        "fileSize": 253786,
         "manufacturerCode": 4617,
         "imageType": 12290,
-        "sha512": "7f5813c79f6442634066867f6bbd4551a9bc42823c14c8921b2e7cb0b0f37b9a769779b6d141c1ebae164fed97608761e0ce997fa5d3239aa8736074eff0dabd",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Bosch/0x1209_0x3002_0x28006a30.ota",
-        "path": "images/Bosch/0x1209_0x3002_0x28006a30.ota"
+        "sha512": "7d3534ed8c26fbcbe725999fa65cb1f258f602c3b3b49c27b75c4652fab975c26d46d7ff19580a84d9c5efbd6ca3dea62404bbe59c45abfc951b5d0808140c14",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Bosch/0x1209_0x3002_0x29006a30.ota",
+        "path": "images/Bosch/0x1209_0x3002_0x29006a30.ota"
     },
     {
         "modelId": "RBSH-TRV0-ZB-EU",
