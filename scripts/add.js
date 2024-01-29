@@ -20,7 +20,7 @@ const manufacturerNameLookup = {
     4417: 'Telink',
     4420: 'Lutron',
     4444: 'Danalock',
-    4447: 'Xiaomi',
+    4447: 'Lumi',
     4448: 'Sengled',
     4454: 'Innr',
     4474: 'Insta',
