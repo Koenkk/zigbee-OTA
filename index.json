@@ -80,12 +80,12 @@
     },
     {
         "minFileVersion": 1107326256,
-        "fileVersion": 1107326256,
-        "fileSize": 256632,
+        "fileVersion": 1124101125,
+        "fileSize": 256696,
         "manufacturerCode": 4107,
         "imageType": 260,
-        "sha512": "d2bf330b9a23114efb6a613ccefce691e4a67a98175033e65d3eaf6841312b5a542bd538ae19c06c3804aa06224d35acc184f4b37a6198b457df2a173a490f21",
-        "url": "https://otau.meethue.com/storage/ZGB_100B_0104/631d2194-554e-4016-b954-f3c226482f04/ConnectedLamp-Atmel_0104_5.130.1.30000_0012.sbl-ota"
+        "sha512": "e98b8b2ac7c4a138cd082315024e9ae63ab598d8a0c7f9bc1af3943332f376bc6fb28645cb7463635855fd6cc87fb710c068c09187b635ed680195daf7451124",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_0104/3d70cb22-87b2-4f1b-b7e8-3659d5feb9ed/ConnectedLamp-Atmel-Target_0012.sbl-ota"
     },
     {
         "maxFileVersion": 1107326255,
@@ -98,12 +98,12 @@
     },
     {
         "minFileVersion": 1107326256,
-        "fileVersion": 1107326256,
-        "fileSize": 256632,
+        "fileVersion": 1124101125,
+        "fileSize": 256696,
         "manufacturerCode": 4107,
         "imageType": 261,
-        "sha512": "a3492bec9fd9b3149be9135ea9175d6161617188c04428230bbea161660c0cef2f9c83ecc185b758e1337d4f99e08f3978fd9102eec67843bac66e6dbc1e39a9",
-        "url": "https://otau.meethue.com/storage/ZGB_100B_0105/6b0b2e69-652d-4941-9da9-a4e7ff0fc70c/WhiteLamp-Atmel-Target_0105_5.130.1.30000_0012.sbl-ota"
+        "sha512": "740fbe9a6b17223df73e4e8c63de1cca14c2459c7aeb8b405455044230260424d96173ac16dbce2e9835d25381ce54ec90499464b972ec4325803b8deb9757ea",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_0105/3a3ef80b-f5d5-452d-b206-3369e2335c2c/WhiteLamp-Atmel-Target_0012.sbl-ota"
     },
     {
         "maxFileVersion": 1107326255,
@@ -116,12 +116,12 @@
     },
     {
         "minFileVersion": 1107326256,
-        "fileVersion": 1107326256,
-        "fileSize": 256632,
+        "fileVersion": 1124101125,
+        "fileSize": 256696,
         "manufacturerCode": 4107,
         "imageType": 264,
-        "sha512": "7d6166daf46ad68275ada764d17d9fde78b364c4ebb0f81664fb8159efc81a225790d5f670e036489be80fa2a9fedf92201990336559d2299c16faeb396a46b6",
-        "url": "https://otau.meethue.com/storage/ZGB_100B_0108/fb2b4e6e-f8c4-44b0-88cb-aac2e88c9fa0/LivingColors-Target_0108_5.130.1.30000_0012.sbl-ota"
+        "sha512": "b7312ee8fc9364c4993d70c050d34b10d12b65ea6485533f51aa49013b9ceadacf238b06e756aeefd3b03cb0feef2d7b5ef88a413fcce765ab8b28527ef7a732",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_0108/bb7a6da3-e9a8-45c2-bf35-aa31f107bf6c/LivingColors-Atmel-Target_0012.sbl-ota"
     },
     {
         "maxFileVersion": 1107326255,
@@ -142,12 +142,12 @@
     },
     {
         "minFileVersion": 1107326256,
-        "fileVersion": 1107326256,
-        "fileSize": 256632,
+        "fileVersion": 1124101125,
+        "fileSize": 256696,
         "manufacturerCode": 4107,
         "imageType": 267,
-        "sha512": "903dc359ddab530136e2aced646633627555a4317696f9a1c61300ff2006109e316443f7807b03397021e9162698dc9ba7fcbb3749f6f5a83883b9aafc78eb10",
-        "url": "https://otau.meethue.com/storage/ZGB_100B_010B/e3d57ccf-94b9-4786-8b3f-569c5c8883f8/ModuLum-ATmega_010B_5.130.1.30000_0012.sbl-ota"
+        "sha512": "c57964e557ef1e8725411dd91cd780d9983944f2f22fdb6c843e2424746eb10f1b56a0f5a196da60584b1c09dc6da1f0a06b18c81cf0599b8360ede8c6d10b00",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_010B/6f4bd781-da68-45a3-b848-44b0f13c40ca/ModuLum-ATmega_0012.sbl-ota"
     },
     {
         "maxFileVersion": 1107326255,
@@ -160,12 +160,12 @@
     },
     {
         "minFileVersion": 16783874,
-        "fileVersion": 16783874,
-        "fileSize": 267452,
+        "fileVersion": 16786948,
+        "fileSize": 267324,
         "manufacturerCode": 4107,
         "imageType": 268,
-        "sha512": "c4591fe155bef8500779c36c7792f3960c4f83dde9dd47aa367113229c5bd73161f14cc92e6d6a0960e807c54626ce2ab0ce0d18c76d0206770dcda3a4776862",
-        "url": "https://otau.meethue.com/storage/ZGB_100B_010C/2ef158a5-ffb4-43ac-9d59-3cb71078f6f7/100B-010C-01001A02-ConfLight-Lamps_0012.zigbee"
+        "sha512": "e9371e1599b193730f5358cdc64671e93042de1ddf669a970c4e9ce76363bea0b7198838fa4584271b3f1586e4d92565a2cc28a90143889576bab6576ef0e2ce",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_010C/3a5dab1a-faf6-47a8-9c9a-34f34eec029f/100B-010C-01002604-ConfLight-Lamps_0012.zigbee"
     },
     {
         "maxFileVersion": 16783873,
@@ -186,12 +186,12 @@
     },
     {
         "minFileVersion": 16783620,
-        "fileVersion": 16783620,
-        "fileSize": 271050,
+        "fileVersion": 16786434,
+        "fileSize": 269002,
         "manufacturerCode": 4107,
         "imageType": 270,
-        "sha512": "5843552ab361d2d063e36be24785afcb8af34491ae721c2426da6afec94967acd4005d5e2abfcca5ebd10f3c9e39656524775b50cef115f67c3f636b9609d3c2",
-        "url": "https://otau.meethue.com/storage/ZGB_100B_010E/3e979745-cc00-43cf-a51c-73a3d9d91430/100B-010E-01001904-ConfLight-ModuLum_0012.zigbee"
+        "sha512": "bdd3f8bc393635038dd2a9bf266a90200e0930a9671fe45b132a00888d93497b7872578d7e6574d25397a0b6d152a070cc938b6bf04a8698bcf266d9e9d9a679",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_010E/1abd98e0-be57-4dfb-90ed-0aeac03f70c7/100B-010E-01002402-ConfLight-ModuLum_0012.zigbee"
     },
     {
         "maxFileVersion": 16783619,
@@ -1611,17 +1611,16 @@
         "path": "images/Lumi/20240108170034_OTA_lumi.switch.n2acn1_0.0.0_211556_20240102_B3E0C9.ota"
     },
     {
-        "fileVersion": 192,
-        "fileSize": 307682,
+        "fileVersion": 70,
+        "fileSize": 256770,
         "manufacturerCode": 4417,
         "manufacturerName": [
             "_TZ3210_ngqk6jia"
         ],
         "imageType": 54179,
-        "sha512": "01939ca4fc790432d2c233e19b2440c1e0248d2ce85c9299e0b88928cb2341de675350ac7b78187a25f06a2768f93db0a17c4ba950b60c82c072e0c0833cfcfb",
-        "url": "https://images.tuyaeu.com/smart/firmware/upgrade/20220907/1662545193-oem_zg_tl8258_plug_OTA_3.0.0.bin",
-        "path": "images/Telink/1663234985-oem_ztu_dimmer1_klt_OTA_1.0.6.bin",
-        "modelId": "TS011F"
+        "sha512": "0d2b6be4f0e8b0efdc2f581aee73055a4b3f05a26888e2c3fd0527f81a2f01af445001a91935f2c95ecbda9f83254ef80a9a51c18e592ac9ed00daedb686cbc8",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Telink/1663234985-oem_ztu_dimmer1_klt_OTA_1.0.6.bin",
+        "path": "images/Telink/1663234985-oem_ztu_dimmer1_klt_OTA_1.0.6.bin"
     },
     {
         "fileVersion": 192,
@@ -1968,8 +1967,8 @@
         "imageType": 1026,
         "sha512": "6b2bd58cef1936e5a93399619ada984e2e0aa783e6d9cd193f622c3ce8c45a8d9ca86d4e65032303f38a50f8dc2b8373d324be5b006595b650d3425f431f58b3",
         "modelId": "PECLS01",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Jennic/LeakSensor_v5.OTA.zigbee",
-        "path": "images/Jennic/LeakSensor_v5.OTA.zigbee"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Perenio/LeakSensor_v5.OTA.zigbee",
+        "path": "images/Perenio/LeakSensor_v5.OTA.zigbee"
     },
     {
         "fileVersion": 268985691,
@@ -1977,8 +1976,8 @@
         "manufacturerCode": 4364,
         "imageType": 57374,
         "sha512": "42767fd8ade66a47263d2ba1916ee07e002fb1dea3968841922957fd35341fe0a3b7831891796a1dfd1ce3c9b4686984ab9acd9a4e77eef9299facbc0ca51500",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Osram/Zigbee3toDALI_1008655B.ota",
-        "path": "images/Osram/Zigbee3toDALI_1008655B.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Ledvance/Zigbee3toDALI_1008655B.ota",
+        "path": "images/Ledvance/Zigbee3toDALI_1008655B.ota"
     },
     {
         "fileVersion": 262145,
@@ -2654,13 +2653,13 @@
     },
     {
         "maxFileVersion": 3097090,
-        "fileVersion": 3950079,
-        "fileSize": 254391,
+        "fileVersion": 3097091,
+        "fileSize": 240567,
         "manufacturerCode": 4129,
         "imageType": 19,
-        "sha512": "f89ef053f8b59195c88fe3e781cfdd4465438ff6dd03cd92be6dff8d20b1e7ab72bfe53e72eb95db0ac72fcca0af593dd875e3e9c93743f5d3311c5218005943",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-0013-003c45FF-NLV.zigbee",
-        "path": "images/Legrand/1021-0013-003c45FF-NLV.zigbee"
+        "sha512": "6093fb567660e913bece95b49c77d43e4cfded9bef29535bb48df6296cdd8c3f4b8ba3fe1fcd168e505033c7f70a43fd1e333f07b289455636344683b5a4f15d",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-0013-002f4203-NLV.zigbee",
+        "path": "images/Legrand/1021-0013-002f4203-NLV.zigbee"
     },
     {
         "minFileVersion": 3097091,
@@ -2721,13 +2720,13 @@
         "path": "images/Lumi/20220607175331_OTA_lumi.switch.acn029_0.0.0_211551_20220217_08B622.ota"
     },
     {
-        "fileVersion": 4801027,
-        "fileSize": 254839,
+        "fileVersion": 3752451,
+        "fileSize": 251559,
         "manufacturerCode": 4129,
         "imageType": 14,
-        "sha512": "d6ee98a436ba491ba5b8b874dfd26b74adb56596184b652f6f57974cdb675a00e8572b815e4646a276b2fa853fb40c5ae201679943f46235645ff1c2e028088a",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-000e-00494203-NLF.zigbee",
-        "path": "images/Legrand/1021-000e-00494203-NLF.zigbee"
+        "sha512": "4cc677a11ce1eccf4a713855585e6a6c7c017ec4554b9709c9cd91094aadc3ec2e383de3bada2ba0b75065bc5ffbef7bf5ba6515fb3d2dd3ed06f58407bd37a5",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-000e-00394203-NLF.zigbee",
+        "path": "images/Legrand/1021-000e-00394203-NLF.zigbee"
     },
     {
         "minFileVersion": 3752451,
@@ -2741,13 +2740,13 @@
     },
     {
         "maxFileVersion": 2245122,
-        "fileVersion": 3950079,
-        "fileSize": 256471,
+        "fileVersion": 2245123,
+        "fileSize": 251495,
         "manufacturerCode": 4129,
         "imageType": 15,
-        "sha512": "f081d0e2d6ca7a4c38d0543beb8100e70ed86b47ab995f98bd5201fdb6d42f0202b099b59120e5bdc45c96b3164122b75b3bbff0a135dc339eb1f1933ce936b6",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-000f-003c45FF-NLL.zigbee",
-        "path": "images/Legrand/1021-000f-003c45FF-NLL.zigbee"
+        "sha512": "853abd58cd50dcfe84ffc123c2f2066e834de31c87b7493d343368f1a945585910164ce789e5dbbf3280c5c398f65898879a67000dfc259f64be58467111676f",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-000f-00224203-NLL.zigbee",
+        "path": "images/Legrand/1021-000f-00224203-NLL.zigbee"
     },
     {
         "minFileVersion": 2245123,

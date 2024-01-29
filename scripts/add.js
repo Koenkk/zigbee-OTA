@@ -40,7 +40,6 @@ const manufacturerNameLookup = {
     26214: 'Sprut.device',
     4877: 'thirdreality',
     4636: 'Aurora',
-    4456: 'Perenio',
 };
 
 const main = async () => {
