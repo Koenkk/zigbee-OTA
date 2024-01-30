@@ -2701,13 +2701,13 @@
         "path": "images/Develco/WindowSensor_4.0.1.zigbee"
     },
     {
-        "fileVersion": 543,
-        "fileSize": 387384,
+        "fileVersion": 768,
+        "fileSize": 398024,
         "manufacturerCode": 4747,
         "imageType": 9,
-        "sha512": "ae3dae174f703fede77d6dea1620f8d143c71d867c1ca5c8741f8f00f2f9c3149464262b6c88de62512f49b28ae9cef009222991d6ceb311481e0c70e50a84c8",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/NodOn/128b-0009-021F-700_nodon_sin_rs_fw_efr32_V021F.zigbee",
-        "path": "images/NodOn/128b-0009-021F-700_nodon_sin_rs_fw_efr32_V021F.zigbee"
+        "sha512": "89f6a3cae30018c9c6f6045ef3c475a1a12e9af0ddd9d0cfadfea122e2353b76e7e2d14a860c4292a67212d9d4315e84e9c123a47c4c694f753a88d6b1a01254",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/NodOn/128b-0009-0300-700_nodon_sin_rs_fw_efr32_V0300.zigbee",
+        "path": "images/NodOn/128b-0009-0300-700_nodon_sin_rs_fw_efr32_V0300.zigbee"
     },
     {
         "fileVersion": 1380147,
@@ -2869,22 +2869,22 @@
         "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/Vibrate_Sensor_PROD_OTA_V40_v1.00.40.ota"
     },
     {
-        "fileVersion": 543,
-        "fileSize": 404528,
+        "fileVersion": 768,
+        "fileSize": 415168,
         "manufacturerCode": 4747,
         "imageType": 2,
-        "sha512": "6713ef76826e239834ee4aaaf413a8f941c764df68f5a02ac7360ea720e51ae83f46725231a2c303860006fcd9e7820c11f00c879854e49f0195f6debf4bdd5f",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/NodOn/128b-0002-021F-700_nodon_sin_2_fw_efr32_V021F.zigbee",
-        "path": "images/NodOn/128b-0002-021F-700_nodon_sin_2_fw_efr32_V021F.zigbee"
+        "sha512": "130997beac3b0774823ab81d1703fd1ba81c70b6cf0d6b61a4afeb727d1306b9de21444a1c566af9e0e933592b8c87869714b8b6ce706db34c5ae86ab4b17c2d",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/NodOn/128b-0002-0300-700_nodon_sin_2_fw_efr32_V0300.zigbee",
+        "path": "images/NodOn/128b-0002-0300-700_nodon_sin_2_fw_efr32_V0300.zigbee"
     },
     {
-        "fileVersion": 543,
-        "fileSize": 401588,
+        "fileVersion": 768,
+        "fileSize": 412240,
         "manufacturerCode": 4747,
         "imageType": 10,
-        "sha512": "e40fdab5bc41b290ba85b8b1da167b3d4b1698b73b7231e6122a9e8f6e17ddd15b58dbb0a81b0fc91d7098a7d0b094a25ed894d5b77fc5311da4473992e36ea5",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/NodOn/128b-000A-021F-700_nodon_sin_1_fw_efr32_V021F.zigbee",
-        "path": "images/NodOn/128b-000A-021F-700_nodon_sin_1_fw_efr32_V021F.zigbee"
+        "sha512": "e6ad40443575405353279e7edc0e23f4b4ded8391012f97d1e0db9d661854f6bf4cd707a969337b53e0fb7fd64ba7dbdad268d9bb3e4856c837fe47d9c06da1e",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/NodOn/128b-000A-0300-700_nodon_sin_1_fw_efr32_V0300.zigbee",
+        "path": "images/NodOn/128b-000A-0300-700_nodon_sin_1_fw_efr32_V0300.zigbee"
     },
     {
         "fileVersion": 5,
@@ -3061,13 +3061,13 @@
         "path": "images/NodOn/128b-0109-10102-700_nodon_sin_rs_fm_stm32_V10102.zigbee"
     },
     {
-        "fileVersion": 543,
-        "fileSize": 386236,
+        "fileVersion": 768,
+        "fileSize": 396884,
         "manufacturerCode": 4747,
         "imageType": 6,
-        "sha512": "c64adcf1118f58b3d906a7f6261e103c2d8a8d8e8c1d69e27bbe568d38c8fc44cdf0b23e0b9fd311002a5c467a07cd0fa8b2376ec8e93dc56800b19b2ad37519",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/NodOn/128b-0006-021F-700_nodon_sin_fp_fw_efr32_V021F.zigbee",
-        "path": "images/NodOn/128b-0006-021F-700_nodon_sin_fp_fw_efr32_V021F.zigbee"
+        "sha512": "9dc7ab976a2f371f2dd97559ff84abfa40e36e913775f1b2adb30c501ded716e713b88187b5a95ba3b2928170a96509a25223dc89c5cb742df2093fc04ae5d5e",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/NodOn/128b-0006-0300-700_nodon_sin_fp_fw_efr32_V0300.zigbee",
+        "path": "images/NodOn/128b-0006-0300-700_nodon_sin_fp_fw_efr32_V0300.zigbee"
     },
     {
         "fileVersion": 66561,
@@ -3201,5 +3201,14 @@
         "modelId": "lumi.switch.acn055",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20231106154038_OTA_lumi.switch.acn055_0.0.0_0031_20231102_630096.ota",
         "path": "images/Lumi/20231106154038_OTA_lumi.switch.acn055_0.0.0_0031_20231102_630096.ota"
+    },
+    {
+        "fileVersion": 768,
+        "fileSize": 399024,
+        "manufacturerCode": 4747,
+        "imageType": 5,
+        "sha512": "184b9a1e6e3eee2333231073c2c8dd3b2e4072219a2774bd57f59fcb09b0acbce1539fd5d9f28a808fb8ba1312c974d4cfc502e71ed6b02747d229aef78f1e9a",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/NodOn/128b-0005-0300-700_nodon_sin_met_fw_efr32_V0300.zigbee",
+        "path": "images/NodOn/128b-0005-0300-700_nodon_sin_met_fw_efr32_V0300.zigbee"
     }
 ]
