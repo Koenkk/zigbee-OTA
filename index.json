@@ -3210,5 +3210,77 @@
         "sha512": "184b9a1e6e3eee2333231073c2c8dd3b2e4072219a2774bd57f59fcb09b0acbce1539fd5d9f28a808fb8ba1312c974d4cfc502e71ed6b02747d229aef78f1e9a",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/NodOn/128b-0005-0300-700_nodon_sin_met_fw_efr32_V0300.zigbee",
         "path": "images/NodOn/128b-0005-0300-700_nodon_sin_met_fw_efr32_V0300.zigbee"
+    },
+    {
+        "fileVersion": 25,
+        "fileSize": 255890,
+        "manufacturerCode": 4644,
+        "imageType": 6207,
+        "sha512": "77238bf33e618f65d5651235836277bfa985ab14db09caf1f7be6b97cf962e4b89edacb204249c427392d24e3a63b5b5bcb2ee41af053524d2ccba8575853c13",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Namron/5401392-Firmware-35.ota",
+        "path": "images/Namron/5401392-Firmware-35.ota"
+    },
+    {
+        "fileVersion": 25,
+        "fileSize": 255890,
+        "manufacturerCode": 4644,
+        "imageType": 6206,
+        "sha512": "d7c57d581cfdff58c7ecd6201bad199b9e30e9d96e692767a4435718ad67853933ccc5779f0ab60dc13ee947d8d78d071c9d1445e3c1aff18b6e58cda5fdf776",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Namron/5401393-Firmware-35.ota",
+        "path": "images/Namron/5401393-Firmware-35.ota"
+    },
+    {
+        "fileVersion": 25,
+        "fileSize": 255890,
+        "manufacturerCode": 4644,
+        "imageType": 6205,
+        "sha512": "aced4b4f5e579e65201476e41d98708fc09b1cefbaee7bf2dc87e9e95f1bbc0a6ecdfe1e3fde89495d666c2b6648ac9c0a78e7f3cba68eeac195847a019e14cb",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Namron/5401394-Firmware-35.ota",
+        "path": "images/Namron/5401394-Firmware-35.ota"
+    },
+    {
+        "fileVersion": 25,
+        "fileSize": 255890,
+        "manufacturerCode": 4644,
+        "imageType": 6204,
+        "sha512": "0d73ecc7b2d8b92c7508da39a1db5a52b3cb0deb73cc2ffb58b6d7522f8843910330488b574885d8d87065fd6eb2e9be6b361d5be53dd76aee4d13835492ebb4",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Namron/5401395-Firmware-35.ota",
+        "path": "images/Namron/5401395-Firmware-35.ota"
+    },
+    {
+        "fileVersion": 25,
+        "fileSize": 255890,
+        "manufacturerCode": 4644,
+        "imageType": 6211,
+        "sha512": "9acfb847048dbf5de2eb022e09a6187dc1201849119a8c1d59c87a352769ca440627abc9ca903177a281fd4f015b7600ad6bb9c890e1caee0692411f92ae9daa",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Namron/5401396-Firmware-35.ota",
+        "path": "images/Namron/5401396-Firmware-35.ota"
+    },
+    {
+        "fileVersion": 25,
+        "fileSize": 255890,
+        "manufacturerCode": 4644,
+        "imageType": 6210,
+        "sha512": "2bd9a7db0c606e54fcd1cb8ca69301569652b0ae859ba1dc1cd15205e305ec1f2c4ec19a71c7d851032903386199053c0927d224e1215b78ee9b1a2648bb1082",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Namron/5401397-Firmware-35.ota",
+        "path": "images/Namron/5401397-Firmware-35.ota"
+    },
+    {
+        "fileVersion": 25,
+        "fileSize": 255890,
+        "manufacturerCode": 4644,
+        "imageType": 6209,
+        "sha512": "e6b59973e7659f8f2d1c5e237129e184acd9bc0509acac302905604bba38588de9e681aa8b8a9a4a59f3573d4845e65ff7505ae0038079df025135c1bad34ee0",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Namron/5401398-Firmware-35.ota",
+        "path": "images/Namron/5401398-Firmware-35.ota"
+    },
+    {
+        "fileVersion": 25,
+        "fileSize": 255890,
+        "manufacturerCode": 4644,
+        "imageType": 6208,
+        "sha512": "81a8aa05bd2ac259e7ff21bc70588b5a56f4e9a9e04c5a48a66b07534604e2836e8210b406ea582a3f1781173e0692c63a38db59d6e20f2e95815b4ba852bf69",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Namron/5401399-Firmware-35.ota",
+        "path": "images/Namron/5401399-Firmware-35.ota"
     }
 ]
