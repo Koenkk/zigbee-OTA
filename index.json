@@ -2953,14 +2953,14 @@
         "path": "images/Lumi/20230610160234_lumi.light.acn132_mcu_0.0.0_2627_20230606_DA1C86.ota"
     },
     {
-        "fileVersion": 1380150,
-        "fileSize": 328448,
+        "fileVersion": 1380152,
+        "fileSize": 330226,
         "manufacturerCode": 4447,
         "imageType": 2828,
-        "sha512": "226523ac8f7d692bac2450ddd7ed995ab1b1af02ff28e4425f467bb63672b9c3089356424fe2642d32428e511ef5157cf3b4f4a9bb685d5b46c89fdf35d97476",
+        "sha512": "9431665fa15ce3b45860473b09d89bd768016b6ac5711b4867f66fc521fd14751fa225025b7c28670b4c9ae901d12f4e8e61cbf1ad08600fffeb2e063d43f10d",
         "modelId": "lumi.switch.n3acn1",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20230414104924_OTA_lumi.switch.n3acn1_0.0.0_211554_20230414_0C7505.ota",
-        "path": "images/Lumi/20230414104924_OTA_lumi.switch.n3acn1_0.0.0_211554_20230414_0C7505.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20240116160718_OTA_lumi.switch.n3acn1_0.0.0_211556_20240115_F65865.ota",
+        "path": "images/Lumi/20240116160718_OTA_lumi.switch.n3acn1_0.0.0_211556_20240115_F65865.ota"
     },
     {
         "fileVersion": 541187,
@@ -2990,14 +2990,14 @@
         "path": "images/EcoDim/ZB21S3_HZC_Dimmer1_EcoDim-Zigbee 3.0_1.01_20230908.ota"
     },
     {
-        "fileVersion": 27,
-        "fileSize": 329030,
+        "fileVersion": 30,
+        "fileSize": 411786,
         "manufacturerCode": 4447,
         "imageType": 6416,
-        "sha512": "bb6883f20f2c4cd287941b3eda81f1f2afc3168e23848caf04e6464ddce103ca4eddb4fd7e747cc17fa4a606839df85aa9ef942746703b7945426d6a74d1d417",
+        "sha512": "bed1de09ca57d6f9d04e2503fe52c79db4d1daf9706c9f169507897609853cacc45c875860bb6853bfde7226ef0da861dba952c9e2b177e90b31002bf0e4daeb",
         "modelId": "lumi.switch.acn047",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20230606111609_OTA_lumi.switch.acn047_0.0.0_0027_20230606_4820EC.ota",
-        "path": "images/Lumi/20230606111609_OTA_lumi.switch.acn047_0.0.0_0027_20230606_4820EC.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20240111171722_OTA_lumi.switch.acn047__20240110_EC6C1F.ota",
+        "path": "images/Lumi/20240111171722_OTA_lumi.switch.acn047__20240110_EC6C1F.ota"
     },
     {
         "fileVersion": 50,
@@ -3106,14 +3106,14 @@
         "path": "images/Develco/ZR_Smartplug_SSIG_3.12.16.zigbee"
     },
     {
-        "fileVersion": 1380150,
-        "fileSize": 325136,
+        "fileVersion": 1380152,
+        "fileSize": 326898,
         "manufacturerCode": 4447,
         "imageType": 2572,
-        "sha512": "9192a01dc8310ace8b70b81da91d8132d96fbf74510475c94ba5f07b867f687f327a76358679fdb87b07a2bc7ea9a514f0088fe268269f9c20597682a1795beb",
+        "sha512": "140676a68d2aef89f02ed44e0314ab95a69e632e4b338d878d6ad9152df1ce57acd3e287494d591150bfa9eae5b5054b43752497585842dd1be08ef8faf15c56",
         "modelId": "lumi.switch.n1acn1",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20230414104812_OTA_lumi.switch.n1acn1_0.0.0_211554_20230414_79A077.ota",
-        "path": "images/Lumi/20230414104812_OTA_lumi.switch.n1acn1_0.0.0_211554_20230414_79A077.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20240116105419_OTA_lumi.switch.n1acn1_0.0.0_211556_20240115_C2A087.ota",
+        "path": "images/Lumi/20240116105419_OTA_lumi.switch.n1acn1_0.0.0_211556_20240115_C2A087.ota"
     },
     {
         "fileVersion": 22,
