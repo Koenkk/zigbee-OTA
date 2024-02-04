@@ -3008,13 +3008,13 @@
         "url": "https://tr-zha.s3.amazonaws.com/firmware/FW_ha_v0.00.50.ota"
     },
     {
-        "fileVersion": 268840961,
-        "fileSize": 130066,
+        "fileVersion": 285224961,
+        "fileSize": 131362,
         "manufacturerCode": 4417,
         "imageType": 515,
-        "sha512": "9dc307f05613bd43384744901eb4aea7bb5cfa9f4385ee2693b46afd1d0f5dc5eca6e5ce217a04aae9d1ba89799b389a6f9b01ca7779aed80ece355c91c92d90",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Telink/1141-0203-10063001-z03mmc.zigbee",
-        "path": "images/Telink/1141-0203-10063001-z03mmc.zigbee"
+        "sha512": "d0ff5ed064be67820f5528d40f1b95ea93650ad0ff9d831fd51dae049544134fa7d5bcf43fb53b889cb1f986fa8562c844e6ddf62333b96368c0376322f18681",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Telink/1141-0203-11003001-z03mmc.zigbee",
+        "path": "images/Telink/1141-0203-11003001-z03mmc.zigbee"
     },
     {
         "fileVersion": 18100225,
