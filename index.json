@@ -3291,5 +3291,14 @@
         "sha512": "81a8aa05bd2ac259e7ff21bc70588b5a56f4e9a9e04c5a48a66b07534604e2836e8210b406ea582a3f1781173e0692c63a38db59d6e20f2e95815b4ba852bf69",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Namron/5401399-Firmware-35.ota",
         "path": "images/Namron/5401399-Firmware-35.ota"
+    },
+    {
+        "fileVersion": 37749808,
+        "fileSize": 233214,
+        "manufacturerCode": 4338,
+        "imageType": 31557,
+        "sha512": "3e6db28ad868352001057d37274d794878cd19c3f705c12cb6daecec9627a98d905c2738b187138b42f453b42d5090b9ad7c957d04e1a35161f7f5de00e63ae8",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Ubisys/10F2-7B45-0100-0100-02400430-ubisys-s1r-qpg6105.ota.zigbee",
+        "path": "images/Ubisys/10F2-7B45-0100-0100-02400430-ubisys-s1r-qpg6105.ota.zigbee"
     }
 ]
