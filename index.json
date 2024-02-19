@@ -3291,5 +3291,25 @@
         "sha512": "81a8aa05bd2ac259e7ff21bc70588b5a56f4e9a9e04c5a48a66b07534604e2836e8210b406ea582a3f1781173e0692c63a38db59d6e20f2e95815b4ba852bf69",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Namron/5401399-Firmware-35.ota",
         "path": "images/Namron/5401399-Firmware-35.ota"
+    },
+    {
+        "fileVersion": 32,
+        "fileSize": 267726,
+        "manufacturerCode": 4447,
+        "imageType": 520,
+        "sha512": "1c7e4d51802bd4196e6ea0cf432b5bb40117ae71d20035341be25834417f2c12873539ba99953039c468a2d801b7c59b8a6290619b36bdf195b2161ca1cf9322",
+        "modelId": "lumi.switch.b1lacn01",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/lumi.switch.b1lacn01_0.0.0_0032_20200414.ota",
+        "path": "images/Lumi/lumi.switch.b1lacn01_0.0.0_0032_20200414.ota"
+    },
+    {
+        "fileVersion": 33,
+        "fileSize": 270894,
+        "manufacturerCode": 4447,
+        "imageType": 4232,
+        "sha512": "b2ef1b4a93225ef8d0400a039fb67a124fc188b90d9bc9d1b9444fcf780465bcfcc78c9c2df8987034487d8bd9b12e5296b307b9088bfec2049c86a2a43a2091",
+        "modelId": "lumi.switch.b3l01",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/lumi.switch.b3l01_0.0.0_0033_20200414.ota",
+        "path": "images/Lumi/lumi.switch.b3l01_0.0.0_0033_20200414.ota"
     }
 ]
