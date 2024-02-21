@@ -3311,5 +3311,14 @@
         "modelId": "lumi.switch.b3l01",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/lumi.switch.b3l01_0.0.0_0033_20200414.ota",
         "path": "images/Lumi/lumi.switch.b3l01_0.0.0_0033_20200414.ota"
+    },
+    {
+        "fileVersion": 285224961,
+        "fileSize": 131362,
+        "manufacturerCode": 56085,
+        "imageType": 515,
+        "sha512": "2a7a17f348f6631e10217d689456ddeceaf768e06267a76a93335a8fb0ee57dfda88e84830536eb478977e423d3add9ff0590839b8736e465e216d0d81f474e9",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/DIY/db15-0203-11003001-z03mmc.zigbee",
+        "path": "images/DIY/db15-0203-11003001-z03mmc.zigbee"
     }
 ]
