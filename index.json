@@ -2848,8 +2848,7 @@
         "manufacturerCode": 4405,
         "imageType": 256,
         "sha512": "0905f0e6a469be3893f2c665156f18077258e24439e283c9f4b121553a94e8eb142e6250e721585ddd9aceef75da3c10a03defaee89885d7cb8f08449a20912d",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/DresdenElektronik/1135-100-1000002A-UPAktorApp.zigbee",
-        "path": "images/DresdenElektronik/1135-100-1000002A-UPAktorApp.zigbee"
+        "url": "https://deconz.dresden-elektronik.de/otau/1135-0100-1000002A-Kobold.zigbee"
     },
     {
         "fileVersion": 2097179,
