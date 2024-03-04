@@ -2999,12 +2999,12 @@
         "path": "images/Lumi/20240111171722_OTA_lumi.switch.acn047__20240110_EC6C1F.ota"
     },
     {
-        "fileVersion": 66,
-        "fileSize": 288962,
+        "fileVersion": 60,
+        "fileSize": 288942,
         "manufacturerCode": 4877,
         "imageType": 0,
-        "sha512": "54813515ac579d6006966a4a35b0262efa8d6755f3dd19822bb18994ed3a59c7a946fc5c4932733c2372a3eb9f53ca83f9c508dac52464cd101d1ce5d49e6406",
-        "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/FW_ha_v0.00.66.ota"
+        "sha512": "98b9db6f31bbe43703f1613932be5b8da72ef9648a14c534aaf7810649ffc44739c2c57fa8fb0ff944cdf85c5a1af24c4b01fcefcef7996fdfcc8772de730ed9",
+        "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/FW_ha_v0.00.60.ota"
     },
     {
         "fileVersion": 285224961,
