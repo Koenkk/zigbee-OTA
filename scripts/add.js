@@ -15,6 +15,7 @@ const manufacturerNameLookup = {
     4117: 'Develco',
     4129: 'Legrand',
     4151: 'Jennic',
+    4190: 'SchneiderElectric',
     4364: 'Osram',
     4405: 'DresdenElektronik',
     4417: 'Telink',
