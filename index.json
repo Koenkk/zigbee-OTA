@@ -3447,5 +3447,14 @@
         "modelId": "lumi.light.acn032",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20231227113844_lumi.light.acn032_0.0.0_0026_20231226_064840.ota",
         "path": "images/Lumi/20231227113844_lumi.light.acn032_0.0.0_0026_20231226_064840.ota"
+    },
+    {
+        "fileVersion": 344579,
+        "fileSize": 219367,
+        "manufacturerCode": 4129,
+        "imageType": 52,
+        "sha512": "3966855af6364119a0a2266490f2eabba4d9d072c0592e2728285a545579e659ccead0925b727e58108f8a1a4842d12895b620d7ceba096ef9c920d7d72f030c",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-0034-00054203-NLY.zigbee",
+        "path": "images/Legrand/1021-0034-00054203-NLY.zigbee"
     }
 ]
