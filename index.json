@@ -1543,13 +1543,13 @@
         "path": "images/Legrand/1021-0010-00414203-NLM.zigbee"
     },
     {
-        "fileVersion": 5456895,
+        "fileVersion": 5456387,
         "fileSize": 250743,
         "manufacturerCode": 4129,
         "imageType": 17,
-        "sha512": "07d6b136c6012315efbfff1de9fb6b70c0b187463b80e6ec34005b38695682da073aa1ae20ac9d6c2569bf2b562492bc18bf672c1de78bff2bd1098dd1c186fb",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-0011-005343FF-NLP.zigbee",
-        "path": "images/Legrand/1021-0011-005343FF-NLP.zigbee"
+        "sha512": "697944727969c5a360807c685651fd021c98a1f7ca54e41cab3b0802a5f80c69e7396d16b00addf93878d0b41f7d5e666d158991f135d27aa21047152cae23e4",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-0011-00534203-NLP.zigbee",
+        "path": "images/Legrand/1021-0011-00534203-NLP.zigbee"
     },
     {
         "fileVersion": 4604419,
