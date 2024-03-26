@@ -3475,5 +3475,50 @@
         "sha512": "868e671255db3c753a282125cdc4c333771cf1032423968b1412f9760cb105f97874261ab56559dc1cf54c0742eec062ccf9b8a75b4ef5e85b1485e8d5fd1aac",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Gledopto/GL-C-009P%28MINI%29_20451203_20240227.ota",
         "path": "images/Gledopto/GL-C-009P(MINI)_20451203_20240227.ota"
+    },
+    {
+        "fileVersion": 268462640,
+        "fileSize": 306294,
+        "manufacturerCode": 4919,
+        "imageType": 4099,
+        "sha512": "4b161a3ea4586657f249ff6de7e8134b1fee6658b99574e1e5bc34a71ab3647513e86dcc38c1b7af0eba1810c5f0d9773c1a69cf64129c34bf567384e5b1cc17",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Datek/ctm_mains_power_outlet.ota",
+        "path": "images/Datek/ctm_mains_power_outlet.ota"
+    },
+    {
+        "fileVersion": 256920,
+        "fileSize": 269370,
+        "manufacturerCode": 4919,
+        "imageType": 4109,
+        "sha512": "583cb7e4829174f225d8f99d82e49b764de30c4f7b35cb9002d183ad237c58305eca1436abff6607671b66a549807b77d45558d204868bb5bc9eed6132929123",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Datek/ctm_mbd-s_2_5.ota",
+        "path": "images/Datek/ctm_mbd-s_2_5.ota"
+    },
+    {
+        "fileVersion": 206920,
+        "fileSize": 297862,
+        "manufacturerCode": 4919,
+        "imageType": 4114,
+        "sha512": "a4c805a4769d38f6ed9ffad358573aeb4e3dceaba2d3b2cf693f39e64fa94a5cc7a8efdc6c5363521c54d9e6c10901fd1606af674fde2e60bcbb96ad4c79daf0",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Datek/dimmerpille_v2_0_v_4_combined_OTA.ota",
+        "path": "images/Datek/dimmerpille_v2_0_v_4_combined_OTA.ota"
+    },
+    {
+        "fileVersion": 316920,
+        "fileSize": 462058,
+        "manufacturerCode": 4919,
+        "imageType": 4113,
+        "sha512": "0c175bed4bef94a26541d6a1fc8cfdff6c78d2234d479fa3b2a542fe642b41324282feebfad1140ca5d3aa8221d12a8fffb385eaf0e3c41372b663bdadbcd126",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Datek/mTouch_Dim_v3_1_v35_combined_OTA.ota",
+        "path": "images/Datek/mTouch_Dim_v3_1_v35_combined_OTA.ota"
+    },
+    {
+        "fileVersion": 386920,
+        "fileSize": 471258,
+        "manufacturerCode": 4919,
+        "imageType": 4102,
+        "sha512": "11e455bb88f247c8b7e99db34c5d760a23da7097214cc2cb15f369617e91a94da1189fe81b5ecfadbb9fcd22f8ec66a1a5087bc9aac3e0af47be34f888416062",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Datek/mTouch_One_v3_8_v72_combined_OTA.ota",
+        "path": "images/Datek/mTouch_One_v3_8_v72_combined_OTA.ota"
     }
 ]
