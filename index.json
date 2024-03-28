@@ -2634,22 +2634,22 @@
         "path": "images/IKEA/ota_t0x110f_m0x117c_v0x01000011.ota"
     },
     {
-        "fileVersion": 58,
-        "fileSize": 397994,
+        "fileVersion": 61,
+        "fileSize": 412542,
         "manufacturerCode": 26214,
         "imageType": 1,
-        "sha512": "40435559fe1aa4be0fa3cfffdb46a010a28a7776e6c73e200f43560d18eeb3f0fd594855781f39800b05b668161dcc2342d65f11e4e80642cbe814a27fa4bab7",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sprut.device/zb_wb_msw_31_692_0_058.ota",
-        "path": "images/Sprut.device/zb_wb_msw_31_692_0_058.ota"
+        "sha512": "9cca5fd3f7b910f26cb2fb8c65bd6b62fc421fdcbb1579ed246a93b876337e8e356ed47724e0a023582d51da85dde38a8a991b64f0051dadd81607c9ff696672",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sprut.device/wb_msw3_0_061.ota",
+        "path": "images/Sprut.device/wb_msw3_0_061.ota"
     },
     {
-        "fileVersion": 58,
-        "fileSize": 397990,
+        "fileVersion": 61,
+        "fileSize": 412538,
         "manufacturerCode": 26214,
         "imageType": 2,
-        "sha512": "0dd1d20605de46ed5c068cbb07a4c31cc11d87042717083887d1b0abc8fbdc0c33928286669b206d7cf79228832b6410f488c7a316250a1b0fa144749b40328b",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sprut.device/zb_wb_msw_31_692_A_058.ota",
-        "path": "images/Sprut.device/zb_wb_msw_31_692_A_058.ota"
+        "sha512": "a6d952c38effabb14419080d2989b218e41b1eff337967708bfe1f1a62054c8c465f9e6dca945e90c46bc7b8185d122a08a504619934619dbaedaccb9bbd4be9",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sprut.device/wb_msw3_A_061.ota",
+        "path": "images/Sprut.device/wb_msw3_A_061.ota"
     },
     {
         "fileVersion": 1380147,
@@ -2896,13 +2896,13 @@
         "path": "images/NodOn/128b-000A-0300-700_nodon_sin_1_fw_efr32_V0300.zigbee"
     },
     {
-        "fileVersion": 5,
-        "fileSize": 218494,
+        "fileVersion": 61,
+        "fileSize": 261022,
         "manufacturerCode": 26214,
         "imageType": 13,
-        "sha512": "bf3155e470014ebd73b132102e26b460629030b314d00fe78ddd0c3ca157409e9c0e1d23aa93e34454391688f6294719be964627969cefcfc48efbb3c1dfdc96",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sprut.device/zb_wb_msw4_005.ota",
-        "path": "images/Sprut.device/zb_wb_msw4_005.ota"
+        "sha512": "f68ec119f2a779f10446847d7fe0edcebf44f19bd5e452631aacba295bfcae4881f0a7be934c03e864c3262f26ede6f527f299a4157c6997f94db2fb925a5709",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sprut.device/wb_msw4_mgm_061.ota",
+        "path": "images/Sprut.device/wb_msw4_mgm_061.ota"
     },
     {
         "fileVersion": 32,
