@@ -3468,15 +3468,6 @@
         "path": "images/Legrand/1021-0034-00054203-NLY.zigbee"
     },
     {
-        "fileVersion": 604057601,
-        "fileSize": 212738,
-        "manufacturerCode": 4687,
-        "imageType": 5142,
-        "sha512": "868e671255db3c753a282125cdc4c333771cf1032423968b1412f9760cb105f97874261ab56559dc1cf54c0742eec062ccf9b8a75b4ef5e85b1485e8d5fd1aac",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Gledopto/GL-C-009P%28MINI%29_20451203_20240227.ota",
-        "path": "images/Gledopto/GL-C-009P(MINI)_20451203_20240227.ota"
-    },
-    {
         "fileVersion": 268462640,
         "fileSize": 306294,
         "manufacturerCode": 4919,
