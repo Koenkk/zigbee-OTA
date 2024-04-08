@@ -3154,13 +3154,13 @@
         "path": "images/Lumi/20230704151031_OTA_lumi.curtain.vagl02_V41_20230703_563B.ota"
     },
     {
-        "fileVersion": 4353,
-        "fileSize": 326702,
+        "fileVersion": 4357,
+        "fileSize": 328874,
         "manufacturerCode": 4742,
         "imageType": 8199,
-        "sha512": "b132f02055dffcbf55ccf94f164f1cc1fedb350be4755b56a8da1c3c51ae6814bba3e8650376ce76a0783394eae1315e912deba917efd4f36557c92068b437ef",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sonoff/trvzb_v1.1.1.ota",
-        "path": "images/Sonoff/trvzb_v1.1.1.ota"
+        "sha512": "648ae2ebb866d0d0a2e593b34570943d7fd8596a417597eb4a1966d7caa5bbf60611659ee211aa0d0788d79fbd58627f4e9ac87a62c97912c6a83652e90ef734",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sonoff/trvzb_v1.1.5.ota",
+        "path": "images/Sonoff/trvzb_v1.1.5.ota"
     },
     {
         "fileVersion": 28,
