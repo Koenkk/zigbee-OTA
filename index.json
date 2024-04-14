@@ -2663,13 +2663,13 @@
     },
     {
         "maxFileVersion": 3097090,
-        "fileVersion": 3097091,
-        "fileSize": 240567,
+        "fileVersion": 3949059,
+        "fileSize": 254391,
         "manufacturerCode": 4129,
         "imageType": 19,
-        "sha512": "6093fb567660e913bece95b49c77d43e4cfded9bef29535bb48df6296cdd8c3f4b8ba3fe1fcd168e505033c7f70a43fd1e333f07b289455636344683b5a4f15d",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-0013-002f4203-NLV.zigbee",
-        "path": "images/Legrand/1021-0013-002f4203-NLV.zigbee"
+        "sha512": "c48d08a8ec7a07efaa632fafd5fea7cc40063dd97deab73c1d479825151c3b3a69f729b01a25434238c4ae5e6b86d26d58a735226b42545898d87c86ea777baa",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-0013-003c4203-NLV.zigbee",
+        "path": "images/Legrand/1021-0013-003c4203-NLV.zigbee"
     },
     {
         "minFileVersion": 3097091,
@@ -2750,13 +2750,13 @@
     },
     {
         "minFileVersion": 2245123,
-        "fileVersion": 4015615,
+        "fileVersion": 4014595,
         "fileSize": 256871,
         "manufacturerCode": 4129,
         "imageType": 15,
-        "sha512": "f67ce98d41224c039417f09106b569ee8b4359e796a7dece60cf45c03f7fe3e0a97e6ad8d6540a72931f1247451bfb78004f4f150136b42b7879deceaf9ec603",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-000f-003d45ff-NLL.zigbee",
-        "path": "images/Legrand/1021-000f-003d45ff-NLL.zigbee"
+        "sha512": "da080bb49450cd44baab204d854953c0700187c4ad6df8ec4af825b077ef8d9dccda030b8ac4f8b224358f3406f950629b3f5cdc3e6212ecc3ced9091eb3fba9",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-000f-003d4203-NLL.zigbee",
+        "path": "images/Legrand/1021-000f-003d4203-NLL.zigbee"
     },
     {
         "maxFileVersion": 2245122,
