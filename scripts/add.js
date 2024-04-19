@@ -42,6 +42,7 @@ const manufacturerNameLookup = {
     4877: 'thirdreality',
     4636: 'Aurora',
     56085: 'DIY',
+    5127: '3R',
 };
 
 const main = async () => {

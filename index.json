@@ -3520,5 +3520,13 @@
         "sha512": "f2d5f9551ce46e683da7863d0ac70f3df4f0876be30268ddd86c5e095ef51d99296e94091643cee327dc33b3f3d516ef4a8cb0b5a57bfdd99a8bf365269b8d5d",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/NodOn/128b-0105-010405-700_nodon_sin_xx_met_fm_stm32_V010405.zigbee",
         "path": "images/NodOn/128b-0105-010405-700_nodon_sin_xx_met_fm_stm32_V010405.zigbee"
+    },
+    {
+        "fileVersion": 29,
+        "fileSize": 256174,
+        "manufacturerCode": 5127,
+        "imageType": 54185,
+        "sha512": "3d450453147e414e9998cb000183a22ac6fca656a1a3e11e37b31d7c4fa1ec3f301b28d0b144301630ec33aa1f81afda56d6abfb4191f78d04cd7b9ba27b87b7",
+        "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/ThermalLiteSensor_PROD_OTA_V29_1.00.29.ota"
     }
 ]
