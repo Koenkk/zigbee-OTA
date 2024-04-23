@@ -3528,14 +3528,5 @@
         "imageType": 54185,
         "sha512": "3d450453147e414e9998cb000183a22ac6fca656a1a3e11e37b31d7c4fa1ec3f301b28d0b144301630ec33aa1f81afda56d6abfb4191f78d04cd7b9ba27b87b7",
         "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/ThermalLiteSensor_PROD_OTA_V29_1.00.29.ota"
-    },
-    {
-        "fileVersion": 604057601,
-        "fileSize": 212786,
-        "manufacturerCode": 4687,
-        "imageType": 5138,
-        "sha512": "23817a78e53c1af3a7d010454c02a9438d90cd38ef08874e230917abf540c463c4e7763964cc5fbd5fde4a7f69ad3e10d74f3705d9300ffbde8b0e357c4e2ea8",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Gledopto/GL-C-006P%28MINI%29_20451203_20240227.ota",
-        "path": "images/Gledopto/GL-C-006P(MINI)_20451203_20240227.ota"
     }
 ]
