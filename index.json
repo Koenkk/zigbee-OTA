@@ -3528,5 +3528,32 @@
         "imageType": 54185,
         "sha512": "3d450453147e414e9998cb000183a22ac6fca656a1a3e11e37b31d7c4fa1ec3f301b28d0b144301630ec33aa1f81afda56d6abfb4191f78d04cd7b9ba27b87b7",
         "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/ThermalLiteSensor_PROD_OTA_V29_1.00.29.ota"
+    },
+    {
+        "fileVersion": 370554498,
+        "fileSize": 284962,
+        "manufacturerCode": 4454,
+        "imageType": 817,
+        "sha512": "d137e8f7017c1bb02470972040bc11cb57cf5c846c86abe1703c9a78e9323d1dcf2c43466f7304eb3bd779ac7888e6f4b0f25030c24c82de038e3d7307e5cdc7",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/innr_controlleddevice-sp240-1.6.22.ota",
+        "path": "images/Innr/innr_controlleddevice-sp240-1.6.22.ota"
+    },
+    {
+        "fileVersion": 370554498,
+        "fileSize": 284962,
+        "manufacturerCode": 4454,
+        "imageType": 818,
+        "sha512": "5127a89cc56154b83bb0f77d1287338b7c0734c3f35d8668a8162a7bb00531a89d8e9a15241d87429f0f96f7cc163fe80e5baeddb5d0d89742eb563f531cc73b",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/innr_controlleddevice-sp242-1.6.22.ota",
+        "path": "images/Innr/innr_controlleddevice-sp242-1.6.22.ota"
+    },
+    {
+        "fileVersion": 370554498,
+        "fileSize": 284962,
+        "manufacturerCode": 4454,
+        "imageType": 819,
+        "sha512": "178498b7ad89b81792ad34df675167fcbee3c306e6bbe7336b97fe06f92b5e919d6c6b9a14788172e47deaa4422b977fed38fce7af61dd92a471886325421cc7",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/innr_controlleddevice-sp244-1.6.22.ota",
+        "path": "images/Innr/innr_controlleddevice-sp244-1.6.22.ota"
     }
 ]
