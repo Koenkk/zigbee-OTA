@@ -3557,13 +3557,12 @@
         "path": "images/Innr/innr_controlleddevice-sp244-1.6.22.ota"
     },
     {
-        "fileVersion": 604057601,
+        "fileVersion": 620834817,
         "fileSize": 203170,
         "manufacturerCode": 4687,
         "imageType": 5138,
-        "sha512": "3e257d2c8534440f8b7636cf842e57a04209aa8908861560235b7879d952fd8fac390798c6b82bb6b6fead33cdf8d549b73e69213cff8f49ba749a23db751893",
-        "modelId": "GL-C-006P",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Gledopto/GL-C-006P_V20451203_KEY_20240227.ota",
-        "path": "images/Gledopto/GL-C-006P_V20451203_KEY_20240227.ota"
+        "sha512": "199c17f92fa3f238c08331e5c134630f9d725fcadfe4fcb6ef8fc55af671fe2c6fa8d20da1816948ae6927e6cfe81b732a71212662de4e6196785041769b5fb2",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Gledopto/GL-C-006P_V20551203_KEY_20240227.ota",
+        "path": "images/Gledopto/GL-C-006P_V20551203_KEY_20240227.ota"
     }
 ]
