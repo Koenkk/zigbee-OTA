@@ -3555,5 +3555,14 @@
         "sha512": "178498b7ad89b81792ad34df675167fcbee3c306e6bbe7336b97fe06f92b5e919d6c6b9a14788172e47deaa4422b977fed38fce7af61dd92a471886325421cc7",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/innr_controlleddevice-sp244-1.6.22.ota",
         "path": "images/Innr/innr_controlleddevice-sp244-1.6.22.ota"
+    },
+    {
+        "fileVersion": 16908815,
+        "fileSize": 306782,
+        "manufacturerCode": 4655,
+        "imageType": 257,
+        "sha512": "0c0973c9ad5f627b9cd1cfea8c6d4b0e57958378b4ca21b97d9552fa0183eecbb3c3971cf4f965e39c8b974aa3e91653c9ef7a55abe4ae478a67dccc6417b26a",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Inovelli/VZM31-SN%202.ota",
+        "path": "images/Inovelli/VZM31-SN 2.ota"
     }
 ]
