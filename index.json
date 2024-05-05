@@ -1690,13 +1690,13 @@
         "url": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/download/v13.0/ZLinky_router_v13.ota"
     },
     {
-        "fileVersion": 587280385,
-        "fileSize": 212866,
+        "fileVersion": 620834817,
+        "fileSize": 202962,
         "manufacturerCode": 4687,
         "imageType": 5145,
-        "sha512": "18e6d553f93a1173edb1e8aaca5023bcdb147067f5e5f776f4f207ce0a35c12910c850ef553e97fbd488e18957d5418017adce4d00d7a6007b1850f7020ea88b",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Gledopto/GL-C-002P_V20351203_20230721.ota",
-        "path": "images/Gledopto/GL-C-002P_V20351203_20230721.ota"
+        "sha512": "d08d30e603877ef04100ba59d28ec10d6b3f3d31b9407a18517348573d39d2b67a11174e819c38752d257c3f8dd256d66a59a76225e03d4be77a6bbe8f4b3c59",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Gledopto/GL-C-002P_V20551203_20240125.ota",
+        "path": "images/Gledopto/GL-C-002P_V20551203_20240125.ota"
     },
     {
         "fileVersion": 352399361,
@@ -3564,5 +3564,14 @@
         "sha512": "0c0973c9ad5f627b9cd1cfea8c6d4b0e57958378b4ca21b97d9552fa0183eecbb3c3971cf4f965e39c8b974aa3e91653c9ef7a55abe4ae478a67dccc6417b26a",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Inovelli/VZM31-SN_2.15-Production.ota",
         "path": "images/Inovelli/VZM31-SN_2.15-Production.ota"
+    },
+    {
+        "fileVersion": 604057601,
+        "fileSize": 209330,
+        "manufacturerCode": 4687,
+        "imageType": 5154,
+        "sha512": "5edf31594046cd881aa47ba966909ead5e065f3c6816a30cbeea6499845313d24f27fbdc491ab02b181a8015134949cb5fb78ef76418a5cfcc982241c9e401ac",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Gledopto/GL-B-007P_V20451233_20240425.ota",
+        "path": "images/Gledopto/GL-B-007P_V20451233_20240425.ota"
     }
 ]
