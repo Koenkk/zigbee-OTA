@@ -30,6 +30,7 @@ const manufacturerNameLookup = {
     4617: 'Bosch',
     4644: 'Namron',
     4648: 'Terncy',
+    4655: 'Inovelli',
     4659: 'ThirdReality',
     4678: 'Danfoss',
     4687: 'Gledopto',
