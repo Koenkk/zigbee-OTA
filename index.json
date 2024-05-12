@@ -3036,13 +3036,13 @@
         "path": "images/Telink/1141-0208-01143001-ZMHOC401N.zigbee"
     },
     {
-        "fileVersion": 18886657,
-        "fileSize": 128034,
+        "fileVersion": 18952193,
+        "fileSize": 127298,
         "manufacturerCode": 4417,
         "imageType": 522,
-        "sha512": "2eb14d1218e38879189c459ca209d1d36094ba481a222777665fe1e3bad57c46230ea1119d3827a0a626fe8a70a24c235e885e85a59f8aa084555f95a36b2b2f",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Telink/1141-020a-01203001-Z03MMC.zigbee",
-        "path": "images/Telink/1141-020a-01203001-Z03MMC.zigbee"
+        "sha512": "7dbb388c19b2d80d184069243141771f938d560b16ca41b1cfc6daf9151ddb2038becdec8010ee2b24763ebdb92f96efb54f51f0e81764ab3e399a52a43c6725",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Telink/1141-020a-01213001-Z03MMC.zigbee",
+        "path": "images/Telink/1141-020a-01213001-Z03MMC.zigbee"
     },
     {
         "fileVersion": 65793,
