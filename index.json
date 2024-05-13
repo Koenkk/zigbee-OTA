@@ -2063,12 +2063,12 @@
         "path": "images/Lumi/20230221165005_OTA_lumi.airrtc.agl001_0.0.0_1030_20230220_712488.ota"
     },
     {
-        "fileVersion": 70,
-        "fileSize": 133522,
+        "fileVersion": 72,
+        "fileSize": 134146,
         "manufacturerCode": 4659,
         "imageType": 54183,
-        "sha512": "c6933ee8eb7b973ede477730ed3cdb9ca392df743f92c5571f395e909c0ca8cf650ab1aa678c8dc09eef4bd8717de584420f22a077fd2591cd1ad40c482ae9e2",
-        "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/SmartCurtain_PROD_OTA_V70_v1.00.70.ota"
+        "sha512": "b027134d28d5f297b4f98b549ef916cd0082fa2e69e99426fc0639711a5e4a1fc1a3e38750cfd590b20152ccd36ecd973a3ab8edf00819a2b625de7e9223a253",
+        "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/SmartCurtain_PROD_OTA_V72_v1.00.72.ota"
     },
     {
         "fileVersion": 28,
