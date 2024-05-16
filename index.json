@@ -3575,5 +3575,14 @@
         "modelId": "GL-B-007P",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Gledopto/GL-B-007P_V20451233_20240425.ota",
         "path": "images/Gledopto/GL-B-007P_V20451233_20240425.ota"
+    },
+    {
+        "fileVersion": 33685764,
+        "fileSize": 227438,
+        "manufacturerCode": 4655,
+        "imageType": 513,
+        "sha512": "36e6393affb29bcfa06a199df5fb1d2c5d02a23545a0a81dd6975d6f5e3f205a737259c314f1d21f025d5d964fbbcb2f54d4b04b50602d3bec79bab477b8ea74",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Inovelli/VZM35-SN_1.04-Production.ota",
+        "path": "images/Inovelli/VZM35-SN_1.04-Production.ota"
     }
 ]
