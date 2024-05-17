@@ -2037,12 +2037,12 @@
         "path": "images/Lumi/20221213122302_OTA_aqara.feeder.acn001_0.0.0_3833_20220914_03DFD1.ota"
     },
     {
-        "fileVersion": 58,
-        "fileSize": 131954,
+        "fileVersion": 64,
+        "fileSize": 132562,
         "manufacturerCode": 4659,
         "imageType": 54179,
-        "sha512": "0114dc96e8676ea83ec1bb27f3b34d8c5d237bb09e48ab038e1de7ec3439cc04f3577888e6e3383de72957af4a1d3ef325d494f1e775896256e34fbc6a8100e3",
-        "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/Water_Leak_Sensor_PROD_OTA_V58_v1.00.58.ota"
+        "sha512": "30e3302d50cbd55d4bf07223cea7a0aa0875eb6f4b709a9f9525a8a66bfbce666f9ee38e1b5a701fb95b8d57db58a7d88db749c4be8235cfc8dce1b462fc47b8",
+        "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/Water_Leak_Sensor_PROD_OTA_V64_v1.00.64.ota"
     },
     {
         "fileVersion": 23,
