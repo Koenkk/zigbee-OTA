@@ -1435,13 +1435,13 @@
         "path": "images/Develco/FireAlarm_4.0.8.zigbee"
     },
     {
-        "fileVersion": 262145,
-        "fileSize": 202796,
+        "fileVersion": 262151,
+        "fileSize": 204077,
         "manufacturerCode": 4117,
         "imageType": 832,
-        "sha512": "bcf8dd5ce9b622267a9999baa6df8928dd1d2511b8829a9f0a68594d9ef8b0b5f249e17828450e0845ce4d5b2d48369644c0c2327cbe65783b754061a759b6cd",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Develco/ED_HA_EMI_Norwegian_HAN_4.0.1.zigbee",
-        "path": "images/Develco/ED_HA_EMI_Norwegian_HAN_4.0.1.zigbee"
+        "sha512": "cbc9158bc45d7a819d56ed72dc9b53c717371ccc25a17e84ea13819ce62c5a50cc549602b4b7979dd70561be5e1c4c0a31ba2899a15a20730d894165f3c4a487",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Develco/EmiNorwegianHan_4.0.7.zigbee",
+        "path": "images/Develco/EmiNorwegianHan_4.0.7.zigbee"
     },
     {
         "fileVersion": 26,
@@ -2167,13 +2167,13 @@
         "path": "images/Legrand/1021-0015-00224203-NLC.zigbee"
     },
     {
-        "fileVersion": 262146,
-        "fileSize": 208018,
+        "fileVersion": 262150,
+        "fileSize": 210750,
         "manufacturerCode": 4117,
         "imageType": 386,
-        "sha512": "160ebf2451f9fd6f377ba674a964e2194a173608a9f8d5cd76a9c11d5bfdebc51223d0f237f745b0db7102ae6b18f7f1436b6721240b26eb6851513ffb075b95",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Develco/ED_HA_Motion_Sensor_Mini-SSIG_4.0.2.zigbee",
-        "path": "images/Develco/ED_HA_Motion_Sensor_Mini-SSIG_4.0.2.zigbee"
+        "sha512": "6ed82ead9881ae40347b51127aef48309cd54b78f0be3d46b42337cd34a095b49d9fe0bce434c06059136292bd33d6f8e44cd46a9d7a6d1c9c9934d10ab64af3",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Develco/MotionSensor_4.0.6.zigbee",
+        "path": "images/Develco/MotionSensor_4.0.6.zigbee"
     },
     {
         "fileVersion": 26,
@@ -2703,13 +2703,13 @@
         "path": "images/Bosch/0x1209_0x300a_0x35091514.ota"
     },
     {
-        "fileVersion": 262145,
-        "fileSize": 197745,
+        "fileVersion": 262146,
+        "fileSize": 200121,
         "manufacturerCode": 4117,
         "imageType": 576,
-        "sha512": "98171927e5045f7593eada86e5da1c6888b719848bc8771814e38f792d3f37f7480679e3dcb76a7ea20cb149b19512d4aebf3e105f7c1975cbd1a1ff3c3e71e9",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Develco/WindowSensor_4.0.1.zigbee",
-        "path": "images/Develco/WindowSensor_4.0.1.zigbee"
+        "sha512": "839eff218970eb619c9f15ae63f435da50d2cf93f44569de4fea56d63d49c888031b1ee0714e447b39f90664eaa490bf619b8eac641c296a27b609e78c61fc56",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Develco/EntrySensor_4.0.2.zigbee",
+        "path": "images/Develco/EntrySensor_4.0.2.zigbee"
     },
     {
         "fileVersion": 768,
@@ -3584,5 +3584,95 @@
         "sha512": "36e6393affb29bcfa06a199df5fb1d2c5d02a23545a0a81dd6975d6f5e3f205a737259c314f1d21f025d5d964fbbcb2f54d4b04b50602d3bec79bab477b8ea74",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Inovelli/VZM35-SN_1.04-Production.ota",
         "path": "images/Inovelli/VZM35-SN_1.04-Production.ota"
+    },
+    {
+        "fileVersion": 262145,
+        "fileSize": 189614,
+        "manufacturerCode": 4117,
+        "imageType": 784,
+        "sha512": "a5bae0c769d58e788ba146b40c65ccd32d26d4934f6291a48f5bf23e13266c9ddd5afe310a47dcc5592c1865572e723da69171f1d43f1c669ed153d670b3afb5",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Develco/HumiditySensor_4.0.1.zigbee",
+        "path": "images/Develco/HumiditySensor_4.0.1.zigbee"
+    },
+    {
+        "fileVersion": 262148,
+        "fileSize": 201108,
+        "manufacturerCode": 4117,
+        "imageType": 768,
+        "sha512": "382a13ab21fa9aed73f136b42f565444ba4ebc115d437a1af6868cad0fca86376fb2f48407056aa511cd77321897981a52bec890b9810aff1af15ac6b072d385",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Develco/WaterLeakDetector_4.0.4.zigbee",
+        "path": "images/Develco/WaterLeakDetector_4.0.4.zigbee"
+    },
+    {
+        "fileVersion": 196866,
+        "fileSize": 213826,
+        "manufacturerCode": 4117,
+        "imageType": 976,
+        "sha512": "fa53c339b61a8980c3d8d42319be4f57aa088d98b8f87393a6fce84c2bd224079c26ca2b097f2a3bf042f629adf32bac90460e17d0b7a28864f244453e262baf",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Develco/EMI2LED_3.1.2.zigbee",
+        "path": "images/Develco/EMI2LED_3.1.2.zigbee"
+    },
+    {
+        "fileVersion": 196871,
+        "fileSize": 226882,
+        "manufacturerCode": 4117,
+        "imageType": 977,
+        "sha512": "4ad740da6eaba7cbfbc3847f101c264a6df99b3bed6a6223721d4ce28cb39ef28a8a655d94aa9a33721fb0c1621d26d8c2b4f2b1968e3b8016b6125964e99a14",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Develco/EMI2P1_3.1.7.zigbee",
+        "path": "images/Develco/EMI2P1_3.1.7.zigbee"
+    },
+    {
+        "fileVersion": 131078,
+        "fileSize": 217058,
+        "manufacturerCode": 4117,
+        "imageType": 928,
+        "sha512": "49b5c712b9e5ef91440bece5512cfc66d112e99c4d43c2f9d9755617d0ce302ffad2cd7b981769457d060c58e7e3950f9eb208583be87c98d638ac47fb1dda1d",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Develco/EntrySensor2_2.0.6.zigbee",
+        "path": "images/Develco/EntrySensor2_2.0.6.zigbee"
+    },
+    {
+        "fileVersion": 131077,
+        "fileSize": 217046,
+        "manufacturerCode": 4117,
+        "imageType": 915,
+        "sha512": "59b62aab3326b662f6e21a0327440db4836e55a618c7ce7b2cf5578c7b847cd9d08d8e6c431feb714f87a3556c1951069466f3986effa8dd5e1f91b39f3edd53",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Develco/IntelligentKeyPad_2.0.5.zigbee",
+        "path": "images/Develco/IntelligentKeyPad_2.0.5.zigbee"
+    },
+    {
+        "fileVersion": 131078,
+        "fileSize": 216102,
+        "manufacturerCode": 4117,
+        "imageType": 387,
+        "sha512": "4e78aa73ceec45e03606a67ba5e05d930862e01afc8fc81c86fa3cfa4b5433d3b2a785187afb1983c2b1874db5a9ab10d1a22876ddb9cf6a15252cc600c518d0",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Develco/MotionSensor2_2.0.6.zigbee",
+        "path": "images/Develco/MotionSensor2_2.0.6.zigbee"
+    },
+    {
+        "fileVersion": 131074,
+        "fileSize": 208318,
+        "manufacturerCode": 4117,
+        "imageType": 913,
+        "sha512": "79a014db8559dd8ec42d3d867d3330eee0208904eb5169a3fe47a072b341486864dd4a62bfb7bb42f00aa62a7c2d36ef861842441cbd46e44fca37b98b28097c",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Develco/SmartButton_2.0.2.zigbee",
+        "path": "images/Develco/SmartButton_2.0.2.zigbee"
+    },
+    {
+        "fileVersion": 131077,
+        "fileSize": 234566,
+        "manufacturerCode": 4117,
+        "imageType": 737,
+        "sha512": "3c91179db3e65ff0bb361a84844ef1e096249af586f0e548bb72ac9bf27096113f90f14ffd0d222fdb792865a28368c58c072a895f87598bd44543275d6a766f",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Develco/SmartPlug2_2.0.5.zigbee",
+        "path": "images/Develco/SmartPlug2_2.0.5.zigbee"
+    },
+    {
+        "fileVersion": 131074,
+        "fileSize": 230466,
+        "manufacturerCode": 4117,
+        "imageType": 916,
+        "sha512": "bec200a43bc7a51c58e70caa9d057006cbab54e5b058a8191a52d40e9aa8d1b979d2695ce0b4b0d4d1db6e926cce95bc1ae0a9e0810773b6c28ddb6705f4e248",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Develco/ZigbeeRangeExtender_2.0.2.zigbee",
+        "path": "images/Develco/ZigbeeRangeExtender_2.0.2.zigbee"
     }
 ]
