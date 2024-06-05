@@ -259,12 +259,12 @@
         "url": "https://otau.meethue.com/storage/ZGB_100B_0116/5ce84476-ad41-4b8b-a5ae-52d0e8df749a/100B-0116-02002F08-Switch-EFR32MG13.zigbee"
     },
     {
-        "fileVersion": 16784644,
-        "fileSize": 416746,
+        "fileVersion": 16784652,
+        "fileSize": 420784,
         "manufacturerCode": 4107,
         "imageType": 279,
-        "sha512": "6f1c4bbbd56e237aa34208d412b15a15b97555e5fb8d2aa13f688bed2970b59ff1a5feca7827a0e96870bd1a25fd474b7977a9b1a0ec066fb742520ecdf9dd9a",
-        "url": "https://otau.meethue.com/storage/ZGB_100B_0117/6a0ed3ad-19f6-46c3-b8a4-193bba74972f/100B-0117-01001D04-ConfLightBLE-ModuLum-EFR32MG21.zigbee"
+        "sha512": "b17faa044694f3b9a3f28653ed0a42441797f60dd390a9507eed8d4baa95368ee4ca9accef6698b0092cc196c99c89129372e2dcba8383473f13d522b02488f1",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_0117/a8a50281-4075-4d41-928d-85aec9f4ef33/100B-0117-01001D0C-ConfLightBLE-ModuLum-EFR32MG21.zigbee"
     },
     {
         "fileVersion": 16783104,
