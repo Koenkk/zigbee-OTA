@@ -3683,5 +3683,23 @@
         "sha512": "0f5b47092c2df550270460d9e446563da1bb72fd841747c9b738f6b75de6cebecdc92aa7aa3be2c814cbea9aea624c5f9d0f4dbdbc150f3b569c25d764629d02",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sprut.device/zb_wb_msw4_mg21_062.ota",
         "path": "images/Sprut.device/zb_wb_msw4_mg21_062.ota"
+    },
+    {
+        "fileVersion": 6,
+        "fileSize": 212478,
+        "manufacturerCode": 4151,
+        "imageType": 4107,
+        "sha512": "10b0cffcf7dc90804694a52be1ff3ca8178a8685172e309da9eacc71109403fd53be9a127b881341a095cb3ae2284eaedd5bec49a15d7b9d8badd76e382be4b5",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Jennic/PMM300Z2_OTA_ENC_V6_ENC.ota",
+        "path": "images/Jennic/PMM300Z2_OTA_ENC_V6_ENC.ota"
+    },
+    {
+        "fileVersion": 5,
+        "fileSize": 220046,
+        "manufacturerCode": 4151,
+        "imageType": 4108,
+        "sha512": "5dbafbb232eccb6d2c3c219a759dfd1ea847a3645d23b26f2f791fccabe004e6ce0220ca7cc73faddb45be8f7ee90f6c67df07bbe0ac4b663f068ec2e0709953",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Jennic/PMM300Z3_OTA_ENC_V5_ENC.ota",
+        "path": "images/Jennic/PMM300Z3_OTA_ENC_V5_ENC.ota"
     }
 ]
