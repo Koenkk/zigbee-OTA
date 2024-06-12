@@ -3701,5 +3701,23 @@
         "sha512": "5dbafbb232eccb6d2c3c219a759dfd1ea847a3645d23b26f2f791fccabe004e6ce0220ca7cc73faddb45be8f7ee90f6c67df07bbe0ac4b663f068ec2e0709953",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Jennic/PMM300Z3_OTA_ENC_V5_ENC.ota",
         "path": "images/Jennic/PMM300Z3_OTA_ENC_V5_ENC.ota"
+    },
+    {
+        "fileVersion": 34105904,
+        "fileSize": 258058,
+        "manufacturerCode": 4617,
+        "imageType": 12302,
+        "sha512": "901d7b98b3448df06ba0e87465b9140d80e0ef41cdb2c1880c9788a562bcfefd3cd306f2f737007c7f96ad02b3d230391d0d88940ef9c9e976c792bc80d935d2",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Bosch/0x1209_0x300e_0x02086a30.ota",
+        "path": "images/Bosch/0x1209_0x300e_0x02086a30.ota"
+    },
+    {
+        "fileVersion": 50817584,
+        "fileSize": 264354,
+        "manufacturerCode": 4617,
+        "imageType": 12305,
+        "sha512": "2fcd5886914e722e3f2f93a8a8588f0de1272be875bf7b6d44e97cc435ba075edcbdd46181da1b7904dc0d0f0ffb613506335a333de9e9d6a3ae2d07ebfb98bb",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Bosch/0x1209_0x3011_0x03076a30.ota",
+        "path": "images/Bosch/0x1209_0x3011_0x03076a30.ota"
     }
 ]
