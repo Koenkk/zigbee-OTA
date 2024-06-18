@@ -3710,5 +3710,14 @@
         "sha512": "901d7b98b3448df06ba0e87465b9140d80e0ef41cdb2c1880c9788a562bcfefd3cd306f2f737007c7f96ad02b3d230391d0d88940ef9c9e976c792bc80d935d2",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Bosch/0x1209_0x300e_0x02086a30.ota",
         "path": "images/Bosch/0x1209_0x300e_0x02086a30.ota"
+    },
+    {
+        "fileVersion": 4098,
+        "fileSize": 267632,
+        "manufacturerCode": 4742,
+        "imageType": 2059,
+        "sha512": "bb64ae86d9ac2dc398d4520f97554515990ecef5568eebdaa7cdb2be19fe2471b35f53583adc8d8e9e70189a90add27556581bca444690155972ffa6b341b81e",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sonoff/snzb-05p_v1.0.2.ota",
+        "path": "images/Sonoff/snzb-05p_v1.0.2.ota"
     }
 ]
