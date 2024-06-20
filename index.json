@@ -3563,6 +3563,7 @@
         "imageType": 5138,
         "sha512": "199c17f92fa3f238c08331e5c134630f9d725fcadfe4fcb6ef8fc55af671fe2c6fa8d20da1816948ae6927e6cfe81b732a71212662de4e6196785041769b5fb2",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Gledopto/GL-C-006P_V20551203_KEY_20240227.ota",
+        "modelId": "GL-C-006P",
         "path": "images/Gledopto/GL-C-006P_V20551203_KEY_20240227.ota"
     }
 ]
