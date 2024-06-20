@@ -3531,31 +3531,31 @@
         "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/ThermalLiteSensor_PROD_OTA_V29_1.00.29.ota"
     },
     {
-        "fileVersion": 370554498,
-        "fileSize": 284962,
+        "fileVersion": 387200645,
+        "fileSize": 286818,
         "manufacturerCode": 4454,
         "imageType": 817,
-        "sha512": "d137e8f7017c1bb02470972040bc11cb57cf5c846c86abe1703c9a78e9323d1dcf2c43466f7304eb3bd779ac7888e6f4b0f25030c24c82de038e3d7307e5cdc7",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/innr_controlleddevice-sp240-1.6.22.ota",
-        "path": "images/Innr/innr_controlleddevice-sp240-1.6.22.ota"
+        "sha512": "6e5ab6a6ae4759b0ee46e3bd631f51914f56edd5b0cca4b151061225d1ec5b34dd0ee786e58b13ad8233286e5778042f41b20bdf4d16887403ee2579121cab69",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/app_innr-sp240-1.7.20.ota",
+        "path": "images/Innr/app_innr-sp240-1.7.20.ota"
     },
     {
-        "fileVersion": 370554498,
-        "fileSize": 284962,
+        "fileVersion": 387200645,
+        "fileSize": 286818,
         "manufacturerCode": 4454,
         "imageType": 818,
-        "sha512": "5127a89cc56154b83bb0f77d1287338b7c0734c3f35d8668a8162a7bb00531a89d8e9a15241d87429f0f96f7cc163fe80e5baeddb5d0d89742eb563f531cc73b",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/innr_controlleddevice-sp242-1.6.22.ota",
-        "path": "images/Innr/innr_controlleddevice-sp242-1.6.22.ota"
+        "sha512": "145af01a01064e34f1d6d2d2d8e5a5a748f51fbee52e644fed75c34b0474a0a23c12353ae43a1f83f6fe02e2a18401facfabb925df8317bdf83af94b46df3bf1",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/app_innr-sp242-1.7.20.ota",
+        "path": "images/Innr/app_innr-sp242-1.7.20.ota"
     },
     {
-        "fileVersion": 370554498,
-        "fileSize": 284962,
+        "fileVersion": 387200645,
+        "fileSize": 286818,
         "manufacturerCode": 4454,
         "imageType": 819,
-        "sha512": "178498b7ad89b81792ad34df675167fcbee3c306e6bbe7336b97fe06f92b5e919d6c6b9a14788172e47deaa4422b977fed38fce7af61dd92a471886325421cc7",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/innr_controlleddevice-sp244-1.6.22.ota",
-        "path": "images/Innr/innr_controlleddevice-sp244-1.6.22.ota"
+        "sha512": "a231abf4ed7a3f34cdc03e7d504ae7b22f9629bd84f64865ee70904f8c3b9be1145b4198ddc94474d68249a6a4bed3f9ffad09bfe553a7f970ca2c610c798958",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/app_innr-sp244-1.7.20.ota",
+        "path": "images/Innr/app_innr-sp244-1.7.20.ota"
     },
     {
         "fileVersion": 16908815,
@@ -3719,5 +3719,32 @@
         "sha512": "bb64ae86d9ac2dc398d4520f97554515990ecef5568eebdaa7cdb2be19fe2471b35f53583adc8d8e9e70189a90add27556581bca444690155972ffa6b341b81e",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sonoff/snzb-05p_v1.0.2.ota",
         "path": "images/Sonoff/snzb-05p_v1.0.2.ota"
+    },
+    {
+        "fileVersion": 387200645,
+        "fileSize": 286802,
+        "manufacturerCode": 4454,
+        "imageType": 820,
+        "sha512": "a19e8cc9d9486ea20f1cf363d3c32860a4bed5682a714b66e63b35735f98591d687f2b001620550294a950b6689057f678f8a8c0b72e4f00e773bccc3e73d59e",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/app_innr-sp240v2-1.7.20.ota",
+        "path": "images/Innr/app_innr-sp240v2-1.7.20.ota"
+    },
+    {
+        "fileVersion": 387200645,
+        "fileSize": 286802,
+        "manufacturerCode": 4454,
+        "imageType": 821,
+        "sha512": "8c3dd4a68739b5e32779e1511f0b54d8634df5eeca10dd8f8898793d0d2ad349c180ca9ae075d9f153daada72f6c4f3d4118f1aaea655dcc57f5a323d80dcc35",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/app_innr-sp242v2-1.7.20.ota",
+        "path": "images/Innr/app_innr-sp242v2-1.7.20.ota"
+    },
+    {
+        "fileVersion": 387200645,
+        "fileSize": 286802,
+        "manufacturerCode": 4454,
+        "imageType": 822,
+        "sha512": "c0bc0fe05d920db42a826fa7379704ef71047046809d9fd8d479a41b3aa5d5a47e4883e2caa72208772a6ad32a5d137fd2a262bac106cf93a1677358ea4aa170",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/app_innr-sp244v2-1.7.20.ota",
+        "path": "images/Innr/app_innr-sp244v2-1.7.20.ota"
     }
 ]
