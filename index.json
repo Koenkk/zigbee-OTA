@@ -3746,5 +3746,15 @@
         "sha512": "c0bc0fe05d920db42a826fa7379704ef71047046809d9fd8d479a41b3aa5d5a47e4883e2caa72208772a6ad32a5d137fd2a262bac106cf93a1677358ea4aa170",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/app_innr-sp244v2-1.7.20.ota",
         "path": "images/Innr/app_innr-sp244v2-1.7.20.ota"
+    },
+    {
+        "fileVersion": 620834817,
+        "fileSize": 203170,
+        "manufacturerCode": 4687,
+        "imageType": 5138,
+        "sha512": "199c17f92fa3f238c08331e5c134630f9d725fcadfe4fcb6ef8fc55af671fe2c6fa8d20da1816948ae6927e6cfe81b732a71212662de4e6196785041769b5fb2",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Gledopto/GL-C-006P_V20551203_KEY_20240227.ota",
+        "modelId": "GL-C-006P",
+        "path": "images/Gledopto/GL-C-006P_V20551203_KEY_20240227.ota"
     }
 ]
