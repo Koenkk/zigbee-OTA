@@ -960,16 +960,6 @@
         "path": "images/Gledopto/GL-C-008P_V17A1_OTAV7_20210303--V1-4.ota"
     },
     {
-        "fileVersion": 13,
-        "fileSize": 267446,
-        "manufacturerCode": 4687,
-        "imageType": 0,
-        "sha512": "28240ef0eb6b7beea8797b4d3e2acd02e3fb8967083f47a7a3597aa48306c66dcc8ad47a3a8a91189bb556445232d19f03ca3f77777421b251cf36dcf1b6b28e",
-        "modelId": "GL-C-006P",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Gledopto/GL-C-006P_10576802_20240412.ota",
-        "path": "images/Gledopto/GL-C-006P_10576802_20240412.ota"
-    },
-    {
         "fileVersion": 284,
         "fileSize": 391402,
         "manufacturerCode": 4678,
@@ -1688,16 +1678,6 @@
         "imageType": 1,
         "sha512": "4d7ab47dcb24e478e0abb35e691222b7691e77ed5a56de3f9c82e8682730649b1a154110b7207d4391c32eae53a869e20878e880fc153dbe046690b870be8486",
         "url": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/download/v13.0/ZLinky_router_v13.ota"
-    },
-    {
-        "fileVersion": 620834817,
-        "fileSize": 202962,
-        "manufacturerCode": 4687,
-        "imageType": 5145,
-        "sha512": "d08d30e603877ef04100ba59d28ec10d6b3f3d31b9407a18517348573d39d2b67a11174e819c38752d257c3f8dd256d66a59a76225e03d4be77a6bbe8f4b3c59",
-        "modelId": "GL-C-006P",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Gledopto/GL-C-002P_V20551203_20240125.ota",
-        "path": "images/Gledopto/GL-C-002P_V20551203_20240125.ota"
     },
     {
         "fileVersion": 352399361,
@@ -3746,15 +3726,5 @@
         "sha512": "a2020ca5b93f39733fc97686e8bd333b69a490d1fa3587df9ae8c9932d83a934d4c3304f878e779c917f96fe9ffe1bb6c1aa493d3b6892726f28ade588e1695b",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/app_innr-sp244v2-1.7.22_UG.ota",
         "path": "images/Innr/app_innr-sp244v2-1.7.22_UG.ota"
-    },
-    {
-        "fileVersion": 620834817,
-        "fileSize": 203170,
-        "manufacturerCode": 4687,
-        "imageType": 5138,
-        "sha512": "199c17f92fa3f238c08331e5c134630f9d725fcadfe4fcb6ef8fc55af671fe2c6fa8d20da1816948ae6927e6cfe81b732a71212662de4e6196785041769b5fb2",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Gledopto/GL-C-006P_V20551203_KEY_20240227.ota",
-        "modelId": "GL-C-006P",
-        "path": "images/Gledopto/GL-C-006P_V20551203_KEY_20240227.ota"
     }
 ]
