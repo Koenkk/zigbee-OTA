@@ -960,16 +960,6 @@
         "path": "images/Gledopto/GL-C-008P_V17A1_OTAV7_20210303--V1-4.ota"
     },
     {
-        "fileVersion": 13,
-        "fileSize": 267446,
-        "manufacturerCode": 4687,
-        "imageType": 0,
-        "sha512": "28240ef0eb6b7beea8797b4d3e2acd02e3fb8967083f47a7a3597aa48306c66dcc8ad47a3a8a91189bb556445232d19f03ca3f77777421b251cf36dcf1b6b28e",
-        "modelId": "GL-C-006P",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Gledopto/GL-C-006P_10576802_20240412.ota",
-        "path": "images/Gledopto/GL-C-006P_10576802_20240412.ota"
-    },
-    {
         "fileVersion": 284,
         "fileSize": 391402,
         "manufacturerCode": 4678,
@@ -1688,16 +1678,6 @@
         "imageType": 1,
         "sha512": "4d7ab47dcb24e478e0abb35e691222b7691e77ed5a56de3f9c82e8682730649b1a154110b7207d4391c32eae53a869e20878e880fc153dbe046690b870be8486",
         "url": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/download/v13.0/ZLinky_router_v13.ota"
-    },
-    {
-        "fileVersion": 620834817,
-        "fileSize": 202962,
-        "manufacturerCode": 4687,
-        "imageType": 5145,
-        "sha512": "d08d30e603877ef04100ba59d28ec10d6b3f3d31b9407a18517348573d39d2b67a11174e819c38752d257c3f8dd256d66a59a76225e03d4be77a6bbe8f4b3c59",
-        "modelId": "GL-C-006P",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Gledopto/GL-C-002P_V20551203_20240125.ota",
-        "path": "images/Gledopto/GL-C-002P_V20551203_20240125.ota"
     },
     {
         "fileVersion": 352399361,
@@ -2712,13 +2692,13 @@
         "path": "images/Develco/EntrySensor_4.0.2.zigbee"
     },
     {
-        "fileVersion": 768,
-        "fileSize": 398024,
+        "fileVersion": 771,
+        "fileSize": 398632,
         "manufacturerCode": 4747,
         "imageType": 9,
-        "sha512": "89f6a3cae30018c9c6f6045ef3c475a1a12e9af0ddd9d0cfadfea122e2353b76e7e2d14a860c4292a67212d9d4315e84e9c123a47c4c694f753a88d6b1a01254",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/NodOn/128b-0009-0300-700_nodon_sin_rs_fw_efr32_V0300.zigbee",
-        "path": "images/NodOn/128b-0009-0300-700_nodon_sin_rs_fw_efr32_V0300.zigbee"
+        "sha512": "5a372c6e6d24fe307ccc9693fe14b68cff09d588f5736e4210d3ca2cb09956835781df5b1a20c5a650ab1bf61125f64e7d11b257451591e37fa1ea0d45b93f00",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/NodOn/128b-0009-0303-700_nodon_sin_rs_fw_efr32_V0303.zigbee",
+        "path": "images/NodOn/128b-0009-0303-700_nodon_sin_rs_fw_efr32_V0303.zigbee"
     },
     {
         "fileVersion": 1380147,
@@ -3531,31 +3511,31 @@
         "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/ThermalLiteSensor_PROD_OTA_V29_1.00.29.ota"
     },
     {
-        "fileVersion": 370554498,
-        "fileSize": 284962,
+        "fileVersion": 387331717,
+        "fileSize": 286978,
         "manufacturerCode": 4454,
         "imageType": 817,
-        "sha512": "d137e8f7017c1bb02470972040bc11cb57cf5c846c86abe1703c9a78e9323d1dcf2c43466f7304eb3bd779ac7888e6f4b0f25030c24c82de038e3d7307e5cdc7",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/innr_controlleddevice-sp240-1.6.22.ota",
-        "path": "images/Innr/innr_controlleddevice-sp240-1.6.22.ota"
+        "sha512": "daa5f1dfb1664bae3ab509de256ef28f53a3579807faca3d94fd59ae5e1982665455802e959b7e87fb26af78e6f342c1070a801419c0d05af7cd2b5f32fd6d6a",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/app_innr-sp240-1.7.22_UG.ota",
+        "path": "images/Innr/app_innr-sp240-1.7.22_UG.ota"
     },
     {
-        "fileVersion": 370554498,
-        "fileSize": 284962,
+        "fileVersion": 387331717,
+        "fileSize": 286978,
         "manufacturerCode": 4454,
         "imageType": 818,
-        "sha512": "5127a89cc56154b83bb0f77d1287338b7c0734c3f35d8668a8162a7bb00531a89d8e9a15241d87429f0f96f7cc163fe80e5baeddb5d0d89742eb563f531cc73b",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/innr_controlleddevice-sp242-1.6.22.ota",
-        "path": "images/Innr/innr_controlleddevice-sp242-1.6.22.ota"
+        "sha512": "01982361484aa25cd5139c796e1d0b4dac9bc6284aa67978b269440037555950079c7e0f24a6eda30b738eaa17fc56e5a6b162d13a895089b8c6fb3629946387",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/app_innr-sp242-1.7.22_UG.ota",
+        "path": "images/Innr/app_innr-sp242-1.7.22_UG.ota"
     },
     {
-        "fileVersion": 370554498,
-        "fileSize": 284962,
+        "fileVersion": 387331717,
+        "fileSize": 286978,
         "manufacturerCode": 4454,
         "imageType": 819,
-        "sha512": "178498b7ad89b81792ad34df675167fcbee3c306e6bbe7336b97fe06f92b5e919d6c6b9a14788172e47deaa4422b977fed38fce7af61dd92a471886325421cc7",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/innr_controlleddevice-sp244-1.6.22.ota",
-        "path": "images/Innr/innr_controlleddevice-sp244-1.6.22.ota"
+        "sha512": "c0e809e7de4e8a9aca1a8dff042b802acb56978681d7cfa62571176fc596f2f5e23340673ab3954d5d4fda2707902ba0b63cc9dd2bc2aea397e6a8120e6b10d7",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/app_innr-sp244-1.7.22_UG.ota",
+        "path": "images/Innr/app_innr-sp244-1.7.22_UG.ota"
     },
     {
         "fileVersion": 16908815,
@@ -3719,5 +3699,32 @@
         "sha512": "bb64ae86d9ac2dc398d4520f97554515990ecef5568eebdaa7cdb2be19fe2471b35f53583adc8d8e9e70189a90add27556581bca444690155972ffa6b341b81e",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sonoff/snzb-05p_v1.0.2.ota",
         "path": "images/Sonoff/snzb-05p_v1.0.2.ota"
+    },
+    {
+        "fileVersion": 387331717,
+        "fileSize": 286978,
+        "manufacturerCode": 4454,
+        "imageType": 820,
+        "sha512": "7171c301d9b0fe55a2e4a337e8e6f0c54b457548b68bb9d9c319fe4cad7af5b6543f66c84b41df154b90842b2a5b0c00b8357d1393e4e6090d43d56855189665",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/app_innr-sp240v2-1.7.22_UG.ota",
+        "path": "images/Innr/app_innr-sp240v2-1.7.22_UG.ota"
+    },
+    {
+        "fileVersion": 387331717,
+        "fileSize": 286978,
+        "manufacturerCode": 4454,
+        "imageType": 821,
+        "sha512": "af6298a13f4653c16a44147163158bae2f5a19e7f1adaade5f66f3e93df8bf4eaccc4caf7abb4dd49c0c0601fdd52f8d4c7fe764725086e978ee1b61f6d587ef",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/app_innr-sp242v2-1.7.22_UG.ota",
+        "path": "images/Innr/app_innr-sp242v2-1.7.22_UG.ota"
+    },
+    {
+        "fileVersion": 387331717,
+        "fileSize": 286978,
+        "manufacturerCode": 4454,
+        "imageType": 822,
+        "sha512": "a2020ca5b93f39733fc97686e8bd333b69a490d1fa3587df9ae8c9932d83a934d4c3304f878e779c917f96fe9ffe1bb6c1aa493d3b6892726f28ade588e1695b",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/app_innr-sp244v2-1.7.22_UG.ota",
+        "path": "images/Innr/app_innr-sp244v2-1.7.22_UG.ota"
     }
 ]
