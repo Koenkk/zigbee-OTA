@@ -3726,5 +3726,14 @@
         "sha512": "a2020ca5b93f39733fc97686e8bd333b69a490d1fa3587df9ae8c9932d83a934d4c3304f878e779c917f96fe9ffe1bb6c1aa493d3b6892726f28ade588e1695b",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/app_innr-sp244v2-1.7.22_UG.ota",
         "path": "images/Innr/app_innr-sp244v2-1.7.22_UG.ota"
+    },
+    {
+        "fileVersion": 4101,
+        "fileSize": 269220,
+        "manufacturerCode": 4742,
+        "imageType": 7,
+        "sha512": "dd1d67ba721740c3eec4da80a2396c6fa09b981bcf2ed9fc712790e45ec9fb392d58d33e36a1bc19899a77a3421a206c1c9c2f7512ed3c8c571e1344f7d996d8",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sonoff/zbmicro_v1.0.5.ota",
+        "path": "images/Sonoff/zbmicro_v1.0.5.ota"
     }
 ]
