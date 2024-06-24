@@ -2692,13 +2692,13 @@
         "path": "images/Develco/EntrySensor_4.0.2.zigbee"
     },
     {
-        "fileVersion": 768,
-        "fileSize": 398024,
+        "fileVersion": 771,
+        "fileSize": 398632,
         "manufacturerCode": 4747,
         "imageType": 9,
-        "sha512": "89f6a3cae30018c9c6f6045ef3c475a1a12e9af0ddd9d0cfadfea122e2353b76e7e2d14a860c4292a67212d9d4315e84e9c123a47c4c694f753a88d6b1a01254",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/NodOn/128b-0009-0300-700_nodon_sin_rs_fw_efr32_V0300.zigbee",
-        "path": "images/NodOn/128b-0009-0300-700_nodon_sin_rs_fw_efr32_V0300.zigbee"
+        "sha512": "5a372c6e6d24fe307ccc9693fe14b68cff09d588f5736e4210d3ca2cb09956835781df5b1a20c5a650ab1bf61125f64e7d11b257451591e37fa1ea0d45b93f00",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/NodOn/128b-0009-0303-700_nodon_sin_rs_fw_efr32_V0303.zigbee",
+        "path": "images/NodOn/128b-0009-0303-700_nodon_sin_rs_fw_efr32_V0303.zigbee"
     },
     {
         "fileVersion": 1380147,
