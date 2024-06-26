@@ -3312,36 +3312,36 @@
         "path": "images/DIY/db15-0203-11003001-z03mmc.zigbee"
     },
     {
-        "fileVersion": 34212095,
-        "fileSize": 337195,
+        "fileVersion": 34212351,
+        "fileSize": 337559,
         "manufacturerCode": 4190,
         "imageType": 53,
-        "sha512": "15188628b13c26b577aa4a9f82a4a411debc7125e19cb13d3d1612095c87c51b9f186e01b33a0f798c3a6875dc68c9f36a614372fe6523cda8e47b045a1a76ba",
-        "url": "https://images.tuyaeu.com/smart/firmware/upgrade/ay1557480848074dO17I/16781822109542aac900a.zigbee"
+        "sha512": "8f741af12853b2fc920a0eba2e180f94e175b476b6a133545558be3435e98e98a19e749413a594133d5d1cec32bbdc13d123144863a71e4926953a1ae84690d0",
+        "url": "https://images.tuyaeu.com/smart/firmware/acc/bay1583203554957GRnf/1713342748d5e8b342a0d.zigbee"
     },
     {
-        "fileVersion": 33884671,
-        "fileSize": 337211,
+        "fileVersion": 33884927,
+        "fileSize": 337575,
         "manufacturerCode": 4190,
         "imageType": 54,
-        "sha512": "50abcc9a6f6351a9bf45994c09b6681cfb255ce617ec299539a937b70fac16110824600269062c5a086b9749a29caf4efe5b3d694e91b04b099efa84b6ba356c",
-        "url": "https://images.tuyaeu.com/smart/firmware/upgrade/ay1557480848074dO17I/1678411825b98a1530a8c.zigbee"
+        "sha512": "2199547dbc2a496c871920c3382b9a161f90fe80f850a746e5c96c57972d43367aa2baabc23d98a162cfa5d7015e2e98c7960abd00d31a1002733196ec6374e1",
+        "url": "https://images.tuyaeu.com/smart/firmware/acc/bay1583203554957GRnf/1713343066453b98d296b.zigbee"
     },
     {
-        "fileVersion": 33753087,
-        "fileSize": 340031,
+        "fileVersion": 33753343,
+        "fileSize": 340395,
         "manufacturerCode": 4190,
         "imageType": 55,
-        "sha512": "18b1d8028a3de3cf5c28fb442779daa74d5d13bb1f782021db03b945bd02aaa85cf20de17cd23f3d9fbf73224c68a68caa2ad3527ce20913844668161f653c70",
-        "url": "https://images.tuyaeu.com/smart/firmware/upgrade/ay1557480848074dO17I/1622438235e5764b7a861.zigbee"
+        "sha512": "45dd51ca0453d20d70806d6215fba26e35f32a88b8b5402d3cde672783ac9f883442524bb60f1b1003accb9af7dfeaa98ab54f05a9c7d8e71465d3f559631e22",
+        "url": "https://images.tuyaeu.com/smart/firmware/acc/bay1583203554957GRnf/1713343500e793c19fa81.zigbee"
     },
     {
-        "fileVersion": 33686015,
-        "fileSize": 341010,
+        "fileVersion": 33686527,
+        "fileSize": 341323,
         "manufacturerCode": 4190,
         "imageType": 79,
-        "sha512": "4b373c33ca742bdb85d9bd7665545be34e4e9660c94218f02c3754f2c9eb4129a428e51b4fe7ccab29f3ee53537b9301cc43b1dbf4c12dae4377025a23848eb8",
-        "url": "https://images.tuyaeu.com/smart/firmware/upgrade/ay1557480848074dO17I/16819629247ee0445a5f4.zigbee"
+        "sha512": "e129fef8d54c8da95686854a0cb58da9c12304c0f8d7424e41c187d645aac859ce208fc9e2b2e2d9686f21518b5f44738bc8cc72d9ddccdb9eb20b93b83392c4",
+        "url": "https://images.tuyaeu.com/smart/firmware/upgrade/bay1583203554957GRnf/17157652587e6ae8afffa.zigbee"
     },
     {
         "fileVersion": 16845314,
