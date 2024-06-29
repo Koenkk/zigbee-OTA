@@ -1377,16 +1377,6 @@
         "path": "images/Lumi/20220222202427_OTA_lumi.airmonitor.acn01_0.0.0_0029_20220222_17EC2C.ota"
     },
     {
-        "fileVersion": 23,
-        "fileSize": 287666,
-        "manufacturerCode": 4447,
-        "imageType": 6169,
-        "sha512": "33628a75e7b8ce56a0abbead156769a015889157118798f747e5324d906317453f01c4dcbcff357ff74d8f5fb019449f102d36e55f42b985347e1bd8d53eb476",
-        "modelId": "lumi.switch.n0agl1",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20220121143603_lumi.switch.n0agl1_0.0.0.0023_20211230_0717A1.ota",
-        "path": "images/Lumi/20220121143603_lumi.switch.n0agl1_0.0.0.0023_20211230_0717A1.ota"
-    },
-    {
         "fileVersion": 7,
         "fileSize": 291702,
         "manufacturerCode": 4687,
@@ -3743,5 +3733,15 @@
         "sha512": "dd1d67ba721740c3eec4da80a2396c6fa09b981bcf2ed9fc712790e45ec9fb392d58d33e36a1bc19899a77a3421a206c1c9c2f7512ed3c8c571e1344f7d996d8",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sonoff/zbmicro_v1.0.5.ota",
         "path": "images/Sonoff/zbmicro_v1.0.5.ota"
+    },
+    {
+        "fileVersion": 30,
+        "fileSize": 288146,
+        "manufacturerCode": 4447,
+        "imageType": 6169,
+        "sha512": "796c6dc424faf0be42aa98482ab178ce3e429a80b47f0ba90ec91d479c6c3205865b666ca57de4814e4e806d1e4bbe8d594956fea30443ba25a67093e46a52be",
+        "modelId": "lumi.switch.n0agl1",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20240112203928_lumi.switch.n0agl1_0.0.0.0030_20240112_C892CC.ota",
+        "path": "images/Lumi/20240112203928_lumi.switch.n0agl1_0.0.0.0030_20240112_C892CC.ota"
     }
 ]
