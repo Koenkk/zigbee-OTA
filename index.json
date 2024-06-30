@@ -3743,5 +3743,13 @@
         "modelId": "lumi.switch.n0agl1",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20240112203928_lumi.switch.n0agl1_0.0.0.0030_20240112_C892CC.ota",
         "path": "images/Lumi/20240112203928_lumi.switch.n0agl1_0.0.0.0030_20240112_C892CC.ota"
+    },
+    {
+        "fileVersion": 26,
+        "fileSize": 146034,
+        "manufacturerCode": 4644,
+        "imageType": 166,
+        "sha512": "345b089dffdf63057757afecd2808a99b8c3c420721117b7ae234153e820bf2a12f8ae993106dda478196248d7db728caaca32320d110c42c365b678546ae181",
+        "url": "https://www.elektroimportoren.no/docs/lib/4512772-Firmware-35.ota"
     }
 ]
