@@ -1377,16 +1377,6 @@
         "path": "images/Lumi/20220222202427_OTA_lumi.airmonitor.acn01_0.0.0_0029_20220222_17EC2C.ota"
     },
     {
-        "fileVersion": 23,
-        "fileSize": 287666,
-        "manufacturerCode": 4447,
-        "imageType": 6169,
-        "sha512": "33628a75e7b8ce56a0abbead156769a015889157118798f747e5324d906317453f01c4dcbcff357ff74d8f5fb019449f102d36e55f42b985347e1bd8d53eb476",
-        "modelId": "lumi.switch.n0agl1",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20220121143603_lumi.switch.n0agl1_0.0.0.0023_20211230_0717A1.ota",
-        "path": "images/Lumi/20220121143603_lumi.switch.n0agl1_0.0.0.0023_20211230_0717A1.ota"
-    },
-    {
         "fileVersion": 7,
         "fileSize": 291702,
         "manufacturerCode": 4687,
@@ -1532,6 +1522,26 @@
         "modelId": "lumi.relay.c2acn01",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/lumi.relay.c2acn01_20211201_v0047.ota",
         "path": "images/Lumi/lumi.relay.c2acn01_20211201_v0047.ota"
+    },
+    {
+        "fileVersion": 5915139,
+        "fileSize": 250775,
+        "manufacturerCode": 4129,
+        "imageType": 17,
+        "sha512": "f79b4577fb2b284a790058daba03cf62bae2a1f506581d376eb41fd32b05e2b22152db013883b5aa40a3bb17ae958a6bc3a0225193c37b1ca55cc3bef0dd3784",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-0011-005a4203-NLP.zigbee",
+        "path": "images/Legrand/1021-0011-005a4203-NLP.zigbee",
+        "modelId": "done"
+    },
+    {
+        "fileVersion": 4932099,
+        "fileSize": 204423,
+        "manufacturerCode": 4129,
+        "imageType": 18,
+        "sha512": "c60266fa617150a055d3dfd1e105918df7dca3f77c4c283875cb09f8e966b6991d99f29121108bc64c8432f73cee956643833857ff96c4b99608762b43afd491",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-0012-004b4203-NLT.zigbee",
+        "path": "images/Legrand/1021-0012-004b4203-NLT.zigbee",
+        "modelId": "done"
     },
     {
         "fileVersion": 37,
@@ -3703,5 +3713,15 @@
         "sha512": "868f2a191d778c6562f0596d34f9f2de7b1afbb2e5b1a7484b07f6b6d2d231933c611a8e1f77c2e89cf6d2cd654be0f74e26c7f04f101bacc73071f85ab8a303",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-0016-002f4203-NLD.zigbee",
         "path": "images/Legrand/1021-0016-002f4203-NLD.zigbee"
+    },
+    {
+        "fileVersion": 30,
+        "fileSize": 288146,
+        "manufacturerCode": 4447,
+        "imageType": 6169,
+        "sha512": "796c6dc424faf0be42aa98482ab178ce3e429a80b47f0ba90ec91d479c6c3205865b666ca57de4814e4e806d1e4bbe8d594956fea30443ba25a67093e46a52be",
+        "modelId": "lumi.switch.n0agl1",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20240112203928_lumi.switch.n0agl1_0.0.0.0030_20240112_C892CC.ota",
+        "path": "images/Lumi/20240112203928_lumi.switch.n0agl1_0.0.0.0030_20240112_C892CC.ota"
     }
 ]
