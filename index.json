@@ -3731,5 +3731,13 @@
         "imageType": 166,
         "sha512": "345b089dffdf63057757afecd2808a99b8c3c420721117b7ae234153e820bf2a12f8ae993106dda478196248d7db728caaca32320d110c42c365b678546ae181",
         "url": "https://www.elektroimportoren.no/docs/lib/4512772-Firmware-35.ota"
+    },
+    {
+        "fileVersion": 29,
+        "fileSize": 135266,
+        "manufacturerCode": 5127,
+        "imageType": 54193,
+        "sha512": "af9e91687a1fadfe2b222db1ef540e66d6d34f50780c66693c6f630ac32225dc100459956d79f72f169d60d7e5d66aae7f5c54a9678131852dda83d087632f33",
+        "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/GarageDoorSensor_PROD_OTA_V29_v1.00.29.ota"
     }
 ]
