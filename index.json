@@ -1605,7 +1605,7 @@
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Telink/1663234985-oem_ztu_dimmer1_klt_OTA_1.0.6.bin",
         "path": "images/Telink/1663234985-oem_ztu_dimmer1_klt_OTA_1.0.6.bin"
     },
-	{
+    {
         "fileVersion": 78,
         "fileSize": 309954,
         "manufacturerCode": 4417,
@@ -2062,12 +2062,12 @@
         "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/Door_Sensor_PROD_OTA_V60_v1.00.60.ota"
     },
     {
-        "fileVersion": 52,
-        "fileSize": 130562,
+        "fileVersion": 67,
+        "fileSize": 132466,
         "manufacturerCode": 4659,
         "imageType": 54177,
-        "sha512": "3a2af06fcdaa9fafea8379a0f92d970982e5505b5d05ab11a253b9159a16e5f10dc013b82d66f3bcdcd0de65610a15e3f072b76f53a21314e76dc3ae9452cee5",
-        "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/Motion_Sensor_PROD_OTA_V52_v1.00.52.ota"
+        "sha512": "32ff1677e879da5a99b7c578ecb3d4f6bf371defb67908fdf3c46609ca13d0801c227ede9713275b0f67b1675c410d007885926db0d880162b06986191006ca5",
+        "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/Motion_Sensor_PROD_OTA_V67_v1.00.67.ota"
     },
     {
         "fileVersion": 17694977,
