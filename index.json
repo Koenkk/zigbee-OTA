@@ -3751,5 +3751,14 @@
         "imageType": 54193,
         "sha512": "af9e91687a1fadfe2b222db1ef540e66d6d34f50780c66693c6f630ac32225dc100459956d79f72f169d60d7e5d66aae7f5c54a9678131852dda83d087632f33",
         "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/GarageDoorSensor_PROD_OTA_V29_v1.00.29.ota"
+    },
+    {
+        "fileVersion": 4099,
+        "fileSize": 274092,
+        "manufacturerCode": 4742,
+        "imageType": 8202,
+        "sha512": "2108581ad91e16464c6abc4919808899abadcab566ad7f43ad3bf8d4e0ac6734dfbf2b82fcfdaf098570e7501a6e03a8fc1036f9f91c1b3e8911b37be350de1c",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sonoff/zbswv_v1.0.3.ota",
+        "path": "images/Sonoff/zbswv_v1.0.3.ota"
     }
 ]
