@@ -63,29 +63,29 @@
         "path": "images/Sengled/RDS2017028_E1C-NB6_V0.0.22_20180314.ota"
     },
     {
-        "fileVersion": 1124099330,
+        "fileVersion": 1124103171,
         "fileSize": 258104,
         "manufacturerCode": 4107,
         "imageType": 256,
-        "sha512": "14db73c3be211143cf2046361d3421c5cbc60052f11ae5b129f269a77b4ce5489b0a376c7e5829087afed206fcbe9beda9c997a061afbb88c843caed477493cb",
-        "url": "https://otau.meethue.com/storage/ZGB_100B_0100/60ecddb6-be67-4c91-b4cb-a87d0f392473/ConnectedLamp-TI-Target_0012.sbl-ota"
+        "sha512": "c63a1eb02ac030f3a76d9e81a4d48695796457d263bb1dae483688134e550d9846c37a3fd0eab2d4670f12f11b79691a5cf2789af0dbd90d703512496190a0a5",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_0100/2dcfe6e6-0177-4c81-a1d9-4d2bd2ea1fb7/ConnectedLamp-TI-Target_0012.sbl-ota"
     },
     {
-        "fileVersion": 1124097291,
+        "fileVersion": 1124103171,
         "fileSize": 258104,
         "manufacturerCode": 4107,
         "imageType": 259,
-        "sha512": "e9d0bf784255e79c680563d4a4280c026070153df53b97ed507590376b42807c549d4493f2fc44fc625e98feba3182000c17ab954173e7456310b70f4b49e562",
-        "url": "https://otau.meethue.com/storage/ZGB_100B_0103/5509a154-fe62-4cd3-bb11-19b46da0e074/LivingColors-Hue-Target_0012.sbl-ota"
+        "sha512": "f1c9b5f0cc779bcf01fb1f7e5bffc0112aa82e60972dad9264f87484a571d13710572c2f5fedf1dd2b5deb62fa45d4c0e41d107e2fd2fb544fb5a9235d21ee3a",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_0103/e14480ff-2661-4abb-8dfd-275b77d876c2/LivingColors-Hue-Target_0012.sbl-ota"
     },
     {
         "minFileVersion": 1107326256,
-        "fileVersion": 1124099330,
+        "fileVersion": 1124103171,
         "fileSize": 256696,
         "manufacturerCode": 4107,
         "imageType": 260,
-        "sha512": "096b0ba7f6c3b4d26a988ef6f79ca593c237e570934fc2e2bef6e885864226c727b9a963d59086ca6d7f5493706808129117f936ae6695cbe59288b13daada30",
-        "url": "https://otau.meethue.com/storage/ZGB_100B_0104/e7e4aac2-7479-434a-b790-b6bd2d3cbd6c/ConnectedLamp-Atmel-Target_0012.sbl-ota"
+        "sha512": "eb9e81b28ea8128831c0f656e65be2821b6d06207bd44adbc31b050ed41e3656edc10e1c0a27cf73a2817c257208f9002c3e219913903ecdaacf7857f799b001",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_0104/33cbfd3d-3b58-43e2-a6a0-1e6fe50f2bee/ConnectedLamp-Atmel-Target_0012.sbl-ota"
     },
     {
         "maxFileVersion": 1107326255,
@@ -97,6 +97,16 @@
         "url": "https://otau.meethue.com/storage/ZGB_100B_0104/631d2194-554e-4016-b954-f3c226482f04/ConnectedLamp-Atmel_0104_5.130.1.30000_0012.sbl-ota"
     },
     {
+        "minFileVersion": 1107326256,
+        "fileVersion": 1124103171,
+        "fileSize": 256696,
+        "manufacturerCode": 4107,
+        "imageType": 261,
+        "sha512": "aacf086c482e149e916a12a344d0d2a2b1489e47f5d4d5ef9d9ebb308b976c5d8d266a19792a53ee64a108d8f39b56c800815191d4454311124fe85fe32392a2",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_0105/a74b4fe6-805b-4113-8f08-2f6585cb8f5d/WhiteLamp-Atmel-Target_0012.sbl-ota"
+    },
+    {
+        "maxFileVersion": 1107326255,
         "fileVersion": 1107326256,
         "fileSize": 256632,
         "manufacturerCode": 4107,
@@ -106,12 +116,12 @@
     },
     {
         "minFileVersion": 1107326256,
-        "fileVersion": 1124099330,
+        "fileVersion": 1124103171,
         "fileSize": 256696,
         "manufacturerCode": 4107,
         "imageType": 264,
-        "sha512": "1613c7f6372c7931e40cf78c57f32a81bbaea84bc3c5f0d193e0271b00a152f52b0fde23fd5a675c709d6d0b7cac6acfbab6029ab25c4971ba706317993ebcbb",
-        "url": "https://otau.meethue.com/storage/ZGB_100B_0108/55fb9cf3-afb6-4ef5-8887-905699da7ee8/LivingColors-Atmel-Target_0012.sbl-ota"
+        "sha512": "5c0736a0d4f191a214a209fca6a1984a5ca2caa073b79dccc3ea62cfb0dd4b6755d92770f49bdc904ddafaa586a65d8b71160f74420ff937007f79f5cc477389",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_0108/a2470745-062a-4159-adc5-5162080aacb5/LivingColors-Atmel-Target_0012.sbl-ota"
     },
     {
         "maxFileVersion": 1107326255,
@@ -132,12 +142,12 @@
     },
     {
         "minFileVersion": 1107326256,
-        "fileVersion": 1124099330,
+        "fileVersion": 1124103171,
         "fileSize": 256696,
         "manufacturerCode": 4107,
         "imageType": 267,
-        "sha512": "a9cdee21be081de3dfe02a7904cb730e0f3a726bac5f18ec2c5d3aa0f5c69e18071a9c42cc08f8f77b956901ba8b0cc53c209d429f5bf017f0e1a98d33ce15b1",
-        "url": "https://otau.meethue.com/storage/ZGB_100B_010B/26ca95ed-e2ac-4df4-b93e-d5d02516a04a/ModuLum-ATmega_0012.sbl-ota"
+        "sha512": "9c5b28be12dd8299774f0d0515131156ee9882f683537553fcf878198b4da198270c79a5dab0cfb81b80e35db055dff850835da4e069d27a7e8eb2de0d461d1b",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_010B/1cfec25a-f2f5-4e84-a80f-96548a95d6c3/ModuLum-ATmega_0012.sbl-ota"
     },
     {
         "maxFileVersion": 1107326255,
@@ -150,12 +160,12 @@
     },
     {
         "minFileVersion": 16783874,
-        "fileVersion": 16786688,
-        "fileSize": 267324,
+        "fileVersion": 16787456,
+        "fileSize": 266684,
         "manufacturerCode": 4107,
         "imageType": 268,
-        "sha512": "5dd29c7405a2f3cd9058fd5e6999cc76a2cbffc0c531acddc5bae99588ca37f2f79288202c02b846abbf07d32e1e398a7fd7747d630541c05210bb43d238f8ef",
-        "url": "https://otau.meethue.com/storage/ZGB_100B_010C/0f7ed133-fa2f-48f6-810d-533fd1d4994a/100B-010C-01002500-ConfLight-Lamps_0012.zigbee"
+        "sha512": "30c754504fed42ce12b4243fbf70a8207675f02cba1efbe2e454270049b472e400578c316602978deadb39166b196cb21aaf0f5cbb527fd2491fd78d4a14b620",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_010C/9ee7aed8-faed-43eb-b7f7-712a5b578dba/100B-010C-01002800-ConfLight-Lamps_0012.zigbee"
     },
     {
         "maxFileVersion": 16783873,
@@ -176,12 +186,12 @@
     },
     {
         "minFileVersion": 16783620,
-        "fileVersion": 16786176,
+        "fileVersion": 16786944,
         "fileSize": 269002,
         "manufacturerCode": 4107,
         "imageType": 270,
-        "sha512": "6fce8e14bba99e7d187da799b2b289010cfed5baf2ce70bb5f6f1ed50624d62bdd160b1e4217623eb494220a98031a8a4cf1f0a519af6096bedfeacea872a797",
-        "url": "https://otau.meethue.com/storage/ZGB_100B_010E/b8bba8c0-d137-4015-b107-2825eb28c123/100B-010E-01002300-ConfLight-ModuLum_0012.zigbee"
+        "sha512": "f22b61f43ec9a98991825ba492d5373c1e617d62508fa538ef0ae6b5e51ec3419e2b9b15328770918b06391bf3b0adb18d747251bb615e189c43171abf0b3f07",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_010E/05e4122d-0d51-41df-91af-7d1aae4cc0a0/100B-010E-01002600-ConfLight-ModuLum_0012.zigbee"
     },
     {
         "maxFileVersion": 16783619,
@@ -193,20 +203,20 @@
         "url": "https://otau.meethue.com/storage/ZGB_100B_010E/3e979745-cc00-43cf-a51c-73a3d9d91430/100B-010E-01001904-ConfLight-ModuLum_0012.zigbee"
     },
     {
-        "fileVersion": 16782336,
+        "fileVersion": 16783104,
         "fileSize": 250762,
         "manufacturerCode": 4107,
         "imageType": 271,
-        "sha512": "96aaf00fb08c6cd08c5eeafd04f68822eebfaf3af6160cbf36bef2c7ab03ac27824ed7a720ca491920cbc3f3b539db44682674ec48f61113cf1dea77c3a11a62",
-        "url": "https://otau.meethue.com/storage/ZGB_100B_010F/f4fdc59a-14dc-4516-8c29-be905ed23635/100B-010F-01001400-ConfLight-LedStrips_0012.zigbee"
+        "sha512": "34a42cd9185602bf76559425d2e4655ec33c2fe3159a09d866cd3425a0d56535ee9a807b86b21a66083fc7578287538c7e1b8e9aebd53923269aedb99b6090f7",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_010F/0ed8b3ac-0870-486e-9f8b-5ba6e9b035a1/100B-010F-01001700-ConfLight-LedStrips_0012.zigbee"
     },
     {
-        "fileVersion": 16785664,
-        "fileSize": 293368,
+        "fileVersion": 16786688,
+        "fileSize": 323656,
         "manufacturerCode": 4107,
         "imageType": 272,
-        "sha512": "2252a8cfc02f842bf2e1c45597f64278e05a934395e38fb5d7690ba782aba8ec033ef84b2c83c6701d8f34636e93e13f8ab7fbc5ff982e336bee34d2af503c0c",
-        "url": "https://otau.meethue.com/storage/ZGB_100B_0110/70b64072-dbf5-4383-9140-511e1483dbd4/100B-0110-01002100-ConfLight-Lamps-EFR32MG13.zigbee"
+        "sha512": "154d9f66ed12a65f3cf413c8560a7734e25ec52b2d13698d011dddb5846958e5b0e07035f171cca9219b1b78a833559f0370cd9e52230b26546c87e6fbf079b9",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_0110/b6fba194-a3bf-4915-825e-799233b6ab0a/100B-0110-01002500-ConfLight-Lamps-EFR32MG13.zigbee"
     },
     {
         "fileVersion": 16784640,
@@ -217,28 +227,28 @@
         "url": "https://otau.meethue.com/storage/ZGB_100B_0111/ad34031b-3c49-420f-9782-f37e205db2a9/100B-0111-01001D00-ConfLight-ModuLum-EFR32MG13.zigbee"
     },
     {
-        "fileVersion": 16786432,
-        "fileSize": 439622,
+        "fileVersion": 16787456,
+        "fileSize": 467774,
         "manufacturerCode": 4107,
         "imageType": 274,
-        "sha512": "f30e0633129ff4569b644ac1edccd6bfe22e872e641520665c945fac6f41f3e757b333206e5d2c9ad0f2be042c0992159d55800c7c71bcb0c0514da877a206cf",
-        "url": "https://otau.meethue.com/storage/ZGB_100B_0112/3ddd2b84-5fa0-4c7f-a695-e238c85ccaef/100B-0112-01002400-ConfLightBLE-Lamps-EFR32MG13.zigbee"
+        "sha512": "75308c541c19a71cbf1a2f30b413c630e1852bed2e94be312a2fa5429e2caf058a55e759f180e4b9cf9e676ed2692285b6c51b5748c3f031e06f7f52b46f6060",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_0112/4d726d6f-7a87-4c6a-962f-f9c76ce125ef/100B-0112-01002800-ConfLightBLE-Lamps-EFR32MG13.zigbee"
     },
     {
-        "fileVersion": 16784922,
-        "fileSize": 479754,
+        "fileVersion": 16786434,
+        "fileSize": 520420,
         "manufacturerCode": 4107,
         "imageType": 276,
-        "sha512": "659b5bae51de7c2df7d7cbcc82ba4a9fbdc2ee602b9fce4c5fcd908c83db7abedf7d1335400dcde1ce810240de3a4f921f58428b3c8d169d29546454c8a9073f",
-        "url": "https://otau.meethue.com/storage/ZGB_100B_0114/630a2a0f-7a28-453b-90ab-a1b153090602/100B-0114-01001E1A-ConfLightBLE-Lamps-EFR32MG21.zigbee"
+        "sha512": "42148e7e281c1677f89256da0c76a170d903b15af9ed9ae1b2ff9b1170d4c0de8830d81e472a3db758a7be4252a8fb7f45541d9567cecdc4d5fab7cd1dcf7000",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_0114/5b5f0455-081d-43b8-90e4-754114652843/100B-0114-01002402-ConfLightBLE-Lamps-EFR32MG21.zigbee"
     },
     {
-        "fileVersion": 16781056,
-        "fileSize": 385678,
+        "fileVersion": 16782080,
+        "fileSize": 404706,
         "manufacturerCode": 4107,
         "imageType": 277,
-        "sha512": "ffbab6ed1c88d9188ad68f8b4744a0e108955fa3b77744f53d213bfc9b1a134320d64f388b34a3c8b9073c637861009dca19b7902f34d5b9a7fb548c294ec95b",
-        "url": "https://otau.meethue.com/storage/ZGB_100B_0115/acfcd164-eff8-4ee2-8025-2dbd7db105e5/100B-0115-01000F00-SmartPlug-EFR32MG13.zigbee"
+        "sha512": "f1edaf545194ba778aaba07321dcf127380ad8d43d4ada0dc6cfce23f16e0f1d2726fb3b8076f8b8eb88a499955e2228395e15151cdb625f3040b2c449cfb66b",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_0115/4cf05b6d-d392-47e1-b4cd-2949e13ed8b4/100B-0115-01001300-SmartPlug-EFR32MG13.zigbee"
     },
     {
         "fileVersion": 33566472,
@@ -249,20 +259,20 @@
         "url": "https://otau.meethue.com/storage/ZGB_100B_0116/5ce84476-ad41-4b8b-a5ae-52d0e8df749a/100B-0116-02002F08-Switch-EFR32MG13.zigbee"
     },
     {
-        "fileVersion": 16784642,
-        "fileSize": 412144,
+        "fileVersion": 16784652,
+        "fileSize": 420784,
         "manufacturerCode": 4107,
         "imageType": 279,
-        "sha512": "7422ebeee26c602fe5e2dcbbed5a9930dda86a25f58a2c150d9e4e8937d67bd5981cf2e244f9a9c38f2848f0b19bc8de898ce6bc11bbecae2bea95bcb6fcad2e",
-        "url": "https://otau.meethue.com/storage/ZGB_100B_0117/39f68e14-90ab-4615-bd9b-846169ba64ab/100B-0117-01001D02-ConfLightBLE-ModuLum-EFR32MG21.zigbee"
+        "sha512": "b17faa044694f3b9a3f28653ed0a42441797f60dd390a9507eed8d4baa95368ee4ca9accef6698b0092cc196c99c89129372e2dcba8383473f13d522b02488f1",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_0117/a8a50281-4075-4d41-928d-85aec9f4ef33/100B-0117-01001D0C-ConfLightBLE-ModuLum-EFR32MG21.zigbee"
     },
     {
-        "fileVersion": 16782082,
-        "fileSize": 405994,
+        "fileVersion": 16783104,
+        "fileSize": 431924,
         "manufacturerCode": 4107,
         "imageType": 280,
-        "sha512": "25482925a6275eea64bb33334444580509ff96b20b29a5fb2cdde3e1ff33a0b05d0c53980b56dbdd3099e06984f79d34cad6c81b7a2eecd8be962bf5e71594f0",
-        "url": "https://otau.meethue.com/storage/ZGB_100B_0118/4e4d9adf-46b4-4f3a-a8e4-cc83bb213039/100B-0118-01001302-PixelLum-EFR32MG21.zigbee"
+        "sha512": "c848c31d6e6fd4937bc4324d9a6e88c5870309a348e8c44dd48f4fd441b62d6d5f70ec3c7f41e86ed9685d466a3395a52d76575c0ebe6bda3d223573656127c5",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_0118/2abd57b6-fda8-44dc-bcd4-462bd73723a9/100B-0118-01001700-PixelLum-EFR32MG21.zigbee"
     },
     {
         "fileVersion": 33565954,
@@ -273,44 +283,44 @@
         "url": "https://otau.meethue.com/storage/ZGB_100B_0119/ab6c4f9d-d29c-4e80-8502-863167defbf6/100B-0119-02002D02-Switch-EFR32MG22.zigbee"
     },
     {
-        "fileVersion": 16779776,
-        "fileSize": 331500,
+        "fileVersion": 16780800,
+        "fileSize": 342992,
         "manufacturerCode": 4107,
         "imageType": 282,
-        "sha512": "841764c72f1c28055e5be9bcbef58079895f72dfd6e1a5b778a999e9a039ab210d9d1ded1b9adf462531e8639179653b3f227ed2b20e4b0bc6db8ab1e90514dc",
-        "url": "https://otau.meethue.com/storage/ZGB_100B_011A/2c1a6216-b003-45e0-9d75-f87857e82f00/100B-011A-01000A00-SmartPlug-EFR32MG21.zigbee"
+        "sha512": "23bab7b286ca81ef2578daea289aae37530c065470c8a9e04f5ac8a0a1557eaad6209f9767b80b876e8d0155d02e1d5b773f73f729e91e01856bc8d78dbadd54",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_011A/6c37178a-f106-478d-a38b-eea947ea32f6/100B-011A-01000E00-SmartPlug-EFR32MG21.zigbee"
     },
     {
-        "fileVersion": 16785408,
-        "fileSize": 453930,
+        "fileVersion": 16786432,
+        "fileSize": 479318,
         "manufacturerCode": 4107,
         "imageType": 285,
-        "sha512": "17d23fa07574054f73331fd1672b74c6ccbe87367f7b0b753b9c701bb1cdbbe78b22ca5be5e646c2eeedc68ce0110d480282a610c4773d9de3f1a43ed0a0b4ee",
-        "url": "https://otau.meethue.com/storage/ZGB_100B_011D/1c1bf7b6-e9b3-40ab-a920-87cb6b09492d/100B-011D-01002000-ConfLight-ModuLumV2-EFR32MG13.zigbee"
+        "sha512": "5bbc1e5d131dca14eed328c41cebb77d871b742a8ed3b645fce9dc25b7099bee7847ff36b42531e13797ee46bfab843c6d1916902ddac2116f7954b2a764b9e5",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_011D/b1f26527-34b5-450c-92d3-97a16d1c5c8f/100B-011D-01002400-ConfLight-ModuLumV2-EFR32MG13.zigbee"
     },
     {
-        "fileVersion": 16785408,
-        "fileSize": 431190,
+        "fileVersion": 16786176,
+        "fileSize": 454126,
         "manufacturerCode": 4107,
         "imageType": 286,
-        "sha512": "7960f1b536bfabd20a2f32b71727723ebe4a59059b2f8ef33ae0b913090bafb8b007faa4410460ed40b85c10d49a83adeaf4f9ad39b2178b8c61c5503fb922d0",
-        "url": "https://otau.meethue.com/storage/ZGB_100B_011E/45441e84-b66b-4e75-8778-d9627a52cefd/100B-011E-01002000-ConfLight-PortableV2-EFR32MG13.zigbee"
+        "sha512": "2578e6e4109859b6d0af67b23a181efa8a2b31c00ad4b4e0937a2a799f1b54a1d6514513cf0963a4b04a43a150be73432c117a74733eec2b949a7d95f536bff2",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_011E/1975df01-0f64-451d-82ad-c3684fbfd06b/100B-011E-01002300-ConfLight-PortableV2-EFR32MG13.zigbee"
     },
     {
-        "fileVersion": 16785154,
-        "fileSize": 402570,
+        "fileVersion": 16786178,
+        "fileSize": 430534,
         "manufacturerCode": 4107,
         "imageType": 287,
-        "sha512": "0119150a6fd8378f7fed041ee3f2a5cc61621d0f15c0722a33eaf1ebab9e8ccfd6ae0d59453f33bfe12d3d1d5ba4f80c7bef85ab82164130a3761947461e93e2",
-        "url": "https://otau.meethue.com/storage/ZGB_100B_011F/95971a7b-e3c6-4a80-b28b-cc3fb90d5e9f/100B-011F-01001F02-ConfLightBLE-ModuLumV3-EFR32MG21.zigbee"
+        "sha512": "477994210370a8e880b048c4ce3afd6a7e45e86cff572da1ec59dd183aecfa1af3c9fc398686c883872e1a3eee5fdf0ada221f79b350f2fcf8726a95ac28ac5e",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_011F/b70b363a-d652-4354-be49-b1b8919cd676/100B-011F-01002302-ConfLightBLE-ModuLumV3-EFR32MG21.zigbee"
     },
     {
-        "fileVersion": 16785152,
-        "fileSize": 373288,
+        "fileVersion": 16786176,
+        "fileSize": 387132,
         "manufacturerCode": 4107,
         "imageType": 288,
-        "sha512": "d4d21cfd5092c658e8f91ed5b85f083c9b9b93006f7894db9aa71f42728de910077537f0248dc4d40ec2ac4c7db25199f21734817b70bd93327cc51b1cbdb435",
-        "url": "https://otau.meethue.com/storage/ZGB_100B_0120/2e408b16-42a1-43c6-915c-de7c8d876b2a/100B-0120-01001F00-ConfLightBLE-PortableV3-EFR32MG21.zigbee"
+        "sha512": "6e73937a3e2e4b6d29911633b0d302d70e5c0f2ce6e60b2c3d5424155627369f5318b301c615c26e9ab2bb0a9c091f229bf641a1ba68eabf3bc1aef915d4b950",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_0120/15fbfc24-85c0-4191-9c1e-d1a3f3fa6927/100B-0120-01002300-ConfLightBLE-PortableV3-EFR32MG21.zigbee"
     },
     {
         "fileVersion": 3080,
@@ -329,12 +339,12 @@
         "url": "https://otau.meethue.com/storage/ZGB_100B_0121/f28229fd-c450-4d0c-ada4-21f855674e06/100B-0121-02003B19-Switch-EFR32MG22-40xf.zigbee"
     },
     {
-        "fileVersion": 16778496,
-        "fileSize": 382604,
+        "fileVersion": 16780032,
+        "fileSize": 410330,
         "manufacturerCode": 4107,
         "imageType": 291,
-        "sha512": "1b01de65aa15a5a6f69bd81fa77d6b295fe3457bdf27386d4f21fbb9e920249e3bb6311959a1ebe81ffffd391211d3d4685dc9f824430d9f9a310ca62aa168ec",
-        "url": "https://otau.meethue.com/storage/ZGB_100B_0123/da4dbc65-bf08-474c-865c-bed9fcc64bae/100B-0123-01000500-PixelLumXL-EFR32MG21.zigbee"
+        "sha512": "e3eccff65b9fa5bcee5e3326f1e8337e503caaa94496dd4283075e4db590262a01a13c707fc1c18d803651719108f50a905c2c2f8c3cf7a59e44a6a492a039ee",
+        "url": "https://otau.meethue.com/storage/ZGB_100B_0123/625a7107-0704-4968-a89c-ce93ec1a6e90/100B-0123-01000B00-PixelLumXL-EFR32MG21.zigbee"
     },
     {
         "fileVersion": 537919733,
@@ -881,6 +891,7 @@
         "fileSize": 234174,
         "manufacturerCode": 4098,
         "manufacturerName": [
+            "_TZE200_kds0pmmv",
             "_TZE200_ckud7u2l",
             "_TZE200_cwnjrr72",
             "_TZE200_ywdxldoj",
@@ -915,8 +926,8 @@
         "manufacturerCode": 4151,
         "imageType": 4364,
         "sha512": "4e870adf42d60f196f353f87a5c16d4782f38a2fc3cd977a4cddea237789eb7847363f4810216b434a5fc269971e25ad0671cfc4e6aa5c4a3c7946f01702dbf4",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Eurotronic/20190408_EUROTRONIC_Spirit_Zigbee_0x00122C380.ota",
-        "path": "images/Eurotronic/20190408_EUROTRONIC_Spirit_Zigbee_0x00122C380.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Jennic/20190408_EUROTRONIC_Spirit_Zigbee_0x00122C380.ota",
+        "path": "images/Jennic/20190408_EUROTRONIC_Spirit_Zigbee_0x00122C380.ota"
     },
     {
         "fileVersion": 4,
@@ -949,13 +960,13 @@
         "path": "images/Gledopto/GL-C-008P_V17A1_OTAV7_20210303--V1-4.ota"
     },
     {
-        "fileVersion": 276,
-        "fileSize": 385719,
+        "fileVersion": 284,
+        "fileSize": 391402,
         "manufacturerCode": 4678,
         "imageType": 256,
-        "sha512": "6b89fd90146747fde88e4896a3cb7b8600ee733679d234cb0288632c820264fcb8e5c25a79a04a4faa2114742a6f3fd37b107be6c60e927eea253fe6d8744d6a",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Danfoss/1246-0100-01200120.0002_%282B60A723%29.ota",
-        "path": "images/Danfoss/1246-0100-01200120.0002_(2B60A723).ota"
+        "sha512": "63dafd3332dd2f8901a5094c5d8437861244b78c6348bc3be2b3e7a135e33765cad0001dd842f22a992978e34afe4f7674e082092f03d35040dc0e3fda5f6ae6",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Danfoss/PSoC4_1246-0100-01280128.0002_%284CA01CD1%29.ota",
+        "path": "images/Danfoss/PSoC4_1246-0100-01280128.0002_(4CA01CD1).ota"
     },
     {
         "fileVersion": 5,
@@ -992,8 +1003,8 @@
         "imageType": 1288,
         "sha512": "dc09d2a451cf89927342a27b70e6e823b23f5ad118cf6a1b4c444dd4af1508ae2c52810ca96d309d4a1aea17dccb2402b356b3177831fa510e30d9d5d09091bc",
         "modelId": "lumi.switch.l3acn3",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/OTA_lumi_switch_l3acn3_0_0_0_0027_20200619_283DA8_20200702151504.ota",
-        "path": "images/Xiaomi/OTA_lumi_switch_l3acn3_0_0_0_0027_20200619_283DA8_20200702151504.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/OTA_lumi_switch_l3acn3_0_0_0_0027_20200619_283DA8_20200702151504.ota",
+        "path": "images/Lumi/OTA_lumi_switch_l3acn3_0_0_0_0027_20200619_283DA8_20200702151504.ota"
     },
     {
         "fileVersion": 66,
@@ -1002,8 +1013,8 @@
         "imageType": 257,
         "sha512": "5e1f09ef670a25902760c951d88ea417a3ddb888f18330355d04c9a61776a4b8551275d7488f9beecc81767cfc2726c7bcb8c26f198c10f0247eeb1d89f9d752",
         "modelId": "lumi.switch.b2nacn02",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220106191002_OTA_lumi.switch.b2nacn02_0.0.0_0066_20211223_7588AC.ota",
-        "path": "images/Xiaomi/20220106191002_OTA_lumi.switch.b2nacn02_0.0.0_0066_20211223_7588AC.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20220106191002_OTA_lumi.switch.b2nacn02_0.0.0_0066_20211223_7588AC.ota",
+        "path": "images/Lumi/20220106191002_OTA_lumi.switch.b2nacn02_0.0.0_0066_20211223_7588AC.ota"
     },
     {
         "fileVersion": 18,
@@ -1012,8 +1023,8 @@
         "imageType": 9096,
         "sha512": "b64d5670271617c06695049aee0a832f3667aa2a15ba84ee84c879dcc5089e046b570918ec5ad0e509b195bf3c7a315d1984939256b386c6766f471f8b7ef922",
         "modelId": "lumi.sen_ill.mgl01",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/OTA_lumi.sen_ill.mgl01_V1.0.18_20190814.20191008105225.ota",
-        "path": "images/Xiaomi/OTA_lumi.sen_ill.mgl01_V1.0.18_20190814.20191008105225.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/OTA_lumi.sen_ill.mgl01_V1.0.18_20190814.20191008105225.ota",
+        "path": "images/Lumi/OTA_lumi.sen_ill.mgl01_V1.0.18_20190814.20191008105225.ota"
     },
     {
         "fileVersion": 21,
@@ -1022,8 +1033,8 @@
         "imageType": 8584,
         "sha512": "61ffabff02870c62fbd1ac20290248d3d506da1545a96ce044e32b0b8b370321947bd26048a1188a9bcabfdbb0411eec5acb73a07f6527c39e3fc43d2b2fea28",
         "modelId": "lumi.remote.b286acn03",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/OTA_lumi.remote.b286acn03_V1.0.21_20191127.20200310172748.ota",
-        "path": "images/Xiaomi/OTA_lumi.remote.b286acn03_V1.0.21_20191127.20200310172748.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/OTA_lumi.remote.b286acn03_V1.0.21_20191127.20200310172748.ota",
+        "path": "images/Lumi/OTA_lumi.remote.b286acn03_V1.0.21_20191127.20200310172748.ota"
     },
     {
         "fileVersion": 31,
@@ -1032,8 +1043,8 @@
         "imageType": 8584,
         "sha512": "2012c8d42ad631e5bb8e95a8a6fe2eab308c2379d52880636b956cdf4a01aa9d68101ca5b76c5dcdb2f485edfb67361fe641b54ac838f0b5a7b4cf8f6c71c486",
         "modelId": "lumi.remote.b1acn02",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20221123140517_OTA_lumi.remote.b1acn02_0.0.0_0031_20221010_8D956D.ota",
-        "path": "images/Xiaomi/20221123140517_OTA_lumi.remote.b1acn02_0.0.0_0031_20221010_8D956D.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20221123140517_OTA_lumi.remote.b1acn02_0.0.0_0031_20221010_8D956D.ota",
+        "path": "images/Lumi/20221123140517_OTA_lumi.remote.b1acn02_0.0.0_0031_20221010_8D956D.ota"
     },
     {
         "fileVersion": 20,
@@ -1042,8 +1053,8 @@
         "imageType": 257,
         "sha512": "d4abf6afd408978d7ae937d399c1bd1de2ca6eb58b84aa5bd498958496952c66818344cc5757b2c5b60df4fd5aa505202147d05d51afb448340141affa0d21da",
         "modelId": "lumi.relay.c4acn01",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/OTA_lumi.relay.c4acn01_V2.1.20_201900821_8FFEC9.20190906162416.ota",
-        "path": "images/Xiaomi/OTA_lumi.relay.c4acn01_V2.1.20_201900821_8FFEC9.20190906162416.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/OTA_lumi.relay.c4acn01_V2.1.20_201900821_8FFEC9.20190906162416.ota",
+        "path": "images/Lumi/OTA_lumi.relay.c4acn01_V2.1.20_201900821_8FFEC9.20190906162416.ota"
     },
     {
         "fileVersion": 22,
@@ -1052,8 +1063,8 @@
         "imageType": 16408,
         "sha512": "a7fec7851a60696fb4f482f8fbbcfd638631bc460dca328427351baaf3a0c65a85191d450dab96700dd46c2ca9228efcd9a30c909d598718fe60210ee551d4f8",
         "modelId": "lumi.plug.mmeu01",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/OTA_lumi.plug.mmeu01_V22_20190906_D32362.20191008105750.ota",
-        "path": "images/Xiaomi/OTA_lumi.plug.mmeu01_V22_20190906_D32362.20191008105750.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/OTA_lumi.plug.mmeu01_V22_20190906_D32362.20191008105750.ota",
+        "path": "images/Lumi/OTA_lumi.plug.mmeu01_V22_20190906_D32362.20191008105750.ota"
     },
     {
         "fileVersion": 32,
@@ -1062,8 +1073,8 @@
         "imageType": 24,
         "sha512": "e91499339cf5f247cf5496ad704207ce7862e7cf04adecac217e365a7ad1e0037f5932be9315e574ed112ab04eeb264cf2fde1367414c5a57c66ca9449919057",
         "modelId": "lumi.plug.maeu01",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/OTA_lumi.plug.maeu01_V32_20200922_C11F8A.20200924102946.ota",
-        "path": "images/Xiaomi/OTA_lumi.plug.maeu01_V32_20200922_C11F8A.20200924102946.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/OTA_lumi.plug.maeu01_V32_20200922_C11F8A.20200924102946.ota",
+        "path": "images/Lumi/OTA_lumi.plug.maeu01_V32_20200922_C11F8A.20200924102946.ota"
     },
     {
         "fileVersion": 30,
@@ -1072,8 +1083,8 @@
         "imageType": 257,
         "sha512": "8fd5a04c36991ed8b7e4de3a842e15162b6c8e07e3b0dce5e74ef6295cd653b2e69d44ab5e5e0274c6baf7b9633b4639319036b57e3a383606e70bf174229531",
         "modelId": "lumi.plug.aq1",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/LM15_SP_aq_V1.3.30_20180724_v30_withCRC.20180724160524.ota",
-        "path": "images/Xiaomi/LM15_SP_aq_V1.3.30_20180724_v30_withCRC.20180724160524.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/LM15_SP_aq_V1.3.30_20180724_v30_withCRC.20180724160524.ota",
+        "path": "images/Lumi/LM15_SP_aq_V1.3.30_20180724_v30_withCRC.20180724160524.ota"
     },
     {
         "fileVersion": 92,
@@ -1082,8 +1093,8 @@
         "imageType": 257,
         "sha512": "d9c53f674955832d3b31903cf6f8812791380339cfebd4ffd801638f781ca3fb9d43b74e4bc78d96ce684c23fa3875f7451448ba48e701d6b0a4dbcbb5dcc0e5",
         "modelId": "lumi.plug",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/lumi.plug_20211224_v92.ota",
-        "path": "images/Xiaomi/lumi.plug_20211224_v92.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/lumi.plug_20211224_v92.ota",
+        "path": "images/Lumi/lumi.plug_20211224_v92.ota"
     },
     {
         "fileVersion": 19,
@@ -1092,8 +1103,8 @@
         "imageType": 257,
         "sha512": "199e6a1fbee2d754b640d82acfd5e00f2799567abd8dec04176c4535aef97d2fa91ddce40346b556284134b9ebc123411a9f970361a81522160c997f94372c24",
         "modelId": "lumi.lock.aq1",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/OTA_LMAQ_DoorLock_V2.2.19_20171108.20180129142422.ota",
-        "path": "images/Xiaomi/OTA_LMAQ_DoorLock_V2.2.19_20171108.20180129142422.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/OTA_LMAQ_DoorLock_V2.2.19_20171108.20180129142422.ota",
+        "path": "images/Lumi/OTA_LMAQ_DoorLock_V2.2.19_20171108.20180129142422.ota"
     },
     {
         "fileVersion": 9,
@@ -1102,8 +1113,8 @@
         "imageType": 257,
         "sha512": "6c32a2bc8a4146766650a7208a7cd43a57d2a912907173c8c5994e1d4ea8906699c2ddbd33f31c260aaf05b3d74cf3210159dbfa7d6f4e86c692aa21e479c80b",
         "modelId": "lumi.lock.acn02",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/OTA_LMACN02_DoorLock_V4.1.09_20180317.20180411152155.ota",
-        "path": "images/Xiaomi/OTA_LMACN02_DoorLock_V4.1.09_20180317.20180411152155.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/OTA_LMACN02_DoorLock_V4.1.09_20180317.20180411152155.ota",
+        "path": "images/Lumi/OTA_LMACN02_DoorLock_V4.1.09_20180317.20180411152155.ota"
     },
     {
         "fileVersion": 13,
@@ -1112,8 +1123,8 @@
         "imageType": 257,
         "sha512": "077d99acbf7f4e0bb540b586d62f2274556d55a9c654ee6a3397b3d60dbe4032e7bdc6d27b8c409be7d58a24d56609d9975d31ba7b9c8b852f6650e7e6c20115",
         "modelId": "lumi.lock",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/OTA_LM_WM_DoorLock_V2.3.13_20180409.20180412161023.ota",
-        "path": "images/Xiaomi/OTA_LM_WM_DoorLock_V2.3.13_20180409.20180412161023.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/OTA_LM_WM_DoorLock_V2.3.13_20180409.20180412161023.ota",
+        "path": "images/Lumi/OTA_LM_WM_DoorLock_V2.3.13_20180409.20180412161023.ota"
     },
     {
         "fileVersion": 25,
@@ -1122,8 +1133,8 @@
         "imageType": 2056,
         "sha512": "1bbcc31a494f0c1ee2442cd4ace4843c16292ea626bab0a4038505eb7c6d1aefb864cfcda5d89d85bc8f8995bc3ababee6c7feb51ad0ba45fe4be08853eb6ee0",
         "modelId": "lumi.light.cwopcn03",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/OTA_lumi.light.cwopcn03_V25_20200328_0022DA.20200702160124.ota",
-        "path": "images/Xiaomi/OTA_lumi.light.cwopcn03_V25_20200328_0022DA.20200702160124.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/OTA_lumi.light.cwopcn03_V25_20200328_0022DA.20200702160124.ota",
+        "path": "images/Lumi/OTA_lumi.light.cwopcn03_V25_20200328_0022DA.20200702160124.ota"
     },
     {
         "fileVersion": 25,
@@ -1132,8 +1143,8 @@
         "imageType": 1928,
         "sha512": "bffc6ff8f2017693e3608f9e8bc6a5447eee176f44821a8bdf20ede738ada69252b88472d67a3d2c17a7eefe9f40ef44205b25cf318a9d2ea73395ed0b2ebe49",
         "modelId": "lumi.light.cwopcn02",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/OTA_lumi.light.cwopcn02_V25_20200328_6C8C9C.20200702155957.ota",
-        "path": "images/Xiaomi/OTA_lumi.light.cwopcn02_V25_20200328_6C8C9C.20200702155957.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/OTA_lumi.light.cwopcn02_V25_20200328_6C8C9C.20200702155957.ota",
+        "path": "images/Lumi/OTA_lumi.light.cwopcn02_V25_20200328_6C8C9C.20200702155957.ota"
     },
     {
         "fileVersion": 25,
@@ -1142,8 +1153,8 @@
         "imageType": 1800,
         "sha512": "bdd19e7caac673df5546f97fe7b68d5c815bf4d2d5083cac5b2cd0407befdc488149dd20bbe33bd88e62802d5aa76c08f5ddbae92bf1c4a44638bc29d468c190",
         "modelId": "lumi.light.cwopcn01",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/OTA_lumi.light.cwopcn01_V25_20200328_86DF8E.20200702155802.ota",
-        "path": "images/Xiaomi/OTA_lumi.light.cwopcn01_V25_20200328_86DF8E.20200702155802.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/OTA_lumi.light.cwopcn01_V25_20200328_86DF8E.20200702155802.ota",
+        "path": "images/Lumi/OTA_lumi.light.cwopcn01_V25_20200328_86DF8E.20200702155802.ota"
     },
     {
         "fileVersion": 34,
@@ -1152,8 +1163,8 @@
         "imageType": 257,
         "sha512": "1c7f550fd7318778b9bb53d8296f108e0fade70a34b0735964bdfa22efd87c987c39a7a89e48cf9d360a6eb0b8def6fe3c2ea5d36f11de9ffc7c648a05f5d312",
         "modelId": "lumi.light.aqcn02",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220402154955_OTA_lumi.light.aqcn02_0.0.0_34_20220331_2215F2.ota",
-        "path": "images/Xiaomi/20220402154955_OTA_lumi.light.aqcn02_0.0.0_34_20220331_2215F2.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20220402154955_OTA_lumi.light.aqcn02_0.0.0_34_20220331_2215F2.ota",
+        "path": "images/Lumi/20220402154955_OTA_lumi.light.aqcn02_0.0.0_34_20220331_2215F2.ota"
     },
     {
         "fileVersion": 18,
@@ -1162,8 +1173,8 @@
         "imageType": 8712,
         "sha512": "8d8615f9f2d4e24f99fb860de82618799767061bf57ceab0370ca51ae3cea00684f374e8826b62f04fcf9c8ef1ce7128d299ae3066b1f85658b6a5450e3aac48",
         "modelId": "lumi.flood.agl02",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/OTA_lumi.flood.agl02_V1.0.18_20190814.20191008104903.ota",
-        "path": "images/Xiaomi/OTA_lumi.flood.agl02_V1.0.18_20190814.20191008104903.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/OTA_lumi.flood.agl02_V1.0.18_20190814.20191008104903.ota",
+        "path": "images/Lumi/OTA_lumi.flood.agl02_V1.0.18_20190814.20191008104903.ota"
     },
     {
         "fileVersion": 35,
@@ -1172,8 +1183,8 @@
         "imageType": 257,
         "sha512": "c7b739ab5dce9a15e1b7019503bde9d0809577cbd701b4c03cdf47cad4bbdb8490016f1d52cd2c9af37e1a9cc805fe997ea0f75e91149bea26575f75b10b750b",
         "modelId": "lumi.eemeter.zbtecn01",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/lumi.zzjq_1.1.35_20180824_v35.20180824161828.ota",
-        "path": "images/Xiaomi/lumi.zzjq_1.1.35_20180824_v35.20180824161828.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/lumi.zzjq_1.1.35_20180824_v35.20180824161828.ota",
+        "path": "images/Lumi/lumi.zzjq_1.1.35_20180824_v35.20180824161828.ota"
     },
     {
         "fileVersion": 24,
@@ -1182,8 +1193,8 @@
         "imageType": 9224,
         "sha512": "fc2fc192a1e41f551bb5f8a5c5293035b2d5d75be43adfd922ec5948c56409afe837672245bf0785d4913b9e44c008e197e5c7d8a8e1ea00645457386b2cbb3e",
         "modelId": "lumi.curtain.hagl04",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/LM19_BatteryCurtain_V1.0.24_20200803_Enc_F3D9.20200903160047.ota",
-        "path": "images/Xiaomi/LM19_BatteryCurtain_V1.0.24_20200803_Enc_F3D9.20200903160047.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/LM19_BatteryCurtain_V1.0.24_20200803_Enc_F3D9.20200903160047.ota",
+        "path": "images/Lumi/LM19_BatteryCurtain_V1.0.24_20200803_Enc_F3D9.20200903160047.ota"
     },
     {
         "fileVersion": 33,
@@ -1192,8 +1203,8 @@
         "imageType": 257,
         "sha512": "07592976767a2cb8dd0faa643a15c4e022e0af06ac2dc6f0ba86bd5a3b6126dfefa794c4bfd899ad9883445bcc3b0a7df649341324469437cd74b64a49a6f168",
         "modelId": "lumi.curtain.aq2",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220212141304_OTA_lumi.curtain.aq2_0.0.0_0033_20220124_2C69FB.ota",
-        "path": "images/Xiaomi/20220212141304_OTA_lumi.curtain.aq2_0.0.0_0033_20220124_2C69FB.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20220212141304_OTA_lumi.curtain.aq2_0.0.0_0033_20220124_2C69FB.ota",
+        "path": "images/Lumi/20220212141304_OTA_lumi.curtain.aq2_0.0.0_0033_20220124_2C69FB.ota"
     },
     {
         "fileVersion": 36,
@@ -1202,8 +1213,8 @@
         "imageType": 257,
         "sha512": "ea99469ae0b63556455784b95de50e5143f593186d9a3fc4ad577bc5d75f8e465bcff88e9996f2ff690db687a7984a1a33a95ce7fdf7d79bf0a3cc23651378e8",
         "modelId": "lumi.curtain",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220316103100_OTA_lumi.curtain.v1_0.0.0_0036_20220125_BEEC32.ota",
-        "path": "images/Xiaomi/20220316103100_OTA_lumi.curtain.v1_0.0.0_0036_20220125_BEEC32.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20220316103100_OTA_lumi.curtain.v1_0.0.0_0036_20220125_BEEC32.ota",
+        "path": "images/Lumi/20220316103100_OTA_lumi.curtain.v1_0.0.0_0036_20220125_BEEC32.ota"
     },
     {
         "fileVersion": 30,
@@ -1212,8 +1223,8 @@
         "imageType": 257,
         "sha512": "cd1f30464a1cef4ceb99aa4c32255cd11957e21d4461dd05b5d171f6967b5f5f4808c99bddd1b0041848ffd85a3a182fad1b4adead585c4960305b24cee5f712",
         "modelId": "lumi.ctrl_rgb.es1",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/OTA_WithCRC_LMES_RGBController_V1.2.30_20170801.20170920100827.ota",
-        "path": "images/Xiaomi/OTA_WithCRC_LMES_RGBController_V1.2.30_20170801.20170920100827.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/OTA_WithCRC_LMES_RGBController_V1.2.30_20170801.20170920100827.ota",
+        "path": "images/Lumi/OTA_WithCRC_LMES_RGBController_V1.2.30_20170801.20170920100827.ota"
     },
     {
         "fileVersion": 22,
@@ -1222,8 +1233,8 @@
         "imageType": 257,
         "sha512": "bed8ed339344a5fc66a8e599949e83f9a1d99b36ede2e4b5a9bbb09a855fb695be89e280f1ab4522299c63d3fc7856e4458688fa596ef7eb0c8e548143aa8bdc",
         "modelId": "lumi.ctrl_neutral2",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/OTA_LM15_LNN_V2.6.22_20180503_neutral2_19ms_DIO19Led.20181011142447.ota",
-        "path": "images/Xiaomi/OTA_LM15_LNN_V2.6.22_20180503_neutral2_19ms_DIO19Led.20181011142447.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/OTA_LM15_LNN_V2.6.22_20180503_neutral2_19ms_DIO19Led.20181011142447.ota",
+        "path": "images/Lumi/OTA_LM15_LNN_V2.6.22_20180503_neutral2_19ms_DIO19Led.20181011142447.ota"
     },
     {
         "fileVersion": 22,
@@ -1232,18 +1243,18 @@
         "imageType": 257,
         "sha512": "715205fd8efbac551b4483e1eb28c7767eb693aa602928c1d2400a94a3fe816f8330e76216c957874557f0399318159cbdd1cb686e89529bd213a4b79a19bb78",
         "modelId": "lumi.ctrl_neutral1",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/OTA_LM15_LNN_V2.6.22_20180503_neutral1_19ms_DIO19Led.20181011142357.ota",
-        "path": "images/Xiaomi/OTA_LM15_LNN_V2.6.22_20180503_neutral1_19ms_DIO19Led.20181011142357.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/OTA_LM15_LNN_V2.6.22_20180503_neutral1_19ms_DIO19Led.20181011142357.ota",
+        "path": "images/Lumi/OTA_LM15_LNN_V2.6.22_20180503_neutral1_19ms_DIO19Led.20181011142357.ota"
     },
     {
-        "fileVersion": 94,
-        "fileSize": 189854,
+        "fileVersion": 95,
+        "fileSize": 190334,
         "manufacturerCode": 4447,
         "imageType": 257,
-        "sha512": "171148adff1671d14dd50e49f022a2e00a3fb59255cc99edac74b6b65890ef77b118846f5a2e3892b937af834357fd1d5dc508acec0492e07553350a7a6798ed",
+        "sha512": "e2a0d6d247b177a34471d2098e5069c0752cec764871e9b9e1f368427af2a66d54f0d57fa9c2ef135f4ce4f76f86dc38f7c9992040c09ab9bbf291a47c357ff2",
         "modelId": "lumi.ctrl_ln2.aq1",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/lumi.ctrl_ln2.aq1_20211223_v0094.ota",
-        "path": "images/Xiaomi/lumi.ctrl_ln2.aq1_20211223_v0094.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20230202185209_OTA_lumi.ctrl_ln2.aq1_0.0.0_0095_20220725_0B0798.ota",
+        "path": "images/Lumi/20230202185209_OTA_lumi.ctrl_ln2.aq1_0.0.0_0095_20220725_0B0798.ota"
     },
     {
         "fileVersion": 32,
@@ -1252,18 +1263,18 @@
         "imageType": 257,
         "sha512": "14f037e10da56a544f6534678cdcbd2c875a512d9dfb1169fec0c21a31326f7f4bc5041a22969ff8b4a9997cf8f2593fb52bd5eafc3b93098162e1a93d663758",
         "modelId": "lumi.ctrl_ln2",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/LM15_ln2_V1.0.32_20180625_v32.20181008194246.ota",
-        "path": "images/Xiaomi/LM15_ln2_V1.0.32_20180625_v32.20181008194246.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/LM15_ln2_V1.0.32_20180625_v32.20181008194246.ota",
+        "path": "images/Lumi/LM15_ln2_V1.0.32_20180625_v32.20181008194246.ota"
     },
     {
-        "fileVersion": 94,
-        "fileSize": 187630,
+        "fileVersion": 95,
+        "fileSize": 188030,
         "manufacturerCode": 4447,
         "imageType": 257,
-        "sha512": "4c14b4dc098f7e24975ca640e0a36afc1d4d8e3875f31b97730b53b2b5741a8ed62eae889d939c4f1dcff52d90908a0d9a5c21ea42fb79fed8ba36a2ceefaa7d",
+        "sha512": "79ab01c83ded9ad1116f8314e1464ebfa0a87947bbabb26904fca72a05e07864cb153330badcc8c9fb0dde834fa31f5707cd2e887f79021dbee98a90e26b1abd",
         "modelId": "lumi.ctrl_ln1.aq1",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/lumi.ctrl_ln1.aq1_20211223_v0094.ota",
-        "path": "images/Xiaomi/lumi.ctrl_ln1.aq1_20211223_v0094.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20230202185525_OTA_lumi.ctrl_ln1.aq1_0.0.0_0095_20220804_59D5CD.ota",
+        "path": "images/Lumi/20230202185525_OTA_lumi.ctrl_ln1.aq1_0.0.0_0095_20220804_59D5CD.ota"
     },
     {
         "fileVersion": 32,
@@ -1272,8 +1283,8 @@
         "imageType": 257,
         "sha512": "c89e575b65906603c6fde9e77424a8ea91924d279de679bbadd1bfa496988b4cbec7b2faa9632ff09f78e044706dd2ee26ed68e624d4b980705fd49f5d5f580b",
         "modelId": "lumi.ctrl_ln1",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/LM15_ln1_AQ_V1.0.32_20180625_v32.20181008194104.ota",
-        "path": "images/Xiaomi/LM15_ln1_AQ_V1.0.32_20180625_v32.20181008194104.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/LM15_ln1_AQ_V1.0.32_20180625_v32.20181008194104.ota",
+        "path": "images/Lumi/LM15_ln1_AQ_V1.0.32_20180625_v32.20181008194104.ota"
     },
     {
         "fileVersion": 30,
@@ -1282,8 +1293,8 @@
         "imageType": 257,
         "sha512": "c9587bd3318aa040473a4fd8d0c20f89c169f83902476ab28c738aa3b1d3b5a4bfb2a2663447135761518c86c91c35152290d9e0ef67385e09c5094c675b5f41",
         "modelId": "lumi.ctrl_hvac.es1",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/OTA_withCRC_LMES_HVACController_V1_2_30_20170710_20170818101250.ota",
-        "path": "images/Xiaomi/OTA_withCRC_LMES_HVACController_V1_2_30_20170710_20170818101250.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/OTA_withCRC_LMES_HVACController_V1_2_30_20170710_20170818101250.ota",
+        "path": "images/Lumi/OTA_withCRC_LMES_HVACController_V1_2_30_20170710_20170818101250.ota"
     },
     {
         "fileVersion": 30,
@@ -1292,8 +1303,8 @@
         "imageType": 257,
         "sha512": "02abd66413de6a4f3bf5633b1e82b66f4b8a1fa9b488d1f7a3aeac5f76a097e83a207920f47cce90fa5f12cf9a39ef6ea7c0e629a5be32bd49b0cbc4bc95a7bd",
         "modelId": "lumi.ctrl_dualchn.es1",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/OTA_withCRC_LMES_DualController_V1.3.30_20170801.20170818100757.ota",
-        "path": "images/Xiaomi/OTA_withCRC_LMES_DualController_V1.3.30_20170801.20170818100757.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/OTA_withCRC_LMES_DualController_V1.3.30_20170801.20170818100757.ota",
+        "path": "images/Lumi/OTA_withCRC_LMES_DualController_V1.3.30_20170801.20170818100757.ota"
     },
     {
         "fileVersion": 30,
@@ -1302,8 +1313,8 @@
         "imageType": 257,
         "sha512": "d6fb4c4ec58fb1618056e3bd1d338f1ee45ef69942b0a98993bdf98898d8c62f2b6104bf618524cabe2b998b9d5237afae978c3d7dfa3a14325ba3c31dc5b076",
         "modelId": "lumi.ctrl_dimmer3.es1",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/OTA_withCRC_LMES_Dimmer3Controller_V1.2.30_20170801.20170818101543.ota",
-        "path": "images/Xiaomi/OTA_withCRC_LMES_Dimmer3Controller_V1.2.30_20170801.20170818101543.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/OTA_withCRC_LMES_Dimmer3Controller_V1.2.30_20170801.20170818101543.ota",
+        "path": "images/Lumi/OTA_withCRC_LMES_Dimmer3Controller_V1.2.30_20170801.20170818101543.ota"
     },
     {
         "fileVersion": 94,
@@ -1312,8 +1323,8 @@
         "imageType": 257,
         "sha512": "2a481a36e2aa077c110d7efc30f5f3709f799469eba7dde9defa57c80d327b645c74bc332ff22e004d64ec67fa88abd8f1f1572efbfd48c582292cfaf2cf07a0",
         "modelId": "lumi.ctrl_86plug.aq1",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220728184843_OTA_lumi.ctrl_86plug.aq1_0.0.0_0094_20220722_42FE08.ota",
-        "path": "images/Xiaomi/20220728184843_OTA_lumi.ctrl_86plug.aq1_0.0.0_0094_20220722_42FE08.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20220728184843_OTA_lumi.ctrl_86plug.aq1_0.0.0_0094_20220722_42FE08.ota",
+        "path": "images/Lumi/20220728184843_OTA_lumi.ctrl_86plug.aq1_0.0.0_0094_20220722_42FE08.ota"
     },
     {
         "fileVersion": 11,
@@ -1322,8 +1333,8 @@
         "imageType": 257,
         "sha512": "87aa835321545ec7144d2fec17f51122f8a130f26ed4260301d07839000ff192649865f450302ced4aec9b19fcb309420b13c2a12a78d994d1a84676ffbbafab",
         "modelId": "lumi.ctrl_86plug",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/LM15_86SP_aq_V1.0.11_20170302_OTA_v11_withCRC.20170417201259.ota",
-        "path": "images/Xiaomi/LM15_86SP_aq_V1.0.11_20170302_OTA_v11_withCRC.20170417201259.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/LM15_86SP_aq_V1.0.11_20170302_OTA_v11_withCRC.20170417201259.ota",
+        "path": "images/Lumi/LM15_86SP_aq_V1.0.11_20170302_OTA_v11_withCRC.20170417201259.ota"
     },
     {
         "fileVersion": 12,
@@ -1332,8 +1343,8 @@
         "imageType": 257,
         "sha512": "4d09285e0e5e84c97bc9d33added3034aca02dae8dbbaefd1b61de4e2ab384c0d7884fbabbcee76e9512d43686304935d97c88a30387419e20fc5e50331966b6",
         "modelId": "lumi.airrtc.tcpecn02",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/OTA_lumi.airrtc.tcpecn02_OTA_v12.20180828161528.ota",
-        "path": "images/Xiaomi/OTA_lumi.airrtc.tcpecn02_OTA_v12.20180828161528.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/OTA_lumi.airrtc.tcpecn02_OTA_v12.20180828161528.ota",
+        "path": "images/Lumi/OTA_lumi.airrtc.tcpecn02_OTA_v12.20180828161528.ota"
     },
     {
         "fileVersion": 30,
@@ -1342,8 +1353,8 @@
         "imageType": 257,
         "sha512": "c9587bd3318aa040473a4fd8d0c20f89c169f83902476ab28c738aa3b1d3b5a4bfb2a2663447135761518c86c91c35152290d9e0ef67385e09c5094c675b5f41",
         "modelId": "lumi.airrtc.tcpecn01",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/OTA_withCRC_LMES_HVACController_V1.2.30_20170710.20181024102131.ota",
-        "path": "images/Xiaomi/OTA_withCRC_LMES_HVACController_V1.2.30_20170710.20181024102131.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/OTA_withCRC_LMES_HVACController_V1.2.30_20170710.20181024102131.ota",
+        "path": "images/Lumi/OTA_withCRC_LMES_HVACController_V1.2.30_20170710.20181024102131.ota"
     },
     {
         "fileVersion": 12,
@@ -1352,8 +1363,8 @@
         "imageType": 257,
         "sha512": "e111297f40388931b58c2fb1caa29627d6d9f6230c6eab274fad645ce8de0f92856644f63e0b8f941eb288ecaad9ac65c757a84b118178e75b36a7acbfbb2c9a",
         "modelId": "lumi.airrtc.tcpco2ecn01",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/OTA_lumi.airrtc.tcpco2ecn01_OTA_v12.20180828161433.ota",
-        "path": "images/Xiaomi/OTA_lumi.airrtc.tcpco2ecn01_OTA_v12.20180828161433.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/OTA_lumi.airrtc.tcpco2ecn01_OTA_v12.20180828161433.ota",
+        "path": "images/Lumi/OTA_lumi.airrtc.tcpco2ecn01_OTA_v12.20180828161433.ota"
     },
     {
         "fileVersion": 29,
@@ -1362,18 +1373,8 @@
         "imageType": 9480,
         "sha512": "6810b06a486f7689c87186e593dfdd6f5e0900ac9da154d515c6dd8881c6688ffbaac82e370940ebf133098f26c9a2df1aaf81b6fe0bc2815ee6ac2958b424d5",
         "modelId": "lumi.airmonitor.acn01",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220222202427_OTA_lumi.airmonitor.acn01_0.0.0_0029_20220222_17EC2C.ota",
-        "path": "images/Xiaomi/20220222202427_OTA_lumi.airmonitor.acn01_0.0.0_0029_20220222_17EC2C.ota"
-    },
-    {
-        "fileVersion": 23,
-        "fileSize": 287666,
-        "manufacturerCode": 4447,
-        "imageType": 6169,
-        "sha512": "33628a75e7b8ce56a0abbead156769a015889157118798f747e5324d906317453f01c4dcbcff357ff74d8f5fb019449f102d36e55f42b985347e1bd8d53eb476",
-        "modelId": "lumi.switch.n0agl1",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220121143603_lumi.switch.n0agl1_0.0.0.0023_20211230_0717A1.ota",
-        "path": "images/Xiaomi/20220121143603_lumi.switch.n0agl1_0.0.0.0023_20211230_0717A1.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20220222202427_OTA_lumi.airmonitor.acn01_0.0.0_0029_20220222_17EC2C.ota",
+        "path": "images/Lumi/20220222202427_OTA_lumi.airmonitor.acn01_0.0.0_0029_20220222_17EC2C.ota"
     },
     {
         "fileVersion": 7,
@@ -1405,22 +1406,22 @@
         "path": "images/ClimaxTechnology/12128_OTA_3.18.ZIGBEE"
     },
     {
-        "fileVersion": 262149,
-        "fileSize": 201462,
+        "fileVersion": 262152,
+        "fileSize": 201716,
         "manufacturerCode": 4117,
         "imageType": 593,
-        "sha512": "eb53467c3dec6ad394fe36152bb0e81f4aeaff6fd7c5c5589bf575578c8cdf6126d6219cbfdde0a1db3db7aef07124feacdf4c87cd062c9117e54f92795c5e45",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Develco/ED_Smoke_Sensor_SSIG_4.0.5.zigbee",
-        "path": "images/Develco/ED_Smoke_Sensor_SSIG_4.0.5.zigbee"
+        "sha512": "07bc44d6510a22f99b4ce5baf56a23aa29a8c34f213dbc5c2407fc89c6c7c3542e43082e15285aeaaa94eff4579002da8e6cc30cf35455f57dbfaf7d3db5bf2c",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Develco/FireAlarm_4.0.8.zigbee",
+        "path": "images/Develco/FireAlarm_4.0.8.zigbee"
     },
     {
-        "fileVersion": 262145,
-        "fileSize": 202796,
+        "fileVersion": 262151,
+        "fileSize": 204077,
         "manufacturerCode": 4117,
         "imageType": 832,
-        "sha512": "bcf8dd5ce9b622267a9999baa6df8928dd1d2511b8829a9f0a68594d9ef8b0b5f249e17828450e0845ce4d5b2d48369644c0c2327cbe65783b754061a759b6cd",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Develco/ED_HA_EMI_Norwegian_HAN_4.0.1.zigbee",
-        "path": "images/Develco/ED_HA_EMI_Norwegian_HAN_4.0.1.zigbee"
+        "sha512": "cbc9158bc45d7a819d56ed72dc9b53c717371ccc25a17e84ea13819ce62c5a50cc549602b4b7979dd70561be5e1c4c0a31ba2899a15a20730d894165f3c4a487",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Develco/EmiNorwegianHan_4.0.7.zigbee",
+        "path": "images/Develco/EmiNorwegianHan_4.0.7.zigbee"
     },
     {
         "fileVersion": 26,
@@ -1428,8 +1429,8 @@
         "manufacturerCode": 4447,
         "imageType": 396,
         "sha512": "265c02a7dea4dafb22a2d6b539f5691f8464c3a28d557ab9a8e270c03f41c92a3927ace4429c12e17c652dd6aefe5a6612718fe8195d6bff2f8bd9e42dc5fc26",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/OTA_lumi.switch.b2nacn01_0.0.0_0026_20211101_CE93A8.ota",
-        "path": "images/Xiaomi/OTA_lumi.switch.b2nacn01_0.0.0_0026_20211101_CE93A8.ota",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/OTA_lumi.switch.b2nacn01_0.0.0_0026_20211101_CE93A8.ota",
+        "path": "images/Lumi/OTA_lumi.switch.b2nacn01_0.0.0_0026_20211101_CE93A8.ota",
         "modelId": "lumi.switch.b2nacn01"
     },
     {
@@ -1438,8 +1439,8 @@
         "manufacturerCode": 4447,
         "imageType": 268,
         "sha512": "45cc317c491ba0d3cf84d9d16572920009481d9be2527d43be156af8cedb263ebe76320c1e55bcbf114578967efa30d2abec840adfe8394cbc850931c5e4b258",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/OTA_lumi.switch.b1nacn01_0.0.0_0026_20211101_E70B9E.ota",
-        "path": "images/Xiaomi/OTA_lumi.switch.b1nacn01_0.0.0_0026_20211101_E70B9E.ota",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/OTA_lumi.switch.b1nacn01_0.0.0_0026_20211101_E70B9E.ota",
+        "path": "images/Lumi/OTA_lumi.switch.b1nacn01_0.0.0_0026_20211101_E70B9E.ota",
         "modelId": "lumi.switch.b1nacn01"
     },
     {
@@ -1448,8 +1449,8 @@
         "manufacturerCode": 4447,
         "imageType": 1409,
         "sha512": "c830f68703a1556c619000b8b67c055676953d40ac32090f3ca4fa8abc7c30902614a2890dcd926b9e8d496be769e103ef32c40c9dbbc4caec15417d00465de6",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/lumi.switch.n0acn2_0.0.0_0039_20211230_6DCD12.ota",
-        "path": "images/Xiaomi/lumi.switch.n0acn2_0.0.0_0039_20211230_6DCD12.ota",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/lumi.switch.n0acn2_0.0.0_0039_20211230_6DCD12.ota",
+        "path": "images/Lumi/lumi.switch.n0acn2_0.0.0_0039_20211230_6DCD12.ota",
         "modelId": "lumi.switch.n0acn2"
     },
     {
@@ -1469,8 +1470,8 @@
         "imageType": 14976,
         "sha512": "2436508af75c9b0139d304f8b62ce5579ad721fffec74967db7256bb030f47f8172a2b2ef2003eede1c868410b007ac6c89b3936dd44dffd07fdff155bcb7451",
         "modelId": "lumi.curtain.acn002",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20221009111923_OTA_lumi.curtain.acn002_0.0.0_1530_20221009_6C9C3D.ota",
-        "path": "images/Xiaomi/20221009111923_OTA_lumi.curtain.acn002_0.0.0_1530_20221009_6C9C3D.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20221009111923_OTA_lumi.curtain.acn002_0.0.0_1530_20221009_6C9C3D.ota",
+        "path": "images/Lumi/20221009111923_OTA_lumi.curtain.acn002_0.0.0_1530_20221009_6C9C3D.ota"
     },
     {
         "fileVersion": 50,
@@ -1479,18 +1480,18 @@
         "imageType": 140,
         "sha512": "5babd7da5dd8e612a0cce072eb295cfd729e07e38b664605f86c8b5df919de0aa7e6449b47b8dc3c14babd19dd4a44f754bee5f4799e8de6c615e2d3ac34ff42",
         "modelId": "lumi.plug.sacn02",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/OTA_lumi.plug.sacn02_0.0.0_0050_20211108_AB5B77.ota",
-        "path": "images/Xiaomi/OTA_lumi.plug.sacn02_0.0.0_0050_20211108_AB5B77.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/OTA_lumi.plug.sacn02_0.0.0_0050_20211108_AB5B77.ota",
+        "path": "images/Lumi/OTA_lumi.plug.sacn02_0.0.0_0050_20211108_AB5B77.ota"
     },
     {
-        "fileVersion": 32,
-        "fileSize": 290670,
+        "fileVersion": 33,
+        "fileSize": 278846,
         "manufacturerCode": 4447,
         "imageType": 12,
-        "sha512": "0b17879da56f874d90e14b5d5ef600df04e9a32e4474d2924b38b53847d29122bb077fd846313d58e521ea4e5e7654bfd3e9b51942208bbdbb20897d4c8466c4",
+        "sha512": "b868720b5c0778c7fc0aa6e64cf74aa4bf63c96c19bf52bc904767a8e3acea5e41aee83dcfab33f46d0429b68e23518d75d073ebcc02d5c6447811d68a26c644",
         "modelId": "lumi.plug.macn01",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/OTA_lumi.plug.macn01_0.0.0_0032_20211117_C0EB36.ota",
-        "path": "images/Xiaomi/OTA_lumi.plug.macn01_0.0.0_0032_20211117_C0EB36.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20231018104830_OTA_lumi.plug.macn01_0.0.0_0033_20230913_6AE20B.ota",
+        "path": "images/Lumi/20231018104830_OTA_lumi.plug.macn01_0.0.0_0033_20230913_6AE20B.ota"
     },
     {
         "fileVersion": 24,
@@ -1499,18 +1500,18 @@
         "imageType": 4108,
         "sha512": "55bd7d815696e6a000d4206bdaf9bc825b16e58e537ac8b56b7d848d9a7957f36cb3a10a261c4d49987344dc98430272476d386781910da4671fbac6d63d1b4b",
         "modelId": "lumi.switch.b3n01",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/OTA_lumi.switch.b3n01_0.0.0_0024_20211116_8C7C7F.ota",
-        "path": "images/Xiaomi/OTA_lumi.switch.b3n01_0.0.0_0024_20211116_8C7C7F.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/OTA_lumi.switch.b3n01_0.0.0_0024_20211116_8C7C7F.ota",
+        "path": "images/Lumi/OTA_lumi.switch.b3n01_0.0.0_0024_20211116_8C7C7F.ota"
     },
     {
-        "fileVersion": 34,
-        "fileSize": 275774,
+        "fileVersion": 35,
+        "fileSize": 281438,
         "manufacturerCode": 4447,
         "imageType": 5128,
-        "sha512": "1f1bc04c0df3af154fed2901a05f130603e1841aa0665f969a3a66cbdceb36cd58d325ee31a9680c63ff44e47e0f80d620827803bf85d9e93779a9a4cdbf7f0e",
+        "sha512": "a70384a8c11b7bc55c60fa0990ccd8d06dcf5aa7eba276bf584890c0fe5b1b56a41e14b58377f87b25af5fc488e228cdc33bb82d5b37358ae14350f9d84d91c1",
         "modelId": "lumi.plug.sacn03",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/OTA_lumi.plug.sacn03_0.0.0_0034_20211119_85CEC0.ota",
-        "path": "images/Xiaomi/OTA_lumi.plug.sacn03_0.0.0_0034_20211119_85CEC0.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20231016122117_OTA_lumi.plug.sacn03_0.0.0_0035_20230913_DA8E33.ota",
+        "path": "images/Lumi/20231016122117_OTA_lumi.plug.sacn03_0.0.0_0035_20230913_DA8E33.ota"
     },
     {
         "fileVersion": 47,
@@ -1519,35 +1520,28 @@
         "imageType": 257,
         "sha512": "66380db41c6f9cc8d4c74809caff46c0cb1b691046c3e490fe8d98f2fa2a5c6acceb1d27456a3d7efd50cde92ef150c5adbc0287538a7218540400385bd2956d",
         "modelId": "lumi.relay.c2acn01",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/lumi.relay.c2acn01_20211201_v0047.ota",
-        "path": "images/Xiaomi/lumi.relay.c2acn01_20211201_v0047.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/lumi.relay.c2acn01_20211201_v0047.ota",
+        "path": "images/Lumi/lumi.relay.c2acn01_20211201_v0047.ota"
     },
     {
-        "fileVersion": 3228163,
-        "fileSize": 243063,
-        "manufacturerCode": 4129,
-        "imageType": 16,
-        "sha512": "248ba55d43f96a567d19721fb02c6edddaffba04c35b172011f586e93873dadd86668ecdd38112bb94e463f7f7fb8964c3abc5ffba8d407ec3fcb9202e3cd97d",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-0010-314203-NLM-49.zigbee",
-        "path": "images/Legrand/1021-0010-314203-NLM-49.zigbee"
-    },
-    {
-        "fileVersion": 4866563,
-        "fileSize": 250039,
+        "fileVersion": 5915139,
+        "fileSize": 250775,
         "manufacturerCode": 4129,
         "imageType": 17,
-        "sha512": "295ecf710c20c2b6f7c6c12c6dd22c8cf9e063c041c816786feb830113b9aa4b7cf93e426004da8f4d161ba1ebf2d1a4675547f44b65fd385f10a05035547810",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-0011-4a4203-NLP-74.zigbee",
-        "path": "images/Legrand/1021-0011-4a4203-NLP-74.zigbee"
+        "sha512": "f79b4577fb2b284a790058daba03cf62bae2a1f506581d376eb41fd32b05e2b22152db013883b5aa40a3bb17ae958a6bc3a0225193c37b1ca55cc3bef0dd3784",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-0011-005a4203-NLP.zigbee",
+        "path": "images/Legrand/1021-0011-005a4203-NLP.zigbee",
+        "modelId": "done"
     },
     {
-        "fileVersion": 3949059,
-        "fileSize": 198951,
+        "fileVersion": 4932099,
+        "fileSize": 204423,
         "manufacturerCode": 4129,
         "imageType": 18,
-        "sha512": "b1107b43642d0fa07b950d695fa9002d3b1054051bf1341c86e236484c754913ae0f0e506b5e34c53812991c0a5b042b5750a1fcbc4b111432c7233d99f1b0cb",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-0012-3c4203-NLT-60.zigbee",
-        "path": "images/Legrand/1021-0012-3c4203-NLT-60.zigbee"
+        "sha512": "c60266fa617150a055d3dfd1e105918df7dca3f77c4c283875cb09f8e966b6991d99f29121108bc64c8432f73cee956643833857ff96c4b99608762b43afd491",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-0012-004b4203-NLT.zigbee",
+        "path": "images/Legrand/1021-0012-004b4203-NLT.zigbee",
+        "modelId": "done"
     },
     {
         "fileVersion": 37,
@@ -1556,8 +1550,8 @@
         "imageType": 8328,
         "sha512": "082c60b0481de354ecb1580fc78618990dc32bd19f512694e4ba3fbd90a1fbcc0b49fae17cd3bfa476b10c4a2e304d9faaecdf38e8f55574afca8388c2e13fb7",
         "modelId": "lumi.motion.agl02",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20230209143954_OTA_lumi.motion.agl02_0.0.0_0037_20230209_78D49C.ota",
-        "path": "images/Xiaomi/20230209143954_OTA_lumi.motion.agl02_0.0.0_0037_20230209_78D49C.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20230209143954_OTA_lumi.motion.agl02_0.0.0_0037_20230209_78D49C.ota",
+        "path": "images/Lumi/20230209143954_OTA_lumi.motion.agl02_0.0.0_0037_20230209_78D49C.ota"
     },
     {
         "fileVersion": 27,
@@ -1566,8 +1560,8 @@
         "imageType": 9352,
         "sha512": "c7d5486e4cf6bd592b2e66e5a0d005b1813b182da2f88c871fc20b797db7cc3633a426d80ee968d225e1918831914864f54eb39a117abf8aa82e21f40ece2bed",
         "modelId": "lumi.motion.agl04",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20230112205436_OTA_lumi.motion.agl04_0.0.0_0027_20230109_4D9D5F.ota",
-        "path": "images/Xiaomi/20230112205436_OTA_lumi.motion.agl04_0.0.0_0027_20230109_4D9D5F.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20230112205436_OTA_lumi.motion.agl04_0.0.0_0027_20230109_4D9D5F.ota",
+        "path": "images/Lumi/20230112205436_OTA_lumi.motion.agl04_0.0.0_0027_20230109_4D9D5F.ota"
     },
     {
         "fileVersion": 24,
@@ -1576,8 +1570,8 @@
         "imageType": 6280,
         "sha512": "a3a0ba4b901f63b9063cc70e35c1886da85235db0ef6f7006bfbf35345ade6359adf4261ed86b6173e7e21c5dd9e4959fb09f26df5eb35529314cf3a5bf83db0",
         "modelId": "lumi.switch.b1nc01",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220624200938_OTA_lumi.switch.b1nc01_0.0.0_0024_20220615_7D3656.ota",
-        "path": "images/Xiaomi/20220624200938_OTA_lumi.switch.b1nc01_0.0.0_0024_20220615_7D3656.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20220624200938_OTA_lumi.switch.b1nc01_0.0.0_0024_20220615_7D3656.ota",
+        "path": "images/Lumi/20220624200938_OTA_lumi.switch.b1nc01_0.0.0_0024_20220615_7D3656.ota"
     },
     {
         "fileVersion": 25,
@@ -1586,24 +1580,49 @@
         "imageType": 6408,
         "sha512": "af8c264c43ee112a3277400ee24b921e84c30c4675d8618bbee922e2d66ce29ba79bb133cc28f0608f3c9a3b1ce39a1bf0ca337fd00b27428346d5e134e45b5c",
         "modelId": "lumi.switch.b2nc01",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220624200604_OTA_lumi.switch.b2nc01_0.0.0_0025_20220615_7973B8.ota",
-        "path": "images/Xiaomi/20220624200604_OTA_lumi.switch.b2nc01_0.0.0_0025_20220615_7973B8.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20220624200604_OTA_lumi.switch.b2nc01_0.0.0_0025_20220615_7973B8.ota",
+        "path": "images/Lumi/20220624200604_OTA_lumi.switch.b2nc01_0.0.0_0025_20220615_7973B8.ota"
     },
     {
-        "fileVersion": 1380147,
-        "fileSize": 324960,
+        "fileVersion": 58,
+        "fileSize": 290318,
         "manufacturerCode": 4447,
         "imageType": 2700,
-        "sha512": "26af30dab1549a41d96e9c7a952bb8222f4ececea5197bb88839deb3c1ed2aa5397839af1e0593bf334601386f55b122b76345670a2e0611608586d3903d92a5",
+        "sha512": "3e2a8eea623c36e29de723fb1a3832fc126d43df75a73b0e95148692325f83ef19139c475d721bc3b1bb3bb9ce61b941a5f4d8a6e2a50d8148fc2dbaeabf681a",
         "modelId": "lumi.switch.n2acn1",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220302113302_OTA_lumi.switch.n2acn1_0.0.0_211551_20220217_BBD96B.ota",
-        "path": "images/Xiaomi/20220302113302_OTA_lumi.switch.n2acn1_0.0.0_211551_20220217_BBD96B.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20240312112328_OTA_lumi.switch.n2acn1_0.0.0_58_20240311_931B42.ota",
+        "path": "images/Lumi/20240312112328_OTA_lumi.switch.n2acn1_0.0.0_58_20240311_931B42.ota"
+    },
+    {
+        "fileVersion": 70,
+        "fileSize": 256770,
+        "manufacturerCode": 4417,
+        "manufacturerName": [
+            "_TZ3210_ngqk6jia"
+        ],
+        "imageType": 54179,
+        "sha512": "0d2b6be4f0e8b0efdc2f581aee73055a4b3f05a26888e2c3fd0527f81a2f01af445001a91935f2c95ecbda9f83254ef80a9a51c18e592ac9ed00daedb686cbc8",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Telink/1663234985-oem_ztu_dimmer1_klt_OTA_1.0.6.bin",
+        "path": "images/Telink/1663234985-oem_ztu_dimmer1_klt_OTA_1.0.6.bin"
+    },
+    {
+        "fileVersion": 78,
+        "fileSize": 309954,
+        "manufacturerCode": 4417,
+        "manufacturerName": [
+            "_TZ3000_cjrngdr3"
+        ],
+        "imageType": 54179,
+        "sha512": "6a0861ee46e659b2b4167aa66b958064b57dbbf25c1dc0dcd848b455f012db5f6d0eb2f9099c3905c9cbfcb0ea75eacb12493a1d31e8fcbb896903a31d5cb646",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Telink/1686137326-oem_zg_tl8258_plug_OTA_1.0.14.bin",
+        "path": "images/Telink/1686137326-oem_zg_tl8258_plug_OTA_1.0.14.bin"
     },
     {
         "fileVersion": 192,
         "fileSize": 307682,
         "manufacturerCode": 4417,
         "imageType": 54179,
+        "modelId": "TS011F",
         "sha512": "01939ca4fc790432d2c233e19b2440c1e0248d2ce85c9299e0b88928cb2341de675350ac7b78187a25f06a2768f93db0a17c4ba950b60c82c072e0c0833cfcfb",
         "url": "https://images.tuyaeu.com/smart/firmware/upgrade/20220907/1662545193-oem_zg_tl8258_plug_OTA_3.0.0.bin"
     },
@@ -1614,38 +1633,38 @@
         "imageType": 8347,
         "sha512": "32174d5bc4abbb7295e7619a1684b0a37a9622dfc4cebbc6a39174e18fa3b9bde9b562cbb34e1eb9c61169c0f1f879245d4e452890dfc0645cd22e6ad36f468d",
         "modelId": "lumi.motion.ac01",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220524105221_OTA_lumi.motion.ac01_0.0.0_0054_20220509_EB279B.ota",
-        "path": "images/Xiaomi/20220524105221_OTA_lumi.motion.ac01_0.0.0_0054_20220509_EB279B.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20220524105221_OTA_lumi.motion.ac01_0.0.0_0054_20220509_EB279B.ota",
+        "path": "images/Lumi/20220524105221_OTA_lumi.motion.ac01_0.0.0_0054_20220509_EB279B.ota"
     },
     {
-        "fileVersion": 16,
-        "fileSize": 221902,
+        "fileVersion": 17,
+        "fileSize": 222094,
         "manufacturerCode": 4447,
         "imageType": 9728,
-        "sha512": "cdef26f4a57cc100bbd7bf77ebb0d98c58bbb445d22c3726990ab8ac7809c6a9426c681710b43b79726280c561ebdc91cdf03e0aa4617f4b6ffac6083e1ed337",
+        "sha512": "d5a8e5c323acd99ceaf02ab061e7145dbcf2da028c9d73a6042d02536f0b8aaefbc798b9b47e8fb03345721c0231374c8654e3979e73b10ba51997ad9d41cf0a",
         "modelId": "lumi.sensor_smoke.acn03",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220308121818_OTA_lumi.sensor_smoke.acn03_0.0.0_0016_20202225_4367AB.bin",
-        "path": "images/Xiaomi/20220308121818_OTA_lumi.sensor_smoke.acn03_0.0.0_0016_20202225_4367AB.bin"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20220718113235_OTA_lumi.sensor_smoke.acn03_0.0.0_0017_20220617_CB9276.ota",
+        "path": "images/Lumi/20220718113235_OTA_lumi.sensor_smoke.acn03_0.0.0_0017_20220617_CB9276.ota"
     },
     {
-        "fileVersion": 29,
-        "fileSize": 323566,
+        "fileVersion": 34,
+        "fileSize": 326270,
         "manufacturerCode": 4447,
         "imageType": 6024,
-        "sha512": "2a4201e1b3ed02d46f38444ff148b6ae540ec639e0ae9ccca83aefabd3aac2bccfcb09ab014d41606daba182092ab19ff014efc2db0f756e8ebbaeaea33da116",
+        "sha512": "ec8b02bda1c6c6ff53dcdb3d8e4cf7754aef2000335635c236cf88772dff11975a13d19e40c19206bc4d0ff8153c41bd16538b2929c6b8b748c9640b1b0dd239",
         "modelId": "lumi.dimmer.rcbac1",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20221213165155_OTA_lumi.dimmer.rcbac1_0.0.0_0029_20221212_A8A063.ota",
-        "path": "images/Xiaomi/20221213165155_OTA_lumi.dimmer.rcbac1_0.0.0_0029_20221212_A8A063.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20240119171828_OTA_lumi.dimmer.rcbac1_0.0.0_0034_20240119_C8C27C.ota",
+        "path": "images/Lumi/20240119171828_OTA_lumi.dimmer.rcbac1_0.0.0_0034_20240119_C8C27C.ota"
     },
     {
-        "fileVersion": 15,
-        "fileSize": 272814,
+        "fileVersion": 17,
+        "fileSize": 274110,
         "manufacturerCode": 4447,
         "imageType": 6156,
-        "sha512": "30bb22bc010d09c39bd37bd0c868491a79989883bc16b38026d6a21aa02235529348b4d7f9cd9dd686ba24ba71416595dce4a161543e24c643616ddf5f437d34",
+        "sha512": "552e0562121fed5cfce3d0a64f66750ed68f597b3fdd3ff4e53277cb742540accb23b0a52ee4a4d64c83590370609aab90ac34c711b3027f6ea6785f04610108",
         "modelId": "lumi.sensor_gas.acn02",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20221022145158_OTA_lumi.sensor_gas.acn02_0.0.0.0015_20220708_CEB08C.ota",
-        "path": "images/Xiaomi/20221022145158_OTA_lumi.sensor_gas.acn02_0.0.0.0015_20220708_CEB08C.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20230425180824_OTA_lumi.sensor_gas.acn02_0.0.0_0017_20230423_3F1EAA.ota",
+        "path": "images/Lumi/20230425180824_OTA_lumi.sensor_gas.acn02_0.0.0_0017_20230423_3F1EAA.ota"
     },
     {
         "fileVersion": 13,
@@ -1654,15 +1673,6 @@
         "imageType": 1,
         "sha512": "4d7ab47dcb24e478e0abb35e691222b7691e77ed5a56de3f9c82e8682730649b1a154110b7207d4391c32eae53a869e20878e880fc153dbe046690b870be8486",
         "url": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/download/v13.0/ZLinky_router_v13.ota"
-    },
-    {
-        "fileVersion": 352399361,
-        "fileSize": 212770,
-        "manufacturerCode": 4687,
-        "imageType": 5145,
-        "sha512": "e6fdd4dc6ff83d019c35b41fdba2a610363980f4c11adef86d09cbf6fdfa5889bbf01ee4c330dce9eba1eb1cc9fcf37c44447ca06321699d281ff2cd3cb44a4e",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Gledopto/GL-C-002P_V105_20220419%281%29.ota",
-        "path": "images/Gledopto/GL-C-002P_V105_20220419(1).ota"
     },
     {
         "fileVersion": 352399361,
@@ -1692,6 +1702,15 @@
         "path": "images/Sonoff/zbmini-l_v1.1.1.ota"
     },
     {
+        "fileVersion": 4110,
+        "fileSize": 259018,
+        "manufacturerCode": 4742,
+        "imageType": 4,
+        "sha512": "c80d29e84e3019a84f7a3bdb3e84a3b462e2516c7de5120cdbb68a0e474fcb8b1c5d8eb79b204ad2d9c5af2bed4e544588b192b7884d493a11f82d4ac8625177",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sonoff/zbminil2_v1.0.14.ota",
+        "path": "images/Sonoff/zbminil2_v1.0.14.ota"
+    },
+    {
         "fileVersion": 18,
         "fileSize": 291802,
         "manufacturerCode": 4687,
@@ -1717,8 +1736,8 @@
         "imageType": 11528,
         "sha512": "22fb7b610d169f433ef0bad5a6c6e5f0abfb5b09a1ed2155bc5da23b6cfd204659441136947270b98514581e97233cd2db33002ec277796e1e2ae1572abf2853",
         "modelId": "lumi.motion.ac02",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20230130180718_OTA_lumi.motion.ac02_0.0.0_0010_20230104_390E3D.ota",
-        "path": "images/Xiaomi/20230130180718_OTA_lumi.motion.ac02_0.0.0_0010_20230104_390E3D.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20230130180718_OTA_lumi.motion.ac02_0.0.0_0010_20230104_390E3D.ota",
+        "path": "images/Lumi/20230130180718_OTA_lumi.motion.ac02_0.0.0_0010_20230104_390E3D.ota"
     },
     {
         "fileVersion": 17,
@@ -1727,8 +1746,8 @@
         "imageType": 257,
         "sha512": "391074dec14591fea2f947701c75908c21802430c45a902109f698601136ac9f591373d180b25edc27c44a45f683ff373f101387047bfb100d700a9f1e847afa",
         "modelId": "lumi.plug.maus01",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220104175358_OTA_lumi.plug.maus01_0.0.0_0017_20211224_83991F.ota",
-        "path": "images/Xiaomi/20220104175358_OTA_lumi.plug.maus01_0.0.0_0017_20211224_83991F.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20220104175358_OTA_lumi.plug.maus01_0.0.0_0017_20211224_83991F.ota",
+        "path": "images/Lumi/20220104175358_OTA_lumi.plug.maus01_0.0.0_0017_20211224_83991F.ota"
     },
     {
         "fileVersion": 10205,
@@ -1747,8 +1766,8 @@
         "imageType": 528,
         "sha512": "5c0ef08e8a09d8611d05f9816556f92aaf142854a36564f44a8583928fb87ad4d6870080fde39d29a0daca8f767ddc7382de23b9689a1a9c8baa86f85e62d0af",
         "modelId": "lumi.switch.b1laus01",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/OTA_lumi.switch.b1laus01_0.0.0_0032_20200609_0C501F.20200811124320.ota",
-        "path": "images/Xiaomi/OTA_lumi.switch.b1laus01_0.0.0_0032_20200609_0C501F.20200811124320.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/OTA_lumi.switch.b1laus01_0.0.0_0032_20200609_0C501F.20200811124320.ota",
+        "path": "images/Lumi/OTA_lumi.switch.b1laus01_0.0.0_0032_20200609_0C501F.20200811124320.ota"
     },
     {
         "fileVersion": 32,
@@ -1757,8 +1776,8 @@
         "imageType": 656,
         "sha512": "07666cf47deba2f10574cc52a39e7855fb3961d52272b29958ee51d48b375e407a5fabc755f737b44c113622e9b136d3650a6251b761a59d06eb3ba376d09294",
         "modelId": "lumi.switch.b2laus01",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/OTA_lumi.switch.b2laus01_0.0.0_0032_20200609_CC225A.20200811140905.ota",
-        "path": "images/Xiaomi/OTA_lumi.switch.b2laus01_0.0.0_0032_20200609_CC225A.20200811140905.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/OTA_lumi.switch.b2laus01_0.0.0_0032_20200609_CC225A.20200811140905.ota",
+        "path": "images/Lumi/OTA_lumi.switch.b2laus01_0.0.0_0032_20200609_CC225A.20200811140905.ota"
     },
     {
         "fileVersion": 31,
@@ -1767,18 +1786,8 @@
         "imageType": 276,
         "sha512": "7c43a39a05825af48d125be2ca24118e286f2b52c5912ed07b9c18fac9fee9681800e1815b3c294a109fc9b220587e6aac62d94be27bd994a0be67a47141fd57",
         "modelId": "lumi.switch.b1naus01",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20211228180917_OTA_lumi.switch.b1naus01_0.0.0_0031_20211228_5689C8.ota",
-        "path": "images/Xiaomi/20211228180917_OTA_lumi.switch.b1naus01_0.0.0_0031_20211228_5689C8.ota"
-    },
-    {
-        "fileVersion": 31,
-        "fileSize": 289790,
-        "manufacturerCode": 4447,
-        "imageType": 404,
-        "sha512": "4516f165a9efaeed975e6c5af8f7854fda16baa5ab682033914c11a92629060ccdc9daf743efd1f13d25b8b0abe49a19fd9a75f457717a16d6f67b19ab1a00d3",
-        "modelId": "lumi.switch.b2naus01",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20211228180601_OTA_lumi.switch.b2naus01_0.0.0_0031_20211228_C784BB.ota",
-        "path": "images/Xiaomi/20211228180601_OTA_lumi.switch.b2naus01_0.0.0_0031_20211228_C784BB.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20211228180917_OTA_lumi.switch.b1naus01_0.0.0_0031_20211228_5689C8.ota",
+        "path": "images/Lumi/20211228180917_OTA_lumi.switch.b1naus01_0.0.0_0031_20211228_5689C8.ota"
     },
     {
         "fileVersion": 33,
@@ -1787,8 +1796,8 @@
         "imageType": 1164,
         "sha512": "a01487436dd5bc830b74851fc7360c541543e684b11e263e888551439b7a309beb9d61b808866fc98356ea45c1b5ca61bfb8af5e7d47784c9c505667154d2362",
         "modelId": "lumi.switch.n3acn3",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220718144406_OTA_lumi.switch.n3acn3_0.0.0_0033_20211108_E03E80.ota",
-        "path": "images/Xiaomi/20220718144406_OTA_lumi.switch.n3acn3_0.0.0_0033_20211108_E03E80.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20220718144406_OTA_lumi.switch.n3acn3_0.0.0_0033_20211108_E03E80.ota",
+        "path": "images/Lumi/20220718144406_OTA_lumi.switch.n3acn3_0.0.0_0033_20211108_E03E80.ota"
     },
     {
         "fileVersion": 65,
@@ -1797,8 +1806,8 @@
         "imageType": 257,
         "sha512": "8945e228c2e8cff55d312e7592a01f93b6772334fbe46177c7966c1a896b0e9fa70ee62a70ac4a667ad4dbe9221f1d73b0048b754e3fdcfd1ed32b94fc1a69ab",
         "modelId": "lumi.switch.b1nacn02",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20211228121851_OTA_lumi.switch.b1nacn02_0.0.0_0065_20211223_EB5B32.ota",
-        "path": "images/Xiaomi/20211228121851_OTA_lumi.switch.b1nacn02_0.0.0_0065_20211223_EB5B32.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20211228121851_OTA_lumi.switch.b1nacn02_0.0.0_0065_20211223_EB5B32.ota",
+        "path": "images/Lumi/20211228121851_OTA_lumi.switch.b1nacn02_0.0.0_0065_20211223_EB5B32.ota"
     },
     {
         "fileVersion": 25,
@@ -1807,8 +1816,8 @@
         "imageType": 8968,
         "sha512": "7580343aa5334c23561d0843ea6e8983358e35e3a2d5ebad03d9862632011753f3c72f4c93efcd60a65c1781da59d11217e144aab00d5aa597a70895433e65eb",
         "modelId": "lumi.vibration.agl01",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/OTA_lumi.vibration.agl01_V1.0.25_20200528_F8C40C.20200529185424.ota",
-        "path": "images/Xiaomi/OTA_lumi.vibration.agl01_V1.0.25_20200528_F8C40C.20200529185424.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/OTA_lumi.vibration.agl01_V1.0.25_20200528_F8C40C.20200529185424.ota",
+        "path": "images/Lumi/OTA_lumi.vibration.agl01_V1.0.25_20200528_F8C40C.20200529185424.ota"
     },
     {
         "fileVersion": 6168,
@@ -1817,8 +1826,8 @@
         "imageType": 4105,
         "sha512": "0d1bae25759420898d381b98e97858d2e47f48cd3495abd8754661d0e1957eb5b570a2ae7435acc435d5a18665409e07148abae6f1f4a190c9af786d94ec725d",
         "modelId": "lumi.curtain.acn003",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220422195003_lumi.curtain.acn003_Multi_JN5189_FMSH_0.0.0_2424_20220422_1aa302.ota",
-        "path": "images/Xiaomi/20220422195003_lumi.curtain.acn003_Multi_JN5189_FMSH_0.0.0_2424_20220422_1aa302.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20220422195003_lumi.curtain.acn003_Multi_JN5189_FMSH_0.0.0_2424_20220422_1aa302.ota",
+        "path": "images/Lumi/20220422195003_lumi.curtain.acn003_Multi_JN5189_FMSH_0.0.0_2424_20220422_1aa302.ota"
     },
     {
         "fileVersion": 6168,
@@ -1827,8 +1836,8 @@
         "imageType": 4105,
         "sha512": "0d1bae25759420898d381b98e97858d2e47f48cd3495abd8754661d0e1957eb5b570a2ae7435acc435d5a18665409e07148abae6f1f4a190c9af786d94ec725d",
         "modelId": "lumi.curtain.agl001",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220506181329_lumi.curtain.agl001_Multi_JN5189_FMSH_0.0.0_2424_20220422_1aa302.ota",
-        "path": "images/Xiaomi/20220506181329_lumi.curtain.agl001_Multi_JN5189_FMSH_0.0.0_2424_20220422_1aa302.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20220506181329_lumi.curtain.agl001_Multi_JN5189_FMSH_0.0.0_2424_20220422_1aa302.ota",
+        "path": "images/Lumi/20220506181329_lumi.curtain.agl001_Multi_JN5189_FMSH_0.0.0_2424_20220422_1aa302.ota"
     },
     {
         "fileVersion": 28,
@@ -1837,28 +1846,28 @@
         "imageType": 2057,
         "sha512": "72c0dcb313361f780eeb093dedbcb6f4089b43cdd0e37f87ae8e3782874f9fada121b376a1715c44002f962c86c70d2da923b8b11e96f1cf08693a0da5939acb",
         "modelId": "lumi.light.rgbac1",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220222162717_OTA_lumi.light.rgbac1_0.0.0_0028_20220222_BFF63B.ota",
-        "path": "images/Xiaomi/20220222162717_OTA_lumi.light.rgbac1_0.0.0_0028_20220222_BFF63B.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20220222162717_OTA_lumi.light.rgbac1_0.0.0_0028_20220222_BFF63B.ota",
+        "path": "images/Lumi/20220222162717_OTA_lumi.light.rgbac1_0.0.0_0028_20220222_BFF63B.ota"
     },
     {
-        "fileVersion": 42,
-        "fileSize": 294494,
+        "fileVersion": 43,
+        "fileSize": 288846,
         "manufacturerCode": 4447,
         "imageType": 2440,
-        "sha512": "066cfce29f21c97cc4f331b0f39f86257ca695bec0fd86fd48492b4729aaff367d23e02c40b4fcab0241e0f15db04f0da20649b1d0786563d8e2d997d2560e4e",
+        "sha512": "1329724912da4ec269e06349fd11f5e32a9133fa7d8e3ce0b755887da314022de320f19ba1320b1a4eb700b6233eb1bf384c20d9bf80e88aa5f941353665c296",
         "modelId": "lumi.light.cbacn1",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220923154322_OTA_lumi.light.cbacn1_0.0.0_0042_20220920_15C53A.ota",
-        "path": "images/Xiaomi/20220923154322_OTA_lumi.light.cbacn1_0.0.0_0042_20220920_15C53A.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20240411111850_OTA_lumi.light.cbacn1_0.0.0_0043_20240407_AE8330.ota",
+        "path": "images/Lumi/20240411111850_OTA_lumi.light.cbacn1_0.0.0_0043_20240407_AE8330.ota"
     },
     {
-        "fileVersion": 253363506,
-        "fileSize": 9315433,
+        "fileVersion": 62,
+        "fileSize": 377918,
         "manufacturerCode": 4447,
         "imageType": 3848,
-        "sha512": "a1ffc98de1e50ecae1407806d15143b03b0d3654db2fdb94e1e01cfc56d5d43fb11a6d22ec5aff2d34a579e75ed3bfc09330bff2ca601e233aa61e06ffbc6c63",
+        "sha512": "b5927a2c270ba68d1d9db4bd61b7354d48cf9063aa2bbbf5d0866a91731de5c11478830e283d0fe01bdd32ae3941db725b88e40ad2ef8439d901ea41cf747ec6",
         "modelId": "lumi.switch.n4acn4",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220331162803_OTA_lumi.switch.n4acn4_V5.2.6_0550_20220329_89D857.ota",
-        "path": "images/Xiaomi/20220331162803_OTA_lumi.switch.n4acn4_V5.2.6_0550_20220329_89D857.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20240103161114_OTA_lumi.switch.n4acn4_V62_20240103_776DCB.ota",
+        "path": "images/Lumi/20240103161114_OTA_lumi.switch.n4acn4_V62_20240103_776DCB.ota"
     },
     {
         "fileVersion": 23,
@@ -1867,8 +1876,8 @@
         "imageType": 6536,
         "sha512": "c40e00c75ab07fdb8956e1f169b1652bb1ea2141e68eee56ae728f164391956ac7c069c0aac086c215db3f74520e64afb9d9019809321b98ccc0118018869a72",
         "modelId": "lumi.switch.b1lc04",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220701180138_OTA_lumi.switch.b1lc04_0.0.0_0023_20220701_1ED980.ota",
-        "path": "images/Xiaomi/20220701180138_OTA_lumi.switch.b1lc04_0.0.0_0023_20220701_1ED980.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20220701180138_OTA_lumi.switch.b1lc04_0.0.0_0023_20220701_1ED980.ota",
+        "path": "images/Lumi/20220701180138_OTA_lumi.switch.b1lc04_0.0.0_0023_20220701_1ED980.ota"
     },
     {
         "fileVersion": 23,
@@ -1877,8 +1886,8 @@
         "imageType": 6664,
         "sha512": "1823d8c227a419d5f128169c9e61baa18822e828e02e2ef368927546850dfacb154d38f523e27e80ab6e7cd6c1783fba8abc207c8e80371759c14fbfc9bf152f",
         "modelId": "lumi.switch.b2lc04",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220701175804_OTA_lumi.switch.b2lc04_0.0.0_0023_20220701_E4CE08.ota",
-        "path": "images/Xiaomi/20220701175804_OTA_lumi.switch.b2lc04_0.0.0_0023_20220701_E4CE08.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20220701175804_OTA_lumi.switch.b2lc04_0.0.0_0023_20220701_E4CE08.ota",
+        "path": "images/Lumi/20220701175804_OTA_lumi.switch.b2lc04_0.0.0_0023_20220701_E4CE08.ota"
     },
     {
         "fileVersion": 2,
@@ -1913,8 +1922,8 @@
         "manufacturerCode": 4447,
         "imageType": 5404,
         "sha512": "140be0a40f40f84fcb1878ba623ad5830bfab2049f489ee7acf8ae22c1db1e4991fbf39832482a55fee2fc5b20681d9ab5592d457d1e5bf705b0c75af45eff1f",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20211124154453_OTA_lumi.switch.n1aeu1_0.0.0_1123_20211110.ota",
-        "path": "images/Xiaomi/20211124154453_OTA_lumi.switch.n1aeu1_0.0.0_1123_20211110.ota",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20211124154453_OTA_lumi.switch.n1aeu1_0.0.0_1123_20211110.ota",
+        "path": "images/Lumi/20211124154453_OTA_lumi.switch.n1aeu1_0.0.0_1123_20211110.ota",
         "modelId": "lumi.switch.n1aeu1"
     },
     {
@@ -1924,8 +1933,8 @@
         "imageType": 321,
         "sha512": "b27714b307f6e6ac8fb1c3dacf3ebda25afd7c36fe7cea72637aedd90c1164807035d51e00743069ef4bd165787feab4ce3c678808dddf109e5e76847b695843",
         "modelId": "PEHPL0X",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Perenio/007B-0141-00002867-good_image_PL_1_3_43.zigbee",
-        "path": "images/Perenio/007B-0141-00002867-good_image_PL_1_3_43.zigbee"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/UHome/007B-0141-00002867-good_image_PL_1_3_43.zigbee",
+        "path": "images/UHome/007B-0141-00002867-good_image_PL_1_3_43.zigbee"
     },
     {
         "fileVersion": 1090715650,
@@ -1999,24 +2008,24 @@
         "imageType": 4873,
         "sha512": "20955a8996973680d9b1f110c9d5583c072bcb99032a1070fc0c6663323539928d82d46f34a21109e68882272a459d205eecc0ae3b3bae66a8866dc0c2094b2f",
         "modelId": "aqara.feeder.acn001",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20221213122302_OTA_aqara.feeder.acn001_0.0.0_3833_20220914_03DFD1.ota",
-        "path": "images/Xiaomi/20221213122302_OTA_aqara.feeder.acn001_0.0.0_3833_20220914_03DFD1.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20221213122302_OTA_aqara.feeder.acn001_0.0.0_3833_20220914_03DFD1.ota",
+        "path": "images/Lumi/20221213122302_OTA_aqara.feeder.acn001_0.0.0_3833_20220914_03DFD1.ota"
     },
     {
-        "fileVersion": 31,
-        "fileSize": 145746,
+        "fileVersion": 64,
+        "fileSize": 132562,
         "manufacturerCode": 4659,
         "imageType": 54179,
-        "sha512": "fec2e5eb195b2bd111dda364e8e851db76484e3fa88dc00ab4b166f15b832417ab30c051a53855813e7b80d07491e56bd0919a473e4df6a01dd51facf58be725",
-        "url": "https://tr-zha.s3.amazonaws.com/firmwares/TRTL_WaterLeak_DEV_V31_v1.00.31.ota"
+        "sha512": "30e3302d50cbd55d4bf07223cea7a0aa0875eb6f4b709a9f9525a8a66bfbce666f9ee38e1b5a701fb95b8d57db58a7d88db749c4be8235cfc8dce1b462fc47b8",
+        "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/Water_Leak_Sensor_PROD_OTA_V64_v1.00.64.ota"
     },
     {
-        "fileVersion": 21,
-        "fileSize": 124946,
+        "fileVersion": 23,
+        "fileSize": 125010,
         "manufacturerCode": 4659,
         "imageType": 54185,
-        "sha512": "1f4f7234af883251e5c5d7549cf50686aebdbf0485a9ac0fe00fb7c3fe83432dbf4bb25b3f10c61cf9c16273d3b12893c51c15234db23b1288ab87bf150b6484",
-        "url": "https://tr-zha.s3.amazonaws.com/firmwares/TRTL_ThermalSensor_PROD_OTA_V21_1.00.21.ota"
+        "sha512": "974bd55bc461e25306fa2bc02604d1617a5dd5da7e9b0474ead828a201e89ec5b909c8775d143b970feafe077cfe222c68215967e107ca73ba8ab0ef2cfd5b1f",
+        "url": "https://tr-zha.s3.amazonaws.com/firmware/TRTL_ThermalSensor_PROD_OTA_V23_1.00.23.ota"
     },
     {
         "fileVersion": 2590,
@@ -2025,65 +2034,65 @@
         "imageType": 5017,
         "modelId": "lumi.airrtc.agl001",
         "sha512": "8e360ede89d13ee7f046cebca8b0d6d46806617f91907c44270dd478f86cadc6e521f774113a3c4d434b1ff27e375f5a586e78cdca421363f84feaa6e36346fa",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20230221165005_OTA_lumi.airrtc.agl001_0.0.0_1030_20230220_712488.ota",
-        "path": "images/Xiaomi/20230221165005_OTA_lumi.airrtc.agl001_0.0.0_1030_20230220_712488.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20230221165005_OTA_lumi.airrtc.agl001_0.0.0_1030_20230220_712488.ota",
+        "path": "images/Lumi/20230221165005_OTA_lumi.airrtc.agl001_0.0.0_1030_20230220_712488.ota"
     },
     {
-        "fileVersion": 56,
-        "fileSize": 151410,
+        "fileVersion": 72,
+        "fileSize": 134146,
         "manufacturerCode": 4659,
         "imageType": 54183,
-        "sha512": "36ff1a705900c6560b2ad3a8e4e05c3952ea4c9dd98e9f33fd13d5a0ad048c33777d58886f8d6d8241dcb95334e50504df043e2d5f9f4220a837e2ec93e58031",
-        "url": "https://tr-zha.s3.amazonaws.com/firmwares/SmartCurtain_Zigbee_PROD_OTA_V56_1.00.56.ota"
+        "sha512": "b027134d28d5f297b4f98b549ef916cd0082fa2e69e99426fc0639711a5e4a1fc1a3e38750cfd590b20152ccd36ecd973a3ab8edf00819a2b625de7e9223a253",
+        "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/SmartCurtain_PROD_OTA_V72_v1.00.72.ota"
     },
     {
-        "fileVersion": 23,
-        "fileSize": 128130,
+        "fileVersion": 28,
+        "fileSize": 128242,
         "manufacturerCode": 4659,
         "imageType": 54184,
-        "sha512": "be73e3cb13d44d6ecd48a8cfa170e7885fdf37ec7ee82ae462db8945d86f60a94855b9c009775ac6330cfa35db353ba8a86c5c3618ea3b1a7ee185efc10010b7",
-        "url": "https://tr-zha.s3.amazonaws.com/firmwares/SmartButton_Zigbee_PROD_OTA_V23_1.00.23.ota"
+        "sha512": "1000494cb194337de4aeec9c2d5a37a25a3f20a61af10036e01225faa7434865801991495ddb26902e8b48301088dad067e1db5d1ffb395790bbf68c59bff6ac",
+        "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/Button_PROD_OTA_V28_v1.00.28.ota"
     },
     {
-        "fileVersion": 31,
-        "fileSize": 144178,
+        "fileVersion": 60,
+        "fileSize": 130962,
         "manufacturerCode": 4659,
         "imageType": 54178,
-        "sha512": "c2e821f778c60a897818ced3305cbd6c7fc85f01c0817b6b3775ac5669b3d9a5622e128828dde994db6a0a8387b50c89cb6518611061a6259800fcc93397a4e4",
-        "url": "https://tr-zha.s3.amazonaws.com/firmwares/TRTL_DoorSensor_DEV_V31_v1.00.31.ota"
+        "sha512": "011d5e037491c42a37d6166d3f97ad63606cff70b15ff1167d580ad54a30caa826627957b5e111a7463d1bd19fe03a0982b7a2e9327bdfe7440e9da0dee1aa70",
+        "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/Door_Sensor_PROD_OTA_V60_v1.00.60.ota"
     },
     {
-        "fileVersion": 31,
-        "fileSize": 144674,
+        "fileVersion": 67,
+        "fileSize": 132466,
         "manufacturerCode": 4659,
         "imageType": 54177,
-        "sha512": "3a5e1dd0b99a1d29f98e0f9932388f00d71a37d36a5f422163dc4ae2104db9938ec024e103b650908252db71037c7f8939bcd7093456aba2d8689afa600c942c",
-        "url": "https://tr-zha.s3.amazonaws.com/firmwares/TRTL_PIR_DEV_V31_v1.00.31.ota"
+        "sha512": "32ff1677e879da5a99b7c578ecb3d4f6bf371defb67908fdf3c46609ca13d0801c227ede9713275b0f67b1675c410d007885926db0d880162b06986191006ca5",
+        "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/Motion_Sensor_PROD_OTA_V67_v1.00.67.ota"
     },
     {
-        "fileVersion": 17170689,
-        "fileSize": 335000,
+        "fileVersion": 17694977,
+        "fileSize": 333712,
         "manufacturerCode": 123,
         "imageType": 321,
-        "sha512": "d001b624595e347ee2d8b4a45f01bd97af3d79eff166dd8f335313a7f992709189f3b38b052caf6c7b3182b4d772d2b5a22119d6fbf97a83c246a37c753c7c3f",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/UHome/007B-0141-01060101-good_image.zigbee",
-        "path": "images/UHome/007B-0141-01060101-good_image.zigbee"
+        "sha512": "254e4cbc885512a4dc03bd0c9d9d0a2f080c8f8a78dbf2b1e18872a7edfa6474fcefaf6a52f8fa78eec807e5b6c53c229825fdb4c714800bccabc9fe25c8f465",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/UHome/007B-0141-010E0101-good_image.zigbee",
+        "path": "images/UHome/007B-0141-010E0101-good_image.zigbee"
     },
     {
-        "fileVersion": 12,
-        "fileSize": 146322,
+        "fileVersion": 19,
+        "fileSize": 130466,
         "manufacturerCode": 4659,
         "imageType": 54181,
-        "sha512": "8149d94b41784a822cc412d867bc6d7f27893989715c57924460ee039e2bb3024b8edf124c9d52325dbe7fa0b230d5dff62de4ca87d46120ca6dc42ce6396194",
-        "url": "https://tr-zha.s3.amazonaws.com/firmwares/SmartSwitchGen3_Zigbee_PROD_V12_v1.00.12.ota"
+        "sha512": "526b5ee32889cc8fc774c9e388bc5449f0a8933d47432cdb448ecd0a2c9a3c103b0e252318305f411ac39687d7ec3c98a92e0ba4f12e62bada135af9e75ba689",
+        "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/SmartSwitchGen3_PROD_OTA_V19_v1.00.19.ota"
     },
     {
-        "fileVersion": 268513322,
-        "fileSize": 200482,
+        "fileVersion": 268513360,
+        "fileSize": 195698,
         "manufacturerCode": 4659,
         "imageType": 54182,
-        "sha512": "e37eac9315a55169e7402028e3a37c228d3a5256ef50178e8b34be3c5c5cbdea3735cd791ed04a0701b9160e58ea03620484959261ad622554d13e1021b282da",
-        "url": "https://tr-zha.s3.amazonaws.com/firmwares/SmartPlug_Zigbee_PROD_OTA_V41_v1.00.41.ota"
+        "sha512": "35ac054a319e34135931b93faefaac1ff744379fc52f79af4d4df876022c4c71b090e536dcb351a7fffbe095b892932e7497fa982c7c5ea25f24ac5205ce6587",
+        "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/SmartPlug_Zigbee_PROD_OTA_V79_v1.00.79.ota"
     },
     {
         "fileVersion": 385953793,
@@ -2095,24 +2104,24 @@
         "path": "images/Gledopto/GL-S-006P_V107_20220906.ota"
     },
     {
-        "fileVersion": 25,
-        "fileSize": 293838,
+        "fileVersion": 31,
+        "fileSize": 288510,
         "manufacturerCode": 4447,
         "imageType": 4361,
-        "sha512": "2d580ac3ae3b7678d52232b12b337e8fdf81938fa676f3b19aeee3fb7b57ad1e1e2aed0edcf1cd466cfc17b4e6e28735bb24a6365ae67ee39a375aa79e0c54d4",
+        "sha512": "a342cb05509ab10892a695de2947c66e92109c90cdd9a36c38fbce282971723dbe5502095353e45aace651bf4ff3dbe39c179d3fd32cf148a5f194254e9efd72",
         "modelId": "lumi.light.acn004",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220214105412_OTA_lumi.light.acn004_0.0.0_0025_20220212_444C0D.ota",
-        "path": "images/Xiaomi/20220214105412_OTA_lumi.light.acn004_0.0.0_0025_20220212_444C0D.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20240415175402_OTA_lumi.light.acn004_0.0.0_0031_20240319_BB204F.ota",
+        "path": "images/Lumi/20240415175402_OTA_lumi.light.acn004_0.0.0_0031_20240319_BB204F.ota"
     },
     {
-        "fileVersion": 38,
-        "fileSize": 365564,
+        "fileVersion": 41,
+        "fileSize": 317900,
         "manufacturerCode": 4447,
         "imageType": 138,
-        "sha512": "5cb353a2485b720bb6b848346abe9e691922c030f3646b8c4dee273dd92dad30a096fd1f98b6733362146b9c6c66e60d16754ff3950aa6968aacc696816ed725",
+        "sha512": "dea351b8a1208cb6703530a78966cc940a5d67c2a8990df18a3fcb7d55304a82d713a656efd27705a8ff51b43028ddef4b765dc3692be2f9cdaf47795ab15b11",
         "modelId": "lumi.light.acn026",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20221130214703_OTA_lumi.light.acn026_0.0.0_0038_20221130_2FA7EA.ota",
-        "path": "images/Xiaomi/20221130214703_OTA_lumi.light.acn026_0.0.0_0038_20221130_2FA7EA.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20231222195338_lumi.light.acn026_0.0.0_0041_20231220_20F906.ota",
+        "path": "images/Lumi/20231222195338_lumi.light.acn026_0.0.0_0041_20231220_20F906.ota"
     },
     {
         "fileVersion": 10,
@@ -2124,22 +2133,13 @@
         "path": "images/Tuya/ZB21S3_HZC_Dimmer1_ECO_1.01_20221021.ota"
     },
     {
-        "fileVersion": 1655299,
-        "fileSize": 248759,
-        "manufacturerCode": 4129,
-        "imageType": 21,
-        "sha512": "a412013e82512454543a6901c7973169571c11a0dffd3b22a529b2fac6e21a0309f5fca9f20d8c3564660cada652ea4ee017c5e117541230cba25f15f3784528",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-0015-194203-NLC-25.zigbee",
-        "path": "images/Legrand/1021-0015-194203-NLC-25.zigbee"
-    },
-    {
-        "fileVersion": 262146,
-        "fileSize": 208018,
+        "fileVersion": 262150,
+        "fileSize": 210750,
         "manufacturerCode": 4117,
         "imageType": 386,
-        "sha512": "160ebf2451f9fd6f377ba674a964e2194a173608a9f8d5cd76a9c11d5bfdebc51223d0f237f745b0db7102ae6b18f7f1436b6721240b26eb6851513ffb075b95",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Develco/ED_HA_Motion_Sensor_Mini-SSIG_4.0.2.zigbee",
-        "path": "images/Develco/ED_HA_Motion_Sensor_Mini-SSIG_4.0.2.zigbee"
+        "sha512": "6ed82ead9881ae40347b51127aef48309cd54b78f0be3d46b42337cd34a095b49d9fe0bce434c06059136292bd33d6f8e44cd46a9d7a6d1c9c9934d10ab64af3",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Develco/MotionSensor_4.0.6.zigbee",
+        "path": "images/Develco/MotionSensor_4.0.6.zigbee"
     },
     {
         "fileVersion": 26,
@@ -2148,8 +2148,8 @@
         "imageType": 7432,
         "sha512": "89a392b29fab601cb7d17980806dbf131ebfdbd807fa12031fb92caa71f48f204b989f4477621cd309fcdb23c961ff1adefaff698d4bf0e97383c480fa1a7eba",
         "modelId": "lumi.airm.fhac01",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220920171525_OTA_lumi.airm.fhac01_0.0.0_0026_20220919_BEDF49.ota",
-        "path": "images/Xiaomi/20220920171525_OTA_lumi.airm.fhac01_0.0.0_0026_20220919_BEDF49.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20220920171525_OTA_lumi.airm.fhac01_0.0.0_0026_20220919_BEDF49.ota",
+        "path": "images/Lumi/20220920171525_OTA_lumi.airm.fhac01_0.0.0_0026_20220919_BEDF49.ota"
     },
     {
         "fileVersion": 48,
@@ -2158,18 +2158,18 @@
         "imageType": 4104,
         "sha512": "41788737db26cfe01890a1c5f400b5f3ffb01f4d8ac81606e55a7bfbc0c1d8a22ae8725ff9ff2d9a4bff890fce3271a6fbc808c2a43f3bddf07c7ea75d630432",
         "modelId": "lumi.curtain.hagl07",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20211122110505_OTA_lumi.curtain.hagl07_V48_20211119_2C5A.ota",
-        "path": "images/Xiaomi/20211122110505_OTA_lumi.curtain.hagl07_V48_20211119_2C5A.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20211122110505_OTA_lumi.curtain.hagl07_V48_20211119_2C5A.ota",
+        "path": "images/Lumi/20211122110505_OTA_lumi.curtain.hagl07_V48_20211119_2C5A.ota"
     },
     {
         "modelId": "4512737",
-        "fileVersion": 18,
-        "fileSize": 247634,
+        "fileVersion": 22,
+        "fileSize": 245148,
         "manufacturerCode": 4644,
         "imageType": 6001,
-        "sha512": "3bec1e5057bc2bafdac5a48e27f4d5bcd139a9eb6023ef0112a94cde064295ebb83eb9b8cf9e507f17439f0e16de1dabd8149c21b3614963752689c421fc0219",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Namron/4512737-Firmware-35.ota",
-        "path": "images/Namron/4512737-Firmware-35.ota"
+        "sha512": "ce40cfc670692384590fc58b84fd9b0d1a6f7b1fa28c6a34ea46fd404b536135151e0fa70bef5ff0c1eeca3fe0d27174806fd1b4863e5bc10afaeca49e0b14f0",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Namron/NAMRON_AS_4512737%286001%29%20V22.ota",
+        "path": "images/Namron/NAMRON_AS_4512737(6001) V22.ota"
     },
     {
         "modelId": "4512721",
@@ -2213,23 +2213,23 @@
     },
     {
         "modelId": "4512738",
-        "fileVersion": 18,
-        "fileSize": 247634,
+        "fileVersion": 22,
+        "fileSize": 245148,
         "manufacturerCode": 4644,
         "imageType": 6002,
-        "sha512": "d72c7dde8266a595b84e0566a6e6e77055ace5778d511eaa0dba7b8c69bbbd03bff72d9ce831d7460660f401999c79562251d4bb326554252057e01111672260",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Namron/4512738-Firmware-35.ota",
-        "path": "images/Namron/4512738-Firmware-35.ota"
+        "sha512": "c6eb11b68bbbacee5ee8dc483a93d07db60003a8345fdd512e05603b9ab1b3dd06f692e01a3be71f3411fdd43a3446198fc7dc806c9b80cab3c86226a41941a7",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Namron/NAMRON_AS_4512738%286002%29%20V22.ota",
+        "path": "images/Namron/NAMRON_AS_4512738(6002) V22.ota"
     },
     {
-        "fileVersion": 38,
-        "fileSize": 475360,
+        "fileVersion": 40,
+        "fileSize": 482528,
         "manufacturerCode": 4447,
         "imageType": 129,
-        "sha512": "ce1958c3df56e24e6e15844b54ad12a44b4c86d5c12023738fcc616791b531e6dcd8fc9f7ea7aad896b6d0b23425f2c01cf02508fe4a8566497f178a98acfeaf",
+        "sha512": "18b7eb6a76e610645b078103276462991897c02da3825ca92be54dd10260477932eb69300e988b7017e16b74e5c75c707dee56cd9996227de1f252c5fa1aba40",
         "modelId": "lumi.light.acn014",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20221209103401_lumi.light.acn014_0.0.0_0038_20221207_10E6C5.ota",
-        "path": "images/Xiaomi/20221209103401_lumi.light.acn014_0.0.0_0038_20221207_10E6C5.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20231222183430_lumi.light.acn014_0.0.0_0040_20231220_1E2291.ota",
+        "path": "images/Lumi/20231222183430_lumi.light.acn014_0.0.0_0040_20231220_1E2291.ota"
     },
     {
         "modelId": "4512729",
@@ -2262,16 +2262,6 @@
         "path": "images/Namron/4512719-Firmware-35.ota"
     },
     {
-        "modelId": "RBSH-TRV0-ZB-EU",
-        "fileVersion": 872617236,
-        "fileSize": 165916,
-        "manufacturerCode": 4617,
-        "imageType": 12298,
-        "sha512": "1c8f98b906c857e9259db94b257cc818d0f929002802f068e46ec8fdb6d64d2fdae71d946af3582278377aa36afb04f214daba71ae13d1f14453f9bf94dcd339",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Bosch/0x1209_0x300a_0x34031514.ota",
-        "path": "images/Bosch/0x1209_0x300a_0x34031514.ota"
-    },
-    {
         "fileVersion": 536898096,
         "fileSize": 235962,
         "manufacturerCode": 4919,
@@ -2290,13 +2280,13 @@
         "path": "images/Datek/eva_meter_reader-2.0_MG21.ota"
     },
     {
-        "fileVersion": 620782928,
-        "fileSize": 253618,
+        "fileVersion": 654468432,
+        "fileSize": 253278,
         "manufacturerCode": 4919,
         "imageType": 0,
-        "sha512": "3457d78a27d06423636276f07a969120b674aef552d19bbabc2e2f71852fbf4d873416c15fce313d25a5c05c0745bfd201cd001d699e73779457bc91e127b471",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Datek/mains_power_outlet-2.5.ota",
-        "path": "images/Datek/mains_power_outlet-2.5.ota"
+        "sha512": "431e3fb76a5bde82947a925099d5b5b8639c2e0ba1ad6fe85e7dcd598a8f43c41a86bb78c34ee2fdbe4ae5465e35bb2e24065408fe4aa13c492881848214b6ab",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Datek/mains_power_outlet_2.7.ota",
+        "path": "images/Datek/mains_power_outlet_2.7.ota"
     },
     {
         "fileVersion": 27,
@@ -2305,8 +2295,8 @@
         "imageType": 9096,
         "sha512": "8beb3aac5eeb05cec5d6d4299066a929b2b4268d318864c407d8ed29f7a99a0d876c96afa01ca58b603203e6b8e7eff813d8616bfb69e9e4d391b35030bd17fd",
         "modelId": "lumi.sen_ill.agl01",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/OTA_lumi.sen_ill.agl01_V1.0.27_20200312.20200507152054.ota",
-        "path": "images/Xiaomi/OTA_lumi.sen_ill.agl01_V1.0.27_20200312.20200507152054.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/OTA_lumi.sen_ill.agl01_V1.0.27_20200312.20200507152054.ota",
+        "path": "images/Lumi/OTA_lumi.sen_ill.agl01_V1.0.27_20200312.20200507152054.ota"
     },
     {
         "fileVersion": 25,
@@ -2315,8 +2305,8 @@
         "imageType": 8840,
         "sha512": "c92357df7603f9e33f7c818eabb42ba301886fed9a0f2c70df0d909932c024ea772929f62dce10a71deef723ecb69f67346f487260d9bcea76eb96b436569c9e",
         "modelId": "lumi.remote.cagl02",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220607183723_OTA_lumi.remote.cagl02_V1.0.25_20220602_44D1AF.ota",
-        "path": "images/Xiaomi/20220607183723_OTA_lumi.remote.cagl02_V1.0.25_20220602_44D1AF.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20220607183723_OTA_lumi.remote.cagl02_V1.0.25_20220602_44D1AF.ota",
+        "path": "images/Lumi/20220607183723_OTA_lumi.remote.cagl02_V1.0.25_20220602_44D1AF.ota"
     },
     {
         "fileVersion": 29,
@@ -2325,8 +2315,8 @@
         "imageType": 8456,
         "sha512": "a786eccd33e389777f731f08590dc1d69c6192a03d0ac52cb1901bdf03707a30ac8bdd083beeed75c79923282542ec460d54b0b59a15be371fa2ace1c815cf6b",
         "modelId": "lumi.sensor_ht.agl02",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20230110152017_OTA_lumi.sensor_ht.agl02_0.0.0_0029_20230109_88D8F4.ota",
-        "path": "images/Xiaomi/20230110152017_OTA_lumi.sensor_ht.agl02_0.0.0_0029_20230109_88D8F4.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20230110152017_OTA_lumi.sensor_ht.agl02_0.0.0_0029_20230109_88D8F4.ota",
+        "path": "images/Lumi/20230110152017_OTA_lumi.sensor_ht.agl02_0.0.0_0029_20230109_88D8F4.ota"
     },
     {
         "fileVersion": 56,
@@ -2338,14 +2328,14 @@
         "path": "images/Namron/4512700-Firmware-35.ota"
     },
     {
-        "fileVersion": 28,
-        "fileSize": 312872,
+        "fileVersion": 29,
+        "fileSize": 315524,
         "manufacturerCode": 4447,
         "imageType": 131,
-        "sha512": "23241485157ab6164f147c3ecbdbcf668b78d8c542583802ce81e096e27200872c6a841da83f7433a47c5be9f2b7b1af153421a7fb71aeb998f8d6b6d3e4f8bd",
+        "sha512": "25a205565f0ba9400cf57e7f633e9fb16fe473d23ac79897269d07ead4a2507a1585abcbb55994be551fbf130c28d4bf34a705d9d7d3083a21e2441cfcbd4a20",
         "modelId": "lumi.light.acn003",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20220331205509_OTA_lumi.light.acn003_0.0.0_0028_20220331_D275B9.ota",
-        "path": "images/Xiaomi/20220331205509_OTA_lumi.light.acn003_0.0.0_0028_20220331_D275B9.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20230905121119_OTA_lumi.light.acn003_0.0.0_0029_20230712_1D4A6E.ota",
+        "path": "images/Lumi/20230905121119_OTA_lumi.light.acn003_0.0.0_0029_20230712_1D4A6E.ota"
     },
     {
         "fileVersion": 285474816,
@@ -2364,7 +2354,1411 @@
         "imageType": 8200,
         "sha512": "b8ebb6f7d216870587e7ff91f26116452d9fb2a47b5b1766992f02ec31bd43e59329920dd60e1754cb388ec7a9e3b41c2f979a749fb73dcc6cd16215e230d060",
         "modelId": "lumi.magnet.agl02",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Xiaomi/20230110152619_OTA_lumi.magnet.agl02_0.0.0_0030_20230109_D7EBD0.ota",
-        "path": "images/Xiaomi/20230110152619_OTA_lumi.magnet.agl02_0.0.0_0030_20230109_D7EBD0.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20230110152619_OTA_lumi.magnet.agl02_0.0.0_0030_20230109_D7EBD0.ota",
+        "path": "images/Lumi/20230110152619_OTA_lumi.magnet.agl02_0.0.0_0030_20230109_D7EBD0.ota"
+    },
+    {
+        "fileVersion": 16777269,
+        "fileSize": 305574,
+        "manufacturerCode": 4476,
+        "imageType": 4366,
+        "sha512": "771af218764fa9ec4a6f5fcda73c46afc3ac478e81cbf309e9356b093c6305db4d7d257d17adbcc4b91976171443e85a785cd4025ca160e5e716f43b3369d7e0",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/IKEA/ota_t0x110e_m0x117c_v0x01000035.ota",
+        "path": "images/IKEA/ota_t0x110e_m0x117c_v0x01000035.ota"
+    },
+    {
+        "fileVersion": 10,
+        "fileSize": 287022,
+        "manufacturerCode": 4714,
+        "imageType": 44,
+        "sha512": "327e1afaec8baf9d367c5cd43d3dcda80e6014e56a3e400a9094249dd74e1eb2354b7106dd119b3eb661e9051cf64a2f9273a66ba0f089f7374eacb410a749bf",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/EcoDim/Zigbee_Dimmer_1_Gang.ota",
+        "path": "images/EcoDim/Zigbee_Dimmer_1_Gang.ota"
+    },
+    {
+        "fileVersion": 269051408,
+        "fileSize": 230710,
+        "manufacturerCode": 4454,
+        "imageType": 274,
+        "sha512": "215e9c69557798b17153a921f76313c71bff860a569a8188e0b8d5db18f97eb5b7d92c36860509d7c2a6de2a4fe08f909a8390f1623b47654aa6290407b7a994",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-0112-10096610-RS_226v1-upgradeMe.ota",
+        "path": "images/Innr/1166-0112-10096610-RS_226v1-upgradeMe.ota"
+    },
+    {
+        "fileVersion": 537160240,
+        "fileSize": 236978,
+        "manufacturerCode": 4454,
+        "imageType": 277,
+        "sha512": "e6dbd3ab1d4b457cd6d8f102835ecb569364455de465d4068ea927551111137ed68da30d4b61c4c9908cd6cb701487cf50fb316ac2b1113c901daad5c13bd7c6",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-0115-20046A30-RS_230_C-upgradeMe.ota",
+        "path": "images/Innr/1166-0115-20046A30-RS_230_C-upgradeMe.ota"
+    },
+    {
+        "fileVersion": 537422384,
+        "fileSize": 236066,
+        "manufacturerCode": 4454,
+        "imageType": 282,
+        "sha512": "0d21ed79d6c102790ec2017ec768c334cf175f381df3556505f6aa078d3b26373411b4ee0b656fb505923a178c94e13f4c6c0c2f0c09b3e72d227113aceed55f",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-011A-20086A30-RS_229_T-upgradeMe.ota",
+        "path": "images/Innr/1166-011A-20086A30-RS_229_T-upgradeMe.ota"
+    },
+    {
+        "fileVersion": 269575696,
+        "fileSize": 230886,
+        "manufacturerCode": 4454,
+        "imageType": 283,
+        "sha512": "7f0201c41d7010261a363497694dda3b0cc03dd2a103c82bd5d6e13e85ea305c47ba8d62e65e21c5e0cb3a58da3ea52e04cbafb8b4aca057157a525d0871be20",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-011B-10116610-RB_245_v2-upgradeMe.ota",
+        "path": "images/Innr/1166-011B-10116610-RB_245_v2-upgradeMe.ota"
+    },
+    {
+        "fileVersion": 537029168,
+        "fileSize": 236070,
+        "manufacturerCode": 4454,
+        "imageType": 284,
+        "sha512": "74994baf707f7300353c63ab595a33ba4f1f8a8cb3a58b04d6fa8b68098e36e8cc863881c5491d480d037960ce8c0ce8543fafe74c409de9ffca64987cc893cc",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-011C-20026A30-RB_248_T_v2-upgradeMe.ota",
+        "path": "images/Innr/1166-011C-20026A30-RB_248_T_v2-upgradeMe.ota"
+    },
+    {
+        "fileVersion": 537029168,
+        "fileSize": 231406,
+        "manufacturerCode": 4454,
+        "imageType": 288,
+        "sha512": "83410df888984666b83ecf87ee4fc0059082ac30acfbbadd8a3cdce62302501cc927aabd631dc741f3e351526caac506e7b80d5b26601c36b7064a1210ed2064",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-0120-20026A30-RF_263-upgradeMe.ota",
+        "path": "images/Innr/1166-0120-20026A30-RF_263-upgradeMe.ota"
+    },
+    {
+        "fileVersion": 537029168,
+        "fileSize": 231406,
+        "manufacturerCode": 4454,
+        "imageType": 289,
+        "sha512": "c2f46b6db03e16664479f0293e7dfa88b6d92f3620bc277e86bf5e75f552fe7077f64fa95899748cd140f9a073c567c69e5fc5591e2377409fad2e0ae819b0ee",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-0121-20026A30-RF_265-upgradeMe.ota",
+        "path": "images/Innr/1166-0121-20026A30-RF_265-upgradeMe.ota"
+    },
+    {
+        "fileVersion": 537029168,
+        "fileSize": 231406,
+        "manufacturerCode": 4454,
+        "imageType": 290,
+        "sha512": "3ddad977b5bfe38a842a0e1ab49c50769d76375ba2db2bbe5379f58e9116a0bea0e49f35d257b25ea895be39024ce21f54d31923311bc2c7d66ce1eca9a5dbd6",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-0122-20026A30-RF_261-upgradeMe.ota",
+        "path": "images/Innr/1166-0122-20026A30-RF_261-upgradeMe.ota"
+    },
+    {
+        "fileVersion": 537160240,
+        "fileSize": 231406,
+        "manufacturerCode": 4454,
+        "imageType": 292,
+        "sha512": "7d883752d7d3b215a90f1add7bc5b14a2c468dd72bf4936722627339c48d579be505c747e80cebf6669362f25c48423b523ce6fc78ab3a8d157d4b48a4a8332a",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-0124-20046A30-RF_264-upgradeMe.ota",
+        "path": "images/Innr/1166-0124-20046A30-RF_264-upgradeMe.ota"
+    },
+    {
+        "fileVersion": 604181777,
+        "fileSize": 262013,
+        "manufacturerCode": 4454,
+        "imageType": 296,
+        "sha512": "8d239c44c73d403c15448d5c7e4c15d1b25463bbb4681fdfd184cdb6e5f72b4797d71b746097b14ce0e09b631a9e6a4b4d103caa1175ccd257b9193fe7261120",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-0128-24031511-upgradeMe-RS%20226.zigbee",
+        "path": "images/Innr/1166-0128-24031511-upgradeMe-RS 226.zigbee"
+    },
+    {
+        "fileVersion": 604181777,
+        "fileSize": 268720,
+        "manufacturerCode": 4454,
+        "imageType": 297,
+        "sha512": "c7365c9576886a4fc4ddb6e1256d7dcb75f788ec92631e5cb13b8ae317b876954988632010fbe6604a5d1fd5f25936f61387dd6dda20ca61eb5848999278b964",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-0129-24031511-upgradeMe-RS%20227%20T.zigbee",
+        "path": "images/Innr/1166-0129-24031511-upgradeMe-RS 227 T.zigbee"
+    },
+    {
+        "fileVersion": 604181777,
+        "fileSize": 262013,
+        "manufacturerCode": 4454,
+        "imageType": 298,
+        "sha512": "a6606afeb0ce56b20d7aa839d40ec079851fa6b39a80a65707d4dbd900fb2ac2582db40b5dc519c473fc51d1e630bb81aded66545283b77f2ac5e91699771cac",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-012A-24031511-upgradeMe-RB%20245.zigbee",
+        "path": "images/Innr/1166-012A-24031511-upgradeMe-RB 245.zigbee"
+    },
+    {
+        "fileVersion": 604181777,
+        "fileSize": 268720,
+        "manufacturerCode": 4454,
+        "imageType": 299,
+        "sha512": "d3c86737e3a9de6102c013b00b69ea37c551debb898c25f5ce67bfdab4c52b8acca5932e34953d06087dd078d77d83d5d8654c695af6a18440fc2acea0c07f5f",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-012B-24031511-upgradeMe-RB%20249%20T.zigbee",
+        "path": "images/Innr/1166-012B-24031511-upgradeMe-RB 249 T.zigbee"
+    },
+    {
+        "fileVersion": 604181777,
+        "fileSize": 318314,
+        "manufacturerCode": 4454,
+        "imageType": 300,
+        "sha512": "7be7ca7b54e3f404f164f0ae22386e6180f30a72334909648240a45490002b291e4031a6604d3ed7b894a1105a49f6d088df4a085f434a8b1be512a8552a995d",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-012C-24031511-upgradeMe-RB%20251%20C.zigbee",
+        "path": "images/Innr/1166-012C-24031511-upgradeMe-RB 251 C.zigbee"
+    },
+    {
+        "fileVersion": 604181777,
+        "fileSize": 262013,
+        "manufacturerCode": 4454,
+        "imageType": 301,
+        "sha512": "317a109be00c0f7b96e7bdb1d60eab57d68149e3a9da78b7fe21db165d22165fef389b8eb4c0463abe27d5e9680a48975a72687900f5baa5e2df5db16eda1348",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-012D-24031511-upgradeMe-RB%20266.zigbee",
+        "path": "images/Innr/1166-012D-24031511-upgradeMe-RB 266.zigbee"
+    },
+    {
+        "fileVersion": 604181777,
+        "fileSize": 268720,
+        "manufacturerCode": 4454,
+        "imageType": 302,
+        "sha512": "96c85aab44c85dfaecf0e5728b87de5920aa6d1030e18831cbfd737b5e0772937f55f0e7da1c5356ef6e6756f7c4cffbfc7d0ba095e63d053bde2535a450b72d",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-012E-24031511-upgradeMe-RB%20279%20T.zigbee",
+        "path": "images/Innr/1166-012E-24031511-upgradeMe-RB 279 T.zigbee"
+    },
+    {
+        "fileVersion": 604116241,
+        "fileSize": 302698,
+        "manufacturerCode": 4454,
+        "imageType": 303,
+        "sha512": "3195366686f563306fa7fd9d41656498fb6d15e085d4f691d8464f6de074c1042ed33a6706deea6d9dd001ef535f74cd8dceae1deec38194ab1e3d92a596a11f",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-012F-24021511-upgradeMe%20-RB%20286%20C.zigbee",
+        "path": "images/Innr/1166-012F-24021511-upgradeMe -RB 286 C.zigbee"
+    },
+    {
+        "fileVersion": 537029168,
+        "fileSize": 231406,
+        "manufacturerCode": 4454,
+        "imageType": 544,
+        "sha512": "1fb89b2184d2564e0ecec1adbc2a839fb64bd7ebb0eecc53ea7158c23941546a0946873056c38807b0700c0d2822636576f86404371fff64204a1b06f0d5c010",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-0220-20026A30-BF_263-upgradeMe.ota",
+        "path": "images/Innr/1166-0220-20026A30-BF_263-upgradeMe.ota"
+    },
+    {
+        "fileVersion": 537029168,
+        "fileSize": 231406,
+        "manufacturerCode": 4454,
+        "imageType": 545,
+        "sha512": "29c01a141853afb877ce7ba9df86b0eba2ddb067164d996333c71128fe15d7d3d7dcc4e0bd7662cb7dd440b1705d157aaf30479b75bec445c2b3e7c4a646f9d3",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-0221-20026A30-BF_265-upgradeMe.ota",
+        "path": "images/Innr/1166-0221-20026A30-BF_265-upgradeMe.ota"
+    },
+    {
+        "fileVersion": 604181777,
+        "fileSize": 262013,
+        "manufacturerCode": 4454,
+        "imageType": 557,
+        "sha512": "e3a75926cd6e19441dac4aec5a6c81aba32c0fc09fb74481cb1140e4284954497167ae2a897346d53b5cd14bb80bb52b6f14bf7356d5de300b1868f62b6ca8e7",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-022D-24031511-upgradeMe-BY%20266.zigbee",
+        "path": "images/Innr/1166-022D-24031511-upgradeMe-BY 266.zigbee"
+    },
+    {
+        "fileVersion": 604116241,
+        "fileSize": 302698,
+        "manufacturerCode": 4454,
+        "imageType": 559,
+        "sha512": "a6fdd9ab0f770665e126920143da7c0f66ef5d9fed5f2b76f030c4d21a51ae02d881ca31aa6cb80730246311f8bbaac2f9196b7840ac8bc99a6f22db738e9a00",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-022F-24021511-upgradeMe%20BY%20286%20C.zigbee",
+        "path": "images/Innr/1166-022F-24021511-upgradeMe BY 286 C.zigbee"
+    },
+    {
+        "fileVersion": 654404144,
+        "fileSize": 235306,
+        "manufacturerCode": 4454,
+        "imageType": 785,
+        "sha512": "cc6096c0d0f29ef27b883b2fe77672e1956fdcf8fbe028e61052f103d68af0d082d61e32dc41a583c9165186924b727e45c3e83e0b17f1077410cbea3d588720",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-0311-27016A30-SP_222-upgradeMe.ota",
+        "path": "images/Innr/1166-0311-27016A30-SP_222-upgradeMe.ota"
+    },
+    {
+        "fileVersion": 537029168,
+        "fileSize": 236826,
+        "manufacturerCode": 4454,
+        "imageType": 1044,
+        "sha512": "9e80707893222af177ceb158353d1829f5df6b86dab5edda769f62fd60bb4ae8289e63c1d3f139ea4db4a21a6c0779de36767645ee6a51ce6dd9a04d6af81958",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-0414-20026A30-AE_280_C-upgradeMe.ota",
+        "path": "images/Innr/1166-0414-20026A30-AE_280_C-upgradeMe.ota"
+    },
+    {
+        "fileVersion": 537094704,
+        "fileSize": 235482,
+        "manufacturerCode": 4454,
+        "imageType": 2432,
+        "sha512": "9acfaa6978264a588a742a65148536269737c46f81b337709b2cd61f2fdf8ba8e67b94445dd3f85348dfe7d5bb167e03ebef941cde23384b0d1ca17b93d0e5a3",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-0980-20036A30-RCL_240_T-upgradeMe.ota",
+        "path": "images/Innr/1166-0980-20036A30-RCL_240_T-upgradeMe.ota"
+    },
+    {
+        "fileVersion": 16777233,
+        "fileSize": 283326,
+        "manufacturerCode": 4476,
+        "imageType": 4367,
+        "sha512": "995c25c09706dd39498d1adb6f0aca700c193dc1d5b18069f2057f5d2f05096527731330278f4ca15350d4e72489e0349e285af5d5befae25c5e992c847a50b6",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/IKEA/ota_t0x110f_m0x117c_v0x01000011.ota",
+        "path": "images/IKEA/ota_t0x110f_m0x117c_v0x01000011.ota"
+    },
+    {
+        "fileVersion": 61,
+        "fileSize": 412542,
+        "manufacturerCode": 26214,
+        "imageType": 1,
+        "sha512": "9cca5fd3f7b910f26cb2fb8c65bd6b62fc421fdcbb1579ed246a93b876337e8e356ed47724e0a023582d51da85dde38a8a991b64f0051dadd81607c9ff696672",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sprut.device/wb_msw3_0_061.ota",
+        "path": "images/Sprut.device/wb_msw3_0_061.ota"
+    },
+    {
+        "fileVersion": 61,
+        "fileSize": 412538,
+        "manufacturerCode": 26214,
+        "imageType": 2,
+        "sha512": "a6d952c38effabb14419080d2989b218e41b1eff337967708bfe1f1a62054c8c465f9e6dca945e90c46bc7b8185d122a08a504619934619dbaedaccb9bbd4be9",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sprut.device/wb_msw3_A_061.ota",
+        "path": "images/Sprut.device/wb_msw3_A_061.ota"
+    },
+    {
+        "fileVersion": 1380147,
+        "fileSize": 326064,
+        "manufacturerCode": 4447,
+        "imageType": 2828,
+        "sha512": "b46f4d4870bbe38de40dcaad10a7d44cbe684f49608c5a849a5e00490fe77f9bf1b899a5b036ce9e39f5b212239d3b7689eac449181ec07dd0e631e6c2ff0dbf",
+        "modelId": "lumi.switch.acn031",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20220607180259_OTA_lumi.switch.acn031_0.0.0_211551_20220217_C7F604.ota",
+        "path": "images/Lumi/20220607180259_OTA_lumi.switch.acn031_0.0.0_211551_20220217_C7F604.ota"
+    },
+    {
+        "modelId": "RBSH-SP-ZB-EU",
+        "fileVersion": 687893040,
+        "fileSize": 253786,
+        "manufacturerCode": 4617,
+        "imageType": 12290,
+        "sha512": "7d3534ed8c26fbcbe725999fa65cb1f258f602c3b3b49c27b75c4652fab975c26d46d7ff19580a84d9c5efbd6ca3dea62404bbe59c45abfc951b5d0808140c14",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Bosch/0x1209_0x3002_0x29006a30.ota",
+        "path": "images/Bosch/0x1209_0x3002_0x29006a30.ota"
+    },
+    {
+        "modelId": "RBSH-TRV0-ZB-EU",
+        "fileVersion": 889787668,
+        "fileSize": 166554,
+        "manufacturerCode": 4617,
+        "imageType": 12298,
+        "sha512": "bd44eda56bd48503e922001b101522a7340d7e4b68528d3a3d1f6073492631f96e51178573fa2b00da601483b5c5c864b906f14408b0f28d008364c4b195bf52",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Bosch/0x1209_0x300a_0x35091514.ota",
+        "path": "images/Bosch/0x1209_0x300a_0x35091514.ota"
+    },
+    {
+        "fileVersion": 262146,
+        "fileSize": 200121,
+        "manufacturerCode": 4117,
+        "imageType": 576,
+        "sha512": "839eff218970eb619c9f15ae63f435da50d2cf93f44569de4fea56d63d49c888031b1ee0714e447b39f90664eaa490bf619b8eac641c296a27b609e78c61fc56",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Develco/EntrySensor_4.0.2.zigbee",
+        "path": "images/Develco/EntrySensor_4.0.2.zigbee"
+    },
+    {
+        "fileVersion": 771,
+        "fileSize": 398632,
+        "manufacturerCode": 4747,
+        "imageType": 9,
+        "sha512": "5a372c6e6d24fe307ccc9693fe14b68cff09d588f5736e4210d3ca2cb09956835781df5b1a20c5a650ab1bf61125f64e7d11b257451591e37fa1ea0d45b93f00",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/NodOn/128b-0009-0303-700_nodon_sin_rs_fw_efr32_V0303.zigbee",
+        "path": "images/NodOn/128b-0009-0303-700_nodon_sin_rs_fw_efr32_V0303.zigbee"
+    },
+    {
+        "fileVersion": 1380147,
+        "fileSize": 322672,
+        "manufacturerCode": 4447,
+        "imageType": 2572,
+        "sha512": "61b68fa353b90d1e4e390fb04d466dd70f1f4ec03145a9d45ea9efb79099c27f81d89e6ef907f163f06bf1ed167e0d69178e3843b5f0155583dbb74b0f57c3d6",
+        "modelId": "lumi.switch.acn029",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20220607175331_OTA_lumi.switch.acn029_0.0.0_211551_20220217_08B622.ota",
+        "path": "images/Lumi/20220607175331_OTA_lumi.switch.acn029_0.0.0_211551_20220217_08B622.ota"
+    },
+    {
+        "fileVersion": 2048515,
+        "fileSize": 199799,
+        "manufacturerCode": 4129,
+        "imageType": 24,
+        "sha512": "4e802bb5a7e756c7de1083489b29e9388613e447af7330c2f4220e7c72742c4b06f87bba7c1de320b305c99f86013993156ca68c1b3c423f0c3499824a631408",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-0018-001f4203-NLTS.zigbee",
+        "path": "images/Legrand/1021-0018-001f4203-NLTS.zigbee"
+    },
+    {
+        "fileVersion": 2376195,
+        "fileSize": 240135,
+        "manufacturerCode": 4129,
+        "imageType": 25,
+        "sha512": "f9cd4fb7399421874a9ab32d2a15cd22f4614142f643024df9f6f49596ce463a6f7257e0e0a3bf81cedf6f8abf7cb157cdbaf065d207972e8fb2283160a38541",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-0019-00244203-NLFN.zigbee",
+        "path": "images/Legrand/1021-0019-00244203-NLFN.zigbee"
+    },
+    {
+        "fileVersion": 2114051,
+        "fileSize": 240615,
+        "manufacturerCode": 4129,
+        "imageType": 28,
+        "sha512": "b97c5d23e2ebbcdc7498a070745651da131fb35e2ed80ac96d10018597646f691fd5c3bf7a99cb3ac0c11c6d94efc690f32aa54002d5c81866aafd738ec25b4e",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-001c-00204203-NLFE.zigbee",
+        "path": "images/Legrand/1021-001c-00204203-NLFE.zigbee"
+    },
+    {
+        "fileVersion": 1720835,
+        "fileSize": 252871,
+        "manufacturerCode": 4129,
+        "imageType": 36,
+        "sha512": "b03dc2238643ea24496d354161478bc7f32d45f679689f004f0d33835d8b29c2d6ad24ac14221550be805328aa936da554a068c564498d2ab45055f577881c15",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-0024-001a4203-NLIS.zigbee",
+        "path": "images/Legrand/1021-0024-001a4203-NLIS.zigbee"
+    },
+    {
+        "fileVersion": 1524227,
+        "fileSize": 197911,
+        "manufacturerCode": 4129,
+        "imageType": 42,
+        "sha512": "d40b8f4df138b8c1ec2441798b3cc82ff4acc6afc3d08743be5d88177db4140be7dc0a2d6b5215530a22876631a9f0a9268c42805dae8d90f473143722d8ddbc",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-002a-00174203-NLW.zigbee",
+        "path": "images/Legrand/1021-002a-00174203-NLW.zigbee"
+    },
+    {
+        "fileVersion": 1786371,
+        "fileSize": 252679,
+        "manufacturerCode": 4129,
+        "imageType": 46,
+        "sha512": "1631255d8ddeab5c28d5c99aa3da782b6ba73ea130d9e203395c0b1cd2b10d3460f8654feb40f544b4ca338a70f244e5a2d8c67e9352f945b341421a2fcd38f6",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-002e-001b4203-NLIV.zigbee",
+        "path": "images/Legrand/1021-002e-001b4203-NLIV.zigbee"
+    },
+    {
+        "fileVersion": 999939,
+        "fileSize": 213143,
+        "manufacturerCode": 4129,
+        "imageType": 47,
+        "sha512": "21222d0c0a6024475611c87cbce3d4f0d5ff2409b49e342603b446ee5aab2df3d64bc001058f05b637c2842b06a4acadc9995d6202874dc36abf7f7269a726f2",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-002f-000f4203-NLH.zigbee",
+        "path": "images/Legrand/1021-002f-000f4203-NLH.zigbee"
+    },
+    {
+        "fileVersion": 71,
+        "fileSize": 222762,
+        "manufacturerCode": 4098,
+        "manufacturerName": [
+            "_TZ3000_1dd0d5yi"
+        ],
+        "imageType": 5634,
+        "sha512": "41ebf9932d11708b81144232b2c3fccc7a58d76116be63785b978b91afb1180e32d8ba4f4c8f2f0960637f1662ec9ac28aa42b74e5ab57574000889671d2b8b9",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Tuya/1662693814-oem_mg21_zg_nh_win_cover_relay_OTA_1.0.7.bin",
+        "path": "images/Tuya/1662693814-oem_mg21_zg_nh_win_cover_relay_OTA_1.0.7.bin"
+    },
+    {
+        "fileVersion": 268435498,
+        "fileSize": 244094,
+        "manufacturerCode": 4405,
+        "imageType": 256,
+        "sha512": "0905f0e6a469be3893f2c665156f18077258e24439e283c9f4b121553a94e8eb142e6250e721585ddd9aceef75da3c10a03defaee89885d7cb8f08449a20912d",
+        "url": "https://deconz.dresden-elektronik.de/otau/1135-0100-1000002A-Kobold.zigbee"
+    },
+    {
+        "fileVersion": 2097179,
+        "fileSize": 491614,
+        "manufacturerCode": 4405,
+        "imageType": 257,
+        "sha512": "2fdcef8bb3d69f5f534d60982fbfba4078b15a963948e1549367732df431f0076abe0bc8f8183585e850cdc55826509aa2d431001026d1aa242cd8c7a93af8af",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/DresdenElektronik/1135-0101-0020001B-Hive.zigbee",
+        "path": "images/DresdenElektronik/1135-0101-0020001B-Hive.zigbee"
+    },
+    {
+        "fileVersion": 43,
+        "fileSize": 129202,
+        "manufacturerCode": 4659,
+        "imageType": 54187,
+        "sha512": "5c46340689e4e5ae95208f33f45ec9f5bf13fbc7a06f11b73c260ca4c0a10f006ae692ff388446c80e711473f6ff2da45ce90da4c7db1ac42ab9b287dd8f93d8",
+        "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/Vibrate_Sensor_PROD_OTA_V43_v1.00.43.ota"
+    },
+    {
+        "fileVersion": 769,
+        "fileSize": 415780,
+        "manufacturerCode": 4747,
+        "imageType": 2,
+        "sha512": "e9b2d70a51338c24a291201f5b7850877167e3e8c0505b84db038ddaa27865b1e03bd3ce1d618439b1c31319335a9c76fe2d6e9afcc83df1496c5f43b9c4629f",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/NodOn/128b-0002-0301-700_nodon_sin_2_fw_efr32_V0301.zigbee",
+        "path": "images/NodOn/128b-0002-0301-700_nodon_sin_2_fw_efr32_V0301.zigbee"
+    },
+    {
+        "fileVersion": 769,
+        "fileSize": 412804,
+        "manufacturerCode": 4747,
+        "imageType": 10,
+        "sha512": "63fff10432dcdfd8b8787a347a472391c748d74b1e5f925997f52de73b35e64e1d048ef378758e55032e9b0999cd119843047695b464746d71786bdeaddaffd2",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/NodOn/128b-000A-0301-700_nodon_sin_1_fw_efr32_V0301.zigbee",
+        "path": "images/NodOn/128b-000A-0301-700_nodon_sin_1_fw_efr32_V0301.zigbee"
+    },
+    {
+        "fileVersion": 62,
+        "fileSize": 261014,
+        "manufacturerCode": 26214,
+        "imageType": 13,
+        "sha512": "9d47a8eaaaf41c8fa03abafbcb407450a6ca3ff25006cfa33e1c7d3b663ec4b0472c4c2622aa246152488ef5854c293d0932712bbe364bf8a7ff5a72c3b74c30",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sprut.device/zb_wb_msw4_mgm21_062.ota",
+        "path": "images/Sprut.device/zb_wb_msw4_mgm21_062.ota"
+    },
+    {
+        "fileVersion": 32,
+        "fileSize": 269454,
+        "manufacturerCode": 4447,
+        "imageType": 648,
+        "sha512": "b0d9595aab6d9b9b6ad9acd8b0bb9f0d6577dbbf4c96f90cd6465e8c6a487d999f6b0d8f378472580c19e072c029dbe21d9f18cd010f67ecac8ec4dad21cb0a3",
+        "modelId": "lumi.switch.b2lacn01",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/lumi.switch.b2lacn01_0.0.0_0032_20200414.ota",
+        "path": "images/Lumi/lumi.switch.b2lacn01_0.0.0_0032_20200414.ota"
+    },
+    {
+        "fileVersion": 1380147,
+        "fileSize": 324960,
+        "manufacturerCode": 4447,
+        "imageType": 2700,
+        "sha512": "26af30dab1549a41d96e9c7a952bb8222f4ececea5197bb88839deb3c1ed2aa5397839af1e0593bf334601386f55b122b76345670a2e0611608586d3903d92a5",
+        "modelId": "lumi.switch.acn030",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20220607175754_OTA_lumi.switch.acn030_0.0.0_211551_20220217_BBD96B.ota",
+        "path": "images/Lumi/20220607175754_OTA_lumi.switch.acn030_0.0.0_211551_20220217_BBD96B.ota"
+    },
+    {
+        "fileVersion": 571806993,
+        "fileSize": 319518,
+        "manufacturerCode": 4454,
+        "imageType": 304,
+        "sha512": "cfe7aab8c926345f38aa817a6ac652519cd891eeba8162e680b98dc91e6025ff150a04e618c8abc5528110965d1bf036f324619269d33bb97a535ce766b71a5f",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-0130-22151511-upgradeMe%20%20RS%20232%20C%2020230714.ota",
+        "path": "images/Innr/1166-0130-22151511-upgradeMe  RS 232 C 20230714.ota"
+    },
+    {
+        "fileVersion": 604509457,
+        "fileSize": 319414,
+        "manufacturerCode": 4454,
+        "imageType": 305,
+        "sha512": "0d1374689790b7d92eecc068303f87ef0d5df1aadddb0a498c9dca73db9313b2239be14b4b63420660da8512a692909cce64b6ff74769fa62bc4fef610c9c366",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-0131-24081511-upgradeMe%20%20RB%20255%20C%2020230714.ota",
+        "path": "images/Innr/1166-0131-24081511-upgradeMe  RB 255 C 20230714.ota"
+    },
+    {
+        "fileVersion": 402731009,
+        "fileSize": 209202,
+        "manufacturerCode": 4687,
+        "imageType": 5155,
+        "sha512": "fbeba0b73f91a865a5200c77b75589b53369b44d97d3ed445e0f36f0d581372bf4b414cff7dd32eadfb9e57d4c431639f76344cba62d6125044be1b564d995ec",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Gledopto/GL-D-007P.ota",
+        "path": "images/Gledopto/GL-D-007P.ota"
+    },
+    {
+        "fileVersion": 672539,
+        "fileSize": 942962,
+        "manufacturerCode": 4447,
+        "imageType": 141,
+        "sha512": "25007f79ccb030715cd9fa1a0acd447554aa1b8c0627116b0ae06e5135e6c5922e64eace80452e9a05423487d499df1fa0a23a30aead31fac2f15c51f9d82895",
+        "modelId": "lumi.light.acn132",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20230610160234_lumi.light.acn132_mcu_0.0.0_2627_20230606_DA1C86.ota",
+        "path": "images/Lumi/20230610160234_lumi.light.acn132_mcu_0.0.0_2627_20230606_DA1C86.ota"
+    },
+    {
+        "fileVersion": 58,
+        "fileSize": 291358,
+        "manufacturerCode": 4447,
+        "imageType": 2828,
+        "sha512": "914ae14b65dad3fad4c7e9ed32d2a43763d5a7b67a170133c2f9394092d62f17cbfb0f83e3cdc9255698bec66a3d3c1a7f373ffb75843302343598cc05d4532a",
+        "modelId": "lumi.switch.n3acn1",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20240312112133_OTA_lumi.switch.n3acn1_0.0.0_58_20240311_90ED4C.ota",
+        "path": "images/Lumi/20240312112133_OTA_lumi.switch.n3acn1_0.0.0_58_20240311_90ED4C.ota"
+    },
+    {
+        "fileVersion": 541187,
+        "fileSize": 241079,
+        "manufacturerCode": 4129,
+        "imageType": 51,
+        "sha512": "73a338d4d3888404d4ad13ee4fcce80ecbd8ab3f6f58b60097b84b7605daed5bc0195b6988e9c1594183d2a7f8a3fc4aa2277807bf0741193e9a24a8cbdbf854",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-0033-00084203-NLJ.zigbee",
+        "path": "images/Legrand/1021-0033-00084203-NLJ.zigbee"
+    },
+    {
+        "fileVersion": 4,
+        "fileSize": 286646,
+        "manufacturerCode": 4714,
+        "imageType": 1000,
+        "sha512": "9b7835e32ef5af35385710332838099c5dce99a398ae04a1a769d67935fb0752ca4da58892f13bc842cbf8f9ae20516142fe9b66eff3e8ebef6577a71a1d9b0b",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/EcoDim/ZB21S3_HZC_Dimmer1_EcoDim-Zigbee%203.0_1.01_20230908.ota",
+        "path": "images/EcoDim/ZB21S3_HZC_Dimmer1_EcoDim-Zigbee 3.0_1.01_20230908.ota"
+    },
+    {
+        "fileVersion": 16869200,
+        "fileSize": 286646,
+        "manufacturerCode": 4714,
+        "imageType": 60,
+        "sha512": "018905c8e3b60f4f78bdad4a37ff775cc8229fdfd0baf411e2987c3636740a6397ab81ae5e37eebdeb1e234cbc401e5d6e5c0025f9bb884e77344cd301343cc5",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/EcoDim/ZB21S3_HZC_Dimmer1_EcoDim-Zigbee%203.0_1.01_20230908.ota",
+        "path": "images/EcoDim/ZB21S3_HZC_Dimmer1_EcoDim-Zigbee 3.0_1.01_20230908.ota"
+    },
+    {
+        "fileVersion": 30,
+        "fileSize": 411786,
+        "manufacturerCode": 4447,
+        "imageType": 6416,
+        "sha512": "bed1de09ca57d6f9d04e2503fe52c79db4d1daf9706c9f169507897609853cacc45c875860bb6853bfde7226ef0da861dba952c9e2b177e90b31002bf0e4daeb",
+        "modelId": "lumi.switch.acn047",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20240111171722_OTA_lumi.switch.acn047__20240110_EC6C1F.ota",
+        "path": "images/Lumi/20240111171722_OTA_lumi.switch.acn047__20240110_EC6C1F.ota"
+    },
+    {
+        "fileVersion": 72,
+        "fileSize": 289050,
+        "manufacturerCode": 4877,
+        "imageType": 0,
+        "sha512": "fd8ec5ca2d77b82d7dab1350950c64144b220214dadfcaa0bcc0c953644bcb68690624ed990cf2155a3de20b32ad59d3b22132aed46af37ae234c41ac6477ba6",
+        "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/FW_ha_v0.00.72.ota"
+    },
+    {
+        "fileVersion": 285224961,
+        "fileSize": 131362,
+        "manufacturerCode": 4417,
+        "imageType": 515,
+        "sha512": "d0ff5ed064be67820f5528d40f1b95ea93650ad0ff9d831fd51dae049544134fa7d5bcf43fb53b889cb1f986fa8562c844e6ddf62333b96368c0376322f18681",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Telink/1141-0203-11003001-z03mmc.zigbee",
+        "path": "images/Telink/1141-0203-11003001-z03mmc.zigbee"
+    },
+    {
+        "fileVersion": 18100225,
+        "fileSize": 127922,
+        "manufacturerCode": 4417,
+        "imageType": 520,
+        "sha512": "3976e5a67ec50a54d05dc2b5ed69f94fe1bd989663e8855511cacf00c4472cf904a2f51d63909374258fc7a2943e6b412a3c47cd5cb7282690c7a5c4d7c24828",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Telink/1141-0208-01143001-ZMHOC401N.zigbee",
+        "path": "images/Telink/1141-0208-01143001-ZMHOC401N.zigbee"
+    },
+    {
+        "fileVersion": 18952193,
+        "fileSize": 127298,
+        "manufacturerCode": 4417,
+        "imageType": 522,
+        "sha512": "7dbb388c19b2d80d184069243141771f938d560b16ca41b1cfc6daf9151ddb2038becdec8010ee2b24763ebdb92f96efb54f51f0e81764ab3e399a52a43c6725",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Telink/1141-020a-01213001-Z03MMC.zigbee",
+        "path": "images/Telink/1141-020a-01213001-Z03MMC.zigbee"
+    },
+    {
+        "fileVersion": 65793,
+        "fileSize": 27162,
+        "manufacturerCode": 4747,
+        "imageType": 266,
+        "sha512": "384ba32f433aa559534d246e498ff289bc6acb029379c816249b1e4e40dddef70da39a0e82b168a36851918c8d89f8fe245b15031faa860ff2175a077c2e364b",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/NodOn/128b-010A-10101-700_nodon_sin_1_fm_stm32_V10101.zigbee",
+        "path": "images/NodOn/128b-010A-10101-700_nodon_sin_1_fm_stm32_V10101.zigbee"
+    },
+    {
+        "fileVersion": 65793,
+        "fileSize": 27162,
+        "manufacturerCode": 4747,
+        "imageType": 258,
+        "sha512": "4e9eaa29e4bd1277595d6bc779f4f45b9e70dc5407d7fe200c08884e533e0f377f054021cfb89c7e6fad5ffd1dcd35ec22ae90e39ebc94874c95ab2acdb2e77c",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/NodOn/128b-0102-10101-700_nodon_sin_2_fm_stm32_V10101.zigbee",
+        "path": "images/NodOn/128b-0102-10101-700_nodon_sin_2_fm_stm32_V10101.zigbee"
+    },
+    {
+        "fileVersion": 6,
+        "fileSize": 141202,
+        "manufacturerCode": 4659,
+        "imageType": 54190,
+        "sha512": "f101ecec6f23d82eb532e5cb4412d1d1dcc625febfb73abb74b1b3f608ae5792f2b010ffc9ada6fb309de0b0e3be332a82e904ee8c3406f77eaea722594a2057",
+        "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/Air_Pressure_Sensor_PROD_OTA_V6_v1.00.06.ota"
+    },
+    {
+        "fileVersion": 65794,
+        "fileSize": 30206,
+        "manufacturerCode": 4747,
+        "imageType": 265,
+        "sha512": "54f663c338f26aa89245edc79bbbdc911763897f2ca6ba92d72ce447f03f23d0d33a669af68e87ef84d95fa0df0231441f56fc45cb768a5e12ca2f1e77c2f1b9",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/NodOn/128b-0109-10102-700_nodon_sin_rs_fm_stm32_V10102.zigbee",
+        "path": "images/NodOn/128b-0109-10102-700_nodon_sin_rs_fm_stm32_V10102.zigbee"
+    },
+    {
+        "fileVersion": 769,
+        "fileSize": 397224,
+        "manufacturerCode": 4747,
+        "imageType": 6,
+        "sha512": "393565319a21abf23627aba67c238650fa6df1a6482601b416df4e37f285d5685cb5eeae3497b834e08aff55c7dede46e9f5c5ba6436d5a463293db37d596b63",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/NodOn/128b-0006-0301-700_nodon_sin_fp_fw_efr32_V0301.zigbee",
+        "path": "images/NodOn/128b-0006-0301-700_nodon_sin_fp_fw_efr32_V0301.zigbee"
+    },
+    {
+        "fileVersion": 66565,
+        "fileSize": 38668,
+        "manufacturerCode": 4747,
+        "imageType": 262,
+        "sha512": "8e726566f8e6de3a0c1a86252b5330ce145b84045ccc583b6e02e92680140f7b64f81d35dcedd20958104afddbd497122770ddfb1e4b6c50cd2a5e118b052aae",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/NodOn/128b-0106-010405-700_nodon_sin_xx_met_fm_stm32_V010405.zigbee",
+        "path": "images/NodOn/128b-0106-010405-700_nodon_sin_xx_met_fm_stm32_V010405.zigbee"
+    },
+    {
+        "fileVersion": 5212,
+        "fileSize": 578278,
+        "manufacturerCode": 4474,
+        "imageType": 529,
+        "sha512": "ab539a1d694d9488a0deeaa2b0b809bc19b88ba7323eecba7f8abff7e989cee43112b29eb39a8548c0da480d258d7be0f681adb5b848bece0b2a55692c3b2b95",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Insta/V00.00.52.12.ota",
+        "path": "images/Insta/V00.00.52.12.ota"
+    },
+    {
+        "fileVersion": 4101,
+        "fileSize": 258206,
+        "manufacturerCode": 4742,
+        "imageType": 2060,
+        "sha512": "fdcd4e238b25a971d79746a0305e185567e027c3ba08ed42ac7ca003601c25ccce497fd1f8e6ede1e0e7b058768bc2daf3ebc985174fc6265a9df4acc4f81467",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sonoff/snzb-06p_v1.0.5.ota",
+        "path": "images/Sonoff/snzb-06p_v1.0.5.ota"
+    },
+    {
+        "fileVersion": 199696,
+        "fileSize": 181164,
+        "manufacturerCode": 4117,
+        "imageType": 736,
+        "sha512": "eaf4e925dbdf32f171fb8323c52b8652620dea5d62bc007e61ee61d276bdd90f097400a1c1bc48980d78c276117415e274c34529b481be82c28cd3695e2be817",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Develco/ZR_Smartplug_SSIG_3.12.16.zigbee",
+        "path": "images/Develco/ZR_Smartplug_SSIG_3.12.16.zigbee"
+    },
+    {
+        "fileVersion": 58,
+        "fileSize": 288030,
+        "manufacturerCode": 4447,
+        "imageType": 2572,
+        "sha512": "f5d7b9af469e2f627dd341ba70b677400e3e25b43118b8d32f8970f8674cbb8948c195b692a8f425d78fd178e931ca2d0572ca45cd4419a4e6367b47208a9410",
+        "modelId": "lumi.switch.n1acn1",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20240312112538_OTA_lumi.switch.n1acn1_0.0.0_58_20240311_02B313.ota",
+        "path": "images/Lumi/20240312112538_OTA_lumi.switch.n1acn1_0.0.0_58_20240311_02B313.ota"
+    },
+    {
+        "fileVersion": 22,
+        "fileSize": 313700,
+        "manufacturerCode": 4447,
+        "imageType": 139,
+        "sha512": "c0e7a4ea751f2cfb715aee5c3cd4d5cf458f133a76c88e16080a0442652ebb6ae555bcd1336b609a2a9eecc53869d21182fe4b093cc349ef326bf37b6809cf11",
+        "modelId": "lumi.light.acn128",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20231222182930_lumi.light.acn128_0.0.0_0022_20231219_46D8F0.ota",
+        "path": "images/Lumi/20231222182930_lumi.light.acn128_0.0.0_0022_20231219_46D8F0.ota"
+    },
+    {
+        "fileVersion": 41,
+        "fileSize": 285742,
+        "manufacturerCode": 4447,
+        "imageType": 4616,
+        "sha512": "5c154c263bddba0ab0f5ffc0fb80d68f1c56c833b9018ad2a1942f30cec1efee977d6e2f431f8e06d617b241b1311ce4dc8d04f68757e889314e18075e485e5e",
+        "modelId": "lumi.curtain.vagl02",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20230704151031_OTA_lumi.curtain.vagl02_V41_20230703_563B.ota",
+        "path": "images/Lumi/20230704151031_OTA_lumi.curtain.vagl02_V41_20230703_563B.ota"
+    },
+    {
+        "fileVersion": 4357,
+        "fileSize": 328874,
+        "manufacturerCode": 4742,
+        "imageType": 8199,
+        "sha512": "648ae2ebb866d0d0a2e593b34570943d7fd8596a417597eb4a1966d7caa5bbf60611659ee211aa0d0788d79fbd58627f4e9ac87a62c97912c6a83652e90ef734",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sonoff/trvzb_v1.1.5.ota",
+        "path": "images/Sonoff/trvzb_v1.1.5.ota"
+    },
+    {
+        "fileVersion": 28,
+        "fileSize": 463202,
+        "manufacturerCode": 4678,
+        "imageType": 288,
+        "sha512": "2be3ce5ff9e9b378a447285a7f2f099313a8ec067c5565b0ceb9fcb917ba663d022b05ceaeddd20d0205d9b98b1c2986570699d749031f4b54ffd04d14d593c8",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Danfoss/PSoC6_1246-0120-00280028.0002_%2890215AC0%29.ota",
+        "path": "images/Danfoss/PSoC6_1246-0120-00280028.0002_(90215AC0).ota"
+    },
+    {
+        "fileVersion": 22,
+        "fileSize": 173726,
+        "manufacturerCode": 4636,
+        "imageType": 5129,
+        "sha512": "7b1c6733fbf0f081e5e4ebb946616d88ccd482790a5365d0cfa9c2d050a6dddef56291bb749a33c903c57944782d69100562614755202e3be013eaf58ed70e38",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Aurora/MainsPowerOutlet_JN5169_PCB_ARC_OTA_0x1409_v22.ota",
+        "path": "images/Aurora/MainsPowerOutlet_JN5169_PCB_ARC_OTA_0x1409_v22.ota"
+    },
+    {
+        "fileVersion": 34,
+        "fileSize": 579494,
+        "manufacturerCode": 4447,
+        "imageType": 6424,
+        "sha512": "8bed0ef08684be7c182c00bb6226d301e94f73052c997b1adef7ed4379d953c54e870175eca3596e1a5fb3db91ebf8bacd6fa9d9ba65eb3c00556ff2406c1622",
+        "modelId": "lumi.switch.acn048",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20240204163918_OTA_lumi.switch.acn048_0.0.0_0034_20240204_80D522.ota",
+        "path": "images/Lumi/20240204163918_OTA_lumi.switch.acn048_0.0.0_0034_20240204_80D522.ota"
+    },
+    {
+        "fileVersion": 34,
+        "fileSize": 579494,
+        "manufacturerCode": 4447,
+        "imageType": 6424,
+        "sha512": "8bed0ef08684be7c182c00bb6226d301e94f73052c997b1adef7ed4379d953c54e870175eca3596e1a5fb3db91ebf8bacd6fa9d9ba65eb3c00556ff2406c1622",
+        "modelId": "lumi.switch.acn049",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20240204163834_OTA_lumi.switch.acn049_0.0.0_0034_20240204_80D522.ota",
+        "path": "images/Lumi/20240204163834_OTA_lumi.switch.acn049_0.0.0_0034_20240204_80D522.ota"
+    },
+    {
+        "fileVersion": 34,
+        "fileSize": 579494,
+        "manufacturerCode": 4447,
+        "imageType": 6424,
+        "sha512": "8bed0ef08684be7c182c00bb6226d301e94f73052c997b1adef7ed4379d953c54e870175eca3596e1a5fb3db91ebf8bacd6fa9d9ba65eb3c00556ff2406c1622",
+        "modelId": "lumi.switch.acn054",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20240204163742_OTA_lumi.switch.acn054_0.0.0_0034_20240204_80D522.ota",
+        "path": "images/Lumi/20240204163742_OTA_lumi.switch.acn054_0.0.0_0034_20240204_80D522.ota"
+    },
+    {
+        "fileVersion": 34,
+        "fileSize": 579494,
+        "manufacturerCode": 4447,
+        "imageType": 6424,
+        "sha512": "8bed0ef08684be7c182c00bb6226d301e94f73052c997b1adef7ed4379d953c54e870175eca3596e1a5fb3db91ebf8bacd6fa9d9ba65eb3c00556ff2406c1622",
+        "modelId": "lumi.switch.acn055",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20240204163658_OTA_lumi.switch.acn055_0.0.0_0034_20240204_80D522.ota",
+        "path": "images/Lumi/20240204163658_OTA_lumi.switch.acn055_0.0.0_0034_20240204_80D522.ota"
+    },
+    {
+        "fileVersion": 769,
+        "fileSize": 399492,
+        "manufacturerCode": 4747,
+        "imageType": 5,
+        "sha512": "b86a0f63d65f8ee802a2339b0b107d3dc268eb04ad1573bd73e22318965d7c0a25e8fffff2e5ad3a558358a3c7a626eb869c8db4831c558873c8a6929308d67f",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/NodOn/128b-0005-0301-700_nodon_sin_met_fw_efr32_V0301.zigbee",
+        "path": "images/NodOn/128b-0005-0301-700_nodon_sin_met_fw_efr32_V0301.zigbee"
+    },
+    {
+        "fileVersion": 25,
+        "fileSize": 255890,
+        "manufacturerCode": 4644,
+        "imageType": 6207,
+        "sha512": "77238bf33e618f65d5651235836277bfa985ab14db09caf1f7be6b97cf962e4b89edacb204249c427392d24e3a63b5b5bcb2ee41af053524d2ccba8575853c13",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Namron/5401392-Firmware-35.ota",
+        "path": "images/Namron/5401392-Firmware-35.ota"
+    },
+    {
+        "fileVersion": 25,
+        "fileSize": 255890,
+        "manufacturerCode": 4644,
+        "imageType": 6206,
+        "sha512": "d7c57d581cfdff58c7ecd6201bad199b9e30e9d96e692767a4435718ad67853933ccc5779f0ab60dc13ee947d8d78d071c9d1445e3c1aff18b6e58cda5fdf776",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Namron/5401393-Firmware-35.ota",
+        "path": "images/Namron/5401393-Firmware-35.ota"
+    },
+    {
+        "fileVersion": 25,
+        "fileSize": 255890,
+        "manufacturerCode": 4644,
+        "imageType": 6205,
+        "sha512": "aced4b4f5e579e65201476e41d98708fc09b1cefbaee7bf2dc87e9e95f1bbc0a6ecdfe1e3fde89495d666c2b6648ac9c0a78e7f3cba68eeac195847a019e14cb",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Namron/5401394-Firmware-35.ota",
+        "path": "images/Namron/5401394-Firmware-35.ota"
+    },
+    {
+        "fileVersion": 25,
+        "fileSize": 255890,
+        "manufacturerCode": 4644,
+        "imageType": 6204,
+        "sha512": "0d73ecc7b2d8b92c7508da39a1db5a52b3cb0deb73cc2ffb58b6d7522f8843910330488b574885d8d87065fd6eb2e9be6b361d5be53dd76aee4d13835492ebb4",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Namron/5401395-Firmware-35.ota",
+        "path": "images/Namron/5401395-Firmware-35.ota"
+    },
+    {
+        "fileVersion": 25,
+        "fileSize": 255890,
+        "manufacturerCode": 4644,
+        "imageType": 6211,
+        "sha512": "9acfb847048dbf5de2eb022e09a6187dc1201849119a8c1d59c87a352769ca440627abc9ca903177a281fd4f015b7600ad6bb9c890e1caee0692411f92ae9daa",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Namron/5401396-Firmware-35.ota",
+        "path": "images/Namron/5401396-Firmware-35.ota"
+    },
+    {
+        "fileVersion": 25,
+        "fileSize": 255890,
+        "manufacturerCode": 4644,
+        "imageType": 6210,
+        "sha512": "2bd9a7db0c606e54fcd1cb8ca69301569652b0ae859ba1dc1cd15205e305ec1f2c4ec19a71c7d851032903386199053c0927d224e1215b78ee9b1a2648bb1082",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Namron/5401397-Firmware-35.ota",
+        "path": "images/Namron/5401397-Firmware-35.ota"
+    },
+    {
+        "fileVersion": 25,
+        "fileSize": 255890,
+        "manufacturerCode": 4644,
+        "imageType": 6209,
+        "sha512": "e6b59973e7659f8f2d1c5e237129e184acd9bc0509acac302905604bba38588de9e681aa8b8a9a4a59f3573d4845e65ff7505ae0038079df025135c1bad34ee0",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Namron/5401398-Firmware-35.ota",
+        "path": "images/Namron/5401398-Firmware-35.ota"
+    },
+    {
+        "fileVersion": 25,
+        "fileSize": 255890,
+        "manufacturerCode": 4644,
+        "imageType": 6208,
+        "sha512": "81a8aa05bd2ac259e7ff21bc70588b5a56f4e9a9e04c5a48a66b07534604e2836e8210b406ea582a3f1781173e0692c63a38db59d6e20f2e95815b4ba852bf69",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Namron/5401399-Firmware-35.ota",
+        "path": "images/Namron/5401399-Firmware-35.ota"
+    },
+    {
+        "fileVersion": 32,
+        "fileSize": 267726,
+        "manufacturerCode": 4447,
+        "imageType": 520,
+        "sha512": "1c7e4d51802bd4196e6ea0cf432b5bb40117ae71d20035341be25834417f2c12873539ba99953039c468a2d801b7c59b8a6290619b36bdf195b2161ca1cf9322",
+        "modelId": "lumi.switch.b1lacn01",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/lumi.switch.b1lacn01_0.0.0_0032_20200414.ota",
+        "path": "images/Lumi/lumi.switch.b1lacn01_0.0.0_0032_20200414.ota"
+    },
+    {
+        "fileVersion": 33,
+        "fileSize": 270894,
+        "manufacturerCode": 4447,
+        "imageType": 4232,
+        "sha512": "b2ef1b4a93225ef8d0400a039fb67a124fc188b90d9bc9d1b9444fcf780465bcfcc78c9c2df8987034487d8bd9b12e5296b307b9088bfec2049c86a2a43a2091",
+        "modelId": "lumi.switch.b3l01",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/lumi.switch.b3l01_0.0.0_0033_20200414.ota",
+        "path": "images/Lumi/lumi.switch.b3l01_0.0.0_0033_20200414.ota"
+    },
+    {
+        "fileVersion": 285224961,
+        "fileSize": 131362,
+        "manufacturerCode": 56085,
+        "imageType": 515,
+        "sha512": "2a7a17f348f6631e10217d689456ddeceaf768e06267a76a93335a8fb0ee57dfda88e84830536eb478977e423d3add9ff0590839b8736e465e216d0d81f474e9",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/DIY/db15-0203-11003001-z03mmc.zigbee",
+        "path": "images/DIY/db15-0203-11003001-z03mmc.zigbee"
+    },
+    {
+        "fileVersion": 34212095,
+        "fileSize": 337195,
+        "manufacturerCode": 4190,
+        "imageType": 53,
+        "sha512": "15188628b13c26b577aa4a9f82a4a411debc7125e19cb13d3d1612095c87c51b9f186e01b33a0f798c3a6875dc68c9f36a614372fe6523cda8e47b045a1a76ba",
+        "url": "https://images.tuyaeu.com/smart/firmware/upgrade/ay1557480848074dO17I/16781822109542aac900a.zigbee"
+    },
+    {
+        "fileVersion": 33884671,
+        "fileSize": 337211,
+        "manufacturerCode": 4190,
+        "imageType": 54,
+        "sha512": "50abcc9a6f6351a9bf45994c09b6681cfb255ce617ec299539a937b70fac16110824600269062c5a086b9749a29caf4efe5b3d694e91b04b099efa84b6ba356c",
+        "url": "https://images.tuyaeu.com/smart/firmware/upgrade/ay1557480848074dO17I/1678411825b98a1530a8c.zigbee"
+    },
+    {
+        "fileVersion": 33753087,
+        "fileSize": 340031,
+        "manufacturerCode": 4190,
+        "imageType": 55,
+        "sha512": "18b1d8028a3de3cf5c28fb442779daa74d5d13bb1f782021db03b945bd02aaa85cf20de17cd23f3d9fbf73224c68a68caa2ad3527ce20913844668161f653c70",
+        "url": "https://images.tuyaeu.com/smart/firmware/upgrade/ay1557480848074dO17I/1622438235e5764b7a861.zigbee"
+    },
+    {
+        "fileVersion": 33686015,
+        "fileSize": 341010,
+        "manufacturerCode": 4190,
+        "imageType": 79,
+        "sha512": "4b373c33ca742bdb85d9bd7665545be34e4e9660c94218f02c3754f2c9eb4129a428e51b4fe7ccab29f3ee53537b9301cc43b1dbf4c12dae4377025a23848eb8",
+        "url": "https://images.tuyaeu.com/smart/firmware/upgrade/ay1557480848074dO17I/16819629247ee0445a5f4.zigbee"
+    },
+    {
+        "fileVersion": 16845314,
+        "fileSize": 230798,
+        "manufacturerCode": 4190,
+        "imageType": 62,
+        "sha512": "95e5c61e2a683a901bc320f5af59330ed6b753808a3efffb8bb8a457c5360fd16403accb4e7f2736b418d3a5ad195df967d72a13ac5d4ffd1951abd05e1844e0",
+        "url": "https://images.tuyaeu.com/smart/firmware/upgrade/ay1557480848074dO17I/16844823767736d4b2cbc.ota"
+    },
+    {
+        "fileVersion": 34341631,
+        "fileSize": 357015,
+        "manufacturerCode": 4190,
+        "imageType": 13,
+        "sha512": "befd51ad8ebb145b7d41b5709ace1a6dfe2af9174c161bb7057db570698cd166f10807b9a418440051c03f53c09f41a1d19219be8d0bb95abee7068edc795773",
+        "url": "https://images.tuyaeu.com/smart/firmware/upgrade/ay1557480848074dO17I/16855062966c6d846535c.zigbee"
+    },
+    {
+        "fileVersion": 41,
+        "fileSize": 317900,
+        "manufacturerCode": 4447,
+        "imageType": 138,
+        "sha512": "dea351b8a1208cb6703530a78966cc940a5d67c2a8990df18a3fcb7d55304a82d713a656efd27705a8ff51b43028ddef4b765dc3692be2f9cdaf47795ab15b11",
+        "modelId": "lumi.light.acn024",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20231222195203_lumi.light.acn024_0.0.0_0041_20231220_20F906.ota",
+        "path": "images/Lumi/20231222195203_lumi.light.acn024_0.0.0_0041_20231220_20F906.ota"
+    },
+    {
+        "fileVersion": 24,
+        "fileSize": 440714,
+        "manufacturerCode": 4447,
+        "imageType": 6028,
+        "sha512": "56ecdbb4940e48ab4abeb2ca7a168f23e4c9c116818f842a36b3a28c935a3b8f6e99c42cdef4b2db1dcb9ad2a244548591a1d112d9c37bd4bc568b5c20a3fa07",
+        "modelId": "lumi.dimmer.acn004",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20231222194652_lumi.dimmer.acn004_0.0.0_0024_9FD15B.ota",
+        "path": "images/Lumi/20231222194652_lumi.dimmer.acn004_0.0.0_0024_9FD15B.ota"
+    },
+    {
+        "fileVersion": 34,
+        "fileSize": 579494,
+        "manufacturerCode": 4447,
+        "imageType": 6424,
+        "sha512": "8bed0ef08684be7c182c00bb6226d301e94f73052c997b1adef7ed4379d953c54e870175eca3596e1a5fb3db91ebf8bacd6fa9d9ba65eb3c00556ff2406c1622",
+        "modelId": "lumi.switch.acn058",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20240204163449_OTA_lumi.switch.acn058_0.0.0_0034_20240204_80D522.ota",
+        "path": "images/Lumi/20240204163449_OTA_lumi.switch.acn058_0.0.0_0034_20240204_80D522.ota"
+    },
+    {
+        "fileVersion": 34,
+        "fileSize": 579494,
+        "manufacturerCode": 4447,
+        "imageType": 6424,
+        "sha512": "8bed0ef08684be7c182c00bb6226d301e94f73052c997b1adef7ed4379d953c54e870175eca3596e1a5fb3db91ebf8bacd6fa9d9ba65eb3c00556ff2406c1622",
+        "modelId": "lumi.switch.acn057",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20240204163527_OTA_lumi.switch.acn057_0.0.0_0034_20240204_80D522.ota",
+        "path": "images/Lumi/20240204163527_OTA_lumi.switch.acn057_0.0.0_0034_20240204_80D522.ota"
+    },
+    {
+        "fileVersion": 34,
+        "fileSize": 579494,
+        "manufacturerCode": 4447,
+        "imageType": 6424,
+        "sha512": "8bed0ef08684be7c182c00bb6226d301e94f73052c997b1adef7ed4379d953c54e870175eca3596e1a5fb3db91ebf8bacd6fa9d9ba65eb3c00556ff2406c1622",
+        "modelId": "lumi.switch.acn059",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20240204163339_OTA_lumi.switch.acn059_0.0.0_0034_20240204_80D522.ota",
+        "path": "images/Lumi/20240204163339_OTA_lumi.switch.acn059_0.0.0_0034_20240204_80D522.ota"
+    },
+    {
+        "fileVersion": 34,
+        "fileSize": 579494,
+        "manufacturerCode": 4447,
+        "imageType": 6424,
+        "sha512": "8bed0ef08684be7c182c00bb6226d301e94f73052c997b1adef7ed4379d953c54e870175eca3596e1a5fb3db91ebf8bacd6fa9d9ba65eb3c00556ff2406c1622",
+        "modelId": "lumi.switch.acn056",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20240204163609_OTA_lumi.switch.acn056_0.0.0_0034_20240204_80D522.ota",
+        "path": "images/Lumi/20240204163609_OTA_lumi.switch.acn056_0.0.0_0034_20240204_80D522.ota"
+    },
+    {
+        "fileVersion": 26,
+        "fileSize": 462258,
+        "manufacturerCode": 4447,
+        "imageType": 143,
+        "sha512": "e221d3bb6d2a28011463b259ab94e1de40953b2bafd66730b7349e00b88591afe3972f02fea6f8a839d86d92015964976ad61da797de312688696bbeecc718a2",
+        "modelId": "lumi.light.acn031",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20231227113728_lumi.light.acn031_0.0.0_0026_20231226_064840.ota",
+        "path": "images/Lumi/20231227113728_lumi.light.acn031_0.0.0_0026_20231226_064840.ota"
+    },
+    {
+        "fileVersion": 26,
+        "fileSize": 462258,
+        "manufacturerCode": 4447,
+        "imageType": 143,
+        "sha512": "e221d3bb6d2a28011463b259ab94e1de40953b2bafd66730b7349e00b88591afe3972f02fea6f8a839d86d92015964976ad61da797de312688696bbeecc718a2",
+        "modelId": "lumi.light.acn032",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20231227113844_lumi.light.acn032_0.0.0_0026_20231226_064840.ota",
+        "path": "images/Lumi/20231227113844_lumi.light.acn032_0.0.0_0026_20231226_064840.ota"
+    },
+    {
+        "fileVersion": 410115,
+        "fileSize": 219591,
+        "manufacturerCode": 4129,
+        "imageType": 52,
+        "sha512": "c5145d4c73e7ef61d04558c209e03bf990f50a7589385c1cd662a1a95a2183a31771b9ad38592207339b2d67245f4bf9f01957f1da59817426aac4e007eead1c",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-0034-00064203-NLY.zigbee",
+        "path": "images/Legrand/1021-0034-00064203-NLY.zigbee"
+    },
+    {
+        "fileVersion": 268462640,
+        "fileSize": 306294,
+        "manufacturerCode": 4919,
+        "imageType": 4099,
+        "sha512": "4b161a3ea4586657f249ff6de7e8134b1fee6658b99574e1e5bc34a71ab3647513e86dcc38c1b7af0eba1810c5f0d9773c1a69cf64129c34bf567384e5b1cc17",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Datek/ctm_mains_power_outlet.ota",
+        "path": "images/Datek/ctm_mains_power_outlet.ota"
+    },
+    {
+        "fileVersion": 256920,
+        "fileSize": 269370,
+        "manufacturerCode": 4919,
+        "imageType": 4109,
+        "sha512": "583cb7e4829174f225d8f99d82e49b764de30c4f7b35cb9002d183ad237c58305eca1436abff6607671b66a549807b77d45558d204868bb5bc9eed6132929123",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Datek/ctm_mbd-s_2_5.ota",
+        "path": "images/Datek/ctm_mbd-s_2_5.ota"
+    },
+    {
+        "fileVersion": 206920,
+        "fileSize": 297862,
+        "manufacturerCode": 4919,
+        "imageType": 4114,
+        "sha512": "a4c805a4769d38f6ed9ffad358573aeb4e3dceaba2d3b2cf693f39e64fa94a5cc7a8efdc6c5363521c54d9e6c10901fd1606af674fde2e60bcbb96ad4c79daf0",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Datek/dimmerpille_v2_0_v_4_combined_OTA.ota",
+        "path": "images/Datek/dimmerpille_v2_0_v_4_combined_OTA.ota"
+    },
+    {
+        "fileVersion": 316920,
+        "fileSize": 462058,
+        "manufacturerCode": 4919,
+        "imageType": 4113,
+        "sha512": "0c175bed4bef94a26541d6a1fc8cfdff6c78d2234d479fa3b2a542fe642b41324282feebfad1140ca5d3aa8221d12a8fffb385eaf0e3c41372b663bdadbcd126",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Datek/mTouch_Dim_v3_1_v35_combined_OTA.ota",
+        "path": "images/Datek/mTouch_Dim_v3_1_v35_combined_OTA.ota"
+    },
+    {
+        "fileVersion": 386920,
+        "fileSize": 471258,
+        "manufacturerCode": 4919,
+        "imageType": 4102,
+        "sha512": "11e455bb88f247c8b7e99db34c5d760a23da7097214cc2cb15f369617e91a94da1189fe81b5ecfadbb9fcd22f8ec66a1a5087bc9aac3e0af47be34f888416062",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Datek/mTouch_One_v3_8_v72_combined_OTA.ota",
+        "path": "images/Datek/mTouch_One_v3_8_v72_combined_OTA.ota"
+    },
+    {
+        "fileVersion": 66565,
+        "fileSize": 38668,
+        "manufacturerCode": 4747,
+        "imageType": 261,
+        "sha512": "f2d5f9551ce46e683da7863d0ac70f3df4f0876be30268ddd86c5e095ef51d99296e94091643cee327dc33b3f3d516ef4a8cb0b5a57bfdd99a8bf365269b8d5d",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/NodOn/128b-0105-010405-700_nodon_sin_xx_met_fm_stm32_V010405.zigbee",
+        "path": "images/NodOn/128b-0105-010405-700_nodon_sin_xx_met_fm_stm32_V010405.zigbee"
+    },
+    {
+        "fileVersion": 29,
+        "fileSize": 256174,
+        "manufacturerCode": 5127,
+        "imageType": 54185,
+        "sha512": "3d450453147e414e9998cb000183a22ac6fca656a1a3e11e37b31d7c4fa1ec3f301b28d0b144301630ec33aa1f81afda56d6abfb4191f78d04cd7b9ba27b87b7",
+        "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/ThermalLiteSensor_PROD_OTA_V29_1.00.29.ota"
+    },
+    {
+        "fileVersion": 387331717,
+        "fileSize": 286978,
+        "manufacturerCode": 4454,
+        "imageType": 817,
+        "sha512": "daa5f1dfb1664bae3ab509de256ef28f53a3579807faca3d94fd59ae5e1982665455802e959b7e87fb26af78e6f342c1070a801419c0d05af7cd2b5f32fd6d6a",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/app_innr-sp240-1.7.22_UG.ota",
+        "path": "images/Innr/app_innr-sp240-1.7.22_UG.ota"
+    },
+    {
+        "fileVersion": 387331717,
+        "fileSize": 286978,
+        "manufacturerCode": 4454,
+        "imageType": 818,
+        "sha512": "01982361484aa25cd5139c796e1d0b4dac9bc6284aa67978b269440037555950079c7e0f24a6eda30b738eaa17fc56e5a6b162d13a895089b8c6fb3629946387",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/app_innr-sp242-1.7.22_UG.ota",
+        "path": "images/Innr/app_innr-sp242-1.7.22_UG.ota"
+    },
+    {
+        "fileVersion": 387331717,
+        "fileSize": 286978,
+        "manufacturerCode": 4454,
+        "imageType": 819,
+        "sha512": "c0e809e7de4e8a9aca1a8dff042b802acb56978681d7cfa62571176fc596f2f5e23340673ab3954d5d4fda2707902ba0b63cc9dd2bc2aea397e6a8120e6b10d7",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/app_innr-sp244-1.7.22_UG.ota",
+        "path": "images/Innr/app_innr-sp244-1.7.22_UG.ota"
+    },
+    {
+        "fileVersion": 16908815,
+        "fileSize": 306782,
+        "manufacturerCode": 4655,
+        "imageType": 257,
+        "sha512": "0c0973c9ad5f627b9cd1cfea8c6d4b0e57958378b4ca21b97d9552fa0183eecbb3c3971cf4f965e39c8b974aa3e91653c9ef7a55abe4ae478a67dccc6417b26a",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Inovelli/VZM31-SN_2.15-Production.ota",
+        "path": "images/Inovelli/VZM31-SN_2.15-Production.ota"
+    },
+    {
+        "fileVersion": 604057601,
+        "fileSize": 209330,
+        "manufacturerCode": 4687,
+        "imageType": 5154,
+        "sha512": "5edf31594046cd881aa47ba966909ead5e065f3c6816a30cbeea6499845313d24f27fbdc491ab02b181a8015134949cb5fb78ef76418a5cfcc982241c9e401ac",
+        "modelId": "GL-B-007P",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Gledopto/GL-B-007P_V20451233_20240425.ota",
+        "path": "images/Gledopto/GL-B-007P_V20451233_20240425.ota"
+    },
+    {
+        "fileVersion": 33685764,
+        "fileSize": 227438,
+        "manufacturerCode": 4655,
+        "imageType": 513,
+        "sha512": "36e6393affb29bcfa06a199df5fb1d2c5d02a23545a0a81dd6975d6f5e3f205a737259c314f1d21f025d5d964fbbcb2f54d4b04b50602d3bec79bab477b8ea74",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Inovelli/VZM35-SN_1.04-Production.ota",
+        "path": "images/Inovelli/VZM35-SN_1.04-Production.ota"
+    },
+    {
+        "fileVersion": 262145,
+        "fileSize": 189614,
+        "manufacturerCode": 4117,
+        "imageType": 784,
+        "sha512": "a5bae0c769d58e788ba146b40c65ccd32d26d4934f6291a48f5bf23e13266c9ddd5afe310a47dcc5592c1865572e723da69171f1d43f1c669ed153d670b3afb5",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Develco/HumiditySensor_4.0.1.zigbee",
+        "path": "images/Develco/HumiditySensor_4.0.1.zigbee"
+    },
+    {
+        "fileVersion": 262148,
+        "fileSize": 201108,
+        "manufacturerCode": 4117,
+        "imageType": 768,
+        "sha512": "382a13ab21fa9aed73f136b42f565444ba4ebc115d437a1af6868cad0fca86376fb2f48407056aa511cd77321897981a52bec890b9810aff1af15ac6b072d385",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Develco/WaterLeakDetector_4.0.4.zigbee",
+        "path": "images/Develco/WaterLeakDetector_4.0.4.zigbee"
+    },
+    {
+        "fileVersion": 196866,
+        "fileSize": 213826,
+        "manufacturerCode": 4117,
+        "imageType": 976,
+        "sha512": "fa53c339b61a8980c3d8d42319be4f57aa088d98b8f87393a6fce84c2bd224079c26ca2b097f2a3bf042f629adf32bac90460e17d0b7a28864f244453e262baf",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Develco/EMI2LED_3.1.2.zigbee",
+        "path": "images/Develco/EMI2LED_3.1.2.zigbee"
+    },
+    {
+        "fileVersion": 196871,
+        "fileSize": 226882,
+        "manufacturerCode": 4117,
+        "imageType": 977,
+        "sha512": "4ad740da6eaba7cbfbc3847f101c264a6df99b3bed6a6223721d4ce28cb39ef28a8a655d94aa9a33721fb0c1621d26d8c2b4f2b1968e3b8016b6125964e99a14",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Develco/EMI2P1_3.1.7.zigbee",
+        "path": "images/Develco/EMI2P1_3.1.7.zigbee"
+    },
+    {
+        "fileVersion": 131078,
+        "fileSize": 217058,
+        "manufacturerCode": 4117,
+        "imageType": 928,
+        "sha512": "49b5c712b9e5ef91440bece5512cfc66d112e99c4d43c2f9d9755617d0ce302ffad2cd7b981769457d060c58e7e3950f9eb208583be87c98d638ac47fb1dda1d",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Develco/EntrySensor2_2.0.6.zigbee",
+        "path": "images/Develco/EntrySensor2_2.0.6.zigbee"
+    },
+    {
+        "fileVersion": 131077,
+        "fileSize": 217046,
+        "manufacturerCode": 4117,
+        "imageType": 915,
+        "sha512": "59b62aab3326b662f6e21a0327440db4836e55a618c7ce7b2cf5578c7b847cd9d08d8e6c431feb714f87a3556c1951069466f3986effa8dd5e1f91b39f3edd53",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Develco/IntelligentKeyPad_2.0.5.zigbee",
+        "path": "images/Develco/IntelligentKeyPad_2.0.5.zigbee"
+    },
+    {
+        "fileVersion": 131078,
+        "fileSize": 216102,
+        "manufacturerCode": 4117,
+        "imageType": 387,
+        "sha512": "4e78aa73ceec45e03606a67ba5e05d930862e01afc8fc81c86fa3cfa4b5433d3b2a785187afb1983c2b1874db5a9ab10d1a22876ddb9cf6a15252cc600c518d0",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Develco/MotionSensor2_2.0.6.zigbee",
+        "path": "images/Develco/MotionSensor2_2.0.6.zigbee"
+    },
+    {
+        "fileVersion": 131074,
+        "fileSize": 208318,
+        "manufacturerCode": 4117,
+        "imageType": 913,
+        "sha512": "79a014db8559dd8ec42d3d867d3330eee0208904eb5169a3fe47a072b341486864dd4a62bfb7bb42f00aa62a7c2d36ef861842441cbd46e44fca37b98b28097c",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Develco/SmartButton_2.0.2.zigbee",
+        "path": "images/Develco/SmartButton_2.0.2.zigbee"
+    },
+    {
+        "fileVersion": 131077,
+        "fileSize": 234566,
+        "manufacturerCode": 4117,
+        "imageType": 737,
+        "sha512": "3c91179db3e65ff0bb361a84844ef1e096249af586f0e548bb72ac9bf27096113f90f14ffd0d222fdb792865a28368c58c072a895f87598bd44543275d6a766f",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Develco/SmartPlug2_2.0.5.zigbee",
+        "path": "images/Develco/SmartPlug2_2.0.5.zigbee"
+    },
+    {
+        "fileVersion": 131074,
+        "fileSize": 230466,
+        "manufacturerCode": 4117,
+        "imageType": 916,
+        "sha512": "bec200a43bc7a51c58e70caa9d057006cbab54e5b058a8191a52d40e9aa8d1b979d2695ce0b4b0d4d1db6e926cce95bc1ae0a9e0810773b6c28ddb6705f4e248",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Develco/ZigbeeRangeExtender_2.0.2.zigbee",
+        "path": "images/Develco/ZigbeeRangeExtender_2.0.2.zigbee"
+    },
+    {
+        "fileVersion": 62,
+        "fileSize": 219642,
+        "manufacturerCode": 26214,
+        "imageType": 15,
+        "sha512": "0f5b47092c2df550270460d9e446563da1bb72fd841747c9b738f6b75de6cebecdc92aa7aa3be2c814cbea9aea624c5f9d0f4dbdbc150f3b569c25d764629d02",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sprut.device/zb_wb_msw4_mg21_062.ota",
+        "path": "images/Sprut.device/zb_wb_msw4_mg21_062.ota"
+    },
+    {
+        "fileVersion": 6,
+        "fileSize": 212478,
+        "manufacturerCode": 4151,
+        "imageType": 4107,
+        "sha512": "10b0cffcf7dc90804694a52be1ff3ca8178a8685172e309da9eacc71109403fd53be9a127b881341a095cb3ae2284eaedd5bec49a15d7b9d8badd76e382be4b5",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Jennic/PMM300Z2_OTA_ENC_V6_ENC.ota",
+        "path": "images/Jennic/PMM300Z2_OTA_ENC_V6_ENC.ota"
+    },
+    {
+        "fileVersion": 5,
+        "fileSize": 220046,
+        "manufacturerCode": 4151,
+        "imageType": 4108,
+        "sha512": "5dbafbb232eccb6d2c3c219a759dfd1ea847a3645d23b26f2f791fccabe004e6ce0220ca7cc73faddb45be8f7ee90f6c67df07bbe0ac4b663f068ec2e0709953",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Jennic/PMM300Z3_OTA_ENC_V5_ENC.ota",
+        "path": "images/Jennic/PMM300Z3_OTA_ENC_V5_ENC.ota"
+    },
+    {
+        "fileVersion": 34105904,
+        "fileSize": 258058,
+        "manufacturerCode": 4617,
+        "imageType": 12302,
+        "sha512": "901d7b98b3448df06ba0e87465b9140d80e0ef41cdb2c1880c9788a562bcfefd3cd306f2f737007c7f96ad02b3d230391d0d88940ef9c9e976c792bc80d935d2",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Bosch/0x1209_0x300e_0x02086a30.ota",
+        "path": "images/Bosch/0x1209_0x300e_0x02086a30.ota"
+    },
+    {
+        "fileVersion": 4098,
+        "fileSize": 267632,
+        "manufacturerCode": 4742,
+        "imageType": 2059,
+        "sha512": "bb64ae86d9ac2dc398d4520f97554515990ecef5568eebdaa7cdb2be19fe2471b35f53583adc8d8e9e70189a90add27556581bca444690155972ffa6b341b81e",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sonoff/snzb-05p_v1.0.2.ota",
+        "path": "images/Sonoff/snzb-05p_v1.0.2.ota"
+    },
+    {
+        "fileVersion": 387331717,
+        "fileSize": 286978,
+        "manufacturerCode": 4454,
+        "imageType": 820,
+        "sha512": "7171c301d9b0fe55a2e4a337e8e6f0c54b457548b68bb9d9c319fe4cad7af5b6543f66c84b41df154b90842b2a5b0c00b8357d1393e4e6090d43d56855189665",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/app_innr-sp240v2-1.7.22_UG.ota",
+        "path": "images/Innr/app_innr-sp240v2-1.7.22_UG.ota"
+    },
+    {
+        "fileVersion": 387331717,
+        "fileSize": 286978,
+        "manufacturerCode": 4454,
+        "imageType": 821,
+        "sha512": "af6298a13f4653c16a44147163158bae2f5a19e7f1adaade5f66f3e93df8bf4eaccc4caf7abb4dd49c0c0601fdd52f8d4c7fe764725086e978ee1b61f6d587ef",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/app_innr-sp242v2-1.7.22_UG.ota",
+        "path": "images/Innr/app_innr-sp242v2-1.7.22_UG.ota"
+    },
+    {
+        "fileVersion": 387331717,
+        "fileSize": 286978,
+        "manufacturerCode": 4454,
+        "imageType": 822,
+        "sha512": "a2020ca5b93f39733fc97686e8bd333b69a490d1fa3587df9ae8c9932d83a934d4c3304f878e779c917f96fe9ffe1bb6c1aa493d3b6892726f28ade588e1695b",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/app_innr-sp244v2-1.7.22_UG.ota",
+        "path": "images/Innr/app_innr-sp244v2-1.7.22_UG.ota"
+    },
+    {
+        "fileVersion": 4101,
+        "fileSize": 269220,
+        "manufacturerCode": 4742,
+        "imageType": 7,
+        "sha512": "dd1d67ba721740c3eec4da80a2396c6fa09b981bcf2ed9fc712790e45ec9fb392d58d33e36a1bc19899a77a3421a206c1c9c2f7512ed3c8c571e1344f7d996d8",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sonoff/zbmicro_v1.0.5.ota",
+        "path": "images/Sonoff/zbmicro_v1.0.5.ota"
+    },
+    {
+        "fileVersion": 3752451,
+        "fileSize": 251559,
+        "manufacturerCode": 4129,
+        "imageType": 14,
+        "sha512": "4cc677a11ce1eccf4a713855585e6a6c7c017ec4554b9709c9cd91094aadc3ec2e383de3bada2ba0b75065bc5ffbef7bf5ba6515fb3d2dd3ed06f58407bd37a5",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-000e-00394203-NLF.zigbee",
+        "path": "images/Legrand/1021-000e-00394203-NLF.zigbee"
+    },
+    {
+        "fileVersion": 2245123,
+        "fileSize": 251495,
+        "manufacturerCode": 4129,
+        "imageType": 15,
+        "sha512": "853abd58cd50dcfe84ffc123c2f2066e834de31c87b7493d343368f1a945585910164ce789e5dbbf3280c5c398f65898879a67000dfc259f64be58467111676f",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-000f-00224203-NLL.zigbee",
+        "path": "images/Legrand/1021-000f-00224203-NLL.zigbee"
+    },
+    {
+        "fileVersion": 4342275,
+        "fileSize": 245431,
+        "manufacturerCode": 4129,
+        "imageType": 16,
+        "sha512": "c4a67ccfe39a871fdfdd943f72869b8b790e49512619de06c8379f6c3ee5107f9d7509ade7160a0b07d073681244cbcd23ad8cb0a132a46210d5240a15361d14",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-0010-00424203-NLM.zigbee",
+        "path": "images/Legrand/1021-0010-00424203-NLM.zigbee"
+    },
+    {
+        "fileVersion": 5915139,
+        "fileSize": 250775,
+        "manufacturerCode": 4129,
+        "imageType": 17,
+        "sha512": "f79b4577fb2b284a790058daba03cf62bae2a1f506581d376eb41fd32b05e2b22152db013883b5aa40a3bb17ae958a6bc3a0225193c37b1ca55cc3bef0dd3784",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-0011-005a4203-NLP.zigbee",
+        "path": "images/Legrand/1021-0011-005a4203-NLP.zigbee"
+    },
+    {
+        "fileVersion": 4932099,
+        "fileSize": 204423,
+        "manufacturerCode": 4129,
+        "imageType": 18,
+        "sha512": "c60266fa617150a055d3dfd1e105918df7dca3f77c4c283875cb09f8e966b6991d99f29121108bc64c8432f73cee956643833857ff96c4b99608762b43afd491",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-0012-004b4203-NLT.zigbee",
+        "path": "images/Legrand/1021-0012-004b4203-NLT.zigbee"
+    },
+    {
+        "fileVersion": 4014595,
+        "fileSize": 254583,
+        "manufacturerCode": 4129,
+        "imageType": 19,
+        "sha512": "50118724b35b04f5aa4a19cd9aa804505f91dd330e075c6373b9b626aa34d369bd99974e7c18394eba3ad63e22b754b8d70c1d82ef384885bfaf9aee9d52a211",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-0013-003d4203-NLV.zigbee",
+        "path": "images/Legrand/1021-0013-003d4203-NLV.zigbee"
+    },
+    {
+        "fileVersion": 2441731,
+        "fileSize": 251447,
+        "manufacturerCode": 4129,
+        "imageType": 21,
+        "sha512": "807f1efa39bfec225003c949fd75ac859b1e05bd7da53e0b9dfb214f3b0d8c8ffadfe68b7ebec727cdbce8a26be639f3c4ffc34f43c327667126d8469bfbda5c",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-0015-00254203-NLC.zigbee",
+        "path": "images/Legrand/1021-0015-00254203-NLC.zigbee"
+    },
+    {
+        "fileVersion": 3097091,
+        "fileSize": 204503,
+        "manufacturerCode": 4129,
+        "imageType": 22,
+        "sha512": "868f2a191d778c6562f0596d34f9f2de7b1afbb2e5b1a7484b07f6b6d2d231933c611a8e1f77c2e89cf6d2cd654be0f74e26c7f04f101bacc73071f85ab8a303",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-0016-002f4203-NLD.zigbee",
+        "path": "images/Legrand/1021-0016-002f4203-NLD.zigbee"
+    },
+    {
+        "fileVersion": 30,
+        "fileSize": 288146,
+        "manufacturerCode": 4447,
+        "imageType": 6169,
+        "sha512": "796c6dc424faf0be42aa98482ab178ce3e429a80b47f0ba90ec91d479c6c3205865b666ca57de4814e4e806d1e4bbe8d594956fea30443ba25a67093e46a52be",
+        "modelId": "lumi.switch.n0agl1",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20240112203928_lumi.switch.n0agl1_0.0.0.0030_20240112_C892CC.ota",
+        "path": "images/Lumi/20240112203928_lumi.switch.n0agl1_0.0.0.0030_20240112_C892CC.ota"
+    },
+    {
+        "fileVersion": 26,
+        "fileSize": 146034,
+        "manufacturerCode": 4644,
+        "imageType": 166,
+        "sha512": "345b089dffdf63057757afecd2808a99b8c3c420721117b7ae234153e820bf2a12f8ae993106dda478196248d7db728caaca32320d110c42c365b678546ae181",
+        "url": "https://www.elektroimportoren.no/docs/lib/4512772-Firmware-35.ota"
+    },
+    {
+        "fileVersion": 29,
+        "fileSize": 135266,
+        "manufacturerCode": 5127,
+        "imageType": 54193,
+        "sha512": "af9e91687a1fadfe2b222db1ef540e66d6d34f50780c66693c6f630ac32225dc100459956d79f72f169d60d7e5d66aae7f5c54a9678131852dda83d087632f33",
+        "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/GarageDoorSensor_PROD_OTA_V29_v1.00.29.ota"
+    },
+    {
+        "fileVersion": 4099,
+        "fileSize": 274092,
+        "manufacturerCode": 4742,
+        "imageType": 8202,
+        "sha512": "2108581ad91e16464c6abc4919808899abadcab566ad7f43ad3bf8d4e0ac6734dfbf2b82fcfdaf098570e7501a6e03a8fc1036f9f91c1b3e8911b37be350de1c",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sonoff/zbswv_v1.0.3.ota",
+        "path": "images/Sonoff/zbswv_v1.0.3.ota"
     }
 ]
