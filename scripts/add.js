@@ -1,10 +1,12 @@
 const path = require('path');
 const fs = require('fs');
 const crypto = require('crypto');
+const tls = require('tls');
 const ota = require('../lib/ota');
 const filenameOrURL = process.argv[2];
 const modelId = process.argv[3];
 const baseURL = 'https://github.com/Koenkk/zigbee-OTA/raw/master';
+const caCerts = './cacerts.pem';
 
 const manufacturerNameLookup = {
     123: 'UHome',
@@ -13,12 +15,13 @@ const manufacturerNameLookup = {
     4117: 'Develco',
     4129: 'Legrand',
     4151: 'Jennic',
+    4190: 'SchneiderElectric',
     4364: 'Osram',
     4405: 'DresdenElektronik',
     4417: 'Telink',
     4420: 'Lutron',
     4444: 'Danalock',
-    4447: 'Xiaomi',
+    4447: 'Lumi',
     4448: 'Sengled',
     4454: 'Innr',
     4474: 'Insta',
@@ -27,14 +30,20 @@ const manufacturerNameLookup = {
     4617: 'Bosch',
     4644: 'Namron',
     4648: 'Terncy',
+    4655: 'Inovelli',
     4659: 'ThirdReality',
     4678: 'Danfoss',
     4687: 'Gledopto',
     4714: 'EcoDim',
     4742: 'Sonoff',
+    4747: 'NodOn',
     4919: 'Datek',
     10132: 'ClimaxTechnology',
     26214: 'Sprut.device',
+    4877: 'thirdreality',
+    4636: 'Aurora',
+    56085: 'DIY',
+    5127: '3R',
 };
 
 const main = async () => {
@@ -51,7 +60,11 @@ const main = async () => {
             const file = fs.createWriteStream(path);
 
             return new Promise((resolve, reject) => {
-                const request = lib.get(url, function(response) {
+                const ca = [...tls.rootCertificates];
+                if(fs.existsSync(caCerts)) {
+                    ca.push(fs.readFileSync(caCerts));
+                }
+                const request = lib.get(url, { ca },  function(response) {
                     if (response.statusCode >= 200 && response.statusCode < 300) {
                         response.pipe(file);
                         file.on('finish', function() {
