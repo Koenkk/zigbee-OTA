@@ -2913,13 +2913,13 @@
         "path": "images/Insta/V00.00.52.12.ota"
     },
     {
-        "fileVersion": 4101,
-        "fileSize": 258206,
+        "fileVersion": 4102,
+        "fileSize": 258306,
         "manufacturerCode": 4742,
         "imageType": 2060,
-        "sha512": "fdcd4e238b25a971d79746a0305e185567e027c3ba08ed42ac7ca003601c25ccce497fd1f8e6ede1e0e7b058768bc2daf3ebc985174fc6265a9df4acc4f81467",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sonoff/snzb-06p_v1.0.5.ota",
-        "path": "images/Sonoff/snzb-06p_v1.0.5.ota"
+        "sha512": "e722a7058439abba22f2d392f9308c0eb22dcb89ad32c3409983b74a28724713e9709cd2b6b61622dac57487227d2f902dd38291b9116a87b9fc52981669cf46",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sonoff/snzb-06p_v1.0.6.ota",
+        "path": "images/Sonoff/snzb-06p_v1.0.6.ota"
     },
     {
         "fileVersion": 199696,
