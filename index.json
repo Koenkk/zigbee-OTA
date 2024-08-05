@@ -3757,7 +3757,7 @@
         "manufacturerCode": 10132,
         "imageType": 1025,
         "sha512": "904609129ff2445cc36e0a01033d584797bd784a2033defc2dd1b2f269e9318b6f6bd31f8b1d07e308c4281243bfbde72219de347b6c23e3a1fd4300bfe17aa9",
-        "modelId": "12127",
+        "modelId": "PRS3CH2_00.00.05.12TC",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/ClimaxTechnology/PRS3CH2_00.00.05.12TC.zigbee",
         "path": "images/ClimaxTechnology/PRS3CH2_00.00.05.12TC.zigbee"
     }
