@@ -3740,5 +3740,25 @@
         "sha512": "c5145d4c73e7ef61d04558c209e03bf990f50a7589385c1cd662a1a95a2183a31771b9ad38592207339b2d67245f4bf9f01957f1da59817426aac4e007eead1c",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-0034-00064203-NLY.zigbee",
         "path": "images/Legrand/1021-0034-00064203-NLY.zigbee"
+    },
+    {
+        "fileVersion": 511,
+        "fileSize": 201260,
+        "manufacturerCode": 10132,
+        "imageType": 1025,
+        "sha512": "76a327ab014803b6f18376343b1f75de474e7e5ad1b6a0e276668052362e6aff2bccf44bf92683217228cd4049fa1b273231284f4a25aac7858b363f2b09e05b",
+        "modelId": "PRS3CH1_00.00.05.11TC",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/ClimaxTechnology/PRS3CH1_00.00.05.11TC.zigbee",
+        "path": "images/ClimaxTechnology/PRS3CH1_00.00.05.11TC.zigbee"
+    },
+    {
+        "fileVersion": 512,
+        "fileSize": 204164,
+        "manufacturerCode": 10132,
+        "imageType": 1025,
+        "sha512": "904609129ff2445cc36e0a01033d584797bd784a2033defc2dd1b2f269e9318b6f6bd31f8b1d07e308c4281243bfbde72219de347b6c23e3a1fd4300bfe17aa9",
+        "modelId": "PRS3CH2_00.00.05.12TC",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/ClimaxTechnology/PRS3CH2_00.00.05.12TC.zigbee",
+        "path": "images/ClimaxTechnology/PRS3CH2_00.00.05.12TC.zigbee"
     }
 ]
