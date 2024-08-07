@@ -2042,12 +2042,12 @@
         "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/Door_Sensor_PROD_OTA_V60_v1.00.60.ota"
     },
     {
-        "fileVersion": 67,
-        "fileSize": 132466,
+        "fileVersion": 79,
+        "fileSize": 132610,
         "manufacturerCode": 4659,
         "imageType": 54177,
-        "sha512": "32ff1677e879da5a99b7c578ecb3d4f6bf371defb67908fdf3c46609ca13d0801c227ede9713275b0f67b1675c410d007885926db0d880162b06986191006ca5",
-        "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/Motion_Sensor_PROD_OTA_V67_v1.00.67.ota"
+        "sha512": "e6baeb11feef7c8d0fb2e47bee2c2fd79b155af2a0d68e445b3dd6d55a9dde15fa81517c11f72190d691e20eb0ec4f090235f7697f9e2aebd7a73a5d8ba88803",
+        "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/Motion_Sensor_PROD_OTA_V79_v1.00.79.ota"
     },
     {
         "fileVersion": 17694977,
