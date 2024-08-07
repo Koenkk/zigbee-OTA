@@ -2034,12 +2034,12 @@
         "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/Button_PROD_OTA_V28_v1.00.28.ota"
     },
     {
-        "fileVersion": 60,
-        "fileSize": 130962,
+        "fileVersion": 63,
+        "fileSize": 131682,
         "manufacturerCode": 4659,
         "imageType": 54178,
-        "sha512": "011d5e037491c42a37d6166d3f97ad63606cff70b15ff1167d580ad54a30caa826627957b5e111a7463d1bd19fe03a0982b7a2e9327bdfe7440e9da0dee1aa70",
-        "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/Door_Sensor_PROD_OTA_V60_v1.00.60.ota"
+        "sha512": "ef7dd6575b60532af41b63957ccfe750fd8ab188d3c896d2c005bdb19b0c0df2ddf3d68100bf887449ad9085cca410c1bfc446c2aa632ee13d5bb2fb62761440",
+        "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/Door_Sensor_PROD_OTA_V63_v1.00.63.ota"
     },
     {
         "fileVersion": 67,
