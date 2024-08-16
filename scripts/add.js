@@ -24,6 +24,7 @@ const manufacturerNameLookup = {
     4447: 'Lumi',
     4448: 'Sengled',
     4454: 'Innr',
+    4456: 'Perenio',
     4474: 'Insta',
     4476: 'IKEA',
     4489: 'Ledvance',
