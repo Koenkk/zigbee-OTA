@@ -2059,12 +2059,12 @@
         "path": "images/UHome/007B-0141-010E0101-good_image.zigbee"
     },
     {
-        "fileVersion": 19,
-        "fileSize": 130466,
+        "fileVersion": 26,
+        "fileSize": 133314,
         "manufacturerCode": 4659,
         "imageType": 54181,
-        "sha512": "526b5ee32889cc8fc774c9e388bc5449f0a8933d47432cdb448ecd0a2c9a3c103b0e252318305f411ac39687d7ec3c98a92e0ba4f12e62bada135af9e75ba689",
-        "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/SmartSwitchGen3_PROD_OTA_V19_v1.00.19.ota"
+        "sha512": "dfd8375a7b1fee56c2df554d310b288c9557b557aab87438be46bd2ea671a434bfef8fe89b345d0177607c7d892f542eb289c15b040c4ad4a2e14751a10eade5",
+        "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/SmartSwitchGen3_PROD_OTA_V26_v1.00.26.ota"
     },
     {
         "fileVersion": 268513360,
