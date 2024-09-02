@@ -1585,6 +1585,19 @@
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Telink/1663234985-oem_ztu_dimmer1_klt_OTA_1.0.6.bin",
         "path": "images/Telink/1663234985-oem_ztu_dimmer1_klt_OTA_1.0.6.bin"
     },
+	{
+        "fileVersion": 80,
+        "fileSize": 310402,
+        "manufacturerCode": 4417,
+        "manufacturerName": [
+            "_TZ3000_w0qqde0g",
+            "_TZ3000_dksbtrzs"
+        ],
+        "imageType": 54179,
+        "sha512": "c541878e792620ad16cc70967e0458c03de21876ad8ed3c3b1eb90c8ecf7bcdfe6bfe711460a5888bb033def141e7dd22d78fe24c44a4e0b9707afb473a2d2a2",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Telink/1718263020-oem_zg_tl8258_plug_OTA_1.1.0.bin",
+        "path": "images/Telink/1718263020-oem_zg_tl8258_plug_OTA_1.1.0.bin"
+    },
     {
         "fileVersion": 78,
         "fileSize": 309954,
