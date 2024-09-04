@@ -1585,7 +1585,7 @@
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Telink/1663234985-oem_ztu_dimmer1_klt_OTA_1.0.6.bin",
         "path": "images/Telink/1663234985-oem_ztu_dimmer1_klt_OTA_1.0.6.bin"
     },
-	{
+    {
         "fileVersion": 80,
         "fileSize": 310402,
         "manufacturerCode": 4417,
@@ -2080,12 +2080,12 @@
         "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/SmartSwitchGen3_PROD_OTA_V26_v1.00.26.ota"
     },
     {
-        "fileVersion": 268513360,
-        "fileSize": 195698,
+        "fileVersion": 268513368,
+        "fileSize": 196546,
         "manufacturerCode": 4659,
         "imageType": 54182,
-        "sha512": "35ac054a319e34135931b93faefaac1ff744379fc52f79af4d4df876022c4c71b090e536dcb351a7fffbe095b892932e7497fa982c7c5ea25f24ac5205ce6587",
-        "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/SmartPlug_Zigbee_PROD_OTA_V79_v1.00.79.ota"
+        "sha512": "fb5b099839d09235929122c113d5af7311ce35afa54b8032d3a5b2d06746c673d2ba27556a2df6dfc9afc8df2c098696cb6f449cdec2869d6c45a8523a5568d6",
+        "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/SmartPlug_Zigbee_PROD_OTA_V88_v1.00.88.ota"
     },
     {
         "fileVersion": 385953793,
