@@ -1660,12 +1660,12 @@
         "path": "images/Lumi/20230425180824_OTA_lumi.sensor_gas.acn02_0.0.0_0017_20230423_3F1EAA.ota"
     },
     {
-        "fileVersion": 13,
-        "fileSize": 245406,
+        "fileVersion": 14,
+        "fileSize": 249694,
         "manufacturerCode": 4151,
         "imageType": 1,
-        "sha512": "4d7ab47dcb24e478e0abb35e691222b7691e77ed5a56de3f9c82e8682730649b1a154110b7207d4391c32eae53a869e20878e880fc153dbe046690b870be8486",
-        "url": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/download/v13.0/ZLinky_router_v13.ota"
+        "sha512": "cc69b0745c72daf8deda935ba47aa7abd34dfcaaa4bc35bfa0605cd7937b0ecd8582ba0c08110df4f620c8aa87798d201f407d3d7e17198cfef1a4aa13c5013d",
+        "url": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/download/v14.0/ZLinky_router_v14.ota"
     },
     {
         "fileVersion": 352399361,
