@@ -2725,13 +2725,13 @@
         "path": "images/NodOn/128b-000A-0303-700_nodon_sin_1_fw_efr32_V0303.zigbee"
     },
     {
-        "fileVersion": 62,
-        "fileSize": 261014,
+        "fileVersion": 63,
+        "fileSize": 267118,
         "manufacturerCode": 26214,
         "imageType": 13,
-        "sha512": "9d47a8eaaaf41c8fa03abafbcb407450a6ca3ff25006cfa33e1c7d3b663ec4b0472c4c2622aa246152488ef5854c293d0932712bbe364bf8a7ff5a72c3b74c30",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sprut.device/zb_wb_msw4_mgm21_062.ota",
-        "path": "images/Sprut.device/zb_wb_msw4_mgm21_062.ota"
+        "sha512": "e6bbf566a764fa54292067ab375bd8f0490dcc9520df3b1540094c2b7c0983084b11b520136ec2ad15d363726a1deb4980c0f37987bad4bb8a1b9b530f08ec3d",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sprut.device/zb_wb_msw4_mgm21_063.ota",
+        "path": "images/Sprut.device/zb_wb_msw4_mgm21_063.ota"
     },
     {
         "fileVersion": 32,
@@ -3486,13 +3486,13 @@
         "path": "images/Develco/ZigbeeRangeExtender_2.0.2.zigbee"
     },
     {
-        "fileVersion": 62,
-        "fileSize": 219642,
+        "fileVersion": 63,
+        "fileSize": 225738,
         "manufacturerCode": 26214,
         "imageType": 15,
-        "sha512": "0f5b47092c2df550270460d9e446563da1bb72fd841747c9b738f6b75de6cebecdc92aa7aa3be2c814cbea9aea624c5f9d0f4dbdbc150f3b569c25d764629d02",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sprut.device/zb_wb_msw4_mg21_062.ota",
-        "path": "images/Sprut.device/zb_wb_msw4_mg21_062.ota"
+        "sha512": "0cfc487b13ba17154473622e6cbcc710dd173549803e41cbd7dd260486467e95cb93b5ebf34172456c8bb67ad706d3b95a36d4d7357614b6a7103623ae3403a8",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sprut.device/zb_wb_msw4_mg21_063.ota",
+        "path": "images/Sprut.device/zb_wb_msw4_mg21_063.ota"
     },
     {
         "fileVersion": 6,
