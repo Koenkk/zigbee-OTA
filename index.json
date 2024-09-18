@@ -2013,12 +2013,12 @@
         "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/Water_Leak_Sensor_PROD_OTA_V66_v1.00.66.ota"
     },
     {
-        "fileVersion": 23,
-        "fileSize": 125010,
+        "fileVersion": 37,
+        "fileSize": 129090,
         "manufacturerCode": 4659,
         "imageType": 54185,
-        "sha512": "974bd55bc461e25306fa2bc02604d1617a5dd5da7e9b0474ead828a201e89ec5b909c8775d143b970feafe077cfe222c68215967e107ca73ba8ab0ef2cfd5b1f",
-        "url": "https://tr-zha.s3.amazonaws.com/firmware/TRTL_ThermalSensor_PROD_OTA_V23_1.00.23.ota"
+        "sha512": "b78cc4b15a1fb1ebedc04143bd9001265df6f380953cec30d50bdd6ed2da062fb260e3a981f1dc8cee0536076c656c033b31327dfc27702c9735fa3f1496bb81",
+        "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/TRTL_ThermalSensor_PROD_OTA_V37_v1.00.37.ota"
     },
     {
         "fileVersion": 2590,
