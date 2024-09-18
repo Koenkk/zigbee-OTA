@@ -2699,12 +2699,12 @@
         "path": "images/DresdenElektronik/1135-0101-0020001B-Hive.zigbee"
     },
     {
-        "fileVersion": 43,
-        "fileSize": 129202,
+        "fileVersion": 53,
+        "fileSize": 131410,
         "manufacturerCode": 4659,
         "imageType": 54187,
-        "sha512": "5c46340689e4e5ae95208f33f45ec9f5bf13fbc7a06f11b73c260ca4c0a10f006ae692ff388446c80e711473f6ff2da45ce90da4c7db1ac42ab9b287dd8f93d8",
-        "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/Vibrate_Sensor_PROD_OTA_V43_v1.00.43.ota"
+        "sha512": "481973197ae906755c6b1a2991e1984071a4534df02424f9020632b4a1a42a79aa0414d2a785f5dd34166f15c10a7d77f2e0e13352f1afa652e55f02f869d5a3",
+        "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/Vibrate_Sensor_PROD_OTA_V53_v1.00.53.ota"
     },
     {
         "fileVersion": 771,
