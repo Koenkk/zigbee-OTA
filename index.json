@@ -2829,12 +2829,12 @@
         "path": "images/Lumi/20240111171722_OTA_lumi.switch.acn047__20240110_EC6C1F.ota"
     },
     {
-        "fileVersion": 72,
-        "fileSize": 289050,
+        "fileVersion": 82,
+        "fileSize": 297858,
         "manufacturerCode": 4877,
         "imageType": 0,
-        "sha512": "fd8ec5ca2d77b82d7dab1350950c64144b220214dadfcaa0bcc0c953644bcb68690624ed990cf2155a3de20b32ad59d3b22132aed46af37ae234c41ac6477ba6",
-        "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/FW_ha_v0.00.72.ota"
+        "sha512": "ada3886bc02da299648240f71c6d44950937cb6ab29a9bc115a255eeda0d4b3cf061772a60f186361f4c9afddbf90882a28f83370478a561b31eeebf9180e4f2",
+        "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/FW_ha_v1.00.82.ota"
     },
     {
         "fileVersion": 285224961,
