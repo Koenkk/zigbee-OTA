@@ -2039,12 +2039,12 @@
         "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/SmartCurtain_PROD_OTA_V76_v1.00.76.ota"
     },
     {
-        "fileVersion": 28,
-        "fileSize": 128242,
+        "fileVersion": 35,
+        "fileSize": 129698,
         "manufacturerCode": 4659,
         "imageType": 54184,
-        "sha512": "1000494cb194337de4aeec9c2d5a37a25a3f20a61af10036e01225faa7434865801991495ddb26902e8b48301088dad067e1db5d1ffb395790bbf68c59bff6ac",
-        "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/Button_PROD_OTA_V28_v1.00.28.ota"
+        "sha512": "431aa68788f8e4150ed7b80f0655e234ab34e06afa1b94dce287625991845496d6191578bf335ef56a0c13853616e7ce6feb00b3a2604d60d11384d7dc69f28a",
+        "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/Button_PROD_OTA_V35_v1.00.35.ota"
     },
     {
         "fileVersion": 63,
