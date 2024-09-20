@@ -1067,14 +1067,14 @@
         "path": "images/Lumi/OTA_lumi.plug.mmeu01_V22_20190906_D32362.20191008105750.ota"
     },
     {
-        "fileVersion": 32,
-        "fileSize": 278094,
+        "fileVersion": 45,
+        "fileSize": 280672,
         "manufacturerCode": 4447,
         "imageType": 24,
-        "sha512": "e91499339cf5f247cf5496ad704207ce7862e7cf04adecac217e365a7ad1e0037f5932be9315e574ed112ab04eeb264cf2fde1367414c5a57c66ca9449919057",
+        "sha512": "a1bd7164edbb76eeb44ee05f6a5f85cf39d33b2262d8cc7786e1cc1e009baf1e8450a3dcbf7f1e61f85039146aa0c57f7f2a2175a3e3dd6cfa8f170647b2dd09",
         "modelId": "lumi.plug.maeu01",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/OTA_lumi.plug.maeu01_V32_20200922_C11F8A.20200924102946.ota",
-        "path": "images/Lumi/OTA_lumi.plug.maeu01_V32_20200922_C11F8A.20200924102946.ota"
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20240719174937_OTA_lumi.plug.maeu01_0.0.0_0045_20240719_958E71.ota",
+        "path": "images/Lumi/20240719174937_OTA_lumi.plug.maeu01_0.0.0_0045_20240719_958E71.ota"
     },
     {
         "fileVersion": 30,
