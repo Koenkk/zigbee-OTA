@@ -3890,5 +3890,14 @@
         "sha512": "a1821008181b2dca54ffb61a99f49fe8c8d8b39fd984d57423e34691de32666d9b2f8bbd3f7f6a929d67229c239b55fcfeb490f352cc0ccc0cb361408bb17b75",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Innr/1166-0430-17103685-ae270t-1.7.16.ota",
         "path": "images/Innr/1166-0430-17103685-ae270t-1.7.16.ota"
+    },
+    {
+        "fileVersion": 4098,
+        "fileSize": 275788,
+        "manufacturerCode": 4742,
+        "imageType": 8,
+        "sha512": "b5c5a93ab84607292248e5262ccf0b8c250326d6ed5395c0d8818697b4286df5d85567a63bad7734a959bbaf58b83f9289ff027783284b11de5dfea8a48921ba",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sonoff/zbminir2_v1.0.2.ota",
+        "path": "images/Sonoff/zbminir2_v1.0.2.ota"
     }
 ]
