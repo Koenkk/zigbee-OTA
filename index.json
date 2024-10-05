@@ -3899,5 +3899,14 @@
         "sha512": "b5c5a93ab84607292248e5262ccf0b8c250326d6ed5395c0d8818697b4286df5d85567a63bad7734a959bbaf58b83f9289ff027783284b11de5dfea8a48921ba",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sonoff/zbminir2_v1.0.2.ota",
         "path": "images/Sonoff/zbminir2_v1.0.2.ota"
+    },
+    {
+        "fileVersion": 33816645,
+        "fileSize": 294530,
+        "manufacturerCode": 4476,
+        "imageType": 40766,
+        "sha512": "76f16f4c2ca48a2b6a66693c3a2d4f85d2f52ff440cc09a565b5856d46a872435b28c5a9b6746d50cb2425555db9bdf41ae05e1a17b0292095198af53552e5eb",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/IKEA/inspelning-smart-plug-soc_release_prod_v33816645_02579ff4-6fec-42f6-8957-4048def87def.ota",
+        "path": "images/IKEA/inspelning-smart-plug-soc_release_prod_v33816645_02579ff4-6fec-42f6-8957-4048def87def.ota"
     }
 ]
