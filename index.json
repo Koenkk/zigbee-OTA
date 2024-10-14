@@ -3944,5 +3944,13 @@
         "sha512": "798e1a024c5293360af60ac2cc202455ef073e9029e5a7b5dbe93a3f58c630c694ddabba8733119d43111ece1ce2548caafdd32992b48115391989d1cdf63c8d",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-0020-002d4203-NLUO-8190D7-Boot-universal-Dimmer_2_23.zigbee",
         "path": "images/Legrand/1021-0020-002d4203-NLUO-8190D7-Boot-universal-Dimmer_2_23.zigbee"
+    },
+    {
+        "fileVersion": 14,
+        "fileSize": 249694,
+        "manufacturerCode": 4151,
+        "imageType": 2,
+        "sha512": "f851cbff7297ba6223a969ba8da5182f9ef199cf9c8459c8408432e48485c1a8f018f6e1703a42f40143cccd3bf460c0acd92117d899e507a36845f24e970595",
+        "url": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/download/v14.0/ZLinky_router_v14_limited.ota"
     }
 ]
