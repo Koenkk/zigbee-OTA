@@ -1884,13 +1884,13 @@
         "path": "images/Lumi/20220701175804_OTA_lumi.switch.b2lc04_0.0.0_0023_20220701_E4CE08.ota"
     },
     {
-        "fileVersion": 2,
-        "fileSize": 177598,
+        "fileVersion": 3,
+        "fileSize": 177790,
         "manufacturerCode": 4151,
         "imageType": 4111,
-        "sha512": "5531423d9bce31ff0da6000295fceb56c1a34cd95f1216016ee2fd9a18f1597a9fdc59403c60949412f2f67c5271d6284a7aeeaae16ed02f21e281f1004dd61b",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Jennic/DMS300Z_OTA_ENC_V2_ENC.ota",
-        "path": "images/Jennic/DMS300Z_OTA_ENC_V2_ENC.ota"
+        "sha512": "1551dbfdb952f8b6e93b62c6c895d59b82d3cd8d3b5ebf80e5c4347cea85f341d4fe726223d4b6330fbbbe25df76c5172c2ed2b788d2ee06aa4125503656e932",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Jennic/DMS300Z_OTA_ENC_V3_ENC.ota",
+        "path": "images/Jennic/DMS300Z_OTA_ENC_V3_ENC.ota"
     },
     {
         "fileVersion": 3,
@@ -3953,5 +3953,95 @@
         "imageType": 2,
         "sha512": "f851cbff7297ba6223a969ba8da5182f9ef199cf9c8459c8408432e48485c1a8f018f6e1703a42f40143cccd3bf460c0acd92117d899e507a36845f24e970595",
         "url": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/download/v14.0/ZLinky_router_v14_limited.ota"
+    },
+    {
+        "fileVersion": 4,
+        "fileSize": 174558,
+        "manufacturerCode": 4151,
+        "imageType": 4097,
+        "sha512": "1d20a4c887bb3aef48819c4d9d1608f82a8e5ea58d37e98788288d717278681aeef870555a8cb08a45dd9e7e558f8eb9c3a9330c1911e5beb15939226b772fae",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Jennic/BSM300Z_OTA_ENC_V4_ENC.ota",
+        "path": "images/Jennic/BSM300Z_OTA_ENC_V4_ENC.ota"
+    },
+    {
+        "fileVersion": 5,
+        "fileSize": 188702,
+        "manufacturerCode": 4151,
+        "imageType": 4120,
+        "sha512": "f5a51866ce803e15aed135d81e0a101cabcda00701a73aeaff3d0248dfbab27fc7412559d6b12f7ded8511200f5eda846eaad32b75c2d4bb60434afd379a6c52",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Jennic/DIO300Z_OTA_ENC_V5_ENC.ota",
+        "path": "images/Jennic/DIO300Z_OTA_ENC_V5_ENC.ota"
+    },
+    {
+        "fileVersion": 8,
+        "fileSize": 173246,
+        "manufacturerCode": 4151,
+        "imageType": 4101,
+        "sha512": "e54631f1ed754cd5025ec9f0493a59ad6b03987968cc2f7013cd85f6e09d734652bb81500c62a0ae671bc70029db368719524f03929a514e981a7cf66ed6a19e",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Jennic/DLM300Z_OTA_ENC_V8_ENC.ota",
+        "path": "images/Jennic/DLM300Z_OTA_ENC_V8_ENC.ota"
+    },
+    {
+        "fileVersion": 5,
+        "fileSize": 175902,
+        "manufacturerCode": 4151,
+        "imageType": 4098,
+        "sha512": "b672359b105c3803386743e71d71908a3c582e807fcf68ec0ad89e264f51e555ac27b4ba67b51116b8c0812aa1ba84c321876892e47a8e7062df3a54cca79d7f",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Jennic/DSM300Z_OTA_ENC_V5_ENC.ota",
+        "path": "images/Jennic/DSM300Z_OTA_ENC_V5_ENC.ota"
+    },
+    {
+        "fileVersion": 1,
+        "fileSize": 171086,
+        "manufacturerCode": 4151,
+        "imageType": 4115,
+        "sha512": "03a2af79ecb80faf4595fca429dfd70af6581d9d62868049873d2f05c633d9445051c0663ca87f394c59fe70104ee6ca94b0de19d970acd637e7f528e9aa7e83",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Jennic/GCM300Z_OTA_ENC_V1_ENC.ota",
+        "path": "images/Jennic/GCM300Z_OTA_ENC_V1_ENC.ota"
+    },
+    {
+        "fileVersion": 4,
+        "fileSize": 175486,
+        "manufacturerCode": 4151,
+        "imageType": 4102,
+        "sha512": "bf4e464bcfeb6356b31909a5e9d2097345ec47fd44b4f24afb10039412a545c09e2dc88f131c774cbd686304dde7feb2b0e9469c90342ee4e7e3bc1623760460",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Jennic/MSM300Z_OTA_ENC_V4_ENC.ota",
+        "path": "images/Jennic/MSM300Z_OTA_ENC_V4_ENC.ota"
+    },
+    {
+        "fileVersion": 4,
+        "fileSize": 178798,
+        "manufacturerCode": 4151,
+        "imageType": 4104,
+        "sha512": "0199440a282e299fa026c44645fe2612cb5bf29edaf55587ad2f9e6b7b064a82b137feef0c6e202091cac0febc465c0ed51153dd3d620fdae2286e9d3057120b",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Jennic/SBM300ZB_OTA_ENC_V4_ENC.ota",
+        "path": "images/Jennic/SBM300ZB_OTA_ENC_V4_ENC.ota"
+    },
+    {
+        "fileVersion": 5,
+        "fileSize": 221166,
+        "manufacturerCode": 4151,
+        "imageType": 4119,
+        "sha512": "e1414ec9cde43992fd8e22d39419fdf2c87f4383da677e3499587cf004e70ee7fbe7894816c50c640a0717a59c087ba167cea3c96ee579862f40e73b0d66ee1d",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Jennic/TCM300Z_OTA_ENC_V5_ENC.ota",
+        "path": "images/Jennic/TCM300Z_OTA_ENC_V5_ENC.ota"
+    },
+    {
+        "fileVersion": 6,
+        "fileSize": 184686,
+        "manufacturerCode": 4151,
+        "imageType": 4100,
+        "sha512": "3c625264337a918802322eb48225ee41e4490466c4d10a1172a52fcbd4aee2184a7c5eae832d1ba0a281e71dc9df1edb0a008611e40e825a2393d29bec062ec8",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Jennic/TSM300Z_OTA_ENC_V6_ENC.ota",
+        "path": "images/Jennic/TSM300Z_OTA_ENC_V6_ENC.ota"
+    },
+    {
+        "fileVersion": 6,
+        "fileSize": 185246,
+        "manufacturerCode": 4151,
+        "imageType": 4103,
+        "sha512": "55de851ccec9042d8fcc2c9de66c4a53f8d7584119efcaf299021be9efe5007c05bad27691c396c453ea67fb0f15f4a1d7cb48bf5819ccd85913636d4831d555",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Jennic/USM300Z_OTA_ENC_V6_ENC.ota",
+        "path": "images/Jennic/USM300Z_OTA_ENC_V6_ENC.ota"
     }
 ]
