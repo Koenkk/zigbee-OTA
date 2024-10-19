@@ -4043,5 +4043,13 @@
         "sha512": "55de851ccec9042d8fcc2c9de66c4a53f8d7584119efcaf299021be9efe5007c05bad27691c396c453ea67fb0f15f4a1d7cb48bf5819ccd85913636d4831d555",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Jennic/USM300Z_OTA_ENC_V6_ENC.ota",
         "path": "images/Jennic/USM300Z_OTA_ENC_V6_ENC.ota"
+    },
+    {
+        "fileVersion": 317,
+        "fileSize": 693230,
+        "manufacturerCode": 13379,
+        "imageType": 4113,
+        "sha512": "66040fb2b2787bf8ebfc75bc3c7356c7d8b966b4c82282bd7393783b8dc453ec2c8dcb4d7c9fe7c0a83d87739bd3677f205d79edddfa4fa2749305ca987887b1",
+        "url": "https://github.com/xyzroe/ZigUSB_C6/releases/download/317/ZigUSB_C6.ota"
     }
 ]
