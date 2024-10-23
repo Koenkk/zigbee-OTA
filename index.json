@@ -4051,5 +4051,14 @@
         "imageType": 4113,
         "sha512": "66040fb2b2787bf8ebfc75bc3c7356c7d8b966b4c82282bd7393783b8dc453ec2c8dcb4d7c9fe7c0a83d87739bd3677f205d79edddfa4fa2749305ca987887b1",
         "url": "https://github.com/xyzroe/ZigUSB_C6/releases/download/317/ZigUSB_C6.ota"
+    },
+    {
+        "fileVersion": 50817584,
+        "fileSize": 264354,
+        "manufacturerCode": 4617,
+        "imageType": 12305,
+        "sha512": "63f232232252af0fbb3c4cc2efe2ce2564101405de4923238c71ccef2e66e6abef022deee45399a886af4019dfce64fdea969ff60f5b4b854e222b5ffcf7bcc2",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Bosch/0x1209_0x3011_0x03076a30.ota",
+        "path": "images/Bosch/0x1209_0x3011_0x03076a30.ota"
     }
 ]
