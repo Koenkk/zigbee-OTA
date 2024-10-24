@@ -2022,7 +2022,7 @@
         "url": "https://tr-zha.s3.amazonaws.com/z2m_firmware/TRTL_ThermalSensor_PROD_OTA_V37_v1.00.37.ota"
     },
     {
-        "fileVersion": 2590,
+        "fileVersion": 30,
         "fileSize": 264144,
         "manufacturerCode": 4447,
         "imageType": 5017,
