@@ -7,12 +7,11 @@ on:
                 required: true
                 default: false
                 type: boolean
-            # TODO: remove this and the logic behind it once the first run has been executed to prevent following accidental executions
-            skip_download_third_parties:
-                description: 'Skip the step that downloads firmware with 3rd party URLs in manifest (logic should be removed after first run after 2024-10 revamp).'
-                required: true
-                default: true
-                type: boolean
+            # skip_download_third_parties:
+            #     description: 'Skip the step that downloads firmware with 3rd party URLs in manifest.'
+            #     required: true
+            #     default: true
+            #     type: boolean
 
 permissions:
     contents: write
@@ -51,7 +50,7 @@ jobs:
                   script: |
                       const {reProcessAllImages} = await import("${{ github.workspace }}/dist/ghw_reprocess_all_images.js")
 
-                      await reProcessAllImages(github, core, context, ${{ fromJSON(inputs.remove_not_in_manifest) }}, ${{ fromJSON(inputs.skip_download_third_parties) }})
+                      await reProcessAllImages(github, core, context, ${{ fromJSON(inputs.remove_not_in_manifest) }}, true)
             - name: Commit changes in new branch
               run: |
                   git add .
