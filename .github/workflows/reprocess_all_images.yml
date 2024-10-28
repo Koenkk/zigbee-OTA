@@ -1,0 +1,66 @@
+name: Re-Process All Images
+on:
+    workflow_dispatch:
+        inputs:
+            remove_not_in_manifest:
+                description: 'Remove images not found in manifest (if false, will be moved to separate dir instead).'
+                required: true
+                default: false
+                type: boolean
+            # TODO: remove this and the logic behind it once the first run has been executed to prevent following accidental executions
+            skip_download_third_parties:
+                description: 'Skip the step that downloads firmware with 3rd party URLs in manifest (logic should be removed after first run after 2024-10 revamp).'
+                required: true
+                default: true
+                type: boolean
+
+permissions:
+    contents: write
+    pull-requests: write
+
+jobs:
+    reprocess-all-images:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+            - uses: pnpm/action-setup@v4
+              with:
+                  version: 9
+            - uses: actions/setup-node@v4
+              with:
+                  node-version: 20
+                  registry-url: https://registry.npmjs.org/
+                  cache: pnpm
+            - name: Install dependencies
+              run: pnpm i --frozen-lockfile
+            - name: Build
+              run: pnpm run build
+            - name: Create and checkout new branch
+              id: create_branch
+              run: |
+                  git config --global user.name 'github-actions[bot]'
+                  git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+                  branch_name="reprocess-$(date +'%Y-%m-%d-%H-%M-%S')"
+                  echo "branch_name=$branch_name" >> $GITHUB_OUTPUT
+                  git checkout -b $branch_name
+            - name: Reprocess
+              uses: actions/github-script@v7
+              env:
+                  NODE_EXTRA_CA_CERTS: cacerts.pem
+              with:
+                  script: |
+                      const {reProcessAllImages} = await import("${{ github.workspace }}/dist/ghw_reprocess_all_images.js")
+
+                      await reProcessAllImages(github, core, context, ${{ fromJSON(inputs.remove_not_in_manifest) }}, ${{ fromJSON(inputs.skip_download_third_parties) }})
+            - name: Commit changes in new branch
+              run: |
+                  git add .
+                  git commit -m "Re-Processed all images" || echo 'Nothing to commit'
+                  git push -u origin HEAD
+            - name: Create pull request
+              uses: actions/github-script@v7
+              with:
+                  script: |
+                      const {createPRToDefault} = await import("${{ github.workspace }}/dist/ghw_create_pr_to_default.js")
+
+                      await createPRToDefault(github, core, context, "${{steps.create_branch.outputs.branch_name}}", "Re-Processed all images")

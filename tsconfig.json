@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "declaration": true,
+        "module": "ES2022",
+        "moduleResolution": "node",
+        "target": "ES2022",
+        "lib": ["ES2022"],
+        "outDir": "dist",
+        "rootDir": "src",
+        "noUnusedLocals": true,
+        "esModuleInterop": true,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "composite": true
+    },
+    "include": ["./src/**/*", "./eslint.config.mjs"],
+    "ts-node": {
+        "esm": true
+    }
+}

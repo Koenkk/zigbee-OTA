@@ -1,0 +1,68 @@
+name: Run auto download
+on:
+    # schedule:
+    #     # * is a special character in YAML, always quote this string
+    #     - cron: '0 1 * * 1'
+    workflow_dispatch:
+        inputs:
+            prev:
+                description: 'Get previous firmware versions (if available) instead of latest.'
+                required: false
+                default: false
+                type: boolean
+            manufacturers:
+                description: 'Only trigger updates for given manufacturers (CSV, no space).'
+                required: false
+                default: ''
+                type: string
+            ignore_cache:
+                description: 'Ignore cached data in .cache for this run.'
+                required: false
+                default: false
+                type: boolean
+
+permissions:
+    contents: write
+
+jobs:
+    run-autodl:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+            - uses: pnpm/action-setup@v4
+              with:
+                  version: 9
+            - uses: actions/setup-node@v4
+              with:
+                  node-version: 20
+                  registry-url: https://registry.npmjs.org/
+                  cache: pnpm
+            - name: Install dependencies
+              run: pnpm i --frozen-lockfile
+            - name: Build
+              run: pnpm run build
+            - name: Run Autodl
+              uses: actions/github-script@v7
+              env:
+                  NODE_EXTRA_CA_CERTS: cacerts.pem
+                  PREV: ${{ fromJSON(inputs.prev) && '1' || '' }}
+                  IGNORE_CACHE: ${{ fromJSON(inputs.ignore_cache) && '1' || '' }}
+              with:
+                  script: |
+                      const {runAutodl} = await import("${{ github.workspace }}/dist/ghw_run_autodl.js")
+
+                      await runAutodl(github, core, context, "${{ inputs.manufacturers || '' }}")
+            - name: Create Autodl release
+              uses: actions/github-script@v7
+              with:
+                  script: |
+                      const {createAutodlRelease} = await import("${{ github.workspace }}/dist/ghw_create_autodl_release.js")
+
+                      await createAutodlRelease(github, core, context)
+            - name: Commit changes
+              run: |
+                  git config --global user.name 'github-actions[bot]'
+                  git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+                  git add .
+                  git commit -m "Autodl update" || echo 'Nothing to commit'
+                  git push

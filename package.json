@@ -1,0 +1,65 @@
+{
+    "name": "zigbee-ota",
+    "version": "1.0.0",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Koenkk/zigbee-OTA.git"
+    },
+    "engines": {
+        "node": ">=20.0.0"
+    },
+    "type": "module",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "tsc",
+        "start": "node ./dist/index.js",
+        "format": "prettier --write .",
+        "format:check": "prettier --check .",
+        "eslint": "eslint . --max-warnings=0",
+        "test": "jest test --config=./tests/jest.config.ts --silent --runInBand",
+        "coverage": "jest test --config=./tests/jest.config.ts --silent --runInBand --coverage"
+    },
+    "keywords": [
+        "zigbee",
+        "OTA",
+        "over-the-air",
+        "zigbee-update"
+    ],
+    "author": {
+        "name": "Koen Kanters",
+        "email": "koenkanters94@gmail.com"
+    },
+    "contributors": [
+        {
+            "name": "Koen Kanters",
+            "url": "https://github.com/Koenkk"
+        },
+        {
+            "name": "Nerivec",
+            "url": "https://github.com/Nerivec"
+        }
+    ],
+    "license": "GPL-3.0-or-later",
+    "description": "",
+    "dependencies": {
+        "tar": "^7.4.3"
+    },
+    "devDependencies": {
+        "@actions/core": "^1.11.1",
+        "@actions/github": "^6.0.0",
+        "@eslint/core": "^0.7.0",
+        "@eslint/js": "^9.13.0",
+        "@ianvs/prettier-plugin-sort-imports": "^4.3.1",
+        "@octokit/rest": "^21.0.2",
+        "@types/jest": "^29.5.14",
+        "@types/node": "^22.8.1",
+        "eslint": "^9.13.0",
+        "eslint-config-prettier": "^9.1.0",
+        "jest": "^29.7.0",
+        "prettier": "^3.3.3",
+        "ts-jest": "^29.2.5",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.6.3",
+        "typescript-eslint": "^8.12.0"
+    }
+}

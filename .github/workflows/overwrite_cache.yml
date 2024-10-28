@@ -1,0 +1,44 @@
+name: Overwrite cache
+on:
+    workflow_dispatch:
+        inputs:
+            manufacturers:
+                description: 'Only trigger overwrite for given manufacturers (CSV, no space).'
+                required: false
+                default: ''
+                type: string
+
+permissions:
+    contents: write
+
+jobs:
+    overwrite-cache:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+            - uses: pnpm/action-setup@v4
+              with:
+                  version: 9
+            - uses: actions/setup-node@v4
+              with:
+                  node-version: 20
+                  registry-url: https://registry.npmjs.org/
+                  cache: pnpm
+            - name: Install dependencies
+              run: pnpm i --frozen-lockfile
+            - name: Build
+              run: pnpm run build
+            - name: Overwrite cache
+              uses: actions/github-script@v7
+              with:
+                  script: |
+                      const {overwriteCache} = await import("${{ github.workspace }}/dist/gwh_overwrite_cache.js")
+
+                      await overwriteCache(github, core, context, "${{ inputs.manufacturers || '' }}")
+            - name: Commit changes
+              run: |
+                  git config --global user.name 'github-actions[bot]'
+                  git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+                  git add .
+                  git commit -m "Cache overwrite" || echo 'Nothing to commit'
+                  git push

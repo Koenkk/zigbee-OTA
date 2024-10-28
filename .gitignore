@@ -1,0 +1,16 @@
+node_modules/
+coverage/
+dist/
+temp/
+tmp/
+.jest-tmp/
+tsconfig.tsbuildinfo
+
+# used by tests
+images/jest-tmp
+images1/jest-tmp
+not-in-manifest-images/jest-tmp
+not-in-manifest-images1/jest-tmp
+
+# MacOS indexing files
+.DS_Store
