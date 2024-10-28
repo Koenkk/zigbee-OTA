@@ -112,7 +112,7 @@ Example:
 ```
 ````
 
-### Notes for maintainers
+### Notes for maintainers & developers
 
 -   `images` and `index.json` contain added (PR or auto download) "upgrade" images.
 -   `images1` and `index1.json` contain automatically archived "downgrade" images (automatically moved from `images`/`index.json` after a merged PR introduced a newer version, or during auto download).
@@ -145,3 +145,5 @@ interface RepoImageMeta {
     releaseNotes?: string;
 }
 ```
+
+See https://github.com/Koenkk/zigbee-OTA/pull/581#issue-2619493249 for details on the processes used by this repository.
