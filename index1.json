@@ -116,16 +116,6 @@
     ]
   },
   {
-    "fileName": "VZM35-SN_1.04-Production.ota",
-    "fileVersion": 33685764,
-    "fileSize": 227438,
-    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Inovelli/VZM35-SN_1.04-Production.ota",
-    "imageType": 513,
-    "manufacturerCode": 4655,
-    "sha512": "36e6393affb29bcfa06a199df5fb1d2c5d02a23545a0a81dd6975d6f5e3f205a737259c314f1d21f025d5d964fbbcb2f54d4b04b50602d3bec79bab477b8ea74",
-    "otaHeaderString": "VZM35_MG24\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
-  },
-  {
     "fileName": "PAR16_DIM_Z3_IM0031_01036400-encrypted_202110060424_withoutMF.ota",
     "fileVersion": 16999424,
     "fileSize": 183392,
@@ -139,36 +129,6 @@
       "Ledvance"
     ],
     "releaseNotes": "1.Support for turn on/off fading time configurations\r\n2.Support for ZLO commands\r\n3.OTA improvements, rollback protection enabled"
-  },
-  {
-    "fileName": "B40_DIM_Z3_IM0034_00103101-encrypted_11_26_2018_Mon_174522_20_withoutMF.ota",
-    "fileVersion": 1061121,
-    "fileSize": 182876,
-    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/B40_DIM_Z3_IM0034_00103101-encrypted_11_26_2018_Mon_174522_20_withoutMF.ota",
-    "imageType": 52,
-    "manufacturerCode": 4489,
-    "sha512": "46b3cd08c96ca1bff0c92f0e067425e8bc1fc24bb0dbca317db94159ed5f556c798cde5d6785ae4bc71774e17c3da2f79d62d76bdecd058cbc1d35853ed06d92",
-    "otaHeaderString": "EBL RGBW\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
-  },
-  {
-    "fileName": "A60_DIM_Z3_IM003D_00103101-encrypted_11_20_2018_Tue_122925_01_withoutMF.ota",
-    "fileVersion": 1061121,
-    "fileSize": 182876,
-    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/A60_DIM_Z3_IM003D_00103101-encrypted_11_20_2018_Tue_122925_01_withoutMF.ota",
-    "imageType": 61,
-    "manufacturerCode": 4489,
-    "sha512": "48229f0518872c62c0f785aa7c4503d8af52cb5770cce5bef17fed8814fdf7de68e72acd19069c67b31ca76ee5dedecc993eb4c5a5acb0630cb9eea847d10c82",
-    "otaHeaderString": "EBL RGBW\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
-  },
-  {
-    "fileName": "Zigbee3toDALI_1008655B.ota",
-    "fileVersion": 268985691,
-    "fileSize": 200036,
-    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/Zigbee3toDALI_1008655B.ota",
-    "imageType": 57374,
-    "manufacturerCode": 4364,
-    "sha512": "42767fd8ade66a47263d2ba1916ee07e002fb1dea3968841922957fd35341fe0a3b7831891796a1dfd1ce3c9b4686984ab9acd9a4e77eef9299facbc0ca51500",
-    "otaHeaderString": "Zigbee3toDALIConverter\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
   },
   {
     "fileName": "SAU2DH1_20181207.ota",
@@ -211,5 +171,1279 @@
     "manufacturerName": [
       "Salus"
     ]
+  },
+  {
+    "fileName": "VZM35-SN_1.05.ota",
+    "fileVersion": 33685765,
+    "fileSize": 232882,
+    "originalUrl": "https://files.inovelli.com/firmware/VZM35-SN/Beta/1.05/VZM35-SN_1.05.ota",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Inovelli/VZM35-SN_1.05.ota",
+    "imageType": 513,
+    "manufacturerCode": 4655,
+    "sha512": "a2f991faaac21cd0851d86d1057bddbcc614fbb616e4f2f841402a6bced67465db85e622bd4271a10b740e09a1fe241fa96b660bfc6e4783bd1eceb76b20a64c",
+    "otaHeaderString": "VZM35_MG24\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Inovelli"
+    ]
+  },
+  {
+    "fileName": "VZM36_0.04.ota",
+    "fileVersion": 67174404,
+    "fileSize": 237962,
+    "originalUrl": "https://inov.li/IRbxhx1646F/VZM36_0.04.ota",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Inovelli/VZM36_0.04.ota",
+    "imageType": 1025,
+    "manufacturerCode": 4655,
+    "sha512": "dfbae89d7ff0010527530c995a457fb162f4059f9824bf98b11c27e6146f061d2be5a51ced3a7cba3909ff1ada1135a91b39db39a63e86527bb97ac1636c5a4f",
+    "otaHeaderString": "VMZB_Canopy\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Inovelli"
+    ]
+  },
+  {
+    "fileName": "CLA60_RGBW_Z3_IM0011_00103101-encrypted_11_27_2018_Tue_133608_15_withoutMF.ota",
+    "fileVersion": 1061121,
+    "fileSize": 191128,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/CLA60_RGBW_Z3_IM0011_00103101-encrypted_11_27_2018_Tue_133608_15_withoutMF.ota",
+    "imageType": 17,
+    "manufacturerCode": 4489,
+    "sha512": "9e2a43605da677c9a1ead29b896175ef68a5f7862a610c49c29486f512879d813de38401264b5e33a72924bb05297c2777ddf3f25e7bbb0c67eeb261c92a3844",
+    "otaHeaderString": "EBL RGBW\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "Flex_RGBW_Z3_IM002A_00103101-encrypted_11_27_2018_Tue_134318_76_withoutMF.ota",
+    "fileVersion": 1061121,
+    "fileSize": 191068,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/Flex_RGBW_Z3_IM002A_00103101-encrypted_11_27_2018_Tue_134318_76_withoutMF.ota",
+    "imageType": 42,
+    "manufacturerCode": 4489,
+    "sha512": "de28f435a8b3529eeb299312d1d9cd7c58234ac6136c96baab1ac6a096b6773eba556525d2fd4aa62833a35b1acf4231b852ebf5fd6609edce21c030c56a90ba",
+    "otaHeaderString": "EBL RGBW\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "Tibea_TW_Z3_IM002C_00103101-encrypted_11_23_2018_Fri_163423_97_withoutMF.ota",
+    "fileVersion": 1061121,
+    "fileSize": 183628,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/Tibea_TW_Z3_IM002C_00103101-encrypted_11_23_2018_Fri_163423_97_withoutMF.ota",
+    "imageType": 44,
+    "manufacturerCode": 4489,
+    "sha512": "ae34bd7dc48ce19fde6c469ba072131c6c900b7d8735642c91fef6a7c7fee4729bde40a741a3190a13ac262db2342566b3fc33efa0bf14fee263ce0043571715",
+    "otaHeaderString": "EBL RGBW\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "PAR16_TW_Z3_IM002E_00103101-encrypted_11_23_2018_Fri_162418_58_withoutMF.ota",
+    "fileVersion": 1061121,
+    "fileSize": 183624,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/PAR16_TW_Z3_IM002E_00103101-encrypted_11_23_2018_Fri_162418_58_withoutMF.ota",
+    "imageType": 46,
+    "manufacturerCode": 4489,
+    "sha512": "0635909cb05a5e9c1b4d2f92f4787fa35aa4804dbebed1db72375e06774084aece3856986d0c4a3a0d764f5a54ddc07cb5528f3755347ab3924bf0a0062f977b",
+    "otaHeaderString": "EBL RGBW\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "PAR16_RGBW_Z3_IM0030_00103101-encrypted_11_27_2018_Tue_140612_79_withoutMF.ota",
+    "fileVersion": 1061121,
+    "fileSize": 191080,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/PAR16_RGBW_Z3_IM0030_00103101-encrypted_11_27_2018_Tue_140612_79_withoutMF.ota",
+    "imageType": 48,
+    "manufacturerCode": 4489,
+    "sha512": "1f1378753629c6a1d014b7e4cb7c750261c8eafab452bbd63c4fa2b427fde7d12e52b9658972425e1024a29145034fba822afd4c8f1b91039006f515192b621d",
+    "otaHeaderString": "EBL RGBW\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "B40_TW_Z3_IM0033_00103101-encrypted_11_23_2018_Fri_160706_13_withoutMF.ota",
+    "fileVersion": 1061121,
+    "fileSize": 183624,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/B40_TW_Z3_IM0033_00103101-encrypted_11_23_2018_Fri_160706_13_withoutMF.ota",
+    "imageType": 51,
+    "manufacturerCode": 4489,
+    "sha512": "e1fcdbbd11de351d09104de7e0401db047d9d588c3aa4be2352d3a28fc132fecf49ffccd86a68bd8ae30cf0abe6d152d1171f74ad79a98e0963fd7a8ea2220de",
+    "otaHeaderString": "EBL RGBW\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "B40_DIM_Z3_IM0034_01036400-encrypted_202110060421_withoutMF.ota",
+    "fileVersion": 16999424,
+    "fileSize": 183392,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=52&version=1.3.100.0",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/B40_DIM_Z3_IM0034_01036400-encrypted_202110060421_withoutMF.ota",
+    "imageType": 52,
+    "manufacturerCode": 4489,
+    "sha512": "a9fd8a3c9c41a224a4aa44b623f3cae80c5e7a651449976eb5bdbcfdea5e95ce41d79cb8dd73c27665782d1223ae288cea53df2735320a6adfb638e674f46afc",
+    "otaHeaderString": "EBL RGBW\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ledvance"
+    ],
+    "releaseNotes": "1.Support for turn on/off fading time configurations\r\n2.Support for ZLO commands\r\n3.OTA improvements, rollback protection enabled"
+  },
+  {
+    "fileName": "Gardenpole_RGBW_Z3_IM003B_00103103-encrypted_02_27_2019_Wed_150725_31_withoutMF.ota",
+    "fileVersion": 1061123,
+    "fileSize": 191068,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/Gardenpole_RGBW_Z3_IM003B_00103103-encrypted_02_27_2019_Wed_150725_31_withoutMF.ota",
+    "imageType": 59,
+    "manufacturerCode": 4489,
+    "sha512": "d9efbe7a2c2076b2114ddb843d512c30dee150be7245ca70e44df81bf7133154535230f1d2c011413e6955a55953a508980b6121df94b831b97783f25e200b6b",
+    "otaHeaderString": "EBL RGBW\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "A60_TW_Z3_IM003C_00103101-encrypted_11_20_2018_Tue_103138_93_withoutMF.ota",
+    "fileVersion": 1061121,
+    "fileSize": 183628,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/A60_TW_Z3_IM003C_00103101-encrypted_11_20_2018_Tue_103138_93_withoutMF.ota",
+    "imageType": 60,
+    "manufacturerCode": 4489,
+    "sha512": "8c1492d0bfe3df15c2aff682680ddda821ecc92a2a64276d492551c5faf364bc51a93adcce421bd89ee8fb85fe9f514ad96395535c882d4b9388a5b58149b4c4",
+    "otaHeaderString": "EBL RGBW\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "A60_DIM_Z3_IM003D_01036400-encrypted_202110060418_withoutMF.ota",
+    "fileVersion": 16999424,
+    "fileSize": 183392,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=61&version=1.3.100.0",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/A60_DIM_Z3_IM003D_01036400-encrypted_202110060418_withoutMF.ota",
+    "imageType": 61,
+    "manufacturerCode": 4489,
+    "sha512": "1f61f23360e9e9977623ad3f3486a589c7c7ca151e6de6807151802c0f8b462949a11b4ad59cf35d09ed6977e3d1783d6bba8baa5de574188ba25a4feb1b4248",
+    "otaHeaderString": "EBL RGBW\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ledvance"
+    ],
+    "releaseNotes": "1.Support for turn on/off fading time configurations\r\n2.Support for ZLO commands\r\n3.OTA improvements, rollback protection enabled"
+  },
+  {
+    "fileName": "Gardenpole_Mini_RGBW_Z3_IM0040_00103103-encrypted_02_27_2019_Wed_151557_92_withoutMF.ota",
+    "fileVersion": 1061123,
+    "fileSize": 191068,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/Gardenpole_Mini_RGBW_Z3_IM0040_00103103-encrypted_02_27_2019_Wed_151557_92_withoutMF.ota",
+    "imageType": 64,
+    "manufacturerCode": 4489,
+    "sha512": "e8c7ab6df0371b38906ad5547f30ff33a57b4895ff975debc8560bcf8fa88ffd19a251cef76e20364951c074ddf00b89c704b23f651e58571f732c84d16dd494",
+    "otaHeaderString": "EBL RGBW\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "Undercabinet_TW_Z3_IM0046_00103101-encrypted_11_20_2018_Tue_101550_96_withoutMF.ota",
+    "fileVersion": 1061121,
+    "fileSize": 183636,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/Undercabinet_TW_Z3_IM0046_00103101-encrypted_11_20_2018_Tue_101550_96_withoutMF.ota",
+    "imageType": 70,
+    "manufacturerCode": 4489,
+    "sha512": "ded526b4f6bec5eec748bd4b7a8c4a3e7aceb49d14793c3537b5b16ddf35bfcb974f00a4816adab62aae46a4e3e822626649645fa2154521705891006f5010a6",
+    "otaHeaderString": "EBL RGBW\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "Panel_TW_Z3_IM005A_00103101-encrypted_11_23_2018_Fri_161331_81_withoutMF.ota",
+    "fileVersion": 1061121,
+    "fileSize": 183628,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/Panel_TW_Z3_IM005A_00103101-encrypted_11_23_2018_Fri_161331_81_withoutMF.ota",
+    "imageType": 90,
+    "manufacturerCode": 4489,
+    "sha512": "2e018b75b5566ceb0c7c98788fa21aeb7b3aa8259ae85762a7a68fe7ee9d29733222b870edcbfcc0a34108369f8e21a1f2a91ecb6737dedb5fd7c0b4db4a3818",
+    "otaHeaderString": "EBL RGBW\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "Outdoor_FLEX_RGBW_Z3_IM005C_00103101-encrypted_11_27_2018_Tue_135739_87_withoutMF.ota",
+    "fileVersion": 1061121,
+    "fileSize": 191048,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/Outdoor_FLEX_RGBW_Z3_IM005C_00103101-encrypted_11_27_2018_Tue_135739_87_withoutMF.ota",
+    "imageType": 92,
+    "manufacturerCode": 4489,
+    "sha512": "4b0155dbda42e3037811628dd0f94d35b52ac7b5282fc98b60fa9356f76588c7bf265c80dc0dd005cc5270b1bd84ed2db9bd2fb9b0653f68883f983f4bf0485a",
+    "otaHeaderString": "EBL RGBW\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "PLUG-Plug_Value-0x1189-0x0067-0x02056550-MF_DIS-20201216170637.ota",
+    "fileVersion": 33908048,
+    "fileSize": 190306,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=103&version=2.5.101.80",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/PLUG-Plug_Value-0x1189-0x0067-0x02056550-MF_DIS-20201216170637.ota",
+    "imageType": 103,
+    "manufacturerCode": 4489,
+    "sha512": "36f586dad5dc74d52d5ad252b07d714dc87b25ba13e99669e7a2fa1c85f8fbe5b28b569e890b3b0c19a7a8352121b69a3fc2475548df700e5b15b9920c81d8cf",
+    "otaHeaderString": "Plug_Value\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ledvance"
+    ],
+    "releaseNotes": "- LQI attribute reporting improved\r\n- Turn On/Off fading time configuration supported\r\n- On with time off Command supported"
+  },
+  {
+    "fileName": "DIM-LEDVANCE_DIM-0x1189-0x006F-0x02056550-MF_DIS-20201201111102.ota",
+    "fileVersion": 33908048,
+    "fileSize": 190758,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=111&version=2.5.101.80",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/DIM-LEDVANCE_DIM-0x1189-0x006F-0x02056550-MF_DIS-20201201111102.ota",
+    "imageType": 111,
+    "manufacturerCode": 4489,
+    "sha512": "7ad0ac0c049f11bdcf26329b5e1e0339541a67af9c226655d2bfa24115d6d080471ea285f313b854491fc226dca4561788367d9646e65ac9d384efd300db167f",
+    "otaHeaderString": "LEDVANCE_DIM\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ledvance"
+    ],
+    "releaseNotes": "- LQI attribute reporting improved\r\n- Turn On/Off fading time configuration supported \r\n- On with time off Command supported "
+  },
+  {
+    "fileName": "VIVARES_SENS_00-0x1189-007C-0x11316630-upgradeMe.ota",
+    "fileVersion": 288450096,
+    "fileSize": 238110,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=124&version=17.49.102.48",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/VIVARES_SENS_00-0x1189-007C-0x11316630-upgradeMe.ota",
+    "imageType": 124,
+    "manufacturerCode": 4489,
+    "sha512": "9509f4a2c7afb405b9b7a1493256caac47ad595c328f8ada66b538607859e29883dd3d42a94ba9b84a1a2f7aa4dc42c098dd77fcb9167a761edeca98bf3eef9b",
+    "otaHeaderString": "EBL AcSensor_Y\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ledvance"
+    ],
+    "releaseNotes": "   1. Blink red LED indicator when sensor receives identify command.\r\n   2. Fix network paring bug that related with network link key.\r\n   3. Add Zigbee cluster for Zigbee certification test.\r\n   4. Support GTIN reporting for EMMA."
+  },
+  {
+    "fileName": "DIM_UART-PL_PFM625_04-0x1189-0x007F-0x020E6550-MF_DIS-20220124043947-322....ota",
+    "fileVersion": 34497872,
+    "fileSize": 197778,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=127&version=2.14.101.80",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/DIM_UART-PL_PFM625_04-0x1189-0x007F-0x020E6550-MF_DIS-20220124043947-322....ota",
+    "imageType": 127,
+    "manufacturerCode": 4489,
+    "sha512": "6b2f19b887ec01886a786db3ca4510360347df40bf0172b5f50110321a45407bdbe97b855f69ca5b78b65b9e2996f9b2a784350a9f3cef25d0e87f1e12fb0f91",
+    "otaHeaderString": "PL_PFM625_04\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ledvance"
+    ],
+    "releaseNotes": "1.Power report using cluster 0x0B04, attribute 0x0304\r\n2.Maximum  group number is 12.\r\n3.Reply group capacity with meaningful value.\r\n4.Support ZLO command.\r\n5.GTIN report for EMMA."
+  },
+  {
+    "fileName": "DIM_UART-PL_PFM600UGR_04-0x1189-0x0080-0x020E6550-MF_DIS-20220124044457-....ota",
+    "fileVersion": 34497872,
+    "fileSize": 197778,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=128&version=2.14.101.80",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/DIM_UART-PL_PFM600UGR_04-0x1189-0x0080-0x020E6550-MF_DIS-20220124044457-....ota",
+    "imageType": 128,
+    "manufacturerCode": 4489,
+    "sha512": "533f0bdac8ed8220a87a3688ab05fdd490997e3e647facbea054209154798d5180abd928a2e0bef954b11fd0cebdeecbf438ae6776656959ea284379677c28f9",
+    "otaHeaderString": "PL_PFM600UGR_04\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ledvance"
+    ],
+    "releaseNotes": "1.Power report using cluster 0x0B04, attribute 0x0304\r\n2.Maximum  group number is 12.\r\n3.Reply group capacity with meaningful value.\r\n4.Support ZLO command.\r\n5.GTIN report for EMMA."
+  },
+  {
+    "fileName": "DIM_UART-PL_PFM625UGR_04-0x1189-0x0081-0x020E6550-MF_DIS-20220124045012-....ota",
+    "fileVersion": 34497872,
+    "fileSize": 197778,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=129&version=2.14.101.80",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/DIM_UART-PL_PFM625UGR_04-0x1189-0x0081-0x020E6550-MF_DIS-20220124045012-....ota",
+    "imageType": 129,
+    "manufacturerCode": 4489,
+    "sha512": "651f905729d7ca49e4db9ae567f2926ede695fcde0b1c2cee0320aba70612cbb220013280c03b8182a6334251440e490687bf71301c0dfffe275589454855376",
+    "otaHeaderString": "PL_PFM625UGR_04\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ledvance"
+    ],
+    "releaseNotes": "1.Power report using cluster 0x0B04, attribute 0x0304\r\n2.Maximum  group number is 12.\r\n3.Reply group capacity with meaningful value.\r\n4.Support ZLO command.\r\n5.GTIN report for EMMA."
+  },
+  {
+    "fileName": "DIM_UART-PL_Indivi600_04-0x1189-0x0082-0x020E6550-MF_DIS-20220124045523-....ota",
+    "fileVersion": 34497872,
+    "fileSize": 197778,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=130&version=2.14.101.80",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/DIM_UART-PL_Indivi600_04-0x1189-0x0082-0x020E6550-MF_DIS-20220124045523-....ota",
+    "imageType": 130,
+    "manufacturerCode": 4489,
+    "sha512": "d08e24ba455cafba0753c07ee50ee6a6537dc1435448df8947a766250e70eae0695ace1e428beff9132d6015d71902c27dcc67fae66aeedce465a8517dfff634",
+    "otaHeaderString": "PL_Indivi600_04\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ledvance"
+    ],
+    "releaseNotes": "1.Power report using cluster 0x0B04, attribute 0x0304\r\n2.Maximum  group number is 12.\r\n3.Reply group capacity with meaningful value.\r\n4.Support ZLO command.\r\n5.GTIN report for EMMA."
+  },
+  {
+    "fileName": "DIM_UART-PL_Indivi625_04-0x1189-0x0083-0x020E6550-MF_DIS-20220124050038-....ota",
+    "fileVersion": 34497872,
+    "fileSize": 197778,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=131&version=2.14.101.80",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/DIM_UART-PL_Indivi625_04-0x1189-0x0083-0x020E6550-MF_DIS-20220124050038-....ota",
+    "imageType": 131,
+    "manufacturerCode": 4489,
+    "sha512": "f7ec739a22ffd648c1dc6a50e54ae0dd65c07293576fb97363554de631d050f1a9bd90bc399106eed1a72e041f604bb2d225c2ba50826e263efc078cae0f7fe7",
+    "otaHeaderString": "PL_Indivi625_04\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ledvance"
+    ],
+    "releaseNotes": "1.Power report using cluster 0x0B04, attribute 0x0304\r\n2.Maximum  group number is 12.\r\n3.Reply group capacity with meaningful value.\r\n4.Support ZLO command.\r\n5.GTIN report for EMMA."
+  },
+  {
+    "fileName": "DIM_UART-LN_Indivi1200_04-0x1189-0x0084-0x020E6550-MF_DIS-20220124050546....ota",
+    "fileVersion": 34497872,
+    "fileSize": 197778,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=132&version=2.14.101.80",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/DIM_UART-LN_Indivi1200_04-0x1189-0x0084-0x020E6550-MF_DIS-20220124050546....ota",
+    "imageType": 132,
+    "manufacturerCode": 4489,
+    "sha512": "e056f033e84d672a665aa61edc026e44958b3aac4c4f139dbd2ca333cbf1b336b243c2ad2710472b66583a07acaf18856f28cc2956fc0ea28ef7ef91d58f254f",
+    "otaHeaderString": "LN_Indivi1200_04\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ledvance"
+    ],
+    "releaseNotes": "1.Power report using cluster 0X0B04, attribute 0X0304\r\n2.Maximum  group number is 12.\r\n3.Reply group capacity with meaningful value.\r\n4.Support ZLO command.\r\n5.GTIN report for EMMA."
+  },
+  {
+    "fileName": "DIM_UART-LN_Indivi1500_04-0x1189-0x0085-0x020E6550-MF_DIS-20220124051101....ota",
+    "fileVersion": 34497872,
+    "fileSize": 197778,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=133&version=2.14.101.80",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/DIM_UART-LN_Indivi1500_04-0x1189-0x0085-0x020E6550-MF_DIS-20220124051101....ota",
+    "imageType": 133,
+    "manufacturerCode": 4489,
+    "sha512": "52ec07aba7f8203bece4bb80f2dd39360850557dc143c22c9cccab477fd2c8abc7eef41d2a6c47845a4ad23e2414aa859ed646e0aa2485727a3c7150f62a1834",
+    "otaHeaderString": "LN_Indivi1500_04\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ledvance"
+    ],
+    "releaseNotes": "1.Power report using cluster 0X0B04, attribute 0X0304\r\n2.Maximum  group number is 12.\r\n3.Reply group capacity with meaningful value.\r\n4.Support ZLO command.\r\n5.GTIN report for EMMA."
+  },
+  {
+    "fileName": "DIM_UART-PL_DI1200_04-0x1189-0x0086-0x020E6550-MF_DIS-20220124051610-322....ota",
+    "fileVersion": 34497872,
+    "fileSize": 197778,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=134&version=2.14.101.80",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/DIM_UART-PL_DI1200_04-0x1189-0x0086-0x020E6550-MF_DIS-20220124051610-322....ota",
+    "imageType": 134,
+    "manufacturerCode": 4489,
+    "sha512": "2a0c1f7d13c6974b04eabd8d9e5578e9cddb5e3914868f9184ed65c6a74c0be5a71082eb5898bcd2f0659f39ce880e9e9ffbedbe6eccfcaa7b25d6f6acf15332",
+    "otaHeaderString": "PL_DI1200_04\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ledvance"
+    ],
+    "releaseNotes": "1.Power report using cluster 0x0B04, attribute 0x0304\r\n2.Maximum  group number is 12.\r\n3.Reply group capacity with meaningful value.\r\n4.Support ZLO command.\r\n5.GTIN report for EMMA."
+  },
+  {
+    "fileName": "DIM_UART-DL_PFM155UGR_04-0x1189-0x0087-0x020E6550-MF_DIS-20220124052131-....ota",
+    "fileVersion": 34497872,
+    "fileSize": 197778,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=135&version=2.14.101.80",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/DIM_UART-DL_PFM155UGR_04-0x1189-0x0087-0x020E6550-MF_DIS-20220124052131-....ota",
+    "imageType": 135,
+    "manufacturerCode": 4489,
+    "sha512": "c2ecb73f7cfbd020ff01374c54861ed10058dbdc47051f0a4255f09c7555077f325b5c0aeea89f0fb8fc6c735c6532357e874a8d8de0edfd30fda14dfd7c79a2",
+    "otaHeaderString": "DL_PFM155UGR_04\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ledvance"
+    ],
+    "releaseNotes": "1.Power report using cluster 0X0B04, attribute 0X0304\r\n2.Maximum  group number is 12.\r\n3.Reply group capacity with meaningful value.\r\n4.Support ZLO command.\r\n5.GTIN report for EMMA."
+  },
+  {
+    "fileName": "DIM_UART-DL_PFM195UGR_04-0x1189-0x0088-0x020E6550-MF_DIS-20220124052644-....ota",
+    "fileVersion": 34497872,
+    "fileSize": 197778,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=136&version=2.14.101.80",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/DIM_UART-DL_PFM195UGR_04-0x1189-0x0088-0x020E6550-MF_DIS-20220124052644-....ota",
+    "imageType": 136,
+    "manufacturerCode": 4489,
+    "sha512": "36d44ca2ebb124ea9db87993f057fca0a2f7cffdddbce77ba7d538ff4c21f31cf3cf7f887aef0dcd4c5646cbac22ffe3f3879134c4f08388cf564698ba7f6005",
+    "otaHeaderString": "DL_PFM195UGR_04\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ledvance"
+    ],
+    "releaseNotes": "1.Power report using cluster 0X0B04, attribute 0X0304\r\n2.Maximum  group number is 12.\r\n3.Reply group capacity with meaningful value.\r\n4.Support ZLO command.\r\n5.GTIN report for EMMA."
+  },
+  {
+    "fileName": "DIM_UART-PL_PFM600_04-0x1189-0x0089-0x020E6550-MF_DIS-20220124053204-322....ota",
+    "fileVersion": 34497872,
+    "fileSize": 197778,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=137&version=2.14.101.80",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/DIM_UART-PL_PFM600_04-0x1189-0x0089-0x020E6550-MF_DIS-20220124053204-322....ota",
+    "imageType": 137,
+    "manufacturerCode": 4489,
+    "sha512": "aed018a1f2a84aa7eb8bb3b1792f9a059938371cf97aece5f87815da9d30255b5f65e5ee5a213a941d5703ebd4e644526e8841ca64423a6d342191492ce0593f",
+    "otaHeaderString": "PL_PFM600_04\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ledvance"
+    ],
+    "releaseNotes": "1.Power report using cluster 0x0B04, attribute 0x0304\r\n2.Maximum  group number is 12.\r\n3.Reply group capacity with meaningful value.\r\n4.Support ZLO command.\r\n5.GTIN report for EMMA."
+  },
+  {
+    "fileName": "RGBW-A60_RGBW_Value_II-0x1189-0x008A-0x02146550-MF_DIS-20211203083445-3221010102432.ota",
+    "fileVersion": 34891088,
+    "fileSize": 213058,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=138&version=2.20.101.80",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/RGBW-A60_RGBW_Value_II-0x1189-0x008A-0x02146550-MF_DIS-20211203083445-3221010102432.ota",
+    "imageType": 138,
+    "manufacturerCode": 4489,
+    "sha512": "af4ac5603537d2c151e9d0b7090abf546866e037ac43c3b81844d8ebad2994d0330916450b1032d64b331baedecfa750404f19b0739573a5b4afbe6c7741b677",
+    "otaHeaderString": "A60_RGBW_Value_II\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ledvance"
+    ],
+    "releaseNotes": "1.ZLO gap fix\r\n2.RGBW color calibration\r\n3.Disable touch-link function"
+  },
+  {
+    "fileName": "TW-A60_TW_Value_II-0x1189-0x008B-0x02036550-MF_DIS-20201104114113.ota",
+    "fileVersion": 33776976,
+    "fileSize": 196574,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=139&version=2.3.101.80",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/TW-A60_TW_Value_II-0x1189-0x008B-0x02036550-MF_DIS-20201104114113.ota",
+    "imageType": 139,
+    "manufacturerCode": 4489,
+    "sha512": "9f06268c2dee0c2d2409053a5e70ae90c2254df44c5d535be190dce8cf990ce132e84f509af07d43247b9ae412267993deaaa748b0e120c25b64332c7f7eca10",
+    "otaHeaderString": "A60_TW_Value_II\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ledvance"
+    ],
+    "releaseNotes": "- LQI attribute reporting improved\r\n- Turn On/Off fading time configuration supported \r\n- On with time off Command supported "
+  },
+  {
+    "fileName": "TW-B40_TW_Value-0x1189-0x008C-0x02056550-MF_DIS-20201207183007.ota",
+    "fileVersion": 33908048,
+    "fileSize": 196574,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=140&version=2.5.101.80",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/TW-B40_TW_Value-0x1189-0x008C-0x02056550-MF_DIS-20201207183007.ota",
+    "imageType": 140,
+    "manufacturerCode": 4489,
+    "sha512": "9705e0af2c81c7a6b5cb35be7d9354e3d5cbd2c5af060a423f5bb96d10bd1eaf94674160c7d54ee55ca6df78d60bb6e3901a24ba214ac0ca7dd354d013d61211",
+    "otaHeaderString": "B40_TW_Value\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ledvance"
+    ],
+    "releaseNotes": "- LQI attribute reporting improved\r\n- Turn On/Off fading time configuration supported \r\n- On with time off Command supported"
+  },
+  {
+    "fileName": "TW-P40_TW_Value-0x1189-0x008D-0x02056550-MF_DIS-20201207182023.ota",
+    "fileVersion": 33908048,
+    "fileSize": 196574,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=141&version=2.5.101.80",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/TW-P40_TW_Value-0x1189-0x008D-0x02056550-MF_DIS-20201207182023.ota",
+    "imageType": 141,
+    "manufacturerCode": 4489,
+    "sha512": "845d40e0b2b8d5f9cc6d51e2ac0459c6628eef11bb2754cbb9140cfeeb5a7fb21bddf5bdeedb573ab745cbd793bc8ef77b1fd0ca3ed57a60ed4cdc3e9d6f11ff",
+    "otaHeaderString": "P40_TW_Value\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ledvance"
+    ],
+    "releaseNotes": "- LQI attribute reporting improved\r\n- Turn On/Off fading time configuration supported \r\n- On with time off Command supported"
+  },
+  {
+    "fileName": "RGBW-PAR16_RGBW_Value-0x1189-0x008E-0x02146550-MF_DIS-20211203084009-3221010102432.ota",
+    "fileVersion": 34891088,
+    "fileSize": 213082,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=142&version=2.20.101.80",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/RGBW-PAR16_RGBW_Value-0x1189-0x008E-0x02146550-MF_DIS-20211203084009-3221010102432.ota",
+    "imageType": 142,
+    "manufacturerCode": 4489,
+    "sha512": "4382e5813f4b35734f981d66f9261ba8c9680a32c7d73388a1d82548dda79985dc59223f827af4bf69eb0935d7b4c172c0bbb8cfc655a71da64b37139dae3917",
+    "otaHeaderString": "PAR16_RGBW_Value\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ledvance"
+    ],
+    "releaseNotes": "1.ZLO gap fix\r\n2.RGBW color calibration\r\n3.Disable touch-link function"
+  },
+  {
+    "fileName": "TW-PAR16_TW_Value-0x1189-0x008F-0x02056550-MF_DIS-20201202092118.ota",
+    "fileVersion": 33908048,
+    "fileSize": 196574,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=143&version=2.5.101.80",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/TW-PAR16_TW_Value-0x1189-0x008F-0x02056550-MF_DIS-20201202092118.ota",
+    "imageType": 143,
+    "manufacturerCode": 4489,
+    "sha512": "6d6b34da8a97c6bf75b3eeed62a986722cfdd23a5657dd4391f8c62579b42c8d0928c3bddd6e7467cded5c3849ea041852955c679a8d29c1920a90f52409619e",
+    "otaHeaderString": "PAR16_TW_Value\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ledvance"
+    ],
+    "releaseNotes": "- LQI attribute reporting improved\r\n- Turn On/Off fading time configuration supported \r\n- On with time off Command supported "
+  },
+  {
+    "fileName": "PL_HCL625_01_IM0094_01096400-encrypted_202301071204_withoutMF.OTA",
+    "fileVersion": 17392640,
+    "fileSize": 179712,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=148&version=1.9.100.0",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/PL_HCL625_01_IM0094_01096400-encrypted_202301071204_withoutMF.OTA",
+    "imageType": 148,
+    "manufacturerCode": 4489,
+    "sha512": "43045492a4f9abcc90cd99239a50c024a923942118fd00b33dcbe36da7cbee627170a9e002f4d6589fec82cc01b9a2cf6d8f5ae332e2faa647a5abc58f9a009d",
+    "otaHeaderString": "EBL RGBW\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ledvance"
+    ],
+    "releaseNotes": "\r\n1. Support GP switch.\r\n2. Improve network performance by fine tune router table.\r\n3. Fix leave network issue when update link key fail."
+  },
+  {
+    "fileName": "PL_HCL600_01_IM0095_01096400-encrypted_202301071159_withoutMF.OTA",
+    "fileVersion": 17392640,
+    "fileSize": 179712,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=149&version=1.9.100.0",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/PL_HCL600_01_IM0095_01096400-encrypted_202301071159_withoutMF.OTA",
+    "imageType": 149,
+    "manufacturerCode": 4489,
+    "sha512": "640e4f27245ee51d7f34f94df1a61e71e92be471d1934febbefbfd20d30ab1a91540b091315446eca08040c4afd50a1762cde082b7ec1dc9a156297191f32c0c",
+    "otaHeaderString": "EBL RGBW\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ledvance"
+    ],
+    "releaseNotes": "\r\n1. Support GP switch.\r\n2. Improve network performance by fine tune router table.\r\n3. Fix leave network issue when update link key fail."
+  },
+  {
+    "fileName": "DL_HCL_DN150_01_IM0096_01096400-encrypted_202301071154_withoutMF.OTA",
+    "fileVersion": 17392640,
+    "fileSize": 179648,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=150&version=1.9.100.0",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/DL_HCL_DN150_01_IM0096_01096400-encrypted_202301071154_withoutMF.OTA",
+    "imageType": 150,
+    "manufacturerCode": 4489,
+    "sha512": "3026348b9c2838f8107d3cc20c824fea5fa0f02c9892fbf7ee17c887f2abb83d4914df0fbf0177700bf3879c212ac41ec6e1056dcf32ab3baa3aace93fb20e57",
+    "otaHeaderString": "EBL RGBW\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ledvance"
+    ],
+    "releaseNotes": "\r\n1. Support GP switch.\r\n2. Improve network performance by fine tune router table.\r\n3. Fix leave network issue when update link key fail."
+  },
+  {
+    "fileName": "VIVARES_SENS_01-0x1189-0097-0x11286630-upgradeMe.ota",
+    "fileVersion": 287860272,
+    "fileSize": 239750,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=151&version=17.40.102.48",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/VIVARES_SENS_01-0x1189-0097-0x11286630-upgradeMe.ota",
+    "imageType": 151,
+    "manufacturerCode": 4489,
+    "sha512": "e8265eef2c2118c784f0e2c7ce5e880f3785f7c6a6f3fb17d6b711c421f006d40d2b52dd09aadbfd7ae63b5719bf5611a88254adcd953b9c9cb55f3aa233e78f",
+    "otaHeaderString": "EBL AcSensor_Y\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ledvance"
+    ],
+    "releaseNotes": "   1. Blink red LED indicator when sensor receives identify command.\r\n   2. Fix network paring bug that related with network link key.\r\n   3. Add Zigbee cluster for Zigbee certification test.\r\n   4. Support GTIN reporting for EMMA."
+  },
+  {
+    "fileName": "VIVARES_PBC4_01_0x10102503.ota",
+    "fileVersion": 269493507,
+    "fileSize": 231538,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=152&version=16.16.37.3",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/VIVARES_PBC4_01_0x10102503.ota",
+    "imageType": 152,
+    "manufacturerCode": 4489,
+    "sha512": "ec76c7f56cf8071f81f32ce81ec629ca60d155de7db0890b9ab85e5f0a7a2dbe5aa72b70a52066de998d0c620900788310c63e3e425b16db025c221e449d8cb8",
+    "otaHeaderString": "VIVARES_PBC4_01\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ledvance"
+    ],
+    "releaseNotes": "1.Add reset function by 10s long press prog button\r\n2.Fix network pairig issue. (The issue is that only 6 beacon request sent out and then PBC stop beacon request)\r\n3.Fix the issue that push button configure for 4 channels missing after OTA upgrade.\r\n"
+  },
+  {
+    "fileName": "RGBW-A60S_RGBW-0x1189-0x00A0-0x02146550-MF_DIS-20211203082926-3221010102432.ota",
+    "fileVersion": 34891088,
+    "fileSize": 213154,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=160&version=2.20.101.80",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/RGBW-A60S_RGBW-0x1189-0x00A0-0x02146550-MF_DIS-20211203082926-3221010102432.ota",
+    "imageType": 160,
+    "manufacturerCode": 4489,
+    "sha512": "1f8c83539c60a71fedd28190e71b5354f963b92f1c1706579a3c8ba847d68dfc8412a46ab3bf678da5396c88cc35d2a03c64c8015d686e1553107c38e3eb6117",
+    "otaHeaderString": "A60S_RGBW\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ledvance"
+    ],
+    "releaseNotes": "1.ZLO gap fix\r\n2.RGBW color calibration\r\n3.Disable touch-link function"
+  },
+  {
+    "fileName": "TW-A60S_TW-0x1189-0x00A2-0x02136550-MF_DIS-20211011050926-3221010102432.ota",
+    "fileVersion": 34825552,
+    "fileSize": 198254,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=162&version=2.19.101.80",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/TW-A60S_TW-0x1189-0x00A2-0x02136550-MF_DIS-20211011050926-3221010102432.ota",
+    "imageType": 162,
+    "manufacturerCode": 4489,
+    "sha512": "5d4e31dcffd9dd2724a8a7e355870563f71c7d3b3cefcb1fd169073bb77ca9a66f25b2bea0d2ba5979cfcb0c875904a5024808aaa2f2524afebc6ec2f65807f4",
+    "otaHeaderString": "A60S_TW\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ledvance"
+    ],
+    "releaseNotes": "1． ZLO gap fixed.\r\n2． V02136550 is production firmware."
+  },
+  {
+    "fileName": "TW-B40S_TW-0x1189-0x00A3-0x02136550-MF_DIS-20211011051433-3221010102432.ota",
+    "fileVersion": 34825552,
+    "fileSize": 198246,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=163&version=2.19.101.80",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/TW-B40S_TW-0x1189-0x00A3-0x02136550-MF_DIS-20211011051433-3221010102432.ota",
+    "imageType": 163,
+    "manufacturerCode": 4489,
+    "sha512": "6ffd79073587c1f69da51a09ed3a88d9c4f85fd6530f0f01ab496f2ab5a6ee563b7fe0209e65f0ab198113abc42ef7f4aac79d8f53628eb1afcfe384d9514642",
+    "otaHeaderString": "B40S_TW\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ledvance"
+    ],
+    "releaseNotes": "1． ZLO gap fixed.\r\n2． V02136550 is production firmware."
+  },
+  {
+    "fileName": "TW-P40S_TW-0x1189-0x00A4-0x02136550-MF_DIS-20211011051950-3221010102432.ota",
+    "fileVersion": 34825552,
+    "fileSize": 198246,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=164&version=2.19.101.80",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/TW-P40S_TW-0x1189-0x00A4-0x02136550-MF_DIS-20211011051950-3221010102432.ota",
+    "imageType": 164,
+    "manufacturerCode": 4489,
+    "sha512": "c1b77a74781839a2c98bdd32c7c2d541cd348f79924a0ed07ab8f96c9b9061f987af106c71c6fd2cd659bc244823e3433dd1f7766705bc6ca484f6d3157b5073",
+    "otaHeaderString": "P40S_TW\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ledvance"
+    ],
+    "releaseNotes": "1． ZLO gap fixed.\r\n2． V02136550 is production firmware."
+  },
+  {
+    "fileName": "TW-PAR16S_TW-0x1189-0x00A5-0x02136550-MF_DIS-20211011052510-322101010243....ota",
+    "fileVersion": 34825552,
+    "fileSize": 198246,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=165&version=2.19.101.80",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/TW-PAR16S_TW-0x1189-0x00A5-0x02136550-MF_DIS-20211011052510-322101010243....ota",
+    "imageType": 165,
+    "manufacturerCode": 4489,
+    "sha512": "6add01e835ac970eed7b90fa84b79558ede7622f07ae9386c2afd86ac5aa8f1918702c9ef5e8e79a8b93e2f411ffed900e2d064e9ecf52a2d23918bacfdd8be5",
+    "otaHeaderString": "PAR16S_TW\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ledvance"
+    ],
+    "releaseNotes": "1． ZLO gap fixed.\r\n2． V02136550 is production firmware."
+  },
+  {
+    "fileName": "RGBW-PAR16S_RGBW-0x1189-0x00A6-0x02146550-MF_DIS-20211203084525-3221010102432.ota",
+    "fileVersion": 34891088,
+    "fileSize": 213142,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=166&version=2.20.101.80",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/RGBW-PAR16S_RGBW-0x1189-0x00A6-0x02146550-MF_DIS-20211203084525-3221010102432.ota",
+    "imageType": 166,
+    "manufacturerCode": 4489,
+    "sha512": "e3d1e301391111bec1a318e54cf40e4059d89c05b8f2f5c673818142076008a38826412036a78baa16e85cf74b0f73e11ff4f942d8d084c3ca3f743dc64524b6",
+    "otaHeaderString": "PAR16S_RGBW\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ledvance"
+    ],
+    "releaseNotes": "1.ZLO gap fix\r\n2.RGBW color calibration\r\n3.Disable touch-link function"
+  },
+  {
+    "fileName": "TW_UART_ENERGY-PL_HCL600_02-0x1189-0x00B9-0x02226550-MF_DIS-20220922091954-3221010102432.ota",
+    "fileVersion": 35808592,
+    "fileSize": 208198,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=185&version=2.34.101.80",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/TW_UART_ENERGY-PL_HCL600_02-0x1189-0x00B9-0x02226550-MF_DIS-20220922091954-3221010102432.ota",
+    "imageType": 185,
+    "manufacturerCode": 4489,
+    "sha512": "2ebc8d54d1e55274abdbba8ed227c21b27ee1f69e3a85ebd6e3ac0fb42c1fe1fca94b1b6e7ef044c4263c69898494dcb5ee469db2aa5ed79c1f06519c20d08a8",
+    "otaHeaderString": "PL_HCL600_02\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ledvance"
+    ],
+    "releaseNotes": "1. Enable permanent beacon request before Luminaire finish network paring.\r\n2. Patch for Zigbee3.0 certification.\r\n3. Improve fading function."
+  },
+  {
+    "fileName": "TW_UART_ENERGY-PL_HCL625_02-0x1189-0x00BA-0x02226550-MF_DIS-20220922092614-3221010102432.ota",
+    "fileVersion": 35808592,
+    "fileSize": 208198,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=186&version=2.34.101.80",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/TW_UART_ENERGY-PL_HCL625_02-0x1189-0x00BA-0x02226550-MF_DIS-20220922092614-3221010102432.ota",
+    "imageType": 186,
+    "manufacturerCode": 4489,
+    "sha512": "a3f9c3327251024d8a890aeff57b90711e87c7a0264663bcc60b3a92f0ca6d91babbe2031009d75cb26aceffb317ae0c78ab31059066a2df0567c5809fccc424",
+    "otaHeaderString": "PL_HCL625_02\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ledvance"
+    ],
+    "releaseNotes": "1. Enable permanent beacon request before Luminaire finish network paring.\r\n2. Patch for Zigbee3.0 certification.\r\n3. Improve fading function."
+  },
+  {
+    "fileName": "TW_UART_ENERGY-DL_HCL_ND150_02-0x1189-0x00BB-0x02226550-MF_DIS-20220922093310-3221010102432.ota",
+    "fileVersion": 35808592,
+    "fileSize": 208198,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=187&version=2.34.101.80",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/TW_UART_ENERGY-DL_HCL_ND150_02-0x1189-0x00BB-0x02226550-MF_DIS-20220922093310-3221010102432.ota",
+    "imageType": 187,
+    "manufacturerCode": 4489,
+    "sha512": "940d5c4702ebcda1e0f145b7b79fa1050a808c6972b07f46046b20b5cb47a5df3d157c22b6a1f3a941d1bba08264a60cd17dc5306d78830fcff2a9de0e989905",
+    "otaHeaderString": "DL_HCL_ND150_02\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ledvance"
+    ],
+    "releaseNotes": "1. Enable permanent beacon request before Luminaire finish network paring.\r\n2. Patch to pass Zigbee3.0 certification.\r\n3. Improve fading function."
+  },
+  {
+    "fileName": "TW_UART_ENERGY-PL_HCL300x1200_01-0x1189-0x00BC-0x02226550-MF_DIS-20220922093955-3221010102432.ota",
+    "fileVersion": 35808592,
+    "fileSize": 208174,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=188&version=2.34.101.80",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/TW_UART_ENERGY-PL_HCL300x1200_01-0x1189-0x00BC-0x02226550-MF_DIS-20220922093955-3221010102432.ota",
+    "imageType": 188,
+    "manufacturerCode": 4489,
+    "sha512": "3c4123050fa02013fd41a2786fdd7d309373b4cbaef31761416e96aa67f80227f088e920f5030b22994ecaccb3e60373e8891182af3eb131cdd5af059b6eb4cf",
+    "otaHeaderString": "PL_HCL300x1200_01\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ledvance"
+    ],
+    "releaseNotes": "1. Enable permanent beacon request before Luminaire finish network paring.\r\n2. Patch for Zigbee3.0 certification.\r\n3. Improve fading function."
+  },
+  {
+    "fileName": "PLUG_OUTDOOR_EU_T-0x00C2-0x03203672.OTA",
+    "fileVersion": 52442738,
+    "fileSize": 182480,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=194&version=3.32.54.114",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/PLUG_OUTDOOR_EU_T-0x00C2-0x03203672.OTA",
+    "imageType": 194,
+    "manufacturerCode": 4489,
+    "sha512": "9fe0089e552041016ca6a182ad727fa4b60b6b6732d2ec2fe80bffdf631b7de1a787f8aa2bb5611df7a6ae62be49df27a7afbab61952135a75ab09cc7f221db7",
+    "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ledvance"
+    ],
+    "releaseNotes": "1. Support maximum 30 groups\r\n2. Enable the watchdog\r\n3. Set the Tx power to 9.8dB"
+  },
+  {
+    "fileName": "Zigbee3toDALI_1009655B.ota",
+    "fileVersion": 269051227,
+    "fileSize": 200036,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4364&product=57374&version=16.9.101.91",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/Zigbee3toDALI_1009655B.ota",
+    "imageType": 57374,
+    "manufacturerCode": 4364,
+    "sha512": "ffa864626513dabd3fc88ba11f1e8343b59f5d0afee219d56c7ace8bc6ee107c6d9020470235591304c2281546f5996b61dedaca2325e3bd3f61d426312f1835",
+    "otaHeaderString": "Zigbee3toDALIConverter\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ledvance"
+    ],
+    "releaseNotes": "Optimized broadcast and multicast message forwarding in large networks"
+  },
+  {
+    "fileName": "ZLinky_router_v13.ota",
+    "fileVersion": 13,
+    "fileSize": 245406,
+    "originalUrl": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/download/v13.0/ZLinky_router_v13.ota",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Lixee/ZLinky_router_v13.ota",
+    "imageType": 1,
+    "manufacturerCode": 4151,
+    "sha512": "4d7ab47dcb24e478e0abb35e691222b7691e77ed5a56de3f9c82e8682730649b1a154110b7207d4391c32eae53a869e20878e880fc153dbe046690b870be8486",
+    "otaHeaderString": "OM15081-RTR-JN5189-0000000000000",
+    "manufacturerName": [
+      "Lixee"
+    ],
+    "releaseNotes": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/tag/v13.0"
+  },
+  {
+    "fileName": "ZLinky_router_v13_limited.ota",
+    "fileVersion": 13,
+    "fileSize": 245406,
+    "originalUrl": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/download/v13.0/ZLinky_router_v13_limited.ota",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Lixee/ZLinky_router_v13_limited.ota",
+    "imageType": 2,
+    "manufacturerCode": 4151,
+    "sha512": "dd77b28a3b4664e7ad944fcffaa9eca9f3adb0bbe598e12bdd6eece8070a8cdda6792bed378d173dd5b4532b4cdb88cebda0ef0c432c4c4d6581aa9f2bbba54d",
+    "otaHeaderString": "OM15081-RTR-LIMITED-JN5189-00000",
+    "manufacturerName": [
+      "Lixee"
+    ],
+    "releaseNotes": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/tag/v13.0"
+  },
+  {
+    "fileName": "10F2-7B01-0000-0006-01110206-spo-fmd.ota.zigbee",
+    "fileVersion": 17891846,
+    "fileSize": 256748,
+    "originalUrl": "http://fwu.ubisys.de/smarthome/OTA/release/10F2-7B01-0000-0006-01110206-spo-fmd.ota.zigbee",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ubisys/10F2-7B01-0000-0006-01110206-spo-fmd.ota.zigbee",
+    "imageType": 31489,
+    "manufacturerCode": 4338,
+    "sha512": "2dc6106e357107b6e36eb1fdb78e62108f04c6635608b1e58bad89a203f00be8fa8b44beb9b4a4f29e5278fa4a4c00d606a0ab8415e8b42c064772f2c48eb19f",
+    "otaHeaderString": "ubisys D1\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ubisys"
+    ],
+    "hardwareVersionMin": 0,
+    "hardwareVersionMax": 6
+  },
+  {
+    "fileName": "10F2-7B03-0000-0006-010E0206-spo-fms2.ota.zigbee",
+    "fileVersion": 17695238,
+    "fileSize": 249626,
+    "originalUrl": "http://fwu.ubisys.de/smarthome/OTA/release/10F2-7B03-0000-0006-010E0206-spo-fms2.ota.zigbee",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ubisys/10F2-7B03-0000-0006-010E0206-spo-fms2.ota.zigbee",
+    "imageType": 31491,
+    "manufacturerCode": 4338,
+    "sha512": "6854c83722a924171843254ec3896a3ca6c720f5713cf5d5ca58844e5ecc03978c72e3769874c21d5fa856928d075ba0ce6bf05e5bae7c49454862d5746aad09",
+    "otaHeaderString": "ubisys S2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ubisys"
+    ],
+    "hardwareVersionMin": 0,
+    "hardwareVersionMax": 6
+  },
+  {
+    "fileName": "10F2-7B04-0000-0007-01160206-spo-fmsh.ota.zigbee",
+    "fileVersion": 18219526,
+    "fileSize": 255106,
+    "originalUrl": "http://fwu.ubisys.de/smarthome/OTA/release/10F2-7B04-0000-0007-01160206-spo-fmsh.ota.zigbee",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ubisys/10F2-7B04-0000-0007-01160206-spo-fmsh.ota.zigbee",
+    "imageType": 31492,
+    "manufacturerCode": 4338,
+    "sha512": "8ff58cc1ed046df97e52cb8a40b608913d2827f038286739b1c8a6ba7430c7db7683a643c4a1a403ba428df97371e384fcb5f0eebb8f90d4b9dba1c454141842",
+    "otaHeaderString": "ubisys J1\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ubisys"
+    ],
+    "hardwareVersionMin": 0,
+    "hardwareVersionMax": 7
+  },
+  {
+    "fileName": "10F2-7B05-0000-0004-010F0206-spo-rms.ota.zigbee",
+    "fileVersion": 17760774,
+    "fileSize": 249898,
+    "originalUrl": "http://fwu.ubisys.de/smarthome/OTA/release/10F2-7B05-0000-0004-010F0206-spo-rms.ota.zigbee",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ubisys/10F2-7B05-0000-0004-010F0206-spo-rms.ota.zigbee",
+    "imageType": 31493,
+    "manufacturerCode": 4338,
+    "sha512": "c7ad49a637ccda86cecce4e6f70be476852f04a8932015339c3286d0418d1954d9d840264032ef4dcb9c9f79eb3c9efa7d34eb79662ee8c2d475511350865212",
+    "otaHeaderString": "ubisys S1-R\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ubisys"
+    ],
+    "hardwareVersionMin": 0,
+    "hardwareVersionMax": 4
+  },
+  {
+    "fileName": "10F2-7B06-0000-0004-010E0206-spo-rms2.ota.zigbee",
+    "fileVersion": 17695238,
+    "fileSize": 249626,
+    "originalUrl": "http://fwu.ubisys.de/smarthome/OTA/release/10F2-7B06-0000-0004-010E0206-spo-rms2.ota.zigbee",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ubisys/10F2-7B06-0000-0004-010E0206-spo-rms2.ota.zigbee",
+    "imageType": 31494,
+    "manufacturerCode": 4338,
+    "sha512": "55abe3c7586a905fe89262cf5d89003d3a160f280f5111a3b33c0dcbab824672e4120818e4ef8bedaf43e45046426db3f2919bd603fc4cee761bcc22c8e0563d",
+    "otaHeaderString": "ubisys S2-R\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ubisys"
+    ],
+    "hardwareVersionMin": 0,
+    "hardwareVersionMax": 4
+  },
+  {
+    "fileName": "10F2-7B07-0000-0004-01160206-spo-rmsh.ota.zigbee",
+    "fileVersion": 18219526,
+    "fileSize": 255106,
+    "originalUrl": "http://fwu.ubisys.de/smarthome/OTA/release/10F2-7B07-0000-0004-01160206-spo-rmsh.ota.zigbee",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ubisys/10F2-7B07-0000-0004-01160206-spo-rmsh.ota.zigbee",
+    "imageType": 31495,
+    "manufacturerCode": 4338,
+    "sha512": "5a809965a412a5a12efb8b1d43647c380bd423b186d661a204b0c918bcaeb013812c35ff66b0fa63272f3ea825685dc4f48a2f8806a902b036b519d3663fcf5e",
+    "otaHeaderString": "ubisys J1-R\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ubisys"
+    ],
+    "hardwareVersionMin": 0,
+    "hardwareVersionMax": 4
+  },
+  {
+    "fileName": "10F2-7B08-0000-0004-01110206-spo-rmd.ota.zigbee",
+    "fileVersion": 17891846,
+    "fileSize": 256748,
+    "originalUrl": "http://fwu.ubisys.de/smarthome/OTA/release/10F2-7B08-0000-0004-01110206-spo-rmd.ota.zigbee",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ubisys/10F2-7B08-0000-0004-01110206-spo-rmd.ota.zigbee",
+    "imageType": 31496,
+    "manufacturerCode": 4338,
+    "sha512": "4f6fe672199e13eaae943664b4fd66ff8bd7001ced6066210507e459296f2371102ce4d44dcc2749f1f1393a883907bacb6aaccc5098b222a812769bb00fce7a",
+    "otaHeaderString": "ubisys D1-R\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ubisys"
+    ],
+    "hardwareVersionMin": 0,
+    "hardwareVersionMax": 4
+  },
+  {
+    "fileName": "10F2-7B09-0000-0004-01090206-spo-fmi4.ota.zigbee",
+    "fileVersion": 17367558,
+    "fileSize": 200302,
+    "originalUrl": "http://fwu.ubisys.de/smarthome/OTA/release/10F2-7B09-0000-0004-01090206-spo-fmi4.ota.zigbee",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ubisys/10F2-7B09-0000-0004-01090206-spo-fmi4.ota.zigbee",
+    "imageType": 31497,
+    "manufacturerCode": 4338,
+    "sha512": "71766a73e253d1bd5f1ddceb97891f6f26e099236f31de960628a28f7d59962a3a83c035cde599fceac82055f36bef5d0e16cc45ea915edde9a1aa0ccd047338",
+    "otaHeaderString": "ubisys C4\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ubisys"
+    ],
+    "hardwareVersionMin": 0,
+    "hardwareVersionMax": 4
+  },
+  {
+    "fileName": "10F2-7B0A-0000-0005-010A0206-m7b-r0.ota.zigbee",
+    "fileVersion": 17433094,
+    "fileSize": 193466,
+    "originalUrl": "http://fwu.ubisys.de/smarthome/OTA/release/10F2-7B0A-0000-0005-010A0206-m7b-r0.ota.zigbee",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ubisys/10F2-7B0A-0000-0005-010A0206-m7b-r0.ota.zigbee",
+    "imageType": 31498,
+    "manufacturerCode": 4338,
+    "sha512": "90e474278dd4005a7f5e28cf8ad8269db8c8ba635a93beef930e1377644fcc547ae81385fc286dd988d8af267d0c4d3eec02726acd35fc26e8ea66dc2e6ca9bc",
+    "otaHeaderString": "ubisys R0\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ubisys"
+    ],
+    "hardwareVersionMin": 0,
+    "hardwareVersionMax": 5
+  },
+  {
+    "fileName": "10F2-7B0B-0000-0001-01000206-m7b-h10.ota.zigbee",
+    "fileVersion": 16777734,
+    "fileSize": 245780,
+    "originalUrl": "http://fwu.ubisys.de/smarthome/OTA/release/10F2-7B0B-0000-0001-01000206-m7b-h10.ota.zigbee",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ubisys/10F2-7B0B-0000-0001-01000206-m7b-h10.ota.zigbee",
+    "imageType": 31499,
+    "manufacturerCode": 4338,
+    "sha512": "22e7a692fdc34efd1dafb81964a6c6a45b72522a6fdd1e7caf3d4668a2fc78c5fc4ede66a30b75033511af78659568ff13b7b224c5817dd8da47ce10ad6dbead",
+    "otaHeaderString": "ubisys H10\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ubisys"
+    ],
+    "hardwareVersionMin": 0,
+    "hardwareVersionMax": 1
+  },
+  {
+    "fileName": "10F2-7B0D-0000-0001-01400422-m7b-h1.ota.zigbee",
+    "fileVersion": 20972578,
+    "fileSize": 179454,
+    "originalUrl": "http://fwu.ubisys.de/smarthome/OTA/release/10F2-7B0D-0000-0001-01400422-m7b-h1.ota.zigbee",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ubisys/10F2-7B0D-0000-0001-01400422-m7b-h1.ota.zigbee",
+    "imageType": 31501,
+    "manufacturerCode": 4338,
+    "sha512": "36e90e275faa9ec8a48e3572664a74badf3631ede4bcce01d4874da09e7fbf0c1c5f3945e201e503ec5a89ea5fb31b662409d4eec92b3ad00d8d25dc564858c5",
+    "otaHeaderString": "ubisys H1 1.4.0\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ubisys"
+    ],
+    "hardwareVersionMin": 0,
+    "hardwareVersionMax": 1
+  },
+  {
+    "fileName": "10F2-7B11-0000-0001-00920210-m7b-ld6.ota.zigbee",
+    "fileVersion": 9568784,
+    "fileSize": 290197,
+    "originalUrl": "http://fwu.ubisys.de/smarthome/OTA/release/10F2-7B11-0000-0001-00920210-m7b-ld6.ota.zigbee",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ubisys/10F2-7B11-0000-0001-00920210-m7b-ld6.ota.zigbee",
+    "imageType": 31505,
+    "manufacturerCode": 4338,
+    "sha512": "3fd077e6ec1cd05d4b49215b0eb7a214b430774c77125e604c682fcba750c46d660d8a7536ca096e958c048b9458fa260380c0f16fd56eff72769649ab60f3f7",
+    "otaHeaderString": "ubisys LD6 0.9.2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ubisys"
+    ],
+    "hardwareVersionMin": 0,
+    "hardwareVersionMax": 1
+  },
+  {
+    "fileName": "10F2-7B21-0000-0006-0193020E-spo-fmd.ota.zigbee",
+    "fileVersion": 26411534,
+    "fileSize": 131070,
+    "originalUrl": "http://fwu.ubisys.de/smarthome/OTA/release/10F2-7B21-0000-0006-0193020E-spo-fmd.ota.zigbee",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ubisys/10F2-7B21-0000-0006-0193020E-spo-fmd.ota.zigbee",
+    "imageType": 31521,
+    "manufacturerCode": 4338,
+    "sha512": "ccdb5713ed110470f3eea3ef63620530cdd074d2cee97cf38f583bfb4b2a21a81fc1c9e86b5bfde9aba5dd1df68eca1e746d14944d9a1a0a1479758576b9965c",
+    "otaHeaderString": "ubisys D1 1.9.3\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ubisys"
+    ],
+    "hardwareVersionMin": 0,
+    "hardwareVersionMax": 6
+  },
+  {
+    "fileName": "10F2-7B28-0000-0004-0194020E-spo-rmd.ota.zigbee",
+    "fileVersion": 26477070,
+    "fileSize": 131326,
+    "originalUrl": "http://fwu.ubisys.de/smarthome/OTA/release/10F2-7B28-0000-0004-0194020E-spo-rmd.ota.zigbee",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ubisys/10F2-7B28-0000-0004-0194020E-spo-rmd.ota.zigbee",
+    "imageType": 31528,
+    "manufacturerCode": 4338,
+    "sha512": "a868a68d190960b56392b9a1b4196cc49df476aaae7fa21d0743061759a7b59fb2b4f54c505350bc7939c225e63ca5ef1b7110fcda8c235225c8520e8bf81a54",
+    "otaHeaderString": "ubisys D1-R 1.9.4\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ubisys"
+    ],
+    "hardwareVersionMin": 0,
+    "hardwareVersionMax": 4
+  },
+  {
+    "fileName": "10F2-7B29-0000-0004-01930221-spo-fmi4.ota.zigbee",
+    "fileVersion": 26411553,
+    "fileSize": 116478,
+    "originalUrl": "http://fwu.ubisys.de/smarthome/OTA/release/10F2-7B29-0000-0004-01930221-spo-fmi4.ota.zigbee",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ubisys/10F2-7B29-0000-0004-01930221-spo-fmi4.ota.zigbee",
+    "imageType": 31529,
+    "manufacturerCode": 4338,
+    "sha512": "9d0b1acee300b3200c2f9efe50ad72c9d864522aebf978b7ba79a0098c089f5f2cb9fd312dda6a8b515d7797ab0c37c2b176bedaf78b39c4e941e445406f25b8",
+    "otaHeaderString": "ubisys C4 1.9.3\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ubisys"
+    ],
+    "hardwareVersionMin": 0,
+    "hardwareVersionMax": 4
+  },
+  {
+    "fileName": "10F2-7B2A-0000-0005-02000230-m7b-r0.ota.zigbee",
+    "fileVersion": 33554992,
+    "fileSize": 113150,
+    "originalUrl": "http://fwu.ubisys.de/smarthome/OTA/release/10F2-7B2A-0000-0005-02000230-m7b-r0.ota.zigbee",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ubisys/10F2-7B2A-0000-0005-02000230-m7b-r0.ota.zigbee",
+    "imageType": 31530,
+    "manufacturerCode": 4338,
+    "sha512": "42fd3d21624d0283b5b167e74804c0481aa813edae9ea3e0ec8f1bb96479b4d51bd1b0fa25f5d617e4d611b29a3447b0402f3fb61a3a66044ca8fa008667f0be",
+    "otaHeaderString": "ubisys R0 2.0.0#e976528\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ubisys"
+    ],
+    "hardwareVersionMin": 0,
+    "hardwareVersionMax": 5
+  },
+  {
+    "fileName": "10F2-7B2C-0000-0001-01400431-ld6.ota.zigbee",
+    "fileVersion": 20972593,
+    "fileSize": 238078,
+    "originalUrl": "http://fwu.ubisys.de/smarthome/OTA/release/10F2-7B2C-0000-0001-01400431-ld6.ota.zigbee",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ubisys/10F2-7B2C-0000-0001-01400431-ld6.ota.zigbee",
+    "imageType": 31532,
+    "manufacturerCode": 4338,
+    "sha512": "1cb16faf53f5d33f4a83a548b33e56a30fb208d5cbf696d31c003f7b5a40da0de7a3ee7235189478eec60885328ee79b2de0341725c6522da59f047273fb40f2",
+    "otaHeaderString": "ubisys LD6 1.4.0\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ubisys"
+    ],
+    "hardwareVersionMin": 0,
+    "hardwareVersionMax": 1
+  },
+  {
+    "fileName": "10F2-7B2D-0000-0001-01520430-m7b-h1.ota.zigbee",
+    "fileVersion": 22152240,
+    "fileSize": 180478,
+    "originalUrl": "http://fwu.ubisys.de/smarthome/OTA/release/10F2-7B2D-0000-0001-01520430-m7b-h1.ota.zigbee",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ubisys/10F2-7B2D-0000-0001-01520430-m7b-h1.ota.zigbee",
+    "imageType": 31533,
+    "manufacturerCode": 4338,
+    "sha512": "9dfbcdbf4cbb323fc8293fb3ae38fc9bc5da2e4f94344f5aa1f9e734a4a58816c4cb3041c1f044783aee3d6c9c3cd87b1549f24aac49834eb748235df81d2fa2",
+    "otaHeaderString": "ubisys H1 1.5.2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ubisys"
+    ],
+    "hardwareVersionMin": 0,
+    "hardwareVersionMax": 1
+  },
+  {
+    "fileName": "10F2-7B31-0000-0006-02400432-spo-fmd.ota.zigbee",
+    "fileVersion": 37749810,
+    "fileSize": 152318,
+    "originalUrl": "http://fwu.ubisys.de/smarthome/OTA/release/10F2-7B31-0000-0006-02400432-spo-fmd.ota.zigbee",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ubisys/10F2-7B31-0000-0006-02400432-spo-fmd.ota.zigbee",
+    "imageType": 31537,
+    "manufacturerCode": 4338,
+    "sha512": "e94b9ef507740684070decb000f36dadaf90becbf235b1fad67af85cc6401b956f5f76dd67351498a3d228ae696c49a863c4abe3269998b4d398347f8721ac77",
+    "otaHeaderString": "ubisys D1 2.4.0\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ubisys"
+    ],
+    "hardwareVersionMin": 0,
+    "hardwareVersionMax": 6
+  },
+  {
+    "fileName": "10F2-7B33-0000-0006-02400432-spo-fms2.ota.zigbee",
+    "fileVersion": 37749810,
+    "fileSize": 149246,
+    "originalUrl": "http://fwu.ubisys.de/smarthome/OTA/release/10F2-7B33-0000-0006-02400432-spo-fms2.ota.zigbee",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ubisys/10F2-7B33-0000-0006-02400432-spo-fms2.ota.zigbee",
+    "imageType": 31539,
+    "manufacturerCode": 4338,
+    "sha512": "94bdae3e03c300e184c904ace1079f80e5afbb0cad687afee0e7ed09c7f55298cf7400db5eb649cd8ca4b46e6d40619fa7add45d269239e2934453a67e10fb56",
+    "otaHeaderString": "ubisys S2 2.4.0\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ubisys"
+    ],
+    "hardwareVersionMin": 0,
+    "hardwareVersionMax": 6
+  },
+  {
+    "fileName": "10F2-7B34-0000-0007-02400432-spo-fmsh.ota.zigbee",
+    "fileVersion": 37749810,
+    "fileSize": 151294,
+    "originalUrl": "http://fwu.ubisys.de/smarthome/OTA/release/10F2-7B34-0000-0007-02400432-spo-fmsh.ota.zigbee",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ubisys/10F2-7B34-0000-0007-02400432-spo-fmsh.ota.zigbee",
+    "imageType": 31540,
+    "manufacturerCode": 4338,
+    "sha512": "1ca2dafe6af27c5e6327e1b213c41b004710c19ffb31aee361ea1341a18d475f6d74a9abdfade4e7f6117966b326b28e2efbcc9bad8e0c9881d8d6d54a37aec2",
+    "otaHeaderString": "ubisys J1 2.4.0\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ubisys"
+    ],
+    "hardwareVersionMin": 0,
+    "hardwareVersionMax": 7
+  },
+  {
+    "fileName": "10F2-7B35-0000-0004-02400432-spo-rms.ota.zigbee",
+    "fileVersion": 37749810,
+    "fileSize": 149246,
+    "originalUrl": "http://fwu.ubisys.de/smarthome/OTA/release/10F2-7B35-0000-0004-02400432-spo-rms.ota.zigbee",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ubisys/10F2-7B35-0000-0004-02400432-spo-rms.ota.zigbee",
+    "imageType": 31541,
+    "manufacturerCode": 4338,
+    "sha512": "25502b66ba8b985195019d8e97a2cb7fdc766c85b16d274d67e22498675e27705555cbdb7735fe8dcd8816926af7bd63904aa2f4d8cf81e726af0de803bf8155",
+    "otaHeaderString": "ubisys S1-R 2.4.0\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ubisys"
+    ],
+    "hardwareVersionMin": 0,
+    "hardwareVersionMax": 4
+  },
+  {
+    "fileName": "10F2-7B36-0000-0004-02400432-spo-rms2.ota.zigbee",
+    "fileVersion": 37749810,
+    "fileSize": 149246,
+    "originalUrl": "http://fwu.ubisys.de/smarthome/OTA/release/10F2-7B36-0000-0004-02400432-spo-rms2.ota.zigbee",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ubisys/10F2-7B36-0000-0004-02400432-spo-rms2.ota.zigbee",
+    "imageType": 31542,
+    "manufacturerCode": 4338,
+    "sha512": "c55cd3e9abfce3a69495bfb8253342eb99eac8c9f10b1406dbcfc50e24a80a57875c92592dafb5b936e97e26bb313b3423831d6e0a7f4acab537caa550e0b40e",
+    "otaHeaderString": "ubisys S2-R 2.4.0\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ubisys"
+    ],
+    "hardwareVersionMin": 0,
+    "hardwareVersionMax": 4
+  },
+  {
+    "fileName": "10F2-7B37-0000-0004-02400432-spo-rmsh.ota.zigbee",
+    "fileVersion": 37749810,
+    "fileSize": 151294,
+    "originalUrl": "http://fwu.ubisys.de/smarthome/OTA/release/10F2-7B37-0000-0004-02400432-spo-rmsh.ota.zigbee",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ubisys/10F2-7B37-0000-0004-02400432-spo-rmsh.ota.zigbee",
+    "imageType": 31543,
+    "manufacturerCode": 4338,
+    "sha512": "72e7b22d8005e2c3413e66e3b6ac64e4be6c74b770005c1339dddd2ecc8e56cf7609ad1bfaaaa67013d3baccc21e1f8bead77155f778ba8041475f334e25c0aa",
+    "otaHeaderString": "ubisys J1-R 2.4.0\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ubisys"
+    ],
+    "hardwareVersionMin": 0,
+    "hardwareVersionMax": 4
+  },
+  {
+    "fileName": "10F2-7B38-0000-0004-02400432-spo-rmd.ota.zigbee",
+    "fileVersion": 37749810,
+    "fileSize": 152318,
+    "originalUrl": "http://fwu.ubisys.de/smarthome/OTA/release/10F2-7B38-0000-0004-02400432-spo-rmd.ota.zigbee",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ubisys/10F2-7B38-0000-0004-02400432-spo-rmd.ota.zigbee",
+    "imageType": 31544,
+    "manufacturerCode": 4338,
+    "sha512": "2675460d00aeb9ff3d0a070ff854251bd2cb34f4124b628a900b005915a8a068453f75e416347bc80ffe1af2b4b6b12ed48d0a6c9756d5baeee22ea1d689204f",
+    "otaHeaderString": "ubisys D1-R 2.4.0\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ubisys"
+    ],
+    "hardwareVersionMin": 0,
+    "hardwareVersionMax": 4
+  },
+  {
+    "fileName": "10F2-7B39-0000-0004-02400432-spo-fmi4.ota.zigbee",
+    "fileVersion": 37749810,
+    "fileSize": 128510,
+    "originalUrl": "http://fwu.ubisys.de/smarthome/OTA/release/10F2-7B39-0000-0004-02400432-spo-fmi4.ota.zigbee",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ubisys/10F2-7B39-0000-0004-02400432-spo-fmi4.ota.zigbee",
+    "imageType": 31545,
+    "manufacturerCode": 4338,
+    "sha512": "9ca3ac1682ae46979b2465ad517424270ba2569012f72a6627c852410d5225e9a6dd2e5df763761ebd597c48292d207594c5b248930f87ac925a5bdbe313fced",
+    "otaHeaderString": "ubisys C4 2.4.0\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ubisys"
+    ],
+    "hardwareVersionMin": 0,
+    "hardwareVersionMax": 4
+  },
+  {
+    "fileName": "10F2-7B3A-0000-0005-02400432-m7b-r0.ota.zigbee",
+    "fileVersion": 37749810,
+    "fileSize": 123646,
+    "originalUrl": "http://fwu.ubisys.de/smarthome/OTA/release/10F2-7B3A-0000-0005-02400432-m7b-r0.ota.zigbee",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ubisys/10F2-7B3A-0000-0005-02400432-m7b-r0.ota.zigbee",
+    "imageType": 31546,
+    "manufacturerCode": 4338,
+    "sha512": "fba15fad16550cc8ef7b8191a9563b0eef7367769aaf53cb49e7f72ebb656dfe7a4648012e7d7b7994156a96263c50321b9e225aeaac207f85c495daac85c8e1",
+    "otaHeaderString": "ubisys R0 2.4.0\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ubisys"
+    ],
+    "hardwareVersionMin": 0,
+    "hardwareVersionMax": 5
+  },
+  {
+    "fileName": "10F2-7B3B-0000-0001-02400432-m7b-h10.ota.zigbee",
+    "fileVersion": 37749810,
+    "fileSize": 157950,
+    "originalUrl": "http://fwu.ubisys.de/smarthome/OTA/release/10F2-7B3B-0000-0001-02400432-m7b-h10.ota.zigbee",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ubisys/10F2-7B3B-0000-0001-02400432-m7b-h10.ota.zigbee",
+    "imageType": 31547,
+    "manufacturerCode": 4338,
+    "sha512": "1b4e03ea74c0835cd1a60ccfc8132e32a2086047db12852e6cfaf46a31e90ac98dddc993c58fdf2407808b39b8a36a56e24d863c06cf84b82b1cccd7376b7c90",
+    "otaHeaderString": "ubisys H10 2.4.0\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ubisys"
+    ],
+    "hardwareVersionMin": 0,
+    "hardwareVersionMax": 1
+  },
+  {
+    "fileName": "10F2-7B45-0100-0100-02400430-ubisys-s1r-qpg6105.ota.zigbee",
+    "fileVersion": 37749808,
+    "fileSize": 233214,
+    "originalUrl": "http://fwu.ubisys.de/smarthome/OTA/release/10F2-7B45-0100-0100-02400430-ubisys-s1r-qpg6105.ota.zigbee",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ubisys/10F2-7B45-0100-0100-02400430-ubisys-s1r-qpg6105.ota.zigbee",
+    "imageType": 31557,
+    "manufacturerCode": 4338,
+    "sha512": "3e6db28ad868352001057d37274d794878cd19c3f705c12cb6daecec9627a98d905c2738b187138b42f453b42d5090b9ad7c957d04e1a35161f7f5de00e63ae8",
+    "otaHeaderString": "ubisys S1-R 2.4.0\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ubisys"
+    ],
+    "hardwareVersionMin": 256,
+    "hardwareVersionMax": 256
+  },
+  {
+    "fileName": "10F2-7B49-0100-0100-02400430-ubisys-c4-qpg6105.ota.zigbee",
+    "fileVersion": 37749808,
+    "fileSize": 227582,
+    "originalUrl": "http://fwu.ubisys.de/smarthome/OTA/release/10F2-7B49-0100-0100-02400430-ubisys-c4-qpg6105.ota.zigbee",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ubisys/10F2-7B49-0100-0100-02400430-ubisys-c4-qpg6105.ota.zigbee",
+    "imageType": 31561,
+    "manufacturerCode": 4338,
+    "sha512": "0501b1d749df0011493b3d6a7c38706ef17a5b686e475eec6ea652329343640394e9219d7e00a1c6acd87fe0e1b5606b6a1ec9768444f2a7897df39df9faf3ca",
+    "otaHeaderString": "ubisys C4 2.4.0\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ubisys"
+    ],
+    "hardwareVersionMin": 256,
+    "hardwareVersionMax": 256
+  },
+  {
+    "fileName": "10F2-7B4A-0100-0100-02400430-ubisys-r0-qpg6105.ota.zigbee",
+    "fileVersion": 37749808,
+    "fileSize": 223486,
+    "originalUrl": "http://fwu.ubisys.de/smarthome/OTA/release/10F2-7B4A-0100-0100-02400430-ubisys-r0-qpg6105.ota.zigbee",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ubisys/10F2-7B4A-0100-0100-02400430-ubisys-r0-qpg6105.ota.zigbee",
+    "imageType": 31562,
+    "manufacturerCode": 4338,
+    "sha512": "442097a677161efd79311669d13b4d0dbd4266f5b0af3c0b9c6900c9b4c47e927d70e579386cda64af160956453f34a2a043d148a0eaebb8b56c403ccb1d75e9",
+    "otaHeaderString": "ubisys R0 2.4.0\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ubisys"
+    ],
+    "hardwareVersionMin": 256,
+    "hardwareVersionMax": 256
+  },
+  {
+    "fileName": "ZigUSB_C6.ota",
+    "fileVersion": 320,
+    "fileSize": 696046,
+    "originalUrl": "https://github.com/xyzroe/ZigUSB_C6/releases/download/320/ZigUSB_C6.ota",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Xyzroe/ZigUSB_C6.ota",
+    "imageType": 4113,
+    "manufacturerCode": 13379,
+    "sha512": "c27300cc7bda403e82a2c320833e6a89072cbd0b24b8d9b10f714ac723334123a6e762781fc6df7f798acf49f28cfd42ddf1288b09486eed7d50aae67a288112",
+    "otaHeaderString": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Xyzroe"
+    ],
+    "releaseNotes": "https://github.com/xyzroe/ZigUSB_C6/releases/tag/320"
   }
 ]
