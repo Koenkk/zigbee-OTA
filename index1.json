@@ -70,5 +70,146 @@
     "otaHeaderString": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_0105/6b0b2e69-652d-4941-9da9-a4e7ff0fc70c/WhiteLamp-Atmel-Target_0105_5.130.1.30000_0012.sbl-ota",
     "maxFileVersion": 1107326255
+  },
+  {
+    "fileName": "10039874-1.0-TRADFRI-motion-sensor-2-2.0.022.ota.ota.signed",
+    "fileVersion": 537011747,
+    "fileSize": 186814,
+    "originalUrl": "http://fw.ota.homesmart.ikea.net/global/GW1.0/01.21.031/bin/10039874-1.0-TRADFRI-motion-sensor-2-2.0.022.ota.ota.signed",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/IKEA/10039874-1.0-TRADFRI-motion-sensor-2-2.0.022.ota.ota.signed",
+    "imageType": 4552,
+    "manufacturerCode": 4476,
+    "sha512": "a0e82ae8bab520f7528c01479523d08ebd980fad823040e00ab418a37143dea94a868728b2d428369bdf363eca934ce3345bab752d680167443f0c30f4e3bed8",
+    "otaHeaderString": "EBL tradfri_motion_sensor_2\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "IKEA"
+    ],
+    "releaseNotes": "https://ww8.ikea.com/ikeahomesmart/releasenotes/releasenotes.html"
+  },
+  {
+    "fileName": "10115366-zingo_lds_bulb_jetstrom_ws-0x1105-2.4.5-prod.ota.ota.signed",
+    "fileVersion": 33816581,
+    "fileSize": 249490,
+    "originalUrl": "http://fw.ota.homesmart.ikea.net/global/GW1.0/01.21.031/bin/10115366-zingo_lds_bulb_jetstrom_ws-0x1105-2.4.5-prod.ota.ota.signed",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/IKEA/10115366-zingo_lds_bulb_jetstrom_ws-0x1105-2.4.5-prod.ota.ota.signed",
+    "imageType": 4357,
+    "manufacturerCode": 4476,
+    "sha512": "2d903d8b28202b9e4ab32c9cf63b9fd25966edc3a21baea45a62854035c021081a55758ad85958fb8830478177af6e2d14d9fe0e296721b42d7cb44c2db84fb5",
+    "otaHeaderString": "GBL zingo_lds_bulb_jetstrom_ws\u0000\u0000",
+    "manufacturerName": [
+      "IKEA"
+    ],
+    "releaseNotes": "https://ww8.ikea.com/ikeahomesmart/releasenotes/releasenotes.html"
+  },
+  {
+    "fileName": "VZM31-SN_2.15-Production.ota",
+    "fileVersion": 16908815,
+    "fileSize": 306782,
+    "originalUrl": "https://github.com/InovelliUSA/Firmware/raw/main/Blue-Series/Zigbee/VZM31-SN-2-1-Switch/Production/2.15/VZM31-SN_2.15-Production.ota",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Inovelli/VZM31-SN_2.15-Production.ota",
+    "imageType": 257,
+    "manufacturerCode": 4655,
+    "sha512": "0c0973c9ad5f627b9cd1cfea8c6d4b0e57958378b4ca21b97d9552fa0183eecbb3c3971cf4f965e39c8b974aa3e91653c9ef7a55abe4ae478a67dccc6417b26a",
+    "otaHeaderString": "EBL VM_SWITCH\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Inovelli"
+    ]
+  },
+  {
+    "fileName": "VZM35-SN_1.04-Production.ota",
+    "fileVersion": 33685764,
+    "fileSize": 227438,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Inovelli/VZM35-SN_1.04-Production.ota",
+    "imageType": 513,
+    "manufacturerCode": 4655,
+    "sha512": "36e6393affb29bcfa06a199df5fb1d2c5d02a23545a0a81dd6975d6f5e3f205a737259c314f1d21f025d5d964fbbcb2f54d4b04b50602d3bec79bab477b8ea74",
+    "otaHeaderString": "VZM35_MG24\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "PAR16_DIM_Z3_IM0031_01036400-encrypted_202110060424_withoutMF.ota",
+    "fileVersion": 16999424,
+    "fileSize": 183392,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=49&version=1.3.100.0",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/PAR16_DIM_Z3_IM0031_01036400-encrypted_202110060424_withoutMF.ota",
+    "imageType": 49,
+    "manufacturerCode": 4489,
+    "sha512": "4aefb57323b9ab099797b8e502514d817500c34f86e0d55f6c5bfee853acae66bbaab8987c169e7b734df81ea321d15c01d970dc5dfbabed2698d14bd7e6bdda",
+    "otaHeaderString": "EBL RGBW\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Ledvance"
+    ],
+    "releaseNotes": "1.Support for turn on/off fading time configurations\r\n2.Support for ZLO commands\r\n3.OTA improvements, rollback protection enabled"
+  },
+  {
+    "fileName": "B40_DIM_Z3_IM0034_00103101-encrypted_11_26_2018_Mon_174522_20_withoutMF.ota",
+    "fileVersion": 1061121,
+    "fileSize": 182876,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/B40_DIM_Z3_IM0034_00103101-encrypted_11_26_2018_Mon_174522_20_withoutMF.ota",
+    "imageType": 52,
+    "manufacturerCode": 4489,
+    "sha512": "46b3cd08c96ca1bff0c92f0e067425e8bc1fc24bb0dbca317db94159ed5f556c798cde5d6785ae4bc71774e17c3da2f79d62d76bdecd058cbc1d35853ed06d92",
+    "otaHeaderString": "EBL RGBW\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "A60_DIM_Z3_IM003D_00103101-encrypted_11_20_2018_Tue_122925_01_withoutMF.ota",
+    "fileVersion": 1061121,
+    "fileSize": 182876,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/A60_DIM_Z3_IM003D_00103101-encrypted_11_20_2018_Tue_122925_01_withoutMF.ota",
+    "imageType": 61,
+    "manufacturerCode": 4489,
+    "sha512": "48229f0518872c62c0f785aa7c4503d8af52cb5770cce5bef17fed8814fdf7de68e72acd19069c67b31ca76ee5dedecc993eb4c5a5acb0630cb9eea847d10c82",
+    "otaHeaderString": "EBL RGBW\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "Zigbee3toDALI_1008655B.ota",
+    "fileVersion": 268985691,
+    "fileSize": 200036,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Ledvance/Zigbee3toDALI_1008655B.ota",
+    "imageType": 57374,
+    "manufacturerCode": 4364,
+    "sha512": "42767fd8ade66a47263d2ba1916ee07e002fb1dea3968841922957fd35341fe0a3b7831891796a1dfd1ce3c9b4686984ab9acd9a4e77eef9299facbc0ca51500",
+    "otaHeaderString": "Zigbee3toDALIConverter\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "SAU2DH1_20181207.ota",
+    "fileVersion": 538448391,
+    "fileSize": 248914,
+    "originalUrl": "http://eu.salusconnect.io/download/firmware/13a8069f-205c-4bf1-8212-3a442809b4ff/HTS10ZB_20181207.tar.gz",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Salus/SAU2DH1_20181207.ota",
+    "imageType": 60,
+    "manufacturerCode": 4216,
+    "sha512": "621d0f9d2aa34e35676cc797685597e82470c81fb3ac61599cf1a37f9c3c0da1e6f0162f956bd28d535bc13c225472f4bf252ee3c6a1cef15bd0e126ff995156",
+    "otaHeaderString": "EBL ZigBeeHabiTemperatureSensor\u0000",
+    "manufacturerName": [
+      "Salus"
+    ]
+  },
+  {
+    "fileName": "SC900ZB_16121300.ota",
+    "fileVersion": 370283264,
+    "fileSize": 179816,
+    "originalUrl": "http://eu.salusconnect.io/download/firmware/720d5aa1-d1d6-4aee-ace9-23cb1cc9ab48/SC900ZB_16121300.tar.gz",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Salus/SC900ZB_16121300.ota",
+    "imageType": 43,
+    "manufacturerCode": 4216,
+    "sha512": "114f3bec9699a383792c377eca7da170f7d801534c7aa2f62d1ada33eb08442facdd9d64db1c39d5e888e4279bd7f88b485595e0188260db3d963ad416e5997c",
+    "otaHeaderString": "SAU2AW1_16121300 ota image file\u0000",
+    "manufacturerName": [
+      "Salus"
+    ]
+  },
+  {
+    "fileName": "SAU2AG1_160425.ota",
+    "fileVersion": 538313765,
+    "fileSize": 162306,
+    "originalUrl": "http://eu.salusconnect.io/download/firmware/HzqHdgNTusHTef91cNxZqj4_L8QRS7yOHC7Dbj7iTU8/sau2ag1Coordinator_20160425.tar.gz",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Salus/SAU2AG1_160425.ota",
+    "imageType": 21,
+    "manufacturerCode": 4216,
+    "sha512": "9ab51e81a79b98500735e255e01e033da46600ca36bcf956df95afd3ca9e27b7eff7cb0760da49c1fc6c5455a58b8c54a407f19215ebefff2e8a40d9353b3749",
+    "otaHeaderString": "SAU2AG1\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Salus"
+    ]
   }
 ]
