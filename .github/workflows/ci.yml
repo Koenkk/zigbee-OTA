@@ -2,7 +2,7 @@ name: CI
 on:
     pull_request:
         types: [opened, synchronize]
-        branches: [main]
+        branches: [master]
         paths: ['src/**', 'tests/**']
     workflow_dispatch:
 

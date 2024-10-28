@@ -2,7 +2,7 @@ name: Update OTA PR
 on:
     pull_request:
         types: [opened, synchronize, reopened, edited, closed]
-        branches: [main]
+        branches: [master]
         paths: ['images/**']
 
 permissions:

@@ -1,7 +1,7 @@
 name: Concatenate CA certificates
 on:
     push:
-        branches: [main]
+        branches: [master]
         paths: ['cacerts/**']
     workflow_dispatch:
 
