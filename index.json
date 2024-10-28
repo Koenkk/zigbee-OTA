@@ -7477,5 +7477,27 @@
       "Xyzroe"
     ],
     "releaseNotes": "https://github.com/xyzroe/ZigUSB_C6/releases/tag/324"
+  },
+  {
+    "fileName": "1135-0100-1000002A-Kobold.zigbee",
+    "fileVersion": 268435498,
+    "fileSize": 244094,
+    "originalUrl": "https://deconz.dresden-elektronik.de/otau/1135-0100-1000002A-Kobold.zigbee",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/DresdenElektronik/1135-0100-1000002A-Kobold.zigbee",
+    "imageType": 256,
+    "manufacturerCode": 4405,
+    "sha512": "0905f0e6a469be3893f2c665156f18077258e24439e283c9f4b121553a94e8eb142e6250e721585ddd9aceef75da3c10a03defaee89885d7cb8f08449a20912d",
+    "otaHeaderString": "`\u0000�.@\u0000\u0010/@\u0000\u0000\u0000�n`\n�t�\u0015@\u0000\u0000\u0016@\u0000 �@\u0000��"
+  },
+  {
+    "fileName": "4512772-Firmware-35.ota",
+    "fileVersion": 26,
+    "fileSize": 146034,
+    "originalUrl": "https://www.elektroimportoren.no/docs/lib/4512772-Firmware-35.ota",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Namron/4512772-Firmware-35.ota",
+    "imageType": 166,
+    "manufacturerCode": 4644,
+    "sha512": "345b089dffdf63057757afecd2808a99b8c3c420721117b7ae234153e820bf2a12f8ae993106dda478196248d7db728caaca32320d110c42c365b678546ae181",
+    "otaHeaderString": "Encrypted GBL Z3SwitchSoc_sdk676"
   }
 ]
