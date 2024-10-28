@@ -1,0 +1,41 @@
+name: Concatenate CA certificates
+on:
+    push:
+        branches: [main]
+        paths: ['cacerts/**']
+    workflow_dispatch:
+
+permissions:
+    contents: write
+
+jobs:
+    concat-cacerts:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+            - uses: pnpm/action-setup@v4
+              with:
+                  version: 9
+            - uses: actions/setup-node@v4
+              with:
+                  node-version: 20
+                  registry-url: https://registry.npmjs.org/
+                  cache: pnpm
+            - name: Install dependencies
+              run: pnpm i --frozen-lockfile
+            - name: Build
+              run: pnpm run build
+            - name: Concat CACerts
+              uses: actions/github-script@v7
+              with:
+                  script: |
+                      const {concatCaCerts} = await import("${{ github.workspace }}/dist/ghw_concat_cacerts.js")
+
+                      await concatCaCerts(github, core, context)
+            - name: Commit changes
+              run: |
+                  git config --global user.name 'github-actions[bot]'
+                  git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+                  git add .
+                  git commit -m "Concatenate CA certificates" || echo 'Nothing to commit'
+                  git push
