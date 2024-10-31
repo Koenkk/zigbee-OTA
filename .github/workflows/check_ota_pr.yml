@@ -1,0 +1,45 @@
+name: Check OTA PR
+on:
+    pull_request:
+        types: [opened, synchronize, reopened, edited]
+        branches: [master]
+        paths: ['images/**']
+
+jobs:
+    check-ota-pr:
+        runs-on: ubuntu-latest
+        # don't run if PR was closed without merge, or explicitly disabled
+        if: |
+            !contains(github.event.pull_request.labels.*.name, 'ignore-ota-workflow')
+        steps:
+            - uses: actions/checkout@v4
+
+            - uses: pnpm/action-setup@v4
+              with:
+                  version: 9
+
+            - uses: actions/setup-node@v4
+              with:
+                  node-version: 20
+                  registry-url: https://registry.npmjs.org/
+                  cache: pnpm
+
+            - name: Install dependencies
+              run: pnpm i --frozen-lockfile
+
+            - name: Build
+              run: pnpm run build
+
+            - name: Check OTA PR
+              uses: actions/github-script@v7
+              with:
+                  script: |
+                      const {checkOtaPR} = await import("${{ github.workspace }}/dist/ghw_check_ota_pr.js")
+
+                      await checkOtaPR(github, core, context)
+
+            - uses: actions/upload-artifact@v4
+              if: always()
+              with:
+                  name: pr
+                  path: pr/

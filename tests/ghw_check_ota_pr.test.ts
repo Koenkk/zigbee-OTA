@@ -4,10 +4,11 @@ import type {Octokit} from '@octokit/rest';
 
 import type {RepoImageMeta} from '../src/types';
 
-import {rmSync} from 'fs';
+import {existsSync, readFileSync, rmSync} from 'fs';
+import path from 'path';
 
 import * as common from '../src/common';
-import {updateOtaPR} from '../src/ghw_update_ota_pr';
+import {checkOtaPR} from '../src/ghw_check_ota_pr';
 import {
     BASE_IMAGES_TEST_DIR_PATH,
     getAdjustedContent,
@@ -27,17 +28,10 @@ import {
 
 const github = {
     rest: {
-        issues: {
-            createComment: jest.fn<
-                ReturnType<Octokit['rest']['issues']['createComment']>,
-                Parameters<Octokit['rest']['issues']['createComment']>,
-                unknown
-            >(),
-        },
-        pulls: {
-            createReviewComment: jest.fn<
-                ReturnType<Octokit['rest']['pulls']['createReviewComment']>,
-                Parameters<Octokit['rest']['pulls']['createReviewComment']>,
+        repos: {
+            compareCommitsWithBasehead: jest.fn<
+                ReturnType<Octokit['rest']['repos']['compareCommitsWithBasehead']>,
+                Parameters<Octokit['rest']['repos']['compareCommitsWithBasehead']>,
                 unknown
             >(),
         },
@@ -59,6 +53,9 @@ const context: Partial<Context> = {
             head: {
                 sha: 'abcd',
             },
+            base: {
+                sha: 'zyxw',
+            },
         },
     },
     issue: {
@@ -72,13 +69,14 @@ const context: Partial<Context> = {
     },
 };
 
-describe('Github Workflow: Update OTA PR', () => {
+describe('Github Workflow: Check OTA PR', () => {
     let baseManifest: RepoImageMeta[];
     let prevManifest: RepoImageMeta[];
     let readManifestSpy: jest.SpyInstance;
     let writeManifestSpy: jest.SpyInstance;
     let addImageToBaseSpy: jest.SpyInstance;
     let addImageToPrevSpy: jest.SpyInstance;
+    let filePaths: ReturnType<typeof useImage>[] = [];
 
     const getManifest = (fileName: string): RepoImageMeta[] => {
         if (fileName === common.BASE_INDEX_MANIFEST_FILENAME) {
@@ -141,15 +139,21 @@ describe('Github Workflow: Update OTA PR', () => {
     beforeEach(() => {
         resetManifests();
 
+        filePaths = [];
         readManifestSpy = jest.spyOn(common, 'readManifest').mockImplementation(getManifest);
         writeManifestSpy = jest.spyOn(common, 'writeManifest').mockImplementation(setManifest);
         addImageToBaseSpy = jest.spyOn(common, 'addImageToBase');
         addImageToPrevSpy = jest.spyOn(common, 'addImageToPrev');
+        github.rest.repos.compareCommitsWithBasehead.mockImplementation(
+            // @ts-expect-error mock
+            () => ({data: {files: filePaths}}),
+        );
     });
 
     afterEach(() => {
         rmSync(BASE_IMAGES_TEST_DIR_PATH, {recursive: true, force: true});
         rmSync(PREV_IMAGES_TEST_DIR_PATH, {recursive: true, force: true});
+        rmSync(common.PR_ARTIFACT_DIR, {recursive: true, force: true});
     });
 
     // XXX: Util
@@ -162,128 +166,125 @@ describe('Github Workflow: Update OTA PR', () => {
     // })
 
     it('hard failure from outside PR context', async () => {
-        const fileParam: string = `images/test.ota`;
+        filePaths = [useImage(IMAGE_V14_1)];
 
         await expect(async () => {
             // @ts-expect-error mock
-            await updateOtaPR(github, core, {payload: {}}, fileParam);
+            await checkOtaPR(github, core, {payload: {}});
         }).rejects.toThrow(`Not a pull request`);
 
         expectNoChanges(true);
     });
 
-    it('hard failure without fileParam', async () => {
-        // NOTE: this path should always be prevented by workflow `paths` filter
-        const fileParam: string = '';
+    it('hard failure from merged PR context', async () => {
+        filePaths = [useImage(IMAGE_V14_1)];
 
         await expect(async () => {
             // @ts-expect-error mock
-            await updateOtaPR(github, core, context, fileParam);
-        }).rejects.toThrow(`No file found in pull request.`);
+            await checkOtaPR(github, core, {payload: {pull_request: {merged: true}}});
+        }).rejects.toThrow(`Should not be executed on a merged pull request`);
 
         expectNoChanges(true);
     });
 
-    it('failure with images in images1', async () => {
-        const fileParam: string = `images1/test2.ota,images/test.ota`;
+    it('hard failure with no file changed', async () => {
+        filePaths = [];
 
         await expect(async () => {
             // @ts-expect-error mock
-            await updateOtaPR(github, core, context, fileParam);
-        }).rejects.toThrow(expect.objectContaining({message: expect.stringContaining(`Detected files in 'images1'`)}));
-
-        expectNoChanges(true);
-        expect(github.rest.issues.createComment).toHaveBeenCalledTimes(1);
-    });
-
-    it('failure with edited manifest', async () => {
-        const fileParam: string = `index.json,images/test.ota`;
-
-        await expect(async () => {
-            // @ts-expect-error mock
-            await updateOtaPR(github, core, context, fileParam);
-        }).rejects.toThrow(expect.objectContaining({message: expect.stringContaining(`Detected manual changes in index.json`)}));
-
-        expectNoChanges(true);
-        expect(github.rest.issues.createComment).toHaveBeenCalledTimes(1);
-    });
-
-    it('failure when no subfolder (manufacturer)', async () => {
-        const fileParam: string = `images/test.ota`;
-
-        await expect(async () => {
-            // @ts-expect-error mock
-            await updateOtaPR(github, core, context, fileParam);
-        }).rejects.toThrow(
-            expect.objectContaining({message: expect.stringContaining(`\`images/test.ota\` should be in its associated manufacturer subfolder.`)}),
-        );
+            await checkOtaPR(github, core, context);
+        }).rejects.toThrow(`No file`);
 
         expectNoChanges(false);
-        expect(github.rest.pulls.createReviewComment).toHaveBeenCalledTimes(1);
+        expect(existsSync(common.PR_ARTIFACT_NUMBER_FILEPATH)).toStrictEqual(true);
+        expect(readFileSync(common.PR_ARTIFACT_NUMBER_FILEPATH, 'utf8')).toStrictEqual(`${context.payload?.pull_request?.number}`);
+        expect(existsSync(common.PR_ARTIFACT_DIFF_FILEPATH)).toStrictEqual(false);
+        expect(existsSync(common.PR_ARTIFACT_ERROR_FILEPATH)).toStrictEqual(true);
+        expect(readFileSync(common.PR_ARTIFACT_ERROR_FILEPATH, 'utf8')).toStrictEqual(`No file`);
+    });
+
+    it('failure with file outside of images directory', async () => {
+        filePaths = [useImage(IMAGE_V13_1, PREV_IMAGES_TEST_DIR_PATH), useImage(IMAGE_V14_1)];
+
+        await expect(async () => {
+            // @ts-expect-error mock
+            await checkOtaPR(github, core, context);
+        }).rejects.toThrow(expect.objectContaining({message: expect.stringContaining(`Detected changes in files outside`)}));
+
+        expectNoChanges(false);
+    });
+
+    it('failure when no manufacturer subfolder', async () => {
+        filePaths = [useImage(IMAGE_V14_1, common.BASE_IMAGES_DIR)];
+
+        await expect(async () => {
+            // @ts-expect-error mock
+            await checkOtaPR(github, core, context);
+        }).rejects.toThrow(expect.objectContaining({message: expect.stringContaining(`File should be in its associated manufacturer subfolder`)}));
+
+        expectNoChanges(false);
+
+        rmSync(path.join(common.BASE_IMAGES_DIR, IMAGE_V14_1), {force: true});
     });
 
     it('failure with invalid OTA file', async () => {
-        const fileParam: string = useImage(IMAGE_INVALID);
+        filePaths = [useImage(IMAGE_INVALID)];
 
         await expect(async () => {
             // @ts-expect-error mock
-            await updateOtaPR(github, core, context, fileParam);
+            await checkOtaPR(github, core, context);
         }).rejects.toThrow(expect.objectContaining({message: expect.stringContaining(`Not a valid OTA file`)}));
 
         expectNoChanges(false);
-        expect(github.rest.pulls.createReviewComment).toHaveBeenCalledTimes(1);
     });
 
     it('failure with identical OTA file', async () => {
         setManifest(common.BASE_INDEX_MANIFEST_FILENAME, [IMAGE_V14_1_METAS]);
-        const fileParam: string = useImage(IMAGE_V14_1);
+        filePaths = [useImage(IMAGE_V14_1)];
 
         await expect(async () => {
             // @ts-expect-error mock
-            await updateOtaPR(github, core, context, fileParam);
+            await checkOtaPR(github, core, context);
         }).rejects.toThrow(expect.objectContaining({message: expect.stringContaining(`Conflict with image at index \`0\``)}));
 
         expectNoChanges(false);
-        expect(github.rest.pulls.createReviewComment).toHaveBeenCalledTimes(1);
     });
 
     it('failure with older OTA file that has identical in prev', async () => {
         setManifest(common.BASE_INDEX_MANIFEST_FILENAME, [IMAGE_V14_1_METAS]);
         setManifest(common.PREV_INDEX_MANIFEST_FILENAME, [IMAGE_V13_1_METAS]);
-        const fileParam: string = useImage(IMAGE_V13_1);
+        filePaths = [useImage(IMAGE_V13_1)];
 
         await expect(async () => {
             // @ts-expect-error mock
-            await updateOtaPR(github, core, context, fileParam);
+            await checkOtaPR(github, core, context);
         }).rejects.toThrow(
             expect.objectContaining({message: expect.stringContaining(`an equal or better match is already present in prev manifest`)}),
         );
 
         expectNoChanges(false);
-        expect(github.rest.pulls.createReviewComment).toHaveBeenCalledTimes(1);
     });
 
     it('failure with older OTA file that has newer in prev', async () => {
         setManifest(common.BASE_INDEX_MANIFEST_FILENAME, [IMAGE_V14_1_METAS]);
         setManifest(common.PREV_INDEX_MANIFEST_FILENAME, [IMAGE_V13_1_METAS]);
-        const fileParam: string = useImage(IMAGE_V12_1);
+        filePaths = [useImage(IMAGE_V12_1)];
 
         await expect(async () => {
             // @ts-expect-error mock
-            await updateOtaPR(github, core, context, fileParam);
+            await checkOtaPR(github, core, context);
         }).rejects.toThrow(
             expect.objectContaining({message: expect.stringContaining(`an equal or better match is already present in prev manifest`)}),
         );
 
         expectNoChanges(false);
-        expect(github.rest.pulls.createReviewComment).toHaveBeenCalledTimes(1);
     });
 
     it('success into base', async () => {
-        const fileParam: string = useImage(IMAGE_V14_1);
+        filePaths = [useImage(IMAGE_V14_1)];
 
         // @ts-expect-error mock
-        await updateOtaPR(github, core, context, fileParam);
+        await checkOtaPR(github, core, context);
 
         expect(readManifestSpy).toHaveBeenCalledWith(common.BASE_INDEX_MANIFEST_FILENAME);
         expect(readManifestSpy).toHaveBeenCalledWith(common.PREV_INDEX_MANIFEST_FILENAME);
@@ -291,15 +292,19 @@ describe('Github Workflow: Update OTA PR', () => {
         expect(addImageToPrevSpy).toHaveBeenCalledTimes(0);
         expect(writeManifestSpy).toHaveBeenCalledTimes(2);
         expect(writeManifestSpy).toHaveBeenCalledWith(common.BASE_INDEX_MANIFEST_FILENAME, [IMAGE_V14_1_METAS]);
+        expect(existsSync(common.PR_ARTIFACT_NUMBER_FILEPATH)).toStrictEqual(true);
+        expect(readFileSync(common.PR_ARTIFACT_NUMBER_FILEPATH, 'utf8')).toStrictEqual(`${context.payload?.pull_request?.number}`);
+        expect(existsSync(common.PR_ARTIFACT_DIFF_FILEPATH)).toStrictEqual(true);
+        expect(existsSync(common.PR_ARTIFACT_ERROR_FILEPATH)).toStrictEqual(false);
     });
 
     it('success into prev', async () => {
         setManifest(common.BASE_INDEX_MANIFEST_FILENAME, [IMAGE_V14_1_METAS]);
 
-        const fileParam: string = useImage(IMAGE_V13_1);
+        filePaths = [useImage(IMAGE_V13_1)];
 
         // @ts-expect-error mock
-        await updateOtaPR(github, core, context, fileParam);
+        await checkOtaPR(github, core, context);
 
         expect(readManifestSpy).toHaveBeenCalledWith(common.BASE_INDEX_MANIFEST_FILENAME);
         expect(readManifestSpy).toHaveBeenCalledWith(common.PREV_INDEX_MANIFEST_FILENAME);
@@ -310,10 +315,10 @@ describe('Github Workflow: Update OTA PR', () => {
     });
 
     it('success with newer than current without existing prev', async () => {
-        const fileParam: string = [useImage(IMAGE_V13_1), useImage(IMAGE_V14_1)].join(',');
+        filePaths = [useImage(IMAGE_V13_1), useImage(IMAGE_V14_1)];
 
         // @ts-expect-error mock
-        await updateOtaPR(github, core, context, fileParam);
+        await checkOtaPR(github, core, context);
 
         expect(readManifestSpy).toHaveBeenCalledTimes(2);
         expect(addImageToBaseSpy).toHaveBeenCalledTimes(2); // adds both, relocates first during second processing
@@ -324,10 +329,10 @@ describe('Github Workflow: Update OTA PR', () => {
     });
 
     it('success with newer than current with existing prev', async () => {
-        const fileParam: string = [useImage(IMAGE_V12_1), useImage(IMAGE_V13_1), useImage(IMAGE_V14_1)].join(',');
+        filePaths = [useImage(IMAGE_V12_1), useImage(IMAGE_V13_1), useImage(IMAGE_V14_1)];
 
         // @ts-expect-error mock
-        await updateOtaPR(github, core, context, fileParam);
+        await checkOtaPR(github, core, context);
 
         expect(readManifestSpy).toHaveBeenCalledTimes(2);
         expect(addImageToBaseSpy).toHaveBeenCalledTimes(3); // adds both, relocates first during second processing
@@ -339,10 +344,10 @@ describe('Github Workflow: Update OTA PR', () => {
 
     it('success with older that is newer than prev', async () => {
         setManifest(common.PREV_INDEX_MANIFEST_FILENAME, [IMAGE_V12_1_METAS]);
-        const fileParam: string = [useImage(IMAGE_V14_1), useImage(IMAGE_V13_1)].join(',');
+        filePaths = [useImage(IMAGE_V14_1), useImage(IMAGE_V13_1)];
 
         // @ts-expect-error mock
-        await updateOtaPR(github, core, context, fileParam);
+        await checkOtaPR(github, core, context);
 
         expect(readManifestSpy).toHaveBeenCalledTimes(2);
         expect(addImageToBaseSpy).toHaveBeenCalledTimes(1);
@@ -354,10 +359,10 @@ describe('Github Workflow: Update OTA PR', () => {
 
     it('success with newer with missing file', async () => {
         setManifest(common.BASE_INDEX_MANIFEST_FILENAME, [IMAGE_V13_1_METAS]);
-        const fileParam: string = [useImage(IMAGE_V14_1)].join(',');
+        filePaths = [useImage(IMAGE_V14_1)];
 
         // @ts-expect-error mock
-        await updateOtaPR(github, core, context, fileParam);
+        await checkOtaPR(github, core, context);
 
         expect(readManifestSpy).toHaveBeenCalledTimes(2);
         expect(addImageToBaseSpy).toHaveBeenCalledTimes(1);
@@ -368,10 +373,10 @@ describe('Github Workflow: Update OTA PR', () => {
     });
 
     it('success with multiple different files', async () => {
-        const fileParam: string = [useImage(IMAGE_V14_2), useImage(IMAGE_V14_1)].join(',');
+        filePaths = [useImage(IMAGE_V14_2), useImage(IMAGE_V14_1)];
 
         // @ts-expect-error mock
-        await updateOtaPR(github, core, context, fileParam);
+        await checkOtaPR(github, core, context);
 
         expect(readManifestSpy).toHaveBeenCalledTimes(2);
         expect(addImageToBaseSpy).toHaveBeenCalledTimes(2); // adds both, relocates first during second processing
@@ -382,11 +387,11 @@ describe('Github Workflow: Update OTA PR', () => {
     });
 
     it('success with extra metas', async () => {
-        const fileParam: string = useImage(IMAGE_V14_1);
+        filePaths = [useImage(IMAGE_V14_1)];
         const newContext = withBody(`Text before start tag \`\`\`json {"manufacturerName": ["lixee"]} \`\`\` Text after end tag`);
 
         // @ts-expect-error mock
-        await updateOtaPR(github, core, newContext, fileParam);
+        await checkOtaPR(github, core, newContext);
 
         expect(readManifestSpy).toHaveBeenCalledWith(common.BASE_INDEX_MANIFEST_FILENAME);
         expect(readManifestSpy).toHaveBeenCalledWith(common.PREV_INDEX_MANIFEST_FILENAME);
@@ -399,7 +404,7 @@ describe('Github Workflow: Update OTA PR', () => {
     });
 
     it('success with all extra metas', async () => {
-        const fileParam: string = useImage(IMAGE_V14_1);
+        filePaths = [useImage(IMAGE_V14_1)];
         const newContext = withBody(`Text before start tag 
 \`\`\`json
 {
@@ -416,7 +421,7 @@ describe('Github Workflow: Update OTA PR', () => {
 Text after end tag`);
 
         // @ts-expect-error mock
-        await updateOtaPR(github, core, newContext, fileParam);
+        await checkOtaPR(github, core, newContext);
 
         expect(readManifestSpy).toHaveBeenCalledWith(common.BASE_INDEX_MANIFEST_FILENAME);
         expect(readManifestSpy).toHaveBeenCalledWith(common.PREV_INDEX_MANIFEST_FILENAME);
@@ -438,18 +443,17 @@ Text after end tag`);
     });
 
     it('failure with invalid extra metas', async () => {
-        const fileParam: string = useImage(IMAGE_V14_1);
+        filePaths = [useImage(IMAGE_V14_1)];
         const newContext = withBody(`Text before start tag \`\`\`json {"manufacturerName": "myManuf"} \`\`\` Text after end tag`);
 
         await expect(async () => {
             // @ts-expect-error mock
-            await updateOtaPR(github, core, newContext, fileParam);
+            await checkOtaPR(github, core, newContext);
         }).rejects.toThrow(
             expect.objectContaining({message: expect.stringContaining(`Invalid format for 'manufacturerName', expected 'array of string' type.`)}),
         );
 
-        expectNoChanges(true);
-        expect(github.rest.issues.createComment).toHaveBeenCalledTimes(1);
+        expectNoChanges(false);
     });
 
     it.each([
@@ -464,21 +468,20 @@ Text after end tag`);
         ['modelId'],
         ['releaseNotes'],
     ])('failure with invalid type for extra meta %s', async (metaName) => {
-        const fileParam: string = useImage(IMAGE_V14_1);
+        filePaths = [useImage(IMAGE_V14_1)];
         // use object since no value type is ever expected to be object
         const newContext = withBody(`Text before start tag \`\`\`json {"${metaName}": {}} \`\`\` Text after end tag`);
 
         await expect(async () => {
             // @ts-expect-error mock
-            await updateOtaPR(github, core, newContext, fileParam);
+            await checkOtaPR(github, core, newContext);
         }).rejects.toThrow(expect.objectContaining({message: expect.stringContaining(`Invalid format for '${metaName}'`)}));
 
-        expectNoChanges(true);
-        expect(github.rest.issues.createComment).toHaveBeenCalledTimes(1);
+        expectNoChanges(false);
     });
 
     it('success with multiple files and specific extra metas', async () => {
-        const fileParam: string = [useImage(IMAGE_V13_1), useImage(IMAGE_V14_1)].join(',');
+        filePaths = [useImage(IMAGE_V13_1), useImage(IMAGE_V14_1)];
         const newContext = withBody(`Text before start tag 
 \`\`\`json
 [
@@ -489,7 +492,7 @@ Text after end tag`);
 Text after end tag`);
 
         // @ts-expect-error mock
-        await updateOtaPR(github, core, newContext, fileParam);
+        await checkOtaPR(github, core, newContext);
 
         expect(readManifestSpy).toHaveBeenCalledWith(common.BASE_INDEX_MANIFEST_FILENAME);
         expect(readManifestSpy).toHaveBeenCalledWith(common.PREV_INDEX_MANIFEST_FILENAME);
@@ -505,7 +508,7 @@ Text after end tag`);
     });
 
     it('success with multiple files and specific extra metas, ignore without fileName', async () => {
-        const fileParam: string = [useImage(IMAGE_V13_1), useImage(IMAGE_V14_1)].join(',');
+        filePaths = [useImage(IMAGE_V13_1), useImage(IMAGE_V14_1)];
         const newContext = withBody(`Text before start tag 
 \`\`\`json
 [
@@ -516,7 +519,7 @@ Text after end tag`);
 Text after end tag`);
 
         // @ts-expect-error mock
-        await updateOtaPR(github, core, newContext, fileParam);
+        await checkOtaPR(github, core, newContext);
 
         expect(readManifestSpy).toHaveBeenCalledWith(common.BASE_INDEX_MANIFEST_FILENAME);
         expect(readManifestSpy).toHaveBeenCalledWith(common.PREV_INDEX_MANIFEST_FILENAME);

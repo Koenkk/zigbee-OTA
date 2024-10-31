@@ -26,7 +26,13 @@ const config: JestConfigWithTsJest = {
     collectCoverage: false,
 
     // An array of glob patterns indicating a set of files for which coverage information should be collected
-    collectCoverageFrom: ['src/ghw_update_ota_pr.ts', 'src/process_firmware_image.ts', 'src/ghw_reprocess_all_images.ts'],
+    collectCoverageFrom: [
+        'src/ghw_check_ota_pr.ts',
+        'src/ghw_get_changed_ota_files.ts',
+        'src/ghw_process_ota_files.ts',
+        'src/process_firmware_image.ts',
+        'src/ghw_reprocess_all_images.ts',
+    ],
 
     // The directory where Jest should output its coverage files
     coverageDirectory: 'coverage',

@@ -4,6 +4,7 @@ dist/
 temp/
 tmp/
 .jest-tmp/
+pr/
 tsconfig.tsbuildinfo
 
 # used by tests

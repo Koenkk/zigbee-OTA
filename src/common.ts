@@ -19,6 +19,13 @@ export const BASE_INDEX_MANIFEST_FILENAME = 'index.json';
 export const PREV_INDEX_MANIFEST_FILENAME = 'index1.json';
 export const CACHE_DIR = '.cache';
 export const TMP_DIR = 'tmp';
+export const PR_ARTIFACT_DIR = 'pr';
+export const PR_DIFF_FILENAME = 'PR_DIFF';
+export const PR_ERROR_FILENAME = 'PR_ERROR';
+export const PR_NUMBER_FILENAME = 'PR_NUMBER';
+export const PR_ARTIFACT_DIFF_FILEPATH = path.join(PR_ARTIFACT_DIR, PR_DIFF_FILENAME);
+export const PR_ARTIFACT_ERROR_FILEPATH = path.join(PR_ARTIFACT_DIR, PR_ERROR_FILENAME);
+export const PR_ARTIFACT_NUMBER_FILEPATH = path.join(PR_ARTIFACT_DIR, PR_NUMBER_FILENAME);
 /**
  * 'ikea_new' first, to prioritize downloads from new URL
  */

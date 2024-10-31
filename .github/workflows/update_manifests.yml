@@ -1,50 +1,43 @@
-name: Update OTA PR
+name: Update manifests
 on:
-    pull_request:
-        types: [opened, synchronize, reopened, edited, closed]
+    push:
         branches: [master]
         paths: ['images/**']
 
 permissions:
     contents: write
-    pull-requests: write
 
 jobs:
-    update-pr:
+    update-manifests:
         runs-on: ubuntu-latest
-        # don't run if PR was closed without merge, or explicitly disabled
-        if: |
-            !contains(github.event.pull_request.labels.*.name, 'ignore-ota-workflow') && (github.event.action != 'closed' || github.event.pull_request.merged == true)
         steps:
             - uses: actions/checkout@v4
+
             - uses: pnpm/action-setup@v4
               with:
                   version: 9
+
             - uses: actions/setup-node@v4
               with:
                   node-version: 20
                   registry-url: https://registry.npmjs.org/
                   cache: pnpm
+
             - name: Install dependencies
               run: pnpm i --frozen-lockfile
+
             - name: Build
               run: pnpm run build
-            - name: Get changed files
-              run: |
-                  files=$(gh pr view ${{ github.event.pull_request.number }} --json files -q '.files[].path' | tr '\n' ',')
-                  echo "files=$files" >> $GITHUB_OUTPUT
-              id: changed_files
-              env:
-                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-            - name: Update PR
+
+            - name: Update manifests
               uses: actions/github-script@v7
               with:
                   script: |
-                      const {updateOtaPR} = await import("${{ github.workspace }}/dist/ghw_update_ota_pr.js")
+                      const {updateManifests} = await import("${{ github.workspace }}/dist/ghw_update_manifests.js")
 
-                      await updateOtaPR(github, core, context, "${{steps.changed_files.outputs.files}}")
+                      await updateManifests(github, core, context)
+
             - name: Commit changes on push
-              if: github.event.pull_request.merged == true
               run: |
                   git config --global user.name 'github-actions[bot]'
                   git config --global user.email 'github-actions[bot]@users.noreply.github.com'
