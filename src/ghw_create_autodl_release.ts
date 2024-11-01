@@ -2,8 +2,9 @@ import type CoreApi from '@actions/core';
 import type {Context} from '@actions/github/lib/context';
 import type {Octokit} from '@octokit/rest';
 
+import type {RepoImageMeta} from './types.js';
+
 import {BASE_IMAGES_DIR, BASE_INDEX_MANIFEST_FILENAME, execute, PREV_IMAGES_DIR, PREV_INDEX_MANIFEST_FILENAME, readManifest} from './common.js';
-import {RepoImageMeta} from './types.js';
 
 // about 3 lines
 const MAX_RELEASE_NOTES_LENGTH = 380;

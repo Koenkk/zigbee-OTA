@@ -202,7 +202,7 @@ export const getImageOriginalDirPath = (imageName: string): string => {
     return path.join('tests', common.BASE_IMAGES_DIR, imageName);
 };
 
-export const useImage = (imageName: string, outDir: string = BASE_IMAGES_TEST_DIR_PATH): string => {
+export const useImage = (imageName: string, outDir: string = BASE_IMAGES_TEST_DIR_PATH): {filename: string} => {
     const realPath = path.join(outDir, imageName);
 
     if (!existsSync(outDir)) {
@@ -212,7 +212,7 @@ export const useImage = (imageName: string, outDir: string = BASE_IMAGES_TEST_DI
     copyFileSync(getImageOriginalDirPath(imageName), realPath);
 
     // return as posix for github match
-    return path.posix.join(BASE_IMAGES_TEST_DIR_PATH.replaceAll('\\', '/'), imageName);
+    return {filename: path.posix.join(outDir.replaceAll('\\', '/'), imageName)};
 };
 
 export const withExtraMetas = (meta: RepoImageMeta, extraMetas: ExtraMetas): RepoImageMeta => {

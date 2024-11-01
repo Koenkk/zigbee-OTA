@@ -2,9 +2,8 @@ import type CoreApi from '@actions/core';
 import type {Context} from '@actions/github/lib/context';
 import type {Octokit} from '@octokit/rest';
 
-import type {ExtraMetas, GHExtraMetas} from './types';
+import type {ExtraMetas, GHExtraMetas, RepoImageMeta} from './types.js';
 
-import assert from 'assert';
 import {readFileSync, renameSync} from 'fs';
 import path from 'path';
 
@@ -12,8 +11,6 @@ import {
     addImageToBase,
     addImageToPrev,
     BASE_IMAGES_DIR,
-    BASE_INDEX_MANIFEST_FILENAME,
-    execute,
     findMatchImage,
     getOutDir,
     getParsedImageStatus,
@@ -21,10 +18,7 @@ import {
     ParsedImageStatus,
     parseImageHeader,
     PREV_IMAGES_DIR,
-    PREV_INDEX_MANIFEST_FILENAME,
-    readManifest,
     UPGRADE_FILE_IDENTIFIER,
-    writeManifest,
 } from './common.js';
 
 const EXTRA_METAS_PR_BODY_START_TAG = '```json';
@@ -75,97 +69,46 @@ async function parsePRBodyExtraMetas(github: Octokit, core: typeof CoreApi, cont
                 }
             }
         } catch (error) {
-            const failureComment = `Invalid extra metas in pull request body: ` + (error as Error).message;
-
-            core.error(failureComment);
-
-            await github.rest.issues.createComment({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: context.issue.number,
-                body: failureComment,
-            });
-
-            throw new Error(failureComment);
+            throw new Error(`Invalid extra metas in pull request body: ${(error as Error).message}`);
         }
     }
 
     return extraMetas;
 }
 
-export async function updateOtaPR(github: Octokit, core: typeof CoreApi, context: Context, fileParam: string): Promise<void> {
-    assert(fileParam, 'No file found in pull request.');
-    assert(context.payload.pull_request, 'Not a pull request');
-
-    const fileParamArr = fileParam.trim().split(',');
-    // take care of empty strings (GH workflow adds a comma at end), ignore files not stored in images dir
-    const fileList = fileParamArr.filter((f) => f.startsWith(`${BASE_IMAGES_DIR}/`));
-
-    assert(fileList.length > 0, 'No image found in pull request.');
-    core.info(`Images in pull request: ${fileList}.`);
-
-    const fileListWrongDir = fileParamArr.filter((f) => f.startsWith(`${PREV_IMAGES_DIR}/`));
-
-    if (fileListWrongDir.length > 0) {
-        const failureComment = `Detected files in 'images1':
-\`\`\`
-${fileListWrongDir.join('\n')}
-\`\`\`
-Please move all files to 'images' (in appropriate subfolders). The pull request will automatically determine the proper location on merge.`;
-
-        await github.rest.issues.createComment({
-            owner: context.repo.owner,
-            repo: context.repo.repo,
-            issue_number: context.issue.number,
-            body: failureComment,
-        });
-
-        throw new Error(failureComment);
-    }
-
-    const fileListNoIndex = fileParamArr.filter((f) => f.startsWith(BASE_INDEX_MANIFEST_FILENAME) || f.startsWith(PREV_INDEX_MANIFEST_FILENAME));
-
-    if (fileListNoIndex.length > 0) {
-        const failureComment = `Detected manual changes in ${fileListNoIndex.join(', ')}. Please remove these changes. The pull request will automatically determine the manifests on merge.`;
-
-        await github.rest.issues.createComment({
-            owner: context.repo.owner,
-            repo: context.repo.repo,
-            issue_number: context.issue.number,
-            body: failureComment,
-        });
-
-        throw new Error(failureComment);
-    }
-
-    // called at the top, fail early if invalid PR body metas
+export async function processOtaFiles(
+    github: Octokit,
+    core: typeof CoreApi,
+    context: Context,
+    filePaths: string[],
+    baseManifest: RepoImageMeta[],
+    prevManifest: RepoImageMeta[],
+): Promise<void> {
     const extraMetas = await parsePRBodyExtraMetas(github, core, context);
-    const baseManifest = readManifest(BASE_INDEX_MANIFEST_FILENAME);
-    const prevManifest = readManifest(PREV_INDEX_MANIFEST_FILENAME);
 
-    for (const file of fileList) {
-        core.startGroup(file);
-        core.info(`Processing '${file}'...`);
+    for (const filePath of filePaths) {
+        core.startGroup(filePath);
 
+        const logPrefix = `[${filePath}]`;
         let failureComment: string = '';
 
         try {
-            const firmwareFileName = path.basename(file);
-            const manufacturer = file.replace(BASE_IMAGES_DIR, '').replace(firmwareFileName, '').replaceAll('/', '').trim();
+            const firmwareFileName = path.basename(filePath);
+            const manufacturer = filePath.replace(BASE_IMAGES_DIR, '').replace(firmwareFileName, '').replaceAll('/', '').trim();
 
             if (!manufacturer) {
-                throw new Error(`\`${file}\` should be in its associated manufacturer subfolder.`);
+                throw new Error(`File should be in its associated manufacturer subfolder`);
             }
 
-            const firmwareBuffer = Buffer.from(readFileSync(file));
+            const firmwareBuffer = Buffer.from(readFileSync(filePath));
             const parsedImage = parseImageHeader(firmwareBuffer.subarray(firmwareBuffer.indexOf(UPGRADE_FILE_IDENTIFIER)));
 
-            core.info(`[${file}] Parsed image header:`);
+            core.info(`${logPrefix} Parsed image header:`);
             core.info(JSON.stringify(parsedImage, undefined, 2));
 
             const fileExtraMetas = getFileExtraMetas(extraMetas, firmwareFileName);
 
-            core.info(`[${file}] Extra metas:`);
+            core.info(`${logPrefix} Extra metas:`);
             core.info(JSON.stringify(fileExtraMetas, undefined, 2));
 
             const baseOutDir = getOutDir(manufacturer, BASE_IMAGES_DIR);
@@ -200,7 +143,7 @@ ${JSON.stringify(parsedImage, undefined, 2)}
                         case ParsedImageStatus.NEWER:
                         case ParsedImageStatus.NEW: {
                             addImageToPrev(
-                                `[${file}]`,
+                                logPrefix,
                                 statusToPrev === ParsedImageStatus.NEWER,
                                 prevManifest,
                                 prevMatchIndex,
@@ -214,7 +157,7 @@ ${JSON.stringify(parsedImage, undefined, 2)}
                                 fileExtraMetas,
                                 () => {
                                     // relocate file to prev
-                                    renameSync(file, file.replace(`${BASE_IMAGES_DIR}/`, `${PREV_IMAGES_DIR}/`));
+                                    renameSync(filePath, filePath.replace(`${BASE_IMAGES_DIR}/`, `${PREV_IMAGES_DIR}/`));
                                 },
                             );
 
@@ -240,7 +183,7 @@ ${JSON.stringify(parsedImage, undefined, 2)}
                 case ParsedImageStatus.NEWER:
                 case ParsedImageStatus.NEW: {
                     addImageToBase(
-                        `[${file}]`,
+                        logPrefix,
                         statusToBase === ParsedImageStatus.NEWER,
                         prevManifest,
                         prevOutDir,
@@ -267,41 +210,10 @@ ${JSON.stringify(parsedImage, undefined, 2)}
         }
 
         if (failureComment) {
-            core.error(`[${file}] ` + failureComment);
-            await github.rest.pulls.createReviewComment({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                pull_number: context.issue.number,
-                body: failureComment,
-                commit_id: context.payload.pull_request.head.sha,
-                path: file,
-                subject_type: 'file',
-            });
-
-            throw new Error(failureComment);
+            core.endGroup();
+            throw new Error(`${logPrefix} ${failureComment}`);
         }
 
         core.endGroup();
-    }
-
-    writeManifest(PREV_INDEX_MANIFEST_FILENAME, prevManifest);
-    writeManifest(BASE_INDEX_MANIFEST_FILENAME, baseManifest);
-
-    core.info(`Prev manifest has ${prevManifest.length} images.`);
-    core.info(`Base manifest has ${baseManifest.length} images.`);
-
-    if (!context.payload.pull_request.merged) {
-        const diff = await execute(`git diff`);
-
-        await github.rest.issues.createComment({
-            owner: context.repo.owner,
-            repo: context.repo.repo,
-            issue_number: context.issue.number,
-            body: `Merging this pull request will add these changes in a following commit:
-\`\`\`diff
-${diff}
-\`\`\`
-`,
-        });
     }
 }

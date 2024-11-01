@@ -245,7 +245,7 @@ describe('Github Workflow: Re-Process All Images', () => {
         // @ts-expect-error mocked as needed
         await reProcessAllImages(github, core, context, true, true);
 
-        expect(existsSync(imagePath)).toStrictEqual(false);
+        expect(existsSync(imagePath.filename)).toStrictEqual(false);
         expect(readManifestSpy).toHaveBeenCalledTimes(2);
         expect(writeManifestSpy).toHaveBeenCalledTimes(2);
         expectWriteNoChange(1, common.PREV_INDEX_MANIFEST_FILENAME);
@@ -261,9 +261,9 @@ describe('Github Workflow: Re-Process All Images', () => {
         // @ts-expect-error mocked as needed
         await reProcessAllImages(github, core, context, true, true);
 
-        expect(existsSync(image1Path)).toStrictEqual(false);
-        expect(existsSync(image2Path)).toStrictEqual(false);
-        expect(existsSync(image3Path)).toStrictEqual(false);
+        expect(existsSync(image1Path.filename)).toStrictEqual(false);
+        expect(existsSync(image2Path.filename)).toStrictEqual(false);
+        expect(existsSync(image3Path.filename)).toStrictEqual(false);
         expect(readManifestSpy).toHaveBeenCalledTimes(2);
         expect(writeManifestSpy).toHaveBeenCalledTimes(2);
         expectWriteNoChange(1, common.PREV_INDEX_MANIFEST_FILENAME);
@@ -281,7 +281,7 @@ describe('Github Workflow: Re-Process All Images', () => {
         await reProcessAllImages(github, core, context, false, true);
 
         const newPath = path.join(NOT_IN_BASE_MANIFEST_IMAGE_DIR_PATH, IMAGE_V12_1);
-        expect(existsSync(oldPath)).toStrictEqual(false);
+        expect(existsSync(oldPath.filename)).toStrictEqual(false);
         expect(existsSync(newPath)).toStrictEqual(true);
         expect(readManifestSpy).toHaveBeenCalledTimes(2);
         expect(writeManifestSpy).toHaveBeenCalledTimes(3);
@@ -302,11 +302,11 @@ describe('Github Workflow: Re-Process All Images', () => {
         const newPath2 = path.join(NOT_IN_BASE_MANIFEST_IMAGE_DIR_PATH, IMAGE_V12_1);
         const newPath3 = path.join(NOT_IN_PREV_MANIFEST_IMAGE_DIR_PATH, IMAGE_V12_1);
         expect(existsSync(newPath1)).toStrictEqual(true);
-        expect(existsSync(oldPath1)).toStrictEqual(false);
+        expect(existsSync(oldPath1.filename)).toStrictEqual(false);
         expect(existsSync(newPath2)).toStrictEqual(true);
-        expect(existsSync(oldPath2)).toStrictEqual(false);
+        expect(existsSync(oldPath2.filename)).toStrictEqual(false);
         expect(existsSync(newPath3)).toStrictEqual(true);
-        expect(existsSync(oldPath3)).toStrictEqual(false);
+        expect(existsSync(oldPath3.filename)).toStrictEqual(false);
         expect(readManifestSpy).toHaveBeenCalledTimes(2);
         expect(writeManifestSpy).toHaveBeenCalledTimes(4);
         expect(writeManifestSpy).toHaveBeenNthCalledWith(1, NOT_IN_PREV_MANIFEST_FILEPATH, expect.any(Array));
@@ -321,7 +321,7 @@ describe('Github Workflow: Re-Process All Images', () => {
         // @ts-expect-error mocked as needed
         await reProcessAllImages(github, core, context, false, true);
 
-        expect(existsSync(oldPath)).toStrictEqual(false);
+        expect(existsSync(oldPath.filename)).toStrictEqual(false);
         expect(readManifestSpy).toHaveBeenCalledTimes(2);
         expect(writeManifestSpy).toHaveBeenCalledTimes(2);
         expect(writeManifestSpy).toHaveBeenNthCalledWith(1, common.PREV_INDEX_MANIFEST_FILENAME, []);
@@ -338,7 +338,7 @@ describe('Github Workflow: Re-Process All Images', () => {
         // @ts-expect-error mocked as needed
         await reProcessAllImages(github, core, context, true, true);
 
-        expect(existsSync(oldPath)).toStrictEqual(false);
+        expect(existsSync(oldPath.filename)).toStrictEqual(false);
         expect(readManifestSpy).toHaveBeenCalledTimes(2);
         expect(writeManifestSpy).toHaveBeenCalledTimes(2);
         expect(writeManifestSpy).toHaveBeenNthCalledWith(1, common.PREV_INDEX_MANIFEST_FILENAME, []);
@@ -354,7 +354,7 @@ describe('Github Workflow: Re-Process All Images', () => {
         // @ts-expect-error mocked as needed
         await reProcessAllImages(github, core, context, true, true);
 
-        expect(existsSync(imagePath)).toStrictEqual(true);
+        expect(existsSync(imagePath.filename)).toStrictEqual(true);
         expect(readManifestSpy).toHaveBeenCalledTimes(2);
         expect(writeManifestSpy).toHaveBeenCalledTimes(2);
         expect(writeManifestSpy).toHaveBeenNthCalledWith(1, common.PREV_INDEX_MANIFEST_FILENAME, []);
@@ -369,9 +369,9 @@ describe('Github Workflow: Re-Process All Images', () => {
         oldMetas.url = baseUrl + escape(newName);
         setManifest(common.BASE_INDEX_MANIFEST_FILENAME, [oldMetas]);
         const imagePath = useImage(IMAGE_V14_1, BASE_IMAGES_TEST_DIR_PATH);
-        const baseName = path.basename(imagePath);
-        const renamedPath = imagePath.replace(baseName, newName);
-        renameSync(imagePath, renamedPath);
+        const baseName = path.basename(imagePath.filename);
+        const renamedPath = imagePath.filename.replace(baseName, newName);
+        renameSync(imagePath.filename, renamedPath);
         console.log(newName, oldMetas.url, renamedPath);
 
         // @ts-expect-error mocked as needed
@@ -399,7 +399,7 @@ describe('Github Workflow: Re-Process All Images', () => {
         // @ts-expect-error mocked as needed
         await reProcessAllImages(github, core, context, true, true);
 
-        expect(existsSync(image1Path)).toStrictEqual(true);
+        expect(existsSync(image1Path.filename)).toStrictEqual(true);
         expect(readManifestSpy).toHaveBeenCalledTimes(2);
         expect(writeManifestSpy).toHaveBeenCalledTimes(2);
         expect(writeManifestSpy).toHaveBeenNthCalledWith(1, common.PREV_INDEX_MANIFEST_FILENAME, []);
@@ -418,7 +418,7 @@ describe('Github Workflow: Re-Process All Images', () => {
         // @ts-expect-error mocked as needed
         await reProcessAllImages(github, core, context, true, true);
 
-        expect(existsSync(image1Path)).toStrictEqual(true);
+        expect(existsSync(image1Path.filename)).toStrictEqual(true);
         expect(readManifestSpy).toHaveBeenCalledTimes(2);
         expect(writeManifestSpy).toHaveBeenCalledTimes(2);
         expect(writeManifestSpy).toHaveBeenNthCalledWith(1, common.PREV_INDEX_MANIFEST_FILENAME, []);
