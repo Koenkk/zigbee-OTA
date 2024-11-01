@@ -9,10 +9,5 @@ export async function writeCache(): Promise<void> {
 }
 
 export async function download(): Promise<void> {
-    await github.download(
-        NAME,
-        FIRMWARE_URL,
-        [(a): boolean => a.name.endsWith(FIRMWARE_EXT)],
-        {modelId: 'ZigUSB_C6'},
-    );
+    await github.download(NAME, FIRMWARE_URL, [(a): boolean => a.name.endsWith(FIRMWARE_EXT)], {modelId: 'ZigUSB_C6'});
 }

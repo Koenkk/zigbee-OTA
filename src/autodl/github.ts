@@ -58,12 +58,7 @@ export async function writeCache(manufacturer: string, releasesUrl: string): Pro
     }
 }
 
-export async function download(
-    manufacturer: string,
-    releasesUrl: string,
-    assetFinders: AssetFindPredicate[],
-    extraMetas: ExtraMetas,
-): Promise<void> {
+export async function download(manufacturer: string, releasesUrl: string, assetFinders: AssetFindPredicate[], extraMetas: ExtraMetas): Promise<void> {
     const logPrefix = `[${manufacturer}]`;
     const releases = await getJson<ReleasesJson>(manufacturer, releasesUrl);
 

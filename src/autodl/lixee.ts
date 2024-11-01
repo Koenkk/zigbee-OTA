@@ -11,10 +11,7 @@ export async function writeCache(): Promise<void> {
 }
 
 export async function download(): Promise<void> {
-    await github.download(
-        NAME,
-        FIRMWARE_URL,
-        [(a): boolean => a.name.endsWith(FIRMWARE_EXT), (a): boolean => a.name.endsWith(FIRMWARE_LIMITED)],
-        {manufacturerName: [NAME]},
-    );
+    await github.download(NAME, FIRMWARE_URL, [(a): boolean => a.name.endsWith(FIRMWARE_EXT), (a): boolean => a.name.endsWith(FIRMWARE_LIMITED)], {
+        manufacturerName: [NAME],
+    });
 }
