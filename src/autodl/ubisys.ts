@@ -91,7 +91,6 @@ export async function download(): Promise<void> {
             const firmwareUrl = url.resolve(FIRMWARE_HTML_URL, image.fileName);
 
             await processFirmwareImage(NAME, image.fileName, firmwareUrl, {
-                manufacturerName: [NAME],
                 hardwareVersionMin: image.hardwareVersionMin,
                 hardwareVersionMax: image.hardwareVersionMax,
             });

@@ -21,19 +21,19 @@ type ImagesJson = {
     builds: ImagesJsonBuild[];
 };
 
-const NAME = 'Gmmts';
+const NAME = 'GammaTroniques';
 // const LOG_PREFIX = `[${NAME}]`;
 const BASE_URL = 'https://update.gammatroniques.fr/';
 const MANIFEST_URL_PATH = `/manifest.json`;
-const MODEL_IDS = ['ticmeter'];
+const MODEL_IDS: [urlId: string, modelId: string][] = [['ticmeter', 'TICMeter']];
 
 function isDifferent(newData: ImagesJson, cachedData?: ImagesJson): boolean {
     return Boolean(process.env.IGNORE_CACHE) || !cachedData || cachedData.version !== newData.version;
 }
 
 export async function writeCache(): Promise<void> {
-    for (const modelId of MODEL_IDS) {
-        const url = `${BASE_URL}${modelId}${MANIFEST_URL_PATH}`;
+    for (const [urlId, modelId] of MODEL_IDS) {
+        const url = `${BASE_URL}${urlId}${MANIFEST_URL_PATH}`;
         const page = await getJson<ImagesJson>(NAME, url);
 
         if (page?.builds?.length) {
@@ -43,9 +43,9 @@ export async function writeCache(): Promise<void> {
 }
 
 export async function download(): Promise<void> {
-    for (const modelId of MODEL_IDS) {
+    for (const [urlId, modelId] of MODEL_IDS) {
         const logPrefix = `[${NAME}:${modelId}]`;
-        const url = `${BASE_URL}${modelId}${MANIFEST_URL_PATH}`;
+        const url = `${BASE_URL}${urlId}${MANIFEST_URL_PATH}`;
         const page = await getJson<ImagesJson>(NAME, url);
 
         if (!page?.builds?.length) {
@@ -71,6 +71,6 @@ export async function download(): Promise<void> {
 
         const firmwareFileName = appUrl.ota.split('/').pop()!;
 
-        await processFirmwareImage(NAME, firmwareFileName, appUrl.ota, {manufacturerName: [NAME]});
+        await processFirmwareImage(NAME, firmwareFileName, appUrl.ota, {modelId});
     }
 }

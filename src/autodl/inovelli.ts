@@ -62,7 +62,7 @@ export async function download(): Promise<void> {
                 continue;
             }
 
-            await processFirmwareImage(NAME, firmwareFileName, image.firmware, {manufacturerName: [NAME]});
+            await processFirmwareImage(NAME, firmwareFileName, image.firmware);
         }
 
         writeCacheJson(NAME, models);

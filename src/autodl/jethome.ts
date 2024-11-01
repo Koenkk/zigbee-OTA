@@ -29,7 +29,7 @@ type ImageJson = {
     };
 };
 
-const NAME = 'Jethome';
+const NAME = 'JetHome';
 const LOG_PREFIX = `[${NAME}]`;
 const BASE_URL = 'https://fw.jethome.ru';
 const DEVICE_URL = `${BASE_URL}/api/devices/`;
