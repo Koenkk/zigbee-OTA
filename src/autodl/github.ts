@@ -1,3 +1,5 @@
+import type {ExtraMetas} from '../types.js';
+
 import {getJson, getLatestImage, readCacheJson, writeCacheJson} from '../common.js';
 import {processFirmwareImage} from '../process_firmware_image.js';
 
@@ -56,7 +58,12 @@ export async function writeCache(manufacturer: string, releasesUrl: string): Pro
     }
 }
 
-export async function download(manufacturer: string, releasesUrl: string, assetFinders: AssetFindPredicate[]): Promise<void> {
+export async function download(
+    manufacturer: string,
+    releasesUrl: string,
+    assetFinders: AssetFindPredicate[],
+    extraMetas: ExtraMetas,
+): Promise<void> {
     const logPrefix = `[${manufacturer}]`;
     const releases = await getJson<ReleasesJson>(manufacturer, releasesUrl);
 
@@ -79,8 +86,8 @@ export async function download(manufacturer: string, releasesUrl: string, assetF
                     }
 
                     await processFirmwareImage(manufacturer, asset.name, asset.browser_download_url, {
-                        manufacturerName: [manufacturer],
                         releaseNotes: release.html_url,
+                        ...extraMetas,
                     });
                 } else {
                     console.error(`${logPrefix} No image found.`);

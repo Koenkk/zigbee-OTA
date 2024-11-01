@@ -34,7 +34,7 @@ type ImagesJson = {
 };
 type GroupedImagesJson = Record<string, FirmwareJson[]>;
 
-const NAME = 'Ledvance';
+const NAME = 'LEDVANCE';
 const LOG_PREFIX = `[${NAME}]`;
 const FIRMWARE_URL = 'https://api.update.ledvance.com/v1/zigbee/firmwares/';
 // const UPDATE_CHECK_URL = 'https://api.update.ledvance.com/v1/zigbee/firmwares/newer';
@@ -107,7 +107,6 @@ export async function download(): Promise<void> {
 
             for (let i = 0; i < FETCH_FAILED_RETRIES; i++) {
                 const status = await processFirmwareImage(NAME, firmwareFileName, firmwareUrl, {
-                    manufacturerName: [NAME],
                     // workflow automatically computes sha512
                     // sha256: firmware.shA256,
                     releaseNotes: firmware.releaseNotes,

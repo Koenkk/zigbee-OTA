@@ -10,7 +10,7 @@ type ImagesJson = {
     versions: ImageJson[];
 };
 
-const NAME = 'Salus';
+const NAME = 'SalusControls';
 const LOG_PREFIX = `[${NAME}]`;
 const FIRMWARE_URL = 'https://eu.salusconnect.io/demo/default/status/firmware?timestamp=0';
 
