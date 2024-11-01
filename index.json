@@ -7021,5 +7021,15 @@
     "manufacturerCode": 4644,
     "sha512": "345b089dffdf63057757afecd2808a99b8c3c420721117b7ae234153e820bf2a12f8ae993106dda478196248d7db728caaca32320d110c42c365b678546ae181",
     "otaHeaderString": "Encrypted GBL Z3SwitchSoc_sdk676"
+  },
+  {
+    "fileName": "Soil_Moisture_Sensor_PROD_OTA_V31_v1.00.31.ota",
+    "fileVersion": 31,
+    "fileSize": 139026,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/ThirdReality/Soil_Moisture_Sensor_PROD_OTA_V31_v1.00.31.ota",
+    "imageType": 54191,
+    "manufacturerCode": 5127,
+    "sha512": "18aa9d1118fc0a1bf39a037036c9f6229a789a4c4e20f8403838ede9aa771ccfacbf0eff8ca1b52b265f564a4f555613264556f9e1a1884a6f1fd932dc4e4478",
+    "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
   }
 ]
