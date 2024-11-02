@@ -4,6 +4,7 @@ import type {Octokit} from '@octokit/rest';
 
 import type {ExtraMetas, GHExtraMetas, RepoImageMeta} from './types.js';
 
+import assert from 'assert';
 import {readFileSync, renameSync} from 'fs';
 import path from 'path';
 
@@ -37,12 +38,40 @@ function getFileExtraMetas(extraMetas: GHExtraMetas, fileName: string): ExtraMet
     return extraMetas;
 }
 
+async function getPRBody(github: Octokit, core: typeof CoreApi, context: Context): Promise<string | undefined> {
+    assert(context.payload.pull_request || context.eventName === 'push');
+
+    if (context.payload.pull_request) {
+        return context.payload.pull_request.body;
+    } else if (context.eventName === 'push') {
+        const pushMsg = context.payload.head_commit.message as string;
+        const prMatch = pushMsg.match(/\(#(\d+)\)/);
+
+        if (prMatch) {
+            const prNumber = parseInt(prMatch[1], 10);
+
+            try {
+                const pr = await github.rest.pulls.get({
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    pull_number: prNumber,
+                });
+
+                return pr.data.body || undefined;
+            } catch (error) {
+                throw new Error(`Failed to get PR#${prNumber} for extra metas: ${error}`);
+            }
+        }
+    }
+}
+
 async function parsePRBodyExtraMetas(github: Octokit, core: typeof CoreApi, context: Context): Promise<GHExtraMetas> {
     let extraMetas: GHExtraMetas = {};
 
-    if (context.payload.pull_request?.body) {
+    const prBody = await getPRBody(github, core, context);
+
+    if (prBody) {
         try {
-            const prBody = context.payload.pull_request.body;
             const metasStart = prBody.indexOf(EXTRA_METAS_PR_BODY_START_TAG);
             const metasEnd = prBody.lastIndexOf(EXTRA_METAS_PR_BODY_END_TAG);
 

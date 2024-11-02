@@ -11,7 +11,7 @@ export async function getChangedOtaFiles(
     core: typeof CoreApi,
     context: Context,
     basehead: string,
-    isPR: boolean,
+    throwIfFilesOutsideOfImages: boolean,
 ): Promise<string[]> {
     // NOTE: includes up to 300 files, per https://docs.github.com/en/rest/commits/commits?apiVersion=2022-11-28#compare-two-commits
     const compare = await github.rest.repos.compareCommitsWithBasehead({
@@ -26,8 +26,12 @@ export async function getChangedOtaFiles(
 
     const fileList = compare.data.files.filter((f) => f.filename.startsWith(`${BASE_IMAGES_DIR}/`));
 
-    if (isPR && fileList.length !== compare.data.files.length) {
-        throw new Error(`Detected changes in files outside of \`images\` directory. This is not allowed for a pull request with OTA files.`);
+    if (throwIfFilesOutsideOfImages && fileList.length !== compare.data.files.length) {
+        if (context.payload.pull_request) {
+            throw new Error(`Detected changes in files outside of \`images\` directory. This is not allowed for a pull request with OTA files.`);
+        } else {
+            throw new Error(`Cannot run with files outside of \`images\` directory.`);
+        }
     }
 
     return fileList.map((f) => f.filename);

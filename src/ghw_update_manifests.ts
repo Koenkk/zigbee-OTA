@@ -11,7 +11,7 @@ import {processOtaFiles} from './ghw_process_ota_files.js';
 export async function updateManifests(github: Octokit, core: typeof CoreApi, context: Context): Promise<void> {
     assert(context.eventName === 'push', 'Not a push');
 
-    const filePaths = await getChangedOtaFiles(github, core, context, `${context.payload.before}...${context.payload.after}`, false);
+    const filePaths = await getChangedOtaFiles(github, core, context, `${context.payload.before}...${context.payload.after}`, true);
     const baseManifest = readManifest(BASE_INDEX_MANIFEST_FILENAME);
     const prevManifest = readManifest(PREV_INDEX_MANIFEST_FILENAME);
 
