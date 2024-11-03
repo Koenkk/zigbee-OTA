@@ -49,8 +49,8 @@ jobs:
               uses: actions/github-script@v7
               env:
                   NODE_EXTRA_CA_CERTS: cacerts.pem
-                  PREV: ${{ fromJSON(inputs.prev) && '1' || '' }}
-                  IGNORE_CACHE: ${{ fromJSON(inputs.ignore_cache) && '1' || '' }}
+                  PREV: ${{ inputs.prev == 'true' && '1' || '' }}
+                  IGNORE_CACHE: ${{ inputs.ignore_cache == 'true' && '1' || '' }}
               with:
                   script: |
                       const {runAutodl} = await import("${{ github.workspace }}/dist/ghw_run_autodl.js")
