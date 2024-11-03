@@ -46,7 +46,7 @@ export async function runAutodl(github: Octokit, core: typeof CoreApi, context: 
             await download();
         } catch (error) {
             core.error((error as Error).message);
-            core.debug((error as Error).stack!);
+            core.info((error as Error).stack!);
         }
 
         core.endGroup();
