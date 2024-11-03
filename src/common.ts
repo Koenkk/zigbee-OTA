@@ -29,7 +29,18 @@ export const PR_ARTIFACT_NUMBER_FILEPATH = path.join(PR_ARTIFACT_DIR, PR_NUMBER_
 /**
  * 'ikea_new' first, to prioritize downloads from new URL
  */
-export const ALL_AUTODL_MANUFACTURERS = ['gmmts', 'ikea_new', 'ikea', 'inovelli', 'jethome', 'ledvance', 'lixee', 'salus', 'ubisys', 'xyzroe'];
+export const ALL_AUTODL_MANUFACTURERS = [
+    'gammatroniques',
+    'ikea_new',
+    'ikea',
+    'inovelli',
+    'jethome',
+    'ledvance',
+    'lixee',
+    'salus',
+    'ubisys',
+    'xyzroe',
+];
 
 export async function execute(command: string): Promise<string> {
     return await new Promise((resolve, reject) => {
