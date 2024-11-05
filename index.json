@@ -7031,5 +7031,15 @@
     "manufacturerCode": 5127,
     "sha512": "18aa9d1118fc0a1bf39a037036c9f6229a789a4c4e20f8403838ede9aa771ccfacbf0eff8ca1b52b265f564a4f555613264556f9e1a1884a6f1fd932dc4e4478",
     "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "ota-v38.ota",
+    "fileVersion": 38,
+    "fileSize": 277898,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/ThirdReality/ota-v38.ota",
+    "imageType": 54188,
+    "manufacturerCode": 5127,
+    "sha512": "6d1187d6d8dce634ad7277735706945cf75992564af919fdad3a84953bc7825b97c886673d258725e69d4b9aeb0ebdbb42c10b5e966dcbf5bb4652645005a04e",
+    "otaHeaderString": "temp_humi_sensor\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
   }
 ]
