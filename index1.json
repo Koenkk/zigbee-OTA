@@ -1205,15 +1205,15 @@
   },
   {
     "fileName": "ZigUSB_C6.ota",
-    "fileVersion": 320,
+    "fileVersion": 324,
     "fileSize": 696046,
-    "originalUrl": "https://github.com/xyzroe/ZigUSB_C6/releases/download/320/ZigUSB_C6.ota",
+    "originalUrl": "https://github.com/xyzroe/ZigUSB_C6/releases/download/324/ZigUSB_C6.ota",
     "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/xyzroe/ZigUSB_C6.ota",
     "imageType": 4113,
     "manufacturerCode": 13379,
-    "sha512": "c27300cc7bda403e82a2c320833e6a89072cbd0b24b8d9b10f714ac723334123a6e762781fc6df7f798acf49f28cfd42ddf1288b09486eed7d50aae67a288112",
+    "sha512": "c1358d6d8cc79ab74a7d117cacb897ebc13cc68e7eb4dbdbb4614797e61ca85ab4fc522f70285b6e96f7ab1a0470c3fb3e1f3da7a68c03b57eeee0485069d115",
     "otaHeaderString": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "modelId": "ZigUSB_C6",
-    "releaseNotes": "https://github.com/xyzroe/ZigUSB_C6/releases/tag/320"
+    "releaseNotes": "https://github.com/xyzroe/ZigUSB_C6/releases/tag/324"
   }
 ]
