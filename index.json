@@ -3958,13 +3958,13 @@
     "otaHeaderString": "Telink OTA BLE device\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
   },
   {
-    "fileName": "1141-020a-01223001-Z03MMC.zigbee",
-    "fileVersion": 19017729,
-    "fileSize": 128578,
-    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Telink/1141-020a-01223001-Z03MMC.zigbee",
+    "fileName": "1141-020a-01233001-Z03MMC.zigbee",
+    "fileVersion": 19083265,
+    "fileSize": 128754,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Telink/1141-020a-01233001-Z03MMC.zigbee",
     "imageType": 522,
     "manufacturerCode": 4417,
-    "sha512": "79f10f76c9e3350ed192396c7dcc0483d5fdaf023133b04814ffd168cd4511c9f5bbdeffc08520850e54d243df4a91bac1a8302e1648e576004e2fbc39b06eab",
+    "sha512": "3e384baeddae177b638f6d191d5bcb43b3a696e6996187ca6cb8f877c099c3e316344d391cbba0dcd391261fb821c0313987cf35969b2e674a70735ac42f1133",
     "otaHeaderString": "Telink Zigbee OTA\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
   },
   {
