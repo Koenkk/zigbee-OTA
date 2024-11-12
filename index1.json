@@ -1225,5 +1225,55 @@
     "manufacturerCode": 4417,
     "sha512": "79f10f76c9e3350ed192396c7dcc0483d5fdaf023133b04814ffd168cd4511c9f5bbdeffc08520850e54d243df4a91bac1a8302e1648e576004e2fbc39b06eab",
     "otaHeaderString": "Telink Zigbee OTA\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "128b-0002-0304-700_nodon_sin_2_fw_efr32_V0304.zigbee",
+    "fileVersion": 772,
+    "fileSize": 415896,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/NodOn/128b-0002-0304-700_nodon_sin_2_fw_efr32_V0304.zigbee",
+    "imageType": 2,
+    "manufacturerCode": 4747,
+    "sha512": "0b9c29f9f10c3121d67e97489fd6fd3e9973a159f2b2364c02733e99d5ae8d6461a11ff76cbf1dff99197308f1e94fef2373be223d47d2d65a70ab2621601b2a",
+    "otaHeaderString": "nodon_sin_efr32_ota\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "128b-0005-0304-700_nodon_sin_met_fw_efr32_V0304.zigbee",
+    "fileVersion": 772,
+    "fileSize": 399628,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/NodOn/128b-0005-0304-700_nodon_sin_met_fw_efr32_V0304.zigbee",
+    "imageType": 5,
+    "manufacturerCode": 4747,
+    "sha512": "b82f0486a32cea87c894e1e5765bf7e5940a67ca7ed06d664b2d369c15b87b5ff8d0410516152168b959cdca0a490d83abef3736c00e3d3edd315e0a959f42af",
+    "otaHeaderString": "nodon_sin_efr32_ota\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "128b-0006-0304-700_nodon_sin_fp_fw_efr32_V0304.zigbee",
+    "fileVersion": 772,
+    "fileSize": 396580,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/NodOn/128b-0006-0304-700_nodon_sin_fp_fw_efr32_V0304.zigbee",
+    "imageType": 6,
+    "manufacturerCode": 4747,
+    "sha512": "cc859821cddf6792b9c6582b846a2d5dfcfa6dd0a1188a4012ccb4d978904bef37458cea967bb86255b10c34a86800ac96cb284ddb1af6c2dbaf4e2e55880a52",
+    "otaHeaderString": "nodon_sin_efr32_ota\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "128b-0009-0304-700_nodon_sin_rs_fw_efr32_V0304.zigbee",
+    "fileVersion": 772,
+    "fileSize": 398704,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/NodOn/128b-0009-0304-700_nodon_sin_rs_fw_efr32_V0304.zigbee",
+    "imageType": 9,
+    "manufacturerCode": 4747,
+    "sha512": "512aa9ad34446126ec33cac8d1dcb4e4592395551d8b2baaf66e1dfd88cf8837100f2a17c3580384964a5662b0ed3de554c45d7c3d3ed8750ea6ee6e1256ba8a",
+    "otaHeaderString": "nodon_sin_efr32_ota\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "128b-000A-0304-700_p1771_nodon_sin_1_fw_efr32_V0304.zigbee",
+    "fileVersion": 772,
+    "fileSize": 412920,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/NodOn/128b-000A-0304-700_p1771_nodon_sin_1_fw_efr32_V0304.zigbee",
+    "imageType": 10,
+    "manufacturerCode": 4747,
+    "sha512": "ef50dc8d3aaa2e2c31618c113436f3f3b830c20d0779a633517fb0b1e68b8fee848e2c388c22e986885cdb0c6d83983950e78d821c8a55071b83fa4c354f469e",
+    "otaHeaderString": "nodon_sin_efr32_ota\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
   }
 ]
