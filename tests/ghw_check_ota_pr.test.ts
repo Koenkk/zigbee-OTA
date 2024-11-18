@@ -21,6 +21,7 @@ import {
     IMAGE_V14_1_METAS,
     IMAGE_V14_2,
     IMAGE_V14_2_METAS,
+    IMAGES_TEST_DIR,
     PREV_IMAGES_TEST_DIR_PATH,
     useImage,
     withExtraMetas,
@@ -440,6 +441,77 @@ Text after end tag`);
                 releaseNotes: 'bugfixes',
             }),
         ]);
+    });
+
+    it('success with newer than current but minFileVersion keeps both', async () => {
+        filePaths = [useImage(IMAGE_V13_1), useImage(IMAGE_V14_1)];
+        const newContext = withBody(
+            `Text before start tag \`\`\`json [{"fileName":"ZLinky_router_v14.ota", "minFileVersion": 16783874}] \`\`\` Text after end tag`,
+        );
+
+        // @ts-expect-error mock
+        await checkOtaPR(github, core, newContext);
+
+        expect(readManifestSpy).toHaveBeenCalledTimes(2);
+        expect(addImageToBaseSpy).toHaveBeenCalledTimes(2);
+        expect(addImageToPrevSpy).toHaveBeenCalledTimes(0);
+        expect(writeManifestSpy).toHaveBeenCalledTimes(2);
+        expect(writeManifestSpy).toHaveBeenCalledWith(common.BASE_INDEX_MANIFEST_FILENAME, [
+            withExtraMetas(IMAGE_V13_1_METAS, {
+                // @ts-expect-error override
+                url: `https://github.com/Koenkk/zigbee-OTA/raw/master/${common.BASE_IMAGES_DIR}/${IMAGES_TEST_DIR}/${IMAGE_V13_1}`,
+            }),
+            withExtraMetas(IMAGE_V14_1_METAS, {minFileVersion: 16783874}),
+        ]);
+        expect(writeManifestSpy).toHaveBeenCalledWith(common.PREV_INDEX_MANIFEST_FILENAME, []);
+    });
+
+    it('success with newer than current but maxFileVersion keeps both', async () => {
+        filePaths = [useImage(IMAGE_V13_1), useImage(IMAGE_V14_1)];
+        const newContext = withBody(
+            `Text before start tag \`\`\`json [{"fileName":"ZLinky_router_v13.ota", "maxFileVersion": 16783873}] \`\`\` Text after end tag`,
+        );
+
+        // @ts-expect-error mock
+        await checkOtaPR(github, core, newContext);
+
+        expect(readManifestSpy).toHaveBeenCalledTimes(2);
+        expect(addImageToBaseSpy).toHaveBeenCalledTimes(2);
+        expect(addImageToPrevSpy).toHaveBeenCalledTimes(0);
+        expect(writeManifestSpy).toHaveBeenCalledTimes(2);
+        expect(writeManifestSpy).toHaveBeenCalledWith(common.BASE_INDEX_MANIFEST_FILENAME, [
+            withExtraMetas(IMAGE_V13_1_METAS, {
+                // @ts-expect-error override
+                url: `https://github.com/Koenkk/zigbee-OTA/raw/master/${common.BASE_IMAGES_DIR}/${IMAGES_TEST_DIR}/${IMAGE_V13_1}`,
+                maxFileVersion: 16783873,
+            }),
+            IMAGE_V14_1_METAS,
+        ]);
+        expect(writeManifestSpy).toHaveBeenCalledWith(common.PREV_INDEX_MANIFEST_FILENAME, []);
+    });
+
+    it('success with newer than current but maxFileVersion/minFileVersion keeps both', async () => {
+        filePaths = [useImage(IMAGE_V13_1), useImage(IMAGE_V14_1)];
+        const newContext = withBody(
+            `Text before start tag \`\`\`json [{"fileName":"ZLinky_router_v13.ota", "maxFileVersion": 16783873},{"fileName":"ZLinky_router_v14.ota", "minFileVersion": 16783874}] \`\`\` Text after end tag`,
+        );
+
+        // @ts-expect-error mock
+        await checkOtaPR(github, core, newContext);
+
+        expect(readManifestSpy).toHaveBeenCalledTimes(2);
+        expect(addImageToBaseSpy).toHaveBeenCalledTimes(2);
+        expect(addImageToPrevSpy).toHaveBeenCalledTimes(0);
+        expect(writeManifestSpy).toHaveBeenCalledTimes(2);
+        expect(writeManifestSpy).toHaveBeenCalledWith(common.BASE_INDEX_MANIFEST_FILENAME, [
+            withExtraMetas(IMAGE_V13_1_METAS, {
+                // @ts-expect-error override
+                url: `https://github.com/Koenkk/zigbee-OTA/raw/master/${common.BASE_IMAGES_DIR}/${IMAGES_TEST_DIR}/${IMAGE_V13_1}`,
+                maxFileVersion: 16783873,
+            }),
+            withExtraMetas(IMAGE_V14_1_METAS, {minFileVersion: 16783874}),
+        ]);
+        expect(writeManifestSpy).toHaveBeenCalledWith(common.PREV_INDEX_MANIFEST_FILENAME, []);
     });
 
     it('failure with invalid extra metas', async () => {
