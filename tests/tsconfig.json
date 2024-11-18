@@ -1,6 +1,6 @@
 {
     "extends": "../tsconfig",
-    "include": ["./**/*", "./jest.config.ts"],
+    "include": ["./**/*", "jest.config.ts"],
     "compilerOptions": {
         "types": ["jest"],
         "rootDir": "..",
