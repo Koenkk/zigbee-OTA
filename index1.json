@@ -1203,5 +1203,16 @@
     "manufacturerCode": 4747,
     "sha512": "ef50dc8d3aaa2e2c31618c113436f3f3b830c20d0779a633517fb0b1e68b8fee848e2c388c22e986885cdb0c6d83983950e78d821c8a55071b83fa4c354f469e",
     "otaHeaderString": "nodon_sin_efr32_ota\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "0x1209_0x300a_0x35091514.ota",
+    "fileVersion": 889787668,
+    "fileSize": 166554,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Bosch/0x1209_0x300a_0x35091514.ota",
+    "imageType": 12298,
+    "manufacturerCode": 4617,
+    "sha512": "bd44eda56bd48503e922001b101522a7340d7e4b68528d3a3d1f6073492631f96e51178573fa2b00da601483b5c5c864b906f14408b0f28d008364c4b195bf52",
+    "otaHeaderString": "RBSH-TRV0-ZB-EU\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "modelId": "RBSH-TRV0-ZB-EU"
   }
 ]
