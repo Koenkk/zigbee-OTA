@@ -7021,16 +7021,6 @@
     "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
   },
   {
-    "fileName": "ota-v38.ota",
-    "fileVersion": 38,
-    "fileSize": 277898,
-    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/ThirdReality/ota-v38.ota",
-    "imageType": 54188,
-    "manufacturerCode": 5127,
-    "sha512": "6d1187d6d8dce634ad7277735706945cf75992564af919fdad3a84953bc7825b97c886673d258725e69d4b9aeb0ebdbb42c10b5e966dcbf5bb4652645005a04e",
-    "otaHeaderString": "temp_humi_sensor\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
-  },
-  {
     "fileName": "ZigUSB_C6.ota",
     "fileVersion": 407,
     "fileSize": 416645,
@@ -7113,5 +7103,15 @@
     "sha512": "ce5794daa1db129018229d15a4c7340ff2181fdf1374a6c17b7209d2d4a9c48edd7de747298eed5ce6e4862cb7cb706feaf0dc58155984b64bdc02c3f70ff5fc",
     "otaHeaderString": "RBSH-TRV0-ZB-EU\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "modelId": "RBSH-TRV0-ZB-EU"
+  },
+  {
+    "fileName": "Zigbee_A19_Bulb_OTA_V46_1.00.46.ota",
+    "fileVersion": 46,
+    "fileSize": 279038,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/ThirdReality/Zigbee_A19_Bulb_OTA_V46_1.00.46.ota",
+    "imageType": 54188,
+    "manufacturerCode": 5127,
+    "sha512": "b8a628371a8582ff4c5c487e0b36de150de40f2abc35055e688462e7c263e4a14f872fefda9c970c7e70b634d9e9bda4b081e30da5415c5de744c16522c61734",
+    "otaHeaderString": "temp_humi_sensor\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
   }
 ]

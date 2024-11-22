@@ -1214,5 +1214,15 @@
     "sha512": "bd44eda56bd48503e922001b101522a7340d7e4b68528d3a3d1f6073492631f96e51178573fa2b00da601483b5c5c864b906f14408b0f28d008364c4b195bf52",
     "otaHeaderString": "RBSH-TRV0-ZB-EU\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "modelId": "RBSH-TRV0-ZB-EU"
+  },
+  {
+    "fileName": "ota-v38.ota",
+    "fileVersion": 38,
+    "fileSize": 277898,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/ThirdReality/ota-v38.ota",
+    "imageType": 54188,
+    "manufacturerCode": 5127,
+    "sha512": "6d1187d6d8dce634ad7277735706945cf75992564af919fdad3a84953bc7825b97c886673d258725e69d4b9aeb0ebdbb42c10b5e966dcbf5bb4652645005a04e",
+    "otaHeaderString": "temp_humi_sensor\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
   }
 ]
