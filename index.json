@@ -7113,5 +7113,15 @@
     "manufacturerCode": 5127,
     "sha512": "b8a628371a8582ff4c5c487e0b36de150de40f2abc35055e688462e7c263e4a14f872fefda9c970c7e70b634d9e9bda4b081e30da5415c5de744c16522c61734",
     "otaHeaderString": "temp_humi_sensor\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "115C-0004-11070000-ZigbeeXM_101-029_E1_DanalockV3_17.7.0_20240201155008.ota",
+    "fileVersion": 285671424,
+    "fileSize": 204522,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Danalock/115C-0004-11070000-ZigbeeXM_101-029_E1_DanalockV3_17.7.0_20240201155008.ota",
+    "imageType": 4,
+    "manufacturerCode": 4444,
+    "sha512": "9e45e56b0aef871e1280c678729fdce0a57628d40e569fbc3c26bca5acc2a5c4088a90cbd59c9b6ea378d5c450310e04766b133333b23e7b4520e5c80282e334",
+    "otaHeaderString": "Danalock V3 BTZBE XM\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
   }
 ]
