@@ -7123,5 +7123,25 @@
     "manufacturerCode": 4444,
     "sha512": "9e45e56b0aef871e1280c678729fdce0a57628d40e569fbc3c26bca5acc2a5c4088a90cbd59c9b6ea378d5c450310e04766b133333b23e7b4520e5c80282e334",
     "otaHeaderString": "Danalock V3 BTZBE XM\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "20240724195823_OTA_lumi.switch.b3n01_0.0.0_0028_20240723_6A0037.ota",
+    "fileVersion": 28,
+    "fileSize": 281808,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20240724195823_OTA_lumi.switch.b3n01_0.0.0_0028_20240723_6A0037.ota",
+    "imageType": 4108,
+    "manufacturerCode": 4447,
+    "sha512": "2f6ecd75ba984271093a3d3c6002a85776bf6c0b035c19af60530b7303c09ca4a30c00bd5d81aa69d42913c6850ac7797be2b902b966373dc381b067a6732398",
+    "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000"
+  },
+  {
+    "fileName": "20240826103128_20240723105743_OTA_lumi.switch.b2nacn01_0.0.0_0028_20240722_296A66.ota",
+    "fileVersion": 28,
+    "fileSize": 277598,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20240826103128_20240723105743_OTA_lumi.switch.b2nacn01_0.0.0_0028_20240722_296A66.ota",
+    "imageType": 396,
+    "manufacturerCode": 4447,
+    "sha512": "5605d6bb5b9c0f9a627e1b25f83abade2fd24284aa9a23435e0c39ba5d5d09ecc84dd18a55dc44013f37583f3673f46bf928e35559cca8fd7e702704986edf2f",
+    "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000"
   }
 ]
