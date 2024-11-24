@@ -7143,5 +7143,25 @@
     "manufacturerCode": 4447,
     "sha512": "5605d6bb5b9c0f9a627e1b25f83abade2fd24284aa9a23435e0c39ba5d5d09ecc84dd18a55dc44013f37583f3673f46bf928e35559cca8fd7e702704986edf2f",
     "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000"
+  },
+  {
+    "fileName": "20240722115628_OTA_lumi.plug.sacn03_0.0.0_0038_20240719_39CCF1.ota",
+    "fileVersion": 38,
+    "fileSize": 281550,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20240722115628_OTA_lumi.plug.sacn03_0.0.0_0038_20240719_39CCF1.ota",
+    "imageType": 5128,
+    "manufacturerCode": 4447,
+    "sha512": "ef8fea3c72398b645242f2da9d5ff015da5296ab714e49ba86aa7aab42897c427c735cb173555b861e59d06d5ed00fc500c3603904dea140f968ef86862e7ec7",
+    "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000"
+  },
+  {
+    "fileName": "20240722115926_OTA_lumi.plug.sacn02_0.0.0_0052_20240719_986BEB.ota",
+    "fileVersion": 52,
+    "fileSize": 280352,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20240722115926_OTA_lumi.plug.sacn02_0.0.0_0052_20240719_986BEB.ota",
+    "imageType": 140,
+    "manufacturerCode": 4447,
+    "sha512": "7400a508ca6bcd198488d9be60104b88569348c57abc339e7e815c1fa9cff7cb003dfba8062269b172f3ecd4f82dfd00836f3598d5d48cef145359ba12dcd9a8",
+    "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000"
   }
 ]
