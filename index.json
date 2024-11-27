@@ -4119,17 +4119,6 @@
     "originalUrl": "https://tr-zha.s3.amazonaws.com/z2m_firmware/TRTL_ThermalSensor_PROD_OTA_V37_v1.00.37.ota"
   },
   {
-    "fileName": "ThermalLiteSensor_PROD_OTA_V29_1.00.29.ota",
-    "fileVersion": 29,
-    "fileSize": 256174,
-    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/ThirdReality/ThermalLiteSensor_PROD_OTA_V29_1.00.29.ota",
-    "imageType": 54185,
-    "manufacturerCode": 5127,
-    "sha512": "3d450453147e414e9998cb000183a22ac6fca656a1a3e11e37b31d7c4fa1ec3f301b28d0b144301630ec33aa1f81afda56d6abfb4191f78d04cd7b9ba27b87b7",
-    "otaHeaderString": "temp_humi_sensor\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-    "originalUrl": "https://tr-zha.s3.amazonaws.com/z2m_firmware/ThermalLiteSensor_PROD_OTA_V29_1.00.29.ota"
-  },
-  {
     "fileName": "Vibrate_Sensor_PROD_OTA_V53_v1.00.53.ota",
     "fileVersion": 53,
     "fileSize": 131410,
@@ -7123,5 +7112,15 @@
     "manufacturerCode": 4444,
     "sha512": "9e45e56b0aef871e1280c678729fdce0a57628d40e569fbc3c26bca5acc2a5c4088a90cbd59c9b6ea378d5c450310e04766b133333b23e7b4520e5c80282e334",
     "otaHeaderString": "Danalock V3 BTZBE XM\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "TH_Lite_Sensor_PROD_OTA_V44_1.00.44.ota",
+    "fileVersion": 44,
+    "fileSize": 260198,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/ThirdReality/TH_Lite_Sensor_PROD_OTA_V44_1.00.44.ota",
+    "imageType": 54185,
+    "manufacturerCode": 5127,
+    "sha512": "4fe606978d4d194e775dbb144d0de92a0631a9e12cd9049b6c5a4a86152d24720e349ac59f20575386b72c63f99d7df28596bd1fab48d9c964a6661dff507019",
+    "otaHeaderString": "temp_humi_sensor\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
   }
 ]
