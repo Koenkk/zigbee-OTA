@@ -6968,16 +6968,6 @@
     "modelId": "ZigUSB_C6"
   },
   {
-    "fileName": "1141-020a-01233001-Z03MMC.zigbee",
-    "fileVersion": 19083265,
-    "fileSize": 128754,
-    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Telink/1141-020a-01233001-Z03MMC.zigbee",
-    "imageType": 522,
-    "manufacturerCode": 4417,
-    "sha512": "3e384baeddae177b638f6d191d5bcb43b3a696e6996187ca6cb8f877c099c3e316344d391cbba0dcd391261fb821c0313987cf35969b2e674a70735ac42f1133",
-    "otaHeaderString": "Telink Zigbee OTA\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
-  },
-  {
     "fileName": "128b-0002-0305-700_nodon_sin_4_2_20_fw_V0305.zigbee",
     "fileVersion": 773,
     "fileSize": 415960,
