@@ -7039,16 +7039,6 @@
     "modelId": "RBSH-TRV0-ZB-EU"
   },
   {
-    "fileName": "Zigbee_A19_Bulb_OTA_V46_1.00.46.ota",
-    "fileVersion": 46,
-    "fileSize": 279038,
-    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/ThirdReality/Zigbee_A19_Bulb_OTA_V46_1.00.46.ota",
-    "imageType": 54188,
-    "manufacturerCode": 5127,
-    "sha512": "b8a628371a8582ff4c5c487e0b36de150de40f2abc35055e688462e7c263e4a14f872fefda9c970c7e70b634d9e9bda4b081e30da5415c5de744c16522c61734",
-    "otaHeaderString": "temp_humi_sensor\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
-  },
-  {
     "fileName": "115C-0004-11070000-ZigbeeXM_101-029_E1_DanalockV3_17.7.0_20240201155008.ota",
     "fileVersion": 285671424,
     "fileSize": 204522,
@@ -7122,5 +7112,15 @@
     "sha512": "5605d6bb5b9c0f9a627e1b25f83abade2fd24284aa9a23435e0c39ba5d5d09ecc84dd18a55dc44013f37583f3673f46bf928e35559cca8fd7e702704986edf2f",
     "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000",
     "modelId": "lumi.switch.b2nacn01"
+  },
+  {
+    "fileName": "Zigbee_A19_Bulb_OTA_V48_v1.00.48.ota",
+    "fileVersion": 48,
+    "fileSize": 279346,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/ThirdReality/Zigbee_A19_Bulb_OTA_V48_v1.00.48.ota",
+    "imageType": 54188,
+    "manufacturerCode": 5127,
+    "sha512": "c42dc3a340d65609ed256f75e075faa499e3c410b1145ec8504aef5233e08d253611ccd84fe6eb75e091747e82a267fdac8d9d8b715a7fac8d5ffda5008e1ded",
+    "otaHeaderString": "temp_humi_sensor\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
   }
 ]
