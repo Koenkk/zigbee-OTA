@@ -1216,17 +1216,6 @@
     "modelId": "RBSH-TRV0-ZB-EU"
   },
   {
-    "fileName": "ThermalLiteSensor_PROD_OTA_V29_1.00.29.ota",
-    "fileVersion": 29,
-    "fileSize": 256174,
-    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/ThirdReality/ThermalLiteSensor_PROD_OTA_V29_1.00.29.ota",
-    "imageType": 54185,
-    "manufacturerCode": 5127,
-    "sha512": "3d450453147e414e9998cb000183a22ac6fca656a1a3e11e37b31d7c4fa1ec3f301b28d0b144301630ec33aa1f81afda56d6abfb4191f78d04cd7b9ba27b87b7",
-    "otaHeaderString": "temp_humi_sensor\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-    "originalUrl": "https://tr-zha.s3.amazonaws.com/z2m_firmware/ThermalLiteSensor_PROD_OTA_V29_1.00.29.ota"
-  },
-  {
     "fileName": "20231018104830_OTA_lumi.plug.macn01_0.0.0_0033_20230913_6AE20B.ota",
     "fileVersion": 33,
     "fileSize": 278846,
