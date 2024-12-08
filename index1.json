@@ -1279,5 +1279,17 @@
     "manufacturerCode": 5127,
     "sha512": "b8a628371a8582ff4c5c487e0b36de150de40f2abc35055e688462e7c263e4a14f872fefda9c970c7e70b634d9e9bda4b081e30da5415c5de744c16522c61734",
     "otaHeaderString": "temp_humi_sensor\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "zingo-lds-stoftmoln_release_prod_v65542_3388635f-aa73-40e0-8edb-50cd242b72f1.ota",
+    "fileVersion": 65542,
+    "fileSize": 212454,
+    "originalUrl": "https://fw.ota.homesmart.ikea.com/files/zingo-lds-stoftmoln_release_prod_v65542_3388635f-aa73-40e0-8edb-50cd242b72f1.ota",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/IKEA/zingo-lds-stoftmoln_release_prod_v65542_3388635f-aa73-40e0-8edb-50cd242b72f1.ota",
+    "imageType": 16645,
+    "manufacturerCode": 4476,
+    "sha512": "c86984f2b6d5657099c85e042e5c46a23089731e8ffa1db1890534da831c606b358adaf164971b7f92c1e25307b5f6afe04a1f54a25ab4e2a4561b8bcd1e9cba",
+    "otaHeaderString": "GBL 10082264-zingo-lds-stoftmoln",
+    "releaseNotes": "https://ww8.ikea.com/ikeahomesmart/releasenotes/releasenotes.html"
   }
 ]

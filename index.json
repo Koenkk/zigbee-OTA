@@ -4509,18 +4509,6 @@
     "releaseNotes": "https://ww8.ikea.com/ikeahomesmart/releasenotes/releasenotes.html"
   },
   {
-    "fileName": "zingo-lds-stoftmoln_release_prod_v65542_3388635f-aa73-40e0-8edb-50cd242b72f1.ota",
-    "fileVersion": 65542,
-    "fileSize": 212454,
-    "originalUrl": "https://fw.ota.homesmart.ikea.com/files/zingo-lds-stoftmoln_release_prod_v65542_3388635f-aa73-40e0-8edb-50cd242b72f1.ota",
-    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/IKEA/zingo-lds-stoftmoln_release_prod_v65542_3388635f-aa73-40e0-8edb-50cd242b72f1.ota",
-    "imageType": 16645,
-    "manufacturerCode": 4476,
-    "sha512": "c86984f2b6d5657099c85e042e5c46a23089731e8ffa1db1890534da831c606b358adaf164971b7f92c1e25307b5f6afe04a1f54a25ab4e2a4561b8bcd1e9cba",
-    "otaHeaderString": "GBL 10082264-zingo-lds-stoftmoln",
-    "releaseNotes": "https://ww8.ikea.com/ikeahomesmart/releasenotes/releasenotes.html"
-  },
-  {
     "fileName": "tradfri-bulb-ws-gu10_release_prod_v587757105_25ac125d-5723-4b92-aa02-404fd5008a55.ota",
     "fileVersion": 587757105,
     "fileSize": 215340,
@@ -7113,5 +7101,17 @@
     "manufacturerCode": 5127,
     "sha512": "c42dc3a340d65609ed256f75e075faa499e3c410b1145ec8504aef5233e08d253611ccd84fe6eb75e091747e82a267fdac8d9d8b715a7fac8d5ffda5008e1ded",
     "otaHeaderString": "temp_humi_sensor\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "10082264-zingo_lds_stoftmoln-1.1.7.ota.ota.signed",
+    "fileVersion": 16842759,
+    "fileSize": 287178,
+    "originalUrl": "http://fw.ota.homesmart.ikea.net/global/GW1.0/01.21.031/bin/10082264-zingo_lds_stoftmoln-1.1.7.ota.ota.signed",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/IKEA/10082264-zingo_lds_stoftmoln-1.1.7.ota.ota.signed",
+    "imageType": 16645,
+    "manufacturerCode": 4476,
+    "sha512": "c656737a4fd3464ed09d47887cde2b7390b13fe6423c06d5ceba5aa92d40dade89c49b4feabf89546585936c40543113bfcf720a4b09158e7e5fa924f7b385b8",
+    "otaHeaderString": "GBL zingo_lds_stoftmoln\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "releaseNotes": "https://ww8.ikea.com/ikeahomesmart/releasenotes/releasenotes.html"
   }
 ]
