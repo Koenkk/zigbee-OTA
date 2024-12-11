@@ -1205,17 +1205,6 @@
     "otaHeaderString": "nodon_sin_efr32_ota\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
   },
   {
-    "fileName": "0x1209_0x300a_0x35091514.ota",
-    "fileVersion": 889787668,
-    "fileSize": 166554,
-    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Bosch/0x1209_0x300a_0x35091514.ota",
-    "imageType": 12298,
-    "manufacturerCode": 4617,
-    "sha512": "bd44eda56bd48503e922001b101522a7340d7e4b68528d3a3d1f6073492631f96e51178573fa2b00da601483b5c5c864b906f14408b0f28d008364c4b195bf52",
-    "otaHeaderString": "RBSH-TRV0-ZB-EU\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-    "modelId": "RBSH-TRV0-ZB-EU"
-  },
-  {
     "fileName": "20231018104830_OTA_lumi.plug.macn01_0.0.0_0033_20230913_6AE20B.ota",
     "fileVersion": 33,
     "fileSize": 278846,
@@ -1291,5 +1280,16 @@
     "sha512": "c86984f2b6d5657099c85e042e5c46a23089731e8ffa1db1890534da831c606b358adaf164971b7f92c1e25307b5f6afe04a1f54a25ab4e2a4561b8bcd1e9cba",
     "otaHeaderString": "GBL 10082264-zingo-lds-stoftmoln",
     "releaseNotes": "https://ww8.ikea.com/ikeahomesmart/releasenotes/releasenotes.html"
+  },
+  {
+    "fileName": "ota_t0x300a_m0x1209_v0x36081514.ota",
+    "fileVersion": 906499348,
+    "fileSize": 168427,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Bosch/ota_t0x300a_m0x1209_v0x36081514.ota",
+    "imageType": 12298,
+    "manufacturerCode": 4617,
+    "sha512": "ce5794daa1db129018229d15a4c7340ff2181fdf1374a6c17b7209d2d4a9c48edd7de747298eed5ce6e4862cb7cb706feaf0dc58155984b64bdc02c3f70ff5fc",
+    "otaHeaderString": "RBSH-TRV0-ZB-EU\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "modelId": "RBSH-TRV0-ZB-EU"
   }
 ]
