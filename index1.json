@@ -1291,5 +1291,15 @@
     "sha512": "ce5794daa1db129018229d15a4c7340ff2181fdf1374a6c17b7209d2d4a9c48edd7de747298eed5ce6e4862cb7cb706feaf0dc58155984b64bdc02c3f70ff5fc",
     "otaHeaderString": "RBSH-TRV0-ZB-EU\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "modelId": "RBSH-TRV0-ZB-EU"
+  },
+  {
+    "fileName": "zbminir2_v1.0.2.ota",
+    "fileVersion": 4098,
+    "fileSize": 275788,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Sonoff/zbminir2_v1.0.2.ota",
+    "imageType": 8,
+    "manufacturerCode": 4742,
+    "sha512": "b5c5a93ab84607292248e5262ccf0b8c250326d6ed5395c0d8818697b4286df5d85567a63bad7734a959bbaf58b83f9289ff027783284b11de5dfea8a48921ba",
+    "otaHeaderString": "ota-file-test\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
   }
 ]
