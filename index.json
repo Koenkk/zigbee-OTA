@@ -3834,6 +3834,16 @@
     "otaHeaderString": "ota-file-test\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
   },
   {
+    "fileName": "zbminir2_v1.0.2.ota",
+    "fileVersion": 4098,
+    "fileSize": 275788,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sonoff/zbminir2_v1.0.2.ota",
+    "imageType": 8,
+    "manufacturerCode": 4742,
+    "sha512": "b5c5a93ab84607292248e5262ccf0b8c250326d6ed5395c0d8818697b4286df5d85567a63bad7734a959bbaf58b83f9289ff027783284b11de5dfea8a48921ba",
+    "otaHeaderString": "ota-file-test\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
     "fileName": "zbswv_v1.0.4.ota",
     "fileVersion": 4100,
     "fileSize": 272354,
@@ -7104,15 +7114,5 @@
     "otaHeaderString": "RBSH-TRV0-ZB-EU\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "modelId": "RBSH-TRV0-ZB-EU",
     "releaseNotes": "1. Fix error E03, which can happen on some radiators after some time"
-  },
-  {
-    "fileName": "zbminir2_v1.0.4.ota",
-    "fileVersion": 4100,
-    "fileSize": 276694,
-    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sonoff/zbminir2_v1.0.4.ota",
-    "imageType": 8,
-    "manufacturerCode": 4742,
-    "sha512": "66b781d8aa2bf5f6cdae2679382bce99b73887f1588008c7d43b9a4ff5ba284463206354b4b8dc01b0a916887c05619350b73ae68c4d1db7a1c76afc1d9975f3",
-    "otaHeaderString": "ota-file-test\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
   }
 ]
