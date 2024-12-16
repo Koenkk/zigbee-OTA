@@ -1301,5 +1301,25 @@
     "manufacturerCode": 4742,
     "sha512": "b5c5a93ab84607292248e5262ccf0b8c250326d6ed5395c0d8818697b4286df5d85567a63bad7734a959bbaf58b83f9289ff027783284b11de5dfea8a48921ba",
     "otaHeaderString": "ota-file-test\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "zb_wb_msw4_mg21_063.ota",
+    "fileVersion": 63,
+    "fileSize": 225738,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Sprut.device/zb_wb_msw4_mg21_063.ota",
+    "imageType": 15,
+    "manufacturerCode": 26214,
+    "sha512": "0cfc487b13ba17154473622e6cbcc710dd173549803e41cbd7dd260486467e95cb93b5ebf34172456c8bb67ad706d3b95a36d4d7357614b6a7103623ae3403a8",
+    "otaHeaderString": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "zb_wb_msw4_mgm21_063.ota",
+    "fileVersion": 63,
+    "fileSize": 267118,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Sprut.device/zb_wb_msw4_mgm21_063.ota",
+    "imageType": 13,
+    "manufacturerCode": 26214,
+    "sha512": "e6bbf566a764fa54292067ab375bd8f0490dcc9520df3b1540094c2b7c0983084b11b520136ec2ad15d363726a1deb4980c0f37987bad4bb8a1b9b530f08ec3d",
+    "otaHeaderString": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
   }
 ]
