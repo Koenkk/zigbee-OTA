@@ -1301,5 +1301,16 @@
     "manufacturerCode": 4742,
     "sha512": "b5c5a93ab84607292248e5262ccf0b8c250326d6ed5395c0d8818697b4286df5d85567a63bad7734a959bbaf58b83f9289ff027783284b11de5dfea8a48921ba",
     "otaHeaderString": "ota-file-test\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "Vibrate_Sensor_PROD_OTA_V53_v1.00.53.ota",
+    "fileVersion": 53,
+    "fileSize": 131410,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/ThirdReality/Vibrate_Sensor_PROD_OTA_V53_v1.00.53.ota",
+    "imageType": 54187,
+    "manufacturerCode": 4659,
+    "sha512": "481973197ae906755c6b1a2991e1984071a4534df02424f9020632b4a1a42a79aa0414d2a785f5dd34166f15c10a7d77f2e0e13352f1afa652e55f02f869d5a3",
+    "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "originalUrl": "https://tr-zha.s3.amazonaws.com/z2m_firmware/Vibrate_Sensor_PROD_OTA_V53_v1.00.53.ota"
   }
 ]
