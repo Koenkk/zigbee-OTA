@@ -1302,5 +1302,16 @@
     "sha512": "481973197ae906755c6b1a2991e1984071a4534df02424f9020632b4a1a42a79aa0414d2a785f5dd34166f15c10a7d77f2e0e13352f1afa652e55f02f869d5a3",
     "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "originalUrl": "https://tr-zha.s3.amazonaws.com/z2m_firmware/Vibrate_Sensor_PROD_OTA_V53_v1.00.53.ota"
+  },
+  {
+    "fileName": "SmartSwitchGen3_PROD_OTA_V29_v1.00.29.ota",
+    "fileVersion": 29,
+    "fileSize": 134898,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/ThirdReality/SmartSwitchGen3_PROD_OTA_V29_v1.00.29.ota",
+    "imageType": 54181,
+    "manufacturerCode": 4659,
+    "sha512": "39f22a3ef9eac451b9dde671650db324082af90452bc39c1184fe22cdbde02d89efdebf401a2ede487e15a9ef333e71f3792d3470da3aa040a1921ff24e520ba",
+    "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "originalUrl": "https://tr-zha.s3.amazonaws.com/z2m_firmware/SmartSwitchGen3_PROD_OTA_V29_v1.00.29.ota"
   }
 ]
