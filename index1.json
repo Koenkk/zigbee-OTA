@@ -1324,5 +1324,20 @@
     "sha512": "fb5b099839d09235929122c113d5af7311ce35afa54b8032d3a5b2d06746c673d2ba27556a2df6dfc9afc8df2c098696cb6f449cdec2869d6c45a8523a5568d6",
     "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "originalUrl": "https://tr-zha.s3.amazonaws.com/z2m_firmware/SmartPlug_Zigbee_PROD_OTA_V88_v1.00.88.ota"
+  },
+  {
+    "fileName": "jethome_zigbee_release_13_zigbee.ota.zigbee",
+    "fileVersion": 13,
+    "fileSize": 160226,
+    "originalUrl": "https://fw.jethome.ru/media/firmwares/jethome/zigbee/release/13/jethome_zigbee_release_13_zigbee.ota.zigbee",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/JetHome/jethome_zigbee_release_13_zigbee.ota.zigbee",
+    "imageType": 61441,
+    "manufacturerCode": 61731,
+    "sha512": "d2d185fc25b28d8e5ed4323550e630e5ada864add2bafc805b07113d9df9c95b7c37047e535784c0277f4fd5e9d9f06d91a558e4fc2a04080b2d85f9a1999a19",
+    "otaHeaderString": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "JetHome"
+    ],
+    "releaseNotes": "https://fw.jethome.ru/devices/jethome/WS7/fw/release/latest/CHANGELOG.md"
   }
 ]
