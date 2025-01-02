@@ -2578,17 +2578,6 @@
     "modelId": "lumi.switch.n4acn4"
   },
   {
-    "fileName": "20240111171722_OTA_lumi.switch.acn047__20240110_EC6C1F.ota",
-    "fileVersion": 30,
-    "fileSize": 411786,
-    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20240111171722_OTA_lumi.switch.acn047__20240110_EC6C1F.ota",
-    "imageType": 6416,
-    "manufacturerCode": 4447,
-    "sha512": "bed1de09ca57d6f9d04e2503fe52c79db4d1daf9706c9f169507897609853cacc45c875860bb6853bfde7226ef0da861dba952c9e2b177e90b31002bf0e4daeb",
-    "otaHeaderString": "Aqara OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-    "modelId": "lumi.switch.acn047"
-  },
-  {
     "fileName": "20240112203928_lumi.switch.n0agl1_0.0.0.0030_20240112_C892CC.ota",
     "fileVersion": 30,
     "fileSize": 288146,
@@ -7101,5 +7090,18 @@
       "JetHome"
     ],
     "releaseNotes": "https://fw.jethome.ru/devices/jethome/WS7/fw/release/latest/CHANGELOG.md"
+  },
+  {
+    "fileName": "20240830115847_OTA_lumi.switch.acn047_0.0.0_0032_20240823_D8294E.ota",
+    "fileVersion": 32,
+    "fileSize": 597122,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.switch.acn047/20240830115847_OTA_lumi.switch.acn047_0.0.0_0032_20240823_D8294E.ota",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20240830115847_OTA_lumi.switch.acn047_0.0.0_0032_20240823_D8294E.ota",
+    "imageType": 6416,
+    "manufacturerCode": 4447,
+    "sha512": "a135dcf96e1086d30e945cb3b40885fce60840b98ca6dee595dbed97e702e3583336d21948a19f37d20a942ac9daa84abc57da39465611ff86628d825ce6f5c0",
+    "otaHeaderString": "Aqara OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "modelId": "lumi.switch.acn047",
+    "releaseNotes": "1.Fix known bugs"
   }
 ]
