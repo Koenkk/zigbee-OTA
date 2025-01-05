@@ -4253,18 +4253,6 @@
     "releaseNotes": "https://ww8.ikea.com/ikeahomesmart/releasenotes/releasenotes.html"
   },
   {
-    "fileName": "tradfri-motion-sensor_release_prod_v604241925_e006dcd0-d37e-49db-9a61-6575cb5c44d3.ota",
-    "fileVersion": 604241925,
-    "fileSize": 214316,
-    "originalUrl": "https://fw.ota.homesmart.ikea.com/files/tradfri-motion-sensor_release_prod_v604241925_e006dcd0-d37e-49db-9a61-6575cb5c44d3.ota",
-    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/IKEA/tradfri-motion-sensor_release_prod_v604241925_e006dcd0-d37e-49db-9a61-6575cb5c44d3.ota",
-    "imageType": 4548,
-    "manufacturerCode": 4476,
-    "sha512": "5d45e96a80e97edc003246ff01d9b4e5b66a8da688adf4099d07a4caca3d6c913ef64a6796d5e0be952d82c33cd0b9ccae839615f07a16ab755d676e9afe0c0d",
-    "otaHeaderString": "EBL tradfri_motion_sensor\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-    "releaseNotes": "https://ww8.ikea.com/ikeahomesmart/releasenotes/releasenotes.html"
-  },
-  {
     "fileName": "tradfri-driver-lp_release_prod_v587757105_b28cda41-22d2-446b-b3bf-5ca11d866719.ota",
     "fileVersion": 587757105,
     "fileSize": 215596,
