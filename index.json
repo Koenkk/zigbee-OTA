@@ -7091,5 +7091,16 @@
     "otaHeaderString": "Aqara OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "modelId": "lumi.switch.acn047",
     "releaseNotes": "1.Fix known bugs"
+  },
+  {
+    "fileName": "1141-0208-01233001-ZMHOC401N.zigbee",
+    "fileVersion": 19083265,
+    "fileSize": 128690,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Telink/1141-0208-01233001-ZMHOC401N.zigbee",
+    "imageType": 520,
+    "manufacturerCode": 4417,
+    "sha512": "4db812502a8043c85eaa86f53dfc0a8857dd5cde23e5f55dd84bf4a6072f5b37f9de6a0cf4fca4b1b0c74ae91e5d9d92f3a7edcd6c21dde6923d81d2e7d56f3e",
+    "otaHeaderString": "ZigbeeTLc OTA\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "modelId": "MHO-C401N"
   }
 ]
