@@ -4011,17 +4011,6 @@
     "originalUrl": "https://tr-zha.s3.amazonaws.com/z2m_firmware/TRTL_ThermalSensor_PROD_OTA_V37_v1.00.37.ota"
   },
   {
-    "fileName": "ThermalLiteSensor_PROD_OTA_V29_1.00.29.ota",
-    "fileVersion": 29,
-    "fileSize": 256174,
-    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/ThirdReality/ThermalLiteSensor_PROD_OTA_V29_1.00.29.ota",
-    "imageType": 54185,
-    "manufacturerCode": 5127,
-    "sha512": "3d450453147e414e9998cb000183a22ac6fca656a1a3e11e37b31d7c4fa1ec3f301b28d0b144301630ec33aa1f81afda56d6abfb4191f78d04cd7b9ba27b87b7",
-    "otaHeaderString": "temp_humi_sensor\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-    "originalUrl": "https://tr-zha.s3.amazonaws.com/z2m_firmware/ThermalLiteSensor_PROD_OTA_V29_1.00.29.ota"
-  },
-  {
     "fileName": "Water_Leak_Sensor_PROD_OTA_V66_v1.00.66.ota",
     "fileVersion": 66,
     "fileSize": 133234,
@@ -7101,6 +7090,16 @@
     "imageType": 54188,
     "manufacturerCode": 5127,
     "sha512": "4481f292368d350836798cd3c97e226d111ec31e994729896890aa87dbd75a574255600cd87ad8b117a8f3a6ce1dde3634ad9210db94e453d66e50cfe4e8db08",
+    "otaHeaderString": "temp_humi_sensor\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "ThermalLiteSensor_PROD_OTA_V47_1.00.47.ota",
+    "fileVersion": 47,
+    "fileSize": 260114,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/ThirdReality/ThermalLiteSensor_PROD_OTA_V47_1.00.47.ota",
+    "imageType": 54185,
+    "manufacturerCode": 5127,
+    "sha512": "201a261cb9a70b40643372b947ce834816a61fe403679126f17fdb70f169da6915a89732b81bda87645d8d1a42638d59c35db6e8530fd8865231eccc4e586c4b",
     "otaHeaderString": "temp_humi_sensor\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
   }
 ]
