@@ -7101,5 +7101,16 @@
     "manufacturerCode": 5127,
     "sha512": "201a261cb9a70b40643372b947ce834816a61fe403679126f17fdb70f169da6915a89732b81bda87645d8d1a42638d59c35db6e8530fd8865231eccc4e586c4b",
     "otaHeaderString": "temp_humi_sensor\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "VZM30-SN_0.03.ota",
+    "fileVersion": 17825795,
+    "fileSize": 228406,
+    "originalUrl": "https://files.inovelli.com/firmware/VZM30-SN/Beta/0.03/VZM30-SN_0.03.ota",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Inovelli/VZM30-SN_0.03.ota",
+    "imageType": 272,
+    "manufacturerCode": 4655,
+    "sha512": "e3e4d75124c74d0595af42e9371b590098d63e86bbda515ca9a309c39894388d8fcf378969c1038d57806809464aa8a975e4f32a18d1f6836605252b58f1a9ea",
+    "otaHeaderString": "VZM30-SN_OnOff\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
   }
 ]
