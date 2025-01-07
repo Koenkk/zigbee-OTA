@@ -10,8 +10,8 @@ permissions:
 
 # Limit concurrency per branch to prevent push issues.
 concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: false
+    group: ${{ github.workflow }}-${{ github.ref }}
+    cancel-in-progress: false
 
 jobs:
     update-manifests:

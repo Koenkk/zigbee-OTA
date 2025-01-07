@@ -186,7 +186,11 @@ export async function getText(manufacturer: string, pageUrl: string): Promise<st
     return await response.text();
 }
 
-export function getLatestImage<T>(list: T[], compareFn: (a: T, b: T) => number): T | undefined {
+export function getLatestImage<T>(list: T[] | undefined, compareFn: (a: T, b: T) => number): T | undefined {
+    if (!list) {
+        return undefined;
+    }
+
     const sortedList = list.sort(compareFn);
 
     return sortedList.slice(0, sortedList.length > 1 && process.env.PREV ? -1 : undefined).pop();
