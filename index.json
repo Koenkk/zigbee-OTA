@@ -6991,16 +6991,6 @@
     "modelId": "lumi.switch.b2nacn01"
   },
   {
-    "fileName": "Zigbee_A19_Bulb_OTA_V48_v1.00.48.ota",
-    "fileVersion": 48,
-    "fileSize": 279346,
-    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/ThirdReality/Zigbee_A19_Bulb_OTA_V48_v1.00.48.ota",
-    "imageType": 54188,
-    "manufacturerCode": 5127,
-    "sha512": "c42dc3a340d65609ed256f75e075faa499e3c410b1145ec8504aef5233e08d253611ccd84fe6eb75e091747e82a267fdac8d9d8b715a7fac8d5ffda5008e1ded",
-    "otaHeaderString": "temp_humi_sensor\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
-  },
-  {
     "fileName": "10082264-zingo_lds_stoftmoln-1.1.7.ota.ota.signed",
     "fileVersion": 16842759,
     "fileSize": 287178,
@@ -7102,5 +7092,15 @@
     "sha512": "4db812502a8043c85eaa86f53dfc0a8857dd5cde23e5f55dd84bf4a6072f5b37f9de6a0cf4fca4b1b0c74ae91e5d9d92f3a7edcd6c21dde6923d81d2e7d56f3e",
     "otaHeaderString": "ZigbeeTLc OTA\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "modelId": "MHO-C401N"
+  },
+  {
+    "fileName": "Zigbee_A19_Bulb_OTA_V56_1.00.56.ota",
+    "fileVersion": 56,
+    "fileSize": 283666,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/ThirdReality/Zigbee_A19_Bulb_OTA_V56_1.00.56.ota",
+    "imageType": 54188,
+    "manufacturerCode": 5127,
+    "sha512": "4481f292368d350836798cd3c97e226d111ec31e994729896890aa87dbd75a574255600cd87ad8b117a8f3a6ce1dde3634ad9210db94e453d66e50cfe4e8db08",
+    "otaHeaderString": "temp_humi_sensor\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
   }
 ]
