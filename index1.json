@@ -1350,16 +1350,5 @@
     "manufacturerCode": 5127,
     "sha512": "c42dc3a340d65609ed256f75e075faa499e3c410b1145ec8504aef5233e08d253611ccd84fe6eb75e091747e82a267fdac8d9d8b715a7fac8d5ffda5008e1ded",
     "otaHeaderString": "temp_humi_sensor\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
-  },
-  {
-    "fileName": "ThermalLiteSensor_PROD_OTA_V29_1.00.29.ota",
-    "fileVersion": 29,
-    "fileSize": 256174,
-    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/ThirdReality/ThermalLiteSensor_PROD_OTA_V29_1.00.29.ota",
-    "imageType": 54185,
-    "manufacturerCode": 5127,
-    "sha512": "3d450453147e414e9998cb000183a22ac6fca656a1a3e11e37b31d7c4fa1ec3f301b28d0b144301630ec33aa1f81afda56d6abfb4191f78d04cd7b9ba27b87b7",
-    "otaHeaderString": "temp_humi_sensor\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-    "originalUrl": "https://tr-zha.s3.amazonaws.com/z2m_firmware/ThermalLiteSensor_PROD_OTA_V29_1.00.29.ota"
   }
 ]
