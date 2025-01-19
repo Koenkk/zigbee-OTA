@@ -1370,5 +1370,17 @@
     "manufacturerCode": 26214,
     "sha512": "e6bbf566a764fa54292067ab375bd8f0490dcc9520df3b1540094c2b7c0983084b11b520136ec2ad15d363726a1deb4980c0f37987bad4bb8a1b9b530f08ec3d",
     "otaHeaderString": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "zingo-cws_release_prod_v16777272_89b37a10-683a-4183-9ed7-4973bc34994b.ota",
+    "fileVersion": 16777272,
+    "fileSize": 334450,
+    "originalUrl": "https://fw.ota.homesmart.ikea.com/files/zingo-cws_release_prod_v16777272_89b37a10-683a-4183-9ed7-4973bc34994b.ota",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/IKEA/zingo-cws_release_prod_v16777272_89b37a10-683a-4183-9ed7-4973bc34994b.ota",
+    "imageType": 10245,
+    "manufacturerCode": 4476,
+    "sha512": "c1de6f1b87ecd9b973af6b345749148bebd76ec7e8dd0a9f207ebd90eb4e30bde54aee407972e047d959982cd39c834867bba07318b1ca607871a870d4178f90",
+    "otaHeaderString": "GBL zingo_cws\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "releaseNotes": "https://ww8.ikea.com/ikeahomesmart/releasenotes/releasenotes.html"
   }
 ]

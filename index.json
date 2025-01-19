@@ -4545,18 +4545,6 @@
     "releaseNotes": "https://ww8.ikea.com/ikeahomesmart/releasenotes/releasenotes.html"
   },
   {
-    "fileName": "zingo-cws_release_prod_v16777272_89b37a10-683a-4183-9ed7-4973bc34994b.ota",
-    "fileVersion": 16777272,
-    "fileSize": 334450,
-    "originalUrl": "https://fw.ota.homesmart.ikea.com/files/zingo-cws_release_prod_v16777272_89b37a10-683a-4183-9ed7-4973bc34994b.ota",
-    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/IKEA/zingo-cws_release_prod_v16777272_89b37a10-683a-4183-9ed7-4973bc34994b.ota",
-    "imageType": 10245,
-    "manufacturerCode": 4476,
-    "sha512": "c1de6f1b87ecd9b973af6b345749148bebd76ec7e8dd0a9f207ebd90eb4e30bde54aee407972e047d959982cd39c834867bba07318b1ca607871a870d4178f90",
-    "otaHeaderString": "GBL zingo_cws\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-    "releaseNotes": "https://ww8.ikea.com/ikeahomesmart/releasenotes/releasenotes.html"
-  },
-  {
     "fileName": "tradfri-bulb-ws-e14_release_prod_v587757105_963ac72a-97be-4f7e-b12c-46759bb91d6e.ota",
     "fileVersion": 587757105,
     "fileSize": 215596,
@@ -7113,5 +7101,17 @@
     "manufacturerCode": 26214,
     "sha512": "ff1df29fbfcf62cbce4608243600598fcf1066ed573efcf1d40a1717a0c06ea1e0d59f606e3d03429ef769776f29f6f01111c662561fe51fae2f9b4844d88cc7",
     "otaHeaderString": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "zingo_cws-0x2805-1.0.44-prod.ota.ota.signed",
+    "fileVersion": 16777284,
+    "fileSize": 335354,
+    "originalUrl": "http://fw.ota.homesmart.ikea.net/global/GW1.0/01.21.031/bin/zingo_cws-0x2805-1.0.44-prod.ota.ota.signed",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/IKEA/zingo_cws-0x2805-1.0.44-prod.ota.ota.signed",
+    "imageType": 10245,
+    "manufacturerCode": 4476,
+    "sha512": "c41e5f5c5caba112c83765055ace9794c2a53f92a7574727d94cfcef353abf6c84e69d53ffbeedb9d83205d534a272d34b9311a6d19e62a6e0cd19d7070af292",
+    "otaHeaderString": "GBL zingo_cws\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "releaseNotes": "https://ww8.ikea.com/ikeahomesmart/releasenotes/releasenotes.html"
   }
 ]
