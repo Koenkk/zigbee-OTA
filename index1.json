@@ -1382,5 +1382,15 @@
     "sha512": "c1de6f1b87ecd9b973af6b345749148bebd76ec7e8dd0a9f207ebd90eb4e30bde54aee407972e047d959982cd39c834867bba07318b1ca607871a870d4178f90",
     "otaHeaderString": "GBL zingo_cws\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "releaseNotes": "https://ww8.ikea.com/ikeahomesmart/releasenotes/releasenotes.html"
+  },
+  {
+    "fileName": "1402769-Firmware-35.ota",
+    "fileVersion": 2,
+    "fileSize": 286646,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Namron/1402769-Firmware-35.ota",
+    "imageType": 1000,
+    "manufacturerCode": 4714,
+    "sha512": "524608958eb54909a76e5a555b18a34ac4917d504b48bdf6593898213f8aec1ae814d8e0270ebe7f983fb8c73f78a5afc7390e98e07f86ec6b2a9df7f4a9eaba",
+    "otaHeaderString": "EBL D581_ZG\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
   }
 ]
