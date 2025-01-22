@@ -7113,5 +7113,45 @@
     "sha512": "c41e5f5c5caba112c83765055ace9794c2a53f92a7574727d94cfcef353abf6c84e69d53ffbeedb9d83205d534a272d34b9311a6d19e62a6e0cd19d7070af292",
     "otaHeaderString": "GBL zingo_cws\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "releaseNotes": "https://ww8.ikea.com/ikeahomesmart/releasenotes/releasenotes.html"
+  },
+  {
+    "fileName": "128b-2002-040300-700_p2022_HSP_tphu_fw_efr32_V040300.zigbee",
+    "fileVersion": 262912,
+    "fileSize": 292140,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/NodOn/128b-2002-040300-700_p2022_HSP_tphu_fw_efr32_V040300.zigbee",
+    "imageType": 8194,
+    "manufacturerCode": 4747,
+    "sha512": "ef49e08f08c592887d2cbc24ca95c3e9ee8e9396be1e32dec66b919075b302680954383eb2465da9023faf7ab88078884b9d8cd59d17c8261a4cf4e05ce4e428",
+    "otaHeaderString": "p2022_HSP_tphu_fw_efr32\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "128b-2003-040300-700_p2022_HSP_do_fw_efr32_V040300.zigbee",
+    "fileVersion": 262912,
+    "fileSize": 289364,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/NodOn/128b-2003-040300-700_p2022_HSP_do_fw_efr32_V040300.zigbee",
+    "imageType": 8195,
+    "manufacturerCode": 4747,
+    "sha512": "aa642f6949ae15848a2ce0ba5f46867caf6dda4e04d46e116fd5df0cf7d7db324d0150cfd3ee43db0245e491756c100051217e5aba4c8c5709780c2c2f9378ad",
+    "otaHeaderString": "p2022_HSP_do_fw_efr32\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "128b-2004-040300-700_p2022_HSP_dc_fw_efr32_V040300.zigbee",
+    "fileVersion": 262912,
+    "fileSize": 289288,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/NodOn/128b-2004-040300-700_p2022_HSP_dc_fw_efr32_V040300.zigbee",
+    "imageType": 8196,
+    "manufacturerCode": 4747,
+    "sha512": "11344fa4dce9633aba9a83a49d48fea2cd1f7aa0c9622e783bd3df345b41b564bd9db0c600845a69170c59e1c1c1f37416cf429c7257e58cd942033ecb6fd995",
+    "otaHeaderString": "p2022_HSP_dc_fw_efr32\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "128b-4002-010600-nodon_irb-4-1-00_fw_V010600.zigbee",
+    "fileVersion": 17197616,
+    "fileSize": 155734,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/NodOn/128b-4002-010600-nodon_irb-4-1-00_fw_V010600.zigbee",
+    "imageType": 16386,
+    "manufacturerCode": 4747,
+    "sha512": "d2a350be20dd1d3c46a1d26d505b6dbbe5c6fd0894d048f99cd09946ed109163bab8883cded8a9882af6f19dff726232cc2c1066b26ea98b131b7b4d53d9d717",
+    "otaHeaderString": "EBL Remotec_IR\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
   }
 ]
