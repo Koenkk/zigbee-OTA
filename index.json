@@ -2160,17 +2160,6 @@
     "modelId": "lumi.light.aqcn02"
   },
   {
-    "fileName": "20220422195003_lumi.curtain.acn003_Multi_JN5189_FMSH_0.0.0_2424_20220422_1aa302.ota",
-    "fileVersion": 6168,
-    "fileSize": 288213,
-    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20220422195003_lumi.curtain.acn003_Multi_JN5189_FMSH_0.0.0_2424_20220422_1aa302.ota",
-    "imageType": 4105,
-    "manufacturerCode": 4447,
-    "sha512": "0d1bae25759420898d381b98e97858d2e47f48cd3495abd8754661d0e1957eb5b570a2ae7435acc435d5a18665409e07148abae6f1f4a190c9af786d94ec725d",
-    "otaHeaderString": "CURTAIN-OCC-JN5189---ENCRYPTED00",
-    "modelId": "lumi.curtain.acn003"
-  },
-  {
     "fileName": "20220506181329_lumi.curtain.agl001_Multi_JN5189_FMSH_0.0.0_2424_20220422_1aa302.ota",
     "fileVersion": 6168,
     "fileSize": 288213,
@@ -7153,5 +7142,18 @@
     "manufacturerCode": 4747,
     "sha512": "d2a350be20dd1d3c46a1d26d505b6dbbe5c6fd0894d048f99cd09946ed109163bab8883cded8a9882af6f19dff726232cc2c1066b26ea98b131b7b4d53d9d717",
     "otaHeaderString": "EBL Remotec_IR\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "20240620152417_lumi.curtain.acn003_Multi_JN5189_FMSH_0.0.0_3331_20240613_792592.ota",
+    "fileVersion": 8479,
+    "fileSize": 296034,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.curtain.acn003/20240620152417_lumi.curtain.acn003_Multi_JN5189_FMSH_0.0.0_3331_20240613_792592.ota",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20240620152417_lumi.curtain.acn003_Multi_JN5189_FMSH_0.0.0_3331_20240613_792592.ota",
+    "imageType": 4105,
+    "manufacturerCode": 4447,
+    "sha512": "6491f7755f15ff586607f10530051b70fa6cdde4ce7285dc05aa06a59a2e206dd1c8d62cc2c838fc98dab5266e6f526c1d6d87e0329d06495831c4a3130c6e98",
+    "otaHeaderString": "CURTAIN-OCC-JN5189---ENCRYPTED00",
+    "modelId": "lumi.curtain.acn003",
+    "releaseNotes": "Fix known bugs"
   }
 ]

@@ -1392,5 +1392,16 @@
     "manufacturerCode": 4714,
     "sha512": "524608958eb54909a76e5a555b18a34ac4917d504b48bdf6593898213f8aec1ae814d8e0270ebe7f983fb8c73f78a5afc7390e98e07f86ec6b2a9df7f4a9eaba",
     "otaHeaderString": "EBL D581_ZG\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "20220422195003_lumi.curtain.acn003_Multi_JN5189_FMSH_0.0.0_2424_20220422_1aa302.ota",
+    "fileVersion": 6168,
+    "fileSize": 288213,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Lumi/20220422195003_lumi.curtain.acn003_Multi_JN5189_FMSH_0.0.0_2424_20220422_1aa302.ota",
+    "imageType": 4105,
+    "manufacturerCode": 4447,
+    "sha512": "0d1bae25759420898d381b98e97858d2e47f48cd3495abd8754661d0e1957eb5b570a2ae7435acc435d5a18665409e07148abae6f1f4a190c9af786d94ec725d",
+    "otaHeaderString": "CURTAIN-OCC-JN5189---ENCRYPTED00",
+    "modelId": "lumi.curtain.acn003"
   }
 ]
