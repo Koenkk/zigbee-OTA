@@ -466,16 +466,6 @@
     "otaHeaderString": "EBL D581_ZG\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
   },
   {
-    "fileName": "Zigbee_Dimmer_1_Gang.ota",
-    "fileVersion": 10,
-    "fileSize": 287022,
-    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/EcoDim/Zigbee_Dimmer_1_Gang.ota",
-    "imageType": 44,
-    "manufacturerCode": 4714,
-    "sha512": "327e1afaec8baf9d367c5cd43d3dcda80e6014e56a3e400a9094249dd74e1eb2354b7106dd119b3eb661e9051cf64a2f9273a66ba0f089f7374eacb410a749bf",
-    "otaHeaderString": "EBL Zigbee_Dimmer_1_Gang\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
-  },
-  {
     "fileName": "GL-B-007P_V17_OTAV7_20210305_100%.ota",
     "fileVersion": 7,
     "fileSize": 291702,
@@ -7155,5 +7145,15 @@
     "otaHeaderString": "CURTAIN-OCC-JN5189---ENCRYPTED00",
     "modelId": "lumi.curtain.acn003",
     "releaseNotes": "Fix known bugs"
+  },
+  {
+    "fileName": "4512751-v3.12.ota",
+    "fileVersion": 30,
+    "fileSize": 241886,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Namron/4512751-v3.12.ota",
+    "imageType": 44,
+    "manufacturerCode": 4714,
+    "sha512": "67daf88c5c9cfb2f631864a9d40238049a34e09a61162d45c730b199bcd9537e38a4852881ae00eb23b3ea65c769d1dfe59e9365bd5e674ccc29d340e9e36b98",
+    "otaHeaderString": "EBL Shyugj_Dimmer_mg22_ext_flash"
   }
 ]
