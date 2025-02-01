@@ -462,6 +462,7 @@ describe('Github Workflow: Re-Process All Images', () => {
                         ok: fetchReturnedStatus.ok,
                         status: fetchReturnedStatus.status,
                         body: fetchReturnedStatus.body,
+                        // @ts-expect-error Buffer <> ArrayBuffer (props not used)
                         arrayBuffer: (): ArrayBuffer => readFileSync(getImageOriginalDirPath((input as string).split('/').pop()!)),
                     };
                 },
@@ -762,6 +763,7 @@ describe('Github Workflow: Re-Process All Images', () => {
                         ok: fetchReturnedStatus.ok,
                         status: fetchReturnedStatus.status,
                         body: fetchReturnedStatus.body,
+                        // @ts-expect-error Buffer <> ArrayBuffer (props not used)
                         arrayBuffer: (): ArrayBuffer => readFileSync(getImageOriginalDirPath(fileName)),
                     };
                 },
