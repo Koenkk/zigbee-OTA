@@ -134,6 +134,7 @@ describe('Process Firmware Image', () => {
                     ok: fetchReturnedStatus.ok,
                     status: fetchReturnedStatus.status,
                     body: fetchReturnedStatus.body,
+                    // @ts-expect-error Buffer <> ArrayBuffer (props not used)
                     arrayBuffer: (): ArrayBuffer => readFileSync(getImageOriginalDirPath(input as string)),
                 };
             },

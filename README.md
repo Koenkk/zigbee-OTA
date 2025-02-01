@@ -78,18 +78,18 @@ Any field not in this list will be ignored. Any field not matching the required 
 
 ###### To place restrictions
 
--   "force": boolean _(ignore `fileVersion` and always present as 'available')_
--   "hardwareVersionMax": number
--   "hardwareVersionMin": number
--   "manufacturerName": array of strings _(target only devices with one of these manufacturer names)_
--   "maxFileVersion": number _(target only devices with this version or below)_
--   "minFileVersion": number _(target only devices with this version or above)_
--   "modelId": string _(target only devices with this model ID)_
+- "force": boolean _(ignore `fileVersion` and always present as 'available')_
+- "hardwareVersionMax": number
+- "hardwareVersionMin": number
+- "manufacturerName": array of strings _(target only devices with one of these manufacturer names)_
+- "maxFileVersion": number _(target only devices with this version or below)_
+- "minFileVersion": number _(target only devices with this version or above)_
+- "modelId": string _(target only devices with this model ID)_
 
 ###### For record purpose
 
--   "originalUrl": string
--   "releaseNotes": string
+- "originalUrl": string
+- "releaseNotes": string
 
 If the pull request contains multiple files, the metadata is added for all files. If some files require different metadata, add the matching `fileName` to the JSON using an encompassing array instead. It will be used to assign metadata as directed.
 
@@ -114,8 +114,8 @@ Example:
 
 ### Notes for maintainers & developers
 
--   `images` and `index.json` contain added (PR or auto download) "upgrade" images.
--   `images1` and `index1.json` contain automatically archived "downgrade" images (automatically moved from `images`/`index.json` after a merged PR introduced a newer version, or during auto download).
+- `images` and `index.json` contain added (PR or auto download) "upgrade" images.
+- `images1` and `index1.json` contain automatically archived "downgrade" images (automatically moved from `images`/`index.json` after a merged PR introduced a newer version, or during auto download).
 
 If a manual modification of the manifests is necessary, it should be done in a PR that does not trigger the `update_ota_pr` workflow (no changes in `images/**` directory). As a last resort, the label `ignore-ota-workflow` can be added to prevent the workflow from running.
 
