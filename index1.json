@@ -1403,5 +1403,65 @@
     "sha512": "0d1bae25759420898d381b98e97858d2e47f48cd3495abd8754661d0e1957eb5b570a2ae7435acc435d5a18665409e07148abae6f1f4a190c9af786d94ec725d",
     "otaHeaderString": "CURTAIN-OCC-JN5189---ENCRYPTED00",
     "modelId": "lumi.curtain.acn003"
+  },
+  {
+    "fileName": "app_innr-sp240-1.7.23_UG.ota",
+    "fileVersion": 387397253,
+    "fileSize": 286994,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Innr/app_innr-sp240-1.7.23_UG.ota",
+    "imageType": 817,
+    "manufacturerCode": 4454,
+    "sha512": "a7044704820e536124ceff7c4f7b6df30152939b9bb9cd9ae1498f3bc69554088cf738da10f67bf9722ee8d100b40930953ba08df0a388b376bf47226f2a5e2b",
+    "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "app_innr-sp242-1.7.23_UG.ota",
+    "fileVersion": 387397253,
+    "fileSize": 286994,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Innr/app_innr-sp242-1.7.23_UG.ota",
+    "imageType": 818,
+    "manufacturerCode": 4454,
+    "sha512": "b849dca38de83c7722c0f018ae15b38e210e091efd212dda30387f57fe5c1b742a49473c911b798bfd641c16253eb30a158d932791729110d418bcf629900da0",
+    "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "app_innr-sp244-1.7.23_UG.ota",
+    "fileVersion": 387397253,
+    "fileSize": 286994,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Innr/app_innr-sp244-1.7.23_UG.ota",
+    "imageType": 819,
+    "manufacturerCode": 4454,
+    "sha512": "203260b7fd8f5749fd4fd545dd6c700b189b6b84aed9c38fbbc0e817858251f5d87af7f993e709e8ad459f3b800ae48b674d584930d3595dcc06a69d22256f4a",
+    "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "app_innr-sp240v2-1.7.23_UG.ota",
+    "fileVersion": 387397253,
+    "fileSize": 286994,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Innr/app_innr-sp240v2-1.7.23_UG.ota",
+    "imageType": 820,
+    "manufacturerCode": 4454,
+    "sha512": "517888858843cda3c7d9f8051bbb91c4f76b08447956c1cc0c03c885acf4895503249c1b499d0f11d2bbcea2a2f3540d212bb3719339f9c5b28c4834e12e6e5e",
+    "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "app_innr-sp242v2-1.7.23_UG.ota",
+    "fileVersion": 387397253,
+    "fileSize": 286994,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Innr/app_innr-sp242v2-1.7.23_UG.ota",
+    "imageType": 821,
+    "manufacturerCode": 4454,
+    "sha512": "78148ce0b069922dbcfdf7585c8f2ae011f8438050057b33ca9f3ad23223de6c8e6ecdfdc39fdf2d7765146480116861bda7493d70886fc859e13c58ea26479a",
+    "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "app_innr-sp244v2-1.7.23_UG.ota",
+    "fileVersion": 387397253,
+    "fileSize": 286994,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Innr/app_innr-sp244v2-1.7.23_UG.ota",
+    "imageType": 822,
+    "manufacturerCode": 4454,
+    "sha512": "7ec81e318823690f7de10343f0f3806a43ce599cb488cf221158c76c69996aff1081c952ee417e4f7a14162204ff1efab5f72fd5a866bbcfe9a0262c0893e052",
+    "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
   }
 ]
