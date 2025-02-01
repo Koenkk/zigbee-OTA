@@ -31,6 +31,7 @@ export const PR_ARTIFACT_NUMBER_FILEPATH = path.join(PR_ARTIFACT_DIR, PR_NUMBER_
  */
 export const ALL_AUTODL_MANUFACTURERS = [
     'gammatroniques',
+    'hue',
     'ikea_new',
     'ikea',
     'inovelli',
