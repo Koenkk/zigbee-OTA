@@ -699,34 +699,34 @@
     "releaseNotes": "Optimized broadcast and multicast message forwarding in large networks"
   },
   {
-    "fileName": "ZLinky_router_v13.ota",
-    "fileVersion": 13,
-    "fileSize": 245406,
-    "originalUrl": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/download/v13.0/ZLinky_router_v13.ota",
-    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/LiXee/ZLinky_router_v13.ota",
+    "fileName": "ZLinky_router_v14.ota",
+    "fileVersion": 14,
+    "fileSize": 249694,
+    "originalUrl": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/download/v14.0/ZLinky_router_v14.ota",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/LiXee/ZLinky_router_v14.ota",
     "imageType": 1,
     "manufacturerCode": 4151,
-    "sha512": "4d7ab47dcb24e478e0abb35e691222b7691e77ed5a56de3f9c82e8682730649b1a154110b7207d4391c32eae53a869e20878e880fc153dbe046690b870be8486",
+    "sha512": "cc69b0745c72daf8deda935ba47aa7abd34dfcaaa4bc35bfa0605cd7937b0ecd8582ba0c08110df4f620c8aa87798d201f407d3d7e17198cfef1a4aa13c5013d",
     "otaHeaderString": "OM15081-RTR-JN5189-0000000000000",
     "manufacturerName": [
       "LiXee"
     ],
-    "releaseNotes": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/tag/v13.0"
+    "releaseNotes": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/tag/v14.0"
   },
   {
-    "fileName": "ZLinky_router_v13_limited.ota",
-    "fileVersion": 13,
-    "fileSize": 245406,
-    "originalUrl": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/download/v13.0/ZLinky_router_v13_limited.ota",
-    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/LiXee/ZLinky_router_v13_limited.ota",
+    "fileName": "ZLinky_router_v14_limited.ota",
+    "fileVersion": 14,
+    "fileSize": 249694,
+    "originalUrl": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/download/v14.0/ZLinky_router_v14_limited.ota",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/LiXee/ZLinky_router_v14_limited.ota",
     "imageType": 2,
     "manufacturerCode": 4151,
-    "sha512": "dd77b28a3b4664e7ad944fcffaa9eca9f3adb0bbe598e12bdd6eece8070a8cdda6792bed378d173dd5b4532b4cdb88cebda0ef0c432c4c4d6581aa9f2bbba54d",
+    "sha512": "f851cbff7297ba6223a969ba8da5182f9ef199cf9c8459c8408432e48485c1a8f018f6e1703a42f40143cccd3bf460c0acd92117d899e507a36845f24e970595",
     "otaHeaderString": "OM15081-RTR-LIMITED-JN5189-00000",
     "manufacturerName": [
       "LiXee"
     ],
-    "releaseNotes": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/tag/v13.0"
+    "releaseNotes": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/tag/v14.0"
   },
   {
     "fileName": "10F2-7B01-0000-0006-01110206-spo-fmd.ota.zigbee",
