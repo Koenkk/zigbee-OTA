@@ -6285,34 +6285,34 @@
     "releaseNotes": "1. Fix bug that endpoint changes.\r\n2. Supportdim down control from push button coupler."
   },
   {
-    "fileName": "ZLinky_router_v14.ota",
-    "fileVersion": 14,
-    "fileSize": 249694,
-    "originalUrl": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/download/v14.0/ZLinky_router_v14.ota",
-    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/LiXee/ZLinky_router_v14.ota",
+    "fileName": "ZLinky_router_v15.ota",
+    "fileVersion": 15,
+    "fileSize": 251918,
+    "originalUrl": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/download/v15.0/ZLinky_router_v15.ota",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/LiXee/ZLinky_router_v15.ota",
     "imageType": 1,
     "manufacturerCode": 4151,
-    "sha512": "cc69b0745c72daf8deda935ba47aa7abd34dfcaaa4bc35bfa0605cd7937b0ecd8582ba0c08110df4f620c8aa87798d201f407d3d7e17198cfef1a4aa13c5013d",
+    "sha512": "862f9df0d5537a346fe0d283449a797127dc6504f0589d639dc26d334d235c8a3e0a85107d9a6e7569ea9915eb567b95658142d1e0d6e03930dfe42bec8a1f83",
     "otaHeaderString": "OM15081-RTR-JN5189-0000000000000",
     "manufacturerName": [
       "LiXee"
     ],
-    "releaseNotes": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/tag/v14.0"
+    "releaseNotes": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/tag/v15.0"
   },
   {
-    "fileName": "ZLinky_router_v14_limited.ota",
-    "fileVersion": 14,
-    "fileSize": 249694,
-    "originalUrl": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/download/v14.0/ZLinky_router_v14_limited.ota",
-    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/LiXee/ZLinky_router_v14_limited.ota",
+    "fileName": "ZLinky_router_v15_limited.ota",
+    "fileVersion": 15,
+    "fileSize": 251918,
+    "originalUrl": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/download/v15.0/ZLinky_router_v15_limited.ota",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/LiXee/ZLinky_router_v15_limited.ota",
     "imageType": 2,
     "manufacturerCode": 4151,
-    "sha512": "f851cbff7297ba6223a969ba8da5182f9ef199cf9c8459c8408432e48485c1a8f018f6e1703a42f40143cccd3bf460c0acd92117d899e507a36845f24e970595",
+    "sha512": "2647d9424d00c19468548edd9e1153a0a8437e37cea3a00feff1e7b24119d2cd5370a00c5f2acac3c69f3f175f7c7e22b6a24cfe1de8a44abfaf6bc7caf44aec",
     "otaHeaderString": "OM15081-RTR-LIMITED-JN5189-00000",
     "manufacturerName": [
       "LiXee"
     ],
-    "releaseNotes": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/tag/v14.0"
+    "releaseNotes": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/tag/v15.0"
   },
   {
     "fileName": "10F2-7B01-0000-0006-0192020D-spo-fmd.ota1.zigbee",
