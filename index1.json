@@ -1463,5 +1463,17 @@
     "manufacturerCode": 4454,
     "sha512": "7ec81e318823690f7de10343f0f3806a43ce599cb488cf221158c76c69996aff1081c952ee417e4f7a14162204ff1efab5f72fd5a866bbcfe9a0262c0893e052",
     "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "100B-0111-01001A00-ConfLight-ModuLum-EFR32MG13.zigbee",
+    "fileVersion": 16783872,
+    "fileSize": 477412,
+    "originalUrl": "https://firmware.meethue.com/storage/100b-111/16783872/3f5056e2-e060-4cc4-8f29-28056efc5e6b/100B-0111-01001A00-ConfLight-ModuLum-EFR32MG13.zigbee",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Hue/100B-0111-01001A00-ConfLight-ModuLum-EFR32MG13.zigbee",
+    "imageType": 273,
+    "manufacturerCode": 4107,
+    "sha512": "06c95d8ebf5814909fe95e1de31309a708f1018674eee7f844569abf99befa88cd352d7e8c3a7b001e488732e2246ca34ba69f1f507ac32bcf2df1d64eeef8ba",
+    "otaHeaderString": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "releaseNotes": "Various improvements"
   }
 ]
