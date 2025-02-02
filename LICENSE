@@ -672,3 +672,7 @@ may consider it more useful to permit linking proprietary applications with
 the library.  If this is what you want to do, use the GNU Lesser General
 Public License instead of this License.  But first, please read
 <https://www.gnu.org/licenses/why-not-lgpl.html>.
+
+EXCEPTION
+
+Notwithstanding the above, all files contained in the 'images' and 'images1' directory of this project are exempt from the terms of this license. These files are unmodified binary files and the copyrights for these images belong to their rightful owners.
