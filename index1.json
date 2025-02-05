@@ -1475,5 +1475,16 @@
       "LiXee"
     ],
     "releaseNotes": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/tag/v14.0"
+  },
+  {
+    "fileName": "20240312112328_OTA_lumi.switch.n2acn1_0.0.0_58_20240311_931B42.ota",
+    "fileVersion": 58,
+    "fileSize": 290318,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Lumi/20240312112328_OTA_lumi.switch.n2acn1_0.0.0_58_20240311_931B42.ota",
+    "imageType": 2700,
+    "manufacturerCode": 4447,
+    "sha512": "3e2a8eea623c36e29de723fb1a3832fc126d43df75a73b0e95148692325f83ef19139c475d721bc3b1bb3bb9ce61b941a5f4d8a6e2a50d8148fc2dbaeabf681a",
+    "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000",
+    "modelId": "lumi.switch.n2acn1"
   }
 ]

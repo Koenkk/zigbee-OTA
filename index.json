@@ -2618,17 +2618,6 @@
     "modelId": "lumi.switch.n3acn1"
   },
   {
-    "fileName": "20240312112328_OTA_lumi.switch.n2acn1_0.0.0_58_20240311_931B42.ota",
-    "fileVersion": 58,
-    "fileSize": 290318,
-    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20240312112328_OTA_lumi.switch.n2acn1_0.0.0_58_20240311_931B42.ota",
-    "imageType": 2700,
-    "manufacturerCode": 4447,
-    "sha512": "3e2a8eea623c36e29de723fb1a3832fc126d43df75a73b0e95148692325f83ef19139c475d721bc3b1bb3bb9ce61b941a5f4d8a6e2a50d8148fc2dbaeabf681a",
-    "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000",
-    "modelId": "lumi.switch.n2acn1"
-  },
-  {
     "fileName": "20240312112538_OTA_lumi.switch.n1acn1_0.0.0_58_20240311_02B313.ota",
     "fileVersion": 58,
     "fileSize": 288030,
@@ -7188,5 +7177,18 @@
     "manufacturerName": [
       "LiXee"
     ]
+  },
+  {
+    "fileName": "20240726113823_OTA_lumi.switch.n2acn1_0.0.0_59_20240724_F96EFF.ota",
+    "fileVersion": 59,
+    "fileSize": 292144,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.switch.n2acn1/20240726113823_OTA_lumi.switch.n2acn1_0.0.0_59_20240724_F96EFF.ota",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20240726113823_OTA_lumi.switch.n2acn1_0.0.0_59_20240724_F96EFF.ota",
+    "imageType": 2700,
+    "manufacturerCode": 4447,
+    "sha512": "11c332a852aacc96ecc9a440d914b51025c3fce3bab61014624744436b171852496334c967eeb574fb5ffcacae013bcf4856338a5cfb6b33fabf154395d28c02",
+    "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000",
+    "modelId": "lumi.switch.n2acn1",
+    "releaseNotes": "Fix known issues"
   }
 ]
