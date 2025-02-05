@@ -647,7 +647,8 @@
     "manufacturerCode": 4107,
     "sha512": "34a42cd9185602bf76559425d2e4655ec33c2fe3159a09d866cd3425a0d56535ee9a807b86b21a66083fc7578287538c7e1b8e9aebd53923269aedb99b6090f7",
     "otaHeaderString": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_010F/0ed8b3ac-0870-486e-9f8b-5ba6e9b035a1/100B-010F-01001700-ConfLight-LedStrips_0012.zigbee"
+    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_010F/0ed8b3ac-0870-486e-9f8b-5ba6e9b035a1/100B-010F-01001700-ConfLight-LedStrips_0012.zigbee",
+    "minFileVersion": 16779778
   },
   {
     "fileName": "100B-0110-01002602-ConfLight-Lamps-EFR32MG13.zigbee",
@@ -658,7 +659,8 @@
     "manufacturerCode": 4107,
     "sha512": "4d15669f586c39da05fdfa95506fa085e297e177e5f2e962ce5f8ec2788f1d4488f880c35c2f2a1e0279ffe66272c99d27ca6da5d80512b88fcf50a574647a64",
     "otaHeaderString": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_0110/77cabadf-422e-4b65-a971-b40f6422ca6f/100B-0110-01002602-ConfLight-Lamps-EFR32MG13.zigbee"
+    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_0110/77cabadf-422e-4b65-a971-b40f6422ca6f/100B-0110-01002602-ConfLight-Lamps-EFR32MG13.zigbee",
+    "minFileVersion": 16778240
   },
   {
     "fileName": "100B-0111-01001D00-ConfLight-ModuLum-EFR32MG13.zigbee",
@@ -691,7 +693,8 @@
     "manufacturerCode": 4107,
     "sha512": "a4dec4e9d3bb2561218cf370fb9306d85f00464f908a029cf4dc779050fe03fabac041dafe257d6088698c6854dc4326a446b017ef183a06037160bb81e5af33",
     "otaHeaderString": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_0114/b9ca4597-f893-4658-99ad-ed61050ab741/100B-0114-01002502-ConfLightBLE-Lamps-EFR32MG21.zigbee"
+    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_0114/b9ca4597-f893-4658-99ad-ed61050ab741/100B-0114-01002502-ConfLightBLE-Lamps-EFR32MG21.zigbee",
+    "minFileVersion": 16782084
   },
   {
     "fileName": "100B-0115-01001402-SmartPlug-EFR32MG13.zigbee",
@@ -705,17 +708,6 @@
     "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_0115/84e91e20-7715-4bd0-9a41-2f6dcca94be8/100B-0115-01001402-SmartPlug-EFR32MG13.zigbee"
   },
   {
-    "fileName": "100B-0116-02002F08-Switch-EFR32MG13.zigbee",
-    "fileVersion": 33566472,
-    "fileSize": 221830,
-    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Hue/100B-0116-02002F08-Switch-EFR32MG13.zigbee",
-    "imageType": 278,
-    "manufacturerCode": 4107,
-    "sha512": "d961093ee0014066345c3ba2dd29df2ecbaccd8635e88c404e5a7fbf5903cae6926768d0e8f935b40fc53d2c040669ac52401d5b2419485c4ae672f886727a2a",
-    "otaHeaderString": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_0116/5ce84476-ad41-4b8b-a5ae-52d0e8df749a/100B-0116-02002F08-Switch-EFR32MG13.zigbee"
-  },
-  {
     "fileName": "100B-0117-01001D0C-ConfLightBLE-ModuLum-EFR32MG21.zigbee",
     "fileVersion": 16784652,
     "fileSize": 420784,
@@ -724,7 +716,8 @@
     "manufacturerCode": 4107,
     "sha512": "b17faa044694f3b9a3f28653ed0a42441797f60dd390a9507eed8d4baa95368ee4ca9accef6698b0092cc196c99c89129372e2dcba8383473f13d522b02488f1",
     "otaHeaderString": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_0117/a8a50281-4075-4d41-928d-85aec9f4ef33/100B-0117-01001D0C-ConfLightBLE-ModuLum-EFR32MG21.zigbee"
+    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_0117/a8a50281-4075-4d41-928d-85aec9f4ef33/100B-0117-01001D0C-ConfLightBLE-ModuLum-EFR32MG21.zigbee",
+    "minFileVersion": 16780292
   },
   {
     "fileName": "100B-0118-01001802-PixelLum-EFR32MG21.zigbee",
@@ -738,17 +731,6 @@
     "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_0118/de21c7c9-cdfa-4f95-90a6-b0e01bb62e82/100B-0118-01001802-PixelLum-EFR32MG21.zigbee"
   },
   {
-    "fileName": "100B-0119-02002D02-Switch-EFR32MG22.zigbee",
-    "fileVersion": 33565954,
-    "fileSize": 183866,
-    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Hue/100B-0119-02002D02-Switch-EFR32MG22.zigbee",
-    "imageType": 281,
-    "manufacturerCode": 4107,
-    "sha512": "deff3ced9b340b94d3ea181c23c6f5289e3ed0ba068ed235dce19e628f0d509b55c62432b406b06f761d895c65eaed608f3e67054d628d889277713ed510cc1e",
-    "otaHeaderString": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_0119/ab6c4f9d-d29c-4e80-8502-863167defbf6/100B-0119-02002D02-Switch-EFR32MG22.zigbee"
-  },
-  {
     "fileName": "100B-011A-01000F04-SmartPlug-EFR32MG21.zigbee",
     "fileVersion": 16781060,
     "fileSize": 348032,
@@ -757,7 +739,8 @@
     "manufacturerCode": 4107,
     "sha512": "82ba5d9ce6d0b590e85458b796a1c8d1375d2ac1a24432bc83504f54bf56ca62f96b27b27fe4f867d1ade6c8813045118078aa4b98a6532f8f5a2aeeeaa23c16",
     "otaHeaderString": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_011A/0aafab7f-56c0-4c7b-b0f8-19cfe1f02602/100B-011A-01000F04-SmartPlug-EFR32MG21.zigbee"
+    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_011A/0aafab7f-56c0-4c7b-b0f8-19cfe1f02602/100B-011A-01000F04-SmartPlug-EFR32MG21.zigbee",
+    "minFileVersion": 16778500
   },
   {
     "fileName": "100B-011D-01002504-ConfLight-ModuLumV2-EFR32MG13.zigbee",
@@ -7091,7 +7074,8 @@
     "imageType": 293,
     "manufacturerCode": 4107,
     "sha512": "a2a0076275a1dcdb94a9bea8c1591209f31f76fe847d5fd46456dad63247d0c302e438776c179dcc86f93471b3965e884f3455c06c332313fdc408df71a58c11",
-    "otaHeaderString": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "maxFileVersion": 33571584
   },
   {
     "fileName": "100B-0127-01000D02-MSD-EFR32MG21.zigbee",
