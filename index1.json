@@ -1486,5 +1486,38 @@
     "sha512": "3e2a8eea623c36e29de723fb1a3832fc126d43df75a73b0e95148692325f83ef19139c475d721bc3b1bb3bb9ce61b941a5f4d8a6e2a50d8148fc2dbaeabf681a",
     "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000",
     "modelId": "lumi.switch.n2acn1"
+  },
+  {
+    "fileName": "100B-0121-02003B19-Switch-EFR32MG22-40xf.zigbee",
+    "fileVersion": 33569561,
+    "fileSize": 185770,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Hue/100B-0121-02003B19-Switch-EFR32MG22-40xf.zigbee",
+    "imageType": 289,
+    "manufacturerCode": 4107,
+    "sha512": "b117d19666222b0b1962585f1e47e525c643d3d784fa3a59c0299cd1533a3799a1c72553c7964708879fe0131d4c5cb9fcc5af681d8059d18e6f47b942a5e4fb",
+    "otaHeaderString": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_0121/f28229fd-c450-4d0c-ada4-21f855674e06/100B-0121-02003B19-Switch-EFR32MG22-40xf.zigbee"
+  },
+  {
+    "fileName": "Sensor-ATmega_6.1.1.27575_0012.sbl-ota",
+    "fileVersion": 1107323831,
+    "fileSize": 240760,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Hue/Sensor-ATmega_6.1.1.27575_0012.sbl-ota",
+    "imageType": 269,
+    "manufacturerCode": 4107,
+    "sha512": "10e549c55d262b2f227b75817f6620be407f537e04ac08db4dbebdf53e8d460299a2cda248b3be13476757d61a1c79b632963c4f126cd26b7c18ea6a2ab4ac59",
+    "otaHeaderString": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_010D/bd3f218f-190b-4498-b6b3-69aea563fd9d/Sensor-ATmega_6.1.1.27575_0012.sbl-ota"
+  },
+  {
+    "fileName": "Switch-ATmega_6.1.1.28573_0012.sbl-ota",
+    "fileVersion": 1107324829,
+    "fileSize": 240760,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Hue/Switch-ATmega_6.1.1.28573_0012.sbl-ota",
+    "imageType": 265,
+    "manufacturerCode": 4107,
+    "sha512": "d20057d6c4e61d4ccdd3947b8a8c9bf9e126a26c080b9ce3e6839a0615b912c6f93246a60c55a44f2c8b8ec49f5041f46ac38b8a3c0a1c6ab44f062cc62089cf",
+    "otaHeaderString": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_0109/0e1147ca-9b7e-4de1-b282-8b81c3c8e030/Switch-ATmega_6.1.1.28573_0012.sbl-ota"
   }
 ]
