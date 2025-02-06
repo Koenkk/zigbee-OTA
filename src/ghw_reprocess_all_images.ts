@@ -101,8 +101,7 @@ async function download3rdParties(
             continue;
         }
 
-        // reverse add.js logic
-        const fileName = unescape(meta.url.split('/').pop()!);
+        const fileName = decodeURIComponent(meta.url.split('/').pop()!);
         const outDirName = outDirFinder(meta);
 
         if (outDirName) {
@@ -245,12 +244,10 @@ function checkImagesAgainstManifests(github: Octokit, core: typeof CoreApi, cont
 
                 for (const fileName of readdirSync(subfolderPath)) {
                     const firmwareFilePath = path.join(subfolderPath, fileName);
-                    const fileRelUrl = path.posix.join(imagesDir, subfolderName, fileName);
-                    // previous add.js used escape() for url property
-                    const escFileRelUrl = escape(fileRelUrl);
+                    const fileRelUrl = path.posix.join(imagesDir, subfolderName, encodeURIComponent(fileName));
                     // take local images only
                     const inManifest = manifest.filter(
-                        (m) => m.url.startsWith(BASE_REPO_URL + REPO_BRANCH) && (m.url.endsWith(fileRelUrl) || m.url.endsWith(escFileRelUrl)),
+                        (m) => m.url.startsWith(BASE_REPO_URL + REPO_BRANCH) && m.url.endsWith(fileRelUrl),
                     );
 
                     if (inManifest.length === 0) {
@@ -396,3 +393,14 @@ export async function reProcessAllImages(
 
     checkImagesAgainstManifests(github, core, context, removeNotInManifest);
 }
+
+
+// To run locally uncomment below and run with `npx tsx src/ghw_reprocess_all_images.ts`
+// const core = {
+//     info: (msg) => console.log(msg),
+//     warning: (msg) => console.log(msg),
+//     error: (msg) => console.error(msg),
+//     startGroup: () => {},
+//     endGroup: () => {},
+// }
+// checkImagesAgainstManifests(null, core, null, false);
