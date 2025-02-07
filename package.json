@@ -17,6 +17,7 @@
         "format:check": "prettier --check .",
         "eslint": "eslint . --max-warnings=0",
         "test": "jest test --config=./tests/jest.config.ts --silent --runInBand",
+        "test:watch": "jest test --watch --config=./tests/jest.config.ts --silent --runInBand",
         "coverage": "jest test --config=./tests/jest.config.ts --silent --runInBand --coverage"
     },
     "keywords": [

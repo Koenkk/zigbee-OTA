@@ -78,7 +78,7 @@ export function getOutDir(folderName: string, basePath: string = BASE_IMAGES_DIR
 }
 
 export function getRepoFirmwareFileUrl(folderName: string, fileName: string, basePath: string = BASE_IMAGES_DIR): string {
-    return BASE_REPO_URL + path.posix.join(REPO_BRANCH, basePath, folderName, fileName);
+    return BASE_REPO_URL + path.posix.join(REPO_BRANCH, basePath, folderName, encodeURIComponent(fileName));
 }
 
 export function writeManifest(fileName: string, firmwareList: RepoImageMeta[]): void {

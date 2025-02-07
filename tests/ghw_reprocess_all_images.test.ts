@@ -366,13 +366,12 @@ describe('Github Workflow: Re-Process All Images', () => {
         const fileName = oldMetas.url.split('/').pop()!;
         const newName = fileName.replace('.ota', `(%1).ota`);
         const baseUrl = oldMetas.url.replace(fileName, '');
-        oldMetas.url = baseUrl + escape(newName);
+        oldMetas.url = baseUrl + encodeURIComponent(newName);
         setManifest(common.BASE_INDEX_MANIFEST_FILENAME, [oldMetas]);
         const imagePath = useImage(IMAGE_V14_1, BASE_IMAGES_TEST_DIR_PATH);
         const baseName = path.basename(imagePath.filename);
         const renamedPath = imagePath.filename.replace(baseName, newName);
         renameSync(imagePath.filename, renamedPath);
-        console.log(newName, oldMetas.url, renamedPath);
 
         // @ts-expect-error mocked as needed
         await reProcessAllImages(github, core, context, true, true);
@@ -384,7 +383,7 @@ describe('Github Workflow: Re-Process All Images', () => {
         const outManifestMetas = withExtraMetas(
             IMAGE_V14_1_METAS,
             // @ts-expect-error override
-            {fileName: newName, url: `${baseUrl}${newName}`},
+            {fileName: newName, url: `${baseUrl}${encodeURIComponent(newName)}`},
         );
         delete outManifestMetas.originalUrl;
         expect(writeManifestSpy).toHaveBeenNthCalledWith(2, common.BASE_INDEX_MANIFEST_FILENAME, [outManifestMetas]);
@@ -752,7 +751,7 @@ describe('Github Workflow: Re-Process All Images', () => {
             const fileName = oldMetas.url.split('/').pop()!;
             const newName = fileName.replace('.ota', `(%1).ota`);
             const baseUrl = oldMetas.url.replace(fileName, '');
-            oldMetas.url = baseUrl + escape(newName);
+            oldMetas.url = baseUrl + encodeURIComponent(newName);
             // @ts-expect-error old metas
             setManifest(common.BASE_INDEX_MANIFEST_FILENAME, [oldMetas]);
             // link back to existing image from fetch
