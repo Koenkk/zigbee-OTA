@@ -246,9 +246,7 @@ function checkImagesAgainstManifests(github: Octokit, core: typeof CoreApi, cont
                     const firmwareFilePath = path.join(subfolderPath, fileName);
                     const fileRelUrl = path.posix.join(imagesDir, subfolderName, encodeURIComponent(fileName));
                     // take local images only
-                    const inManifest = manifest.filter(
-                        (m) => m.url.startsWith(BASE_REPO_URL + REPO_BRANCH) && m.url.endsWith(fileRelUrl),
-                    );
+                    const inManifest = manifest.filter((m) => m.url.startsWith(BASE_REPO_URL + REPO_BRANCH) && m.url.endsWith(fileRelUrl));
 
                     if (inManifest.length === 0) {
                         core.warning(`Not found in base manifest: ${firmwareFilePath}.`);
@@ -393,7 +391,6 @@ export async function reProcessAllImages(
 
     checkImagesAgainstManifests(github, core, context, removeNotInManifest);
 }
-
 
 // To run locally uncomment below and run with `npx tsx src/ghw_reprocess_all_images.ts`
 // const core = {
