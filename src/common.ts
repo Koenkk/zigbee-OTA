@@ -7,7 +7,7 @@ import {existsSync, mkdirSync, readFileSync, renameSync, rmSync, writeFileSync} 
 import path from 'path';
 
 export const UPGRADE_FILE_IDENTIFIER = Buffer.from([0x1e, 0xf1, 0xee, 0x0b]);
-export const BASE_REPO_URL = `https://github.com/Koenkk/zigbee-OTA/raw/`;
+export const BASE_REPO_URL = `https://raw.githubusercontent.com/Koenkk/zigbee-OTA/`;
 export const REPO_BRANCH = 'master';
 /** Images used by OTA upgrade process */
 export const BASE_IMAGES_DIR = 'images';
