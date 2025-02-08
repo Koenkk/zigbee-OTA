@@ -41,7 +41,7 @@ export const IMAGE_V14_1_METAS = {
     fileVersion: 14,
     fileSize: 249694,
     originalUrl: undefined,
-    url: `https://github.com/Koenkk/zigbee-OTA/raw/master/images/${IMAGES_TEST_DIR}/${IMAGE_V14_1}`,
+    url: `${common.BASE_REPO_URL}${common.REPO_BRANCH}/images/${IMAGES_TEST_DIR}/${IMAGE_V14_1}`,
     imageType: 1,
     manufacturerCode: 4151,
     sha512: 'cc69b0745c72daf8deda935ba47aa7abd34dfcaaa4bc35bfa0605cd7937b0ecd8582ba0c08110df4f620c8aa87798d201f407d3d7e17198cfef1a4aa13c5013d',
@@ -64,7 +64,7 @@ export const IMAGE_V14_2_METAS = {
     fileVersion: 14,
     fileSize: 249694,
     originalUrl: undefined,
-    url: `https://github.com/Koenkk/zigbee-OTA/raw/master/images/${IMAGES_TEST_DIR}/${IMAGE_V14_2}`,
+    url: `${common.BASE_REPO_URL}${common.REPO_BRANCH}/images/${IMAGES_TEST_DIR}/${IMAGE_V14_2}`,
     imageType: 2,
     manufacturerCode: 4151,
     sha512: 'f851cbff7297ba6223a969ba8da5182f9ef199cf9c8459c8408432e48485c1a8f018f6e1703a42f40143cccd3bf460c0acd92117d899e507a36845f24e970595',
@@ -87,7 +87,7 @@ export const IMAGE_V13_1_METAS = {
     fileVersion: 13,
     fileSize: 245406,
     originalUrl: undefined,
-    url: `https://github.com/Koenkk/zigbee-OTA/raw/master/images1/${IMAGES_TEST_DIR}/${IMAGE_V13_1}`,
+    url: `${common.BASE_REPO_URL}${common.REPO_BRANCH}/images1/${IMAGES_TEST_DIR}/${IMAGE_V13_1}`,
     imageType: 1,
     manufacturerCode: 4151,
     sha512: '4d7ab47dcb24e478e0abb35e691222b7691e77ed5a56de3f9c82e8682730649b1a154110b7207d4391c32eae53a869e20878e880fc153dbe046690b870be8486',
@@ -110,7 +110,7 @@ export const IMAGE_V13_2_METAS = {
     fileVersion: 13,
     fileSize: 245406,
     originalUrl: undefined,
-    url: `https://github.com/Koenkk/zigbee-OTA/raw/master/images1/${IMAGES_TEST_DIR}/${IMAGE_V13_2}`,
+    url: `${common.BASE_REPO_URL}${common.REPO_BRANCH}/images1/${IMAGES_TEST_DIR}/${IMAGE_V13_2}`,
     imageType: 2,
     manufacturerCode: 4151,
     sha512: 'dd77b28a3b4664e7ad944fcffaa9eca9f3adb0bbe598e12bdd6eece8070a8cdda6792bed378d173dd5b4532b4cdb88cebda0ef0c432c4c4d6581aa9f2bbba54d',
@@ -133,7 +133,7 @@ export const IMAGE_V12_1_METAS = {
     fileVersion: 12,
     fileSize: 245710,
     originalUrl: undefined,
-    url: `https://github.com/Koenkk/zigbee-OTA/raw/master/images1/${IMAGES_TEST_DIR}/${IMAGE_V12_1}`,
+    url: `${common.BASE_REPO_URL}${common.REPO_BRANCH}/images1/${IMAGES_TEST_DIR}/${IMAGE_V12_1}`,
     imageType: 1,
     manufacturerCode: 4151,
     sha512: '5d7e0a20141b78b85b4b046e623bc2bba24b28563464fe70227e79d0acdd5c0bde2adbd9d2557bd6cdfef2036d964c35c9e1746a8f1356af3325dd96f7a80e56',
@@ -156,7 +156,7 @@ export const IMAGE_V12_2_METAS = {
     fileVersion: 12,
     fileSize: 245710,
     originalUrl: undefined,
-    url: `https://github.com/Koenkk/zigbee-OTA/raw/master/images1/${IMAGES_TEST_DIR}/${IMAGE_V12_2}`,
+    url: `${common.BASE_REPO_URL}${common.REPO_BRANCH}/images1/${IMAGES_TEST_DIR}/${IMAGE_V12_2}`,
     imageType: 2,
     manufacturerCode: 4151,
     sha512: '4e178e56c1559e11734c07abbb95110675df7738f3ca3e5dbc99393325295ff6c66bd63ba55c0ef6043a80608dbec2be7a1e845f31ffd94f1cb63f32f0d48c6e',
@@ -168,7 +168,7 @@ export const IMAGE_INVALID_METAS = {
     fileVersion: 0,
     fileSize: 0,
     originalUrl: undefined,
-    url: `https://github.com/Koenkk/zigbee-OTA/raw/master/images/${IMAGES_TEST_DIR}/${IMAGE_INVALID}`,
+    url: `${common.BASE_REPO_URL}${common.REPO_BRANCH}/images/${IMAGES_TEST_DIR}/${IMAGE_INVALID}`,
     imageType: 1,
     manufacturerCode: 65535,
     sha512: 'abcd',
@@ -191,7 +191,7 @@ export const IMAGE_TAR_METAS = {
     fileVersion: 6,
     fileSize: 162302,
     originalUrl: undefined,
-    url: `https://github.com/Koenkk/zigbee-OTA/raw/master/images/${IMAGES_TEST_DIR}/${IMAGE_TAR_OTA}`,
+    url: `${common.BASE_REPO_URL}${common.REPO_BRANCH}/images/${IMAGES_TEST_DIR}/${IMAGE_TAR_OTA}`,
     imageType: 2,
     manufacturerCode: 4388,
     sha512: '3306332e001eab9d71c9360089d450ea21e2c08bac957b523643c042707887e85db0c510f3480bdbcfcfe2398eeaad88d455f346f1e07841e1d690d8c16dc211',
@@ -224,12 +224,12 @@ export const getAdjustedContent = (fileName: string, content: RepoImageMeta[]): 
         if (fileName === common.BASE_INDEX_MANIFEST_FILENAME && c.url.includes(`/${common.PREV_IMAGES_DIR}/`)) {
             return withExtraMetas(c, {
                 // @ts-expect-error override
-                url: `https://github.com/Koenkk/zigbee-OTA/raw/master/${common.BASE_IMAGES_DIR}/${IMAGES_TEST_DIR}/${c.fileName}`,
+                url: `${common.BASE_REPO_URL}${common.REPO_BRANCH}/${common.BASE_IMAGES_DIR}/${IMAGES_TEST_DIR}/${c.fileName}`,
             });
         } else if (fileName === common.PREV_INDEX_MANIFEST_FILENAME && c.url.includes(`${common.BASE_IMAGES_DIR}`)) {
             return withExtraMetas(c, {
                 // @ts-expect-error override
-                url: `https://github.com/Koenkk/zigbee-OTA/raw/master/${common.PREV_IMAGES_DIR}/${IMAGES_TEST_DIR}/${c.fileName}`,
+                url: `${common.BASE_REPO_URL}${common.REPO_BRANCH}/${common.PREV_IMAGES_DIR}/${IMAGES_TEST_DIR}/${c.fileName}`,
             });
         }
 
