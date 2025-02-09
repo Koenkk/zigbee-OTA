@@ -6285,6 +6285,36 @@
     "releaseNotes": "1. Fix bug that endpoint changes.\r\n2. Supportdim down control from push button coupler."
   },
   {
+    "fileName": "ZLinky_router_v16.ota",
+    "fileVersion": 16,
+    "fileSize": 245886,
+    "originalUrl": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/download/v16.0/ZLinky_router_v16.ota",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/LiXee/ZLinky_router_v16.ota",
+    "imageType": 1,
+    "manufacturerCode": 4151,
+    "sha512": "562b9598ad436ff31fc4b981c1406cdb99822e472689229ca5f0c8687d17e28df32d07ec7238562a3a22f1495a97ae722e1012aad1735eeba97a6d8b6185379f",
+    "otaHeaderString": "OM15081-RTR-JN5189-0000000000000",
+    "manufacturerName": [
+      "LiXee"
+    ],
+    "releaseNotes": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/tag/v16.0"
+  },
+  {
+    "fileName": "ZLinky_router_v16_limited.ota",
+    "fileVersion": 16,
+    "fileSize": 245886,
+    "originalUrl": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/download/v16.0/ZLinky_router_v16_limited.ota",
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/LiXee/ZLinky_router_v16_limited.ota",
+    "imageType": 2,
+    "manufacturerCode": 4151,
+    "sha512": "8e3143c62442cb0ccab768b94e791f651a8c40c951e033473c52eb8e34e6d3dd22f4f3e57e42281e0ce72a73d60e956b256414462ce402c02a40a932eb3a0217",
+    "otaHeaderString": "OM15081-RTR-LIMITED-JN5189-00000",
+    "manufacturerName": [
+      "LiXee"
+    ],
+    "releaseNotes": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/tag/v16.0"
+  },
+  {
     "fileName": "10F2-7B01-0000-0006-0192020D-spo-fmd.ota1.zigbee",
     "fileVersion": 26345997,
     "fileSize": 263324,
@@ -7158,35 +7188,5 @@
     "manufacturerCode": 4107,
     "sha512": "ba522649e12ba70a952d43dae242303c69e146ce6e3bbf0f019110a2818d1a1fc65b33ce33c556fb8e097f3861d39d6cf697ec10fe282c7b4ee3c71e64d88888",
     "otaHeaderString": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
-  },
-  {
-    "fileName": "ZLinky_router_v16.ota",
-    "fileVersion": 16,
-    "fileSize": 245886,
-    "originalUrl": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/download/v16.0/ZLinky_router_v16.ota",
-    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/LiXee/ZLinky_router_v16.ota",
-    "imageType": 1,
-    "manufacturerCode": 4151,
-    "sha512": "562b9598ad436ff31fc4b981c1406cdb99822e472689229ca5f0c8687d17e28df32d07ec7238562a3a22f1495a97ae722e1012aad1735eeba97a6d8b6185379f",
-    "otaHeaderString": "OM15081-RTR-JN5189-0000000000000",
-    "releaseNotes": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/tag/v16.0",
-    "manufacturerName": [
-      "LiXee"
-    ]
-  },
-  {
-    "fileName": "ZLinky_router_v16_limited.ota",
-    "fileVersion": 16,
-    "fileSize": 245886,
-    "originalUrl": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/download/v16.0/ZLinky_router_v16_limited.ota",
-    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/LiXee/ZLinky_router_v16_limited.ota",
-    "imageType": 2,
-    "manufacturerCode": 4151,
-    "sha512": "8e3143c62442cb0ccab768b94e791f651a8c40c951e033473c52eb8e34e6d3dd22f4f3e57e42281e0ce72a73d60e956b256414462ce402c02a40a932eb3a0217",
-    "otaHeaderString": "OM15081-RTR-LIMITED-JN5189-00000",
-    "releaseNotes": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/tag/v16.0",
-    "manufacturerName": [
-      "LiXee"
-    ]
   }
 ]
