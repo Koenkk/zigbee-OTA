@@ -3737,6 +3737,36 @@
     "otaHeaderString": "                                "
   },
   {
+    "fileName": "ZLinky_router_v16.ota",
+    "fileVersion": 16,
+    "fileSize": 245886,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/LiXee/ZLinky_router_v16.ota",
+    "imageType": 1,
+    "manufacturerCode": 4151,
+    "sha512": "562b9598ad436ff31fc4b981c1406cdb99822e472689229ca5f0c8687d17e28df32d07ec7238562a3a22f1495a97ae722e1012aad1735eeba97a6d8b6185379f",
+    "otaHeaderString": "OM15081-RTR-JN5189-0000000000000",
+    "originalUrl": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/download/v16.0/ZLinky_router_v16.ota",
+    "manufacturerName": [
+      "LiXee"
+    ],
+    "releaseNotes": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/tag/v16.0"
+  },
+  {
+    "fileName": "ZLinky_router_v16_limited.ota",
+    "fileVersion": 16,
+    "fileSize": 245886,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/LiXee/ZLinky_router_v16_limited.ota",
+    "imageType": 2,
+    "manufacturerCode": 4151,
+    "sha512": "8e3143c62442cb0ccab768b94e791f651a8c40c951e033473c52eb8e34e6d3dd22f4f3e57e42281e0ce72a73d60e956b256414462ce402c02a40a932eb3a0217",
+    "otaHeaderString": "OM15081-RTR-LIMITED-JN5189-00000",
+    "originalUrl": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/download/v16.0/ZLinky_router_v16_limited.ota",
+    "manufacturerName": [
+      "LiXee"
+    ],
+    "releaseNotes": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/tag/v16.0"
+  },
+  {
     "fileName": "20211122110505_OTA_lumi.curtain.hagl07_V48_20211119_2C5A.ota",
     "fileVersion": 48,
     "fileSize": 284750,
@@ -4486,6 +4516,19 @@
     "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000",
     "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.switch.n2acn1/20240726113823_OTA_lumi.switch.n2acn1_0.0.0_59_20240724_F96EFF.ota",
     "modelId": "lumi.switch.n2acn1",
+    "releaseNotes": "Fix known issues"
+  },
+  {
+    "fileName": "20240726114727_OTA_lumi.switch.n3acn1_0.0.0_59_20240724_1B883A.ota",
+    "fileVersion": 59,
+    "fileSize": 293248,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20240726114727_OTA_lumi.switch.n3acn1_0.0.0_59_20240724_1B883A.ota",
+    "imageType": 2828,
+    "manufacturerCode": 4447,
+    "sha512": "bbed6dca39141ac0e55c62c6b5b6168dd105794b76d33630e4126d83c9f831783ce5eb556a9bc97d442cf6e623ab88d2028bfdc6fb423cdd04c92fc71e18e536",
+    "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000",
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.switch.n3acn1/20240726114727_OTA_lumi.switch.n3acn1_0.0.0_59_20240724_1B883A.ota",
+    "modelId": "lumi.switch.n3acn1",
     "releaseNotes": "Fix known issues"
   },
   {
@@ -7364,48 +7407,5 @@
     "originalUrl": "https://github.com/xyzroe/ZigUSB_C6/releases/download/407/ZigUSB_C6.ota",
     "modelId": "ZigUSB_C6",
     "releaseNotes": "https://github.com/xyzroe/ZigUSB_C6/releases/tag/407"
-  },
-  {
-    "fileName": "ZLinky_router_v16.ota",
-    "fileVersion": 16,
-    "fileSize": 245886,
-    "originalUrl": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/download/v16.0/ZLinky_router_v16.ota",
-    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/LiXee/ZLinky_router_v16.ota",
-    "imageType": 1,
-    "manufacturerCode": 4151,
-    "sha512": "562b9598ad436ff31fc4b981c1406cdb99822e472689229ca5f0c8687d17e28df32d07ec7238562a3a22f1495a97ae722e1012aad1735eeba97a6d8b6185379f",
-    "otaHeaderString": "OM15081-RTR-JN5189-0000000000000",
-    "releaseNotes": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/tag/v16.0",
-    "manufacturerName": [
-      "LiXee"
-    ]
-  },
-  {
-    "fileName": "ZLinky_router_v16_limited.ota",
-    "fileVersion": 16,
-    "fileSize": 245886,
-    "originalUrl": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/download/v16.0/ZLinky_router_v16_limited.ota",
-    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/LiXee/ZLinky_router_v16_limited.ota",
-    "imageType": 2,
-    "manufacturerCode": 4151,
-    "sha512": "8e3143c62442cb0ccab768b94e791f651a8c40c951e033473c52eb8e34e6d3dd22f4f3e57e42281e0ce72a73d60e956b256414462ce402c02a40a932eb3a0217",
-    "otaHeaderString": "OM15081-RTR-LIMITED-JN5189-00000",
-    "releaseNotes": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/tag/v16.0",
-    "manufacturerName": [
-      "LiXee"
-    ]
-  },
-  {
-    "fileName": "20240726114727_OTA_lumi.switch.n3acn1_0.0.0_59_20240724_1B883A.ota",
-    "fileVersion": 59,
-    "fileSize": 293248,
-    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.switch.n3acn1/20240726114727_OTA_lumi.switch.n3acn1_0.0.0_59_20240724_1B883A.ota",
-    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Lumi/20240726114727_OTA_lumi.switch.n3acn1_0.0.0_59_20240724_1B883A.ota",
-    "imageType": 2828,
-    "manufacturerCode": 4447,
-    "sha512": "bbed6dca39141ac0e55c62c6b5b6168dd105794b76d33630e4126d83c9f831783ce5eb556a9bc97d442cf6e623ab88d2028bfdc6fb423cdd04c92fc71e18e536",
-    "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000",
-    "modelId": "lumi.switch.n3acn1",
-    "releaseNotes": "Fix known issues"
   }
 ]
