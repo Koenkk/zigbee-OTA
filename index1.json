@@ -812,6 +812,36 @@
     "releaseNotes": "Optimized broadcast and multicast message forwarding in large networks"
   },
   {
+    "fileName": "ZLinky_router_v15.ota",
+    "fileVersion": 15,
+    "fileSize": 251918,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/LiXee/ZLinky_router_v15.ota",
+    "imageType": 1,
+    "manufacturerCode": 4151,
+    "sha512": "862f9df0d5537a346fe0d283449a797127dc6504f0589d639dc26d334d235c8a3e0a85107d9a6e7569ea9915eb567b95658142d1e0d6e03930dfe42bec8a1f83",
+    "otaHeaderString": "OM15081-RTR-JN5189-0000000000000",
+    "originalUrl": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/download/v15.0/ZLinky_router_v15.ota",
+    "manufacturerName": [
+      "LiXee"
+    ],
+    "releaseNotes": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/tag/v15.0"
+  },
+  {
+    "fileName": "ZLinky_router_v15_limited.ota",
+    "fileVersion": 15,
+    "fileSize": 251918,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/LiXee/ZLinky_router_v15_limited.ota",
+    "imageType": 2,
+    "manufacturerCode": 4151,
+    "sha512": "2647d9424d00c19468548edd9e1153a0a8437e37cea3a00feff1e7b24119d2cd5370a00c5f2acac3c69f3f175f7c7e22b6a24cfe1de8a44abfaf6bc7caf44aec",
+    "otaHeaderString": "OM15081-RTR-LIMITED-JN5189-00000",
+    "originalUrl": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/download/v15.0/ZLinky_router_v15_limited.ota",
+    "manufacturerName": [
+      "LiXee"
+    ],
+    "releaseNotes": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/tag/v15.0"
+  },
+  {
     "fileName": "20220422195003_lumi.curtain.acn003_Multi_JN5189_FMSH_0.0.0_2424_20220422_1aa302.ota",
     "fileVersion": 6168,
     "fileSize": 288213,
@@ -854,6 +884,17 @@
     "sha512": "bed1de09ca57d6f9d04e2503fe52c79db4d1daf9706c9f169507897609853cacc45c875860bb6853bfde7226ef0da861dba952c9e2b177e90b31002bf0e4daeb",
     "otaHeaderString": "Aqara OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "modelId": "lumi.switch.acn047"
+  },
+  {
+    "fileName": "20240312112133_OTA_lumi.switch.n3acn1_0.0.0_58_20240311_90ED4C.ota",
+    "fileVersion": 58,
+    "fileSize": 291358,
+    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Lumi/20240312112133_OTA_lumi.switch.n3acn1_0.0.0_58_20240311_90ED4C.ota",
+    "imageType": 2828,
+    "manufacturerCode": 4447,
+    "sha512": "914ae14b65dad3fad4c7e9ed32d2a43763d5a7b67a170133c2f9394092d62f17cbfb0f83e3cdc9255698bec66a3d3c1a7f373ffb75843302343598cc05d4532a",
+    "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000",
+    "modelId": "lumi.switch.n3acn1"
   },
   {
     "fileName": "20240312112328_OTA_lumi.switch.n2acn1_0.0.0_58_20240311_931B42.ota",
@@ -1447,46 +1488,5 @@
     "originalUrl": "https://github.com/xyzroe/ZigUSB_C6/releases/download/324/ZigUSB_C6.ota",
     "modelId": "ZigUSB_C6",
     "releaseNotes": "https://github.com/xyzroe/ZigUSB_C6/releases/tag/324"
-  },
-  {
-    "fileName": "ZLinky_router_v15.ota",
-    "fileVersion": 15,
-    "fileSize": 251918,
-    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/LiXee/ZLinky_router_v15.ota",
-    "imageType": 1,
-    "manufacturerCode": 4151,
-    "sha512": "862f9df0d5537a346fe0d283449a797127dc6504f0589d639dc26d334d235c8a3e0a85107d9a6e7569ea9915eb567b95658142d1e0d6e03930dfe42bec8a1f83",
-    "otaHeaderString": "OM15081-RTR-JN5189-0000000000000",
-    "originalUrl": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/download/v15.0/ZLinky_router_v15.ota",
-    "manufacturerName": [
-      "LiXee"
-    ],
-    "releaseNotes": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/tag/v15.0"
-  },
-  {
-    "fileName": "ZLinky_router_v15_limited.ota",
-    "fileVersion": 15,
-    "fileSize": 251918,
-    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/LiXee/ZLinky_router_v15_limited.ota",
-    "imageType": 2,
-    "manufacturerCode": 4151,
-    "sha512": "2647d9424d00c19468548edd9e1153a0a8437e37cea3a00feff1e7b24119d2cd5370a00c5f2acac3c69f3f175f7c7e22b6a24cfe1de8a44abfaf6bc7caf44aec",
-    "otaHeaderString": "OM15081-RTR-LIMITED-JN5189-00000",
-    "originalUrl": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/download/v15.0/ZLinky_router_v15_limited.ota",
-    "manufacturerName": [
-      "LiXee"
-    ],
-    "releaseNotes": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/tag/v15.0"
-  },
-  {
-    "fileName": "20240312112133_OTA_lumi.switch.n3acn1_0.0.0_58_20240311_90ED4C.ota",
-    "fileVersion": 58,
-    "fileSize": 291358,
-    "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images1/Lumi/20240312112133_OTA_lumi.switch.n3acn1_0.0.0_58_20240311_90ED4C.ota",
-    "imageType": 2828,
-    "manufacturerCode": 4447,
-    "sha512": "914ae14b65dad3fad4c7e9ed32d2a43763d5a7b67a170133c2f9394092d62f17cbfb0f83e3cdc9255698bec66a3d3c1a7f373ffb75843302343598cc05d4532a",
-    "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000",
-    "modelId": "lumi.switch.n3acn1"
   }
 ]
