@@ -1053,17 +1053,6 @@
     "originalUrl": "https://tr-zha.s3.amazonaws.com/z2m_firmware/SmartSwitchGen3_PROD_OTA_V29_v1.00.29.ota"
   },
   {
-    "fileName": "Vibrate_Sensor_PROD_OTA_V53_v1.00.53.ota",
-    "fileVersion": 53,
-    "fileSize": 131410,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/Vibrate_Sensor_PROD_OTA_V53_v1.00.53.ota",
-    "imageType": 54187,
-    "manufacturerCode": 4659,
-    "sha512": "481973197ae906755c6b1a2991e1984071a4534df02424f9020632b4a1a42a79aa0414d2a785f5dd34166f15c10a7d77f2e0e13352f1afa652e55f02f869d5a3",
-    "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-    "originalUrl": "https://tr-zha.s3.amazonaws.com/z2m_firmware/Vibrate_Sensor_PROD_OTA_V53_v1.00.53.ota"
-  },
-  {
     "fileName": "Zigbee_A19_Bulb_OTA_V48_v1.00.48.ota",
     "fileVersion": 48,
     "fileSize": 279346,
@@ -1488,5 +1477,15 @@
     "originalUrl": "https://github.com/xyzroe/ZigUSB_C6/releases/download/324/ZigUSB_C6.ota",
     "modelId": "ZigUSB_C6",
     "releaseNotes": "https://github.com/xyzroe/ZigUSB_C6/releases/tag/324"
+  },
+  {
+    "fileName": "Vibrate_Sensor_PROD_OTA_V54_v1.00.54.ota",
+    "fileVersion": 54,
+    "fileSize": 132178,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/Vibrate_Sensor_PROD_OTA_V54_v1.00.54.ota",
+    "imageType": 54187,
+    "manufacturerCode": 4659,
+    "sha512": "6241a34dd1fb6f99fd9ad71186d769eecdc4e2f5800de50ea599abd6ff0561872343f95fc7995aa4160540a5d2f2a49a96a33d4b2f2e8082344ab1049e573a0e",
+    "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
   }
 ]
