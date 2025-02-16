@@ -1060,17 +1060,6 @@
     "originalUrl": "https://firmware.meethue.com/storage/100b-127/16780546/96200b09-9d10-4272-adeb-b89203fffc41/100B-0127-01000D02-MSD-EFR32MG21.zigbee"
   },
   {
-    "fileName": "100B-0129-01000C04-Light-EFR32MG26.zigbee",
-    "fileVersion": 16780292,
-    "fileSize": 820968,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-0129-01000C04-Light-EFR32MG26.zigbee",
-    "imageType": 297,
-    "manufacturerCode": 4107,
-    "sha512": "ba522649e12ba70a952d43dae242303c69e146ce6e3bbf0f019110a2818d1a1fc65b33ce33c556fb8e097f3861d39d6cf697ec10fe282c7b4ee3c71e64d88888",
-    "otaHeaderString": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-    "originalUrl": "https://firmware.meethue.com/storage/100b-129/16780292/d1e41b01-4131-4bbc-8a66-12d8e7771efd/100B-0129-01000C04-Light-EFR32MG26.zigbee"
-  },
-  {
     "fileName": "ConnectedLamp-Atmel-Target_0012.sbl-ota",
     "fileVersion": 1124103171,
     "fileSize": 256696,
@@ -7407,5 +7396,27 @@
     "manufacturerCode": 4454,
     "sha512": "857d8d4b4b179f92120072d8084d1f2b5b3e20a94fca6cf76ccc6afbbc8ba8f9e091a30144ab35e6edc6984fb45427289aaf8def4838a065b98cf9728716109d",
     "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "100B-0129-01000D02-Light-EFR32MG26.zigbee",
+    "fileVersion": 16780546,
+    "fileSize": 837940,
+    "originalUrl": "https://firmware.meethue.com/storage/100b-129/16780546/639d0ae6-07d8-40bf-9459-6c370410d180/100B-0129-01000D02-Light-EFR32MG26.zigbee",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-0129-01000D02-Light-EFR32MG26.zigbee",
+    "imageType": 297,
+    "manufacturerCode": 4107,
+    "sha512": "3eecbdb068aeff962a430cafbcad57c8792129577eafbf409e2fc0ffb3333d04a6f492202e4d0c8362964d0bcc1a0add6f2c4b4046cfd1383ddf9e4f733abc95",
+    "otaHeaderString": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "VZM32-SN_0.02.ota",
+    "fileVersion": 16973826,
+    "fileSize": 246470,
+    "originalUrl": "https://files.inovelli.com/firmware/VZM32-SN/Beta/0.02/VZM32-SN_0.02.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Inovelli/VZM32-SN_0.02.ota",
+    "imageType": 259,
+    "manufacturerCode": 4655,
+    "sha512": "ff828362de649cd72fab960a50e8dffa1d0a3cf08b8c429c978c82980f946ba0f43b6a61fce0ba8fdfaba5197dcecdf315d42d2bce7ca1f8b37fd84af000daad",
+    "otaHeaderString": "vzm32-sn_mmWave\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
   }
 ]
