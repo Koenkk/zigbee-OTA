@@ -1508,5 +1508,16 @@
     "manufacturerCode": 4714,
     "sha512": "67daf88c5c9cfb2f631864a9d40238049a34e09a61162d45c730b199bcd9537e38a4852881ae00eb23b3ea65c769d1dfe59e9365bd5e674ccc29d340e9e36b98",
     "otaHeaderString": "EBL Shyugj_Dimmer_mg22_ext_flash"
+  },
+  {
+    "fileName": "GarageDoorSensor_PROD_OTA_V29_v1.00.29.ota",
+    "fileVersion": 29,
+    "fileSize": 135266,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/GarageDoorSensor_PROD_OTA_V29_v1.00.29.ota",
+    "imageType": 54193,
+    "manufacturerCode": 5127,
+    "sha512": "af9e91687a1fadfe2b222db1ef540e66d6d34f50780c66693c6f630ac32225dc100459956d79f72f169d60d7e5d66aae7f5c54a9678131852dda83d087632f33",
+    "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "originalUrl": "https://tr-zha.s3.amazonaws.com/z2m_firmware/GarageDoorSensor_PROD_OTA_V29_v1.00.29.ota"
   }
 ]

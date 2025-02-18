@@ -6506,17 +6506,6 @@
     "originalUrl": "https://tr-zha.s3.amazonaws.com/z2m_firmware/FW_ha_v1.00.82.ota"
   },
   {
-    "fileName": "GarageDoorSensor_PROD_OTA_V29_v1.00.29.ota",
-    "fileVersion": 29,
-    "fileSize": 135266,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/GarageDoorSensor_PROD_OTA_V29_v1.00.29.ota",
-    "imageType": 54193,
-    "manufacturerCode": 5127,
-    "sha512": "af9e91687a1fadfe2b222db1ef540e66d6d34f50780c66693c6f630ac32225dc100459956d79f72f169d60d7e5d66aae7f5c54a9678131852dda83d087632f33",
-    "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-    "originalUrl": "https://tr-zha.s3.amazonaws.com/z2m_firmware/GarageDoorSensor_PROD_OTA_V29_v1.00.29.ota"
-  },
-  {
     "fileName": "Motion_Sensor_PROD_OTA_V79_v1.00.79.ota",
     "fileVersion": 79,
     "fileSize": 132610,
@@ -7418,5 +7407,15 @@
     "manufacturerCode": 4714,
     "sha512": "28662b8c0495b7d495b4dc4c4eeccb47f54da664419daa950053b0ef041df747856f6e10f5c06c590e74679a9bc4672208280050dc5a15ca38bdcdc8182dd104",
     "otaHeaderString": "EBL Shyugj_Dimmer_mg22_ext_flash"
+  },
+  {
+    "fileName": "GarageDoorSensor_PROD_OTA_V34_v1.00.34.ota",
+    "fileVersion": 34,
+    "fileSize": 137746,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/GarageDoorSensor_PROD_OTA_V34_v1.00.34.ota",
+    "imageType": 54193,
+    "manufacturerCode": 5127,
+    "sha512": "9b19db5305b3fb3f3d569690ac5d75aeb68f53841b45ab5e9226798b744d9d90bc12a6dfd3bdf6e8d30c26d3415bb208c79ed007458884c42df9487436b8c2e7",
+    "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
   }
 ]
