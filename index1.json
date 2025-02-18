@@ -1498,5 +1498,15 @@
     "sha512": "ba522649e12ba70a952d43dae242303c69e146ce6e3bbf0f019110a2818d1a1fc65b33ce33c556fb8e097f3861d39d6cf697ec10fe282c7b4ee3c71e64d88888",
     "otaHeaderString": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "originalUrl": "https://firmware.meethue.com/storage/100b-129/16780292/d1e41b01-4131-4bbc-8a66-12d8e7771efd/100B-0129-01000C04-Light-EFR32MG26.zigbee"
+  },
+  {
+    "fileName": "4512751-v3.12.ota",
+    "fileVersion": 30,
+    "fileSize": 241886,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Namron/4512751-v3.12.ota",
+    "imageType": 44,
+    "manufacturerCode": 4714,
+    "sha512": "67daf88c5c9cfb2f631864a9d40238049a34e09a61162d45c730b199bcd9537e38a4852881ae00eb23b3ea65c769d1dfe59e9365bd5e674ccc29d340e9e36b98",
+    "otaHeaderString": "EBL Shyugj_Dimmer_mg22_ext_flash"
   }
 ]

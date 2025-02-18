@@ -4990,16 +4990,6 @@
     "modelId": "4512729"
   },
   {
-    "fileName": "4512751-v3.12.ota",
-    "fileVersion": 30,
-    "fileSize": 241886,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Namron/4512751-v3.12.ota",
-    "imageType": 44,
-    "manufacturerCode": 4714,
-    "sha512": "67daf88c5c9cfb2f631864a9d40238049a34e09a61162d45c730b199bcd9537e38a4852881ae00eb23b3ea65c769d1dfe59e9365bd5e674ccc29d340e9e36b98",
-    "otaHeaderString": "EBL Shyugj_Dimmer_mg22_ext_flash"
-  },
-  {
     "fileName": "4512772-Firmware-35.ota",
     "fileVersion": 26,
     "fileSize": 146034,
@@ -7418,5 +7408,15 @@
     "manufacturerCode": 4655,
     "sha512": "ff828362de649cd72fab960a50e8dffa1d0a3cf08b8c429c978c82980f946ba0f43b6a61fce0ba8fdfaba5197dcecdf315d42d2bce7ca1f8b37fd84af000daad",
     "otaHeaderString": "vzm32-sn_mmWave\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "Namron_4512750_v32_2025_02_14.ota",
+    "fileVersion": 32,
+    "fileSize": 241774,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Namron/Namron_4512750_v32_2025_02_14.ota",
+    "imageType": 44,
+    "manufacturerCode": 4714,
+    "sha512": "28662b8c0495b7d495b4dc4c4eeccb47f54da664419daa950053b0ef041df747856f6e10f5c06c590e74679a9bc4672208280050dc5a15ca38bdcdc8182dd104",
+    "otaHeaderString": "EBL Shyugj_Dimmer_mg22_ext_flash"
   }
 ]
