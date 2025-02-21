@@ -1519,5 +1519,15 @@
     "sha512": "af9e91687a1fadfe2b222db1ef540e66d6d34f50780c66693c6f630ac32225dc100459956d79f72f169d60d7e5d66aae7f5c54a9678131852dda83d087632f33",
     "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "originalUrl": "https://tr-zha.s3.amazonaws.com/z2m_firmware/GarageDoorSensor_PROD_OTA_V29_v1.00.29.ota"
+  },
+  {
+    "fileName": "trvzb_v1.2.1.ota",
+    "fileVersion": 4609,
+    "fileSize": 328138,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Sonoff/trvzb_v1.2.1.ota",
+    "imageType": 8199,
+    "manufacturerCode": 4742,
+    "sha512": "fbc751c738cf8c15e088bc5f91f9a0d039d16d09d689ede3c131ac36f2cdf63bf15f3e10cbf775a1896c57e81aeae6425abb893cb5b36e99465c1c7738ec9f39",
+    "otaHeaderString": "vers:00001201,00001200\n\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
   }
 ]

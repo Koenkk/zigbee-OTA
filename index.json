@@ -6301,16 +6301,6 @@
     "otaHeaderString": "vers: ZigBee:00001006\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
   },
   {
-    "fileName": "trvzb_v1.2.1.ota",
-    "fileVersion": 4609,
-    "fileSize": 328138,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/trvzb_v1.2.1.ota",
-    "imageType": 8199,
-    "manufacturerCode": 4742,
-    "sha512": "fbc751c738cf8c15e088bc5f91f9a0d039d16d09d689ede3c131ac36f2cdf63bf15f3e10cbf775a1896c57e81aeae6425abb893cb5b36e99465c1c7738ec9f39",
-    "otaHeaderString": "vers:00001201,00001200\n\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
-  },
-  {
     "fileName": "zbmicro_v1.0.5.ota",
     "fileVersion": 4101,
     "fileSize": 269220,
@@ -7417,5 +7407,15 @@
     "manufacturerCode": 5127,
     "sha512": "9b19db5305b3fb3f3d569690ac5d75aeb68f53841b45ab5e9226798b744d9d90bc12a6dfd3bdf6e8d30c26d3415bb208c79ed007458884c42df9487436b8c2e7",
     "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "trvzb_v1.3.0.ota",
+    "fileVersion": 4864,
+    "fileSize": 329856,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/trvzb_v1.3.0.ota",
+    "imageType": 8199,
+    "manufacturerCode": 4742,
+    "sha512": "9bb3374caba58ac72d4ffb1f601a4b35ec7ffa74a45bb03ff9892919929399ea4484fafd681f27368646650929dd7a56c6bf230c4d39971658d21b89c382073e",
+    "otaHeaderString": "vers:00001300,00001204\n\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
   }
 ]
