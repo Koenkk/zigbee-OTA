@@ -951,16 +951,6 @@
     "otaHeaderString": "ota-file-test\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
   },
   {
-    "fileName": "trvzb_v1.3.0.ota",
-    "fileVersion": 4864,
-    "fileSize": 329856,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Sonoff/trvzb_v1.3.0.ota",
-    "imageType": 8199,
-    "manufacturerCode": 4742,
-    "sha512": "9bb3374caba58ac72d4ffb1f601a4b35ec7ffa74a45bb03ff9892919929399ea4484fafd681f27368646650929dd7a56c6bf230c4d39971658d21b89c382073e",
-    "otaHeaderString": "vers:00001300,00001204\n\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
-  },
-  {
     "fileName": "zb_wb_msw4_mg21_063.ota",
     "fileVersion": 63,
     "fileSize": 225738,
