@@ -7417,5 +7417,15 @@
     "sha512": "9fce4e4bccca34831c2ab1cc989013068bc92a9d67264d17764fcea556ba1baa9cacdacbae6f59836a680f39b81df7cd574ba8a7604e0a4c9aebee07ad459b8c",
     "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000",
     "modelId": "lumi.switch.b2nc01"
+  },
+  {
+    "fileName": "Radar_PROD_OTA_V6_v1.00.06.ota",
+    "fileVersion": 6,
+    "fileSize": 136354,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Radar_PROD_OTA_V6_v1.00.06.ota",
+    "imageType": 54194,
+    "manufacturerCode": 5127,
+    "sha512": "ef965246281a1b3da9f908b8c0d45e597c459b7db1e4b98a0ac1b3f3fab67058216eaf8c31ef5b6d9fd413c0cbb0030b38062581a2daa21c3ef42d09afcf5af8",
+    "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
   }
 ]
