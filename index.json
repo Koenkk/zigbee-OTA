@@ -2361,16 +2361,6 @@
     "otaHeaderString": "DR1175r1v02--JN5169--ENCRYPTED00"
   },
   {
-    "fileName": "PMM300Z3_OTA_ENC_V5_ENC.ota",
-    "fileVersion": 5,
-    "fileSize": 220046,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Jennic/PMM300Z3_OTA_ENC_V5_ENC.ota",
-    "imageType": 4108,
-    "manufacturerCode": 4151,
-    "sha512": "5dbafbb232eccb6d2c3c219a759dfd1ea847a3645d23b26f2f791fccabe004e6ce0220ca7cc73faddb45be8f7ee90f6c67df07bbe0ac4b663f068ec2e0709953",
-    "otaHeaderString": "DR1175r1v02--JN5169--ENCRYPTED00"
-  },
-  {
     "fileName": "SBM300ZB_OTA_ENC_V4_ENC.ota",
     "fileVersion": 4,
     "fileSize": 178798,
@@ -7427,5 +7417,15 @@
     "manufacturerCode": 5127,
     "sha512": "ef965246281a1b3da9f908b8c0d45e597c459b7db1e4b98a0ac1b3f3fab67058216eaf8c31ef5b6d9fd413c0cbb0030b38062581a2daa21c3ef42d09afcf5af8",
     "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "PMM300Z3_OTA_ENC_V7_ENC.ota",
+    "fileVersion": 7,
+    "fileSize": 224670,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Jennic/PMM300Z3_OTA_ENC_V7_ENC.ota",
+    "imageType": 4108,
+    "manufacturerCode": 4151,
+    "sha512": "0c1754cfaf41cecddcbc43c3d7da111ced64315ecb111b903550f34810e5945d123ab2e67edbe00a1132e62948f27e0c48409fb43a635b36e46e30d2fd312000",
+    "otaHeaderString": "DR1175r1v02--JN5169--ENCRYPTED00"
   }
 ]
