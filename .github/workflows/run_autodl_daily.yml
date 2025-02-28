@@ -1,0 +1,51 @@
+name: Run auto download
+on:
+    schedule:
+        - cron: '0 0 * * *'
+
+env:
+    # comma separate values, no spaces
+    MANUFACTURERS_TO_PROCESS: "inovelli"
+
+permissions:
+    contents: write
+
+jobs:
+    run-autodl:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+
+            - uses: pnpm/action-setup@v4
+              with:
+                  version: 9
+
+            - uses: actions/setup-node@v4
+              with:
+                  node-version: 20
+                  registry-url: https://registry.npmjs.org/
+                  cache: pnpm
+
+            - name: Install dependencies
+              run: pnpm i --frozen-lockfile
+
+            - name: Build
+              run: pnpm run build
+
+            - name: Run Autodl
+              uses: actions/github-script@v7
+              env:
+                  NODE_EXTRA_CA_CERTS: cacerts.pem
+              with:
+                  script: |
+                      const {runAutodl} = await import("${{ github.workspace }}/dist/ghw_run_autodl.js")
+
+                      await runAutodl(github, core, context, "$MANUFACTURERS_TO_PROCESS")
+
+            - name: Commit changes
+              run: |
+                  git config --global user.name 'github-actions[bot]'
+                  git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+                  git add .
+                  git commit -m "Autodl update" || echo 'Nothing to commit'
+                  git push
