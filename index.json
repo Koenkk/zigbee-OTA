@@ -7367,16 +7367,6 @@
     "otaHeaderString": "EBL Shyugj_Dimmer_mg22_ext_flash"
   },
   {
-    "fileName": "GarageDoorSensor_PROD_OTA_V34_v1.00.34.ota",
-    "fileVersion": 34,
-    "fileSize": 137746,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/GarageDoorSensor_PROD_OTA_V34_v1.00.34.ota",
-    "imageType": 54193,
-    "manufacturerCode": 5127,
-    "sha512": "9b19db5305b3fb3f3d569690ac5d75aeb68f53841b45ab5e9226798b744d9d90bc12a6dfd3bdf6e8d30c26d3415bb208c79ed007458884c42df9487436b8c2e7",
-    "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
-  },
-  {
     "fileName": "trvzb_v1.3.0.ota",
     "fileVersion": 4864,
     "fileSize": 329856,
@@ -7427,5 +7417,15 @@
     "manufacturerCode": 4151,
     "sha512": "0c1754cfaf41cecddcbc43c3d7da111ced64315ecb111b903550f34810e5945d123ab2e67edbe00a1132e62948f27e0c48409fb43a635b36e46e30d2fd312000",
     "otaHeaderString": "DR1175r1v02--JN5169--ENCRYPTED00"
+  },
+  {
+    "fileName": "GarageDoorSensor_PROD_OTA_V36_v1.00.36.ota",
+    "fileVersion": 36,
+    "fileSize": 137698,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/GarageDoorSensor_PROD_OTA_V36_v1.00.36.ota",
+    "imageType": 54193,
+    "manufacturerCode": 5127,
+    "sha512": "b68cbc5385270c5196daaec55e5175d8203006ed16672ed3e860b3a630dc23965994123a27bb3a2248ae2f0d9871c81c8b38259f2d7aca28651758f936515535",
+    "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
   }
 ]
