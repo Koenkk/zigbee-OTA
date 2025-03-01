@@ -1542,16 +1542,6 @@
     "modelId": "lumi.switch.b2nc01"
   },
   {
-    "fileName": "PMM300Z3_OTA_ENC_V5_ENC.ota",
-    "fileVersion": 5,
-    "fileSize": 220046,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Jennic/PMM300Z3_OTA_ENC_V5_ENC.ota",
-    "imageType": 4108,
-    "manufacturerCode": 4151,
-    "sha512": "5dbafbb232eccb6d2c3c219a759dfd1ea847a3645d23b26f2f791fccabe004e6ce0220ca7cc73faddb45be8f7ee90f6c67df07bbe0ac4b663f068ec2e0709953",
-    "otaHeaderString": "DR1175r1v02--JN5169--ENCRYPTED00"
-  },
-  {
     "fileName": "GarageDoorSensor_PROD_OTA_V34_v1.00.34.ota",
     "fileVersion": 34,
     "fileSize": 137746,
@@ -1560,5 +1550,15 @@
     "manufacturerCode": 5127,
     "sha512": "9b19db5305b3fb3f3d569690ac5d75aeb68f53841b45ab5e9226798b744d9d90bc12a6dfd3bdf6e8d30c26d3415bb208c79ed007458884c42df9487436b8c2e7",
     "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "PMM300Z3_OTA_ENC_V7_ENC.ota",
+    "fileVersion": 7,
+    "fileSize": 224670,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Jennic/PMM300Z3_OTA_ENC_V7_ENC.ota",
+    "imageType": 4108,
+    "manufacturerCode": 4151,
+    "sha512": "0c1754cfaf41cecddcbc43c3d7da111ced64315ecb111b903550f34810e5945d123ab2e67edbe00a1132e62948f27e0c48409fb43a635b36e46e30d2fd312000",
+    "otaHeaderString": "DR1175r1v02--JN5169--ENCRYPTED00"
   }
 ]

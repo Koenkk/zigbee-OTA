@@ -7409,16 +7409,6 @@
     "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
   },
   {
-    "fileName": "PMM300Z3_OTA_ENC_V7_ENC.ota",
-    "fileVersion": 7,
-    "fileSize": 224670,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Jennic/PMM300Z3_OTA_ENC_V7_ENC.ota",
-    "imageType": 4108,
-    "manufacturerCode": 4151,
-    "sha512": "0c1754cfaf41cecddcbc43c3d7da111ced64315ecb111b903550f34810e5945d123ab2e67edbe00a1132e62948f27e0c48409fb43a635b36e46e30d2fd312000",
-    "otaHeaderString": "DR1175r1v02--JN5169--ENCRYPTED00"
-  },
-  {
     "fileName": "GarageDoorSensor_PROD_OTA_V36_v1.00.36.ota",
     "fileVersion": 36,
     "fileSize": 137698,
@@ -7427,5 +7417,16 @@
     "manufacturerCode": 5127,
     "sha512": "b68cbc5385270c5196daaec55e5175d8203006ed16672ed3e860b3a630dc23965994123a27bb3a2248ae2f0d9871c81c8b38259f2d7aca28651758f936515535",
     "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "PMM300Z3_OTA_ENC_V8_ENC.ota",
+    "fileVersion": 8,
+    "fileSize": 224686,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Jennic/PMM300Z3_OTA_ENC_V8_ENC.ota",
+    "imageType": 4108,
+    "manufacturerCode": 4151,
+    "sha512": "8baf64a84928848a8e50889c9f147eec3af40fe98a08fdae0c81211137e97f41497d14fa9cb1760f166bc7d08febf757f2d6fa58aee91ecc9c0cc32402a8e469",
+    "otaHeaderString": "DR1175r1v02--JN5169--ENCRYPTED00",
+    "releaseNotes": "The acCurrentDivisor has been changed from 100 to 10 to allow acCurrent values to exceed 655.35A. Note, however, that the unit precision will change from two decimal places to one."
   }
 ]
