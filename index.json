@@ -7335,17 +7335,6 @@
     "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
   },
   {
-    "fileName": "100B-0129-01000D02-Light-EFR32MG26.zigbee",
-    "fileVersion": 16780546,
-    "fileSize": 837940,
-    "originalUrl": "https://firmware.meethue.com/storage/100b-129/16780546/639d0ae6-07d8-40bf-9459-6c370410d180/100B-0129-01000D02-Light-EFR32MG26.zigbee",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-0129-01000D02-Light-EFR32MG26.zigbee",
-    "imageType": 297,
-    "manufacturerCode": 4107,
-    "sha512": "3eecbdb068aeff962a430cafbcad57c8792129577eafbf409e2fc0ffb3333d04a6f492202e4d0c8362964d0bcc1a0add6f2c4b4046cfd1383ddf9e4f733abc95",
-    "otaHeaderString": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
-  },
-  {
     "fileName": "VZM32-SN_0.02.ota",
     "fileVersion": 16973826,
     "fileSize": 246470,
@@ -7428,5 +7417,27 @@
     "sha512": "8baf64a84928848a8e50889c9f147eec3af40fe98a08fdae0c81211137e97f41497d14fa9cb1760f166bc7d08febf757f2d6fa58aee91ecc9c0cc32402a8e469",
     "otaHeaderString": "DR1175r1v02--JN5169--ENCRYPTED00",
     "releaseNotes": "The acCurrentDivisor has been changed from 100 to 10 to allow acCurrent values to exceed 655.35A. Note, however, that the unit precision will change from two decimal places to one."
+  },
+  {
+    "fileName": "100B-0129-01000D06-Light-EFR32MG26.zigbee",
+    "fileVersion": 16780550,
+    "fileSize": 833604,
+    "originalUrl": "https://firmware.meethue.com/storage/100b-129/16780550/d44f751c-9def-4483-aeb9-940f59ed3aa1/100B-0129-01000D06-Light-EFR32MG26.zigbee",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-0129-01000D06-Light-EFR32MG26.zigbee",
+    "imageType": 297,
+    "manufacturerCode": 4107,
+    "sha512": "c21b60bca9276fb9c1cecfe4b61b91a4cc90ca9a48cd75c93fb2ed8fc33853e81b0f4e618afbc7ba6538b7a868669765698611c3db2430389aa5fae86c28c5d3",
+    "otaHeaderString": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "mmwave_module_fw_V3_14_3.ota",
+    "fileVersion": 100863491,
+    "fileSize": 50238,
+    "originalUrl": "https://inov.li/IRbxhx1646F/mmwave_module_fw_V3_14_3.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Inovelli/mmwave_module_fw_V3_14_3.ota",
+    "imageType": 260,
+    "manufacturerCode": 4655,
+    "sha512": "f89ead312763061ca44dd3cd917c223087877ce235a2ac41ef22b31c43b6566baab267a3d90a649812364a7b4c065757fa4117b64fbed74857bae3d2493cbf27",
+    "otaHeaderString": "LD6002B\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
   }
 ]
