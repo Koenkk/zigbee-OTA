@@ -3,10 +3,6 @@ on:
     schedule:
         - cron: '0 12 * * *'
 
-env:
-    # comma separate values, no spaces
-    MANUFACTURERS_TO_PROCESS: "inovelli"
-
 permissions:
     contents: write
 
@@ -40,7 +36,7 @@ jobs:
                   script: |
                       const {runAutodl} = await import("${{ github.workspace }}/dist/ghw_run_autodl.js")
 
-                      await runAutodl(github, core, context, "$MANUFACTURERS_TO_PROCESS")
+                      await runAutodl(github, core, context, "inovelli")
 
             - name: Commit changes
               run: |
