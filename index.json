@@ -7439,5 +7439,15 @@
     "manufacturerCode": 4655,
     "sha512": "f89ead312763061ca44dd3cd917c223087877ce235a2ac41ef22b31c43b6566baab267a3d90a649812364a7b4c065757fa4117b64fbed74857bae3d2493cbf27",
     "otaHeaderString": "LD6002B\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "snzb-02d_v2.3.0.ota",
+    "fileVersion": 8960,
+    "fileSize": 264118,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/snzb-02d_v2.3.0.ota",
+    "imageType": 2053,
+    "manufacturerCode": 4742,
+    "sha512": "1ff8bc7d3d38adc87b4b2050fc6241efdd989c6410b6a73f6f8dde999450f9468bc08ca62f7223adc61a2d655a746c257002af4c2c36f3c089c182cc4a58aaea",
+    "otaHeaderString": "FWSN_SNZB02D\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
   }
 ]
