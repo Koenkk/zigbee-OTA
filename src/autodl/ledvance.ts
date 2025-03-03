@@ -77,7 +77,7 @@ export async function download(): Promise<void> {
     const images = await getJson<ImagesJson>(NAME, FIRMWARE_URL);
 
     if (images?.firmwares?.length) {
-        const cachedData = readCacheJson<ImagesJson | undefined>(NAME);
+        const cachedData = readCacheJson<ImagesJson>(NAME);
         const cachedDataByProduct = cachedData?.firmwares?.length ? groupByProduct(cachedData.firmwares) : undefined;
         const firmwareByProduct = groupByProduct(images.firmwares);
 

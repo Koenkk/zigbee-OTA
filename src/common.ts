@@ -93,7 +93,7 @@ export function writeCacheJson<T>(fileName: string, contents: T, basePath: strin
     writeFileSync(path.join(basePath, `${fileName}.json`), JSON.stringify(contents), 'utf8');
 }
 
-export function readCacheJson<T>(fileName: string, basePath: string = CACHE_DIR): T {
+export function readCacheJson<T>(fileName: string, basePath: string = CACHE_DIR): T | undefined {
     const filePath = path.join(basePath, `${fileName}.json`);
 
     return existsSync(filePath) ? JSON.parse(readFileSync(filePath, 'utf8')) : undefined;

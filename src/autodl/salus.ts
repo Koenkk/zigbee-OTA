@@ -34,7 +34,7 @@ export async function download(): Promise<void> {
     const images = await getJson<ImagesJson>(NAME, FIRMWARE_URL);
 
     if (images?.versions?.length) {
-        const cachedData = readCacheJson<ImagesJson | undefined>(NAME);
+        const cachedData = readCacheJson<ImagesJson>(NAME);
 
         for (const image of images.versions) {
             const archiveUrl = image.url; //.replace(/^http:\/\//, 'https://');

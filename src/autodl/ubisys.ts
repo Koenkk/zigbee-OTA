@@ -71,7 +71,7 @@ export async function download(): Promise<void> {
     if (pageText?.length) {
         const images = parseText(pageText);
         const imagesByType = groupByImageType(images);
-        const cachedData = readCacheJson<Image[] | undefined>(NAME);
+        const cachedData = readCacheJson<Image[]>(NAME);
         const cachedDataByType = cachedData ? groupByImageType(cachedData) : undefined;
 
         for (const imageType in imagesByType) {

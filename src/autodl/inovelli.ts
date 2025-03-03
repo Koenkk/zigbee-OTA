@@ -41,7 +41,7 @@ export async function download(): Promise<void> {
     const models = await getJson<ModelsJson>(NAME, FIRMWARE_URL);
 
     if (models) {
-        const cachedData = readCacheJson<ModelsJson | undefined>(NAME);
+        const cachedData = readCacheJson<ModelsJson>(NAME);
 
         for (const model in models) {
             if (model == '') {

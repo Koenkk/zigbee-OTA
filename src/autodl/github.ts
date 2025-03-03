@@ -66,7 +66,7 @@ export async function download(manufacturer: string, releasesUrl: string, assetF
         const release = getLatestImage(releases, sortByPublishedAt);
 
         if (release) {
-            const cachedData = readCacheJson<ReleasesJson | undefined>(manufacturer);
+            const cachedData = readCacheJson<ReleasesJson>(manufacturer);
             const cached = cachedData?.length ? getLatestImage(cachedData, sortByPublishedAt) : undefined;
 
             for (const assetFinder of assetFinders) {

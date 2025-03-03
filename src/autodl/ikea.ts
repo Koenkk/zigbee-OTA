@@ -59,7 +59,7 @@ export async function download(): Promise<void> {
     const images = await getJson<ImagesJson>(NAME, PRODUCTION_FIRMWARE_URL);
 
     if (images?.length) {
-        const cachedData = readCacheJson<ImagesJson | undefined>(NAME);
+        const cachedData = readCacheJson<ImagesJson>(NAME);
 
         for (const image of images) {
             if (image.fw_type !== 2) {
