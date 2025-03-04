@@ -1560,5 +1560,16 @@
     "manufacturerCode": 4107,
     "sha512": "3eecbdb068aeff962a430cafbcad57c8792129577eafbf409e2fc0ffb3333d04a6f492202e4d0c8362964d0bcc1a0add6f2c4b4046cfd1383ddf9e4f733abc95",
     "otaHeaderString": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "VZM32-SN_0.02.ota",
+    "fileVersion": 16973826,
+    "fileSize": 246470,
+    "originalUrl": "https://files.inovelli.com/firmware/VZM32-SN/Beta/0.02/VZM32-SN_0.02.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Inovelli/VZM32-SN_0.02.ota",
+    "imageType": 259,
+    "manufacturerCode": 4655,
+    "sha512": "ff828362de649cd72fab960a50e8dffa1d0a3cf08b8c429c978c82980f946ba0f43b6a61fce0ba8fdfaba5197dcecdf315d42d2bce7ca1f8b37fd84af000daad",
+    "otaHeaderString": "vzm32-sn_mmWave\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
   }
 ]
