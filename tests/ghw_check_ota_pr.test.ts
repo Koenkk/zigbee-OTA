@@ -17,6 +17,7 @@ import {
     IMAGE_V12_1_METAS,
     IMAGE_V13_1,
     IMAGE_V13_1_METAS,
+    IMAGE_V13_1_METAS_MAIN,
     IMAGE_V14_1,
     IMAGE_V14_1_METAS,
     IMAGE_V14_2,
@@ -553,12 +554,13 @@ Text after end tag`);
     });
 
     it('success with multiple files and specific extra metas', async () => {
-        filePaths = [useImage(IMAGE_V13_1), useImage(IMAGE_V14_1)];
+        filePaths = [useImage(IMAGE_V13_1), useImage(IMAGE_V14_1), useImage(IMAGE_V12_1)];
         const newContext = withBody(`Text before start tag 
 \`\`\`json
 [
     {"fileName": "${IMAGE_V14_1}", "manufacturerName": ["lixee"], "hardwareVersionMin": 2},
-    {"fileName": "${IMAGE_V13_1}", "manufacturerName": ["lixee"]}
+    {"fileName": "${IMAGE_V13_1}", "manufacturerName": ["lixee"]},
+    {"fileName": "${IMAGE_V12_1}", "manufacturerName": ["lixee"]}
 ]
 \`\`\`
 Text after end tag`);
@@ -569,18 +571,19 @@ Text after end tag`);
         expect(readManifestSpy).toHaveBeenCalledWith(common.BASE_INDEX_MANIFEST_FILENAME);
         expect(readManifestSpy).toHaveBeenCalledWith(common.PREV_INDEX_MANIFEST_FILENAME);
         expect(addImageToBaseSpy).toHaveBeenCalledTimes(2);
-        expect(addImageToPrevSpy).toHaveBeenCalledTimes(0);
+        expect(addImageToPrevSpy).toHaveBeenCalledTimes(1);
         expect(writeManifestSpy).toHaveBeenCalledTimes(2);
         expect(writeManifestSpy).toHaveBeenCalledWith(common.BASE_INDEX_MANIFEST_FILENAME, [
+            withExtraMetas(IMAGE_V13_1_METAS_MAIN, {manufacturerName: ['lixee']}),
             withExtraMetas(IMAGE_V14_1_METAS, {manufacturerName: ['lixee'], hardwareVersionMin: 2}),
         ]);
         expect(writeManifestSpy).toHaveBeenCalledWith(common.PREV_INDEX_MANIFEST_FILENAME, [
-            withExtraMetas(IMAGE_V13_1_METAS, {manufacturerName: ['lixee']}),
+            withExtraMetas(IMAGE_V12_1_METAS, {manufacturerName: ['lixee']}),
         ]);
     });
 
     it('success with multiple files and specific extra metas, ignore without fileName', async () => {
-        filePaths = [useImage(IMAGE_V13_1), useImage(IMAGE_V14_1)];
+        filePaths = [useImage(IMAGE_V12_1), useImage(IMAGE_V13_1), useImage(IMAGE_V14_1)];
         const newContext = withBody(`Text before start tag 
 \`\`\`json
 [
@@ -595,12 +598,13 @@ Text after end tag`);
 
         expect(readManifestSpy).toHaveBeenCalledWith(common.BASE_INDEX_MANIFEST_FILENAME);
         expect(readManifestSpy).toHaveBeenCalledWith(common.PREV_INDEX_MANIFEST_FILENAME);
-        expect(addImageToBaseSpy).toHaveBeenCalledTimes(2);
+        expect(addImageToBaseSpy).toHaveBeenCalledTimes(3);
         expect(addImageToPrevSpy).toHaveBeenCalledTimes(0);
         expect(writeManifestSpy).toHaveBeenCalledTimes(2);
         expect(writeManifestSpy).toHaveBeenCalledWith(common.BASE_INDEX_MANIFEST_FILENAME, [
+            IMAGE_V13_1_METAS_MAIN,
             withExtraMetas(IMAGE_V14_1_METAS, {manufacturerName: ['lixee'], hardwareVersionMin: 2}),
         ]);
-        expect(writeManifestSpy).toHaveBeenCalledWith(common.PREV_INDEX_MANIFEST_FILENAME, [IMAGE_V13_1_METAS]);
+        expect(writeManifestSpy).toHaveBeenCalledWith(common.PREV_INDEX_MANIFEST_FILENAME, [IMAGE_V12_1_METAS]);
     });
 });
