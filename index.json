@@ -7449,5 +7449,44 @@
     "manufacturerCode": 4655,
     "sha512": "7e24a756766c6e8c6d83a14c4d875c7d149ed5c717100897883d96d06c496e9d69bf25a03c4dd2b74cef5bebaf9edd19ce4a6e23dd7e81cb6144ef3c5786bc84",
     "otaHeaderString": "vzm32-sn_mmWave\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "10F2-7B02-0002-0007-0192020D-spo-fms.ota1.zigbee",
+    "fileVersion": 26345997,
+    "fileSize": 256200,
+    "originalUrl": "http://fwu.ubisys.de/smarthome/OTA/release/10F2-7B02-0002-0007-0192020D-spo-fms.ota1.zigbee",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Ubisys/10F2-7B02-0002-0007-0192020D-spo-fms.ota1.zigbee",
+    "imageType": 31490,
+    "manufacturerCode": 4338,
+    "sha512": "27743f96962964d3670c7cc1cf90356d1e77b1277d4cc97a501b01e0600768fd9335f2a9b94efc7c8e4ae892eeebc7a5a2c99ab4b223d0d957282ac66e11c7ac",
+    "otaHeaderString": "ubisys S1\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "hardwareVersionMin": 2,
+    "hardwareVersionMax": 7
+  },
+  {
+    "fileName": "10F2-7B22-0002-0007-0193020D-spo-fms.ota.zigbee",
+    "fileVersion": 26411533,
+    "fileSize": 129278,
+    "originalUrl": "http://fwu.ubisys.de/smarthome/OTA/release/10F2-7B22-0002-0007-0193020D-spo-fms.ota.zigbee",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Ubisys/10F2-7B22-0002-0007-0193020D-spo-fms.ota.zigbee",
+    "imageType": 31522,
+    "manufacturerCode": 4338,
+    "sha512": "94d2430f2c4ddd9ecbad6199608958715ce48269f352e18636e62bf7f6d7c17b1d9fb444fc9f8b4dea26da265f4cc34d4df27557b97095a30140e0470a9f9c65",
+    "otaHeaderString": "ubisys S1 1.9.3\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "hardwareVersionMin": 2,
+    "hardwareVersionMax": 7
+  },
+  {
+    "fileName": "10F2-7B32-0002-0007-02500447-spo-fms.ota.zigbee",
+    "fileVersion": 38798407,
+    "fileSize": 149758,
+    "originalUrl": "http://fwu.ubisys.de/smarthome/OTA/release/10F2-7B32-0002-0007-02500447-spo-fms.ota.zigbee",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Ubisys/10F2-7B32-0002-0007-02500447-spo-fms.ota.zigbee",
+    "imageType": 31538,
+    "manufacturerCode": 4338,
+    "sha512": "9d3e6e375c865024a29de5760645be70cf1b549442b5f9b97d417bf4a423275076b16eb8a2e9bec91ea364e7e318701069516be71bbc7b629eea1455130c1dac",
+    "otaHeaderString": "ubisys S1 2.5.0\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "hardwareVersionMin": 2,
+    "hardwareVersionMax": 7
   }
 ]
