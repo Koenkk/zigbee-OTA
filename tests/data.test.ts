@@ -93,6 +93,14 @@ export const IMAGE_V13_1_METAS = {
     sha512: '4d7ab47dcb24e478e0abb35e691222b7691e77ed5a56de3f9c82e8682730649b1a154110b7207d4391c32eae53a869e20878e880fc153dbe046690b870be8486',
     otaHeaderString: 'OM15081-RTR-JN5189-0000000000000',
 };
+
+/**
+ * Use when V14 has a hardware constraint set.
+ */
+export const IMAGE_V13_1_METAS_MAIN = {
+    ...IMAGE_V13_1_METAS,
+    url: `${common.BASE_REPO_URL}${common.REPO_BRANCH}/images/${IMAGES_TEST_DIR}/${IMAGE_V13_1}`,
+};
 /**
  * - otaUpgradeFileIdentifier: <Buffer 1e f1 ee 0b>,
  * - otaHeaderVersion: 256,

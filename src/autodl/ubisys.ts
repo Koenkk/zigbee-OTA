@@ -20,7 +20,10 @@ const FIRMWARE_HTML_URL = 'http://fwu.ubisys.de/smarthome/OTA/release/index';
 
 function groupByImageType(arr: Image[]): GroupedImages {
     return arr.reduce<GroupedImages>((acc, cur) => {
-        acc[cur.imageType] = [...(acc[cur.imageType] || []), cur];
+        acc[cur.imageType + (cur.hardwareVersionMax ? cur.hardwareVersionMax : '')] = [
+            ...(acc[cur.imageType + (cur.hardwareVersionMax ? cur.hardwareVersionMax : '')] || []),
+            cur,
+        ];
         return acc;
     }, {});
 }
@@ -76,7 +79,6 @@ export async function download(): Promise<void> {
 
         for (const imageType in imagesByType) {
             const image = getLatestImage(imagesByType[imageType], sortByFileVersion);
-
             if (!image) {
                 console.error(`${LOG_PREFIX} No image found for ${imageType}.`);
                 continue;
