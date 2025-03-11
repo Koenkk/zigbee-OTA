@@ -1571,5 +1571,15 @@
     "manufacturerCode": 4655,
     "sha512": "ff828362de649cd72fab960a50e8dffa1d0a3cf08b8c429c978c82980f946ba0f43b6a61fce0ba8fdfaba5197dcecdf315d42d2bce7ca1f8b37fd84af000daad",
     "otaHeaderString": "vzm32-sn_mmWave\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "FireAlarm_4.0.8.zigbee",
+    "fileVersion": 262152,
+    "fileSize": 201716,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Develco/FireAlarm_4.0.8.zigbee",
+    "imageType": 593,
+    "manufacturerCode": 4117,
+    "sha512": "07bc44d6510a22f99b4ce5baf56a23aa29a8c34f213dbc5c2407fc89c6c7c3542e43082e15285aeaaa94eff4579002da8e6cc30cf35455f57dbfaf7d3db5bf2c",
+    "otaHeaderString": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
   }
 ]

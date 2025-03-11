@@ -286,16 +286,6 @@
     "otaHeaderString": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
   },
   {
-    "fileName": "FireAlarm_4.0.8.zigbee",
-    "fileVersion": 262152,
-    "fileSize": 201716,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Develco/FireAlarm_4.0.8.zigbee",
-    "imageType": 593,
-    "manufacturerCode": 4117,
-    "sha512": "07bc44d6510a22f99b4ce5baf56a23aa29a8c34f213dbc5c2407fc89c6c7c3542e43082e15285aeaaa94eff4579002da8e6cc30cf35455f57dbfaf7d3db5bf2c",
-    "otaHeaderString": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
-  },
-  {
     "fileName": "HumiditySensor_4.0.1.zigbee",
     "fileVersion": 262145,
     "fileSize": 189614,
@@ -7488,5 +7478,15 @@
     "otaHeaderString": "ubisys S1 2.5.0\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "hardwareVersionMin": 2,
     "hardwareVersionMax": 7
+  },
+  {
+    "fileName": "ED - HA - Smoke Sensor Mini-4.0.9.zigbee",
+    "fileVersion": 262153,
+    "fileSize": 202074,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Develco/ED%20-%20HA%20-%20Smoke%20Sensor%20Mini-4.0.9.zigbee",
+    "imageType": 593,
+    "manufacturerCode": 4117,
+    "sha512": "900688dea743db3097d59d90e5c4a2a4551232a1b5dd21be43e66d58de24ee0b98838e6b3ff400fb044051c97a48dacda429b75f2a9e1259af5d9121ef1238b1",
+    "otaHeaderString": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
   }
 ]
