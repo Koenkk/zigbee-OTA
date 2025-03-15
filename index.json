@@ -6539,16 +6539,6 @@
     "originalUrl": "https://tr-zha.s3.amazonaws.com/z2m_firmware/Water_Leak_Sensor_PROD_OTA_V66_v1.00.66.ota"
   },
   {
-    "fileName": "Zigbee_A19_Bulb_OTA_V56_1.00.56.ota",
-    "fileVersion": 56,
-    "fileSize": 283666,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Zigbee_A19_Bulb_OTA_V56_1.00.56.ota",
-    "imageType": 54188,
-    "manufacturerCode": 5127,
-    "sha512": "4481f292368d350836798cd3c97e226d111ec31e994729896890aa87dbd75a574255600cd87ad8b117a8f3a6ce1dde3634ad9210db94e453d66e50cfe4e8db08",
-    "otaHeaderString": "temp_humi_sensor\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
-  },
-  {
     "fileName": "1615190575-si32_zg_uart_connect_sleep_ZS5_ty_OTA_1.1.7.bin",
     "fileVersion": 87,
     "fileSize": 234174,
@@ -7488,5 +7478,15 @@
     "manufacturerCode": 4117,
     "sha512": "900688dea743db3097d59d90e5c4a2a4551232a1b5dd21be43e66d58de24ee0b98838e6b3ff400fb044051c97a48dacda429b75f2a9e1259af5d9121ef1238b1",
     "otaHeaderString": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "Zigbee_A19_Bulb_OTA_V66_1.00.66.ota",
+    "fileVersion": 66,
+    "fileSize": 285378,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Zigbee_A19_Bulb_OTA_V66_1.00.66.ota",
+    "imageType": 54188,
+    "manufacturerCode": 5127,
+    "sha512": "b89f44cee97a229f7c98404f7828824d7c363724f2fe981dd9c656624fbdb1ad6ed9082735aff1bfcd488868d32a08728fd851405c29904d5264e59ae422097d",
+    "otaHeaderString": "temp_humi_sensor\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
   }
 ]

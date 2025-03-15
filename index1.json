@@ -993,16 +993,6 @@
     "originalUrl": "https://tr-zha.s3.amazonaws.com/z2m_firmware/SmartSwitchGen3_PROD_OTA_V29_v1.00.29.ota"
   },
   {
-    "fileName": "Zigbee_A19_Bulb_OTA_V48_v1.00.48.ota",
-    "fileVersion": 48,
-    "fileSize": 279346,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/Zigbee_A19_Bulb_OTA_V48_v1.00.48.ota",
-    "imageType": 54188,
-    "manufacturerCode": 5127,
-    "sha512": "c42dc3a340d65609ed256f75e075faa499e3c410b1145ec8504aef5233e08d253611ccd84fe6eb75e091747e82a267fdac8d9d8b715a7fac8d5ffda5008e1ded",
-    "otaHeaderString": "temp_humi_sensor\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
-  },
-  {
     "fileName": "10F2-7B01-0000-0006-01110206-spo-fmd.ota.zigbee",
     "fileVersion": 17891846,
     "fileSize": 256748,
@@ -1581,5 +1571,15 @@
     "manufacturerCode": 4117,
     "sha512": "07bc44d6510a22f99b4ce5baf56a23aa29a8c34f213dbc5c2407fc89c6c7c3542e43082e15285aeaaa94eff4579002da8e6cc30cf35455f57dbfaf7d3db5bf2c",
     "otaHeaderString": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "Zigbee_A19_Bulb_OTA_V56_1.00.56.ota",
+    "fileVersion": 56,
+    "fileSize": 283666,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/Zigbee_A19_Bulb_OTA_V56_1.00.56.ota",
+    "imageType": 54188,
+    "manufacturerCode": 5127,
+    "sha512": "4481f292368d350836798cd3c97e226d111ec31e994729896890aa87dbd75a574255600cd87ad8b117a8f3a6ce1dde3634ad9210db94e453d66e50cfe4e8db08",
+    "otaHeaderString": "temp_humi_sensor\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
   }
 ]
