@@ -7488,5 +7488,29 @@
     "manufacturerCode": 5127,
     "sha512": "b89f44cee97a229f7c98404f7828824d7c363724f2fe981dd9c656624fbdb1ad6ed9082735aff1bfcd488868d32a08728fd851405c29904d5264e59ae422097d",
     "otaHeaderString": "temp_humi_sensor\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "PLUG_EU_EM_T-0x00DC-0x033D3674-MF_DIS.OTA",
+    "fileVersion": 54343284,
+    "fileSize": 209616,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=220&version=3.61.54.116",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/PLUG_EU_EM_T-0x00DC-0x033D3674-MF_DIS.OTA",
+    "imageType": 220,
+    "manufacturerCode": 4489,
+    "sha512": "052726f1832285df5e2383d71f36ab844dc407dc0b3cf064329a0f14031b86341240dc9675dd7ad91c41e1eab84ac854e9b1eff826f2efb3748cd2a36788a5a7",
+    "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "releaseNotes": "1.Support real-time power, current, and voltage report.\r\n2.Support total power consumption statistics feature to track energy usage.\r\n3.Support power-on on/off configuration, allowing users to set initial operating state when power-on."
+  },
+  {
+    "fileName": "PLUG_COMPACT_EU_EM_T-0x00E6-0x033D3674-MF_DIS.OTA",
+    "fileVersion": 54343284,
+    "fileSize": 209648,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=230&version=3.61.54.116",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/PLUG_COMPACT_EU_EM_T-0x00E6-0x033D3674-MF_DIS.OTA",
+    "imageType": 230,
+    "manufacturerCode": 4489,
+    "sha512": "24f916a897010ea397173412ac2a255e1e2c4354ea5a54fa0ff0e0af140094656cfc1bb4dce9ea5a7418132fb489438610cd4bc47dc684b61cd0b26d76213891",
+    "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "releaseNotes": "1.Support real-time power, current, and voltage report.\r\n2.Support total power consumption statistics feature to track energy usage.\r\n3.Support power-on on/off configuration, allowing users to set initial operating state when power-on."
   }
 ]
