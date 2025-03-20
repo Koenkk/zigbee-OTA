@@ -7512,5 +7512,18 @@
     "sha512": "24f916a897010ea397173412ac2a255e1e2c4354ea5a54fa0ff0e0af140094656cfc1bb4dce9ea5a7418132fb489438610cd4bc47dc684b61cd0b26d76213891",
     "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "releaseNotes": "1.Support real-time power, current, and voltage report.\r\n2.Support total power consumption statistics feature to track energy usage.\r\n3.Support power-on on/off configuration, allowing users to set initial operating state when power-on."
+  },
+  {
+    "fileName": "20240625145706_lumi.sensor_occupy.agl1_0.0.0_0028_20240621_AA55A4.ota",
+    "fileVersion": 28,
+    "fileSize": 302970,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.sensor_occupy.agl1/20240625145706_lumi.sensor_occupy.agl1_0.0.0_0028_20240621_AA55A4.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20240625145706_lumi.sensor_occupy.agl1_0.0.0_0028_20240621_AA55A4.ota",
+    "imageType": 8347,
+    "manufacturerCode": 4447,
+    "sha512": "126bbc9d6d16682ac3d83a71491779d2ea5b653d8eda8c80ef22e1f2e834219cd2fd5151bc463a779714f78657a25fdb7344f950cfc397237d9ebe5c9ec0b553",
+    "otaHeaderString": "\u0014OTA_lumi.motion.ac01\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "modelId": "lumi.sensor_occupy.agl1",
+    "releaseNotes": "Enhance the accuracy of static human recognition, refine the mechanism for distinguishing between human movement and stillness, reduce false alarms by robotic vacuum cleaners, and minimize the likelihood of false alarms triggered by small pets, curtains, and other factors"
   }
 ]
