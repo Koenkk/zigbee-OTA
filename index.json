@@ -7420,17 +7420,6 @@
     "otaHeaderString": "FWSN_SNZB02D\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
   },
   {
-    "fileName": "VZM32-SN_0.03.ota",
-    "fileVersion": 16973827,
-    "fileSize": 247342,
-    "originalUrl": "https://files.inovelli.com/firmware/VZM32-SN/Beta/0.03/VZM32-SN_0.03.ota",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Inovelli/VZM32-SN_0.03.ota",
-    "imageType": 259,
-    "manufacturerCode": 4655,
-    "sha512": "7e24a756766c6e8c6d83a14c4d875c7d149ed5c717100897883d96d06c496e9d69bf25a03c4dd2b74cef5bebaf9edd19ce4a6e23dd7e81cb6144ef3c5786bc84",
-    "otaHeaderString": "vzm32-sn_mmWave\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
-  },
-  {
     "fileName": "10F2-7B02-0002-0007-0192020D-spo-fms.ota1.zigbee",
     "fileVersion": 26345997,
     "fileSize": 256200,
@@ -7525,5 +7514,16 @@
     "otaHeaderString": "\u0014OTA_lumi.motion.ac01\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "modelId": "lumi.sensor_occupy.agl1",
     "releaseNotes": "Enhance the accuracy of static human recognition, refine the mechanism for distinguishing between human movement and stillness, reduce false alarms by robotic vacuum cleaners, and minimize the likelihood of false alarms triggered by small pets, curtains, and other factors"
+  },
+  {
+    "fileName": "VZM32-SN_0.04.ota",
+    "fileVersion": 16973828,
+    "fileSize": 248386,
+    "originalUrl": "https://files.inovelli.com/firmware/VZM32-SN/Beta/0.04/VZM32-SN_0.04.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Inovelli/VZM32-SN_0.04.ota",
+    "imageType": 259,
+    "manufacturerCode": 4655,
+    "sha512": "a6aef13a44da2265d99686c2248631aaaff285881f81e2bf9ffb5048e8c2dcae65f91acfecc98ac83d87fd6f1a6e4cc57fb2cd74b883d76e89e773d3192920bf",
+    "otaHeaderString": "vzm32-sn_mmWave\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
   }
 ]

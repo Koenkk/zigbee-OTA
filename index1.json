@@ -1552,17 +1552,6 @@
     "otaHeaderString": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
   },
   {
-    "fileName": "VZM32-SN_0.02.ota",
-    "fileVersion": 16973826,
-    "fileSize": 246470,
-    "originalUrl": "https://files.inovelli.com/firmware/VZM32-SN/Beta/0.02/VZM32-SN_0.02.ota",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Inovelli/VZM32-SN_0.02.ota",
-    "imageType": 259,
-    "manufacturerCode": 4655,
-    "sha512": "ff828362de649cd72fab960a50e8dffa1d0a3cf08b8c429c978c82980f946ba0f43b6a61fce0ba8fdfaba5197dcecdf315d42d2bce7ca1f8b37fd84af000daad",
-    "otaHeaderString": "vzm32-sn_mmWave\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
-  },
-  {
     "fileName": "FireAlarm_4.0.8.zigbee",
     "fileVersion": 262152,
     "fileSize": 201716,
@@ -1581,5 +1570,16 @@
     "manufacturerCode": 5127,
     "sha512": "4481f292368d350836798cd3c97e226d111ec31e994729896890aa87dbd75a574255600cd87ad8b117a8f3a6ce1dde3634ad9210db94e453d66e50cfe4e8db08",
     "otaHeaderString": "temp_humi_sensor\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "VZM32-SN_0.03.ota",
+    "fileVersion": 16973827,
+    "fileSize": 247342,
+    "originalUrl": "https://files.inovelli.com/firmware/VZM32-SN/Beta/0.03/VZM32-SN_0.03.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Inovelli/VZM32-SN_0.03.ota",
+    "imageType": 259,
+    "manufacturerCode": 4655,
+    "sha512": "7e24a756766c6e8c6d83a14c4d875c7d149ed5c717100897883d96d06c496e9d69bf25a03c4dd2b74cef5bebaf9edd19ce4a6e23dd7e81cb6144ef3c5786bc84",
+    "otaHeaderString": "vzm32-sn_mmWave\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
   }
 ]
