@@ -27,10 +27,7 @@ jobs:
               run: pnpm run build
 
             - name: Lint
-              run: |
-                  pnpm run format:check
-                  pnpm run eslint
+              run: pnpm run check
 
             - name: Test
-              # NOTE: see jest.config.ts `collectCoverageFrom`
-              run: pnpm run coverage
+              run: pnpm run test:coverage

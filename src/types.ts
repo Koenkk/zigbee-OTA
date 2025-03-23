@@ -65,10 +65,10 @@ export interface RepoImageMeta extends ImageInfo, ImageMeta {
 
 export type ExtraMetas = Omit<
     RepoImageMeta,
-    'fileName' | 'fileVersion' | 'fileSize' | 'url' | 'imageType' | 'manufacturerCode' | 'sha512' | 'otaHeaderString'
+    "fileName" | "fileVersion" | "fileSize" | "url" | "imageType" | "manufacturerCode" | "sha512" | "otaHeaderString"
 >;
 export type ExtraMetasWithFileName = Omit<
     RepoImageMeta,
-    'fileName' | 'fileVersion' | 'fileSize' | 'url' | 'imageType' | 'manufacturerCode' | 'sha512' | 'otaHeaderString'
+    "fileName" | "fileVersion" | "fileSize" | "url" | "imageType" | "manufacturerCode" | "sha512" | "otaHeaderString"
 > & {fileName?: string};
 export type GHExtraMetas = ExtraMetas | ExtraMetasWithFileName[];

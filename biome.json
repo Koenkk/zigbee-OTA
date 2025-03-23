@@ -1,0 +1,61 @@
+{
+    "$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
+    "vcs": { "enabled": true, "clientKind": "git", "useIgnoreFile": true },
+    "formatter": {
+        "indentStyle": "space",
+        "indentWidth": 4,
+        "lineWidth": 150,
+        "bracketSpacing": false
+    },
+    "files": {
+        "ignore": [
+            "package.json",
+            "./index.json",
+            "./index1.json",
+            "./.cache",
+            "./cacerts",
+            "./images",
+            "./images1",
+            "./not-in-manifest-images",
+            "./not-in-manifest-images1"
+        ]
+    },
+    "linter": {
+        "rules": {
+            "suspicious": {
+                "useAwait": "error",
+                "noExportsInTest": "off"
+            },
+            "style": {
+                "noNonNullAssertion": "warn",
+                "noParameterAssign": "warn",
+                "useNamingConvention": {
+                    "level": "error",
+                    "options": {
+                        "strictCase": false,
+                        "conventions": [
+                            {
+                                "selector": {
+                                    "kind": "objectLiteralProperty"
+                                },
+                                "formats": ["snake_case", "camelCase", "CONSTANT_CASE", "PascalCase"]
+                            },
+                            {
+                                "selector": {
+                                    "kind": "typeProperty"
+                                },
+                                "formats": ["snake_case", "camelCase", "CONSTANT_CASE", "PascalCase"]
+                            },
+                            {
+                                "selector": {
+                                    "kind": "const"
+                                },
+                                "formats": ["camelCase", "CONSTANT_CASE"]
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

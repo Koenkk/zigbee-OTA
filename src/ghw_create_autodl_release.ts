@@ -1,10 +1,10 @@
-import type CoreApi from '@actions/core';
-import type {Context} from '@actions/github/lib/context';
-import type {Octokit} from '@octokit/rest';
+import type CoreApi from "@actions/core";
+import type {Context} from "@actions/github/lib/context";
+import type {Octokit} from "@octokit/rest";
 
-import type {RepoImageMeta} from './types.js';
+import type {RepoImageMeta} from "./types.js";
 
-import {BASE_IMAGES_DIR, BASE_INDEX_MANIFEST_FILENAME, execute, PREV_IMAGES_DIR, PREV_INDEX_MANIFEST_FILENAME, readManifest} from './common.js';
+import {BASE_IMAGES_DIR, BASE_INDEX_MANIFEST_FILENAME, PREV_IMAGES_DIR, PREV_INDEX_MANIFEST_FILENAME, execute, readManifest} from "./common.js";
 
 // about 3 lines
 const MAX_RELEASE_NOTES_LENGTH = 380;
@@ -19,7 +19,7 @@ function listItemWithReleaseNotes(imagePath: string, releaseNotes?: string): str
     let listItem = `* ${imagePath}`;
 
     if (releaseNotes) {
-        let notes = releaseNotes.replace(/[#*\r\n]+/g, '').replaceAll('-', '|');
+        let notes = releaseNotes.replace(/[#*\r\n]+/g, "").replaceAll("-", "|");
 
         if (notes.length > MAX_RELEASE_NOTES_LENGTH) {
             notes = `${notes.slice(0, MAX_RELEASE_NOTES_LENGTH)}...`;
@@ -33,7 +33,7 @@ function listItemWithReleaseNotes(imagePath: string, releaseNotes?: string): str
 }
 
 export async function createAutodlRelease(github: Octokit, core: typeof CoreApi, context: Context): Promise<void> {
-    const tagName = new Date().toISOString().replace(/[:.]/g, '');
+    const tagName = new Date().toISOString().replace(/[:.]/g, "");
     // --exclude-standard => Add the standard Git exclusions: .git/info/exclude, .gitignore in each directory, and the user’s global exclusion file.
     // --others => Show other (i.e. untracked) files in the output.
     // -z => \0 line termination on output and do not quote filenames.
@@ -44,8 +44,8 @@ export async function createAutodlRelease(github: Octokit, core: typeof CoreApi,
     core.debug(`git ls-files for ${PREV_IMAGES_DIR}: ${downgradeImagesStr}`);
 
     // -1 to remove empty string at end due to \0 termination
-    const upgradeImages = upgradeImagesStr.split('\0').slice(0, -1);
-    const downgradeImages = downgradeImagesStr.split('\0').slice(0, -1);
+    const upgradeImages = upgradeImagesStr.split("\0").slice(0, -1);
+    const downgradeImages = downgradeImagesStr.split("\0").slice(0, -1);
 
     core.info(`Upgrade Images List: ${upgradeImages}`);
     core.info(`Downgrade Images List: ${downgradeImages}`);
@@ -56,12 +56,12 @@ export async function createAutodlRelease(github: Octokit, core: typeof CoreApi,
     let body: string | undefined;
 
     if (upgradeImages.length > 0 || downgradeImages.length > 0) {
-        body = '';
+        body = "";
 
         if (upgradeImages.length > 0) {
             const listWithReleaseNotes = upgradeImages.map((v) => listItemWithReleaseNotes(v, findReleaseNotes(v, baseManifest)));
             body += `## New upgrade images from automatic download:
-${listWithReleaseNotes.join('\n')}
+${listWithReleaseNotes.join("\n")}
 
 `;
         }
@@ -69,7 +69,7 @@ ${listWithReleaseNotes.join('\n')}
         if (downgradeImages.length > 0) {
             const listWithReleaseNotes = downgradeImages.map((v) => listItemWithReleaseNotes(v, findReleaseNotes(v, prevManifest)));
             body += `## New downgrade images from automatic download:
-${listWithReleaseNotes.join('\n')}
+${listWithReleaseNotes.join("\n")}
 
 `;
         }
@@ -85,6 +85,6 @@ ${listWithReleaseNotes.join('\n')}
         prerelease: false,
         // get changes from PRs
         generate_release_notes: true,
-        make_latest: 'true',
+        make_latest: "true",
     });
 }

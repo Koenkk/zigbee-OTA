@@ -1,34 +1,35 @@
-import type CoreApi from '@actions/core';
-import type {Context} from '@actions/github/lib/context';
-import type {Octokit} from '@octokit/rest';
+import type CoreApi from "@actions/core";
+import type {Context} from "@actions/github/lib/context";
+import type {Octokit} from "@octokit/rest";
 
-import type {ExtraMetas, GHExtraMetas, RepoImageMeta} from './types.js';
+import type {ExtraMetas, GHExtraMetas, RepoImageMeta} from "./types.js";
 
-import assert from 'assert';
-import {readFileSync, renameSync} from 'fs';
-import path from 'path';
+import assert from "node:assert";
+import {readFileSync, renameSync} from "node:fs";
+import path from "node:path";
 
 import {
+    BASE_IMAGES_DIR,
+    PREV_IMAGES_DIR,
+    ParsedImageStatus,
+    UPGRADE_FILE_IDENTIFIER,
     addImageToBase,
     addImageToPrev,
-    BASE_IMAGES_DIR,
     findMatchImage,
     getOutDir,
     getParsedImageStatus,
     getValidMetas,
-    ParsedImageStatus,
     parseImageHeader,
-    PREV_IMAGES_DIR,
-    UPGRADE_FILE_IDENTIFIER,
-} from './common.js';
+} from "./common.js";
 
-const EXTRA_METAS_PR_BODY_START_TAG = '```json';
-const EXTRA_METAS_PR_BODY_END_TAG = '```';
+const EXTRA_METAS_PR_BODY_START_TAG = "```json";
+const EXTRA_METAS_PR_BODY_END_TAG = "```";
 
 function getFileExtraMetas(extraMetas: GHExtraMetas, fileName: string): ExtraMetas {
     if (Array.isArray(extraMetas)) {
         const fileExtraMetas = extraMetas.find((m) => m.fileName === fileName) ?? {};
         /** @see getValidMetas */
+        // biome-ignore lint/performance/noDelete: <explanation>
         delete fileExtraMetas.fileName;
 
         return fileExtraMetas;
@@ -39,16 +40,18 @@ function getFileExtraMetas(extraMetas: GHExtraMetas, fileName: string): ExtraMet
 }
 
 async function getPRBody(github: Octokit, core: typeof CoreApi, context: Context): Promise<string | undefined> {
-    assert(context.payload.pull_request || context.eventName === 'push');
+    assert(context.payload.pull_request || context.eventName === "push");
 
     if (context.payload.pull_request) {
         return context.payload.pull_request.body;
-    } else if (context.eventName === 'push') {
+    }
+
+    if (context.eventName === "push") {
         const pushMsg = context.payload.head_commit.message as string;
         const prMatch = pushMsg.match(/\(#(\d+)\)/);
 
         if (prMatch) {
-            const prNumber = parseInt(prMatch[1], 10);
+            const prNumber = Number.parseInt(prMatch[1], 10);
 
             try {
                 const pr = await github.rest.pulls.get({
@@ -78,15 +81,15 @@ async function parsePRBodyExtraMetas(github: Octokit, core: typeof CoreApi, cont
             if (metasStart !== -1 && metasEnd > metasStart) {
                 const metas = JSON.parse(prBody.slice(metasStart + EXTRA_METAS_PR_BODY_START_TAG.length, metasEnd)) as GHExtraMetas;
 
-                core.info(`Extra metas from PR body:`);
+                core.info("Extra metas from PR body:");
                 core.info(JSON.stringify(metas, undefined, 2));
 
                 if (Array.isArray(metas)) {
                     extraMetas = [];
 
                     for (const meta of metas) {
-                        if (!meta.fileName || typeof meta.fileName != 'string') {
-                            core.info(`Ignoring meta in array with missing/invalid fileName:`);
+                        if (!meta.fileName || typeof meta.fileName !== "string") {
+                            core.info("Ignoring meta in array with missing/invalid fileName:");
                             core.info(JSON.stringify(meta, undefined, 2));
                             continue;
                         }
@@ -119,14 +122,14 @@ export async function processOtaFiles(
         core.startGroup(filePath);
 
         const logPrefix = `[${filePath}]`;
-        let failureComment: string = '';
+        let failureComment = "";
 
         try {
             const firmwareFileName = path.basename(filePath);
-            const manufacturer = filePath.replace(BASE_IMAGES_DIR, '').replace(firmwareFileName, '').replaceAll('/', '').trim();
+            const manufacturer = filePath.replace(BASE_IMAGES_DIR, "").replace(firmwareFileName, "").replaceAll("/", "").trim();
 
             if (!manufacturer) {
-                throw new Error(`File should be in its associated manufacturer subfolder`);
+                throw new Error("File should be in its associated manufacturer subfolder");
             }
 
             const firmwareBuffer = Buffer.from(readFileSync(filePath));
@@ -146,14 +149,14 @@ export async function processOtaFiles(
             const statusToBase = getParsedImageStatus(parsedImage, baseMatch);
 
             switch (statusToBase) {
-                case ParsedImageStatus.OLDER: {
+                case ParsedImageStatus.Older: {
                     // if prev doesn't have a match, move to prev
                     const [prevMatchIndex, prevMatch] = findMatchImage(parsedImage, prevManifest, fileExtraMetas);
                     const statusToPrev = getParsedImageStatus(parsedImage, prevMatch);
 
                     switch (statusToPrev) {
-                        case ParsedImageStatus.OLDER:
-                        case ParsedImageStatus.IDENTICAL: {
+                        case ParsedImageStatus.Older:
+                        case ParsedImageStatus.Identical: {
                             failureComment = `Base manifest has higher version:
 \`\`\`json
 ${JSON.stringify(baseMatch, undefined, 2)}
@@ -169,11 +172,11 @@ ${JSON.stringify(parsedImage, undefined, 2)}
                             break;
                         }
 
-                        case ParsedImageStatus.NEWER:
-                        case ParsedImageStatus.NEW: {
+                        case ParsedImageStatus.Newer:
+                        case ParsedImageStatus.New: {
                             addImageToPrev(
                                 logPrefix,
-                                statusToPrev === ParsedImageStatus.NEWER,
+                                statusToPrev === ParsedImageStatus.Newer,
                                 prevManifest,
                                 prevMatchIndex,
                                 prevMatch!,
@@ -197,7 +200,7 @@ ${JSON.stringify(parsedImage, undefined, 2)}
                     break;
                 }
 
-                case ParsedImageStatus.IDENTICAL: {
+                case ParsedImageStatus.Identical: {
                     failureComment = `Conflict with image at index \`${baseMatchIndex}\`:
 \`\`\`json
 ${JSON.stringify(baseMatch, undefined, 2)}
@@ -209,11 +212,11 @@ ${JSON.stringify(parsedImage, undefined, 2)}
                     break;
                 }
 
-                case ParsedImageStatus.NEWER:
-                case ParsedImageStatus.NEW: {
+                case ParsedImageStatus.Newer:
+                case ParsedImageStatus.New: {
                     addImageToBase(
                         logPrefix,
-                        statusToBase === ParsedImageStatus.NEWER,
+                        statusToBase === ParsedImageStatus.Newer,
                         prevManifest,
                         prevOutDir,
                         baseManifest,

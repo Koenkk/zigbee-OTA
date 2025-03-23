@@ -1,10 +1,10 @@
-import {getJson, readCacheJson, writeCacheJson} from '../common.js';
-import {processFirmwareImage} from '../process_firmware_image.js';
+import {getJson, readCacheJson, writeCacheJson} from "../common.js";
+import {processFirmwareImage} from "../process_firmware_image.js";
 
 type ImagesJsonBuildPart = {
     path: string; // .bin
     offset: number;
-    type?: 'app' | 'storage';
+    type?: "app" | "storage";
     ota?: string; // .ota
 };
 type ImagesJsonBuild = {
@@ -21,11 +21,11 @@ type ImagesJson = {
     builds: ImagesJsonBuild[];
 };
 
-const NAME = 'GammaTroniques';
+const NAME = "GammaTroniques";
 // const LOG_PREFIX = `[${NAME}]`;
-const BASE_URL = 'https://update.gammatroniques.fr/';
-const MANIFEST_URL_PATH = `/manifest.json`;
-const MODEL_IDS: [urlId: string, modelId: string][] = [['ticmeter', 'TICMeter']];
+const BASE_URL = "https://update.gammatroniques.fr/";
+const MANIFEST_URL_PATH = "/manifest.json";
+const MODEL_IDS: [urlId: string, modelId: string][] = [["ticmeter", "TICMeter"]];
 
 function isDifferent(newData: ImagesJson, cachedData?: ImagesJson): boolean {
     return Boolean(process.env.IGNORE_CACHE) || !cachedData || cachedData.version !== newData.version;
@@ -62,14 +62,14 @@ export async function download(): Promise<void> {
 
         writeCacheJson(cacheFileName, page);
 
-        const appUrl: ImagesJsonBuildPart | undefined = page.builds[0].parts.find((part) => part.type === 'app');
+        const appUrl: ImagesJsonBuildPart | undefined = page.builds[0].parts.find((part) => part.type === "app");
 
         if (!appUrl || !appUrl.ota) {
             console.error(`${logPrefix} No image found.`);
             continue;
         }
 
-        const firmwareFileName = appUrl.ota.split('/').pop()!;
+        const firmwareFileName = appUrl.ota.split("/").pop()!;
 
         await processFirmwareImage(NAME, firmwareFileName, appUrl.ota, {modelId});
     }

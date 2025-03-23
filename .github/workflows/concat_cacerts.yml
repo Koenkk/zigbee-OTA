@@ -34,7 +34,7 @@ jobs:
                   script: |
                       const {concatCaCerts} = await import("${{ github.workspace }}/dist/ghw_concat_cacerts.js")
 
-                      await concatCaCerts(github, core, context)
+                      concatCaCerts(github, core, context)
 
             - name: Commit changes
               run: |

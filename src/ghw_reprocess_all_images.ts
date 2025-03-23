@@ -1,49 +1,49 @@
-import type CoreApi from '@actions/core';
-import type {Context} from '@actions/github/lib/context';
-import type {Octokit} from '@octokit/rest';
+import type CoreApi from "@actions/core";
+import type {Context} from "@actions/github/lib/context";
+import type {Octokit} from "@octokit/rest";
 
-import type {RepoImageMeta} from './types';
+import type {RepoImageMeta} from "./types";
 
-import {existsSync, lstatSync, mkdirSync, readdirSync, readFileSync, renameSync, rmSync, writeFileSync} from 'fs';
-import path from 'path';
+import {existsSync, lstatSync, mkdirSync, readFileSync, readdirSync, renameSync, rmSync, writeFileSync} from "node:fs";
+import path from "node:path";
 
 import {
-    addImageToBase,
-    addImageToPrev,
     BASE_IMAGES_DIR,
     BASE_INDEX_MANIFEST_FILENAME,
     BASE_REPO_URL,
+    PREV_IMAGES_DIR,
+    PREV_INDEX_MANIFEST_FILENAME,
+    ParsedImageStatus,
+    REPO_BRANCH,
+    UPGRADE_FILE_IDENTIFIER,
+    addImageToBase,
+    addImageToPrev,
     computeSHA512,
     findMatchImage,
     getOutDir,
     getParsedImageStatus,
     getRepoFirmwareFileUrl,
     getValidMetas,
-    ParsedImageStatus,
     parseImageHeader,
-    PREV_IMAGES_DIR,
-    PREV_INDEX_MANIFEST_FILENAME,
     readManifest,
-    REPO_BRANCH,
-    UPGRADE_FILE_IDENTIFIER,
     writeManifest,
-} from './common.js';
+} from "./common.js";
 
 /** These are now handled by autodl */
-const IGNORE_3RD_PARTIES = ['https://github.com/fairecasoimeme/', 'https://github.com/xyzroe/'];
+const IGNORE_3RD_PARTIES = ["https://github.com/fairecasoimeme/", "https://github.com/xyzroe/"];
 
 const DIR_3RD_PARTIES = {
-    'https://otau.meethue.com/': 'Hue',
-    'https://images.tuyaeu.com/': 'Tuya',
-    'https://tr-zha.s3.amazonaws.com/': 'ThirdReality',
+    "https://otau.meethue.com/": "Hue",
+    "https://images.tuyaeu.com/": "Tuya",
+    "https://tr-zha.s3.amazonaws.com/": "ThirdReality",
     // NOTE: no longer valid / unable to access via script
     // 'https://www.elektroimportoren.no/docs/lib/4512772-Firmware-35.ota': 'Namron',
     // 'https://deconz.dresden-elektronik.de/': 'DresdenElektronik',
 };
 
-export const NOT_IN_BASE_MANIFEST_IMAGES_DIR = 'not-in-manifest-images';
-export const NOT_IN_PREV_MANIFEST_IMAGES_DIR = 'not-in-manifest-images1';
-export const NOT_IN_MANIFEST_FILENAME = 'not-in-manifest.json';
+export const NOT_IN_BASE_MANIFEST_IMAGES_DIR = "not-in-manifest-images";
+export const NOT_IN_PREV_MANIFEST_IMAGES_DIR = "not-in-manifest-images1";
+export const NOT_IN_MANIFEST_FILENAME = "not-in-manifest.json";
 
 function ignore3rdParty(meta: RepoImageMeta): boolean {
     for (const ignore of IGNORE_3RD_PARTIES) {
@@ -67,11 +67,10 @@ async function download3rdParties(
     github: Octokit,
     core: typeof CoreApi,
     context: Context,
-    /* istanbul ignore next */
-    outDirFinder = get3rdPartyDir,
+    /* v8 ignore next */ outDirFinder = get3rdPartyDir,
 ): Promise<void> {
     if (!process.env.NODE_EXTRA_CA_CERTS) {
-        throw new Error(`Download 3rd Parties requires \`NODE_EXTRA_CA_CERTS=cacerts.pem\`.`);
+        throw new Error("Download 3rd Parties requires `NODE_EXTRA_CA_CERTS=cacerts.pem`.");
     }
 
     const baseManifest = readManifest(BASE_INDEX_MANIFEST_FILENAME);
@@ -101,7 +100,7 @@ async function download3rdParties(
             continue;
         }
 
-        const fileName = decodeURIComponent(meta.url.split('/').pop()!);
+        const fileName = decodeURIComponent(meta.url.split("/").pop()!);
         const outDirName = outDirFinder(meta);
 
         if (outDirName) {
@@ -130,7 +129,7 @@ async function download3rdParties(
                 const statusToBase = getParsedImageStatus(parsedImage, baseMatch);
 
                 switch (statusToBase) {
-                    case ParsedImageStatus.OLDER: {
+                    case ParsedImageStatus.Older: {
                         addImageToPrev(
                             `[${fileName}]`,
                             false, // no prev existed before
@@ -158,16 +157,16 @@ async function download3rdParties(
                         break;
                     }
 
-                    case ParsedImageStatus.IDENTICAL: {
+                    case ParsedImageStatus.Identical: {
                         core.warning(`Conflict with image at index \`${baseMatchIndex}\`: ${JSON.stringify(baseMatch)}`);
                         continue;
                     }
 
-                    case ParsedImageStatus.NEWER:
-                    case ParsedImageStatus.NEW: {
+                    case ParsedImageStatus.Newer:
+                    case ParsedImageStatus.New: {
                         addImageToBase(
                             `[${fileName}]`,
-                            statusToBase === ParsedImageStatus.NEWER,
+                            statusToBase === ParsedImageStatus.Newer,
                             prevManifest,
                             prevOutDir,
                             baseManifest,
@@ -196,12 +195,11 @@ async function download3rdParties(
             } catch (error) {
                 core.error(`Ignoring ${fileName}: ${error}`);
 
-                /* istanbul ignore next */
+                /* v8 ignore start */
                 if (firmwareFilePath) {
                     rmSync(firmwareFilePath, {force: true});
                 }
-
-                continue;
+                /* v8 ignore stop */
             }
         } else {
             core.warning(`Ignoring '${fileName}' with no out dir specified.`);
@@ -230,12 +228,13 @@ function checkImagesAgainstManifests(github: Octokit, core: typeof CoreApi, cont
         core.info(`Checking ${manifestName} (currently ${manifest.length} images)...`);
 
         for (const subfolderName of readdirSync(imagesDir)) {
-            // skip removal of anything not desired while running jest tests
+            // skip removal of anything not desired while running tests
             // compare should match data.test.ts > IMAGES_TEST_DIR
-            /* istanbul ignore if */
-            if (process.env.JEST_WORKER_ID && subfolderName !== 'jest-tmp') {
+            /* v8 ignore start */
+            if (process.env.VITEST_WORKER_ID && subfolderName !== "test-tmp") {
                 continue;
             }
+            /* v8 ignore stop */
 
             const subfolderPath = path.join(imagesDir, subfolderName);
 
@@ -365,25 +364,29 @@ export async function reProcessAllImages(
         throw new Error(`${NOT_IN_PREV_MANIFEST_IMAGES_DIR} is not empty. Cannot run.`);
     }
 
-    /* istanbul ignore if */
+    /* v8 ignore start */
     if (!existsSync(BASE_IMAGES_DIR)) {
         mkdirSync(BASE_IMAGES_DIR, {recursive: true});
     }
+    /* v8 ignore stop */
 
-    /* istanbul ignore if */
+    /* v8 ignore start */
     if (!existsSync(PREV_IMAGES_DIR)) {
         mkdirSync(PREV_IMAGES_DIR, {recursive: true});
     }
+    /* v8 ignore stop */
 
-    /* istanbul ignore if */
+    /* v8 ignore start */
     if (!existsSync(BASE_INDEX_MANIFEST_FILENAME)) {
         writeManifest(BASE_INDEX_MANIFEST_FILENAME, []);
     }
+    /* v8 ignore stop */
 
-    /* istanbul ignore if */
+    /* v8 ignore start */
     if (!existsSync(PREV_INDEX_MANIFEST_FILENAME)) {
         writeManifest(PREV_INDEX_MANIFEST_FILENAME, []);
     }
+    /* v8 ignore stop */
 
     if (!skipDownload3rdParties) {
         await download3rdParties(github, core, context, downloadOutDirFinder);
