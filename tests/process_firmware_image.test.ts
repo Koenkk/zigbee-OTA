@@ -1,6 +1,6 @@
 import type {RepoImageMeta} from "../src/types";
 
-import {existsSync, mkdirSync, readFileSync, rmSync} from "fs";
+import {existsSync, mkdirSync, readFileSync, rmSync} from "node:fs";
 
 import * as common from "../src/common";
 import {ProcessFirmwareImageStatus, processFirmwareImage} from "../src/process_firmware_image";
@@ -39,11 +39,13 @@ describe("Process Firmware Image", () => {
     const getManifest = (fileName: string): RepoImageMeta[] => {
         if (fileName === common.BASE_INDEX_MANIFEST_FILENAME) {
             return baseManifest;
-        } else if (fileName === common.PREV_INDEX_MANIFEST_FILENAME) {
-            return prevManifest;
-        } else {
-            throw new Error(`${fileName} not supported`);
         }
+
+        if (fileName === common.PREV_INDEX_MANIFEST_FILENAME) {
+            return prevManifest;
+        }
+
+        throw new Error(`${fileName} not supported`);
     };
 
     const setManifest = (fileName: string, content: RepoImageMeta[]): void => {
@@ -157,7 +159,7 @@ describe("Process Firmware Image", () => {
         fetchReturnedStatus.status = 429;
         const status = await processFirmwareImage(IMAGES_TEST_DIR, IMAGE_V14_1, IMAGE_V14_1);
 
-        expect(status).toStrictEqual(ProcessFirmwareImageStatus.REQUEST_FAILED);
+        expect(status).toStrictEqual(ProcessFirmwareImageStatus.RequestFailed);
         expect(consoleErrorSpy).toHaveBeenCalledWith(
             expect.stringContaining(`Invalid response from ${IMAGE_V14_1} status=${fetchReturnedStatus.status}.`),
         );
@@ -168,7 +170,7 @@ describe("Process Firmware Image", () => {
         fetchReturnedStatus.body = undefined;
         const status = await processFirmwareImage(IMAGES_TEST_DIR, IMAGE_V14_1, IMAGE_V14_1);
 
-        expect(status).toStrictEqual(ProcessFirmwareImageStatus.REQUEST_FAILED);
+        expect(status).toStrictEqual(ProcessFirmwareImageStatus.RequestFailed);
         expect(consoleErrorSpy).toHaveBeenCalledWith(
             expect.stringContaining(`Invalid response from ${IMAGE_V14_1} status=${fetchReturnedStatus.status}.`),
         );
@@ -178,8 +180,8 @@ describe("Process Firmware Image", () => {
     it("failure with invalid OTA file", async () => {
         const status = await processFirmwareImage(IMAGES_TEST_DIR, IMAGE_INVALID, IMAGE_INVALID);
 
-        expect(status).toStrictEqual(ProcessFirmwareImageStatus.ERROR);
-        expect(consoleErrorSpy).toHaveBeenCalledWith(expect.stringContaining(`Not a valid OTA fil`));
+        expect(status).toStrictEqual(ProcessFirmwareImageStatus.Error);
+        expect(consoleErrorSpy).toHaveBeenCalledWith(expect.stringContaining("Not a valid OTA fil"));
         expectNoChanges(false);
     });
 
@@ -187,8 +189,8 @@ describe("Process Firmware Image", () => {
         setManifest(common.BASE_INDEX_MANIFEST_FILENAME, [IMAGE_V14_1_METAS]);
         const status = await processFirmwareImage(IMAGES_TEST_DIR, IMAGE_V14_1, IMAGE_V14_1);
 
-        expect(status).toStrictEqual(ProcessFirmwareImageStatus.SUCCESS);
-        expect(consoleLogSpy).toHaveBeenCalledWith(expect.stringContaining(`Base manifest already has version`));
+        expect(status).toStrictEqual(ProcessFirmwareImageStatus.Success);
+        expect(consoleLogSpy).toHaveBeenCalledWith(expect.stringContaining("Base manifest already has version"));
         expect(writeManifestSpy).toHaveBeenNthCalledWith(1, common.PREV_INDEX_MANIFEST_FILENAME, getManifest(common.PREV_INDEX_MANIFEST_FILENAME));
         expect(writeManifestSpy).toHaveBeenNthCalledWith(2, common.BASE_INDEX_MANIFEST_FILENAME, getManifest(common.BASE_INDEX_MANIFEST_FILENAME));
         expectWriteNoChanges();
@@ -199,8 +201,8 @@ describe("Process Firmware Image", () => {
         setManifest(common.PREV_INDEX_MANIFEST_FILENAME, [IMAGE_V13_1_METAS]);
         const status = await processFirmwareImage(IMAGES_TEST_DIR, IMAGE_V13_1, IMAGE_V13_1);
 
-        expect(status).toStrictEqual(ProcessFirmwareImageStatus.SUCCESS);
-        expect(consoleLogSpy).toHaveBeenCalledWith(expect.stringContaining(`an equal or better match is already present in prev manifest`));
+        expect(status).toStrictEqual(ProcessFirmwareImageStatus.Success);
+        expect(consoleLogSpy).toHaveBeenCalledWith(expect.stringContaining("an equal or better match is already present in prev manifest"));
         expectWriteNoChanges();
     });
 
@@ -209,15 +211,15 @@ describe("Process Firmware Image", () => {
         setManifest(common.PREV_INDEX_MANIFEST_FILENAME, [IMAGE_V13_1_METAS]);
         const status = await processFirmwareImage(IMAGES_TEST_DIR, IMAGE_V12_1, IMAGE_V12_1);
 
-        expect(status).toStrictEqual(ProcessFirmwareImageStatus.SUCCESS);
-        expect(consoleLogSpy).toHaveBeenCalledWith(expect.stringContaining(`an equal or better match is already present in prev manifest`));
+        expect(status).toStrictEqual(ProcessFirmwareImageStatus.Success);
+        expect(consoleLogSpy).toHaveBeenCalledWith(expect.stringContaining("an equal or better match is already present in prev manifest"));
         expectWriteNoChanges();
     });
 
     it("success into base", async () => {
         const status = await processFirmwareImage(IMAGES_TEST_DIR, IMAGE_V14_1, IMAGE_V14_1);
 
-        expect(status).toStrictEqual(ProcessFirmwareImageStatus.SUCCESS);
+        expect(status).toStrictEqual(ProcessFirmwareImageStatus.Success);
         expect(readManifestSpy).toHaveBeenCalledWith(common.BASE_INDEX_MANIFEST_FILENAME);
         expect(readManifestSpy).toHaveBeenCalledWith(common.PREV_INDEX_MANIFEST_FILENAME);
         expect(addImageToBaseSpy).toHaveBeenCalledTimes(1);
@@ -231,7 +233,7 @@ describe("Process Firmware Image", () => {
 
         const status = await processFirmwareImage(IMAGES_TEST_DIR, IMAGE_V13_1, IMAGE_V13_1);
 
-        expect(status).toStrictEqual(ProcessFirmwareImageStatus.SUCCESS);
+        expect(status).toStrictEqual(ProcessFirmwareImageStatus.Success);
         expect(readManifestSpy).toHaveBeenCalledWith(common.BASE_INDEX_MANIFEST_FILENAME);
         expect(readManifestSpy).toHaveBeenCalledWith(common.PREV_INDEX_MANIFEST_FILENAME);
         expect(addImageToBaseSpy).toHaveBeenCalledTimes(0);
@@ -247,7 +249,7 @@ describe("Process Firmware Image", () => {
 
         const status = await processFirmwareImage(IMAGES_TEST_DIR, IMAGE_V14_1, IMAGE_V14_1);
 
-        expect(status).toStrictEqual(ProcessFirmwareImageStatus.SUCCESS);
+        expect(status).toStrictEqual(ProcessFirmwareImageStatus.Success);
         expect(readManifestSpy).toHaveBeenCalledTimes(2);
         expect(addImageToBaseSpy).toHaveBeenCalledTimes(1);
         expect(addImageToPrevSpy).toHaveBeenCalledTimes(0);
@@ -264,7 +266,7 @@ describe("Process Firmware Image", () => {
 
         const status = await processFirmwareImage(IMAGES_TEST_DIR, IMAGE_V14_1, IMAGE_V14_1);
 
-        expect(status).toStrictEqual(ProcessFirmwareImageStatus.SUCCESS);
+        expect(status).toStrictEqual(ProcessFirmwareImageStatus.Success);
         expect(readManifestSpy).toHaveBeenCalledTimes(2);
         expect(addImageToBaseSpy).toHaveBeenCalledTimes(1);
         expect(addImageToPrevSpy).toHaveBeenCalledTimes(0);
@@ -281,7 +283,7 @@ describe("Process Firmware Image", () => {
 
         const status = await processFirmwareImage(IMAGES_TEST_DIR, IMAGE_V13_1, IMAGE_V13_1);
 
-        expect(status).toStrictEqual(ProcessFirmwareImageStatus.SUCCESS);
+        expect(status).toStrictEqual(ProcessFirmwareImageStatus.Success);
         expect(readManifestSpy).toHaveBeenCalledTimes(2);
         expect(addImageToBaseSpy).toHaveBeenCalledTimes(0);
         expect(addImageToPrevSpy).toHaveBeenCalledTimes(1);
@@ -296,7 +298,7 @@ describe("Process Firmware Image", () => {
 
         const status = await processFirmwareImage(IMAGES_TEST_DIR, IMAGE_V14_1, IMAGE_V14_1);
 
-        expect(status).toStrictEqual(ProcessFirmwareImageStatus.SUCCESS);
+        expect(status).toStrictEqual(ProcessFirmwareImageStatus.Success);
         expect(readManifestSpy).toHaveBeenCalledTimes(2);
         expect(addImageToBaseSpy).toHaveBeenCalledTimes(1);
         expect(addImageToPrevSpy).toHaveBeenCalledTimes(0);
@@ -308,7 +310,7 @@ describe("Process Firmware Image", () => {
     it("success with extra metas", async () => {
         const status = await processFirmwareImage(IMAGES_TEST_DIR, IMAGE_V14_1, IMAGE_V14_1, {manufacturerName: ["lixee"]});
 
-        expect(status).toStrictEqual(ProcessFirmwareImageStatus.SUCCESS);
+        expect(status).toStrictEqual(ProcessFirmwareImageStatus.Success);
         expect(readManifestSpy).toHaveBeenCalledWith(common.BASE_INDEX_MANIFEST_FILENAME);
         expect(readManifestSpy).toHaveBeenCalledWith(common.PREV_INDEX_MANIFEST_FILENAME);
         expect(addImageToBaseSpy).toHaveBeenCalledTimes(1);
@@ -332,7 +334,7 @@ describe("Process Firmware Image", () => {
             releaseNotes: "bugfixes",
         });
 
-        expect(status).toStrictEqual(ProcessFirmwareImageStatus.SUCCESS);
+        expect(status).toStrictEqual(ProcessFirmwareImageStatus.Success);
         expect(readManifestSpy).toHaveBeenCalledWith(common.BASE_INDEX_MANIFEST_FILENAME);
         expect(readManifestSpy).toHaveBeenCalledWith(common.PREV_INDEX_MANIFEST_FILENAME);
         expect(addImageToBaseSpy).toHaveBeenCalledTimes(1);
@@ -362,7 +364,7 @@ describe("Process Firmware Image", () => {
 
         const status = await processFirmwareImage(IMAGES_TEST_DIR, IMAGE_TAR, IMAGE_TAR, {}, true, (f) => f.endsWith(".ota"));
 
-        expect(status).toStrictEqual(ProcessFirmwareImageStatus.SUCCESS);
+        expect(status).toStrictEqual(ProcessFirmwareImageStatus.Success);
         expect(readManifestSpy).toHaveBeenCalledWith(common.BASE_INDEX_MANIFEST_FILENAME);
         expect(readManifestSpy).toHaveBeenCalledWith(common.PREV_INDEX_MANIFEST_FILENAME);
         expect(addImageToBaseSpy).toHaveBeenCalledTimes(1);
@@ -380,7 +382,7 @@ describe("Process Firmware Image", () => {
 
         const status = await processFirmwareImage(IMAGES_TEST_DIR, IMAGE_INVALID, IMAGE_INVALID, {}, true, (f) => f.endsWith(".ota"));
 
-        expect(status).toStrictEqual(ProcessFirmwareImageStatus.TAR_NO_IMAGE);
+        expect(status).toStrictEqual(ProcessFirmwareImageStatus.TarNoImage);
         expectNoChanges(true);
 
         rmSync(common.TMP_DIR, {recursive: true, force: true});
@@ -393,7 +395,7 @@ describe("Process Firmware Image", () => {
 
         const status = await processFirmwareImage(IMAGES_TEST_DIR, IMAGE_TAR, IMAGE_TAR, {}, true, (f) => f.endsWith(".ota"));
 
-        expect(status).toStrictEqual(ProcessFirmwareImageStatus.TAR_NO_IMAGE);
+        expect(status).toStrictEqual(ProcessFirmwareImageStatus.TarNoImage);
         expect(consoleErrorSpy).toHaveBeenCalledWith(expect.objectContaining({syscall: "chdir", code: "ENOENT"}));
         expectNoChanges(false);
 

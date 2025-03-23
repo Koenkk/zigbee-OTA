@@ -2,8 +2,8 @@ import type CoreApi from "@actions/core";
 import type {Context} from "@actions/github/lib/context";
 import type {Octokit} from "@octokit/rest";
 
-import assert from "assert";
-import {existsSync, mkdirSync, writeFileSync} from "fs";
+import assert from "node:assert";
+import {existsSync, mkdirSync, writeFileSync} from "node:fs";
 
 import {
     BASE_INDEX_MANIFEST_FILENAME,
@@ -58,7 +58,7 @@ export async function checkOtaPR(github: Octokit, core: typeof CoreApi, context:
     core.info(`Prev manifest has ${prevManifest.length} images.`);
     core.info(`Base manifest has ${baseManifest.length} images.`);
 
-    const diff = await execute(`git diff`);
+    const diff = await execute("git diff");
 
     core.startGroup("diff");
     core.info(diff);

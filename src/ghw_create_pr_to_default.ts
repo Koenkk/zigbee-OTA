@@ -2,7 +2,7 @@ import type CoreApi from "@actions/core";
 import type {Context} from "@actions/github/lib/context";
 import type {Octokit} from "@octokit/rest";
 
-import assert from "assert";
+import assert from "node:assert";
 
 const IGNORE_OTA_WORKFLOW_LABEL = "ignore-ota-workflow";
 
@@ -45,7 +45,7 @@ export async function createPRToDefault(
                     ref: `heads/${fromBranchName}`,
                 });
 
-                core.notice(`Nothing needed re-processing.`);
+                core.notice("Nothing needed re-processing.");
 
                 // don't fail if no commits
                 return;

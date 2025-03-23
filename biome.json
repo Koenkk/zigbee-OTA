@@ -23,9 +23,12 @@
     "linter": {
         "rules": {
             "suspicious": {
-                "useAwait": "error"
+                "useAwait": "error",
+                "noExportsInTest": "off"
             },
             "style": {
+                "noNonNullAssertion": "warn",
+                "noParameterAssign": "warn",
                 "useNamingConvention": {
                     "level": "error",
                     "options": {
@@ -39,9 +42,15 @@
                             },
                             {
                                 "selector": {
-                                    "kind": "const"
+                                    "kind": "typeProperty"
                                 },
                                 "formats": ["snake_case", "camelCase", "CONSTANT_CASE", "PascalCase"]
+                            },
+                            {
+                                "selector": {
+                                    "kind": "const"
+                                },
+                                "formats": ["camelCase", "CONSTANT_CASE"]
                             }
                         ]
                     }

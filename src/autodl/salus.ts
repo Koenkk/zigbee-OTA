@@ -15,7 +15,7 @@ const LOG_PREFIX = `[${NAME}]`;
 const FIRMWARE_URL = "https://eu.salusconnect.io/demo/default/status/firmware?timestamp=0";
 
 function findInCache(image: ImageJson, cachedData?: ImagesJson): ImageJson | undefined {
-    return cachedData?.versions?.find((d) => d.model == image.model);
+    return cachedData?.versions?.find((d) => d.model === image.model);
 }
 
 function isDifferent(newData: ImageJson, cachedData?: ImageJson): boolean {

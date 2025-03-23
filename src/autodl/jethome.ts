@@ -85,7 +85,6 @@ export async function download(): Promise<void> {
             });
         } else {
             console.error(`${LOG_PREFIX} No image data for ${modelId}.`);
-            continue;
         }
     }
 }

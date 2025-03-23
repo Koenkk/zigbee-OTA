@@ -112,7 +112,7 @@ export async function download(): Promise<void> {
                     releaseNotes: firmware.releaseNotes,
                 });
 
-                if (status === ProcessFirmwareImageStatus.REQUEST_FAILED) {
+                if (status === ProcessFirmwareImageStatus.RequestFailed) {
                     await new Promise((resolve) => setTimeout(resolve, FETCH_FAILED_THROTTLE_MS));
                 } else {
                     break;

@@ -2,7 +2,7 @@ import type CoreApi from "@actions/core";
 import type {Context} from "@actions/github/lib/context";
 import type {Octokit} from "@octokit/rest";
 
-import assert from "assert";
+import assert from "node:assert";
 
 import {BASE_INDEX_MANIFEST_FILENAME, PREV_INDEX_MANIFEST_FILENAME, readManifest, writeManifest} from "./common.js";
 import {getChangedOtaFiles} from "./ghw_get_changed_ota_files.js";

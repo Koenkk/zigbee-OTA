@@ -1,8 +1,8 @@
 import type {ExtraMetas} from "./types";
 
-import assert from "assert";
-import {readFileSync, readdirSync, renameSync, rmSync, writeFileSync} from "fs";
-import path from "path";
+import assert from "node:assert";
+import {readFileSync, readdirSync, renameSync, rmSync, writeFileSync} from "node:fs";
+import path from "node:path";
 
 import {extract} from "tar";
 
@@ -25,10 +25,10 @@ import {
 } from "./common.js";
 
 export enum ProcessFirmwareImageStatus {
-    ERROR = -1,
-    SUCCESS = 0,
-    REQUEST_FAILED = 1,
-    TAR_NO_IMAGE = 2,
+    Error = -1,
+    Success = 0,
+    RequestFailed = 1,
+    TarNoImage = 2,
 }
 
 async function tarExtract(filePath: string, outDir: string, tarImageFinder: (fileName: string) => boolean): Promise<string> {
@@ -82,7 +82,7 @@ export async function processFirmwareImage(
 
     if (tar && !firmwareFileName.endsWith(".tar.gz")) {
         // ignore non-archive
-        return ProcessFirmwareImageStatus.TAR_NO_IMAGE;
+        return ProcessFirmwareImageStatus.TarNoImage;
     }
 
     const prevManifest = readManifest(PREV_INDEX_MANIFEST_FILENAME);
@@ -95,11 +95,11 @@ export async function processFirmwareImage(
 
         if (!firmwareFile.ok || !firmwareFile.body) {
             console.error(`${logPrefix} Invalid response from ${firmwareFileUrl} status=${firmwareFile.status}.`);
-            return ProcessFirmwareImageStatus.REQUEST_FAILED;
+            return ProcessFirmwareImageStatus.RequestFailed;
         }
 
         if (tar) {
-            assert(tarImageFinder, `No image finder function supplied for tar.`);
+            assert(tarImageFinder, "No image finder function supplied for tar.");
 
             const archiveBuffer = Buffer.from(await firmwareFile.arrayBuffer());
             const archiveFilePath = path.join(baseOutDir, firmwareFileName);
@@ -110,7 +110,7 @@ export async function processFirmwareImage(
                 firmwareFileName = await tarExtract(archiveFilePath, baseOutDir, tarImageFinder);
             } catch {
                 console.error(`${logPrefix} No image found for ${firmwareFileUrl}.`);
-                return ProcessFirmwareImageStatus.TAR_NO_IMAGE;
+                return ProcessFirmwareImageStatus.TarNoImage;
             }
         }
 
@@ -121,14 +121,14 @@ export async function processFirmwareImage(
         const statusToBase = getParsedImageStatus(parsedImage, baseMatch);
 
         switch (statusToBase) {
-            case ParsedImageStatus.OLDER: {
+            case ParsedImageStatus.Older: {
                 // if prev doesn't have a match, move to prev
                 const [prevMatchIndex, prevMatch] = findMatchImage(parsedImage, prevManifest, extraMetas);
                 const statusToPrev = getParsedImageStatus(parsedImage, prevMatch);
 
                 switch (statusToPrev) {
-                    case ParsedImageStatus.OLDER:
-                    case ParsedImageStatus.IDENTICAL: {
+                    case ParsedImageStatus.Older:
+                    case ParsedImageStatus.Identical: {
                         console.log(
                             `${logPrefix} Base manifest has higher version and an equal or better match is already present in prev manifest. Ignoring.`,
                         );
@@ -136,11 +136,11 @@ export async function processFirmwareImage(
                         break;
                     }
 
-                    case ParsedImageStatus.NEWER:
-                    case ParsedImageStatus.NEW: {
+                    case ParsedImageStatus.Newer:
+                    case ParsedImageStatus.New: {
                         addImageToPrev(
                             logPrefix,
-                            statusToPrev === ParsedImageStatus.NEWER,
+                            statusToPrev === ParsedImageStatus.Newer,
                             prevManifest,
                             prevMatchIndex,
                             prevMatch!,
@@ -166,17 +166,17 @@ export async function processFirmwareImage(
                 break;
             }
 
-            case ParsedImageStatus.IDENTICAL: {
+            case ParsedImageStatus.Identical: {
                 console.log(`${logPrefix} Base manifest already has version ${parsedImage.fileVersion}. Ignoring.`);
 
                 break;
             }
 
-            case ParsedImageStatus.NEWER:
-            case ParsedImageStatus.NEW: {
+            case ParsedImageStatus.Newer:
+            case ParsedImageStatus.New: {
                 addImageToBase(
                     logPrefix,
-                    statusToBase === ParsedImageStatus.NEWER,
+                    statusToBase === ParsedImageStatus.Newer,
                     prevManifest,
                     prevOutDir,
                     baseManifest,
@@ -208,7 +208,7 @@ export async function processFirmwareImage(
             rmSync(firmwareFilePath, {force: true});
         }
 
-        return ProcessFirmwareImageStatus.ERROR;
+        return ProcessFirmwareImageStatus.Error;
     }
 
     writeManifest(PREV_INDEX_MANIFEST_FILENAME, prevManifest);
@@ -217,5 +217,5 @@ export async function processFirmwareImage(
     console.log(`Prev manifest has ${prevManifest.length} images.`);
     console.log(`Base manifest has ${baseManifest.length} images.`);
 
-    return ProcessFirmwareImageStatus.SUCCESS;
+    return ProcessFirmwareImageStatus.Success;
 }

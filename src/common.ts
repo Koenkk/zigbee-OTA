@@ -1,13 +1,13 @@
 import type {ExtraMetas, ExtraMetasWithFileName, ImageHeader, RepoImageMeta} from "./types";
 
-import assert from "assert";
-import {exec} from "child_process";
-import {createHash} from "crypto";
-import {existsSync, mkdirSync, readFileSync, renameSync, rmSync, writeFileSync} from "fs";
-import path from "path";
+import assert from "node:assert";
+import {exec} from "node:child_process";
+import {createHash} from "node:crypto";
+import {existsSync, mkdirSync, readFileSync, renameSync, rmSync, writeFileSync} from "node:fs";
+import path from "node:path";
 
 export const UPGRADE_FILE_IDENTIFIER = Buffer.from([0x1e, 0xf1, 0xee, 0x0b]);
-export const BASE_REPO_URL = `https://raw.githubusercontent.com/Koenkk/zigbee-OTA/`;
+export const BASE_REPO_URL = "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/";
 export const REPO_BRANCH = "master";
 /** Images used by OTA upgrade process */
 export const BASE_IMAGES_DIR = "images";
@@ -132,7 +132,7 @@ export function parseImageHeader(buffer: Buffer): ImageHeader {
             headerPos += 2;
         }
 
-        assert(UPGRADE_FILE_IDENTIFIER.equals(header.otaUpgradeFileIdentifier), `Invalid upgrade file identifier`);
+        assert(UPGRADE_FILE_IDENTIFIER.equals(header.otaUpgradeFileIdentifier), "Invalid upgrade file identifier");
 
         return header;
     } catch (error) {
@@ -200,24 +200,26 @@ export function getLatestImage<T>(list: T[] | undefined, compareFn: (a: T, b: T)
 }
 
 export enum ParsedImageStatus {
-    NEW = 0,
-    NEWER = 1,
-    OLDER = 2,
-    IDENTICAL = 3,
+    New = 0,
+    Newer = 1,
+    Older = 2,
+    Identical = 3,
 }
 
 export function getParsedImageStatus(parsedImage: ImageHeader, match?: RepoImageMeta): ParsedImageStatus {
     if (match) {
         if (match.fileVersion > parsedImage.fileVersion) {
-            return ParsedImageStatus.OLDER;
-        } else if (match.fileVersion < parsedImage.fileVersion) {
-            return ParsedImageStatus.NEWER;
-        } else {
-            return ParsedImageStatus.IDENTICAL;
+            return ParsedImageStatus.Older;
         }
-    } else {
-        return ParsedImageStatus.NEW;
+
+        if (match.fileVersion < parsedImage.fileVersion) {
+            return ParsedImageStatus.Newer;
+        }
+
+        return ParsedImageStatus.Identical;
     }
+
+    return ParsedImageStatus.New;
 }
 
 /**
@@ -231,8 +233,8 @@ export function getValidMetas(metas: Partial<ExtraMetas & ExtraMetasWithFileName
     const validMetas: ExtraMetasWithFileName = {};
 
     if (!ignoreFileName) {
-        if (metas.fileName != undefined) {
-            if (typeof metas.fileName != "string") {
+        if (metas.fileName != null) {
+            if (typeof metas.fileName !== "string") {
                 throw new Error(`Invalid format for 'fileName', expected 'string' type.`);
             }
 
@@ -240,72 +242,76 @@ export function getValidMetas(metas: Partial<ExtraMetas & ExtraMetasWithFileName
         }
     }
 
-    if (metas.originalUrl != undefined) {
-        if (typeof metas.originalUrl != "string") {
+    if (metas.originalUrl != null) {
+        if (typeof metas.originalUrl !== "string") {
             throw new Error(`Invalid format for 'originalUrl', expected 'string' type.`);
         }
 
         validMetas.originalUrl = metas.originalUrl;
     }
 
-    if (metas.force != undefined) {
-        if (typeof metas.force != "boolean") {
+    if (metas.force != null) {
+        if (typeof metas.force !== "boolean") {
             throw new Error(`Invalid format for 'force', expected 'boolean' type.`);
         }
 
         validMetas.force = metas.force;
     }
 
-    if (metas.hardwareVersionMax != undefined) {
-        if (typeof metas.hardwareVersionMax != "number") {
+    if (metas.hardwareVersionMax != null) {
+        if (typeof metas.hardwareVersionMax !== "number") {
             throw new Error(`Invalid format for 'hardwareVersionMax', expected 'number' type.`);
         }
 
         validMetas.hardwareVersionMax = metas.hardwareVersionMax;
     }
 
-    if (metas.hardwareVersionMin != undefined) {
-        if (typeof metas.hardwareVersionMin != "number") {
+    if (metas.hardwareVersionMin != null) {
+        if (typeof metas.hardwareVersionMin !== "number") {
             throw new Error(`Invalid format for 'hardwareVersionMin', expected 'number' type.`);
         }
 
         validMetas.hardwareVersionMin = metas.hardwareVersionMin;
     }
 
-    if (metas.manufacturerName != undefined) {
-        if (!Array.isArray(metas.manufacturerName) || metas.manufacturerName.length < 1 || metas.manufacturerName.some((m) => typeof m != "string")) {
+    if (metas.manufacturerName != null) {
+        if (
+            !Array.isArray(metas.manufacturerName) ||
+            metas.manufacturerName.length < 1 ||
+            metas.manufacturerName.some((m) => typeof m !== "string")
+        ) {
             throw new Error(`Invalid format for 'manufacturerName', expected 'array of string' type.`);
         }
 
         validMetas.manufacturerName = metas.manufacturerName;
     }
 
-    if (metas.maxFileVersion != undefined) {
-        if (typeof metas.maxFileVersion != "number") {
+    if (metas.maxFileVersion != null) {
+        if (typeof metas.maxFileVersion !== "number") {
             throw new Error(`Invalid format for 'maxFileVersion', expected 'number' type.`);
         }
 
         validMetas.maxFileVersion = metas.maxFileVersion;
     }
 
-    if (metas.minFileVersion != undefined) {
-        if (typeof metas.minFileVersion != "number") {
+    if (metas.minFileVersion != null) {
+        if (typeof metas.minFileVersion !== "number") {
             throw new Error(`Invalid format for 'minFileVersion', expected 'number' type.`);
         }
 
         validMetas.minFileVersion = metas.minFileVersion;
     }
 
-    if (metas.modelId != undefined) {
-        if (typeof metas.modelId != "string") {
+    if (metas.modelId != null) {
+        if (typeof metas.modelId !== "string") {
             throw new Error(`Invalid format for 'modelId', expected 'string' type.`);
         }
 
         validMetas.modelId = metas.modelId;
     }
 
-    if (metas.releaseNotes != undefined) {
-        if (typeof metas.releaseNotes != "string") {
+    if (metas.releaseNotes != null) {
+        if (typeof metas.releaseNotes !== "string") {
             throw new Error(`Invalid format for 'releaseNotes', expected 'string' type.`);
         }
 
@@ -380,11 +386,11 @@ export function addImageToBase(
         const [prevMatchIndex, prevMatch] = findMatchImage(parsedImage, prevManifest, extraMetas);
         const prevStatus = getParsedImageStatus(parsedImage, prevMatch);
 
-        if (prevStatus !== ParsedImageStatus.OLDER && prevStatus !== ParsedImageStatus.NEW) {
+        if (prevStatus !== ParsedImageStatus.Older && prevStatus !== ParsedImageStatus.New) {
             console.warn(`${logPrefix} Base image is new/newer but prev image is not older/non-existing.`);
         }
 
-        if (prevStatus !== ParsedImageStatus.NEW) {
+        if (prevStatus !== ParsedImageStatus.New) {
             console.log(`${logPrefix} Removing prev image.`);
             prevManifest.splice(prevMatchIndex, 1);
 

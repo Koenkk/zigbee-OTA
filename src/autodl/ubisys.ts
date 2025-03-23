@@ -1,4 +1,4 @@
-import url from "url";
+import url from "node:url";
 
 import {getLatestImage, getText, readCacheJson, writeCacheJson} from "../common.js";
 import {processFirmwareImage} from "../process_firmware_image.js";

@@ -44,7 +44,7 @@ export async function download(): Promise<void> {
         const cachedData = readCacheJson<ModelsJson>(NAME);
 
         for (const model in models) {
-            if (model == "") {
+            if (model === "") {
                 // ignore empty key (bug)
                 continue;
             }

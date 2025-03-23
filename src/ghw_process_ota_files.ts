@@ -4,9 +4,9 @@ import type {Octokit} from "@octokit/rest";
 
 import type {ExtraMetas, GHExtraMetas, RepoImageMeta} from "./types.js";
 
-import assert from "assert";
-import {readFileSync, renameSync} from "fs";
-import path from "path";
+import assert from "node:assert";
+import {readFileSync, renameSync} from "node:fs";
+import path from "node:path";
 
 import {
     BASE_IMAGES_DIR,
@@ -29,6 +29,7 @@ function getFileExtraMetas(extraMetas: GHExtraMetas, fileName: string): ExtraMet
     if (Array.isArray(extraMetas)) {
         const fileExtraMetas = extraMetas.find((m) => m.fileName === fileName) ?? {};
         /** @see getValidMetas */
+        // biome-ignore lint/performance/noDelete: <explanation>
         delete fileExtraMetas.fileName;
 
         return fileExtraMetas;
@@ -43,7 +44,9 @@ async function getPRBody(github: Octokit, core: typeof CoreApi, context: Context
 
     if (context.payload.pull_request) {
         return context.payload.pull_request.body;
-    } else if (context.eventName === "push") {
+    }
+
+    if (context.eventName === "push") {
         const pushMsg = context.payload.head_commit.message as string;
         const prMatch = pushMsg.match(/\(#(\d+)\)/);
 
@@ -78,15 +81,15 @@ async function parsePRBodyExtraMetas(github: Octokit, core: typeof CoreApi, cont
             if (metasStart !== -1 && metasEnd > metasStart) {
                 const metas = JSON.parse(prBody.slice(metasStart + EXTRA_METAS_PR_BODY_START_TAG.length, metasEnd)) as GHExtraMetas;
 
-                core.info(`Extra metas from PR body:`);
+                core.info("Extra metas from PR body:");
                 core.info(JSON.stringify(metas, undefined, 2));
 
                 if (Array.isArray(metas)) {
                     extraMetas = [];
 
                     for (const meta of metas) {
-                        if (!meta.fileName || typeof meta.fileName != "string") {
-                            core.info(`Ignoring meta in array with missing/invalid fileName:`);
+                        if (!meta.fileName || typeof meta.fileName !== "string") {
+                            core.info("Ignoring meta in array with missing/invalid fileName:");
                             core.info(JSON.stringify(meta, undefined, 2));
                             continue;
                         }
@@ -126,7 +129,7 @@ export async function processOtaFiles(
             const manufacturer = filePath.replace(BASE_IMAGES_DIR, "").replace(firmwareFileName, "").replaceAll("/", "").trim();
 
             if (!manufacturer) {
-                throw new Error(`File should be in its associated manufacturer subfolder`);
+                throw new Error("File should be in its associated manufacturer subfolder");
             }
 
             const firmwareBuffer = Buffer.from(readFileSync(filePath));
@@ -146,14 +149,14 @@ export async function processOtaFiles(
             const statusToBase = getParsedImageStatus(parsedImage, baseMatch);
 
             switch (statusToBase) {
-                case ParsedImageStatus.OLDER: {
+                case ParsedImageStatus.Older: {
                     // if prev doesn't have a match, move to prev
                     const [prevMatchIndex, prevMatch] = findMatchImage(parsedImage, prevManifest, fileExtraMetas);
                     const statusToPrev = getParsedImageStatus(parsedImage, prevMatch);
 
                     switch (statusToPrev) {
-                        case ParsedImageStatus.OLDER:
-                        case ParsedImageStatus.IDENTICAL: {
+                        case ParsedImageStatus.Older:
+                        case ParsedImageStatus.Identical: {
                             failureComment = `Base manifest has higher version:
 \`\`\`json
 ${JSON.stringify(baseMatch, undefined, 2)}
@@ -169,11 +172,11 @@ ${JSON.stringify(parsedImage, undefined, 2)}
                             break;
                         }
 
-                        case ParsedImageStatus.NEWER:
-                        case ParsedImageStatus.NEW: {
+                        case ParsedImageStatus.Newer:
+                        case ParsedImageStatus.New: {
                             addImageToPrev(
                                 logPrefix,
-                                statusToPrev === ParsedImageStatus.NEWER,
+                                statusToPrev === ParsedImageStatus.Newer,
                                 prevManifest,
                                 prevMatchIndex,
                                 prevMatch!,
@@ -197,7 +200,7 @@ ${JSON.stringify(parsedImage, undefined, 2)}
                     break;
                 }
 
-                case ParsedImageStatus.IDENTICAL: {
+                case ParsedImageStatus.Identical: {
                     failureComment = `Conflict with image at index \`${baseMatchIndex}\`:
 \`\`\`json
 ${JSON.stringify(baseMatch, undefined, 2)}
@@ -209,11 +212,11 @@ ${JSON.stringify(parsedImage, undefined, 2)}
                     break;
                 }
 
-                case ParsedImageStatus.NEWER:
-                case ParsedImageStatus.NEW: {
+                case ParsedImageStatus.Newer:
+                case ParsedImageStatus.New: {
                     addImageToBase(
                         logPrefix,
-                        statusToBase === ParsedImageStatus.NEWER,
+                        statusToBase === ParsedImageStatus.Newer,
                         prevManifest,
                         prevOutDir,
                         baseManifest,

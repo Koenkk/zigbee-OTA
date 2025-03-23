@@ -4,8 +4,8 @@ import type {Octokit} from "@octokit/rest";
 
 import type {RepoImageMeta} from "./types";
 
-import {existsSync, lstatSync, mkdirSync, readFileSync, readdirSync, renameSync, rmSync, writeFileSync} from "fs";
-import path from "path";
+import {existsSync, lstatSync, mkdirSync, readFileSync, readdirSync, renameSync, rmSync, writeFileSync} from "node:fs";
+import path from "node:path";
 
 import {
     BASE_IMAGES_DIR,
@@ -71,7 +71,7 @@ async function download3rdParties(
     outDirFinder = get3rdPartyDir,
 ): Promise<void> {
     if (!process.env.NODE_EXTRA_CA_CERTS) {
-        throw new Error(`Download 3rd Parties requires \`NODE_EXTRA_CA_CERTS=cacerts.pem\`.`);
+        throw new Error("Download 3rd Parties requires `NODE_EXTRA_CA_CERTS=cacerts.pem`.");
     }
 
     const baseManifest = readManifest(BASE_INDEX_MANIFEST_FILENAME);
@@ -130,7 +130,7 @@ async function download3rdParties(
                 const statusToBase = getParsedImageStatus(parsedImage, baseMatch);
 
                 switch (statusToBase) {
-                    case ParsedImageStatus.OLDER: {
+                    case ParsedImageStatus.Older: {
                         addImageToPrev(
                             `[${fileName}]`,
                             false, // no prev existed before
@@ -158,16 +158,16 @@ async function download3rdParties(
                         break;
                     }
 
-                    case ParsedImageStatus.IDENTICAL: {
+                    case ParsedImageStatus.Identical: {
                         core.warning(`Conflict with image at index \`${baseMatchIndex}\`: ${JSON.stringify(baseMatch)}`);
                         continue;
                     }
 
-                    case ParsedImageStatus.NEWER:
-                    case ParsedImageStatus.NEW: {
+                    case ParsedImageStatus.Newer:
+                    case ParsedImageStatus.New: {
                         addImageToBase(
                             `[${fileName}]`,
-                            statusToBase === ParsedImageStatus.NEWER,
+                            statusToBase === ParsedImageStatus.Newer,
                             prevManifest,
                             prevOutDir,
                             baseManifest,
@@ -200,8 +200,6 @@ async function download3rdParties(
                 if (firmwareFilePath) {
                     rmSync(firmwareFilePath, {force: true});
                 }
-
-                continue;
             }
         } else {
             core.warning(`Ignoring '${fileName}' with no out dir specified.`);

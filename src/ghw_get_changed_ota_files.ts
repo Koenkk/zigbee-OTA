@@ -2,7 +2,7 @@ import type CoreApi from "@actions/core";
 import type {Context} from "@actions/github/lib/context";
 import type {Octokit} from "@octokit/rest";
 
-import assert from "assert";
+import assert from "node:assert";
 
 import {BASE_IMAGES_DIR} from "./common.js";
 
@@ -28,10 +28,10 @@ export async function getChangedOtaFiles(
 
     if (throwIfFilesOutsideOfImages && fileList.length !== compare.data.files.length) {
         if (context.payload.pull_request) {
-            throw new Error(`Detected changes in files outside of \`images\` directory. This is not allowed for a pull request with OTA files.`);
-        } else {
-            throw new Error(`Cannot run with files outside of \`images\` directory.`);
+            throw new Error("Detected changes in files outside of `images` directory. This is not allowed for a pull request with OTA files.");
         }
+
+        throw new Error("Cannot run with files outside of `images` directory.");
     }
 
     return fileList.map((f) => f.filename);

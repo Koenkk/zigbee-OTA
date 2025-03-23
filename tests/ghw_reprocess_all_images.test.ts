@@ -3,8 +3,8 @@ import type {Context} from "@actions/github/lib/context";
 
 import type {RepoImageMeta} from "../src/types";
 
-import {copyFileSync, existsSync, mkdirSync, readFileSync, renameSync, rmSync} from "fs";
-import path from "path";
+import {copyFileSync, existsSync, mkdirSync, readFileSync, renameSync, rmSync} from "node:fs";
+import path from "node:path";
 
 import * as common from "../src/common";
 import {
@@ -103,15 +103,21 @@ describe("Github Workflow: Re-Process All Images", () => {
     const getManifest = (fileName: string): RepoImageMeta[] => {
         if (fileName === common.BASE_INDEX_MANIFEST_FILENAME) {
             return baseManifest;
-        } else if (fileName === common.PREV_INDEX_MANIFEST_FILENAME) {
-            return prevManifest;
-        } else if (fileName === path.join(NOT_IN_BASE_MANIFEST_IMAGES_DIR, NOT_IN_MANIFEST_FILENAME)) {
-            return notInBaseManifest;
-        } else if (fileName === path.join(NOT_IN_PREV_MANIFEST_IMAGES_DIR, NOT_IN_MANIFEST_FILENAME)) {
-            return notInPrevManifest;
-        } else {
-            throw new Error(`${fileName} not supported`);
         }
+
+        if (fileName === common.PREV_INDEX_MANIFEST_FILENAME) {
+            return prevManifest;
+        }
+
+        if (fileName === path.join(NOT_IN_BASE_MANIFEST_IMAGES_DIR, NOT_IN_MANIFEST_FILENAME)) {
+            return notInBaseManifest;
+        }
+
+        if (fileName === path.join(NOT_IN_PREV_MANIFEST_IMAGES_DIR, NOT_IN_MANIFEST_FILENAME)) {
+            return notInPrevManifest;
+        }
+
+        throw new Error(`${fileName} not supported`);
     };
 
     const setManifest = (fileName: string, content: RepoImageMeta[]): void => {
@@ -137,8 +143,10 @@ describe("Github Workflow: Re-Process All Images", () => {
 
     const withOldMetas = (metas: RepoImageMeta): RepoImageMeta => {
         const oldMetas = structuredClone(metas);
+        // biome-ignore lint/performance/noDelete: <explanation>
         delete oldMetas.originalUrl;
         // @ts-expect-error mock
+        // biome-ignore lint/performance/noDelete: <explanation>
         delete oldMetas.sha512;
 
         return oldMetas;
@@ -250,7 +258,7 @@ describe("Github Workflow: Re-Process All Images", () => {
         expect(writeManifestSpy).toHaveBeenCalledTimes(2);
         expectWriteNoChange(1, common.PREV_INDEX_MANIFEST_FILENAME);
         expectWriteNoChange(2, common.BASE_INDEX_MANIFEST_FILENAME);
-        expect(coreWarningSpy).toHaveBeenCalledWith(expect.stringContaining(`Not found in base manifest:`));
+        expect(coreWarningSpy).toHaveBeenCalledWith(expect.stringContaining("Not found in base manifest:"));
     });
 
     it("removes multiple images not in manifest", async () => {
@@ -269,9 +277,9 @@ describe("Github Workflow: Re-Process All Images", () => {
         expectWriteNoChange(1, common.PREV_INDEX_MANIFEST_FILENAME);
         expectWriteNoChange(2, common.BASE_INDEX_MANIFEST_FILENAME);
         // prev first, then alphabetical
-        expect(coreWarningSpy).toHaveBeenNthCalledWith(1, expect.stringContaining(`Not found in base manifest:`));
-        expect(coreWarningSpy).toHaveBeenNthCalledWith(2, expect.stringContaining(`Not found in base manifest:`));
-        expect(coreWarningSpy).toHaveBeenNthCalledWith(3, expect.stringContaining(`Not found in base manifest:`));
+        expect(coreWarningSpy).toHaveBeenNthCalledWith(1, expect.stringContaining("Not found in base manifest:"));
+        expect(coreWarningSpy).toHaveBeenNthCalledWith(2, expect.stringContaining("Not found in base manifest:"));
+        expect(coreWarningSpy).toHaveBeenNthCalledWith(3, expect.stringContaining("Not found in base manifest:"));
     });
 
     it("moves image not in manifest", async () => {
@@ -326,9 +334,9 @@ describe("Github Workflow: Re-Process All Images", () => {
         expect(writeManifestSpy).toHaveBeenCalledTimes(2);
         expect(writeManifestSpy).toHaveBeenNthCalledWith(1, common.PREV_INDEX_MANIFEST_FILENAME, []);
         expect(writeManifestSpy).toHaveBeenNthCalledWith(2, common.BASE_INDEX_MANIFEST_FILENAME, []);
-        expect(coreErrorSpy).toHaveBeenCalledWith(expect.stringContaining(`Removing`));
-        expect(coreErrorSpy).toHaveBeenCalledWith(expect.stringContaining(`Not a valid OTA file`));
-        expect(coreWarningSpy).toHaveBeenCalledWith(expect.stringContaining(`Not found in base manifest`));
+        expect(coreErrorSpy).toHaveBeenCalledWith(expect.stringContaining("Removing"));
+        expect(coreErrorSpy).toHaveBeenCalledWith(expect.stringContaining("Not a valid OTA file"));
+        expect(coreWarningSpy).toHaveBeenCalledWith(expect.stringContaining("Not found in base manifest"));
     });
 
     it("removes invalid in manifest", async () => {
@@ -343,8 +351,8 @@ describe("Github Workflow: Re-Process All Images", () => {
         expect(writeManifestSpy).toHaveBeenCalledTimes(2);
         expect(writeManifestSpy).toHaveBeenNthCalledWith(1, common.PREV_INDEX_MANIFEST_FILENAME, []);
         expect(writeManifestSpy).toHaveBeenNthCalledWith(2, common.BASE_INDEX_MANIFEST_FILENAME, []);
-        expect(coreErrorSpy).toHaveBeenCalledWith(expect.stringContaining(`Removing`));
-        expect(coreErrorSpy).toHaveBeenCalledWith(expect.stringContaining(`Not a valid OTA file`));
+        expect(coreErrorSpy).toHaveBeenCalledWith(expect.stringContaining("Removing"));
+        expect(coreErrorSpy).toHaveBeenCalledWith(expect.stringContaining("Not a valid OTA file"));
     });
 
     it("keeps image and rewrites manifest", async () => {
@@ -364,7 +372,7 @@ describe("Github Workflow: Re-Process All Images", () => {
     it("keeps image with escaped url and rewrites manifest", async () => {
         const oldMetas = withOldMetas(IMAGE_V14_1_METAS);
         const fileName = oldMetas.url.split("/").pop()!;
-        const newName = fileName.replace(".ota", `(%1).ota`);
+        const newName = fileName.replace(".ota", "(%1).ota");
         const baseUrl = oldMetas.url.replace(fileName, "");
         oldMetas.url = baseUrl + encodeURIComponent(newName);
         setManifest(common.BASE_INDEX_MANIFEST_FILENAME, [oldMetas]);
@@ -385,6 +393,7 @@ describe("Github Workflow: Re-Process All Images", () => {
             // @ts-expect-error override
             {fileName: newName, url: `${baseUrl}${encodeURIComponent(newName)}`},
         );
+        // biome-ignore lint/performance/noDelete: <explanation>
         delete outManifestMetas.originalUrl;
         expect(writeManifestSpy).toHaveBeenNthCalledWith(2, common.BASE_INDEX_MANIFEST_FILENAME, [outManifestMetas]);
     });
@@ -439,11 +448,13 @@ describe("Github Workflow: Re-Process All Images", () => {
         const adaptUrl = (originalUrl: string, manifestName: string): string => {
             if (manifestName === common.BASE_INDEX_MANIFEST_FILENAME) {
                 return originalUrl.replace(`/${common.PREV_IMAGES_DIR}/`, `/${common.BASE_IMAGES_DIR}/`);
-            } else if (manifestName === common.PREV_INDEX_MANIFEST_FILENAME) {
-                return originalUrl.replace(`/${common.BASE_IMAGES_DIR}/`, `/${common.PREV_IMAGES_DIR}/`);
-            } else {
-                throw new Error(`Not supported: ${manifestName}`);
             }
+
+            if (manifestName === common.PREV_INDEX_MANIFEST_FILENAME) {
+                return originalUrl.replace(`/${common.BASE_IMAGES_DIR}/`, `/${common.PREV_IMAGES_DIR}/`);
+            }
+
+            throw new Error(`Not supported: ${manifestName}`);
         };
 
         afterAll(() => {
@@ -481,7 +492,7 @@ describe("Github Workflow: Re-Process All Images", () => {
                 // @ts-expect-error mocked as needed
                 await reProcessAllImages(github, core, context, true, false, get3rdPartyDir);
             }).rejects.toThrow(
-                expect.objectContaining({message: expect.stringContaining(`Download 3rd Parties requires \`NODE_EXTRA_CA_CERTS=cacerts.pem\``)}),
+                expect.objectContaining({message: expect.stringContaining("Download 3rd Parties requires `NODE_EXTRA_CA_CERTS=cacerts.pem`")}),
             );
         });
 
@@ -509,7 +520,7 @@ describe("Github Workflow: Re-Process All Images", () => {
             expectWriteNoChange(2, common.BASE_INDEX_MANIFEST_FILENAME);
             expectWriteNoChange(3, common.PREV_INDEX_MANIFEST_FILENAME);
             expectWriteNoChange(4, common.BASE_INDEX_MANIFEST_FILENAME);
-            expect(coreErrorSpy).toHaveBeenCalledWith(expect.stringContaining(`Ignoring malformed`));
+            expect(coreErrorSpy).toHaveBeenCalledWith(expect.stringContaining("Ignoring malformed"));
         });
 
         it("failure from fetch ok", async () => {
@@ -576,7 +587,7 @@ describe("Github Workflow: Re-Process All Images", () => {
             expectWriteNoChange(2, common.BASE_INDEX_MANIFEST_FILENAME);
             expectWriteNoChange(3, common.PREV_INDEX_MANIFEST_FILENAME);
             expectWriteNoChange(4, common.BASE_INDEX_MANIFEST_FILENAME);
-            expect(coreWarningSpy).toHaveBeenCalledWith(expect.stringContaining(`no out dir specified`));
+            expect(coreWarningSpy).toHaveBeenCalledWith(expect.stringContaining("no out dir specified"));
         });
 
         it("ignores invalid OTA file", async () => {
@@ -596,8 +607,8 @@ describe("Github Workflow: Re-Process All Images", () => {
             expectWriteNoChange(2, common.BASE_INDEX_MANIFEST_FILENAME);
             expectWriteNoChange(3, common.PREV_INDEX_MANIFEST_FILENAME);
             expectWriteNoChange(4, common.BASE_INDEX_MANIFEST_FILENAME);
-            expect(coreErrorSpy).toHaveBeenCalledWith(expect.stringContaining(`Ignoring`));
-            expect(coreErrorSpy).toHaveBeenCalledWith(expect.stringContaining(`Not a valid OTA file`));
+            expect(coreErrorSpy).toHaveBeenCalledWith(expect.stringContaining("Ignoring"));
+            expect(coreErrorSpy).toHaveBeenCalledWith(expect.stringContaining("Not a valid OTA file"));
         });
 
         it("ignores identical image", async () => {
@@ -618,7 +629,7 @@ describe("Github Workflow: Re-Process All Images", () => {
             expect(addImageToPrevSpy).toHaveBeenCalledTimes(0);
             expect(writeManifestSpy).toHaveBeenNthCalledWith(1, common.PREV_INDEX_MANIFEST_FILENAME, []);
             expect(writeManifestSpy).toHaveBeenNthCalledWith(2, common.BASE_INDEX_MANIFEST_FILENAME, [IMAGE_V14_1_METAS]);
-            expect(coreWarningSpy).toHaveBeenCalledWith(expect.stringContaining(`Conflict with image at index \`0\``));
+            expect(coreWarningSpy).toHaveBeenCalledWith(expect.stringContaining("Conflict with image at index `0`"));
         });
 
         it("success without mocked get3rdPartyDir", async () => {
@@ -749,7 +760,7 @@ describe("Github Workflow: Re-Process All Images", () => {
         it("success with escaped", async () => {
             const oldMetas = structuredClone(OLD_META_3RD_PARTY_1_METAS);
             const fileName = oldMetas.url.split("/").pop()!;
-            const newName = fileName.replace(".ota", `(%1).ota`);
+            const newName = fileName.replace(".ota", "(%1).ota");
             const baseUrl = oldMetas.url.replace(fileName, "");
             oldMetas.url = baseUrl + encodeURIComponent(newName);
             // @ts-expect-error old metas

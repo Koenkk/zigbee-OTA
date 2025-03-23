@@ -4,8 +4,8 @@ import type {Octokit} from "@octokit/rest";
 
 import type {RepoImageMeta} from "../src/types";
 
-import {existsSync, readFileSync, rmSync} from "fs";
-import path from "path";
+import {existsSync, readFileSync, rmSync} from "node:fs";
+import path from "node:path";
 
 import * as common from "../src/common";
 import {checkOtaPR} from "../src/ghw_check_ota_pr";
@@ -83,11 +83,13 @@ describe("Github Workflow: Check OTA PR", () => {
     const getManifest = (fileName: string): RepoImageMeta[] => {
         if (fileName === common.BASE_INDEX_MANIFEST_FILENAME) {
             return baseManifest;
-        } else if (fileName === common.PREV_INDEX_MANIFEST_FILENAME) {
-            return prevManifest;
-        } else {
-            throw new Error(`${fileName} not supported`);
         }
+
+        if (fileName === common.PREV_INDEX_MANIFEST_FILENAME) {
+            return prevManifest;
+        }
+
+        throw new Error(`${fileName} not supported`);
     };
 
     const setManifest = (fileName: string, content: RepoImageMeta[]): void => {
@@ -173,7 +175,7 @@ describe("Github Workflow: Check OTA PR", () => {
         await expect(async () => {
             // @ts-expect-error mock
             await checkOtaPR(github, core, {payload: {}});
-        }).rejects.toThrow(`Not a pull request`);
+        }).rejects.toThrow("Not a pull request");
 
         expectNoChanges(true);
     });
@@ -184,7 +186,7 @@ describe("Github Workflow: Check OTA PR", () => {
         await expect(async () => {
             // @ts-expect-error mock
             await checkOtaPR(github, core, {payload: {pull_request: {merged: true}}});
-        }).rejects.toThrow(`Should not be executed on a merged pull request`);
+        }).rejects.toThrow("Should not be executed on a merged pull request");
 
         expectNoChanges(true);
     });
@@ -195,14 +197,14 @@ describe("Github Workflow: Check OTA PR", () => {
         await expect(async () => {
             // @ts-expect-error mock
             await checkOtaPR(github, core, context);
-        }).rejects.toThrow(`No file`);
+        }).rejects.toThrow("No file");
 
         expectNoChanges(false);
         expect(existsSync(common.PR_ARTIFACT_NUMBER_FILEPATH)).toStrictEqual(true);
         expect(readFileSync(common.PR_ARTIFACT_NUMBER_FILEPATH, "utf8")).toStrictEqual(`${context.payload?.pull_request?.number}`);
         expect(existsSync(common.PR_ARTIFACT_DIFF_FILEPATH)).toStrictEqual(false);
         expect(existsSync(common.PR_ARTIFACT_ERROR_FILEPATH)).toStrictEqual(true);
-        expect(readFileSync(common.PR_ARTIFACT_ERROR_FILEPATH, "utf8")).toStrictEqual(`No file`);
+        expect(readFileSync(common.PR_ARTIFACT_ERROR_FILEPATH, "utf8")).toStrictEqual("No file");
     });
 
     it("failure with file outside of images directory", async () => {
@@ -211,7 +213,7 @@ describe("Github Workflow: Check OTA PR", () => {
         await expect(async () => {
             // @ts-expect-error mock
             await checkOtaPR(github, core, context);
-        }).rejects.toThrow(expect.objectContaining({message: expect.stringContaining(`Detected changes in files outside`)}));
+        }).rejects.toThrow(expect.objectContaining({message: expect.stringContaining("Detected changes in files outside")}));
 
         expectNoChanges(false);
     });
@@ -222,7 +224,7 @@ describe("Github Workflow: Check OTA PR", () => {
         await expect(async () => {
             // @ts-expect-error mock
             await checkOtaPR(github, core, context);
-        }).rejects.toThrow(expect.objectContaining({message: expect.stringContaining(`File should be in its associated manufacturer subfolder`)}));
+        }).rejects.toThrow(expect.objectContaining({message: expect.stringContaining("File should be in its associated manufacturer subfolder")}));
 
         expectNoChanges(false);
 
@@ -235,7 +237,7 @@ describe("Github Workflow: Check OTA PR", () => {
         await expect(async () => {
             // @ts-expect-error mock
             await checkOtaPR(github, core, context);
-        }).rejects.toThrow(expect.objectContaining({message: expect.stringContaining(`Not a valid OTA file`)}));
+        }).rejects.toThrow(expect.objectContaining({message: expect.stringContaining("Not a valid OTA file")}));
 
         expectNoChanges(false);
     });
@@ -247,7 +249,7 @@ describe("Github Workflow: Check OTA PR", () => {
         await expect(async () => {
             // @ts-expect-error mock
             await checkOtaPR(github, core, context);
-        }).rejects.toThrow(expect.objectContaining({message: expect.stringContaining(`Conflict with image at index \`0\``)}));
+        }).rejects.toThrow(expect.objectContaining({message: expect.stringContaining("Conflict with image at index `0`")}));
 
         expectNoChanges(false);
     });
@@ -261,7 +263,7 @@ describe("Github Workflow: Check OTA PR", () => {
             // @ts-expect-error mock
             await checkOtaPR(github, core, context);
         }).rejects.toThrow(
-            expect.objectContaining({message: expect.stringContaining(`an equal or better match is already present in prev manifest`)}),
+            expect.objectContaining({message: expect.stringContaining("an equal or better match is already present in prev manifest")}),
         );
 
         expectNoChanges(false);
@@ -276,7 +278,7 @@ describe("Github Workflow: Check OTA PR", () => {
             // @ts-expect-error mock
             await checkOtaPR(github, core, context);
         }).rejects.toThrow(
-            expect.objectContaining({message: expect.stringContaining(`an equal or better match is already present in prev manifest`)}),
+            expect.objectContaining({message: expect.stringContaining("an equal or better match is already present in prev manifest")}),
         );
 
         expectNoChanges(false);

@@ -23,7 +23,7 @@ const github = {
 };
 
 describe("Github Workflow: Report OTA PR", () => {
-    it("passes", async () => {
+    it("passes", () => {
         console.log(github);
     });
 });

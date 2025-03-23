@@ -24,7 +24,7 @@ type ImagesJson = {
 const NAME = "GammaTroniques";
 // const LOG_PREFIX = `[${NAME}]`;
 const BASE_URL = "https://update.gammatroniques.fr/";
-const MANIFEST_URL_PATH = `/manifest.json`;
+const MANIFEST_URL_PATH = "/manifest.json";
 const MODEL_IDS: [urlId: string, modelId: string][] = [["ticmeter", "TICMeter"]];
 
 function isDifferent(newData: ImagesJson, cachedData?: ImagesJson): boolean {

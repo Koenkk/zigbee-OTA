@@ -31,7 +31,7 @@ const FIRMWARE_URL = "https://fw.ota.homesmart.ikea.com/check/update/prod";
 
 function findInCache(image: DeviceImageJson, cachedData?: ImagesJson): DeviceImageJson | undefined {
     // `fw_type` compare ensures always `DeviceImagesJson`
-    return cachedData?.find((d) => d.fw_type == image.fw_type && d.fw_image_type == image.fw_image_type) as DeviceImageJson | undefined;
+    return cachedData?.find((d) => d.fw_type === image.fw_type && d.fw_image_type === image.fw_image_type) as DeviceImageJson | undefined;
 }
 
 function isDifferent(newData: DeviceImageJson, cachedData?: DeviceImageJson): boolean {

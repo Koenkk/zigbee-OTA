@@ -7,8 +7,8 @@
 
 import type {ExtraMetas, RepoImageMeta} from "../src/types";
 
-import {copyFileSync, existsSync, mkdirSync} from "fs";
-import path from "path";
+import {copyFileSync, existsSync, mkdirSync} from "node:fs";
+import path from "node:path";
 
 import * as common from "../src/common";
 
@@ -234,7 +234,9 @@ export const getAdjustedContent = (fileName: string, content: RepoImageMeta[]): 
                 // @ts-expect-error override
                 url: `${common.BASE_REPO_URL}${common.REPO_BRANCH}/${common.BASE_IMAGES_DIR}/${IMAGES_TEST_DIR}/${c.fileName}`,
             });
-        } else if (fileName === common.PREV_INDEX_MANIFEST_FILENAME && c.url.includes(`${common.BASE_IMAGES_DIR}`)) {
+        }
+
+        if (fileName === common.PREV_INDEX_MANIFEST_FILENAME && c.url.includes(`${common.BASE_IMAGES_DIR}`)) {
             return withExtraMetas(c, {
                 // @ts-expect-error override
                 url: `${common.BASE_REPO_URL}${common.REPO_BRANCH}/${common.PREV_IMAGES_DIR}/${IMAGES_TEST_DIR}/${c.fileName}`,

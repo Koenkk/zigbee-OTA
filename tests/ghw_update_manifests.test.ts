@@ -4,7 +4,7 @@ import type {Octokit} from "@octokit/rest";
 
 import type {RepoImageMeta} from "../src/types";
 
-import {rmSync} from "fs";
+import {rmSync} from "node:fs";
 
 import * as common from "../src/common";
 import {updateManifests} from "../src/ghw_update_manifests";
@@ -68,11 +68,13 @@ describe("Github Workflow: Update manifests", () => {
     const getManifest = (fileName: string): RepoImageMeta[] => {
         if (fileName === common.BASE_INDEX_MANIFEST_FILENAME) {
             return baseManifest;
-        } else if (fileName === common.PREV_INDEX_MANIFEST_FILENAME) {
-            return prevManifest;
-        } else {
-            throw new Error(`${fileName} not supported`);
         }
+
+        if (fileName === common.PREV_INDEX_MANIFEST_FILENAME) {
+            return prevManifest;
+        }
+
+        throw new Error(`${fileName} not supported`);
     };
 
     const setManifest = (fileName: string, content: RepoImageMeta[]): void => {
@@ -145,7 +147,7 @@ describe("Github Workflow: Update manifests", () => {
         await expect(async () => {
             // @ts-expect-error mock
             await updateManifests(github, core, {payload: {}});
-        }).rejects.toThrow(`Not a push`);
+        }).rejects.toThrow("Not a push");
 
         expectNoChanges(true);
     });
@@ -156,7 +158,7 @@ describe("Github Workflow: Update manifests", () => {
         await expect(async () => {
             // @ts-expect-error mock
             await updateManifests(github, core, context);
-        }).rejects.toThrow(expect.objectContaining({message: expect.stringContaining(`Cannot run with files outside`)}));
+        }).rejects.toThrow(expect.objectContaining({message: expect.stringContaining("Cannot run with files outside")}));
 
         expectNoChanges(true);
     });
@@ -199,7 +201,7 @@ describe("Github Workflow: Update manifests", () => {
         await expect(async () => {
             // @ts-expect-error mock
             await updateManifests(github, core, context);
-        }).rejects.toThrow(expect.objectContaining({message: `Failed to get PR#213 for extra metas: 403`}));
+        }).rejects.toThrow(expect.objectContaining({message: "Failed to get PR#213 for extra metas: 403"}));
 
         expectNoChanges(false);
     });

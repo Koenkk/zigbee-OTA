@@ -16,7 +16,9 @@ type GatewayImageJson = {
 };
 type DeviceImageJson = {
     fw_binary_url: string;
+    // biome-ignore lint/style/useNamingConvention: <explanation>
     fw_file_version_LSB: number;
+    // biome-ignore lint/style/useNamingConvention: <explanation>
     fw_file_version_MSB: number;
     fw_filesize: number;
     fw_image_type: number;
@@ -34,7 +36,7 @@ export const RELEASE_NOTES_URL = "https://ww8.ikea.com/ikeahomesmart/releasenote
 function findInCache(image: DeviceImageJson, cachedData?: ImagesJson): DeviceImageJson | undefined {
     // `fw_type` compare ensures always `DeviceImagesJson`
     return cachedData?.find(
-        (d) => d.fw_type == image.fw_type && d.fw_image_type == image.fw_image_type && d.fw_manufacturer_id == image.fw_manufacturer_id,
+        (d) => d.fw_type === image.fw_type && d.fw_image_type === image.fw_image_type && d.fw_manufacturer_id === image.fw_manufacturer_id,
     ) as DeviceImageJson | undefined;
 }
 
