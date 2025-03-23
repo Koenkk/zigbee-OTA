@@ -203,10 +203,11 @@ export async function processFirmwareImage(
     } catch (error) {
         console.error(`${logPrefix} Failed to save firmware file ${firmwareFileName}: ${(error as Error).stack!}.`);
 
-        /* istanbul ignore if */
+        /* v8 ignore start */
         if (firmwareFilePath) {
             rmSync(firmwareFilePath, {force: true});
         }
+        /* v8 ignore stop */
 
         return ProcessFirmwareImageStatus.Error;
     }

@@ -2,6 +2,7 @@ import type {RepoImageMeta} from "../src/types";
 
 import {existsSync, mkdirSync, readFileSync, rmSync} from "node:fs";
 
+import {type MockInstance, afterAll, afterEach, beforeAll, beforeEach, describe, expect, it, vi} from "vitest";
 import * as common from "../src/common";
 import {ProcessFirmwareImageStatus, processFirmwareImage} from "../src/process_firmware_image";
 import {
@@ -26,14 +27,14 @@ import {
 describe("Process Firmware Image", () => {
     let baseManifest: RepoImageMeta[];
     let prevManifest: RepoImageMeta[];
-    let consoleErrorSpy: jest.SpyInstance;
-    let consoleLogSpy: jest.SpyInstance;
-    let readManifestSpy: jest.SpyInstance;
-    let writeManifestSpy: jest.SpyInstance;
-    let addImageToBaseSpy: jest.SpyInstance;
-    let addImageToPrevSpy: jest.SpyInstance;
-    let fetchSpy: jest.SpyInstance;
-    let setTimeoutSpy: jest.SpyInstance;
+    let consoleErrorSpy: MockInstance;
+    let consoleLogSpy: MockInstance;
+    let readManifestSpy: MockInstance;
+    let writeManifestSpy: MockInstance;
+    let addImageToBaseSpy: MockInstance;
+    let addImageToPrevSpy: MockInstance;
+    let fetchSpy: MockInstance;
+    let setTimeoutSpy: MockInstance;
     let fetchReturnedStatus: {ok: boolean; status: number; body?: object} = {ok: true, status: 200, body: {}};
 
     const getManifest = (fileName: string): RepoImageMeta[] => {
@@ -117,19 +118,20 @@ describe("Process Firmware Image", () => {
         setTimeoutSpy.mockRestore();
         rmSync(BASE_IMAGES_TEST_DIR_PATH, {recursive: true, force: true});
         rmSync(PREV_IMAGES_TEST_DIR_PATH, {recursive: true, force: true});
+        rmSync(IMAGES_TEST_DIR, {recursive: true, force: true});
     });
 
     beforeEach(() => {
         resetManifests();
 
         fetchReturnedStatus = {ok: true, status: 200, body: {}};
-        consoleErrorSpy = jest.spyOn(console, "error");
-        consoleLogSpy = jest.spyOn(console, "log");
-        readManifestSpy = jest.spyOn(common, "readManifest").mockImplementation(getManifest);
-        writeManifestSpy = jest.spyOn(common, "writeManifest").mockImplementation(setManifest);
-        addImageToBaseSpy = jest.spyOn(common, "addImageToBase");
-        addImageToPrevSpy = jest.spyOn(common, "addImageToPrev");
-        fetchSpy = jest.spyOn(global, "fetch").mockImplementation(
+        consoleErrorSpy = vi.spyOn(console, "error");
+        consoleLogSpy = vi.spyOn(console, "log");
+        readManifestSpy = vi.spyOn(common, "readManifest").mockImplementation(getManifest);
+        writeManifestSpy = vi.spyOn(common, "writeManifest").mockImplementation(setManifest);
+        addImageToBaseSpy = vi.spyOn(common, "addImageToBase");
+        addImageToPrevSpy = vi.spyOn(common, "addImageToPrev");
+        fetchSpy = vi.spyOn(global, "fetch").mockImplementation(
             // @ts-expect-error mocked as needed
             (input) => {
                 return {
@@ -141,7 +143,7 @@ describe("Process Firmware Image", () => {
                 };
             },
         );
-        setTimeoutSpy = jest.spyOn(global, "setTimeout").mockImplementation(
+        setTimeoutSpy = vi.spyOn(global, "setTimeout").mockImplementation(
             // @ts-expect-error mock
             (fn) => {
                 fn();

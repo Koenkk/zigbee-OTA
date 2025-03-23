@@ -1,8 +1,7 @@
 {
     "extends": "../tsconfig",
-    "include": ["./**/*", "jest.config.ts"],
+    "include": ["./**/*", "vitest.config.mts"],
     "compilerOptions": {
-        "types": ["jest"],
         "rootDir": "..",
         "noEmit": true
     },

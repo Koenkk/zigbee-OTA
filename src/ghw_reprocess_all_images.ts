@@ -67,8 +67,7 @@ async function download3rdParties(
     github: Octokit,
     core: typeof CoreApi,
     context: Context,
-    /* istanbul ignore next */
-    outDirFinder = get3rdPartyDir,
+    /* v8 ignore next */ outDirFinder = get3rdPartyDir,
 ): Promise<void> {
     if (!process.env.NODE_EXTRA_CA_CERTS) {
         throw new Error("Download 3rd Parties requires `NODE_EXTRA_CA_CERTS=cacerts.pem`.");
@@ -196,10 +195,11 @@ async function download3rdParties(
             } catch (error) {
                 core.error(`Ignoring ${fileName}: ${error}`);
 
-                /* istanbul ignore next */
+                /* v8 ignore start */
                 if (firmwareFilePath) {
                     rmSync(firmwareFilePath, {force: true});
                 }
+                /* v8 ignore stop */
             }
         } else {
             core.warning(`Ignoring '${fileName}' with no out dir specified.`);
@@ -228,12 +228,13 @@ function checkImagesAgainstManifests(github: Octokit, core: typeof CoreApi, cont
         core.info(`Checking ${manifestName} (currently ${manifest.length} images)...`);
 
         for (const subfolderName of readdirSync(imagesDir)) {
-            // skip removal of anything not desired while running jest tests
+            // skip removal of anything not desired while running tests
             // compare should match data.test.ts > IMAGES_TEST_DIR
-            /* istanbul ignore if */
-            if (process.env.JEST_WORKER_ID && subfolderName !== "jest-tmp") {
+            /* v8 ignore start */
+            if (process.env.VITEST_WORKER_ID && subfolderName !== "test-tmp") {
                 continue;
             }
+            /* v8 ignore stop */
 
             const subfolderPath = path.join(imagesDir, subfolderName);
 
@@ -363,25 +364,29 @@ export async function reProcessAllImages(
         throw new Error(`${NOT_IN_PREV_MANIFEST_IMAGES_DIR} is not empty. Cannot run.`);
     }
 
-    /* istanbul ignore if */
+    /* v8 ignore start */
     if (!existsSync(BASE_IMAGES_DIR)) {
         mkdirSync(BASE_IMAGES_DIR, {recursive: true});
     }
+    /* v8 ignore stop */
 
-    /* istanbul ignore if */
+    /* v8 ignore start */
     if (!existsSync(PREV_IMAGES_DIR)) {
         mkdirSync(PREV_IMAGES_DIR, {recursive: true});
     }
+    /* v8 ignore stop */
 
-    /* istanbul ignore if */
+    /* v8 ignore start */
     if (!existsSync(BASE_INDEX_MANIFEST_FILENAME)) {
         writeManifest(BASE_INDEX_MANIFEST_FILENAME, []);
     }
+    /* v8 ignore stop */
 
-    /* istanbul ignore if */
+    /* v8 ignore start */
     if (!existsSync(PREV_INDEX_MANIFEST_FILENAME)) {
         writeManifest(PREV_INDEX_MANIFEST_FILENAME, []);
     }
+    /* v8 ignore stop */
 
     if (!skipDownload3rdParties) {
         await download3rdParties(github, core, context, downloadOutDirFinder);

@@ -2,22 +2,21 @@
 // import type {Context} from '@actions/github/lib/context';
 
 import type {Octokit} from "@octokit/rest";
+import {describe, it, vi} from "vitest";
 
 const github = {
     rest: {
         issues: {
-            createComment: jest.fn<
-                ReturnType<Octokit["rest"]["issues"]["createComment"]>,
-                Parameters<Octokit["rest"]["issues"]["createComment"]>,
-                unknown
-            >(),
+            createComment:
+                vi.fn<(...args: Parameters<Octokit["rest"]["issues"]["createComment"]>) => ReturnType<Octokit["rest"]["issues"]["createComment"]>>(),
         },
         pulls: {
-            createReviewComment: jest.fn<
-                ReturnType<Octokit["rest"]["pulls"]["createReviewComment"]>,
-                Parameters<Octokit["rest"]["pulls"]["createReviewComment"]>,
-                unknown
-            >(),
+            createReviewComment:
+                vi.fn<
+                    (
+                        ...args: Parameters<Octokit["rest"]["pulls"]["createReviewComment"]>
+                    ) => ReturnType<Octokit["rest"]["pulls"]["createReviewComment"]>
+                >(),
         },
     },
 };

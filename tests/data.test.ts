@@ -10,6 +10,7 @@ import type {ExtraMetas, RepoImageMeta} from "../src/types";
 import {copyFileSync, existsSync, mkdirSync} from "node:fs";
 import path from "node:path";
 
+import {it} from "vitest";
 import * as common from "../src/common";
 
 export const IMAGE_V14_1 = "ZLinky_router_v14.ota";
@@ -21,7 +22,7 @@ export const IMAGE_V12_2 = "ZLinky_router_v12_limited.ota";
 export const IMAGE_INVALID = "not-a-valid-file.ota";
 export const IMAGE_TAR = "45856_00000006.tar.gz";
 export const IMAGE_TAR_OTA = "Jasco_5_0_1_OnOff_45856_v6.ota";
-export const IMAGES_TEST_DIR = "jest-tmp";
+export const IMAGES_TEST_DIR = "test-tmp";
 export const BASE_IMAGES_TEST_DIR_PATH = path.join(common.BASE_IMAGES_DIR, IMAGES_TEST_DIR);
 export const PREV_IMAGES_TEST_DIR_PATH = path.join(common.PREV_IMAGES_DIR, IMAGES_TEST_DIR);
 /**
@@ -207,7 +208,8 @@ export const IMAGE_TAR_METAS = {
 };
 
 export const getImageOriginalDirPath = (imageName: string): string => {
-    return path.join("tests", common.BASE_IMAGES_DIR, imageName);
+    // allow running in vitest explorer
+    return path.join(path.resolve().endsWith("tests") ? "." : "tests", common.BASE_IMAGES_DIR, imageName);
 };
 
 export const useImage = (imageName: string, outDir: string = BASE_IMAGES_TEST_DIR_PATH): {filename: string} => {

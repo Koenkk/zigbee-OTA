@@ -30,5 +30,4 @@ jobs:
               run: pnpm run check
 
             - name: Test
-              # NOTE: see jest.config.ts `collectCoverageFrom`
-              run: pnpm run coverage
+              run: pnpm run test:coverage

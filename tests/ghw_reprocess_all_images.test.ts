@@ -6,6 +6,7 @@ import type {RepoImageMeta} from "../src/types";
 import {copyFileSync, existsSync, mkdirSync, readFileSync, renameSync, rmSync} from "node:fs";
 import path from "node:path";
 
+import {type MockInstance, afterAll, afterEach, beforeAll, beforeEach, describe, expect, it, vi} from "vitest";
 import * as common from "../src/common";
 import {
     NOT_IN_BASE_MANIFEST_IMAGES_DIR,
@@ -38,8 +39,8 @@ const core: Partial<typeof CoreApi> = {
     warning: console.warn,
     error: console.error,
     notice: console.log,
-    startGroup: jest.fn(),
-    endGroup: jest.fn(),
+    startGroup: vi.fn(),
+    endGroup: vi.fn(),
 };
 const context: Partial<Context> = {
     payload: {},
@@ -93,12 +94,12 @@ describe("Github Workflow: Re-Process All Images", () => {
     let prevManifest: RepoImageMeta[];
     let notInBaseManifest: RepoImageMeta[];
     let notInPrevManifest: RepoImageMeta[];
-    let readManifestSpy: jest.SpyInstance;
-    let writeManifestSpy: jest.SpyInstance;
-    let addImageToBaseSpy: jest.SpyInstance;
-    let addImageToPrevSpy: jest.SpyInstance;
-    let coreWarningSpy: jest.SpyInstance;
-    let coreErrorSpy: jest.SpyInstance;
+    let readManifestSpy: MockInstance;
+    let writeManifestSpy: MockInstance;
+    let addImageToBaseSpy: MockInstance;
+    let addImageToPrevSpy: MockInstance;
+    let coreWarningSpy: MockInstance;
+    let coreErrorSpy: MockInstance;
 
     const getManifest = (fileName: string): RepoImageMeta[] => {
         if (fileName === common.BASE_INDEX_MANIFEST_FILENAME) {
@@ -187,17 +188,19 @@ describe("Github Workflow: Re-Process All Images", () => {
             rmSync(NOT_IN_BASE_MANIFEST_IMAGES_DIR, {recursive: true, force: true});
             renameSync(NOT_IN_BASE_MANIFEST_IMAGES_DIR_TMP, NOT_IN_BASE_MANIFEST_IMAGES_DIR);
         }
+
+        rmSync(IMAGES_TEST_DIR, {recursive: true, force: true});
     });
 
     beforeEach(() => {
         resetManifests();
 
-        readManifestSpy = jest.spyOn(common, "readManifest").mockImplementation(getManifest);
-        writeManifestSpy = jest.spyOn(common, "writeManifest").mockImplementation(setManifest);
-        addImageToBaseSpy = jest.spyOn(common, "addImageToBase");
-        addImageToPrevSpy = jest.spyOn(common, "addImageToPrev");
-        coreWarningSpy = jest.spyOn(core, "warning");
-        coreErrorSpy = jest.spyOn(core, "error");
+        readManifestSpy = vi.spyOn(common, "readManifest").mockImplementation(getManifest);
+        writeManifestSpy = vi.spyOn(common, "writeManifest").mockImplementation(setManifest);
+        addImageToBaseSpy = vi.spyOn(common, "addImageToBase");
+        addImageToPrevSpy = vi.spyOn(common, "addImageToPrev");
+        coreWarningSpy = vi.spyOn(core, "warning");
+        coreErrorSpy = vi.spyOn(core, "error");
     });
 
     afterEach(() => {
@@ -440,10 +443,10 @@ describe("Github Workflow: Re-Process All Images", () => {
     });
 
     describe("downloads", () => {
-        let fetchSpy: jest.SpyInstance;
-        let setTimeoutSpy: jest.SpyInstance;
+        let fetchSpy: MockInstance;
+        let setTimeoutSpy: MockInstance;
         let fetchReturnedStatus: {ok: boolean; status: number; body?: object} = {ok: true, status: 200, body: {}};
-        const get3rdPartyDir = jest.fn().mockReturnValue(IMAGES_TEST_DIR);
+        const get3rdPartyDir = vi.fn().mockReturnValue(IMAGES_TEST_DIR);
 
         const adaptUrl = (originalUrl: string, manifestName: string): string => {
             if (manifestName === common.BASE_INDEX_MANIFEST_FILENAME) {
@@ -464,8 +467,11 @@ describe("Github Workflow: Re-Process All Images", () => {
 
         beforeEach(() => {
             process.env.NODE_EXTRA_CA_CERTS = "cacerts.pem";
+
+            get3rdPartyDir.mockClear();
+
             fetchReturnedStatus = {ok: true, status: 200, body: {}};
-            fetchSpy = jest.spyOn(global, "fetch").mockImplementation(
+            fetchSpy = vi.spyOn(global, "fetch").mockImplementation(
                 // @ts-expect-error mocked as needed
                 (input) => {
                     return {
@@ -477,7 +483,7 @@ describe("Github Workflow: Re-Process All Images", () => {
                     };
                 },
             );
-            setTimeoutSpy = jest.spyOn(global, "setTimeout").mockImplementation(
+            setTimeoutSpy = vi.spyOn(global, "setTimeout").mockImplementation(
                 // @ts-expect-error mock
                 (fn) => {
                     fn();
@@ -766,7 +772,7 @@ describe("Github Workflow: Re-Process All Images", () => {
             // @ts-expect-error old metas
             setManifest(common.BASE_INDEX_MANIFEST_FILENAME, [oldMetas]);
             // link back to existing image from fetch
-            fetchSpy = jest.spyOn(global, "fetch").mockImplementationOnce(
+            fetchSpy = vi.spyOn(global, "fetch").mockImplementationOnce(
                 // @ts-expect-error mocked as needed
                 () => {
                     return {

@@ -7,6 +7,7 @@ import type {RepoImageMeta} from "../src/types";
 import {existsSync, readFileSync, rmSync} from "node:fs";
 import path from "node:path";
 
+import {type MockInstance, afterAll, afterEach, beforeAll, beforeEach, describe, expect, it, vi} from "vitest";
 import * as common from "../src/common";
 import {checkOtaPR} from "../src/ghw_check_ota_pr";
 import {
@@ -31,11 +32,12 @@ import {
 const github = {
     rest: {
         repos: {
-            compareCommitsWithBasehead: jest.fn<
-                ReturnType<Octokit["rest"]["repos"]["compareCommitsWithBasehead"]>,
-                Parameters<Octokit["rest"]["repos"]["compareCommitsWithBasehead"]>,
-                unknown
-            >(),
+            compareCommitsWithBasehead:
+                vi.fn<
+                    (
+                        ...args: Parameters<Octokit["rest"]["repos"]["compareCommitsWithBasehead"]>
+                    ) => ReturnType<Octokit["rest"]["repos"]["compareCommitsWithBasehead"]>
+                >(),
         },
     },
 };
@@ -45,8 +47,8 @@ const core: Partial<typeof CoreApi> = {
     warning: console.warn,
     error: console.error,
     notice: console.log,
-    startGroup: jest.fn(),
-    endGroup: jest.fn(),
+    startGroup: vi.fn(),
+    endGroup: vi.fn(),
 };
 const context: Partial<Context> = {
     payload: {
@@ -74,10 +76,10 @@ const context: Partial<Context> = {
 describe("Github Workflow: Check OTA PR", () => {
     let baseManifest: RepoImageMeta[];
     let prevManifest: RepoImageMeta[];
-    let readManifestSpy: jest.SpyInstance;
-    let writeManifestSpy: jest.SpyInstance;
-    let addImageToBaseSpy: jest.SpyInstance;
-    let addImageToPrevSpy: jest.SpyInstance;
+    let readManifestSpy: MockInstance;
+    let writeManifestSpy: MockInstance;
+    let addImageToBaseSpy: MockInstance;
+    let addImageToPrevSpy: MockInstance;
     let filePaths: ReturnType<typeof useImage>[] = [];
 
     const getManifest = (fileName: string): RepoImageMeta[] => {
@@ -138,16 +140,17 @@ describe("Github Workflow: Check OTA PR", () => {
         addImageToPrevSpy.mockRestore();
         rmSync(BASE_IMAGES_TEST_DIR_PATH, {recursive: true, force: true});
         rmSync(PREV_IMAGES_TEST_DIR_PATH, {recursive: true, force: true});
+        rmSync(IMAGES_TEST_DIR, {recursive: true, force: true});
     });
 
     beforeEach(() => {
         resetManifests();
 
         filePaths = [];
-        readManifestSpy = jest.spyOn(common, "readManifest").mockImplementation(getManifest);
-        writeManifestSpy = jest.spyOn(common, "writeManifest").mockImplementation(setManifest);
-        addImageToBaseSpy = jest.spyOn(common, "addImageToBase");
-        addImageToPrevSpy = jest.spyOn(common, "addImageToPrev");
+        readManifestSpy = vi.spyOn(common, "readManifest").mockImplementation(getManifest);
+        writeManifestSpy = vi.spyOn(common, "writeManifest").mockImplementation(setManifest);
+        addImageToBaseSpy = vi.spyOn(common, "addImageToBase");
+        addImageToPrevSpy = vi.spyOn(common, "addImageToPrev");
         github.rest.repos.compareCommitsWithBasehead.mockImplementation(
             // @ts-expect-error mock
             () => ({data: {files: filePaths}}),
