@@ -1,5 +1,5 @@
-import {getJson, getLatestImage, readCacheJson, writeCacheJson} from '../common.js';
-import {processFirmwareImage} from '../process_firmware_image.js';
+import {getJson, getLatestImage, readCacheJson, writeCacheJson} from "../common.js";
+import {processFirmwareImage} from "../process_firmware_image.js";
 
 type ImageJson = {
     createdAt: string;
@@ -13,34 +13,34 @@ type ImageJson = {
 };
 type PageJson = {updates: ImageJson[]};
 
-const NAME = 'Hue';
-const BASE_URL = 'https://firmware.meethue.com/v1/checkupdate?version=0&deviceTypeId=';
+const NAME = "Hue";
+const BASE_URL = "https://firmware.meethue.com/v1/checkupdate?version=0&deviceTypeId=";
 const DEVICE_TYPE_IDS: string[] = [
-    '100b-111',
-    '100b-112',
+    "100b-111",
+    "100b-112",
     // '100b-113',
-    '100b-114',
-    '100b-115',
+    "100b-114",
+    "100b-115",
     // '100b-116',
-    '100b-117',
-    '100b-118',
+    "100b-117",
+    "100b-118",
     // '100b-119',
-    '100b-11a',
+    "100b-11a",
     // '100b-11b',
     // '100b-11c',
-    '100b-11d',
-    '100b-11e',
-    '100b-11f',
-    '100b-120',
+    "100b-11d",
+    "100b-11e",
+    "100b-11f",
+    "100b-120",
     // '100b-121',
     // '100b-122',
-    '100b-123',
+    "100b-123",
     // '100b-124',
-    '100b-125',
+    "100b-125",
     // '100b-126',
-    '100b-127',
+    "100b-127",
     // '100b-128',
-    '100b-129',
+    "100b-129",
     // '100b-12a',
     // '100b-12b',
     // '100b-12c',
@@ -98,7 +98,7 @@ export async function download(): Promise<void> {
             continue;
         }
 
-        const firmwareFileName = image.binaryUrl.split('/').pop()!;
+        const firmwareFileName = image.binaryUrl.split("/").pop()!;
 
         await processFirmwareImage(NAME, firmwareFileName, image.binaryUrl, {releaseNotes: image.releaseNotes || undefined});
     }

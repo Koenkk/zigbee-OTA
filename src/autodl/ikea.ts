@@ -1,5 +1,5 @@
-import {getJson, readCacheJson, writeCacheJson} from '../common.js';
-import {processFirmwareImage} from '../process_firmware_image.js';
+import {getJson, readCacheJson, writeCacheJson} from "../common.js";
+import {processFirmwareImage} from "../process_firmware_image.js";
 
 type GatewayImageJson = {
     fw_binary_url: string;
@@ -25,11 +25,11 @@ type DeviceImageJson = {
 };
 type ImagesJson = (GatewayImageJson | DeviceImageJson)[];
 
-const NAME = 'IKEA';
+const NAME = "IKEA";
 const LOG_PREFIX = `[${NAME}]`;
-const PRODUCTION_FIRMWARE_URL = 'http://fw.ota.homesmart.ikea.net/feed/version_info.json';
+const PRODUCTION_FIRMWARE_URL = "http://fw.ota.homesmart.ikea.net/feed/version_info.json";
 // const TEST_FIRMWARE_URL = 'http://fw.test.ota.homesmart.ikea.net/feed/version_info.json';
-export const RELEASE_NOTES_URL = 'https://ww8.ikea.com/ikeahomesmart/releasenotes/releasenotes.html';
+export const RELEASE_NOTES_URL = "https://ww8.ikea.com/ikeahomesmart/releasenotes/releasenotes.html";
 
 function findInCache(image: DeviceImageJson, cachedData?: ImagesJson): DeviceImageJson | undefined {
     // `fw_type` compare ensures always `DeviceImagesJson`
@@ -67,7 +67,7 @@ export async function download(): Promise<void> {
                 continue;
             }
 
-            const firmwareFileName = image.fw_binary_url.split('/').pop()!;
+            const firmwareFileName = image.fw_binary_url.split("/").pop()!;
 
             if (!isDifferent(image, findInCache(image, cachedData))) {
                 console.log(`[${NAME}:${firmwareFileName}] No change from last run.`);

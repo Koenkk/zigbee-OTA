@@ -1,17 +1,17 @@
-import type CoreApi from '@actions/core';
-import type {Context} from '@actions/github/lib/context';
-import type {Octokit} from '@octokit/rest';
+import type CoreApi from "@actions/core";
+import type {Context} from "@actions/github/lib/context";
+import type {Octokit} from "@octokit/rest";
 
-import type {RepoImageMeta} from '../src/types';
+import type {RepoImageMeta} from "../src/types";
 
-import {existsSync, readFileSync, rmSync} from 'fs';
-import path from 'path';
+import {existsSync, readFileSync, rmSync} from "fs";
+import path from "path";
 
-import * as common from '../src/common';
-import {checkOtaPR} from '../src/ghw_check_ota_pr';
+import * as common from "../src/common";
+import {checkOtaPR} from "../src/ghw_check_ota_pr";
 import {
     BASE_IMAGES_TEST_DIR_PATH,
-    getAdjustedContent,
+    IMAGES_TEST_DIR,
     IMAGE_INVALID,
     IMAGE_V12_1,
     IMAGE_V12_1_METAS,
@@ -22,18 +22,18 @@ import {
     IMAGE_V14_1_METAS,
     IMAGE_V14_2,
     IMAGE_V14_2_METAS,
-    IMAGES_TEST_DIR,
     PREV_IMAGES_TEST_DIR_PATH,
+    getAdjustedContent,
     useImage,
     withExtraMetas,
-} from './data.test';
+} from "./data.test";
 
 const github = {
     rest: {
         repos: {
             compareCommitsWithBasehead: jest.fn<
-                ReturnType<Octokit['rest']['repos']['compareCommitsWithBasehead']>,
-                Parameters<Octokit['rest']['repos']['compareCommitsWithBasehead']>,
+                ReturnType<Octokit["rest"]["repos"]["compareCommitsWithBasehead"]>,
+                Parameters<Octokit["rest"]["repos"]["compareCommitsWithBasehead"]>,
                 unknown
             >(),
         },
@@ -53,25 +53,25 @@ const context: Partial<Context> = {
         pull_request: {
             number: 1,
             head: {
-                sha: 'abcd',
+                sha: "abcd",
             },
             base: {
-                sha: 'zyxw',
+                sha: "zyxw",
             },
         },
     },
     issue: {
-        owner: 'Koenkk',
-        repo: 'zigbee-OTA',
+        owner: "Koenkk",
+        repo: "zigbee-OTA",
         number: 1,
     },
     repo: {
-        owner: 'Koenkk',
-        repo: 'zigbee-OTA',
+        owner: "Koenkk",
+        repo: "zigbee-OTA",
     },
 };
 
-describe('Github Workflow: Check OTA PR', () => {
+describe("Github Workflow: Check OTA PR", () => {
     let baseManifest: RepoImageMeta[];
     let prevManifest: RepoImageMeta[];
     let readManifestSpy: jest.SpyInstance;
@@ -115,7 +115,7 @@ describe('Github Workflow: Check OTA PR', () => {
         return newContext;
     };
 
-    const expectNoChanges = (noReadManifest: boolean = false): void => {
+    const expectNoChanges = (noReadManifest = false): void => {
         if (noReadManifest) {
             expect(readManifestSpy).toHaveBeenCalledTimes(0);
         } else {
@@ -142,10 +142,10 @@ describe('Github Workflow: Check OTA PR', () => {
         resetManifests();
 
         filePaths = [];
-        readManifestSpy = jest.spyOn(common, 'readManifest').mockImplementation(getManifest);
-        writeManifestSpy = jest.spyOn(common, 'writeManifest').mockImplementation(setManifest);
-        addImageToBaseSpy = jest.spyOn(common, 'addImageToBase');
-        addImageToPrevSpy = jest.spyOn(common, 'addImageToPrev');
+        readManifestSpy = jest.spyOn(common, "readManifest").mockImplementation(getManifest);
+        writeManifestSpy = jest.spyOn(common, "writeManifest").mockImplementation(setManifest);
+        addImageToBaseSpy = jest.spyOn(common, "addImageToBase");
+        addImageToPrevSpy = jest.spyOn(common, "addImageToPrev");
         github.rest.repos.compareCommitsWithBasehead.mockImplementation(
             // @ts-expect-error mock
             () => ({data: {files: filePaths}}),
@@ -167,7 +167,7 @@ describe('Github Workflow: Check OTA PR', () => {
     //     console.log(`SHA512: ${common.computeSHA512(firmwareBuffer)}`);
     // })
 
-    it('hard failure from outside PR context', async () => {
+    it("hard failure from outside PR context", async () => {
         filePaths = [useImage(IMAGE_V14_1)];
 
         await expect(async () => {
@@ -178,7 +178,7 @@ describe('Github Workflow: Check OTA PR', () => {
         expectNoChanges(true);
     });
 
-    it('hard failure from merged PR context', async () => {
+    it("hard failure from merged PR context", async () => {
         filePaths = [useImage(IMAGE_V14_1)];
 
         await expect(async () => {
@@ -189,7 +189,7 @@ describe('Github Workflow: Check OTA PR', () => {
         expectNoChanges(true);
     });
 
-    it('hard failure with no file changed', async () => {
+    it("hard failure with no file changed", async () => {
         filePaths = [];
 
         await expect(async () => {
@@ -199,13 +199,13 @@ describe('Github Workflow: Check OTA PR', () => {
 
         expectNoChanges(false);
         expect(existsSync(common.PR_ARTIFACT_NUMBER_FILEPATH)).toStrictEqual(true);
-        expect(readFileSync(common.PR_ARTIFACT_NUMBER_FILEPATH, 'utf8')).toStrictEqual(`${context.payload?.pull_request?.number}`);
+        expect(readFileSync(common.PR_ARTIFACT_NUMBER_FILEPATH, "utf8")).toStrictEqual(`${context.payload?.pull_request?.number}`);
         expect(existsSync(common.PR_ARTIFACT_DIFF_FILEPATH)).toStrictEqual(false);
         expect(existsSync(common.PR_ARTIFACT_ERROR_FILEPATH)).toStrictEqual(true);
-        expect(readFileSync(common.PR_ARTIFACT_ERROR_FILEPATH, 'utf8')).toStrictEqual(`No file`);
+        expect(readFileSync(common.PR_ARTIFACT_ERROR_FILEPATH, "utf8")).toStrictEqual(`No file`);
     });
 
-    it('failure with file outside of images directory', async () => {
+    it("failure with file outside of images directory", async () => {
         filePaths = [useImage(IMAGE_V13_1, PREV_IMAGES_TEST_DIR_PATH), useImage(IMAGE_V14_1)];
 
         await expect(async () => {
@@ -216,7 +216,7 @@ describe('Github Workflow: Check OTA PR', () => {
         expectNoChanges(false);
     });
 
-    it('failure when no manufacturer subfolder', async () => {
+    it("failure when no manufacturer subfolder", async () => {
         filePaths = [useImage(IMAGE_V14_1, common.BASE_IMAGES_DIR)];
 
         await expect(async () => {
@@ -229,7 +229,7 @@ describe('Github Workflow: Check OTA PR', () => {
         rmSync(path.join(common.BASE_IMAGES_DIR, IMAGE_V14_1), {force: true});
     });
 
-    it('failure with invalid OTA file', async () => {
+    it("failure with invalid OTA file", async () => {
         filePaths = [useImage(IMAGE_INVALID)];
 
         await expect(async () => {
@@ -240,7 +240,7 @@ describe('Github Workflow: Check OTA PR', () => {
         expectNoChanges(false);
     });
 
-    it('failure with identical OTA file', async () => {
+    it("failure with identical OTA file", async () => {
         setManifest(common.BASE_INDEX_MANIFEST_FILENAME, [IMAGE_V14_1_METAS]);
         filePaths = [useImage(IMAGE_V14_1)];
 
@@ -252,7 +252,7 @@ describe('Github Workflow: Check OTA PR', () => {
         expectNoChanges(false);
     });
 
-    it('failure with older OTA file that has identical in prev', async () => {
+    it("failure with older OTA file that has identical in prev", async () => {
         setManifest(common.BASE_INDEX_MANIFEST_FILENAME, [IMAGE_V14_1_METAS]);
         setManifest(common.PREV_INDEX_MANIFEST_FILENAME, [IMAGE_V13_1_METAS]);
         filePaths = [useImage(IMAGE_V13_1)];
@@ -267,7 +267,7 @@ describe('Github Workflow: Check OTA PR', () => {
         expectNoChanges(false);
     });
 
-    it('failure with older OTA file that has newer in prev', async () => {
+    it("failure with older OTA file that has newer in prev", async () => {
         setManifest(common.BASE_INDEX_MANIFEST_FILENAME, [IMAGE_V14_1_METAS]);
         setManifest(common.PREV_INDEX_MANIFEST_FILENAME, [IMAGE_V13_1_METAS]);
         filePaths = [useImage(IMAGE_V12_1)];
@@ -282,7 +282,7 @@ describe('Github Workflow: Check OTA PR', () => {
         expectNoChanges(false);
     });
 
-    it('success into base', async () => {
+    it("success into base", async () => {
         filePaths = [useImage(IMAGE_V14_1)];
 
         // @ts-expect-error mock
@@ -295,12 +295,12 @@ describe('Github Workflow: Check OTA PR', () => {
         expect(writeManifestSpy).toHaveBeenCalledTimes(2);
         expect(writeManifestSpy).toHaveBeenCalledWith(common.BASE_INDEX_MANIFEST_FILENAME, [IMAGE_V14_1_METAS]);
         expect(existsSync(common.PR_ARTIFACT_NUMBER_FILEPATH)).toStrictEqual(true);
-        expect(readFileSync(common.PR_ARTIFACT_NUMBER_FILEPATH, 'utf8')).toStrictEqual(`${context.payload?.pull_request?.number}`);
+        expect(readFileSync(common.PR_ARTIFACT_NUMBER_FILEPATH, "utf8")).toStrictEqual(`${context.payload?.pull_request?.number}`);
         expect(existsSync(common.PR_ARTIFACT_DIFF_FILEPATH)).toStrictEqual(true);
         expect(existsSync(common.PR_ARTIFACT_ERROR_FILEPATH)).toStrictEqual(false);
     });
 
-    it('success into prev', async () => {
+    it("success into prev", async () => {
         setManifest(common.BASE_INDEX_MANIFEST_FILENAME, [IMAGE_V14_1_METAS]);
 
         filePaths = [useImage(IMAGE_V13_1)];
@@ -316,7 +316,7 @@ describe('Github Workflow: Check OTA PR', () => {
         expect(writeManifestSpy).toHaveBeenCalledWith(common.PREV_INDEX_MANIFEST_FILENAME, [IMAGE_V13_1_METAS]);
     });
 
-    it('success with newer than current without existing prev', async () => {
+    it("success with newer than current without existing prev", async () => {
         filePaths = [useImage(IMAGE_V13_1), useImage(IMAGE_V14_1)];
 
         // @ts-expect-error mock
@@ -330,7 +330,7 @@ describe('Github Workflow: Check OTA PR', () => {
         expect(writeManifestSpy).toHaveBeenCalledWith(common.PREV_INDEX_MANIFEST_FILENAME, [IMAGE_V13_1_METAS]);
     });
 
-    it('success with newer than current with existing prev', async () => {
+    it("success with newer than current with existing prev", async () => {
         filePaths = [useImage(IMAGE_V12_1), useImage(IMAGE_V13_1), useImage(IMAGE_V14_1)];
 
         // @ts-expect-error mock
@@ -344,7 +344,7 @@ describe('Github Workflow: Check OTA PR', () => {
         expect(writeManifestSpy).toHaveBeenCalledWith(common.PREV_INDEX_MANIFEST_FILENAME, [IMAGE_V13_1_METAS]);
     });
 
-    it('success with older that is newer than prev', async () => {
+    it("success with older that is newer than prev", async () => {
         setManifest(common.PREV_INDEX_MANIFEST_FILENAME, [IMAGE_V12_1_METAS]);
         filePaths = [useImage(IMAGE_V14_1), useImage(IMAGE_V13_1)];
 
@@ -359,7 +359,7 @@ describe('Github Workflow: Check OTA PR', () => {
         expect(writeManifestSpy).toHaveBeenCalledWith(common.PREV_INDEX_MANIFEST_FILENAME, [IMAGE_V13_1_METAS]);
     });
 
-    it('success with newer with missing file', async () => {
+    it("success with newer with missing file", async () => {
         setManifest(common.BASE_INDEX_MANIFEST_FILENAME, [IMAGE_V13_1_METAS]);
         filePaths = [useImage(IMAGE_V14_1)];
 
@@ -374,7 +374,7 @@ describe('Github Workflow: Check OTA PR', () => {
         expect(writeManifestSpy).toHaveBeenCalledWith(common.PREV_INDEX_MANIFEST_FILENAME, []);
     });
 
-    it('success with multiple different files', async () => {
+    it("success with multiple different files", async () => {
         filePaths = [useImage(IMAGE_V14_2), useImage(IMAGE_V14_1)];
 
         // @ts-expect-error mock
@@ -388,7 +388,7 @@ describe('Github Workflow: Check OTA PR', () => {
         expect(writeManifestSpy).toHaveBeenCalledWith(common.PREV_INDEX_MANIFEST_FILENAME, []);
     });
 
-    it('success with extra metas', async () => {
+    it("success with extra metas", async () => {
         filePaths = [useImage(IMAGE_V14_1)];
         const newContext = withBody(`Text before start tag \`\`\`json {"manufacturerName": ["lixee"]} \`\`\` Text after end tag`);
 
@@ -401,11 +401,11 @@ describe('Github Workflow: Check OTA PR', () => {
         expect(addImageToPrevSpy).toHaveBeenCalledTimes(0);
         expect(writeManifestSpy).toHaveBeenCalledTimes(2);
         expect(writeManifestSpy).toHaveBeenCalledWith(common.BASE_INDEX_MANIFEST_FILENAME, [
-            withExtraMetas(IMAGE_V14_1_METAS, {manufacturerName: ['lixee']}),
+            withExtraMetas(IMAGE_V14_1_METAS, {manufacturerName: ["lixee"]}),
         ]);
     });
 
-    it('success with all extra metas', async () => {
+    it("success with all extra metas", async () => {
         filePaths = [useImage(IMAGE_V14_1)];
         const newContext = withBody(`Text before start tag 
 \`\`\`json
@@ -435,16 +435,16 @@ Text after end tag`);
                 force: false,
                 hardwareVersionMax: 2,
                 hardwareVersionMin: 1,
-                manufacturerName: ['lixee'],
+                manufacturerName: ["lixee"],
                 maxFileVersion: 5,
                 minFileVersion: 3,
-                modelId: 'bogus',
-                releaseNotes: 'bugfixes',
+                modelId: "bogus",
+                releaseNotes: "bugfixes",
             }),
         ]);
     });
 
-    it('success with newer than current but minFileVersion keeps both', async () => {
+    it("success with newer than current but minFileVersion keeps both", async () => {
         filePaths = [useImage(IMAGE_V13_1), useImage(IMAGE_V14_1)];
         const newContext = withBody(
             `Text before start tag \`\`\`json [{"fileName":"ZLinky_router_v14.ota", "minFileVersion": 16783874}] \`\`\` Text after end tag`,
@@ -467,7 +467,7 @@ Text after end tag`);
         expect(writeManifestSpy).toHaveBeenCalledWith(common.PREV_INDEX_MANIFEST_FILENAME, []);
     });
 
-    it('success with newer than current but maxFileVersion keeps both', async () => {
+    it("success with newer than current but maxFileVersion keeps both", async () => {
         filePaths = [useImage(IMAGE_V13_1), useImage(IMAGE_V14_1)];
         const newContext = withBody(
             `Text before start tag \`\`\`json [{"fileName":"ZLinky_router_v13.ota", "maxFileVersion": 16783873}] \`\`\` Text after end tag`,
@@ -491,7 +491,7 @@ Text after end tag`);
         expect(writeManifestSpy).toHaveBeenCalledWith(common.PREV_INDEX_MANIFEST_FILENAME, []);
     });
 
-    it('success with newer than current but maxFileVersion/minFileVersion keeps both', async () => {
+    it("success with newer than current but maxFileVersion/minFileVersion keeps both", async () => {
         filePaths = [useImage(IMAGE_V13_1), useImage(IMAGE_V14_1)];
         const newContext = withBody(
             `Text before start tag \`\`\`json [{"fileName":"ZLinky_router_v13.ota", "maxFileVersion": 16783873},{"fileName":"ZLinky_router_v14.ota", "minFileVersion": 16783874}] \`\`\` Text after end tag`,
@@ -515,7 +515,7 @@ Text after end tag`);
         expect(writeManifestSpy).toHaveBeenCalledWith(common.PREV_INDEX_MANIFEST_FILENAME, []);
     });
 
-    it('failure with invalid extra metas', async () => {
+    it("failure with invalid extra metas", async () => {
         filePaths = [useImage(IMAGE_V14_1)];
         const newContext = withBody(`Text before start tag \`\`\`json {"manufacturerName": "myManuf"} \`\`\` Text after end tag`);
 
@@ -530,17 +530,17 @@ Text after end tag`);
     });
 
     it.each([
-        ['fileName'],
-        ['originalUrl'],
-        ['force'],
-        ['hardwareVersionMax'],
-        ['hardwareVersionMin'],
-        ['manufacturerName'],
-        ['maxFileVersion'],
-        ['minFileVersion'],
-        ['modelId'],
-        ['releaseNotes'],
-    ])('failure with invalid type for extra meta %s', async (metaName) => {
+        ["fileName"],
+        ["originalUrl"],
+        ["force"],
+        ["hardwareVersionMax"],
+        ["hardwareVersionMin"],
+        ["manufacturerName"],
+        ["maxFileVersion"],
+        ["minFileVersion"],
+        ["modelId"],
+        ["releaseNotes"],
+    ])("failure with invalid type for extra meta %s", async (metaName) => {
         filePaths = [useImage(IMAGE_V14_1)];
         // use object since no value type is ever expected to be object
         const newContext = withBody(`Text before start tag \`\`\`json {"${metaName}": {}} \`\`\` Text after end tag`);
@@ -553,7 +553,7 @@ Text after end tag`);
         expectNoChanges(false);
     });
 
-    it('success with multiple files and specific extra metas', async () => {
+    it("success with multiple files and specific extra metas", async () => {
         filePaths = [useImage(IMAGE_V13_1), useImage(IMAGE_V14_1), useImage(IMAGE_V12_1)];
         const newContext = withBody(`Text before start tag 
 \`\`\`json
@@ -574,15 +574,15 @@ Text after end tag`);
         expect(addImageToPrevSpy).toHaveBeenCalledTimes(1);
         expect(writeManifestSpy).toHaveBeenCalledTimes(2);
         expect(writeManifestSpy).toHaveBeenCalledWith(common.BASE_INDEX_MANIFEST_FILENAME, [
-            withExtraMetas(IMAGE_V13_1_METAS_MAIN, {manufacturerName: ['lixee']}),
-            withExtraMetas(IMAGE_V14_1_METAS, {manufacturerName: ['lixee'], hardwareVersionMin: 2}),
+            withExtraMetas(IMAGE_V13_1_METAS_MAIN, {manufacturerName: ["lixee"]}),
+            withExtraMetas(IMAGE_V14_1_METAS, {manufacturerName: ["lixee"], hardwareVersionMin: 2}),
         ]);
         expect(writeManifestSpy).toHaveBeenCalledWith(common.PREV_INDEX_MANIFEST_FILENAME, [
-            withExtraMetas(IMAGE_V12_1_METAS, {manufacturerName: ['lixee']}),
+            withExtraMetas(IMAGE_V12_1_METAS, {manufacturerName: ["lixee"]}),
         ]);
     });
 
-    it('success with multiple files and specific extra metas, ignore without fileName', async () => {
+    it("success with multiple files and specific extra metas, ignore without fileName", async () => {
         filePaths = [useImage(IMAGE_V12_1), useImage(IMAGE_V13_1), useImage(IMAGE_V14_1)];
         const newContext = withBody(`Text before start tag 
 \`\`\`json
@@ -603,7 +603,7 @@ Text after end tag`);
         expect(writeManifestSpy).toHaveBeenCalledTimes(2);
         expect(writeManifestSpy).toHaveBeenCalledWith(common.BASE_INDEX_MANIFEST_FILENAME, [
             IMAGE_V13_1_METAS_MAIN,
-            withExtraMetas(IMAGE_V14_1_METAS, {manufacturerName: ['lixee'], hardwareVersionMin: 2}),
+            withExtraMetas(IMAGE_V14_1_METAS, {manufacturerName: ["lixee"], hardwareVersionMin: 2}),
         ]);
         expect(writeManifestSpy).toHaveBeenCalledWith(common.PREV_INDEX_MANIFEST_FILENAME, [IMAGE_V12_1_METAS]);
     });

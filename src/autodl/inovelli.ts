@@ -1,9 +1,9 @@
-import {getJson, getLatestImage, readCacheJson, writeCacheJson} from '../common.js';
-import {processFirmwareImage} from '../process_firmware_image.js';
+import {getJson, getLatestImage, readCacheJson, writeCacheJson} from "../common.js";
+import {processFirmwareImage} from "../process_firmware_image.js";
 
 type DeviceImageJson = {
     version: string;
-    channel: 'beta' | 'production';
+    channel: "beta" | "production";
     firmware: string;
     manufacturer_id: number;
     image_type: number;
@@ -12,15 +12,15 @@ type ModelsJson = {
     [k: string]: DeviceImageJson[];
 };
 
-const NAME = 'Inovelli';
+const NAME = "Inovelli";
 const LOG_PREFIX = `[${NAME}]`;
-const FIRMWARE_URL = 'https://files.inovelli.com/firmware/firmware.json';
+const FIRMWARE_URL = "https://files.inovelli.com/firmware/firmware.json";
 
 function sortByVersion(a: DeviceImageJson, b: DeviceImageJson): number {
     const aRadix = a.version.match(/[a-fA-F]/) ? 16 : 10;
     const bRadix = b.version.match(/[a-fA-F]/) ? 16 : 10;
-    const aVersion = parseInt(a.version, aRadix);
-    const bVersion = parseInt(b.version, bRadix);
+    const aVersion = Number.parseInt(a.version, aRadix);
+    const bVersion = Number.parseInt(b.version, bRadix);
 
     return aVersion < bVersion ? -1 : aVersion > bVersion ? 1 : 0;
 }
@@ -44,7 +44,7 @@ export async function download(): Promise<void> {
         const cachedData = readCacheJson<ModelsJson>(NAME);
 
         for (const model in models) {
-            if (model == '') {
+            if (model == "") {
                 // ignore empty key (bug)
                 continue;
             }
@@ -55,7 +55,7 @@ export async function download(): Promise<void> {
                 continue;
             }
 
-            const firmwareFileName = image.firmware.split('/').pop()!;
+            const firmwareFileName = image.firmware.split("/").pop()!;
 
             if (cachedData && !isDifferent(image, getLatestImage(cachedData[model], sortByVersion))) {
                 console.log(`[${NAME}:${firmwareFileName}] No change from last run.`);

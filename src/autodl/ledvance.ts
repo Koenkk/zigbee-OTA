@@ -1,5 +1,5 @@
-import {getJson, getLatestImage, readCacheJson, writeCacheJson} from '../common.js';
-import {processFirmwareImage, ProcessFirmwareImageStatus} from '../process_firmware_image.js';
+import {getJson, getLatestImage, readCacheJson, writeCacheJson} from "../common.js";
+import {ProcessFirmwareImageStatus, processFirmwareImage} from "../process_firmware_image.js";
 
 type FirmwareJson = {
     blob: null;
@@ -34,12 +34,12 @@ type ImagesJson = {
 };
 type GroupedImagesJson = Record<string, FirmwareJson[]>;
 
-const NAME = 'LEDVANCE';
+const NAME = "LEDVANCE";
 const LOG_PREFIX = `[${NAME}]`;
-const FIRMWARE_URL = 'https://api.update.ledvance.com/v1/zigbee/firmwares/';
+const FIRMWARE_URL = "https://api.update.ledvance.com/v1/zigbee/firmwares/";
 // const UPDATE_CHECK_URL = 'https://api.update.ledvance.com/v1/zigbee/firmwares/newer';
 // const UPDATE_CHECK_PARAMS = `?company=${manufCode}&product=${imageType}&version=0.0.0`;
-const UPDATE_DOWNLOAD_URL = 'https://api.update.ledvance.com/v1/zigbee/firmwares/download';
+const UPDATE_DOWNLOAD_URL = "https://api.update.ledvance.com/v1/zigbee/firmwares/download";
 /** XXX: getting 429 after a few downloads, force more throttling. Seems to trigger after around ~20 requests. */
 const FETCH_FAILED_THROTTLE_MS = 60000;
 const FETCH_FAILED_RETRIES = 3;
@@ -98,7 +98,7 @@ export async function download(): Promise<void> {
 
             // const fileVersion = parseInt(fileVersionMatch[1], 16);
             const firmwareUrl = `${UPDATE_DOWNLOAD_URL}?company=${firmware.identity.company}&product=${firmware.identity.product}&version=${getVersionString(firmware)}`;
-            const firmwareFileName = firmware.fullName.split('/').pop()!;
+            const firmwareFileName = firmware.fullName.split("/").pop()!;
 
             if (cachedDataByProduct && !isDifferent(firmware, getLatestImage(cachedDataByProduct[product], sortByReleased))) {
                 console.log(`[${NAME}:${firmwareFileName}] No change from last run.`);

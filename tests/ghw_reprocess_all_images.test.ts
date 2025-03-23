@@ -1,22 +1,21 @@
-import type CoreApi from '@actions/core';
-import type {Context} from '@actions/github/lib/context';
+import type CoreApi from "@actions/core";
+import type {Context} from "@actions/github/lib/context";
 
-import type {RepoImageMeta} from '../src/types';
+import type {RepoImageMeta} from "../src/types";
 
-import {copyFileSync, existsSync, mkdirSync, readFileSync, renameSync, rmSync} from 'fs';
-import path from 'path';
+import {copyFileSync, existsSync, mkdirSync, readFileSync, renameSync, rmSync} from "fs";
+import path from "path";
 
-import * as common from '../src/common';
+import * as common from "../src/common";
 import {
     NOT_IN_BASE_MANIFEST_IMAGES_DIR,
     NOT_IN_MANIFEST_FILENAME,
     NOT_IN_PREV_MANIFEST_IMAGES_DIR,
     reProcessAllImages,
-} from '../src/ghw_reprocess_all_images';
+} from "../src/ghw_reprocess_all_images";
 import {
     BASE_IMAGES_TEST_DIR_PATH,
-    getAdjustedContent,
-    getImageOriginalDirPath,
+    IMAGES_TEST_DIR,
     IMAGE_INVALID,
     IMAGE_INVALID_METAS,
     IMAGE_V12_1,
@@ -24,11 +23,12 @@ import {
     IMAGE_V13_1_METAS,
     IMAGE_V14_1,
     IMAGE_V14_1_METAS,
-    IMAGES_TEST_DIR,
     PREV_IMAGES_TEST_DIR_PATH,
+    getAdjustedContent,
+    getImageOriginalDirPath,
     useImage,
     withExtraMetas,
-} from './data.test';
+} from "./data.test";
 
 /** not used */
 const github = {};
@@ -44,8 +44,8 @@ const core: Partial<typeof CoreApi> = {
 const context: Partial<Context> = {
     payload: {},
     repo: {
-        owner: 'Koenkk',
-        repo: 'zigbee-OTA',
+        owner: "Koenkk",
+        repo: "zigbee-OTA",
     },
 };
 
@@ -56,7 +56,7 @@ const OLD_META_3RD_PARTY_1_METAS = {
     fileSize: 258104,
     manufacturerCode: 4107,
     imageType: 256,
-    sha512: 'c63a1eb02ac030f3a76d9e81a4d48695796457d263bb1dae483688134e550d9846c37a3fd0eab2d4670f12f11b79691a5cf2789af0dbd90d703512496190a0a5',
+    sha512: "c63a1eb02ac030f3a76d9e81a4d48695796457d263bb1dae483688134e550d9846c37a3fd0eab2d4670f12f11b79691a5cf2789af0dbd90d703512496190a0a5",
     // mock fileName to trigger mocked fetch properly
     url: `https://otau.meethue.com/storage/ZGB_100B_0100/2dcfe6e6-0177-4c81-a1d9-4d2bd2ea1fb7/${OLD_META_3RD_PARTY_1_REAL_IMAGE}`,
 };
@@ -67,8 +67,8 @@ const OLD_META_3RD_PARTY_2_METAS = {
     fileSize: 307682,
     manufacturerCode: 4417,
     imageType: 54179,
-    modelId: 'TS011F',
-    sha512: '01939ca4fc790432d2c233e19b2440c1e0248d2ce85c9299e0b88928cb2341de675350ac7b78187a25f06a2768f93db0a17c4ba950b60c82c072e0c0833cfcfb',
+    modelId: "TS011F",
+    sha512: "01939ca4fc790432d2c233e19b2440c1e0248d2ce85c9299e0b88928cb2341de675350ac7b78187a25f06a2768f93db0a17c4ba950b60c82c072e0c0833cfcfb",
     // mock fileName to trigger mocked fetch properly
     url: `https://images.tuyaeu.com/smart/firmware/upgrade/20220907/${OLD_META_3RD_PARTY_2_REAL_IMAGE}`,
 };
@@ -77,8 +77,8 @@ const OLD_META_3RD_PARTY_IGNORED_METAS = {
     fileSize: 693230,
     manufacturerCode: 13379,
     imageType: 4113,
-    sha512: '66040fb2b2787bf8ebfc75bc3c7356c7d8b966b4c82282bd7393783b8dc453ec2c8dcb4d7c9fe7c0a83d87739bd3677f205d79edddfa4fa2749305ca987887b1',
-    url: 'https://github.com/xyzroe/ZigUSB_C6/releases/download/317/ZigUSB_C6.ota',
+    sha512: "66040fb2b2787bf8ebfc75bc3c7356c7d8b966b4c82282bd7393783b8dc453ec2c8dcb4d7c9fe7c0a83d87739bd3677f205d79edddfa4fa2749305ca987887b1",
+    url: "https://github.com/xyzroe/ZigUSB_C6/releases/download/317/ZigUSB_C6.ota",
 };
 const NOT_IN_BASE_MANIFEST_IMAGE_DIR_PATH = path.join(NOT_IN_BASE_MANIFEST_IMAGES_DIR, IMAGES_TEST_DIR);
 const NOT_IN_PREV_MANIFEST_IMAGE_DIR_PATH = path.join(NOT_IN_PREV_MANIFEST_IMAGES_DIR, IMAGES_TEST_DIR);
@@ -88,7 +88,7 @@ const NOT_IN_PREV_MANIFEST_FILEPATH = path.join(NOT_IN_PREV_MANIFEST_IMAGES_DIR,
 const NOT_IN_PREV_MANIFEST_IMAGES_DIR_TMP = `${NOT_IN_PREV_MANIFEST_IMAGES_DIR}-moved-by-jest`;
 const NOT_IN_BASE_MANIFEST_IMAGES_DIR_TMP = `${NOT_IN_BASE_MANIFEST_IMAGES_DIR}-moved-by-jest`;
 
-describe('Github Workflow: Re-Process All Images', () => {
+describe("Github Workflow: Re-Process All Images", () => {
     let baseManifest: RepoImageMeta[];
     let prevManifest: RepoImageMeta[];
     let notInBaseManifest: RepoImageMeta[];
@@ -184,12 +184,12 @@ describe('Github Workflow: Re-Process All Images', () => {
     beforeEach(() => {
         resetManifests();
 
-        readManifestSpy = jest.spyOn(common, 'readManifest').mockImplementation(getManifest);
-        writeManifestSpy = jest.spyOn(common, 'writeManifest').mockImplementation(setManifest);
-        addImageToBaseSpy = jest.spyOn(common, 'addImageToBase');
-        addImageToPrevSpy = jest.spyOn(common, 'addImageToPrev');
-        coreWarningSpy = jest.spyOn(core, 'warning');
-        coreErrorSpy = jest.spyOn(core, 'error');
+        readManifestSpy = jest.spyOn(common, "readManifest").mockImplementation(getManifest);
+        writeManifestSpy = jest.spyOn(common, "writeManifest").mockImplementation(setManifest);
+        addImageToBaseSpy = jest.spyOn(common, "addImageToBase");
+        addImageToPrevSpy = jest.spyOn(common, "addImageToPrev");
+        coreWarningSpy = jest.spyOn(core, "warning");
+        coreErrorSpy = jest.spyOn(core, "error");
     });
 
     afterEach(() => {
@@ -199,27 +199,27 @@ describe('Github Workflow: Re-Process All Images', () => {
         rmSync(NOT_IN_PREV_MANIFEST_IMAGE_DIR_PATH, {recursive: true, force: true});
     });
 
-    it('failure when moving not in manifest if base out directory is not empty', async () => {
+    it("failure when moving not in manifest if base out directory is not empty", async () => {
         mkdirSync(NOT_IN_BASE_MANIFEST_IMAGE_DIR_PATH, {recursive: true});
         copyFileSync(getImageOriginalDirPath(IMAGE_V12_1), path.join(NOT_IN_BASE_MANIFEST_IMAGE_DIR_PATH, IMAGE_V12_1));
 
         await expect(async () => {
             // @ts-expect-error mocked as needed
             await reProcessAllImages(github, core, context, false, true);
-        }).rejects.toThrow(expect.objectContaining({message: expect.stringContaining('is not empty')}));
+        }).rejects.toThrow(expect.objectContaining({message: expect.stringContaining("is not empty")}));
     });
 
-    it('failure when moving not in manifest if prev out directory is not empty', async () => {
+    it("failure when moving not in manifest if prev out directory is not empty", async () => {
         mkdirSync(NOT_IN_PREV_MANIFEST_IMAGE_DIR_PATH, {recursive: true});
         copyFileSync(getImageOriginalDirPath(IMAGE_V12_1), path.join(NOT_IN_PREV_MANIFEST_IMAGE_DIR_PATH, IMAGE_V12_1));
 
         await expect(async () => {
             // @ts-expect-error mocked as needed
             await reProcessAllImages(github, core, context, false, true);
-        }).rejects.toThrow(expect.objectContaining({message: expect.stringContaining('is not empty')}));
+        }).rejects.toThrow(expect.objectContaining({message: expect.stringContaining("is not empty")}));
     });
 
-    it('failure when image not in subdirectory', async () => {
+    it("failure when image not in subdirectory", async () => {
         // this is renaming the image to the same as the test dir name for simplicity in code exclusion
         const outPath = path.join(common.PREV_IMAGES_DIR, IMAGES_TEST_DIR);
 
@@ -239,7 +239,7 @@ describe('Github Workflow: Re-Process All Images', () => {
         rmSync(outPath, {force: true});
     });
 
-    it('removes image not in manifest', async () => {
+    it("removes image not in manifest", async () => {
         const imagePath = useImage(IMAGE_V12_1, BASE_IMAGES_TEST_DIR_PATH);
 
         // @ts-expect-error mocked as needed
@@ -253,7 +253,7 @@ describe('Github Workflow: Re-Process All Images', () => {
         expect(coreWarningSpy).toHaveBeenCalledWith(expect.stringContaining(`Not found in base manifest:`));
     });
 
-    it('removes multiple images not in manifest', async () => {
+    it("removes multiple images not in manifest", async () => {
         const image1Path = useImage(IMAGE_V13_1, BASE_IMAGES_TEST_DIR_PATH);
         const image2Path = useImage(IMAGE_V12_1, BASE_IMAGES_TEST_DIR_PATH);
         const image3Path = useImage(IMAGE_V12_1, PREV_IMAGES_TEST_DIR_PATH);
@@ -274,7 +274,7 @@ describe('Github Workflow: Re-Process All Images', () => {
         expect(coreWarningSpy).toHaveBeenNthCalledWith(3, expect.stringContaining(`Not found in base manifest:`));
     });
 
-    it('moves image not in manifest', async () => {
+    it("moves image not in manifest", async () => {
         const oldPath = useImage(IMAGE_V12_1, BASE_IMAGES_TEST_DIR_PATH);
 
         // @ts-expect-error mocked as needed
@@ -290,7 +290,7 @@ describe('Github Workflow: Re-Process All Images', () => {
         expectWriteNoChange(3, common.BASE_INDEX_MANIFEST_FILENAME);
     });
 
-    it('moves multiple images not in manifest', async () => {
+    it("moves multiple images not in manifest", async () => {
         const oldPath1 = useImage(IMAGE_V13_1, BASE_IMAGES_TEST_DIR_PATH);
         const oldPath2 = useImage(IMAGE_V12_1, BASE_IMAGES_TEST_DIR_PATH);
         const oldPath3 = useImage(IMAGE_V12_1, PREV_IMAGES_TEST_DIR_PATH);
@@ -315,7 +315,7 @@ describe('Github Workflow: Re-Process All Images', () => {
         expectWriteNoChange(4, common.BASE_INDEX_MANIFEST_FILENAME);
     });
 
-    it('removes invalid not in manifest even if remove disabled', async () => {
+    it("removes invalid not in manifest even if remove disabled", async () => {
         const oldPath = useImage(IMAGE_INVALID, BASE_IMAGES_TEST_DIR_PATH);
 
         // @ts-expect-error mocked as needed
@@ -331,7 +331,7 @@ describe('Github Workflow: Re-Process All Images', () => {
         expect(coreWarningSpy).toHaveBeenCalledWith(expect.stringContaining(`Not found in base manifest`));
     });
 
-    it('removes invalid in manifest', async () => {
+    it("removes invalid in manifest", async () => {
         setManifest(common.BASE_INDEX_MANIFEST_FILENAME, [IMAGE_INVALID_METAS]);
         const oldPath = useImage(IMAGE_INVALID, BASE_IMAGES_TEST_DIR_PATH);
 
@@ -347,7 +347,7 @@ describe('Github Workflow: Re-Process All Images', () => {
         expect(coreErrorSpy).toHaveBeenCalledWith(expect.stringContaining(`Not a valid OTA file`));
     });
 
-    it('keeps image and rewrites manifest', async () => {
+    it("keeps image and rewrites manifest", async () => {
         setManifest(common.BASE_INDEX_MANIFEST_FILENAME, [withOldMetas(IMAGE_V14_1_METAS)]);
         const imagePath = useImage(IMAGE_V14_1, BASE_IMAGES_TEST_DIR_PATH);
 
@@ -361,11 +361,11 @@ describe('Github Workflow: Re-Process All Images', () => {
         expect(writeManifestSpy).toHaveBeenNthCalledWith(2, common.BASE_INDEX_MANIFEST_FILENAME, [IMAGE_V14_1_METAS]);
     });
 
-    it('keeps image with escaped url and rewrites manifest', async () => {
+    it("keeps image with escaped url and rewrites manifest", async () => {
         const oldMetas = withOldMetas(IMAGE_V14_1_METAS);
-        const fileName = oldMetas.url.split('/').pop()!;
-        const newName = fileName.replace('.ota', `(%1).ota`);
-        const baseUrl = oldMetas.url.replace(fileName, '');
+        const fileName = oldMetas.url.split("/").pop()!;
+        const newName = fileName.replace(".ota", `(%1).ota`);
+        const baseUrl = oldMetas.url.replace(fileName, "");
         oldMetas.url = baseUrl + encodeURIComponent(newName);
         setManifest(common.BASE_INDEX_MANIFEST_FILENAME, [oldMetas]);
         const imagePath = useImage(IMAGE_V14_1, BASE_IMAGES_TEST_DIR_PATH);
@@ -389,7 +389,7 @@ describe('Github Workflow: Re-Process All Images', () => {
         expect(writeManifestSpy).toHaveBeenNthCalledWith(2, common.BASE_INDEX_MANIFEST_FILENAME, [outManifestMetas]);
     });
 
-    it('ignores when same images referenced multiple times in manifest', async () => {
+    it("ignores when same images referenced multiple times in manifest", async () => {
         const oldMetas1 = withOldMetas(IMAGE_V14_1_METAS);
         const oldMetas2 = withOldMetas(IMAGE_V14_1_METAS);
         setManifest(common.BASE_INDEX_MANIFEST_FILENAME, [oldMetas1, oldMetas2]);
@@ -408,9 +408,9 @@ describe('Github Workflow: Re-Process All Images', () => {
         );
     });
 
-    it('keeps same images referenced multiple times in manifest with different extra metas', async () => {
-        const oldMetas1 = withExtraMetas(withOldMetas(IMAGE_V14_1_METAS), {modelId: 'test1'});
-        const oldMetas2 = withExtraMetas(withOldMetas(IMAGE_V14_1_METAS), {modelId: 'test2'});
+    it("keeps same images referenced multiple times in manifest with different extra metas", async () => {
+        const oldMetas1 = withExtraMetas(withOldMetas(IMAGE_V14_1_METAS), {modelId: "test1"});
+        const oldMetas2 = withExtraMetas(withOldMetas(IMAGE_V14_1_METAS), {modelId: "test2"});
         setManifest(common.BASE_INDEX_MANIFEST_FILENAME, [oldMetas1, oldMetas2]);
         const image1Path = useImage(IMAGE_V14_1, BASE_IMAGES_TEST_DIR_PATH);
 
@@ -422,15 +422,15 @@ describe('Github Workflow: Re-Process All Images', () => {
         expect(writeManifestSpy).toHaveBeenCalledTimes(2);
         expect(writeManifestSpy).toHaveBeenNthCalledWith(1, common.PREV_INDEX_MANIFEST_FILENAME, []);
         expect(writeManifestSpy).toHaveBeenNthCalledWith(2, common.BASE_INDEX_MANIFEST_FILENAME, [
-            withExtraMetas(IMAGE_V14_1_METAS, {modelId: 'test1'}),
-            withExtraMetas(IMAGE_V14_1_METAS, {modelId: 'test2'}),
+            withExtraMetas(IMAGE_V14_1_METAS, {modelId: "test1"}),
+            withExtraMetas(IMAGE_V14_1_METAS, {modelId: "test2"}),
         ]);
         expect(coreWarningSpy).toHaveBeenCalledWith(
             expect.stringContaining(`found multiple times in ${common.BASE_INDEX_MANIFEST_FILENAME} manifest`),
         );
     });
 
-    describe('downloads', () => {
+    describe("downloads", () => {
         let fetchSpy: jest.SpyInstance;
         let setTimeoutSpy: jest.SpyInstance;
         let fetchReturnedStatus: {ok: boolean; status: number; body?: object} = {ok: true, status: 200, body: {}};
@@ -452,9 +452,9 @@ describe('Github Workflow: Re-Process All Images', () => {
         });
 
         beforeEach(() => {
-            process.env.NODE_EXTRA_CA_CERTS = 'cacerts.pem';
+            process.env.NODE_EXTRA_CA_CERTS = "cacerts.pem";
             fetchReturnedStatus = {ok: true, status: 200, body: {}};
-            fetchSpy = jest.spyOn(global, 'fetch').mockImplementation(
+            fetchSpy = jest.spyOn(global, "fetch").mockImplementation(
                 // @ts-expect-error mocked as needed
                 (input) => {
                     return {
@@ -462,11 +462,11 @@ describe('Github Workflow: Re-Process All Images', () => {
                         status: fetchReturnedStatus.status,
                         body: fetchReturnedStatus.body,
                         // @ts-expect-error Buffer <> ArrayBuffer (props not used)
-                        arrayBuffer: (): ArrayBuffer => readFileSync(getImageOriginalDirPath((input as string).split('/').pop()!)),
+                        arrayBuffer: (): ArrayBuffer => readFileSync(getImageOriginalDirPath((input as string).split("/").pop()!)),
                     };
                 },
             );
-            setTimeoutSpy = jest.spyOn(global, 'setTimeout').mockImplementation(
+            setTimeoutSpy = jest.spyOn(global, "setTimeout").mockImplementation(
                 // @ts-expect-error mock
                 (fn) => {
                     fn();
@@ -474,8 +474,8 @@ describe('Github Workflow: Re-Process All Images', () => {
             );
         });
 
-        it('failure without CA Certificates ENV', async () => {
-            process.env.NODE_EXTRA_CA_CERTS = '';
+        it("failure without CA Certificates ENV", async () => {
+            process.env.NODE_EXTRA_CA_CERTS = "";
 
             await expect(async () => {
                 // @ts-expect-error mocked as needed
@@ -485,7 +485,7 @@ describe('Github Workflow: Re-Process All Images', () => {
             );
         });
 
-        it('failure with malformed metas', async () => {
+        it("failure with malformed metas", async () => {
             setManifest(common.BASE_INDEX_MANIFEST_FILENAME, [
                 // @ts-expect-error old metas
                 {
@@ -493,9 +493,9 @@ describe('Github Workflow: Re-Process All Images', () => {
                     fileSize: 307682,
                     manufacturerCode: 4417,
                     imageType: 54179,
-                    modelId: 'TS011F',
-                    sha512: '01939ca4fc790432d2c233e19b2440c1e0248d2ce85c9299e0b88928cb2341de675350ac7b78187a25f06a2768f93db0a17c4ba950b60c82c072e0c0833cfcfb',
-                    url: '', // not undefined to pass setManifest
+                    modelId: "TS011F",
+                    sha512: "01939ca4fc790432d2c233e19b2440c1e0248d2ce85c9299e0b88928cb2341de675350ac7b78187a25f06a2768f93db0a17c4ba950b60c82c072e0c0833cfcfb",
+                    url: "", // not undefined to pass setManifest
                 },
             ]);
 
@@ -512,7 +512,7 @@ describe('Github Workflow: Re-Process All Images', () => {
             expect(coreErrorSpy).toHaveBeenCalledWith(expect.stringContaining(`Ignoring malformed`));
         });
 
-        it('failure from fetch ok', async () => {
+        it("failure from fetch ok", async () => {
             setManifest(
                 common.BASE_INDEX_MANIFEST_FILENAME,
                 // @ts-expect-error old metas
@@ -535,7 +535,7 @@ describe('Github Workflow: Re-Process All Images', () => {
             );
         });
 
-        it('ignores urls from this repo', async () => {
+        it("ignores urls from this repo", async () => {
             setManifest(common.BASE_INDEX_MANIFEST_FILENAME, [IMAGE_V14_1_METAS]);
             // prevent trigger removal because of missing file
             useImage(IMAGE_V14_1, BASE_IMAGES_TEST_DIR_PATH);
@@ -552,7 +552,7 @@ describe('Github Workflow: Re-Process All Images', () => {
             expectWriteNoChange(4, common.BASE_INDEX_MANIFEST_FILENAME);
         });
 
-        it('ignores urls with no out dir specified', async () => {
+        it("ignores urls with no out dir specified", async () => {
             setManifest(common.BASE_INDEX_MANIFEST_FILENAME, [
                 // @ts-expect-error old metas
                 {
@@ -560,9 +560,9 @@ describe('Github Workflow: Re-Process All Images', () => {
                     fileSize: 307682,
                     manufacturerCode: 4417,
                     imageType: 54179,
-                    modelId: 'TS011F',
-                    sha512: '01939ca4fc790432d2c233e19b2440c1e0248d2ce85c9299e0b88928cb2341de675350ac7b78187a25f06a2768f93db0a17c4ba950b60c82c072e0c0833cfcfb',
-                    url: 'https://www.elektroimportoren.no/docs/lib/4512772-Firmware-35.ota',
+                    modelId: "TS011F",
+                    sha512: "01939ca4fc790432d2c233e19b2440c1e0248d2ce85c9299e0b88928cb2341de675350ac7b78187a25f06a2768f93db0a17c4ba950b60c82c072e0c0833cfcfb",
+                    url: "https://www.elektroimportoren.no/docs/lib/4512772-Firmware-35.ota",
                 },
             ]);
 
@@ -579,7 +579,7 @@ describe('Github Workflow: Re-Process All Images', () => {
             expect(coreWarningSpy).toHaveBeenCalledWith(expect.stringContaining(`no out dir specified`));
         });
 
-        it('ignores invalid OTA file', async () => {
+        it("ignores invalid OTA file", async () => {
             setManifest(common.BASE_INDEX_MANIFEST_FILENAME, [
                 Object.assign({}, withOldMetas(IMAGE_INVALID_METAS), {
                     url: `https://images.tuyaeu.com/smart/firmware/upgrade/20220907/${IMAGES_TEST_DIR}/${IMAGE_INVALID}`,
@@ -600,7 +600,7 @@ describe('Github Workflow: Re-Process All Images', () => {
             expect(coreErrorSpy).toHaveBeenCalledWith(expect.stringContaining(`Not a valid OTA file`));
         });
 
-        it('ignores identical image', async () => {
+        it("ignores identical image", async () => {
             setManifest(common.BASE_INDEX_MANIFEST_FILENAME, [
                 IMAGE_V14_1_METAS,
                 Object.assign({}, withOldMetas(IMAGE_V14_1_METAS), {
@@ -621,7 +621,7 @@ describe('Github Workflow: Re-Process All Images', () => {
             expect(coreWarningSpy).toHaveBeenCalledWith(expect.stringContaining(`Conflict with image at index \`0\``));
         });
 
-        it('success without mocked get3rdPartyDir', async () => {
+        it("success without mocked get3rdPartyDir", async () => {
             // NOTE: this is using a name (ZLinky_router_v13.ota) and out dir (Hue) that is unlikely to ever be in conflict with actual Hue images
             setManifest(
                 common.BASE_INDEX_MANIFEST_FILENAME,
@@ -641,14 +641,14 @@ describe('Github Workflow: Re-Process All Images', () => {
                 withExtraMetas(OLD_META_3RD_PARTY_1_REAL_METAS, {
                     originalUrl: OLD_META_3RD_PARTY_1_METAS.url,
                     // @ts-expect-error override
-                    url: adaptUrl(OLD_META_3RD_PARTY_1_REAL_METAS.url, common.BASE_INDEX_MANIFEST_FILENAME).replace(IMAGES_TEST_DIR, 'Hue'),
+                    url: adaptUrl(OLD_META_3RD_PARTY_1_REAL_METAS.url, common.BASE_INDEX_MANIFEST_FILENAME).replace(IMAGES_TEST_DIR, "Hue"),
                 }),
             ]);
 
-            rmSync(path.join(common.BASE_IMAGES_DIR, 'Hue', OLD_META_3RD_PARTY_1_REAL_IMAGE));
+            rmSync(path.join(common.BASE_IMAGES_DIR, "Hue", OLD_META_3RD_PARTY_1_REAL_IMAGE));
         });
 
-        it('success with add different metas and ignored', async () => {
+        it("success with add different metas and ignored", async () => {
             setManifest(
                 common.BASE_INDEX_MANIFEST_FILENAME,
                 // @ts-expect-error old metas
@@ -683,7 +683,7 @@ describe('Github Workflow: Re-Process All Images', () => {
             expect(coreWarningSpy).toHaveBeenCalledWith(expect.stringContaining(`Removing ignored '${OLD_META_3RD_PARTY_IGNORED_METAS.url}'`));
         });
 
-        it('success with add+move same and ignored', async () => {
+        it("success with add+move same and ignored", async () => {
             setManifest(
                 common.BASE_INDEX_MANIFEST_FILENAME,
                 // @ts-expect-error old metas
@@ -715,7 +715,7 @@ describe('Github Workflow: Re-Process All Images', () => {
             expect(coreWarningSpy).toHaveBeenCalledWith(expect.stringContaining(`Removing ignored '${OLD_META_3RD_PARTY_IGNORED_METAS.url}'`));
         });
 
-        it('success with add to prev', async () => {
+        it("success with add to prev", async () => {
             setManifest(common.BASE_INDEX_MANIFEST_FILENAME, [
                 IMAGE_V14_1_METAS,
                 // @ts-expect-error old metas
@@ -746,16 +746,16 @@ describe('Github Workflow: Re-Process All Images', () => {
             expect(writeManifestSpy).toHaveBeenNthCalledWith(4, common.BASE_INDEX_MANIFEST_FILENAME, [IMAGE_V14_1_METAS]);
         });
 
-        it('success with escaped', async () => {
+        it("success with escaped", async () => {
             const oldMetas = structuredClone(OLD_META_3RD_PARTY_1_METAS);
-            const fileName = oldMetas.url.split('/').pop()!;
-            const newName = fileName.replace('.ota', `(%1).ota`);
-            const baseUrl = oldMetas.url.replace(fileName, '');
+            const fileName = oldMetas.url.split("/").pop()!;
+            const newName = fileName.replace(".ota", `(%1).ota`);
+            const baseUrl = oldMetas.url.replace(fileName, "");
             oldMetas.url = baseUrl + encodeURIComponent(newName);
             // @ts-expect-error old metas
             setManifest(common.BASE_INDEX_MANIFEST_FILENAME, [oldMetas]);
             // link back to existing image from fetch
-            fetchSpy = jest.spyOn(global, 'fetch').mockImplementationOnce(
+            fetchSpy = jest.spyOn(global, "fetch").mockImplementationOnce(
                 // @ts-expect-error mocked as needed
                 () => {
                     return {

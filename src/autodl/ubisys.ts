@@ -1,7 +1,7 @@
-import url from 'url';
+import url from "url";
 
-import {getLatestImage, getText, readCacheJson, writeCacheJson} from '../common.js';
-import {processFirmwareImage} from '../process_firmware_image.js';
+import {getLatestImage, getText, readCacheJson, writeCacheJson} from "../common.js";
+import {processFirmwareImage} from "../process_firmware_image.js";
 
 type Image = {
     fileName: string;
@@ -14,14 +14,14 @@ type GroupedImages = {
     [k: string]: Image[];
 };
 
-const NAME = 'Ubisys';
+const NAME = "Ubisys";
 const LOG_PREFIX = `[${NAME}]`;
-const FIRMWARE_HTML_URL = 'http://fwu.ubisys.de/smarthome/OTA/release/index';
+const FIRMWARE_HTML_URL = "http://fwu.ubisys.de/smarthome/OTA/release/index";
 
 function groupByImageType(arr: Image[]): GroupedImages {
     return arr.reduce<GroupedImages>((acc, cur) => {
-        acc[cur.imageType + (cur.hardwareVersionMax ? cur.hardwareVersionMax : '')] = [
-            ...(acc[cur.imageType + (cur.hardwareVersionMax ? cur.hardwareVersionMax : '')] || []),
+        acc[cur.imageType + (cur.hardwareVersionMax ? cur.hardwareVersionMax : "")] = [
+            ...(acc[cur.imageType + (cur.hardwareVersionMax ? cur.hardwareVersionMax : "")] || []),
             cur,
         ];
         return acc;
@@ -37,7 +37,7 @@ function isDifferent(newData: Image, cachedData?: Image): boolean {
 }
 
 function parseText(pageText: string): Image[] {
-    const lines = pageText.split('\n');
+    const lines = pageText.split("\n");
     const images: Image[] = [];
 
     for (const line of lines) {
@@ -48,9 +48,9 @@ function parseText(pageText: string): Image[] {
             images.push({
                 fileName: imageMatch[0],
                 imageType: imageMatch[1],
-                hardwareVersionMin: parseInt(imageMatch[2], 16),
-                hardwareVersionMax: parseInt(imageMatch[3], 16),
-                fileVersion: parseInt(imageMatch[4], 16),
+                hardwareVersionMin: Number.parseInt(imageMatch[2], 16),
+                hardwareVersionMax: Number.parseInt(imageMatch[3], 16),
+                fileVersion: Number.parseInt(imageMatch[4], 16),
             });
         }
     }

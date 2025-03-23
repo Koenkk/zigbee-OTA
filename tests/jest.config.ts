@@ -5,7 +5,7 @@
 
 // import type {Config} from 'jest';
 
-import {createDefaultEsmPreset, JestConfigWithTsJest} from 'ts-jest';
+import {type JestConfigWithTsJest, createDefaultEsmPreset} from "ts-jest";
 
 const defaultEsmPreset = createDefaultEsmPreset();
 
@@ -17,7 +17,7 @@ const config: JestConfigWithTsJest = {
     // bail: 0,
 
     // The directory where Jest should store its cached dependency information
-    cacheDirectory: '.jest-tmp',
+    cacheDirectory: ".jest-tmp",
 
     // Automatically clear mock calls, instances, contexts and results before every test
     clearMocks: true,
@@ -27,15 +27,15 @@ const config: JestConfigWithTsJest = {
 
     // An array of glob patterns indicating a set of files for which coverage information should be collected
     collectCoverageFrom: [
-        'src/ghw_check_ota_pr.ts',
-        'src/ghw_get_changed_ota_files.ts',
-        'src/ghw_process_ota_files.ts',
-        'src/process_firmware_image.ts',
-        'src/ghw_reprocess_all_images.ts',
+        "src/ghw_check_ota_pr.ts",
+        "src/ghw_get_changed_ota_files.ts",
+        "src/ghw_process_ota_files.ts",
+        "src/process_firmware_image.ts",
+        "src/ghw_reprocess_all_images.ts",
     ],
 
     // The directory where Jest should output its coverage files
-    coverageDirectory: 'coverage',
+    coverageDirectory: "coverage",
 
     // An array of regexp pattern strings used to skip coverage collection
     // coveragePathIgnorePatterns: [
@@ -43,13 +43,13 @@ const config: JestConfigWithTsJest = {
     // ],
 
     // Indicates which provider should be used to instrument code for coverage
-    coverageProvider: 'babel',
+    coverageProvider: "babel",
 
     // A list of reporter names that Jest uses when writing coverage reports
     coverageReporters: [
         // "json",
         // "text",
-        'lcov',
+        "lcov",
         // "clover"
     ],
 
@@ -87,7 +87,7 @@ const config: JestConfigWithTsJest = {
     // globals: {},
 
     // The maximum amount of workers used to run your tests. Can be specified as % or a number. E.g. maxWorkers: 10% will use 10% of your CPU amount + 1 as the maximum worker number. maxWorkers: 2 will use a maximum of 2 workers.
-    maxWorkers: '50%',
+    maxWorkers: "50%",
 
     // An array of directory names to be searched recursively up from the requiring module's location
     // moduleDirectories: [
@@ -97,14 +97,14 @@ const config: JestConfigWithTsJest = {
     // An array of file extensions your modules use
     moduleFileExtensions: [
         // commonly used first
-        'ts',
-        'json',
-        'js',
-        'mjs',
-        'cjs',
-        'jsx',
-        'tsx',
-        'node',
+        "ts",
+        "json",
+        "js",
+        "mjs",
+        "cjs",
+        "jsx",
+        "tsx",
+        "node",
     ],
 
     // A map from regular expressions to module names or to arrays of module names that allow to stub out resources with a single module
@@ -141,7 +141,7 @@ const config: JestConfigWithTsJest = {
     // restoreMocks: false,
 
     // The root directory that Jest should scan for tests and modules within
-    rootDir: '..',
+    rootDir: "..",
 
     // A list of paths to directories that Jest should use to search for files in
     // roots: [
@@ -215,7 +215,7 @@ const config: JestConfigWithTsJest = {
 
     ...defaultEsmPreset,
     moduleNameMapper: {
-        '^(\\.{1,2}/.*)\\.js$': '$1',
+        "^(\\.{1,2}/.*)\\.js$": "$1",
     },
 };
 

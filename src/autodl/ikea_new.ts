@@ -1,6 +1,6 @@
-import {getJson, readCacheJson, writeCacheJson} from '../common.js';
-import {processFirmwareImage} from '../process_firmware_image.js';
-import {RELEASE_NOTES_URL} from './ikea.js';
+import {getJson, readCacheJson, writeCacheJson} from "../common.js";
+import {processFirmwareImage} from "../process_firmware_image.js";
+import {RELEASE_NOTES_URL} from "./ikea.js";
 
 type GatewayImageJson = {
     fw_type: 3;
@@ -23,11 +23,11 @@ type DeviceImageJson = {
 type ImagesJson = (GatewayImageJson | DeviceImageJson)[];
 
 // same name as `ikea.ts` to keep everything in same folder
-const NAME = 'IKEA';
+const NAME = "IKEA";
 const CACHE_FILENAME = `${NAME}_new`;
 const LOG_PREFIX = `[${NAME}_new]`;
 // requires cacerts/ikea_new.pem
-const FIRMWARE_URL = 'https://fw.ota.homesmart.ikea.com/check/update/prod';
+const FIRMWARE_URL = "https://fw.ota.homesmart.ikea.com/check/update/prod";
 
 function findInCache(image: DeviceImageJson, cachedData?: ImagesJson): DeviceImageJson | undefined {
     // `fw_type` compare ensures always `DeviceImagesJson`
@@ -58,7 +58,7 @@ export async function download(): Promise<void> {
                 continue;
             }
 
-            const firmwareFileName = image.fw_binary_url.split('/').pop()!;
+            const firmwareFileName = image.fw_binary_url.split("/").pop()!;
 
             if (!isDifferent(image, findInCache(image, cachedData))) {
                 console.log(`[${NAME}:${firmwareFileName}] No change from last run.`);

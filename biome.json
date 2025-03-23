@@ -8,7 +8,17 @@
         "bracketSpacing": false
     },
     "files": {
-        "ignore": ["package.json", "./index.json", "./index1.json", "./.cache", "./cacerts", "./images", "./images1", "./not-in-manifest-images", "./not-in-manifest-images1"]
+        "ignore": [
+            "package.json",
+            "./index.json",
+            "./index1.json",
+            "./.cache",
+            "./cacerts",
+            "./images",
+            "./images1",
+            "./not-in-manifest-images",
+            "./not-in-manifest-images1"
+        ]
     },
     "linter": {
         "rules": {

@@ -1,10 +1,10 @@
-import type CoreApi from '@actions/core';
-import type {Context} from '@actions/github/lib/context';
-import type {Octokit} from '@octokit/rest';
+import type CoreApi from "@actions/core";
+import type {Context} from "@actions/github/lib/context";
+import type {Octokit} from "@octokit/rest";
 
-import assert from 'assert';
+import assert from "assert";
 
-const IGNORE_OTA_WORKFLOW_LABEL = 'ignore-ota-workflow';
+const IGNORE_OTA_WORKFLOW_LABEL = "ignore-ota-workflow";
 
 export async function createPRToDefault(
     github: Octokit,

@@ -1,10 +1,10 @@
-import type CoreApi from '@actions/core';
-import type {Context} from '@actions/github/lib/context';
-import type {Octokit} from '@octokit/rest';
+import type CoreApi from "@actions/core";
+import type {Context} from "@actions/github/lib/context";
+import type {Octokit} from "@octokit/rest";
 
-import assert from 'assert';
+import assert from "assert";
 
-import {BASE_IMAGES_DIR} from './common.js';
+import {BASE_IMAGES_DIR} from "./common.js";
 
 export async function getChangedOtaFiles(
     github: Octokit,
@@ -20,9 +20,9 @@ export async function getChangedOtaFiles(
         basehead,
     });
 
-    assert(compare.data.files && compare.data.files.length > 0, 'No file');
+    assert(compare.data.files && compare.data.files.length > 0, "No file");
 
-    core.info(`Changed files: ${compare.data.files.map((f) => f.filename).join(', ')}`);
+    core.info(`Changed files: ${compare.data.files.map((f) => f.filename).join(", ")}`);
 
     const fileList = compare.data.files.filter((f) => f.filename.startsWith(`${BASE_IMAGES_DIR}/`));
 

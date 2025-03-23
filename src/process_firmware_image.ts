@@ -1,30 +1,30 @@
-import type {ExtraMetas} from './types';
+import type {ExtraMetas} from "./types";
 
-import assert from 'assert';
-import {readdirSync, readFileSync, renameSync, rmSync, writeFileSync} from 'fs';
-import path from 'path';
+import assert from "assert";
+import {readFileSync, readdirSync, renameSync, rmSync, writeFileSync} from "fs";
+import path from "path";
 
-import {extract} from 'tar';
+import {extract} from "tar";
 
 import {
-    addImageToBase,
-    addImageToPrev,
     BASE_IMAGES_DIR,
     BASE_INDEX_MANIFEST_FILENAME,
+    PREV_IMAGES_DIR,
+    PREV_INDEX_MANIFEST_FILENAME,
+    ParsedImageStatus,
+    TMP_DIR,
+    UPGRADE_FILE_IDENTIFIER,
+    addImageToBase,
+    addImageToPrev,
     findMatchImage,
     getOutDir,
     getParsedImageStatus,
-    ParsedImageStatus,
     parseImageHeader,
-    PREV_IMAGES_DIR,
-    PREV_INDEX_MANIFEST_FILENAME,
     readManifest,
-    TMP_DIR,
-    UPGRADE_FILE_IDENTIFIER,
     writeManifest,
-} from './common.js';
+} from "./common.js";
 
-export const enum ProcessFirmwareImageStatus {
+export enum ProcessFirmwareImageStatus {
     ERROR = -1,
     SUCCESS = 0,
     REQUEST_FAILED = 1,
@@ -71,7 +71,7 @@ export async function processFirmwareImage(
     firmwareFileName: string,
     firmwareFileUrl: string,
     extraMetas: ExtraMetas = {},
-    tar: boolean = false,
+    tar = false,
     tarImageFinder?: (fileName: string) => boolean,
 ): Promise<ProcessFirmwareImageStatus> {
     // throttle requests (this is done at the top to ensure always executed)
@@ -80,7 +80,7 @@ export async function processFirmwareImage(
     let firmwareFilePath: string | undefined;
     const logPrefix = `[${manufacturer}:${firmwareFileName}]`;
 
-    if (tar && !firmwareFileName.endsWith('.tar.gz')) {
+    if (tar && !firmwareFileName.endsWith(".tar.gz")) {
         // ignore non-archive
         return ProcessFirmwareImageStatus.TAR_NO_IMAGE;
     }

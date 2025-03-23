@@ -1,28 +1,28 @@
-import type {ExtraMetas, ExtraMetasWithFileName, ImageHeader, RepoImageMeta} from './types';
+import type {ExtraMetas, ExtraMetasWithFileName, ImageHeader, RepoImageMeta} from "./types";
 
-import assert from 'assert';
-import {exec} from 'child_process';
-import {createHash} from 'crypto';
-import {existsSync, mkdirSync, readFileSync, renameSync, rmSync, writeFileSync} from 'fs';
-import path from 'path';
+import assert from "assert";
+import {exec} from "child_process";
+import {createHash} from "crypto";
+import {existsSync, mkdirSync, readFileSync, renameSync, rmSync, writeFileSync} from "fs";
+import path from "path";
 
 export const UPGRADE_FILE_IDENTIFIER = Buffer.from([0x1e, 0xf1, 0xee, 0x0b]);
 export const BASE_REPO_URL = `https://raw.githubusercontent.com/Koenkk/zigbee-OTA/`;
-export const REPO_BRANCH = 'master';
+export const REPO_BRANCH = "master";
 /** Images used by OTA upgrade process */
-export const BASE_IMAGES_DIR = 'images';
+export const BASE_IMAGES_DIR = "images";
 /** Images used by OTA downgrade process */
-export const PREV_IMAGES_DIR = 'images1';
+export const PREV_IMAGES_DIR = "images1";
 /** Manifest used by OTA upgrade process */
-export const BASE_INDEX_MANIFEST_FILENAME = 'index.json';
+export const BASE_INDEX_MANIFEST_FILENAME = "index.json";
 /** Manifest used by OTA downgrade process */
-export const PREV_INDEX_MANIFEST_FILENAME = 'index1.json';
-export const CACHE_DIR = '.cache';
-export const TMP_DIR = 'tmp';
-export const PR_ARTIFACT_DIR = 'pr';
-export const PR_DIFF_FILENAME = 'PR_DIFF';
-export const PR_ERROR_FILENAME = 'PR_ERROR';
-export const PR_NUMBER_FILENAME = 'PR_NUMBER';
+export const PREV_INDEX_MANIFEST_FILENAME = "index1.json";
+export const CACHE_DIR = ".cache";
+export const TMP_DIR = "tmp";
+export const PR_ARTIFACT_DIR = "pr";
+export const PR_DIFF_FILENAME = "PR_DIFF";
+export const PR_ERROR_FILENAME = "PR_ERROR";
+export const PR_NUMBER_FILENAME = "PR_NUMBER";
 export const PR_ARTIFACT_DIFF_FILEPATH = path.join(PR_ARTIFACT_DIR, PR_DIFF_FILENAME);
 export const PR_ARTIFACT_ERROR_FILEPATH = path.join(PR_ARTIFACT_DIR, PR_ERROR_FILENAME);
 export const PR_ARTIFACT_NUMBER_FILEPATH = path.join(PR_ARTIFACT_DIR, PR_NUMBER_FILENAME);
@@ -30,17 +30,17 @@ export const PR_ARTIFACT_NUMBER_FILEPATH = path.join(PR_ARTIFACT_DIR, PR_NUMBER_
  * 'ikea_new' first, to prioritize downloads from new URL
  */
 export const ALL_AUTODL_MANUFACTURERS = [
-    'gammatroniques',
-    'hue',
-    'ikea_new',
-    'ikea',
-    'inovelli',
-    'jethome',
-    'ledvance',
-    'lixee',
-    'salus',
-    'ubisys',
-    'xyzroe',
+    "gammatroniques",
+    "hue",
+    "ikea_new",
+    "ikea",
+    "inovelli",
+    "jethome",
+    "ledvance",
+    "lixee",
+    "salus",
+    "ubisys",
+    "xyzroe",
 ];
 
 export async function execute(command: string): Promise<string> {
@@ -60,11 +60,11 @@ export function primitivesArrayEquals(a: (string | number | boolean)[], b: (stri
 }
 
 export function computeSHA512(buffer: Buffer): string {
-    const hash = createHash('sha512');
+    const hash = createHash("sha512");
 
     hash.update(buffer);
 
-    return hash.digest('hex');
+    return hash.digest("hex");
 }
 
 export function getOutDir(folderName: string, basePath: string = BASE_IMAGES_DIR): string {
@@ -82,21 +82,21 @@ export function getRepoFirmwareFileUrl(folderName: string, fileName: string, bas
 }
 
 export function writeManifest(fileName: string, firmwareList: RepoImageMeta[]): void {
-    writeFileSync(fileName, JSON.stringify(firmwareList, undefined, 2), 'utf8');
+    writeFileSync(fileName, JSON.stringify(firmwareList, undefined, 2), "utf8");
 }
 
 export function readManifest(fileName: string): RepoImageMeta[] {
-    return JSON.parse(readFileSync(fileName, 'utf8'));
+    return JSON.parse(readFileSync(fileName, "utf8"));
 }
 
 export function writeCacheJson<T>(fileName: string, contents: T, basePath: string = CACHE_DIR): void {
-    writeFileSync(path.join(basePath, `${fileName}.json`), JSON.stringify(contents), 'utf8');
+    writeFileSync(path.join(basePath, `${fileName}.json`), JSON.stringify(contents), "utf8");
 }
 
 export function readCacheJson<T>(fileName: string, basePath: string = CACHE_DIR): T | undefined {
     const filePath = path.join(basePath, `${fileName}.json`);
 
-    return existsSync(filePath) ? JSON.parse(readFileSync(filePath, 'utf8')) : undefined;
+    return existsSync(filePath) ? JSON.parse(readFileSync(filePath, "utf8")) : undefined;
 }
 
 export function parseImageHeader(buffer: Buffer): ImageHeader {
@@ -110,7 +110,7 @@ export function parseImageHeader(buffer: Buffer): ImageHeader {
             imageType: buffer.readUInt16LE(12),
             fileVersion: buffer.readUInt32LE(14),
             zigbeeStackVersion: buffer.readUInt16LE(18),
-            otaHeaderString: buffer.toString('utf8', 20, 52),
+            otaHeaderString: buffer.toString("utf8", 20, 52),
             totalImageSize: buffer.readUInt32LE(52),
         };
         let headerPos = 56;
@@ -199,7 +199,7 @@ export function getLatestImage<T>(list: T[] | undefined, compareFn: (a: T, b: T)
     return sortedList.slice(0, sortedList.length > 1 && process.env.PREV ? -1 : undefined).pop();
 }
 
-export const enum ParsedImageStatus {
+export enum ParsedImageStatus {
     NEW = 0,
     NEWER = 1,
     OLDER = 2,
@@ -232,7 +232,7 @@ export function getValidMetas(metas: Partial<ExtraMetas & ExtraMetasWithFileName
 
     if (!ignoreFileName) {
         if (metas.fileName != undefined) {
-            if (typeof metas.fileName != 'string') {
+            if (typeof metas.fileName != "string") {
                 throw new Error(`Invalid format for 'fileName', expected 'string' type.`);
             }
 
@@ -241,7 +241,7 @@ export function getValidMetas(metas: Partial<ExtraMetas & ExtraMetasWithFileName
     }
 
     if (metas.originalUrl != undefined) {
-        if (typeof metas.originalUrl != 'string') {
+        if (typeof metas.originalUrl != "string") {
             throw new Error(`Invalid format for 'originalUrl', expected 'string' type.`);
         }
 
@@ -249,7 +249,7 @@ export function getValidMetas(metas: Partial<ExtraMetas & ExtraMetasWithFileName
     }
 
     if (metas.force != undefined) {
-        if (typeof metas.force != 'boolean') {
+        if (typeof metas.force != "boolean") {
             throw new Error(`Invalid format for 'force', expected 'boolean' type.`);
         }
 
@@ -257,7 +257,7 @@ export function getValidMetas(metas: Partial<ExtraMetas & ExtraMetasWithFileName
     }
 
     if (metas.hardwareVersionMax != undefined) {
-        if (typeof metas.hardwareVersionMax != 'number') {
+        if (typeof metas.hardwareVersionMax != "number") {
             throw new Error(`Invalid format for 'hardwareVersionMax', expected 'number' type.`);
         }
 
@@ -265,7 +265,7 @@ export function getValidMetas(metas: Partial<ExtraMetas & ExtraMetasWithFileName
     }
 
     if (metas.hardwareVersionMin != undefined) {
-        if (typeof metas.hardwareVersionMin != 'number') {
+        if (typeof metas.hardwareVersionMin != "number") {
             throw new Error(`Invalid format for 'hardwareVersionMin', expected 'number' type.`);
         }
 
@@ -273,7 +273,7 @@ export function getValidMetas(metas: Partial<ExtraMetas & ExtraMetasWithFileName
     }
 
     if (metas.manufacturerName != undefined) {
-        if (!Array.isArray(metas.manufacturerName) || metas.manufacturerName.length < 1 || metas.manufacturerName.some((m) => typeof m != 'string')) {
+        if (!Array.isArray(metas.manufacturerName) || metas.manufacturerName.length < 1 || metas.manufacturerName.some((m) => typeof m != "string")) {
             throw new Error(`Invalid format for 'manufacturerName', expected 'array of string' type.`);
         }
 
@@ -281,7 +281,7 @@ export function getValidMetas(metas: Partial<ExtraMetas & ExtraMetasWithFileName
     }
 
     if (metas.maxFileVersion != undefined) {
-        if (typeof metas.maxFileVersion != 'number') {
+        if (typeof metas.maxFileVersion != "number") {
             throw new Error(`Invalid format for 'maxFileVersion', expected 'number' type.`);
         }
 
@@ -289,7 +289,7 @@ export function getValidMetas(metas: Partial<ExtraMetas & ExtraMetasWithFileName
     }
 
     if (metas.minFileVersion != undefined) {
-        if (typeof metas.minFileVersion != 'number') {
+        if (typeof metas.minFileVersion != "number") {
             throw new Error(`Invalid format for 'minFileVersion', expected 'number' type.`);
         }
 
@@ -297,7 +297,7 @@ export function getValidMetas(metas: Partial<ExtraMetas & ExtraMetasWithFileName
     }
 
     if (metas.modelId != undefined) {
-        if (typeof metas.modelId != 'string') {
+        if (typeof metas.modelId != "string") {
             throw new Error(`Invalid format for 'modelId', expected 'string' type.`);
         }
 
@@ -305,7 +305,7 @@ export function getValidMetas(metas: Partial<ExtraMetas & ExtraMetasWithFileName
     }
 
     if (metas.releaseNotes != undefined) {
-        if (typeof metas.releaseNotes != 'string') {
+        if (typeof metas.releaseNotes != "string") {
             throw new Error(`Invalid format for 'releaseNotes', expected 'string' type.`);
         }
 
@@ -337,7 +337,7 @@ export function addImageToPrev(
         prevManifest.splice(prevMatchIndex, 1);
 
         // make sure fileName exists for migration from old system
-        const prevFileName = prevMatch.fileName ? prevMatch.fileName : prevMatch.url.split('/').pop()!;
+        const prevFileName = prevMatch.fileName ? prevMatch.fileName : prevMatch.url.split("/").pop()!;
 
         rmSync(path.join(prevOutDir, prevFileName), {force: true});
     }
@@ -389,14 +389,14 @@ export function addImageToBase(
             prevManifest.splice(prevMatchIndex, 1);
 
             // make sure fileName exists for migration from old system
-            const prevFileName = prevMatch!.fileName ? prevMatch!.fileName : prevMatch!.url.split('/').pop()!;
+            const prevFileName = prevMatch!.fileName ? prevMatch!.fileName : prevMatch!.url.split("/").pop()!;
 
             rmSync(path.join(prevOutDir, prevFileName), {force: true});
         }
 
         // relocate base to prev
         // make sure fileName exists for migration from old system
-        const baseFileName = baseMatch.fileName ? baseMatch.fileName : baseMatch.url.split('/').pop()!;
+        const baseFileName = baseMatch.fileName ? baseMatch.fileName : baseMatch.url.split("/").pop()!;
         const baseFilePath = path.join(baseOutDir, baseFileName);
 
         // if for some reason the file is no longer present (should not happen), don't add it to prev since link is broken

@@ -1,5 +1,5 @@
-import {getJson, readCacheJson, writeCacheJson} from '../common.js';
-import {processFirmwareImage} from '../process_firmware_image.js';
+import {getJson, readCacheJson, writeCacheJson} from "../common.js";
+import {processFirmwareImage} from "../process_firmware_image.js";
 
 type ImageJson = {
     vendor: string;
@@ -13,12 +13,12 @@ type ImageJson = {
             version: string;
             date: string;
             images: {
-                'zigbee.ota': {
+                "zigbee.ota": {
                     url: string;
                     hash: string;
                     filesize: number;
                 };
-                'zigbee.bin': {
+                "zigbee.bin": {
                     url: string;
                     hash: string;
                     filesize: number;
@@ -29,12 +29,12 @@ type ImageJson = {
     };
 };
 
-const NAME = 'JetHome';
+const NAME = "JetHome";
 const LOG_PREFIX = `[${NAME}]`;
-const BASE_URL = 'https://fw.jethome.ru';
+const BASE_URL = "https://fw.jethome.ru";
 const DEVICE_URL = `${BASE_URL}/api/devices/`;
 
-const MODEL_IDS = ['WS7'];
+const MODEL_IDS = ["WS7"];
 
 function getCacheFileName(modelId: string): string {
     return `${NAME}_${modelId}`;
@@ -62,14 +62,14 @@ export async function download(): Promise<void> {
 
         // XXX: this is assumed to always be present even for devices that support OTA but without images yet available?
         if (image?.latest_firmware?.release?.images) {
-            const firmware = image.latest_firmware.release.images['zigbee.ota'];
+            const firmware = image.latest_firmware.release.images["zigbee.ota"];
 
             if (!firmware) {
                 continue;
             }
 
             const firmwareUrl = BASE_URL + firmware.url;
-            const firmwareFileName = firmwareUrl.split('/').pop()!;
+            const firmwareFileName = firmwareUrl.split("/").pop()!;
             const cacheFileName = getCacheFileName(modelId);
 
             if (!isDifferent(image, readCacheJson(cacheFileName))) {
