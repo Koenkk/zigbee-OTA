@@ -7538,5 +7538,18 @@
     "manufacturerCode": 4655,
     "sha512": "53bee137d4450ca55d1d0cd9e49777daa01729c421b04c750fc25ae01bdf79394c15b9ca3178a08f42895e987a034c4b030866edb83e66cd105e655b8319c35c",
     "otaHeaderString": "VZM30-SN_OnOff\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  {
+    "fileName": "6565-0204-20043001-watermeter_zed.zigbee",
+    "fileVersion": 537145345,
+    "fileSize": 151458,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-0204-20043001-watermeter_zed.zigbee",
+    "imageType": 516,
+    "manufacturerCode": 25957,
+    "sha512": "37cf00ec6985abcfd7abd0550b2b5f260917cfe06c1e0a8bd4da81bf7e111c5be9a58eb32e4637848ca8aea09458e8067bc9f26c30e95d7c38b99536ca1bfe85",
+    "otaHeaderString": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "Slacky-DIY"
+    ]
   }
 ]
