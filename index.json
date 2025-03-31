@@ -7564,5 +7564,16 @@
     "manufacturerName": [
       "Slacky-DIY"
     ]
+  },
+  {
+    "fileName": "4512761-Firmware-35.ota",
+    "fileVersion": 55,
+    "fileSize": 186213,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Namron/4512761-Firmware-35.ota",
+    "imageType": 173,
+    "manufacturerCode": 4644,
+    "sha512": "7cb50491259e62e19af1873323a346930c13dd9109d6f0f79f4dd40c21823609b57dee77a75acb7d7d43987ccf1d6916259d9470fe10c87b4acca41fdf691185",
+    "otaHeaderString": "Encrypted GBL Z3LightSoc_sdk690_",
+    "modelId": "4512761"
   }
 ]
