@@ -7762,5 +7762,19 @@
     "sha512": "14f444fef0a36b861a36e20f44fc5920eb9d68f474238601e6f4b097399e96255cabccf5fb23c0f57d10215b576767bd9f92507cc17331879990cc670ab867bc",
     "otaHeaderString": "ZigbeeTLc OTA\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "modelId": "ZG227-z"
+  },
+  {
+    "fileName": "oem_tl8258_zg_breaker_OTA_1.0.10.bin",
+    "fileVersion": 74,
+    "fileSize": 315986,
+    "originalUrl": "https://euimagesd2h2yqnfpu4gl5.cdn5th.com/smart/firmware/upgrade/20240625/1719302262-oem_tl8258_zg_breaker_OTA_1.0.10.bin",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Telink/oem_tl8258_zg_breaker_OTA_1.0.10.bin",
+    "imageType": 54179,
+    "manufacturerCode": 4417,
+    "sha512": "b08d60804f8c75ffce2c2362e88c473f80a7194a15bd1204c07f60fc9ca0817e5736836f0b9c861683cd2269055e79fbf1ee642f819b8857f1fd93f3dd5ed683",
+    "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "manufacturerName": [
+      "_TZ3000_x3ewpzyr"
+    ]
   }
 ]
