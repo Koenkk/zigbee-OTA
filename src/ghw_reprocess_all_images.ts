@@ -397,10 +397,12 @@ export async function reProcessAllImages(
 
 // To run locally uncomment below and run with `npx tsx src/ghw_reprocess_all_images.ts`
 // const core = {
-//     info: (msg) => console.log(msg),
-//     warning: (msg) => console.log(msg),
-//     error: (msg) => console.error(msg),
-//     startGroup: () => {},
-//     endGroup: () => {},
+//     debug: console.debug,
+//     info: console.info,
+//     warning: console.warn,
+//     error: console.error,
+//     startGroup: console.group,
+//     endGroup: console.groupEnd,
 // }
-// checkImagesAgainstManifests(null, core, null, false);
+// // @ts-expect-error run locally
+// checkImagesAgainstManifests({}, core, {}, false);
