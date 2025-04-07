@@ -192,7 +192,7 @@ export const IMAGE_INVALID_METAS = {
  * - imageType: 2,
  * - fileVersion: 6,
  * - zigbeeStackVersion: 2,
- * - otaHeaderString: 'Jasco 45856 image\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00',
+ * - otaHeaderString: 'Jasco 45856 image',
  * - totalImageSize: 162302
  */
 export const IMAGE_TAR_METAS = {
@@ -204,7 +204,7 @@ export const IMAGE_TAR_METAS = {
     imageType: 2,
     manufacturerCode: 4388,
     sha512: "3306332e001eab9d71c9360089d450ea21e2c08bac957b523643c042707887e85db0c510f3480bdbcfcfe2398eeaad88d455f346f1e07841e1d690d8c16dc211",
-    otaHeaderString: "Jasco 45856 image\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00",
+    otaHeaderString: "Jasco 45856 image",
 };
 
 export const getImageOriginalDirPath = (imageName: string): string => {

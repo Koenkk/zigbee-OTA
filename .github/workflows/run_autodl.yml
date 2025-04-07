@@ -55,6 +55,10 @@ jobs:
 
                       await runAutodl(github, core, context, "${{ inputs.manufacturers || '' }}")
 
+                      const {identifyStacks} = await import("${{ github.workspace }}/dist/ghw_identify_stacks.js")
+
+                      identifyStacks(github, core, context)
+
             - name: Create Autodl release
               uses: actions/github-script@v7
               with:
