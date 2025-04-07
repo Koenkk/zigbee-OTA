@@ -358,7 +358,7 @@ export function addImageToPrev(
         imageType: parsedImage.imageType,
         manufacturerCode: parsedImage.manufacturerCode,
         sha512: computeSHA512(firmwareBuffer),
-        otaHeaderString: parsedImage.otaHeaderString,
+        otaHeaderString: parsedImage.otaHeaderString.replaceAll("\u0000", ""),
         ...extraMetas,
     });
 }
@@ -431,7 +431,7 @@ export function addImageToBase(
         imageType: parsedImage.imageType,
         manufacturerCode: parsedImage.manufacturerCode,
         sha512: computeSHA512(firmwareBuffer),
-        otaHeaderString: parsedImage.otaHeaderString,
+        otaHeaderString: parsedImage.otaHeaderString.replaceAll("\u0000", ""),
         ...extraMetas,
     });
 }

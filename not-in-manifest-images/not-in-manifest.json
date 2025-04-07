@@ -7,7 +7,7 @@
     "imageType": 256,
     "manufacturerCode": 4678,
     "sha512": "6b89fd90146747fde88e4896a3cb7b8600ee733679d234cb0288632c820264fcb8e5c25a79a04a4faa2114742a6f3fd37b107be6c60e927eea253fe6d8744d6a",
-    "otaHeaderString": "13-12-2022 V.0114.0114\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "13-12-2022 V.0114.0114"
   },
   {
     "fileName": "ED_HA_EMI_Norwegian_HAN_4.0.1.zigbee",
@@ -17,7 +17,7 @@
     "imageType": 832,
     "manufacturerCode": 4117,
     "sha512": "bcf8dd5ce9b622267a9999baa6df8928dd1d2511b8829a9f0a68594d9ef8b0b5f249e17828450e0845ce4d5b2d48369644c0c2327cbe65783b754061a759b6cd",
-    "otaHeaderString": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": ""
   },
   {
     "fileName": "ED_HA_Motion_Sensor_Mini-SSIG_4.0.2.zigbee",
@@ -27,7 +27,7 @@
     "imageType": 386,
     "manufacturerCode": 4117,
     "sha512": "160ebf2451f9fd6f377ba674a964e2194a173608a9f8d5cd76a9c11d5bfdebc51223d0f237f745b0db7102ae6b18f7f1436b6721240b26eb6851513ffb075b95",
-    "otaHeaderString": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": ""
   },
   {
     "fileName": "ED_Smoke_Sensor_SSIG_4.0.2.zigbee",
@@ -37,7 +37,7 @@
     "imageType": 593,
     "manufacturerCode": 4117,
     "sha512": "6ff88b27a44d0762e62d70d278313803a241ace28433135be765bb3e3fe34ec848ce71d645e28c78a88005fac03e039d507553b2fc16e1fd1b024d571a9c84c9",
-    "otaHeaderString": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": ""
   },
   {
     "fileName": "ED_Smoke_Sensor_SSIG_4.0.5.zigbee",
@@ -47,7 +47,7 @@
     "imageType": 593,
     "manufacturerCode": 4117,
     "sha512": "eb53467c3dec6ad394fe36152bb0e81f4aeaff6fd7c5c5589bf575578c8cdf6126d6219cbfdde0a1db3db7aef07124feacdf4c87cd062c9117e54f92795c5e45",
-    "otaHeaderString": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": ""
   },
   {
     "fileName": "WindowSensor_4.0.1.zigbee",
@@ -57,7 +57,7 @@
     "imageType": 576,
     "manufacturerCode": 4117,
     "sha512": "98171927e5045f7593eada86e5da1c6888b719848bc8771814e38f792d3f37f7480679e3dcb76a7ea20cb149b19512d4aebf3e105f7c1975cbd1a1ff3c3e71e9",
-    "otaHeaderString": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": ""
   },
   {
     "fileName": "20190408_EUROTRONIC_Spirit_Zigbee_0x00122C380.ota",
@@ -77,7 +77,7 @@
     "imageType": 5145,
     "manufacturerCode": 4687,
     "sha512": "e6fdd4dc6ff83d019c35b41fdba2a610363980f4c11adef86d09cbf6fdfa5889bbf01ee4c330dce9eba1eb1cc9fcf37c44447ca06321699d281ff2cd3cb44a4e",
-    "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "Telink OTA Sample Usage"
   },
   {
     "fileName": "GL-C-002P_V20351203_20230721.ota",
@@ -87,7 +87,7 @@
     "imageType": 5145,
     "manufacturerCode": 4687,
     "sha512": "18e6d553f93a1173edb1e8aaca5023bcdb147067f5e5f776f4f207ce0a35c12910c850ef553e97fbd488e18957d5418017adce4d00d7a6007b1850f7020ea88b",
-    "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "Telink OTA Sample Usage"
   },
   {
     "fileName": "GL-C-002P_V20551203_20240125.ota",
@@ -97,7 +97,7 @@
     "imageType": 5145,
     "manufacturerCode": 4687,
     "sha512": "d08d30e603877ef04100ba59d28ec10d6b3f3d31b9407a18517348573d39d2b67a11174e819c38752d257c3f8dd256d66a59a76225e03d4be77a6bbe8f4b3c59",
-    "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "Telink OTA Sample Usage"
   },
   {
     "fileName": "GL-C-006P_10476801_2020401.ota",
@@ -107,7 +107,7 @@
     "imageType": 0,
     "manufacturerCode": 4687,
     "sha512": "31b2f87344eea5bd4666918525f7382d570ab698079ed33bf40134f8ac59830c2e0d47814757e130298a50c903d4a605e914f1ef1ef68f70072daa9823bd2228",
-    "otaHeaderString": "EBL Z3LightCCT\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "EBL Z3LightCCT"
   },
   {
     "fileName": "GL-C-006P_10576802_20240412.ota",
@@ -117,7 +117,7 @@
     "imageType": 0,
     "manufacturerCode": 4687,
     "sha512": "28240ef0eb6b7beea8797b4d3e2acd02e3fb8967083f47a7a3597aa48306c66dcc8ad47a3a8a91189bb556445232d19f03ca3f77777421b251cf36dcf1b6b28e",
-    "otaHeaderString": "EBL Z3LightCCT\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "EBL Z3LightCCT"
   },
   {
     "fileName": "GL-C-006P_V102.ota",
@@ -127,7 +127,7 @@
     "imageType": 0,
     "manufacturerCode": 4687,
     "sha512": "ef83e88563221eeac951f7f6d1769891b7eb9f4df44b0acd2cdd5e473cdd9f2772fd4ec4540b5f852d93fcc14637b28567a2869fb6ea3809fcf76ea5a230572b",
-    "otaHeaderString": "EBL Z3LightCCT\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "EBL Z3LightCCT"
   },
   {
     "fileName": "GL-C-006P_V20551203_KEY_20240227.ota",
@@ -137,7 +137,7 @@
     "imageType": 5138,
     "manufacturerCode": 4687,
     "sha512": "199c17f92fa3f238c08331e5c134630f9d725fcadfe4fcb6ef8fc55af671fe2c6fa8d20da1816948ae6927e6cfe81b732a71212662de4e6196785041769b5fb2",
-    "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "Telink OTA Sample Usage"
   },
   {
     "fileName": "GL-C-008P_V14_OTAV4_20210114_100%.ota",
@@ -147,7 +147,7 @@
     "imageType": 0,
     "manufacturerCode": 4687,
     "sha512": "58d453955a427b1468b2e62f560f1b4b00dbb0e59a1d65e1793f2d0a960d7d2010d74900570ac1b9e0467ab5503a403aaf1ee9eed6c9db3cf34b973598a616ea",
-    "otaHeaderString": "EBL ARGBW_V_0_1\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "EBL ARGBW_V_0_1"
   },
   {
     "fileName": "ota_t0x110e_m0x117c_v0x01000032.ota",
@@ -167,7 +167,7 @@
     "imageType": 296,
     "manufacturerCode": 4454,
     "sha512": "8d1eb89f429439fa49bab731591b58c6ad62064f45594d4d22a5b980ac807ce46696ce45bdb5025488131516c89c370c710c9dd9e4d69fc12aa80c8b423caad1",
-    "otaHeaderString": "Light\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "Light"
   },
   {
     "fileName": "1166-0129-24011511-RS_227_T-upgradeMe.ota",
@@ -177,7 +177,7 @@
     "imageType": 297,
     "manufacturerCode": 4454,
     "sha512": "5e10cdfd552f503db9ae2d01b784f0adc15a3d50b8d151cc2cd3f678e7934e14fb92ff40100345cebeda573b258a253266b9323112a31d161c77386bcc9c2ba2",
-    "otaHeaderString": "Light\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "Light"
   },
   {
     "fileName": "1166-012A-24011511-RB_245_v3-upgradeMe.ota",
@@ -187,7 +187,7 @@
     "imageType": 298,
     "manufacturerCode": 4454,
     "sha512": "93f9dae79d6685494612ee27c59c3889de627396174aa78a5dd626d239c56027448e16bfbc70d16d6b0aad24a20233d20c4dc6c6c0e5ca260660cb2d090fe333",
-    "otaHeaderString": "Light\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "Light"
   },
   {
     "fileName": "1166-012B-24011511-RB_249_T-upgradeMe.ota",
@@ -197,7 +197,7 @@
     "imageType": 299,
     "manufacturerCode": 4454,
     "sha512": "63dd6994410d155888f0b6d06f21b296c510bdcb0d208e59224f1d4e53bb62d90477edc7aff44ab5684f5b845adf1808eae45cfb365df18a8a15cdffef452824",
-    "otaHeaderString": "Light\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "Light"
   },
   {
     "fileName": "1166-012C-24011511-RB_251_C-upgradeMe.ota",
@@ -207,7 +207,7 @@
     "imageType": 300,
     "manufacturerCode": 4454,
     "sha512": "37ce981b912a0bdaba3435127594a94ef4aa135aa5dc0750ef844abc8378f5ef5f7078a02b5bf1c5636f203db6bdc860b72a6eddd2a0a46679af206ebb5585c9",
-    "otaHeaderString": "Light\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "Light"
   },
   {
     "fileName": "1166-012D-24011511-RB_266-upgradeMe.ota",
@@ -217,7 +217,7 @@
     "imageType": 301,
     "manufacturerCode": 4454,
     "sha512": "57191d741f326db3504ea8c061c17de7f55740236e9ef021f3499f229c2525a367a31bf4fee59349d7a522e6b6ab6a10d106d9133304cc03c9f01314fa4a07e0",
-    "otaHeaderString": "Light\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "Light"
   },
   {
     "fileName": "1166-012E-24011511-RB_279_T-upgradeMe.ota",
@@ -227,7 +227,7 @@
     "imageType": 302,
     "manufacturerCode": 4454,
     "sha512": "1577a35a5eaae9b06bc48ed59312bf799a5fb553a1ad367c1503be89ffd6f1a919d08a3787d99fb7252c2eb4ced58d254b6372c0abd814a86698cc7d9b35bd90",
-    "otaHeaderString": "Light\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "Light"
   },
   {
     "fileName": "1166-012F-24011511-RB_286_C-upgradeMe.ota",
@@ -237,7 +237,7 @@
     "imageType": 303,
     "manufacturerCode": 4454,
     "sha512": "e98cae11a8ea9a01c7f3e6d6841f84c2e078500137ff0015d6eb5f4ec22d6efe8052284364fe4c3437482e343065be0fe75c7550394aa9585a4c98f0345741c1",
-    "otaHeaderString": "Light\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "Light"
   },
   {
     "fileName": "1166-022D-24011511-BY_266-upgradeMe.ota",
@@ -247,7 +247,7 @@
     "imageType": 557,
     "manufacturerCode": 4454,
     "sha512": "c3a22a321f042f64b0aabc016ca30ad84d4917908f98296906a8ec8af4bafb4d1f583bb81386ece0cfce36cc7ba97474bc8c4f9c7deeca2710145ba3cd3e244f",
-    "otaHeaderString": "Light\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "Light"
   },
   {
     "fileName": "1166-022F-24011511-BY_286_C-upgradeMe.ota",
@@ -257,7 +257,7 @@
     "imageType": 559,
     "manufacturerCode": 4454,
     "sha512": "ff5634cc35089bf246fe0b903bbecc01824e6a995bfa84db9d3104c871f61529537dedc4174af3da2592ae8b534012d818f75343c3b8ac783d17f62a6303fb21",
-    "otaHeaderString": "Light\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "Light"
   },
   {
     "fileName": "app_innr-sp240-1.7.20.ota",
@@ -267,7 +267,7 @@
     "imageType": 817,
     "manufacturerCode": 4454,
     "sha512": "6e5ab6a6ae4759b0ee46e3bd631f51914f56edd5b0cca4b151061225d1ec5b34dd0ee786e58b13ad8233286e5778042f41b20bdf4d16887403ee2579121cab69",
-    "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "Telink OTA Sample Usage"
   },
   {
     "fileName": "app_innr-sp240-1.7.22_UG.ota",
@@ -277,7 +277,7 @@
     "imageType": 817,
     "manufacturerCode": 4454,
     "sha512": "daa5f1dfb1664bae3ab509de256ef28f53a3579807faca3d94fd59ae5e1982665455802e959b7e87fb26af78e6f342c1070a801419c0d05af7cd2b5f32fd6d6a",
-    "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "Telink OTA Sample Usage"
   },
   {
     "fileName": "app_innr-sp240v2-1.7.20.ota",
@@ -287,7 +287,7 @@
     "imageType": 820,
     "manufacturerCode": 4454,
     "sha512": "a19e8cc9d9486ea20f1cf363d3c32860a4bed5682a714b66e63b35735f98591d687f2b001620550294a950b6689057f678f8a8c0b72e4f00e773bccc3e73d59e",
-    "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "Telink OTA Sample Usage"
   },
   {
     "fileName": "app_innr-sp240v2-1.7.22_UG.ota",
@@ -297,7 +297,7 @@
     "imageType": 820,
     "manufacturerCode": 4454,
     "sha512": "7171c301d9b0fe55a2e4a337e8e6f0c54b457548b68bb9d9c319fe4cad7af5b6543f66c84b41df154b90842b2a5b0c00b8357d1393e4e6090d43d56855189665",
-    "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "Telink OTA Sample Usage"
   },
   {
     "fileName": "app_innr-sp242-1.7.20.ota",
@@ -307,7 +307,7 @@
     "imageType": 818,
     "manufacturerCode": 4454,
     "sha512": "145af01a01064e34f1d6d2d2d8e5a5a748f51fbee52e644fed75c34b0474a0a23c12353ae43a1f83f6fe02e2a18401facfabb925df8317bdf83af94b46df3bf1",
-    "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "Telink OTA Sample Usage"
   },
   {
     "fileName": "app_innr-sp242-1.7.22_UG.ota",
@@ -317,7 +317,7 @@
     "imageType": 818,
     "manufacturerCode": 4454,
     "sha512": "01982361484aa25cd5139c796e1d0b4dac9bc6284aa67978b269440037555950079c7e0f24a6eda30b738eaa17fc56e5a6b162d13a895089b8c6fb3629946387",
-    "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "Telink OTA Sample Usage"
   },
   {
     "fileName": "app_innr-sp242v2-1.7.20.ota",
@@ -327,7 +327,7 @@
     "imageType": 821,
     "manufacturerCode": 4454,
     "sha512": "8c3dd4a68739b5e32779e1511f0b54d8634df5eeca10dd8f8898793d0d2ad349c180ca9ae075d9f153daada72f6c4f3d4118f1aaea655dcc57f5a323d80dcc35",
-    "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "Telink OTA Sample Usage"
   },
   {
     "fileName": "app_innr-sp242v2-1.7.22_UG.ota",
@@ -337,7 +337,7 @@
     "imageType": 821,
     "manufacturerCode": 4454,
     "sha512": "af6298a13f4653c16a44147163158bae2f5a19e7f1adaade5f66f3e93df8bf4eaccc4caf7abb4dd49c0c0601fdd52f8d4c7fe764725086e978ee1b61f6d587ef",
-    "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "Telink OTA Sample Usage"
   },
   {
     "fileName": "app_innr-sp244-1.7.20.ota",
@@ -347,7 +347,7 @@
     "imageType": 819,
     "manufacturerCode": 4454,
     "sha512": "a231abf4ed7a3f34cdc03e7d504ae7b22f9629bd84f64865ee70904f8c3b9be1145b4198ddc94474d68249a6a4bed3f9ffad09bfe553a7f970ca2c610c798958",
-    "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "Telink OTA Sample Usage"
   },
   {
     "fileName": "app_innr-sp244-1.7.22_UG.ota",
@@ -357,7 +357,7 @@
     "imageType": 819,
     "manufacturerCode": 4454,
     "sha512": "c0e809e7de4e8a9aca1a8dff042b802acb56978681d7cfa62571176fc596f2f5e23340673ab3954d5d4fda2707902ba0b63cc9dd2bc2aea397e6a8120e6b10d7",
-    "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "Telink OTA Sample Usage"
   },
   {
     "fileName": "app_innr-sp244v2-1.7.20.ota",
@@ -367,7 +367,7 @@
     "imageType": 822,
     "manufacturerCode": 4454,
     "sha512": "c0bc0fe05d920db42a826fa7379704ef71047046809d9fd8d479a41b3aa5d5a47e4883e2caa72208772a6ad32a5d137fd2a262bac106cf93a1677358ea4aa170",
-    "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "Telink OTA Sample Usage"
   },
   {
     "fileName": "app_innr-sp244v2-1.7.22_UG.ota",
@@ -377,7 +377,7 @@
     "imageType": 822,
     "manufacturerCode": 4454,
     "sha512": "a2020ca5b93f39733fc97686e8bd333b69a490d1fa3587df9ae8c9932d83a934d4c3304f878e779c917f96fe9ffe1bb6c1aa493d3b6892726f28ade588e1695b",
-    "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "Telink OTA Sample Usage"
   },
   {
     "fileName": "innr_controlleddevice-sp240-1.6.22.ota",
@@ -387,7 +387,7 @@
     "imageType": 817,
     "manufacturerCode": 4454,
     "sha512": "d137e8f7017c1bb02470972040bc11cb57cf5c846c86abe1703c9a78e9323d1dcf2c43466f7304eb3bd779ac7888e6f4b0f25030c24c82de038e3d7307e5cdc7",
-    "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "Telink OTA Sample Usage"
   },
   {
     "fileName": "innr_controlleddevice-sp242-1.6.22.ota",
@@ -397,7 +397,7 @@
     "imageType": 818,
     "manufacturerCode": 4454,
     "sha512": "5127a89cc56154b83bb0f77d1287338b7c0734c3f35d8668a8162a7bb00531a89d8e9a15241d87429f0f96f7cc163fe80e5baeddb5d0d89742eb563f531cc73b",
-    "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "Telink OTA Sample Usage"
   },
   {
     "fileName": "innr_controlleddevice-sp244-1.6.22.ota",
@@ -407,7 +407,7 @@
     "imageType": 819,
     "manufacturerCode": 4454,
     "sha512": "178498b7ad89b81792ad34df675167fcbee3c306e6bbe7336b97fe06f92b5e919d6c6b9a14788172e47deaa4422b977fed38fce7af61dd92a471886325421cc7",
-    "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "Telink OTA Sample Usage"
   },
   {
     "fileName": "DMS300Z_OTA_ENC_V2_ENC.ota",
@@ -457,7 +457,7 @@
     "imageType": 6169,
     "manufacturerCode": 4447,
     "sha512": "33628a75e7b8ce56a0abbead156769a015889157118798f747e5324d906317453f01c4dcbcff357ff74d8f5fb019449f102d36e55f42b985347e1bd8d53eb476",
-    "otaHeaderString": "lumi.switch.n0acn2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "lumi.switch.n0acn2"
   },
   {
     "fileName": "20220210104855_OTA_lumi.plug.mmeu01_0.0.0_0024_20220123_3B6A73.ota",
@@ -517,7 +517,7 @@
     "imageType": 0,
     "manufacturerCode": 4420,
     "sha512": "393215d51cb4c36d772323cae3731b92fa8a12367feb361afb0a1e5e55e2869f91d1221ea8d565d44b8eabedc2dcf8c8949e64cbe0101f378d8ffc3404d61648",
-    "otaHeaderString": "EBL Z3SwitchSoc\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "EBL Z3SwitchSoc"
   },
   {
     "fileName": "128b-0002-021D-700_p1771_nodon_sin_2_fw_efr32_V021D.zigbee",
@@ -527,7 +527,7 @@
     "imageType": 2,
     "manufacturerCode": 4747,
     "sha512": "2633cd834dac414cebfdb71e43a7a0e3b5f637316af3915abb917626cf84d9e37d1f08bf70b3d270b8a13ac34079c947411d147710a2a5c3257311af27a2c1f0",
-    "otaHeaderString": "nodon_sin_efr32_ota\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "nodon_sin_efr32_ota"
   },
   {
     "fileName": "128b-0002-021F-700_nodon_sin_2_fw_efr32_V021F.zigbee",
@@ -537,7 +537,7 @@
     "imageType": 2,
     "manufacturerCode": 4747,
     "sha512": "6713ef76826e239834ee4aaaf413a8f941c764df68f5a02ac7360ea720e51ae83f46725231a2c303860006fcd9e7820c11f00c879854e49f0195f6debf4bdd5f",
-    "otaHeaderString": "nodon_sin_efr32_ota\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "nodon_sin_efr32_ota"
   },
   {
     "fileName": "128b-0002-0300-700_nodon_sin_2_fw_efr32_V0300.zigbee",
@@ -547,7 +547,7 @@
     "imageType": 2,
     "manufacturerCode": 4747,
     "sha512": "130997beac3b0774823ab81d1703fd1ba81c70b6cf0d6b61a4afeb727d1306b9de21444a1c566af9e0e933592b8c87869714b8b6ce706db34c5ae86ab4b17c2d",
-    "otaHeaderString": "nodon_sin_efr32_ota\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "nodon_sin_efr32_ota"
   },
   {
     "fileName": "128b-0002-0301-700_nodon_sin_2_fw_efr32_V0301.zigbee",
@@ -557,7 +557,7 @@
     "imageType": 2,
     "manufacturerCode": 4747,
     "sha512": "e9b2d70a51338c24a291201f5b7850877167e3e8c0505b84db038ddaa27865b1e03bd3ce1d618439b1c31319335a9c76fe2d6e9afcc83df1496c5f43b9c4629f",
-    "otaHeaderString": "nodon_sin_efr32_ota\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "nodon_sin_efr32_ota"
   },
   {
     "fileName": "128b-0002-0303-700_nodon_sin_2_fw_efr32_V0303.zigbee",
@@ -567,7 +567,7 @@
     "imageType": 2,
     "manufacturerCode": 4747,
     "sha512": "39b864ea809546ba4470599eef1a821650f364a14f2ce02dd37411c2141fb15d8628d52f8b8310e50ad337a32ec450e30d2fd2645029abb369dae90145111c0b",
-    "otaHeaderString": "nodon_sin_efr32_ota\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "nodon_sin_efr32_ota"
   },
   {
     "fileName": "128b-0005-0300-700_nodon_sin_met_fw_efr32_V0300.zigbee",
@@ -577,7 +577,7 @@
     "imageType": 5,
     "manufacturerCode": 4747,
     "sha512": "184b9a1e6e3eee2333231073c2c8dd3b2e4072219a2774bd57f59fcb09b0acbce1539fd5d9f28a808fb8ba1312c974d4cfc502e71ed6b02747d229aef78f1e9a",
-    "otaHeaderString": "nodon_sin_efr32_ota\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "nodon_sin_efr32_ota"
   },
   {
     "fileName": "128b-0005-0301-700_nodon_sin_met_fw_efr32_V0301.zigbee",
@@ -587,7 +587,7 @@
     "imageType": 5,
     "manufacturerCode": 4747,
     "sha512": "b86a0f63d65f8ee802a2339b0b107d3dc268eb04ad1573bd73e22318965d7c0a25e8fffff2e5ad3a558358a3c7a626eb869c8db4831c558873c8a6929308d67f",
-    "otaHeaderString": "nodon_sin_efr32_ota\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "nodon_sin_efr32_ota"
   },
   {
     "fileName": "128b-0005-0303-700_nodon_sin_met_fw_efr32_V0303.zigbee",
@@ -597,7 +597,7 @@
     "imageType": 5,
     "manufacturerCode": 4747,
     "sha512": "437c21fbcfd1d5ca853fe5cfe3b86c2705f7fda0160f536ea115ec514a0d56d7078543b0ef888c0f95ad697311bab9179cb4189cad9e85411ac53726bfcd9a33",
-    "otaHeaderString": "nodon_sin_efr32_ota\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "nodon_sin_efr32_ota"
   },
   {
     "fileName": "128b-0006-021F-700_nodon_sin_fp_fw_efr32_V021F.zigbee",
@@ -607,7 +607,7 @@
     "imageType": 6,
     "manufacturerCode": 4747,
     "sha512": "c64adcf1118f58b3d906a7f6261e103c2d8a8d8e8c1d69e27bbe568d38c8fc44cdf0b23e0b9fd311002a5c467a07cd0fa8b2376ec8e93dc56800b19b2ad37519",
-    "otaHeaderString": "nodon_sin_efr32_ota\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "nodon_sin_efr32_ota"
   },
   {
     "fileName": "128b-0006-0300-700_nodon_sin_fp_fw_efr32_V0300.zigbee",
@@ -617,7 +617,7 @@
     "imageType": 6,
     "manufacturerCode": 4747,
     "sha512": "9dc7ab976a2f371f2dd97559ff84abfa40e36e913775f1b2adb30c501ded716e713b88187b5a95ba3b2928170a96509a25223dc89c5cb742df2093fc04ae5d5e",
-    "otaHeaderString": "nodon_sin_efr32_ota\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "nodon_sin_efr32_ota"
   },
   {
     "fileName": "128b-0006-0301-700_nodon_sin_fp_fw_efr32_V0301.zigbee",
@@ -627,7 +627,7 @@
     "imageType": 6,
     "manufacturerCode": 4747,
     "sha512": "393565319a21abf23627aba67c238650fa6df1a6482601b416df4e37f285d5685cb5eeae3497b834e08aff55c7dede46e9f5c5ba6436d5a463293db37d596b63",
-    "otaHeaderString": "nodon_sin_efr32_ota\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "nodon_sin_efr32_ota"
   },
   {
     "fileName": "128b-0006-0303-700_nodon_sin_fp_fw_efr32_V0303.zigbee",
@@ -637,7 +637,7 @@
     "imageType": 6,
     "manufacturerCode": 4747,
     "sha512": "f325036d14ac78b2d5831bf7b3f53e069ab777065d07f12bf397f593b4440753dfb944884f8e96c429e246f9e5f14a7b9973cf007c07ce5ee60821cff69ce45d",
-    "otaHeaderString": "nodon_sin_efr32_ota\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "nodon_sin_efr32_ota"
   },
   {
     "fileName": "128b-0009-021A-700_p1771_nodon_sin_rs_fw_efr32_V021A.zigbee",
@@ -647,7 +647,7 @@
     "imageType": 9,
     "manufacturerCode": 4747,
     "sha512": "30365c2d1945dd90cbeab116ccf77b2fd991fbaa82de76cf8a391469a0bee7d7075883186fb262f527a23750a89d795ced1a4bd53d8f46142b3ca000c7b77f74",
-    "otaHeaderString": "nodon_sin_efr32_ota\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "nodon_sin_efr32_ota"
   },
   {
     "fileName": "128b-0009-021D-700_p1771_nodon_sin_rs_fw_efr32_V021D.zigbee",
@@ -657,7 +657,7 @@
     "imageType": 9,
     "manufacturerCode": 4747,
     "sha512": "04e54428ee79dba041a7d41968ebdd584bf2281c08371ecfca885189484b233244c9e331f1f77173730e0f5890721da50a3982c8d6245d7af4be9fe89ef68426",
-    "otaHeaderString": "nodon_sin_efr32_ota\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "nodon_sin_efr32_ota"
   },
   {
     "fileName": "128b-0009-021F-700_nodon_sin_rs_fw_efr32_V021F.zigbee",
@@ -667,7 +667,7 @@
     "imageType": 9,
     "manufacturerCode": 4747,
     "sha512": "ae3dae174f703fede77d6dea1620f8d143c71d867c1ca5c8741f8f00f2f9c3149464262b6c88de62512f49b28ae9cef009222991d6ceb311481e0c70e50a84c8",
-    "otaHeaderString": "nodon_sin_efr32_ota\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "nodon_sin_efr32_ota"
   },
   {
     "fileName": "128b-0009-0300-700_nodon_sin_rs_fw_efr32_V0300.zigbee",
@@ -677,7 +677,7 @@
     "imageType": 9,
     "manufacturerCode": 4747,
     "sha512": "89f6a3cae30018c9c6f6045ef3c475a1a12e9af0ddd9d0cfadfea122e2353b76e7e2d14a860c4292a67212d9d4315e84e9c123a47c4c694f753a88d6b1a01254",
-    "otaHeaderString": "nodon_sin_efr32_ota\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "nodon_sin_efr32_ota"
   },
   {
     "fileName": "128b-0009-0303-700_nodon_sin_rs_fw_efr32_V0303.zigbee",
@@ -687,7 +687,7 @@
     "imageType": 9,
     "manufacturerCode": 4747,
     "sha512": "5a372c6e6d24fe307ccc9693fe14b68cff09d588f5736e4210d3ca2cb09956835781df5b1a20c5a650ab1bf61125f64e7d11b257451591e37fa1ea0d45b93f00",
-    "otaHeaderString": "nodon_sin_efr32_ota\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "nodon_sin_efr32_ota"
   },
   {
     "fileName": "128b-000A-021D-700_p1771_nodon_sin_1_fw_efr32_V021D.zigbee",
@@ -697,7 +697,7 @@
     "imageType": 10,
     "manufacturerCode": 4747,
     "sha512": "fb81608a3cc6e7ffd4efcfc409449d0f75bcea27e6ee1405b8f30e4c59f72346f203d97d1ecc549a2145138f494c1fcdcf65c048cb537bc420989026c97ed40c",
-    "otaHeaderString": "nodon_sin_efr32_ota\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "nodon_sin_efr32_ota"
   },
   {
     "fileName": "128b-000A-021F-700_nodon_sin_1_fw_efr32_V021F.zigbee",
@@ -707,7 +707,7 @@
     "imageType": 10,
     "manufacturerCode": 4747,
     "sha512": "e40fdab5bc41b290ba85b8b1da167b3d4b1698b73b7231e6122a9e8f6e17ddd15b58dbb0a81b0fc91d7098a7d0b094a25ed894d5b77fc5311da4473992e36ea5",
-    "otaHeaderString": "nodon_sin_efr32_ota\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "nodon_sin_efr32_ota"
   },
   {
     "fileName": "128b-000A-0300-700_nodon_sin_1_fw_efr32_V0300.zigbee",
@@ -717,7 +717,7 @@
     "imageType": 10,
     "manufacturerCode": 4747,
     "sha512": "e6ad40443575405353279e7edc0e23f4b4ded8391012f97d1e0db9d661854f6bf4cd707a969337b53e0fb7fd64ba7dbdad268d9bb3e4856c837fe47d9c06da1e",
-    "otaHeaderString": "nodon_sin_efr32_ota\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "nodon_sin_efr32_ota"
   },
   {
     "fileName": "128b-000A-0301-700_nodon_sin_1_fw_efr32_V0301.zigbee",
@@ -727,7 +727,7 @@
     "imageType": 10,
     "manufacturerCode": 4747,
     "sha512": "63fff10432dcdfd8b8787a347a472391c748d74b1e5f925997f52de73b35e64e1d048ef378758e55032e9b0999cd119843047695b464746d71786bdeaddaffd2",
-    "otaHeaderString": "nodon_sin_efr32_ota\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "nodon_sin_efr32_ota"
   },
   {
     "fileName": "128b-000A-0303-700_nodon_sin_1_fw_efr32_V0303.zigbee",
@@ -737,7 +737,7 @@
     "imageType": 10,
     "manufacturerCode": 4747,
     "sha512": "b162adae0020c2bb337aef102383338fbfe8d59d29f8fa73b8382ef6ef1e020adba1cefea7149d94733911aafadafab5921efa79e6515c8f2bf1e1e491925373",
-    "otaHeaderString": "nodon_sin_efr32_ota\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "nodon_sin_efr32_ota"
   },
   {
     "fileName": "128b-0105-010405-700_nodon_sin_xx_met_fm_stm32_V010405.zigbee",
@@ -747,7 +747,7 @@
     "imageType": 261,
     "manufacturerCode": 4747,
     "sha512": "f2d5f9551ce46e683da7863d0ac70f3df4f0876be30268ddd86c5e095ef51d99296e94091643cee327dc33b3f3d516ef4a8cb0b5a57bfdd99a8bf365269b8d5d",
-    "otaHeaderString": "nodon_sinMet_stm32_ota\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "nodon_sinMet_stm32_ota"
   },
   {
     "fileName": "128b-0106-010401-700_nodon_sin_xx_met_fm_stm32_V010401.zigbee",
@@ -757,7 +757,7 @@
     "imageType": 262,
     "manufacturerCode": 4747,
     "sha512": "d3b6ffd8d09750ceed10584649775e6aa2681085196e31bd5a1478f7ec1e8a5571244c47f9289d74cd3dad2d003307eb0083cb51f7d93afd02b916672d23baea",
-    "otaHeaderString": "nodon_sin_stm32_ota\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "nodon_sin_stm32_ota"
   },
   {
     "fileName": "128b-0106-010405-700_nodon_sin_xx_met_fm_stm32_V010405.zigbee",
@@ -767,7 +767,7 @@
     "imageType": 262,
     "manufacturerCode": 4747,
     "sha512": "8e726566f8e6de3a0c1a86252b5330ce145b84045ccc583b6e02e92680140f7b64f81d35dcedd20958104afddbd497122770ddfb1e4b6c50cd2a5e118b052aae",
-    "otaHeaderString": "nodon_sin_stm32_ota\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "nodon_sin_stm32_ota"
   },
   {
     "fileName": "128b-0109-010300-700_nodon_sin_rs_fm_stm32_V010300.zigbee",
@@ -777,7 +777,7 @@
     "imageType": 265,
     "manufacturerCode": 4747,
     "sha512": "866d73a17eb3eabe51f256e0a35dcc34e236522819ae220ba68cf9867a8c380a24abcfe840be135e185e1f34839e9160df6cdc41a6c9a734634945222ed38f23",
-    "otaHeaderString": "nodon_sin_stm32_ota\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "nodon_sin_stm32_ota"
   },
   {
     "fileName": "128b-010A-10101-700_nodon_sin_1_fm_stm32_V10101.zigbee",
@@ -787,7 +787,7 @@
     "imageType": 266,
     "manufacturerCode": 4747,
     "sha512": "384ba32f433aa559534d246e498ff289bc6acb029379c816249b1e4e40dddef70da39a0e82b168a36851918c8d89f8fe245b15031faa860ff2175a077c2e364b",
-    "otaHeaderString": "nodon_sin_stm32_ota\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "nodon_sin_stm32_ota"
   },
   {
     "fileName": "007B-0141-00002867-good_image_PL_1_3_43.zigbee",
@@ -797,7 +797,7 @@
     "imageType": 321,
     "manufacturerCode": 123,
     "sha512": "b27714b307f6e6ac8fb1c3dacf3ebda25afd7c36fe7cea72637aedd90c1164807035d51e00743069ef4bd165787feab4ce3c678808dddf109e5e76847b695843",
-    "otaHeaderString": "\ngood_image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "\ngood_image"
   },
   {
     "fileName": "1542704530003_RDS2017007_E11-N1EA_V0.0.49_20181026_release.ota",
@@ -807,7 +807,7 @@
     "imageType": 1004,
     "manufacturerCode": 4448,
     "sha512": "4d4d20b3e162db7fc250f90c6220181d221b36f89a32ef4ad1d9081a04538a1c36c55a23da273b74822e968b2f6a82c75a62fb6df866ac53f80a68b597556420",
-    "otaHeaderString": "EBL rgb_lamp\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "EBL rgb_lamp"
   },
   {
     "fileName": "1554860326863_RDS2018021_E1G-G8E_V10_20190405_release.ota",
@@ -817,7 +817,7 @@
     "imageType": 5,
     "manufacturerCode": 4448,
     "sha512": "24e5db1ad8edf50489ff7ad4e683fd3f1c339b890df2f5a95e128df07c65305d19404e4363dd9882f6d2a0629e0dc2ca48e0016782645ee9c543e8250a713b39",
-    "otaHeaderString": "EBL RGB_LampTape\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "EBL RGB_LampTape"
   },
   {
     "fileName": "snzb-06p_v1.0.5.ota",
@@ -827,7 +827,7 @@
     "imageType": 2060,
     "manufacturerCode": 4742,
     "sha512": "fdcd4e238b25a971d79746a0305e185567e027c3ba08ed42ac7ca003601c25ccce497fd1f8e6ede1e0e7b058768bc2daf3ebc985174fc6265a9df4acc4f81467",
-    "otaHeaderString": "vers: ZigBee:00001005\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "vers: ZigBee:00001005"
   },
   {
     "fileName": "trvzb_v1.1.1.ota",
@@ -837,7 +837,7 @@
     "imageType": 8199,
     "manufacturerCode": 4742,
     "sha512": "b132f02055dffcbf55ccf94f164f1cc1fedb350be4755b56a8da1c3c51ae6814bba3e8650376ce76a0783394eae1315e912deba917efd4f36557c92068b437ef",
-    "otaHeaderString": "vers:00001101,00001101\n\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "vers:00001101,00001101\n"
   },
   {
     "fileName": "trvzb_v1.1.5.ota",
@@ -847,7 +847,7 @@
     "imageType": 8199,
     "manufacturerCode": 4742,
     "sha512": "648ae2ebb866d0d0a2e593b34570943d7fd8596a417597eb4a1966d7caa5bbf60611659ee211aa0d0788d79fbd58627f4e9ac87a62c97912c6a83652e90ef734",
-    "otaHeaderString": "vers:00001105,00001106\n\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "vers:00001105,00001106\n"
   },
   {
     "fileName": "zbswv_v1.0.3.ota",
@@ -857,7 +857,7 @@
     "imageType": 8202,
     "manufacturerCode": 4742,
     "sha512": "2108581ad91e16464c6abc4919808899abadcab566ad7f43ad3bf8d4e0ac6734dfbf2b82fcfdaf098570e7501a6e03a8fc1036f9f91c1b3e8911b37be350de1c",
-    "otaHeaderString": "ota-file-test\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "ota-file-test"
   },
   {
     "fileName": "wb_msw4_mgm_061.ota",
@@ -867,7 +867,7 @@
     "imageType": 13,
     "manufacturerCode": 26214,
     "sha512": "f68ec119f2a779f10446847d7fe0edcebf44f19bd5e452631aacba295bfcae4881f0a7be934c03e864c3262f26ede6f527f299a4157c6997f94db2fb925a5709",
-    "otaHeaderString": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": ""
   },
   {
     "fileName": "zb_wb_msw4_005.ota",
@@ -877,7 +877,7 @@
     "imageType": 13,
     "manufacturerCode": 26214,
     "sha512": "bf3155e470014ebd73b132102e26b460629030b314d00fe78ddd0c3ca157409e9c0e1d23aa93e34454391688f6294719be964627969cefcfc48efbb3c1dfdc96",
-    "otaHeaderString": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": ""
   },
   {
     "fileName": "zb_wb_msw4_mg21_062.ota",
@@ -887,7 +887,7 @@
     "imageType": 15,
     "manufacturerCode": 26214,
     "sha512": "0f5b47092c2df550270460d9e446563da1bb72fd841747c9b738f6b75de6cebecdc92aa7aa3be2c814cbea9aea624c5f9d0f4dbdbc150f3b569c25d764629d02",
-    "otaHeaderString": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": ""
   },
   {
     "fileName": "zb_wb_msw4_mgm21_062.ota",
@@ -897,7 +897,7 @@
     "imageType": 13,
     "manufacturerCode": 26214,
     "sha512": "9d47a8eaaaf41c8fa03abafbcb407450a6ca3ff25006cfa33e1c7d3b663ec4b0472c4c2622aa246152488ef5854c293d0932712bbe364bf8a7ff5a72c3b74c30",
-    "otaHeaderString": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": ""
   },
   {
     "fileName": "zb_wb_msw_31_692_0_058.ota",
@@ -907,7 +907,7 @@
     "imageType": 1,
     "manufacturerCode": 26214,
     "sha512": "40435559fe1aa4be0fa3cfffdb46a010a28a7776e6c73e200f43560d18eeb3f0fd594855781f39800b05b668161dcc2342d65f11e4e80642cbe814a27fa4bab7",
-    "otaHeaderString": "EBL zb_wb_msw\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "EBL zb_wb_msw"
   },
   {
     "fileName": "zb_wb_msw_31_692_A_058.ota",
@@ -917,7 +917,7 @@
     "imageType": 2,
     "manufacturerCode": 26214,
     "sha512": "0dd1d20605de46ed5c068cbb07a4c31cc11d87042717083887d1b0abc8fbdc0c33928286669b206d7cf79228832b6410f488c7a316250a1b0fa144749b40328b",
-    "otaHeaderString": "EBL zb_wb_msw\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "EBL zb_wb_msw"
   },
   {
     "fileName": "1141-0203-10023001-z03mmc.zigbee",
@@ -927,7 +927,7 @@
     "imageType": 515,
     "manufacturerCode": 4417,
     "sha512": "b0ba8552a907b77a0158d91c618f27549981ff9845fa5f69ec7ca490453efbd4b029f3347ec5d770a17a0d7990cda31a66898f4268dc260478aea41220294ee8",
-    "otaHeaderString": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": ""
   },
   {
     "fileName": "1141-0203-10043001-z03mmc.zigbee",
@@ -937,7 +937,7 @@
     "imageType": 515,
     "manufacturerCode": 4417,
     "sha512": "54c954123b43a4c41376f57e4ab1869dca2698c178a82251725174e976da9107ebb7ddf632aa8223ba49a6b5e3dba7a878db7dcf801dcc5c3b888c2d5c1378a5",
-    "otaHeaderString": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": ""
   },
   {
     "fileName": "1141-0203-10053001-z03mmc.zigbee",
@@ -947,7 +947,7 @@
     "imageType": 515,
     "manufacturerCode": 4417,
     "sha512": "3c62be5c6558ea918932fe52fcdc0c622d8fdedb9fd3d8e62fb1c430c4f95f64d710388efe3e565bda4403e18f624f586e8fc2a3b3570b00687470faf58d807e",
-    "otaHeaderString": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": ""
   },
   {
     "fileName": "1141-0203-10063001-z03mmc.zigbee",
@@ -957,7 +957,7 @@
     "imageType": 515,
     "manufacturerCode": 4417,
     "sha512": "9dc307f05613bd43384744901eb4aea7bb5cfa9f4385ee2693b46afd1d0f5dc5eca6e5ce217a04aae9d1ba89799b389a6f9b01ca7779aed80ece355c91c92d90",
-    "otaHeaderString": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": ""
   },
   {
     "fileName": "1654157434-oem_zg_tl8258_plug_OTA_1.0.13.bin",
@@ -967,7 +967,7 @@
     "imageType": 54179,
     "manufacturerCode": 4417,
     "sha512": "97ea8413e8ab662f2bebf3b013b3030754cbc2c0744b91b14741fff17a2d8d99e7088aa22a3b6e43b3595ccd65433f96d32516fc057fddcc13a816c921af8c97",
-    "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "Telink OTA Sample Usage"
   },
   {
     "fileName": "nas_wr01b_plug_OTA_1.0.10.bin",
@@ -977,7 +977,7 @@
     "imageType": 54179,
     "manufacturerCode": 4417,
     "sha512": "3c70afc8d2488c22b7a99ab53cf0250b6aa12b2eb5d703cb819620c07dc10dbdd7fe8e3a2ef63cdaedd9b97d502c71c2c2c199fb05121f977b87a86e8bbe91bb",
-    "otaHeaderString": "Telink OTA Sample Usage\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "Telink OTA Sample Usage"
   },
   {
     "fileName": "1600167449-si32_zg_uart_connect_sleep_ZS5_ty_OTA_1.1.5.bin",
@@ -987,6 +987,6 @@
     "imageType": 5634,
     "manufacturerCode": 4098,
     "sha512": "aefc41c93329f36f87ac955a1b2f15706c8371e9ad275234b6519c84a76c642037fc63f71236829c764ed5898dc7aedc27736797faf1bc1dfeec0e93a824ed43",
-    "otaHeaderString": "EBL sdk_route\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+    "otaHeaderString": "EBL sdk_route"
   }
 ]

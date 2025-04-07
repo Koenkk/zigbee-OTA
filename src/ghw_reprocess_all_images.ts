@@ -275,7 +275,7 @@ function checkImagesAgainstManifests(github: Octokit, core: typeof CoreApi, cont
                                     imageType: parsedImage.imageType,
                                     manufacturerCode: parsedImage.manufacturerCode,
                                     sha512: computeSHA512(firmwareBuffer),
-                                    otaHeaderString: parsedImage.otaHeaderString,
+                                    otaHeaderString: parsedImage.otaHeaderString.replaceAll("\u0000", ""),
                                 });
                             } catch (error) {
                                 core.error(`Removing ${firmwareFilePath}: ${error}`);
@@ -307,7 +307,7 @@ function checkImagesAgainstManifests(github: Octokit, core: typeof CoreApi, cont
                                         imageType: parsedImage.imageType,
                                         manufacturerCode: parsedImage.manufacturerCode,
                                         sha512: computeSHA512(firmwareBuffer),
-                                        otaHeaderString: parsedImage.otaHeaderString,
+                                        otaHeaderString: parsedImage.otaHeaderString.replaceAll("\u0000", ""),
                                         ...extraMetas,
                                     });
                                 }
