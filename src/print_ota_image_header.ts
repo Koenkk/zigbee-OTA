@@ -1,5 +1,7 @@
 import {readFileSync} from "node:fs";
 
-import {parseImageHeader} from "./common.js";
+import {UPGRADE_FILE_IDENTIFIER, parseImageHeader} from "./common.js";
 
-console.log(parseImageHeader(readFileSync(process.argv[2])));
+const firmwareBuffer = readFileSync(process.argv[2]);
+
+console.log(parseImageHeader(firmwareBuffer.subarray(firmwareBuffer.indexOf(UPGRADE_FILE_IDENTIFIER))));

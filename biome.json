@@ -10,6 +10,7 @@
     "files": {
         "ignore": [
             "package.json",
+            "./index-stackinfo.json",
             "./index.json",
             "./index1.json",
             "./.cache",
