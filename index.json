@@ -7802,5 +7802,19 @@
     "sha512": "0a8ed186dd75b08e9eea0bb4baee37d8ea95639867cd1bd0c95d8b451fc6f363c04e06ff59b83c82f056549a5dcd89ff9487df74d3e29158953be4969c9acfb2",
     "otaHeaderString": "ZigbeeTLc OTA",
     "modelId": "ZG227-z"
+  },
+  {
+    "fileName": "4512733-Firmware-35.ota",
+    "fileVersion": 54,
+    "fileSize": 278354,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Namron/4512733-Firmware-35.ota",
+    "imageType": 301,
+    "manufacturerCode": 4644,
+    "sha512": "96143d82e216dd8fcd8a1e893c7bac2fcbd98fed1d182475c391981e9be3da9f19575aefcce3d6b50316ca50b11d29332cbe4f0bfdac5151054e367ff09632fa",
+    "otaHeaderString": "4512733",
+    "manufacturerName": [
+      "Namron"
+    ],
+    "modelId": "4512733"
   }
 ]
