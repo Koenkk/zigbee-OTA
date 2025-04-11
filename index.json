@@ -7600,9 +7600,6 @@
     "manufacturerCode": 4644,
     "sha512": "ff1f08b6e1653484d759d9538593b53b62597c44f4b3038ce581190be8cf1dd858f94ab0a7a462d6c3d462f06e5039b6726671baa318a4277a4a18cb8a1e6234",
     "otaHeaderString": "Encrypted GBL Z3DimSoc_sdk690_ef",
-    "manufacturerName": [
-      "Namron"
-    ],
     "modelId": "4512760"
   },
   {
@@ -7812,9 +7809,6 @@
     "manufacturerCode": 4644,
     "sha512": "96143d82e216dd8fcd8a1e893c7bac2fcbd98fed1d182475c391981e9be3da9f19575aefcce3d6b50316ca50b11d29332cbe4f0bfdac5151054e367ff09632fa",
     "otaHeaderString": "4512733",
-    "manufacturerName": [
-      "Namron"
-    ],
     "modelId": "4512733"
   }
 ]
