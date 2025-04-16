@@ -1572,17 +1572,6 @@
     "otaHeaderString": "vzm32-sn_mmWave"
   },
   {
-    "fileName": "VZM30-SN_0.03.ota",
-    "fileVersion": 17825795,
-    "fileSize": 228406,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Inovelli/VZM30-SN_0.03.ota",
-    "imageType": 272,
-    "manufacturerCode": 4655,
-    "sha512": "e3e4d75124c74d0595af42e9371b590098d63e86bbda515ca9a309c39894388d8fcf378969c1038d57806809464aa8a975e4f32a18d1f6836605252b58f1a9ea",
-    "otaHeaderString": "VZM30-SN_OnOff",
-    "originalUrl": "https://files.inovelli.com/firmware/VZM30-SN/Beta/0.03/VZM30-SN_0.03.ota"
-  },
-  {
     "fileName": "ota_t0x300a_m0x1209_v0x37041514.ota",
     "fileVersion": 923014420,
     "fileSize": 168518,
@@ -1780,5 +1769,16 @@
     "sha512": "14f444fef0a36b861a36e20f44fc5920eb9d68f474238601e6f4b097399e96255cabccf5fb23c0f57d10215b576767bd9f92507cc17331879990cc670ab867bc",
     "otaHeaderString": "ZigbeeTLc OTA",
     "modelId": "ZG227-z"
+  },
+  {
+    "fileName": "VZM30-SN_0.04.ota",
+    "fileVersion": 17825796,
+    "fileSize": 224590,
+    "originalUrl": "https://files.inovelli.com/firmware/VZM30-SN/Beta/0.04/VZM30-SN_0.04.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Inovelli/VZM30-SN_0.04.ota",
+    "imageType": 272,
+    "manufacturerCode": 4655,
+    "sha512": "53bee137d4450ca55d1d0cd9e49777daa01729c421b04c750fc25ae01bdf79394c15b9ca3178a08f42895e987a034c4b030866edb83e66cd105e655b8319c35c",
+    "otaHeaderString": "VZM30-SN_OnOff"
   }
 ]
