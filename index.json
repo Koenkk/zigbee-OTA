@@ -6363,21 +6363,6 @@
     ]
   },
   {
-    "fileName": "1718263020-oem_zg_tl8258_plug_OTA_1.1.0.bin",
-    "fileVersion": 80,
-    "fileSize": 310402,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Telink/1718263020-oem_zg_tl8258_plug_OTA_1.1.0.bin",
-    "imageType": 54179,
-    "manufacturerCode": 4417,
-    "sha512": "c541878e792620ad16cc70967e0458c03de21876ad8ed3c3b1eb90c8ecf7bcdfe6bfe711460a5888bb033def141e7dd22d78fe24c44a4e0b9707afb473a2d2a2",
-    "otaHeaderString": "Telink OTA Sample Usage",
-    "manufacturerName": [
-      "_TZ3000_w0qqde0g",
-      "_TZ3000_dksbtrzs",
-      "_TZ3000_fukaa7nc"
-    ]
-  },
-  {
     "fileName": "TERNCY-SD01_v46.OTA",
     "fileVersion": 26,
     "fileSize": 131522,
@@ -7817,5 +7802,21 @@
     "sha512": "89aa14e5c33bba2b5758db6737462bab2bd8b64fd34eee27749144533822c8b77a96d3e6b8d0824ff92edb63f3973d2cc3bb2985c6f1a0a445ea393e96292e32",
     "otaHeaderString": "DR1175r1v02--JN5169--ENCRYPTED00",
     "releaseNotes": "RS485 communication updates, etc."
+  },
+  {
+    "fileName": "1730081189-oem_zg_tl8258_plug_OTA_1.1.2.bin",
+    "fileVersion": 82,
+    "fileSize": 311026,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Telink/1730081189-oem_zg_tl8258_plug_OTA_1.1.2.bin",
+    "imageType": 54179,
+    "manufacturerCode": 4417,
+    "sha512": "8c981bb6d2c25a2ca013fbf63fa34f974606c34b60a25ab62daad22af6636855356178694f4c4557902e6dc91705825636ed5bfb8f64e68efa3d69dadc6d881e",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "manufacturerName": [
+      "_TZ3000_w0qqde0g",
+      "_TZ3000_dksbtrzs",
+      "_TZ3000_fukaa7nc"
+    ],
+    "releaseNotes": "Optimize some logic of power detection and add overcharge protection function"
   }
 ]

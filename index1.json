@@ -1800,5 +1800,20 @@
     "manufacturerCode": 4151,
     "sha512": "e1414ec9cde43992fd8e22d39419fdf2c87f4383da677e3499587cf004e70ee7fbe7894816c50c640a0717a59c087ba167cea3c96ee579862f40e73b0d66ee1d",
     "otaHeaderString": "DR1175r1v02--JN5169--ENCRYPTED00"
+  },
+  {
+    "fileName": "1718263020-oem_zg_tl8258_plug_OTA_1.1.0.bin",
+    "fileVersion": 80,
+    "fileSize": 310402,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Telink/1718263020-oem_zg_tl8258_plug_OTA_1.1.0.bin",
+    "imageType": 54179,
+    "manufacturerCode": 4417,
+    "sha512": "c541878e792620ad16cc70967e0458c03de21876ad8ed3c3b1eb90c8ecf7bcdfe6bfe711460a5888bb033def141e7dd22d78fe24c44a4e0b9707afb473a2d2a2",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "manufacturerName": [
+      "_TZ3000_w0qqde0g",
+      "_TZ3000_dksbtrzs",
+      "_TZ3000_fukaa7nc"
+    ]
   }
 ]
