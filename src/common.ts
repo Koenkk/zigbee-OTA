@@ -148,25 +148,17 @@ export function findMatchImage(
     imageList: RepoImageMeta[],
     extraMetas: ExtraMetas,
 ): [index: number, image: RepoImageMeta | undefined] {
-    const imageIndex = imageList.findIndex((i) => {
-        if (
+    const imageIndex = imageList.findIndex(
+        (i) =>
             i.imageType === image.imageType &&
             i.manufacturerCode === image.manufacturerCode &&
             extraMetas.minFileVersion === i.minFileVersion &&
             extraMetas.maxFileVersion === i.maxFileVersion &&
             extraMetas.hardwareVersionMin === i.hardwareVersionMin &&
             extraMetas.hardwareVersionMax === i.hardwareVersionMax &&
-            i.modelId === extraMetas.modelId
-        ) {
-            if (i.manufacturerName) {
-                return extraMetas.manufacturerName && primitivesArrayEquals(i.manufacturerName, extraMetas.manufacturerName);
-            }
-
-            return true;
-        }
-
-        return false;
-    });
+            i.modelId === extraMetas.modelId &&
+            (!i.manufacturerName || (extraMetas.manufacturerName && primitivesArrayEquals(i.manufacturerName, extraMetas.manufacturerName))),
+    );
 
     return [imageIndex, imageIndex === -1 ? undefined : imageList[imageIndex]];
 }
