@@ -1780,5 +1780,15 @@
     "manufacturerCode": 4655,
     "sha512": "53bee137d4450ca55d1d0cd9e49777daa01729c421b04c750fc25ae01bdf79394c15b9ca3178a08f42895e987a034c4b030866edb83e66cd105e655b8319c35c",
     "otaHeaderString": "VZM30-SN_OnOff"
+  },
+  {
+    "fileName": "Soil_Moisture_Sensor_PROD_OTA_V31_v1.00.31.ota",
+    "fileVersion": 31,
+    "fileSize": 139026,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/Soil_Moisture_Sensor_PROD_OTA_V31_v1.00.31.ota",
+    "imageType": 54191,
+    "manufacturerCode": 5127,
+    "sha512": "18aa9d1118fc0a1bf39a037036c9f6229a789a4c4e20f8403838ede9aa771ccfacbf0eff8ca1b52b265f564a4f555613264556f9e1a1884a6f1fd932dc4e4478",
+    "otaHeaderString": "Telink OTA Sample Usage"
   }
 ]
