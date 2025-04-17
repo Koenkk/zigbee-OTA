@@ -19,6 +19,7 @@ export const IMAGE_V13_1 = "ZLinky_router_v13.ota";
 export const IMAGE_V13_2 = "ZLinky_router_v13_limited.ota";
 export const IMAGE_V12_1 = "ZLinky_router_v12.ota";
 export const IMAGE_V12_2 = "ZLinky_router_v12_limited.ota";
+export const IMAGE_V14_2_COPY = "ZLinky_router_v14_limited-copy.ota";
 export const IMAGE_INVALID = "not-a-valid-file.ota";
 export const IMAGE_TAR = "45856_00000006.tar.gz";
 export const IMAGE_TAR_OTA = "Jasco_5_0_1_OnOff_45856_v6.ota";
@@ -170,6 +171,19 @@ export const IMAGE_V12_2_METAS = {
     manufacturerCode: 4151,
     sha512: "4e178e56c1559e11734c07abbb95110675df7738f3ca3e5dbc99393325295ff6c66bd63ba55c0ef6043a80608dbec2be7a1e845f31ffd94f1cb63f32f0d48c6e",
     otaHeaderString: "OM15081-RTR-LIMITED-JN5189-00000",
+};
+/** with manuf */
+export const IMAGE_V14_2_MANUF_METAS = {
+    fileName: IMAGE_V14_2_COPY,
+    fileVersion: 14,
+    fileSize: 249694,
+    originalUrl: undefined,
+    url: `${common.BASE_REPO_URL}${common.REPO_BRANCH}/images/${IMAGES_TEST_DIR}/${IMAGE_V14_2_COPY}`,
+    imageType: 2,
+    manufacturerCode: 4151,
+    sha512: "f851cbff7297ba6223a969ba8da5182f9ef199cf9c8459c8408432e48485c1a8f018f6e1703a42f40143cccd3bf460c0acd92117d899e507a36845f24e970595",
+    otaHeaderString: "OM15081-RTR-LIMITED-JN5189-00000",
+    manufacturerName: ["lixee"],
 };
 /** obviously bogus, just for mocking */
 export const IMAGE_INVALID_METAS = {
