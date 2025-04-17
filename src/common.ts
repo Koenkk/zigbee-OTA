@@ -157,7 +157,7 @@ export function findMatchImage(
             extraMetas.hardwareVersionMin === i.hardwareVersionMin &&
             extraMetas.hardwareVersionMax === i.hardwareVersionMax &&
             i.modelId === extraMetas.modelId &&
-            (!(i.manufacturerName && extraMetas.manufacturerName) || primitivesArrayEquals(i.manufacturerName, extraMetas.manufacturerName)),
+            (!i.manufacturerName || (extraMetas.manufacturerName && primitivesArrayEquals(i.manufacturerName, extraMetas.manufacturerName))),
     );
 
     return [imageIndex, imageIndex === -1 ? undefined : imageList[imageIndex]];
