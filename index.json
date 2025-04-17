@@ -2338,16 +2338,6 @@
     "otaHeaderString": "DR1175r1v02--JN5169--ENCRYPTED00"
   },
   {
-    "fileName": "TCM300Z_OTA_ENC_V5_ENC.ota",
-    "fileVersion": 5,
-    "fileSize": 221166,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Jennic/TCM300Z_OTA_ENC_V5_ENC.ota",
-    "imageType": 4119,
-    "manufacturerCode": 4151,
-    "sha512": "e1414ec9cde43992fd8e22d39419fdf2c87f4383da677e3499587cf004e70ee7fbe7894816c50c640a0717a59c087ba167cea3c96ee579862f40e73b0d66ee1d",
-    "otaHeaderString": "DR1175r1v02--JN5169--ENCRYPTED00"
-  },
-  {
     "fileName": "TSM300Z_OTA_ENC_V6_ENC.ota",
     "fileVersion": 6,
     "fileSize": 184686,
@@ -7816,5 +7806,16 @@
     "manufacturerCode": 5127,
     "sha512": "3c40fc67cc0fa3e1203fbab939456614f402a4a95670208572d6b3cf948ee4ab978a5431a94f581ae627f8bdaf896eb16d1bff2f72cb226a170b4e4af2b4c9d1",
     "otaHeaderString": "Telink OTA Sample Usage"
+  },
+  {
+    "fileName": "TCM300Z_OTA_ENC_V8_ENC.ota",
+    "fileVersion": 8,
+    "fileSize": 223406,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Jennic/TCM300Z_OTA_ENC_V8_ENC.ota",
+    "imageType": 4119,
+    "manufacturerCode": 4151,
+    "sha512": "89aa14e5c33bba2b5758db6737462bab2bd8b64fd34eee27749144533822c8b77a96d3e6b8d0824ff92edb63f3973d2cc3bb2985c6f1a0a445ea393e96292e32",
+    "otaHeaderString": "DR1175r1v02--JN5169--ENCRYPTED00",
+    "releaseNotes": "RS485 communication updates, etc."
   }
 ]

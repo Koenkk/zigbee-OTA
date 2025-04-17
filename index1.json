@@ -1790,5 +1790,15 @@
     "manufacturerCode": 5127,
     "sha512": "18aa9d1118fc0a1bf39a037036c9f6229a789a4c4e20f8403838ede9aa771ccfacbf0eff8ca1b52b265f564a4f555613264556f9e1a1884a6f1fd932dc4e4478",
     "otaHeaderString": "Telink OTA Sample Usage"
+  },
+  {
+    "fileName": "TCM300Z_OTA_ENC_V5_ENC.ota",
+    "fileVersion": 5,
+    "fileSize": 221166,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Jennic/TCM300Z_OTA_ENC_V5_ENC.ota",
+    "imageType": 4119,
+    "manufacturerCode": 4151,
+    "sha512": "e1414ec9cde43992fd8e22d39419fdf2c87f4383da677e3499587cf004e70ee7fbe7894816c50c640a0717a59c087ba167cea3c96ee579862f40e73b0d66ee1d",
+    "otaHeaderString": "DR1175r1v02--JN5169--ENCRYPTED00"
   }
 ]
