@@ -7818,5 +7818,18 @@
       "_TZ3000_fukaa7nc"
     ],
     "releaseNotes": "Optimize some logic of power detection and add overcharge protection function"
+  },
+  {
+    "fileName": "6565-0387-30043001-electricity_meter_zrd.zigbee",
+    "fileVersion": 805580801,
+    "fileSize": 221714,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-0387-30043001-electricity_meter_zrd.zigbee",
+    "imageType": 903,
+    "manufacturerCode": 25957,
+    "sha512": "e21970f1c093ff6af5499c8e0a4421bc60d100138b2d3212909e289ce2b7a53e20c197924a7ee05272553a7e170b318a85b987b662c257cc804d0844260572df",
+    "otaHeaderString": "",
+    "manufacturerName": [
+      "Slacky-DIY"
+    ]
   }
 ]
