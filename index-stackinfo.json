@@ -1284,12 +1284,6 @@
     "zigbeeStackVersion": "ZigBeePro"
   },
   {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Jennic/TCM300Z_OTA_ENC_V5_ENC.ota",
-    "stack": "Unknown",
-    "stackDetails": "",
-    "zigbeeStackVersion": "ZigBeePro"
-  },
-  {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Jennic/TSM300Z_OTA_ENC_V6_ENC.ota",
     "stack": "Unknown",
     "stackDetails": "",
@@ -3414,12 +3408,6 @@
     "zigbeeStackVersion": "ZigBeePro"
   },
   {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Telink/1718263020-oem_zg_tl8258_plug_OTA_1.1.0.bin",
-    "stack": "Telink",
-    "stackDetails": "",
-    "zigbeeStackVersion": "ZigBeePro"
-  },
-  {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Terncy/TERNCY-SD01_v46.OTA",
     "stack": "EmberZNet",
     "stackDetails": "EBL",
@@ -3463,12 +3451,6 @@
   },
   {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/SmartSwitchGen3_PROD_OTA_V30_v1.00.30.ota",
-    "stack": "Telink",
-    "stackDetails": "",
-    "zigbeeStackVersion": "ZigBeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Soil_Moisture_Sensor_PROD_OTA_V31_v1.00.31.ota",
     "stack": "Telink",
     "stackDetails": "",
     "zigbeeStackVersion": "ZigBeePro"
@@ -3990,12 +3972,6 @@
     "zigbeeStackVersion": "ZigBeePro"
   },
   {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Inovelli/VZM30-SN_0.04.ota",
-    "stack": "EmberZNet",
-    "stackDetails": "GBL",
-    "zigbeeStackVersion": "ZigBeePro"
-  },
-  {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-0204-20043001-watermeter_zed.zigbee",
     "stack": "Telink",
     "stackDetails": "TLSR8258",
@@ -4143,6 +4119,36 @@
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Namron/4512733-Firmware-35.ota",
     "stack": "EmberZNet",
     "stackDetails": "GBL",
+    "zigbeeStackVersion": "ZigBeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Inovelli/VZM30-SN_0.05.ota",
+    "stack": "EmberZNet",
+    "stackDetails": "GBL",
+    "zigbeeStackVersion": "ZigBeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Soil_Moisture_Sensor_PROD_OTA_V38_v1.00.38.ota",
+    "stack": "Telink",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigBeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Jennic/TCM300Z_OTA_ENC_V8_ENC.ota",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigBeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Telink/1730081189-oem_zg_tl8258_plug_OTA_1.1.2.bin",
+    "stack": "Telink",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigBeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-0387-30043001-electricity_meter_zrd.zigbee",
+    "stack": "Telink",
+    "stackDetails": "",
     "zigbeeStackVersion": "ZigBeePro"
   }
 ]
