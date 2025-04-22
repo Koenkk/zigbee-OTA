@@ -7881,5 +7881,25 @@
     "manufacturerCode": 4454,
     "sha512": "128de267c5c3ab0a1cff90ba0e19e8641674c27fde6c131bdd175eb86df5e2a07df60b610f974690d211350a79e08ca40f01e6dfbf6202548f03b9a933ec882f",
     "otaHeaderString": "Telink OTA Sample Usage"
+  },
+  {
+    "fileName": "zbm5-120-zed_v1.0.4.ota",
+    "fileVersion": 4100,
+    "fileSize": 273908,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/zbm5-120-zed_v1.0.4.ota",
+    "imageType": 9,
+    "manufacturerCode": 4742,
+    "sha512": "a380068b7f4436d2930d37e6ddf63dddca1dd33dc9f5b6f05be36191c94b3c142735219985c26d1d3521a2216d9b95da44123ab0cab01ea1d77ec55e997de167",
+    "otaHeaderString": "ota-file-test"
+  },
+  {
+    "fileName": "zbm5-120-zr_v1.0.4.ota",
+    "fileVersion": 4100,
+    "fileSize": 294932,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/zbm5-120-zr_v1.0.4.ota",
+    "imageType": 10,
+    "manufacturerCode": 4742,
+    "sha512": "6825c846d11ba0c2a3f0819ced538f929ecbad0d9a182113d3de5f083c2435af657e8e9b5eb01318938e7914c07fa14c7cac462c87f068dd30e999712e9bd33b",
+    "otaHeaderString": "ota-file-test"
   }
 ]
