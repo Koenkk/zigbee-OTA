@@ -3554,24 +3554,6 @@
         "path": "images/Sonoff/zbmicro_v1.0.5.ota"
     },
     {
-        "fileVersion": 4100,
-        "fileSize": 273908,
-        "manufacturerCode": 4742,
-        "imageType": 9,
-        "sha512": "a380068b7f4436d2930d37e6ddf63dddca1dd33dc9f5b6f05be36191c94b3c142735219985c26d1d3521a2216d9b95da44123ab0cab01ea1d77ec55e997de167",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sonoff/zbm5-120-zed_v1.0.4.ota",
-        "path": "images/Sonoff/zbm5-120-zed_v1.0.4.ota"
-    },
-    {
-        "fileVersion": 4100,
-        "fileSize": 294932,
-        "manufacturerCode": 4742,
-        "imageType": 10,
-        "sha512": "6825c846d11ba0c2a3f0819ced538f929ecbad0d9a182113d3de5f083c2435af657e8e9b5eb01318938e7914c07fa14c7cac462c87f068dd30e999712e9bd33b",
-        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sonoff/zbm5-120-zr_v1.0.4.ota",
-        "path": "images/Sonoff/zbm5-120-zr_v1.0.4.ota"
-    },
-    {
         "fileVersion": 30,
         "fileSize": 288146,
         "manufacturerCode": 4447,
