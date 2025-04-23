@@ -7339,19 +7339,6 @@
     "otaHeaderString": "vzm32-sn_mmWave"
   },
   {
-    "fileName": "6565-0391-10153001-tuya_thermostat_zrd.zigbee",
-    "fileVersion": 269824001,
-    "fileSize": 234690,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-0391-10153001-tuya_thermostat_zrd.zigbee",
-    "imageType": 913,
-    "manufacturerCode": 25957,
-    "sha512": "d3c3c1fd5690d2817d0fb05c283a8b1f511ec60946a5d50ab63fce822054cbdd95fb7099f43cce7e9792ad2b3f0ced96f43dc151882cd71010cd5fe3db40d46d",
-    "otaHeaderString": "",
-    "manufacturerName": [
-      "Slacky-DIY"
-    ]
-  },
-  {
     "fileName": "6565-0204-20043001-watermeter_zed.zigbee",
     "fileVersion": 537145345,
     "fileSize": 151458,
@@ -7901,5 +7888,18 @@
     "manufacturerCode": 4742,
     "sha512": "6825c846d11ba0c2a3f0819ced538f929ecbad0d9a182113d3de5f083c2435af657e8e9b5eb01318938e7914c07fa14c7cac462c87f068dd30e999712e9bd33b",
     "otaHeaderString": "ota-file-test"
+  },
+  {
+    "fileName": "6565-0391-10163001-tuya_thermostat_zrd.zigbee",
+    "fileVersion": 269889537,
+    "fileSize": 234866,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-0391-10163001-tuya_thermostat_zrd.zigbee",
+    "imageType": 913,
+    "manufacturerCode": 25957,
+    "sha512": "490c8c34e63fe30afcdb88ce2a5a614fe55a9fea08866d3fd1b5fae9755062833098f2414ff7293e4323c60a5c86de8ef2e4859e4232197414df039dd8b692fd",
+    "otaHeaderString": "",
+    "manufacturerName": [
+      "Slacky-DIY"
+    ]
   }
 ]
