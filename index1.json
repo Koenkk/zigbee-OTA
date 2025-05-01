@@ -1771,17 +1771,6 @@
     "modelId": "ZG227-z"
   },
   {
-    "fileName": "VZM30-SN_0.04.ota",
-    "fileVersion": 17825796,
-    "fileSize": 224590,
-    "originalUrl": "https://files.inovelli.com/firmware/VZM30-SN/Beta/0.04/VZM30-SN_0.04.ota",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Inovelli/VZM30-SN_0.04.ota",
-    "imageType": 272,
-    "manufacturerCode": 4655,
-    "sha512": "53bee137d4450ca55d1d0cd9e49777daa01729c421b04c750fc25ae01bdf79394c15b9ca3178a08f42895e987a034c4b030866edb83e66cd105e655b8319c35c",
-    "otaHeaderString": "VZM30-SN_OnOff"
-  },
-  {
     "fileName": "Soil_Moisture_Sensor_PROD_OTA_V31_v1.00.31.ota",
     "fileVersion": 31,
     "fileSize": 139026,
@@ -1945,5 +1934,16 @@
     "manufacturerCode": 4454,
     "sha512": "a1821008181b2dca54ffb61a99f49fe8c8d8b39fd984d57423e34691de32666d9b2f8bbd3f7f6a929d67229c239b55fcfeb490f352cc0ccc0cb361408bb17b75",
     "otaHeaderString": "Telink OTA Sample Usage"
+  },
+  {
+    "fileName": "VZM30-SN_0.05.ota",
+    "fileVersion": 17825797,
+    "fileSize": 224634,
+    "originalUrl": "https://files.inovelli.com/firmware/VZM30-SN/Beta/0.05/VZM30-SN_0.05.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Inovelli/VZM30-SN_0.05.ota",
+    "imageType": 272,
+    "manufacturerCode": 4655,
+    "sha512": "15199f8d894760764ffee530fa873a5c40c5775ea1ed5d6b3f716000d1218ab66ca247e8aae8342f82e5c4f7e3d444e5e9515bc1b671bb3d370e743d4ab3f39d",
+    "otaHeaderString": "VZM30-SN_OnOff"
   }
 ]
