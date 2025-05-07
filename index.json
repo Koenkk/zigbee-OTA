@@ -7179,17 +7179,6 @@
     "otaHeaderString": "Telink OTA Sample Usage"
   },
   {
-    "fileName": "PMM300Z3_OTA_ENC_V8_ENC.ota",
-    "fileVersion": 8,
-    "fileSize": 224686,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Jennic/PMM300Z3_OTA_ENC_V8_ENC.ota",
-    "imageType": 4108,
-    "manufacturerCode": 4151,
-    "sha512": "8baf64a84928848a8e50889c9f147eec3af40fe98a08fdae0c81211137e97f41497d14fa9cb1760f166bc7d08febf757f2d6fa58aee91ecc9c0cc32402a8e469",
-    "otaHeaderString": "DR1175r1v02--JN5169--ENCRYPTED00",
-    "releaseNotes": "The acCurrentDivisor has been changed from 100 to 10 to allow acCurrent values to exceed 655.35A. Note, however, that the unit precision will change from two decimal places to one."
-  },
-  {
     "fileName": "100B-0129-01000D06-Light-EFR32MG26.zigbee",
     "fileVersion": 16780550,
     "fileSize": 833604,
@@ -7900,6 +7889,16 @@
     "imageType": 4107,
     "manufacturerCode": 4151,
     "sha512": "09726b2c22b277ef0552ad58be30069a5c01cd6666b8b19557c02aeff56868ab8f29578ffef41e25f75bea32a6576071639f0589f86d5fccf3cdbd7827cbea0c",
+    "otaHeaderString": "DR1175r1v02--JN5169--ENCRYPTED00"
+  },
+  {
+    "fileName": "PMM300Z3_OTA_ENC_V9_ENC.ota",
+    "fileVersion": 9,
+    "fileSize": 225614,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Jennic/PMM300Z3_OTA_ENC_V9_ENC.ota",
+    "imageType": 4108,
+    "manufacturerCode": 4151,
+    "sha512": "c53941b1b2c3ac7ce121673fd55a85c8a9b659db1354259a219b317995191c1b1e9995e40f26a791363adf41529119bb37bb441e24a7a4fddcc4d12f52b61c8d",
     "otaHeaderString": "DR1175r1v02--JN5169--ENCRYPTED00"
   }
 ]
