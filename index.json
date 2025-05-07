@@ -7900,5 +7900,25 @@
     "manufacturerCode": 4151,
     "sha512": "c53941b1b2c3ac7ce121673fd55a85c8a9b659db1354259a219b317995191c1b1e9995e40f26a791363adf41529119bb37bb441e24a7a4fddcc4d12f52b61c8d",
     "otaHeaderString": "DR1175r1v02--JN5169--ENCRYPTED00"
+  },
+  {
+    "fileName": "1166-070d-30022162-fl122c-3.0.2.ota",
+    "fileVersion": 805445986,
+    "fileSize": 192382,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-070d-30022162-fl122c-3.0.2.ota",
+    "imageType": 1805,
+    "manufacturerCode": 4454,
+    "sha512": "95bed2c18a1711c9b20bfbedef5f2f8dd302c243c24e586fe73651b0ac441050096889245dcf4bbdff8aa6fd64b5af9451edf36a32190cb0310d74c956233192",
+    "otaHeaderString": "FL_122_C-0x30022162-000000000000"
+  },
+  {
+    "fileName": "1166-070e-30022162-fl142c-3.0.2.ota",
+    "fileVersion": 805445986,
+    "fileSize": 192382,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-070e-30022162-fl142c-3.0.2.ota",
+    "imageType": 1806,
+    "manufacturerCode": 4454,
+    "sha512": "98391bddbe79aae845db38302f2929d3bd26182102db79e25797334799e606b7a440330c0ecdbb35d5ba9078bbdfdca51667c1de2aaefb37e49fdb7c1ad28983",
+    "otaHeaderString": "FL_142_C-0x30022162-000000000000"
   }
 ]
