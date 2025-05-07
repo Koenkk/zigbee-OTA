@@ -1945,5 +1945,15 @@
     "manufacturerCode": 4655,
     "sha512": "15199f8d894760764ffee530fa873a5c40c5775ea1ed5d6b3f716000d1218ab66ca247e8aae8342f82e5c4f7e3d444e5e9515bc1b671bb3d370e743d4ab3f39d",
     "otaHeaderString": "VZM30-SN_OnOff"
+  },
+  {
+    "fileName": "PMM300Z2_OTA_ENC_V6_ENC.ota",
+    "fileVersion": 6,
+    "fileSize": 212478,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Jennic/PMM300Z2_OTA_ENC_V6_ENC.ota",
+    "imageType": 4107,
+    "manufacturerCode": 4151,
+    "sha512": "10b0cffcf7dc90804694a52be1ff3ca8178a8685172e309da9eacc71109403fd53be9a127b881341a095cb3ae2284eaedd5bec49a15d7b9d8badd76e382be4b5",
+    "otaHeaderString": "DR1175r1v02--JN5169--ENCRYPTED00"
   }
 ]
