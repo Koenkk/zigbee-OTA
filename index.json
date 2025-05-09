@@ -7920,5 +7920,17 @@
     "manufacturerCode": 4454,
     "sha512": "98391bddbe79aae845db38302f2929d3bd26182102db79e25797334799e606b7a440330c0ecdbb35d5ba9078bbdfdca51667c1de2aaefb37e49fdb7c1ad28983",
     "otaHeaderString": "FL_142_C-0x30022162-000000000000"
+  },
+  {
+    "fileName": "ota_t0x300b_m0x1209_v0x21166a30.ota",
+    "fileVersion": 555117104,
+    "fileSize": 256278,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Bosch/ota_t0x300b_m0x1209_v0x21166a30.ota",
+    "imageType": 12299,
+    "manufacturerCode": 4617,
+    "sha512": "d4306b45582501ceb72185ae918641defd7a910ad9b5ea5b065461ccf3b0ec340909eef8b3a6965e71d3956bf66aebc9f675c4a52469e2a0b39db8a887d0e580",
+    "otaHeaderString": "MICROMODULE_LIGHT_SHADING_0x2116",
+    "modelId": "RBSH-MMS-ZB-EU",
+    "releaseNotes": "More precise setting options for shutter calibration parameters, button press detection, and configuration options for separating input and output."
   }
 ]
