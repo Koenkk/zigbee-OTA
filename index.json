@@ -7984,5 +7984,15 @@
     "sha512": "86ddb61b1273f5f6093c9d5762b55b35e21ff97ff2c5a56dc761638369984168d0903495872c2533906ee9d43e3a54e398c3f62a6490f3bba003e3be6c18c559",
     "otaHeaderString": "ZigbeeTLc OTA",
     "modelId": "ZG227-z"
+  },
+  {
+    "fileName": "prod_Amina_S_v1.34.1_b03896a_zigbee_ota_amina_encr.zigbee",
+    "fileVersion": 19005441,
+    "fileSize": 951203,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Amina/prod_Amina_S_v1.34.1_b03896a_zigbee_ota_amina_encr.zigbee",
+    "imageType": 321,
+    "manufacturerCode": 5179,
+    "sha512": "3ba2b57fb85bb93b3fe28744d9047fd33d4875c624a9fefe246ac0762e4ff7720546364866ca283c11bc58ab7f61f23b16bd049d1441e5ba96d0f5657ab3efaa",
+    "otaHeaderString": "\u0015aminaS_OTA_amina_encr"
   }
 ]
