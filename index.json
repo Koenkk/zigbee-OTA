@@ -7994,5 +7994,15 @@
     "manufacturerCode": 5179,
     "sha512": "3ba2b57fb85bb93b3fe28744d9047fd33d4875c624a9fefe246ac0762e4ff7720546364866ca283c11bc58ab7f61f23b16bd049d1441e5ba96d0f5657ab3efaa",
     "otaHeaderString": "\u0015aminaS_OTA_amina_encr"
+  },
+  {
+    "fileName": "Smart_Watering_Kit_PROD_OTA_V40_v1.00.40.ota",
+    "fileVersion": 40,
+    "fileSize": 140818,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Smart_Watering_Kit_PROD_OTA_V40_v1.00.40.ota",
+    "imageType": 54192,
+    "manufacturerCode": 5127,
+    "sha512": "8f3c321885fa361c46abe1cb3d99a288717859227d07d88eeaf555a6a6ff041e2b2750468a30e5472261d1ef42b80273245280350dff96fe7e31621aa3b9dc2b",
+    "otaHeaderString": "Telink OTA Sample Usage"
   }
 ]
