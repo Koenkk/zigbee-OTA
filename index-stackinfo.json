@@ -4240,5 +4240,17 @@
     "stack": "Telink",
     "stackDetails": "",
     "zigbeeStackVersion": "ZigBeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Amina/prod_Amina_S_v1.34.1_b03896a_zigbee_ota_amina_encr.zigbee",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigBeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Smart_Watering_Kit_PROD_OTA_V40_v1.00.40.ota",
+    "stack": "Telink",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigBeePro"
   }
 ]
