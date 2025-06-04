@@ -6916,17 +6916,6 @@
     "releaseNotes": "Enhance the accuracy of static human recognition, refine the mechanism for distinguishing between human movement and stillness, reduce false alarms by robotic vacuum cleaners, and minimize the likelihood of false alarms triggered by small pets, curtains, and other factors"
   },
   {
-    "fileName": "VZM32-SN_0.04.ota",
-    "fileVersion": 16973828,
-    "fileSize": 248386,
-    "originalUrl": "https://files.inovelli.com/firmware/VZM32-SN/Beta/0.04/VZM32-SN_0.04.ota",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Inovelli/VZM32-SN_0.04.ota",
-    "imageType": 259,
-    "manufacturerCode": 4655,
-    "sha512": "a6aef13a44da2265d99686c2248631aaaff285881f81e2bf9ffb5048e8c2dcae65f91acfecc98ac83d87fd6f1a6e4cc57fb2cd74b883d76e89e773d3192920bf",
-    "otaHeaderString": "vzm32-sn_mmWave"
-  },
-  {
     "fileName": "6565-0204-20043001-watermeter_zed.zigbee",
     "fileVersion": 537145345,
     "fileSize": 151458,
@@ -8004,5 +7993,16 @@
     "manufacturerCode": 4454,
     "sha512": "7fa9ffbd92517260893c8fc5ebebcfc1ea3ecf65f64b32500b0af8637865752f93c40f378a5cc90d42aa226b008cf476caa73f1fe4f972c945b01355eb8ae37c",
     "otaHeaderString": "Telink OTA Sample Usage"
+  },
+  {
+    "fileName": "VZM32-SN_0.06.ota",
+    "fileVersion": 16973830,
+    "fileSize": 227134,
+    "originalUrl": "https://files.inovelli.com/firmware/VZM32-SN/Beta/0.06/VZM32-SN_0.06.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Inovelli/VZM32-SN_0.06.ota",
+    "imageType": 259,
+    "manufacturerCode": 4655,
+    "sha512": "b77d59318c932ddb5d93611248f80940f81616df24f68a90891fe526863294763430bfa9fb8a3e61334cc8782d83a6124c305a6891ec8fc833c591915f833672",
+    "otaHeaderString": "vzm32-sn_mmWave"
   }
 ]
