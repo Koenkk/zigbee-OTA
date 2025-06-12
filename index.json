@@ -8025,5 +8025,15 @@
     "manufacturerCode": 4447,
     "sha512": "04d1359fecdd69d13d167d05b3f3bedae5b11250b6cbc79016568c3a37b9b708be0e62b519a8d13a9fbeeea0bf1a3eb36e94e1faa29da2f1264729c9c0d7af1f",
     "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000"
+  },
+  {
+    "fileName": "20240726111850_OTA_lumi.switch.n2aeu1_0.0.0_0025_20240725_4EABF3.ota",
+    "fileVersion": 25,
+    "fileSize": 291616,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20240726111850_OTA_lumi.switch.n2aeu1_0.0.0_0025_20240725_4EABF3.ota",
+    "imageType": 5532,
+    "manufacturerCode": 4447,
+    "sha512": "8887e3192c9bf2464f02930235c054a5cf7a801b91d43b355dfbd93f15391c965c767fd310ca4c7c985f0c5143484a99d26b73b7cbb8f0aa3c2c06ef0eee67be",
+    "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000"
   }
 ]
