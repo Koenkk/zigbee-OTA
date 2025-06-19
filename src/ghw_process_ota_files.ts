@@ -1,26 +1,23 @@
-import type CoreApi from "@actions/core";
-import type {Context} from "@actions/github/lib/context";
-import type {Octokit} from "@octokit/rest";
-
-import type {ExtraMetas, GHExtraMetas, RepoImageMeta} from "./types.js";
-
 import assert from "node:assert";
 import {readFileSync, renameSync} from "node:fs";
 import path from "node:path";
-
+import type CoreApi from "@actions/core";
+import type {Context} from "@actions/github/lib/context";
+import type {Octokit} from "@octokit/rest";
 import {
-    BASE_IMAGES_DIR,
-    PREV_IMAGES_DIR,
-    ParsedImageStatus,
-    UPGRADE_FILE_IDENTIFIER,
     addImageToBase,
     addImageToPrev,
+    BASE_IMAGES_DIR,
     findMatchImage,
     getOutDir,
     getParsedImageStatus,
     getValidMetas,
+    ParsedImageStatus,
+    PREV_IMAGES_DIR,
     parseImageHeader,
+    UPGRADE_FILE_IDENTIFIER,
 } from "./common.js";
+import type {ExtraMetas, GHExtraMetas, RepoImageMeta} from "./types.js";
 
 const EXTRA_METAS_PR_BODY_START_TAG = "```json";
 const EXTRA_METAS_PR_BODY_END_TAG = "```";

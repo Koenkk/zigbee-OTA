@@ -1,28 +1,25 @@
-import type {ExtraMetas} from "./types";
-
 import assert from "node:assert";
-import {readFileSync, readdirSync, renameSync, rmSync, writeFileSync} from "node:fs";
+import {readdirSync, readFileSync, renameSync, rmSync, writeFileSync} from "node:fs";
 import path from "node:path";
-
 import {extract} from "tar";
-
 import {
-    BASE_IMAGES_DIR,
-    BASE_INDEX_MANIFEST_FILENAME,
-    PREV_IMAGES_DIR,
-    PREV_INDEX_MANIFEST_FILENAME,
-    ParsedImageStatus,
-    TMP_DIR,
-    UPGRADE_FILE_IDENTIFIER,
     addImageToBase,
     addImageToPrev,
+    BASE_IMAGES_DIR,
+    BASE_INDEX_MANIFEST_FILENAME,
     findMatchImage,
     getOutDir,
     getParsedImageStatus,
+    ParsedImageStatus,
+    PREV_IMAGES_DIR,
+    PREV_INDEX_MANIFEST_FILENAME,
     parseImageHeader,
     readManifest,
+    TMP_DIR,
+    UPGRADE_FILE_IDENTIFIER,
     writeManifest,
 } from "./common.js";
+import type {ExtraMetas} from "./types";
 
 export enum ProcessFirmwareImageStatus {
     Error = -1,

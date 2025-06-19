@@ -1,18 +1,17 @@
+import assert from "node:assert";
+import {existsSync, mkdirSync, writeFileSync} from "node:fs";
 import type CoreApi from "@actions/core";
 import type {Context} from "@actions/github/lib/context";
 import type {Octokit} from "@octokit/rest";
 
-import assert from "node:assert";
-import {existsSync, mkdirSync, writeFileSync} from "node:fs";
-
 import {
     BASE_INDEX_MANIFEST_FILENAME,
-    PREV_INDEX_MANIFEST_FILENAME,
+    execute,
     PR_ARTIFACT_DIFF_FILEPATH,
     PR_ARTIFACT_DIR,
     PR_ARTIFACT_ERROR_FILEPATH,
     PR_ARTIFACT_NUMBER_FILEPATH,
-    execute,
+    PREV_INDEX_MANIFEST_FILENAME,
     readManifest,
     writeManifest,
 } from "./common.js";

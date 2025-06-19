@@ -5,5 +5,5 @@
         "rootDir": "..",
         "noEmit": true
     },
-    "references": [{ "path": ".." }]
+    "references": [{"path": ".."}]
 }

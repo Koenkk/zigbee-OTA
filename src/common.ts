@@ -1,10 +1,9 @@
-import type {ExtraMetas, ExtraMetasWithFileName, ImageHeader, RepoImageMeta} from "./types";
-
 import assert from "node:assert";
 import {exec} from "node:child_process";
 import {createHash} from "node:crypto";
 import {existsSync, mkdirSync, readFileSync, renameSync, rmSync, writeFileSync} from "node:fs";
 import path from "node:path";
+import type {ExtraMetas, ExtraMetasWithFileName, ImageHeader, RepoImageMeta} from "./types";
 
 export const UPGRADE_FILE_IDENTIFIER = Buffer.from([0x1e, 0xf1, 0xee, 0x0b]);
 export const BASE_REPO_URL = "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/";

@@ -1,13 +1,12 @@
-import type {RepoImageMeta} from "../src/types";
-
 import {existsSync, mkdirSync, readFileSync, rmSync} from "node:fs";
-
-import {type MockInstance, afterAll, afterEach, beforeAll, beforeEach, describe, expect, it, vi} from "vitest";
+import {afterAll, afterEach, beforeAll, beforeEach, describe, expect, it, type MockInstance, vi} from "vitest";
 import * as common from "../src/common";
 import {ProcessFirmwareImageStatus, processFirmwareImage} from "../src/process_firmware_image";
+import type {RepoImageMeta} from "../src/types";
 import {
     BASE_IMAGES_TEST_DIR_PATH,
-    IMAGES_TEST_DIR,
+    getAdjustedContent,
+    getImageOriginalDirPath,
     IMAGE_INVALID,
     IMAGE_TAR,
     IMAGE_TAR_METAS,
@@ -17,9 +16,8 @@ import {
     IMAGE_V13_1_METAS,
     IMAGE_V14_1,
     IMAGE_V14_1_METAS,
+    IMAGES_TEST_DIR,
     PREV_IMAGES_TEST_DIR_PATH,
-    getAdjustedContent,
-    getImageOriginalDirPath,
     useImage,
     withExtraMetas,
 } from "./data.test";

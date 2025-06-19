@@ -1,9 +1,8 @@
+import {readdirSync, readFileSync, writeFileSync} from "node:fs";
+import path from "node:path";
 import type CoreApi from "@actions/core";
 import type {Context} from "@actions/github/lib/context";
 import type {Octokit} from "@octokit/rest";
-
-import {readFileSync, readdirSync, writeFileSync} from "node:fs";
-import path from "node:path";
 
 export const CACERTS_DIR = "cacerts";
 export const CACERTS_CONCAT_FILEPATH = "cacerts.pem";

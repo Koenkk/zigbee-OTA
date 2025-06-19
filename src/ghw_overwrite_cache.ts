@@ -1,8 +1,7 @@
+import {existsSync, mkdirSync} from "node:fs";
 import type CoreApi from "@actions/core";
 import type {Context} from "@actions/github/lib/context";
 import type {Octokit} from "@octokit/rest";
-
-import {existsSync, mkdirSync} from "node:fs";
 
 import {ALL_AUTODL_MANUFACTURERS, CACHE_DIR} from "./common.js";
 

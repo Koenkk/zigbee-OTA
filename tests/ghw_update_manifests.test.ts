@@ -1,21 +1,18 @@
+import {rmSync} from "node:fs";
 import type CoreApi from "@actions/core";
 import type {Context} from "@actions/github/lib/context";
 import type {Octokit} from "@octokit/rest";
-
-import type {RepoImageMeta} from "../src/types";
-
-import {rmSync} from "node:fs";
-
-import {type MockInstance, afterAll, afterEach, beforeAll, beforeEach, describe, expect, it, vi} from "vitest";
+import {afterAll, afterEach, beforeAll, beforeEach, describe, expect, it, type MockInstance, vi} from "vitest";
 import * as common from "../src/common";
 import {updateManifests} from "../src/ghw_update_manifests";
+import type {RepoImageMeta} from "../src/types";
 import {
     BASE_IMAGES_TEST_DIR_PATH,
+    getAdjustedContent,
     IMAGE_V13_1,
     IMAGE_V14_1,
     IMAGE_V14_1_METAS,
     PREV_IMAGES_TEST_DIR_PATH,
-    getAdjustedContent,
     useImage,
     withExtraMetas,
 } from "./data.test";
