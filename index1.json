@@ -2184,5 +2184,16 @@
     "sha512": "86ddb61b1273f5f6093c9d5762b55b35e21ff97ff2c5a56dc761638369984168d0903495872c2533906ee9d43e3a54e398c3f62a6490f3bba003e3be6c18c559",
     "otaHeaderString": "ZigbeeTLc OTA",
     "modelId": "ZG227-z"
+  },
+  {
+    "fileName": "TRTL_ThermalSensor_PROD_OTA_V37_v1.00.37.ota",
+    "fileVersion": 37,
+    "fileSize": 129090,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/TRTL_ThermalSensor_PROD_OTA_V37_v1.00.37.ota",
+    "imageType": 54185,
+    "manufacturerCode": 4659,
+    "sha512": "b78cc4b15a1fb1ebedc04143bd9001265df6f380953cec30d50bdd6ed2da062fb260e3a981f1dc8cee0536076c656c033b31327dfc27702c9735fa3f1496bb81",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "originalUrl": "https://tr-zha.s3.amazonaws.com/z2m_firmware/TRTL_ThermalSensor_PROD_OTA_V37_v1.00.37.ota"
   }
 ]

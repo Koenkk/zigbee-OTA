@@ -6138,17 +6138,6 @@
     "otaHeaderString": "Telink OTA Sample Usage"
   },
   {
-    "fileName": "TRTL_ThermalSensor_PROD_OTA_V37_v1.00.37.ota",
-    "fileVersion": 37,
-    "fileSize": 129090,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/TRTL_ThermalSensor_PROD_OTA_V37_v1.00.37.ota",
-    "imageType": 54185,
-    "manufacturerCode": 4659,
-    "sha512": "b78cc4b15a1fb1ebedc04143bd9001265df6f380953cec30d50bdd6ed2da062fb260e3a981f1dc8cee0536076c656c033b31327dfc27702c9735fa3f1496bb81",
-    "otaHeaderString": "Telink OTA Sample Usage",
-    "originalUrl": "https://tr-zha.s3.amazonaws.com/z2m_firmware/TRTL_ThermalSensor_PROD_OTA_V37_v1.00.37.ota"
-  },
-  {
     "fileName": "ThermalLiteSensor_PROD_OTA_V29_1.00.29.ota",
     "fileVersion": 29,
     "fileSize": 256174,
@@ -8045,5 +8034,15 @@
     "manufacturerCode": 4447,
     "sha512": "8e4a84798920a32e6ff992eb7438d9db2665353295a27963ee3cd25c6bbdaa160a4ab13e640d46e5b459f6aa8c89c25e081e11760b8b7997abb3b9e80f919ea8",
     "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000"
+  },
+  {
+    "fileName": "TRTL_ThermalSensor_PROD_OTA_V40_v1.00.40.ota",
+    "fileVersion": 40,
+    "fileSize": 129538,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/TRTL_ThermalSensor_PROD_OTA_V40_v1.00.40.ota",
+    "imageType": 54185,
+    "manufacturerCode": 4659,
+    "sha512": "e0028fc07e16f6c4ab60e9492469a787618368ef3050cf5fddc34045ff2e3d7f30283010f7f832342746e82792bb28d450d73e5938597719a1e71555eba6060c",
+    "otaHeaderString": "Telink OTA Sample Usage"
   }
 ]
