@@ -1,33 +1,30 @@
+import {existsSync, lstatSync, mkdirSync, readdirSync, readFileSync, renameSync, rmSync, writeFileSync} from "node:fs";
+import path from "node:path";
 import type CoreApi from "@actions/core";
 import type {Context} from "@actions/github/lib/context";
 import type {Octokit} from "@octokit/rest";
-
-import type {RepoImageMeta} from "./types";
-
-import {existsSync, lstatSync, mkdirSync, readFileSync, readdirSync, renameSync, rmSync, writeFileSync} from "node:fs";
-import path from "node:path";
-
 import {
+    addImageToBase,
+    addImageToPrev,
     BASE_IMAGES_DIR,
     BASE_INDEX_MANIFEST_FILENAME,
     BASE_REPO_URL,
-    PREV_IMAGES_DIR,
-    PREV_INDEX_MANIFEST_FILENAME,
-    ParsedImageStatus,
-    REPO_BRANCH,
-    UPGRADE_FILE_IDENTIFIER,
-    addImageToBase,
-    addImageToPrev,
     computeSHA512,
     findMatchImage,
     getOutDir,
     getParsedImageStatus,
     getRepoFirmwareFileUrl,
     getValidMetas,
+    ParsedImageStatus,
+    PREV_IMAGES_DIR,
+    PREV_INDEX_MANIFEST_FILENAME,
     parseImageHeader,
+    REPO_BRANCH,
     readManifest,
+    UPGRADE_FILE_IDENTIFIER,
     writeManifest,
 } from "./common.js";
+import type {RepoImageMeta} from "./types";
 
 /** These are now handled by autodl */
 const IGNORE_3RD_PARTIES = ["https://github.com/fairecasoimeme/", "https://github.com/xyzroe/"];

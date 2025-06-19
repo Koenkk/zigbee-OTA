@@ -1,6 +1,6 @@
 {
-    "$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
-    "vcs": { "enabled": true, "clientKind": "git", "useIgnoreFile": true },
+    "$schema": "https://biomejs.dev/schemas/2.0.0/schema.json",
+    "vcs": {"enabled": true, "clientKind": "git", "useIgnoreFile": true},
     "formatter": {
         "indentStyle": "space",
         "indentWidth": 4,
@@ -8,17 +8,18 @@
         "bracketSpacing": false
     },
     "files": {
-        "ignore": [
-            "package.json",
-            "./index-stackinfo.json",
-            "./index.json",
-            "./index1.json",
-            "./.cache",
-            "./cacerts",
-            "./images",
-            "./images1",
-            "./not-in-manifest-images",
-            "./not-in-manifest-images1"
+        "includes": [
+            "**",
+            "!**/package.json",
+            "!index-stackinfo.json",
+            "!index.json",
+            "!index1.json",
+            "!.cache",
+            "!cacerts",
+            "!images",
+            "!images1",
+            "!not-in-manifest-images",
+            "!not-in-manifest-images1"
         ]
     },
     "linter": {
@@ -55,7 +56,16 @@
                             }
                         ]
                     }
-                }
+                },
+                "useAsConstAssertion": "error",
+                "useDefaultParameterLast": "error",
+                "useEnumInitializers": "error",
+                "useSelfClosingElements": "error",
+                "useSingleVarDeclarator": "error",
+                "noUnusedTemplateLiteral": "error",
+                "useNumberNamespace": "error",
+                "noInferrableTypes": "error",
+                "noUselessElse": "error"
             }
         }
     }

@@ -1,7 +1,6 @@
-import type {ExtraMetas} from "../types.js";
-
 import {getJson, getLatestImage, readCacheJson, writeCacheJson} from "../common.js";
 import {processFirmwareImage} from "../process_firmware_image.js";
+import type {ExtraMetas} from "../types.js";
 
 type ReleaseAssetJson = {
     url: string;

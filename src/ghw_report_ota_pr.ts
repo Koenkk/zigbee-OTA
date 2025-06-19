@@ -1,11 +1,10 @@
+import assert from "node:assert";
+import {existsSync, readFileSync, writeFileSync} from "node:fs";
 import type CoreApi from "@actions/core";
 import type {Context} from "@actions/github/lib/context";
 import type {Octokit} from "@octokit/rest";
 
-import assert from "node:assert";
-import {existsSync, readFileSync, writeFileSync} from "node:fs";
-
-import {PR_ARTIFACT_DIR, PR_DIFF_FILENAME, PR_ERROR_FILENAME, PR_NUMBER_FILENAME, execute} from "./common.js";
+import {execute, PR_ARTIFACT_DIR, PR_DIFF_FILENAME, PR_ERROR_FILENAME, PR_NUMBER_FILENAME} from "./common.js";
 
 export async function reportOtaPR(github: Octokit, core: typeof CoreApi, context: Context): Promise<void> {
     assert(context.payload.workflow_run, "Not a workflow run");
