@@ -3270,12 +3270,6 @@
     "zigbeeStackVersion": "ZigBeePro"
   },
   {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/TRTL_ThermalSensor_PROD_OTA_V37_v1.00.37.ota",
-    "stack": "Telink",
-    "stackDetails": "",
-    "zigbeeStackVersion": "ZigBeePro"
-  },
-  {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/ThermalLiteSensor_PROD_OTA_V29_1.00.29.ota",
     "stack": "Unknown",
     "stackDetails": "",
@@ -4274,6 +4268,12 @@
   {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20240624144545_OTA_lumi.curtain.acn002_0.0.0_1532_20240528_438A0E.ota",
     "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigBeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/TRTL_ThermalSensor_PROD_OTA_V40_v1.00.40.ota",
+    "stack": "Telink",
     "stackDetails": "",
     "zigbeeStackVersion": "ZigBeePro"
   }
