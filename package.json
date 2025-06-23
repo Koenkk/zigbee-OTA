@@ -51,9 +51,9 @@
         "@biomejs/biome": "^1.9.4",
         "@octokit/rest": "^22.0.0",
         "@types/node": "^24.0.3",
-        "@vitest/coverage-v8": "^3.2.3",
+        "@vitest/coverage-v8": "^3.2.4",
         "typescript": "^5.8.3",
-        "vitest": "^3.2.3"
+        "vitest": "^3.2.4"
     },
     "pnpm": {
         "onlyBuiltDependencies": [
