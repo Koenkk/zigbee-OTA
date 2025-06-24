@@ -7252,18 +7252,6 @@
     "otaHeaderString": "FL_142_C-0x30022162-000000000000"
   },
   {
-    "fileName": "ota_t0x300b_m0x1209_v0x21166a30.ota",
-    "fileVersion": 555117104,
-    "fileSize": 256278,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Bosch/ota_t0x300b_m0x1209_v0x21166a30.ota",
-    "imageType": 12299,
-    "manufacturerCode": 4617,
-    "sha512": "d4306b45582501ceb72185ae918641defd7a910ad9b5ea5b065461ccf3b0ec340909eef8b3a6965e71d3956bf66aebc9f675c4a52469e2a0b39db8a887d0e580",
-    "otaHeaderString": "MICROMODULE_LIGHT_SHADING_0x2116",
-    "modelId": "RBSH-MMS-ZB-EU",
-    "releaseNotes": "More precise setting options for shutter calibration parameters, button press detection, and configuration options for separating input and output."
-  },
-  {
     "fileName": "10F2-7B2C-0000-0001-01600461-ld6.ota.zigbee",
     "fileVersion": 23069793,
     "fileSize": 239870,
@@ -8044,5 +8032,17 @@
     "manufacturerCode": 4659,
     "sha512": "e0028fc07e16f6c4ab60e9492469a787618368ef3050cf5fddc34045ff2e3d7f30283010f7f832342746e82792bb28d450d73e5938597719a1e71555eba6060c",
     "otaHeaderString": "Telink OTA Sample Usage"
+  },
+  {
+    "fileName": "ota_t0x300b_m0x1209_v0x21186a30.ota",
+    "fileVersion": 555248176,
+    "fileSize": 256574,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Bosch/ota_t0x300b_m0x1209_v0x21186a30.ota",
+    "imageType": 12299,
+    "manufacturerCode": 4617,
+    "sha512": "8ef055468ea4334ec8b9bd8db301cfafbd469f846a632eeceaa8a4c507dff11b2ce2fb871fd70106a9a962e019a638ce9cc4a047ea68b369403e03663aad3e4c",
+    "otaHeaderString": "MICROMODULE_LIGHT_SHADING_0x2118",
+    "modelId": "RBSH-MMS-ZB-EU",
+    "releaseNotes": "New option to switch outputs of the Shutter control and bug fixes for certain drives"
   }
 ]
