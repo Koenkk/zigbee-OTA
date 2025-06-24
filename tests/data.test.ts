@@ -5,13 +5,11 @@
  *
  */
 
-import type {ExtraMetas, RepoImageMeta} from "../src/types";
-
 import {copyFileSync, existsSync, mkdirSync} from "node:fs";
 import path from "node:path";
-
 import {it} from "vitest";
 import * as common from "../src/common";
+import type {ExtraMetas, RepoImageMeta} from "../src/types";
 
 export const IMAGE_V14_1 = "ZLinky_router_v14.ota";
 export const IMAGE_V14_2 = "ZLinky_router_v14_limited.ota";

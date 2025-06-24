@@ -1,12 +1,8 @@
-import type CoreApi from "@actions/core";
-import type {Context} from "@actions/github/lib/context";
-
-import type {RepoImageMeta} from "../src/types";
-
 import {copyFileSync, existsSync, mkdirSync, readFileSync, renameSync, rmSync} from "node:fs";
 import path from "node:path";
-
-import {type MockInstance, afterAll, afterEach, beforeAll, beforeEach, describe, expect, it, vi} from "vitest";
+import type CoreApi from "@actions/core";
+import type {Context} from "@actions/github/lib/context";
+import {afterAll, afterEach, beforeAll, beforeEach, describe, expect, it, type MockInstance, vi} from "vitest";
 import * as common from "../src/common";
 import {
     NOT_IN_BASE_MANIFEST_IMAGES_DIR,
@@ -14,9 +10,11 @@ import {
     NOT_IN_PREV_MANIFEST_IMAGES_DIR,
     reProcessAllImages,
 } from "../src/ghw_reprocess_all_images";
+import type {RepoImageMeta} from "../src/types";
 import {
     BASE_IMAGES_TEST_DIR_PATH,
-    IMAGES_TEST_DIR,
+    getAdjustedContent,
+    getImageOriginalDirPath,
     IMAGE_INVALID,
     IMAGE_INVALID_METAS,
     IMAGE_V12_1,
@@ -24,9 +22,8 @@ import {
     IMAGE_V13_1_METAS,
     IMAGE_V14_1,
     IMAGE_V14_1_METAS,
+    IMAGES_TEST_DIR,
     PREV_IMAGES_TEST_DIR_PATH,
-    getAdjustedContent,
-    getImageOriginalDirPath,
     useImage,
     withExtraMetas,
 } from "./data.test";

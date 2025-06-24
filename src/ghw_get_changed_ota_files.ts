@@ -1,8 +1,7 @@
+import assert from "node:assert";
 import type CoreApi from "@actions/core";
 import type {Context} from "@actions/github/lib/context";
 import type {Octokit} from "@octokit/rest";
-
-import assert from "node:assert";
 
 import {BASE_IMAGES_DIR} from "./common.js";
 

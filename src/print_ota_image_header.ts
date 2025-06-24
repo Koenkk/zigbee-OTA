@@ -1,6 +1,6 @@
 import {readFileSync} from "node:fs";
 
-import {UPGRADE_FILE_IDENTIFIER, parseImageHeader} from "./common.js";
+import {parseImageHeader, UPGRADE_FILE_IDENTIFIER} from "./common.js";
 
 const firmwareBuffer = readFileSync(process.argv[2]);
 
