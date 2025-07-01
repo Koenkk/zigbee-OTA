@@ -6918,19 +6918,6 @@
     ]
   },
   {
-    "fileName": "6565-0393-10023001-tuya_co2sensor_zrd.zigbee",
-    "fileVersion": 268578817,
-    "fileSize": 198050,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-0393-10023001-tuya_co2sensor_zrd.zigbee",
-    "imageType": 915,
-    "manufacturerCode": 25957,
-    "sha512": "a2b8e5d3c35bb397705fbf1d66f956bf54fcb2035fd54c21b45077d192826df94f1c7d8fd5e9ea2d41fddf26242e21f6aeea9aff990a921036ee635b8e997a38",
-    "otaHeaderString": "",
-    "manufacturerName": [
-      "Slacky-DIY"
-    ]
-  },
-  {
     "fileName": "4512761-Firmware-35.ota",
     "fileVersion": 55,
     "fileSize": 186213,
@@ -8044,5 +8031,44 @@
     "otaHeaderString": "MICROMODULE_LIGHT_SHADING_0x2118",
     "modelId": "RBSH-MMS-ZB-EU",
     "releaseNotes": "New option to switch outputs of the Shutter control and bug fixes for certain drives"
+  },
+  {
+    "fileName": "6565-0393-10043001-tuya_co2sensor_zrd.zigbee",
+    "fileVersion": 268709889,
+    "fileSize": 200882,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-0393-10043001-tuya_co2sensor_zrd.zigbee",
+    "imageType": 915,
+    "manufacturerCode": 25957,
+    "sha512": "c25357bd0f6ed9a443aae03eaf865a60e7eef53316e6b226b599950aa042eb2edda11a97fdf6b0fc0496b870d7f0b7ceea0f03a216fe30726162957dfb4cfc0c",
+    "otaHeaderString": "",
+    "manufacturerName": [
+      "Slacky-DIY"
+    ]
+  },
+  {
+    "fileName": "6565-0395-10033001-ts0201_tz3000_zed.zigbee",
+    "fileVersion": 268644353,
+    "fileSize": 147138,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-0395-10033001-ts0201_tz3000_zed.zigbee",
+    "imageType": 917,
+    "manufacturerCode": 25957,
+    "sha512": "77495e0e056444f48481d083fbf7081235d3cafdcf28bd5c5fda7ff6ec5b17554cc96a5ca86d0e30edecf3b2cd957b88efb7953339424330ef93771cccdbb846",
+    "otaHeaderString": "",
+    "manufacturerName": [
+      "Slacky-DIY"
+    ]
+  },
+  {
+    "fileName": "6565-0397-10023001-ts0207_tz3000_zed.zigbee",
+    "fileVersion": 268578817,
+    "fileSize": 152210,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-0397-10023001-ts0207_tz3000_zed.zigbee",
+    "imageType": 919,
+    "manufacturerCode": 25957,
+    "sha512": "0cc3a4ffb5c7b620dd3fd5894a5389fc639881ad905ba2370c7e83b556aea6e1d1802b24d73476a7b3f5783a997ce1b962aded0c30434bafe2e454bf21d35274",
+    "otaHeaderString": "",
+    "manufacturerName": [
+      "Slacky-DIY"
+    ]
   }
 ]

@@ -2207,5 +2207,18 @@
     "otaHeaderString": "MICROMODULE_LIGHT_SHADING_0x2116",
     "modelId": "RBSH-MMS-ZB-EU",
     "releaseNotes": "More precise setting options for shutter calibration parameters, button press detection, and configuration options for separating input and output."
+  },
+  {
+    "fileName": "6565-0393-10023001-tuya_co2sensor_zrd.zigbee",
+    "fileVersion": 268578817,
+    "fileSize": 198050,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/SlackyDiy/6565-0393-10023001-tuya_co2sensor_zrd.zigbee",
+    "imageType": 915,
+    "manufacturerCode": 25957,
+    "sha512": "a2b8e5d3c35bb397705fbf1d66f956bf54fcb2035fd54c21b45077d192826df94f1c7d8fd5e9ea2d41fddf26242e21f6aeea9aff990a921036ee635b8e997a38",
+    "otaHeaderString": "",
+    "manufacturerName": [
+      "Slacky-DIY"
+    ]
   }
 ]
