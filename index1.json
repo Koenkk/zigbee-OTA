@@ -1356,18 +1356,6 @@
     "otaHeaderString": "temp_humi_sensor"
   },
   {
-    "fileName": "ota_t0x300a_m0x1209_v0x37041514.ota",
-    "fileVersion": 923014420,
-    "fileSize": 168518,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Bosch/ota_t0x300a_m0x1209_v0x37041514.ota",
-    "imageType": 12298,
-    "manufacturerCode": 4617,
-    "sha512": "834531102c17686c831a3e0e0b78b402643a50c42264fa326fbe32213a0c104bc036befcdf51f330cbbf5c6c95d38a028365c3bbaf7feaa453e4d11792f79f36",
-    "otaHeaderString": "RBSH-TRV0-ZB-EU",
-    "modelId": "RBSH-TRV0-ZB-EU",
-    "releaseNotes": "1. Fix error E03, which can happen on some radiators after some time"
-  },
-  {
     "fileName": "1141-0201-01253001-ZMHOC401.zigbee",
     "fileVersion": 19214337,
     "fileSize": 132098,
@@ -2220,5 +2208,17 @@
     "manufacturerName": [
       "Slacky-DIY"
     ]
+  },
+  {
+    "fileName": "ota_t0x300a_m0x1209_v0x37061514.ota",
+    "fileVersion": 923145492,
+    "fileSize": 168588,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Bosch/ota_t0x300a_m0x1209_v0x37061514.ota",
+    "imageType": 12298,
+    "manufacturerCode": 4617,
+    "sha512": "d8c7f60a98f36580a70be3d67ed62272109d5631de7535f47db8af70a049d501aed95b95fe6f651036fd1b6cc26c6dc71cd46952a12291c051032c07506222c0",
+    "otaHeaderString": "RBSH-TRV0-ZB-EU",
+    "modelId": "RBSH-TRV0-ZB-EU",
+    "releaseNotes": "1. A fault has been resolved that caused the radiator thermostat to sometimes enter an endless loop during auto-calibration"
   }
 ]
