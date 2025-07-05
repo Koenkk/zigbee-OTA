@@ -7760,17 +7760,6 @@
     "otaHeaderString": "Telink OTA Sample Usage"
   },
   {
-    "fileName": "VZM32-SN_0.06.ota",
-    "fileVersion": 16973830,
-    "fileSize": 227134,
-    "originalUrl": "https://files.inovelli.com/firmware/VZM32-SN/Beta/0.06/VZM32-SN_0.06.ota",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Inovelli/VZM32-SN_0.06.ota",
-    "imageType": 259,
-    "manufacturerCode": 4655,
-    "sha512": "b77d59318c932ddb5d93611248f80940f81616df24f68a90891fe526863294763430bfa9fb8a3e61334cc8782d83a6124c305a6891ec8fc833c591915f833672",
-    "otaHeaderString": "vzm32-sn_mmWave"
-  },
-  {
     "fileName": "1141-0201-01283001-ZMHOC401.zigbee",
     "fileVersion": 19410945,
     "fileSize": 132146,
@@ -8069,5 +8058,16 @@
     "sha512": "a5a7c00dead9a7a9ee42e7d914512281258131d1ad2bb8b4a43ec83aa94cad0a02a0427e6b51e0495d9c35782d1ba434d8185c34cdf4207cebabfd4d4d1ee2fd",
     "otaHeaderString": "RBSH-TRV0-ZB-EU",
     "modelId": "RBSH-TRV0-ZB-EU"
+  },
+  {
+    "fileName": "VZM32-SN_0.07.ota",
+    "fileVersion": 16973831,
+    "fileSize": 227562,
+    "originalUrl": "https://files.inovelli.com/firmware/VZM32-SN/Beta/0.07/VZM32-SN_0.07.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Inovelli/VZM32-SN_0.07.ota",
+    "imageType": 259,
+    "manufacturerCode": 4655,
+    "sha512": "3ac80e0ddc651205a21ee7d02a868801acb22dd56a69dcc53c748f6aac4c1183920963fc3b48da777a4acf18400bfb6b9acbe103e18821f089170a654195f474",
+    "otaHeaderString": "vzm32-sn_mmWave"
   }
 ]

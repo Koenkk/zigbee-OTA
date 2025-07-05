@@ -1976,17 +1976,6 @@
     "otaHeaderString": "Telink OTA Sample Usage"
   },
   {
-    "fileName": "VZM32-SN_0.04.ota",
-    "fileVersion": 16973828,
-    "fileSize": 248386,
-    "originalUrl": "https://files.inovelli.com/firmware/VZM32-SN/Beta/0.04/VZM32-SN_0.04.ota",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Inovelli/VZM32-SN_0.04.ota",
-    "imageType": 259,
-    "manufacturerCode": 4655,
-    "sha512": "a6aef13a44da2265d99686c2248631aaaff285881f81e2bf9ffb5048e8c2dcae65f91acfecc98ac83d87fd6f1a6e4cc57fb2cd74b883d76e89e773d3192920bf",
-    "otaHeaderString": "vzm32-sn_mmWave"
-  },
-  {
     "fileName": "1141-0201-01273001-ZMHOC401.zigbee",
     "fileVersion": 19345409,
     "fileSize": 132082,
@@ -2220,5 +2209,16 @@
     "otaHeaderString": "RBSH-TRV0-ZB-EU",
     "modelId": "RBSH-TRV0-ZB-EU",
     "releaseNotes": "1. A fault has been resolved that caused the radiator thermostat to sometimes enter an endless loop during auto-calibration"
+  },
+  {
+    "fileName": "VZM32-SN_0.06.ota",
+    "fileVersion": 16973830,
+    "fileSize": 227134,
+    "originalUrl": "https://files.inovelli.com/firmware/VZM32-SN/Beta/0.06/VZM32-SN_0.06.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Inovelli/VZM32-SN_0.06.ota",
+    "imageType": 259,
+    "manufacturerCode": 4655,
+    "sha512": "b77d59318c932ddb5d93611248f80940f81616df24f68a90891fe526863294763430bfa9fb8a3e61334cc8782d83a6124c305a6891ec8fc833c591915f833672",
+    "otaHeaderString": "vzm32-sn_mmWave"
   }
 ]
