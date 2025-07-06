@@ -6006,27 +6006,6 @@
     "otaHeaderString": ""
   },
   {
-    "fileName": "1141-0208-01143001-ZMHOC401N.zigbee",
-    "fileVersion": 18100225,
-    "fileSize": 127922,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Telink/1141-0208-01143001-ZMHOC401N.zigbee",
-    "imageType": 520,
-    "manufacturerCode": 4417,
-    "sha512": "3976e5a67ec50a54d05dc2b5ed69f94fe1bd989663e8855511cacf00c4472cf904a2f51d63909374258fc7a2943e6b412a3c47cd5cb7282690c7a5c4d7c24828",
-    "otaHeaderString": "Telink OTA BLE device"
-  },
-  {
-    "fileName": "1141-0208-01233001-ZMHOC401N.zigbee",
-    "fileVersion": 19083265,
-    "fileSize": 128690,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Telink/1141-0208-01233001-ZMHOC401N.zigbee",
-    "imageType": 520,
-    "manufacturerCode": 4417,
-    "sha512": "4db812502a8043c85eaa86f53dfc0a8857dd5cde23e5f55dd84bf4a6072f5b37f9de6a0cf4fca4b1b0c74ae91e5d9d92f3a7edcd6c21dde6923d81d2e7d56f3e",
-    "otaHeaderString": "ZigbeeTLc OTA",
-    "modelId": "MHO-C401N"
-  },
-  {
     "fileName": "1663234985-oem_ztu_dimmer1_klt_OTA_1.0.6.bin",
     "fileVersion": 70,
     "fileSize": 256770,
@@ -6958,17 +6937,6 @@
     "modelId": "4512760"
   },
   {
-    "fileName": "1141-0201-01263001-ZMHOC401.zigbee",
-    "fileVersion": 19279873,
-    "fileSize": 132130,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/pvvx/1141-0201-01263001-ZMHOC401.zigbee",
-    "imageType": 513,
-    "manufacturerCode": 4417,
-    "sha512": "154985074600f19f5f470a70d36056a8665a06adc68a6ccb49ab7ccb822fffa570271349f79f8f4911dd73642933449fb931b2c901f2facc17b07e759be2c874",
-    "otaHeaderString": "ZigbeeTLc OTA",
-    "modelId": "MHOC401-z"
-  },
-  {
     "fileName": "4512733-Firmware-35.ota",
     "fileVersion": 54,
     "fileSize": 278354,
@@ -7768,7 +7736,7 @@
     "manufacturerCode": 4417,
     "sha512": "59ad5154b0e0d30c394384b5776748003185f8f8b5aaea68d8df094b5be2bee731372a3c23944e16b05be777a2a84af1d81bf298e863ab571adc9e7c8e2f26d2",
     "otaHeaderString": "ZigbeeTLc OTA",
-    "modelId": "MHO-C401N-z"
+    "modelId": "MHO-C401-z"
   },
   {
     "fileName": "1141-0202-01283001-ZCGG1.zigbee",
@@ -7812,7 +7780,7 @@
     "manufacturerCode": 4417,
     "sha512": "023240eee84e82769ffff0ad6ed670d556736da932df005de12a5f4e13566e0d1f25344f242c7cc9c0e0b48a19f14d80efd62b2529da9d2b1815144206cb2540",
     "otaHeaderString": "ZigbeeTLc OTA",
-    "modelId": "MHOC401N-z"
+    "modelId": "MHO-C401N-z"
   },
   {
     "fileName": "1141-020a-01283001-Z03MMC.zigbee",
