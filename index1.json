@@ -2220,5 +2220,18 @@
     "manufacturerCode": 4655,
     "sha512": "b77d59318c932ddb5d93611248f80940f81616df24f68a90891fe526863294763430bfa9fb8a3e61334cc8782d83a6124c305a6891ec8fc833c591915f833672",
     "otaHeaderString": "vzm32-sn_mmWave"
+  },
+  {
+    "fileName": "6565-0391-10033001-ZG_222ZA.zigbee",
+    "fileVersion": 268644353,
+    "fileSize": 152882,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/SlackyDiy/6565-0391-10033001-ZG_222ZA.zigbee",
+    "imageType": 913,
+    "manufacturerCode": 25957,
+    "sha512": "d7e3bec81f9f36be1eed970be55f7acbb4297584399b97e0606beda65200def1df526d699c9bdc166e68ce2c1dc96bff60755d043c7bf666b6b8e3f48c8be74e",
+    "otaHeaderString": "",
+    "manufacturerName": [
+      "Slacky-DIY"
+    ]
   }
 ]
