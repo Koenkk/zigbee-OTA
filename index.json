@@ -8069,5 +8069,75 @@
     "manufacturerCode": 4655,
     "sha512": "3ac80e0ddc651205a21ee7d02a868801acb22dd56a69dcc53c748f6aac4c1183920963fc3b48da777a4acf18400bfb6b9acbe103e18821f089170a654195f474",
     "otaHeaderString": "vzm32-sn_mmWave"
+  },
+  {
+    "fileName": "MICROMODULE_DIMMER_0x21076A30_PROD.fw",
+    "fileVersion": 554134064,
+    "fileSize": 255570,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Bosch/MICROMODULE_DIMMER_0x21076A30_PROD.fw",
+    "imageType": 12300,
+    "manufacturerCode": 4617,
+    "sha512": "639bc773d0b7d7326d594c530ef3d711a4f31cf392df88f32c051ef145f4bd3b151805bdc77234631e9f7d4c7454ba4b7c0335d0a2873a3a7ef60199528b44a6",
+    "otaHeaderString": "MM_DIMMER"
+  },
+  {
+    "fileName": "MICROMODULE_RELAY_0x210C6A30_PROD.fw",
+    "fileVersion": 554461744,
+    "fileSize": 247802,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Bosch/MICROMODULE_RELAY_0x210C6A30_PROD.fw",
+    "imageType": 12301,
+    "manufacturerCode": 4617,
+    "sha512": "efe3066a98b71f067ad9840172b073690c136a7292774e72a3a41fcb403c423aee7e27b71e07538d148123d3d89257e154273e5609b44cb304035dfe6a0611bc",
+    "otaHeaderString": "MM_RELAY"
+  },
+  {
+    "fileName": "OUTDOOR_SIREN_421095264.fw",
+    "fileVersion": 421095264,
+    "fileSize": 368542,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Bosch/OUTDOOR_SIREN_421095264.fw",
+    "imageType": 12293,
+    "manufacturerCode": 4617,
+    "sha512": "dce1d9ea74b8684025584182cefe76abbb65f14f0e1fb4d6e772fea52810bab1bfaada3c01a0494c413257f17b44633efec8da606b44b1372490e35391a7992a",
+    "otaHeaderString": "ZB_C667_OutdoorSiren_Signed"
+  },
+  {
+    "fileName": "PLUG_COMPACT_FR_0x2A006A30_PROD.fw",
+    "fileVersion": 704670256,
+    "fileSize": 254482,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Bosch/PLUG_COMPACT_FR_0x2A006A30_PROD.fw",
+    "imageType": 12291,
+    "manufacturerCode": 4617,
+    "sha512": "3a9e32be86c91ebef83c08f0b8216fe9fbb254392359c8bdecbd87f8cc9c30d8eae2e256fd74817f3a6b915c3af7678b306cae58d1882d7b037d83195dd5fe64",
+    "otaHeaderString": "PLUG_FR"
+  },
+  {
+    "fileName": "PLUG_COMPACT_GB_0x2A006A30_PROD.fw",
+    "fileVersion": 704670256,
+    "fileSize": 254482,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Bosch/PLUG_COMPACT_GB_0x2A006A30_PROD.fw",
+    "imageType": 12292,
+    "manufacturerCode": 4617,
+    "sha512": "3d6bcd7ed27afe5ec9f19f51567fc868361b9f868a044c3e1c58fbdde68e24691c2bfe3c77cef7632b20c60731f76837aeda26540840c9daca437f1aa89a4c62",
+    "otaHeaderString": "PLUG_GB"
+  },
+  {
+    "fileName": "SWD2_0x11191514_PROD.fw",
+    "fileVersion": 286856468,
+    "fileSize": 158927,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Bosch/SWD2_0x11191514_PROD.fw",
+    "imageType": 12295,
+    "manufacturerCode": 4617,
+    "sha512": "a3fc0d8b0a0948ba589f410b97669b4e93e11edde4cc76e09864b11e778f7c0ea3ef8abf34cec89b83d9dc8c408babd6bdd7102ac8e51a8bc3b1f11d034b458a",
+    "otaHeaderString": "RBSH-SWD-ZB"
+  },
+  {
+    "fileName": "WLS_553805664.fw",
+    "fileVersion": 553805664,
+    "fileSize": 213978,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Bosch/WLS_553805664.fw",
+    "imageType": 12289,
+    "manufacturerCode": 4617,
+    "sha512": "234de561fcbe5ec07593fd61fc5545dd24407f2f1153188254b7d714f85460f0566b6f482bb0e280810cbb8f2e363440e5aba2de92f45ff5c268bdc03615b982",
+    "otaHeaderString": "GBL Z3C667WaterSensorSDK6760"
   }
 ]
