@@ -16,6 +16,10 @@ type PageJson = {updates: ImageJson[]};
 const NAME = "Hue";
 const BASE_URL = "https://firmware.meethue.com/v1/checkupdate?version=0&deviceTypeId=";
 const DEVICE_TYPE_IDS: string[] = [
+    "100b-10c",
+    "100b-100",
+    "100b-103",
+    "100b-104",
     "100b-111",
     "100b-112",
     // '100b-113',
