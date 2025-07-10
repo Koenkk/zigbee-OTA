@@ -8139,5 +8139,35 @@
     "manufacturerCode": 4617,
     "sha512": "234de561fcbe5ec07593fd61fc5545dd24407f2f1153188254b7d714f85460f0566b6f482bb0e280810cbb8f2e363440e5aba2de92f45ff5c268bdc03615b982",
     "otaHeaderString": "GBL Z3C667WaterSensorSDK6760"
+  },
+  {
+    "fileName": "MICROMODULE_LIGHT_SHADING_0x21186A30_PROD.fw",
+    "fileVersion": 555248176,
+    "fileSize": 256574,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Bosch/MICROMODULE_LIGHT_SHADING_0x21186A30_PROD.fw",
+    "imageType": 12299,
+    "manufacturerCode": 4617,
+    "sha512": "8ef055468ea4334ec8b9bd8db301cfafbd469f846a632eeceaa8a4c507dff11b2ce2fb871fd70106a9a962e019a638ce9cc4a047ea68b369403e03663aad3e4c",
+    "otaHeaderString": "MICROMODULE_LIGHT_SHADING_0x2118"
+  },
+  {
+    "fileName": "PLUG_COMPACT_EU_0x2A006A30_PROD.fw",
+    "fileVersion": 704670256,
+    "fileSize": 254482,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Bosch/PLUG_COMPACT_EU_0x2A006A30_PROD.fw",
+    "imageType": 12290,
+    "manufacturerCode": 4617,
+    "sha512": "e321384272c1cb5b11bd259ecc8f06d64ae50b193d6057e5221c2d56c55871d1387fdd72c11356f8b9d85f2f68f3906f3b11a49e7140848078ac60ce73723dc3",
+    "otaHeaderString": "PLUG_EU"
+  },
+  {
+    "fileName": "TRV_GEN2_0x38011514_PROD.fw",
+    "fileVersion": 939595028,
+    "fileSize": 168715,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Bosch/TRV_GEN2_0x38011514_PROD.fw",
+    "imageType": 12298,
+    "manufacturerCode": 4617,
+    "sha512": "a5a7c00dead9a7a9ee42e7d914512281258131d1ad2bb8b4a43ec83aa94cad0a02a0427e6b51e0495d9c35782d1ba434d8185c34cdf4207cebabfd4d4d1ee2fd",
+    "otaHeaderString": "RBSH-TRV0-ZB-EU"
   }
 ]
