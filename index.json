@@ -8169,5 +8169,31 @@
     "manufacturerCode": 4617,
     "sha512": "a5a7c00dead9a7a9ee42e7d914512281258131d1ad2bb8b4a43ec83aa94cad0a02a0427e6b51e0495d9c35782d1ba434d8185c34cdf4207cebabfd4d4d1ee2fd",
     "otaHeaderString": "RBSH-TRV0-ZB-EU"
+  },
+  {
+    "fileName": "6565-0212-10043001-ZG_222Z.zigbee",
+    "fileVersion": 268709889,
+    "fileSize": 153554,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-0212-10043001-ZG_222Z.zigbee",
+    "imageType": 530,
+    "manufacturerCode": 25957,
+    "sha512": "7e7ff5a8fcf6113e358826a00fbfdaee590765dbd89853f614659d88d7b732d66f578008b4948c748a590adf9c62344ff76be75f45b1846d1bc76a212df48147",
+    "otaHeaderString": "",
+    "manufacturerName": [
+      "Slacky-DIY"
+    ]
+  },
+  {
+    "fileName": "6565-0213-10043001-SNZB_05.zigbee",
+    "fileVersion": 268709889,
+    "fileSize": 153538,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-0213-10043001-SNZB_05.zigbee",
+    "imageType": 531,
+    "manufacturerCode": 25957,
+    "sha512": "6e3f5c06a58e7f11f6010dd94e29a915796bc79e667f3a1ff78ee6f1239a4f90c93eae7cd6f5dfab5fc8177caf644d1366d7c9ac53cf0c5c8fe8e18c92e1e020",
+    "otaHeaderString": "",
+    "manufacturerName": [
+      "Slacky-DIY"
+    ]
   }
 ]
