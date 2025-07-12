@@ -8036,19 +8036,6 @@
     ]
   },
   {
-    "fileName": "6565-0397-10023001-ts0207_tz3000_zed.zigbee",
-    "fileVersion": 268578817,
-    "fileSize": 152210,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-0397-10023001-ts0207_tz3000_zed.zigbee",
-    "imageType": 919,
-    "manufacturerCode": 25957,
-    "sha512": "0cc3a4ffb5c7b620dd3fd5894a5389fc639881ad905ba2370c7e83b556aea6e1d1802b24d73476a7b3f5783a997ce1b962aded0c30434bafe2e454bf21d35274",
-    "otaHeaderString": "",
-    "manufacturerName": [
-      "Slacky-DIY"
-    ]
-  },
-  {
     "fileName": "ota_t0x300a_m0x1209_v0x38011514.ota",
     "fileVersion": 939595028,
     "fileSize": 168715,
@@ -8191,6 +8178,45 @@
     "imageType": 531,
     "manufacturerCode": 25957,
     "sha512": "6e3f5c06a58e7f11f6010dd94e29a915796bc79e667f3a1ff78ee6f1239a4f90c93eae7cd6f5dfab5fc8177caf644d1366d7c9ac53cf0c5c8fe8e18c92e1e020",
+    "otaHeaderString": "",
+    "manufacturerName": [
+      "Slacky-DIY"
+    ]
+  },
+  {
+    "fileName": "6565-0218-10043001-ZG_222Z.zigbee",
+    "fileVersion": 268709889,
+    "fileSize": 153554,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-0218-10043001-ZG_222Z.zigbee",
+    "imageType": 536,
+    "manufacturerCode": 25957,
+    "sha512": "cea20063aebd297522f20a3087d7f06d6f90fc7dab5eb3b35389d0138da906bdf9ba35b2a811121b8662340e8d59011498f7fb834b58dfb58ac5cf0db1c17234",
+    "otaHeaderString": "",
+    "manufacturerName": [
+      "Slacky-DIY"
+    ]
+  },
+  {
+    "fileName": "6565-0219-10043001-SNZB_05.zigbee",
+    "fileVersion": 268709889,
+    "fileSize": 153538,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-0219-10043001-SNZB_05.zigbee",
+    "imageType": 537,
+    "manufacturerCode": 25957,
+    "sha512": "aef31e6415c7faa9ad8c056035c295d5a2b053388dd3a059286b51068577c526cca35d53e73fef3a6d9a7ff424c04700ff7d10e21d3372eae91d6f4a2d9b7538",
+    "otaHeaderString": "",
+    "manufacturerName": [
+      "Slacky-DIY"
+    ]
+  },
+  {
+    "fileName": "6565-0397-10043001-ZG_222ZA.zigbee",
+    "fileVersion": 268709889,
+    "fileSize": 152962,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-0397-10043001-ZG_222ZA.zigbee",
+    "imageType": 919,
+    "manufacturerCode": 25957,
+    "sha512": "e82d1c91fbd7b2614a6d4c6ebdd709ad2118d69a785b960068611da0ed3ee693a6d36a27bc88d365ae0679545bd3a13f2a1988669cf23be4493b1f75796d1f5f",
     "otaHeaderString": "",
     "manufacturerName": [
       "Slacky-DIY"
