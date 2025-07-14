@@ -264,26 +264,6 @@
     "otaHeaderString": "WindowVibrationSensor"
   },
   {
-    "fileName": "EntrySensor_4.0.2.zigbee",
-    "fileVersion": 262146,
-    "fileSize": 200121,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Develco/EntrySensor_4.0.2.zigbee",
-    "imageType": 576,
-    "manufacturerCode": 4117,
-    "sha512": "839eff218970eb619c9f15ae63f435da50d2cf93f44569de4fea56d63d49c888031b1ee0714e447b39f90664eaa490bf619b8eac641c296a27b609e78c61fc56",
-    "otaHeaderString": ""
-  },
-  {
-    "fileName": "HumiditySensor_4.0.1.zigbee",
-    "fileVersion": 262145,
-    "fileSize": 189614,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Develco/HumiditySensor_4.0.1.zigbee",
-    "imageType": 784,
-    "manufacturerCode": 4117,
-    "sha512": "a5bae0c769d58e788ba146b40c65ccd32d26d4934f6291a48f5bf23e13266c9ddd5afe310a47dcc5592c1865572e723da69171f1d43f1c669ed153d670b3afb5",
-    "otaHeaderString": ""
-  },
-  {
     "fileName": "IntelligentKeyPad_2.0.5.zigbee",
     "fileVersion": 131077,
     "fileSize": 217046,
@@ -304,16 +284,6 @@
     "otaHeaderString": "MotionSensor"
   },
   {
-    "fileName": "MotionSensor_4.0.6.zigbee",
-    "fileVersion": 262150,
-    "fileSize": 210750,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Develco/MotionSensor_4.0.6.zigbee",
-    "imageType": 386,
-    "manufacturerCode": 4117,
-    "sha512": "6ed82ead9881ae40347b51127aef48309cd54b78f0be3d46b42337cd34a095b49d9fe0bce434c06059136292bd33d6f8e44cd46a9d7a6d1c9c9934d10ab64af3",
-    "otaHeaderString": ""
-  },
-  {
     "fileName": "SmartButton_2.0.2.zigbee",
     "fileVersion": 131074,
     "fileSize": 208318,
@@ -322,26 +292,6 @@
     "manufacturerCode": 4117,
     "sha512": "79a014db8559dd8ec42d3d867d3330eee0208904eb5169a3fe47a072b341486864dd4a62bfb7bb42f00aa62a7c2d36ef861842441cbd46e44fca37b98b28097c",
     "otaHeaderString": "PanicButton"
-  },
-  {
-    "fileName": "SmartPlug2_2.0.5.zigbee",
-    "fileVersion": 131077,
-    "fileSize": 234566,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Develco/SmartPlug2_2.0.5.zigbee",
-    "imageType": 737,
-    "manufacturerCode": 4117,
-    "sha512": "3c91179db3e65ff0bb361a84844ef1e096249af586f0e548bb72ac9bf27096113f90f14ffd0d222fdb792865a28368c58c072a895f87598bd44543275d6a766f",
-    "otaHeaderString": "Router - Smart Plug"
-  },
-  {
-    "fileName": "WaterLeakDetector_4.0.4.zigbee",
-    "fileVersion": 262148,
-    "fileSize": 201108,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Develco/WaterLeakDetector_4.0.4.zigbee",
-    "imageType": 768,
-    "manufacturerCode": 4117,
-    "sha512": "382a13ab21fa9aed73f136b42f565444ba4ebc115d437a1af6868cad0fca86376fb2f48407056aa511cd77321897981a52bec890b9810aff1af15ac6b072d385",
-    "otaHeaderString": ""
   },
   {
     "fileName": "ZR_Smartplug_SSIG_3.12.16.zigbee",
@@ -8324,6 +8274,66 @@
     "imageType": 295,
     "manufacturerCode": 4107,
     "sha512": "fd32c44d86bf09e9f1b3566b3905c0c36f5c4c10f5748cdff4e92efbd02bb983959a162b12686a537de41d6c4d67bcedad3826f64898246ff004bafe8d6833c5",
+    "otaHeaderString": ""
+  },
+  {
+    "fileName": "EntrySensor_4.0.3.zigbee",
+    "fileVersion": 262147,
+    "fileSize": 200550,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Develco/EntrySensor_4.0.3.zigbee",
+    "imageType": 576,
+    "manufacturerCode": 4117,
+    "sha512": "6da06e817d643c4936e28c1fa6ac4f51cc0a79a8603cd8c91bed8feff4df86e580ea3265895ca740a237dc18fd0f1631f0bc45a27d94dc0c6467c0b1e839fbff",
+    "otaHeaderString": ""
+  },
+  {
+    "fileName": "HumiditySensor_4.0.2.zigbee",
+    "fileVersion": 262146,
+    "fileSize": 190095,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Develco/HumiditySensor_4.0.2.zigbee",
+    "imageType": 784,
+    "manufacturerCode": 4117,
+    "sha512": "f1dbfc002e53c186fc6ddd6241c4aa692372cd610d032cde583991884bae9fb7a276343335a14edff5750961bccf5594067c45e79faca7b9ea326a804d31efbc",
+    "otaHeaderString": ""
+  },
+  {
+    "fileName": "MotionSensor_4.0.8.zigbee",
+    "fileVersion": 262152,
+    "fileSize": 210984,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Develco/MotionSensor_4.0.8.zigbee",
+    "imageType": 386,
+    "manufacturerCode": 4117,
+    "sha512": "87ee44335a39ae5c2d76a84eacff1e3805d562ebbda20663a4dc96bd83278f3569be736d57e614e93ca4f0fe8e4f24bb484d2b637e6e5bda59cb2f34bb5b906d",
+    "otaHeaderString": ""
+  },
+  {
+    "fileName": "SmartPlug2_SmartCable2_SmartDIN2_2.0.9.zigbee",
+    "fileVersion": 131081,
+    "fileSize": 234822,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Develco/SmartPlug2_SmartCable2_SmartDIN2_2.0.9.zigbee",
+    "imageType": 737,
+    "manufacturerCode": 4117,
+    "sha512": "692ca6c846dfe818d52c08e9b4976842419346802ae0c4f2ce5c003989afb49ba21b4c9070393d6080c9a3c82b6ba084ec08486e7e10aa3faecd22799c243b24",
+    "otaHeaderString": "Router - Smart Plug"
+  },
+  {
+    "fileName": "SmartSiren_2.0.4.zigbee",
+    "fileVersion": 131076,
+    "fileSize": 242466,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Develco/SmartSiren_2.0.4.zigbee",
+    "imageType": 914,
+    "manufacturerCode": 4117,
+    "sha512": "311cee037d23addef407aff9efd26c62dc9ff66003a369fd8860b54bb51f33254127a9c69c1190c74bf03382ad15e6db764d3eaf67a778e531ba006b4e1de18d",
+    "otaHeaderString": "Router - Siren"
+  },
+  {
+    "fileName": "WaterLeakDetector_4.0.5.zigbee",
+    "fileVersion": 262149,
+    "fileSize": 201442,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Develco/WaterLeakDetector_4.0.5.zigbee",
+    "imageType": 768,
+    "manufacturerCode": 4117,
+    "sha512": "68866a18d002036324d5890957742a1027b00dd5b7fc5b727fae70de2ee20980887fe2287f2474d48aecd89fd564ada2a48243ec3fd46c57b4cc877c2da0a0b7",
     "otaHeaderString": ""
   }
 ]

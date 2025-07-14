@@ -2277,5 +2277,55 @@
     "sha512": "9d7e340b79e0a82e16a7873760762e374be8b96267c4f643aedfdac7f4710bbce66beef51b1d4e353743a09cdbb22474508f419f124aae937d2bdd71cbc780d3",
     "otaHeaderString": "",
     "originalUrl": "https://firmware.meethue.com/storage/100b-127/16780546/96200b09-9d10-4272-adeb-b89203fffc41/100B-0127-01000D02-MSD-EFR32MG21.zigbee"
+  },
+  {
+    "fileName": "EntrySensor_4.0.2.zigbee",
+    "fileVersion": 262146,
+    "fileSize": 200121,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Develco/EntrySensor_4.0.2.zigbee",
+    "imageType": 576,
+    "manufacturerCode": 4117,
+    "sha512": "839eff218970eb619c9f15ae63f435da50d2cf93f44569de4fea56d63d49c888031b1ee0714e447b39f90664eaa490bf619b8eac641c296a27b609e78c61fc56",
+    "otaHeaderString": ""
+  },
+  {
+    "fileName": "HumiditySensor_4.0.1.zigbee",
+    "fileVersion": 262145,
+    "fileSize": 189614,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Develco/HumiditySensor_4.0.1.zigbee",
+    "imageType": 784,
+    "manufacturerCode": 4117,
+    "sha512": "a5bae0c769d58e788ba146b40c65ccd32d26d4934f6291a48f5bf23e13266c9ddd5afe310a47dcc5592c1865572e723da69171f1d43f1c669ed153d670b3afb5",
+    "otaHeaderString": ""
+  },
+  {
+    "fileName": "MotionSensor_4.0.6.zigbee",
+    "fileVersion": 262150,
+    "fileSize": 210750,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Develco/MotionSensor_4.0.6.zigbee",
+    "imageType": 386,
+    "manufacturerCode": 4117,
+    "sha512": "6ed82ead9881ae40347b51127aef48309cd54b78f0be3d46b42337cd34a095b49d9fe0bce434c06059136292bd33d6f8e44cd46a9d7a6d1c9c9934d10ab64af3",
+    "otaHeaderString": ""
+  },
+  {
+    "fileName": "SmartPlug2_2.0.5.zigbee",
+    "fileVersion": 131077,
+    "fileSize": 234566,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Develco/SmartPlug2_2.0.5.zigbee",
+    "imageType": 737,
+    "manufacturerCode": 4117,
+    "sha512": "3c91179db3e65ff0bb361a84844ef1e096249af586f0e548bb72ac9bf27096113f90f14ffd0d222fdb792865a28368c58c072a895f87598bd44543275d6a766f",
+    "otaHeaderString": "Router - Smart Plug"
+  },
+  {
+    "fileName": "WaterLeakDetector_4.0.4.zigbee",
+    "fileVersion": 262148,
+    "fileSize": 201108,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Develco/WaterLeakDetector_4.0.4.zigbee",
+    "imageType": 768,
+    "manufacturerCode": 4117,
+    "sha512": "382a13ab21fa9aed73f136b42f565444ba4ebc115d437a1af6868cad0fca86376fb2f48407056aa511cd77321897981a52bec890b9810aff1af15ac6b072d385",
+    "otaHeaderString": ""
   }
 ]
