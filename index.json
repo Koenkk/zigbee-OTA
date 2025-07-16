@@ -8335,5 +8335,20 @@
     "manufacturerCode": 4117,
     "sha512": "68866a18d002036324d5890957742a1027b00dd5b7fc5b727fae70de2ee20980887fe2287f2474d48aecd89fd564ada2a48243ec3fd46c57b4cc877c2da0a0b7",
     "otaHeaderString": ""
+  },
+  {
+    "fileName": "4512766-Firmware-35.ota",
+    "fileVersion": 13,
+    "fileSize": 283370,
+    "originalUrl": "https://www.elektroimportoren.no/docs/lib/4512766-Firmware-35.zip",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Namron/4512766-Firmware-35.ota",
+    "imageType": 1002,
+    "manufacturerCode": 4098,
+    "sha512": "f81930e8db3da9a88c5f4fb9e01bd71c9a0625f2b27492664bba278382d35a4c4becafe4a1e762ace717143d26e53161d883b94aa981f31244c2db923e4631b6",
+    "otaHeaderString": "EBL z3_plug_socket_in_1_onoff_ou",
+    "manufacturerName": [
+      "Namron"
+    ],
+    "modelId": "4512766"
   }
 ]
