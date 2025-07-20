@@ -7310,19 +7310,6 @@
     "hardwareVersionMax": 5
   },
   {
-    "fileName": "10F2-7B3B-0000-0001-02600460-m7b-h10.ota.zigbee",
-    "fileVersion": 39847008,
-    "fileSize": 158462,
-    "originalUrl": "http://fwu.ubisys.de/smarthome/OTA/release/10F2-7B3B-0000-0001-02600460-m7b-h10.ota.zigbee",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Ubisys/10F2-7B3B-0000-0001-02600460-m7b-h10.ota.zigbee",
-    "imageType": 31547,
-    "manufacturerCode": 4338,
-    "sha512": "a1760dc4bf1bbe8cceca6bda11986049bb0a5306db1cdf6acc5cf7b40cb1457308bec2832a8009e1e215c03764ea5104cecce74bd9ea16b4ca305d7e7abe07dd",
-    "otaHeaderString": "ubisys H10 2.6.0",
-    "hardwareVersionMin": 0,
-    "hardwareVersionMax": 1
-  },
-  {
     "fileName": "10F2-7B45-0100-0100-02610463-ubisys-s1r-qpg6105.ota.zigbee",
     "fileVersion": 39912547,
     "fileSize": 249598,
@@ -7961,17 +7948,6 @@
     "modelId": "RBSH-TRV0-ZB-EU"
   },
   {
-    "fileName": "VZM32-SN_0.07.ota",
-    "fileVersion": 16973831,
-    "fileSize": 227562,
-    "originalUrl": "https://files.inovelli.com/firmware/VZM32-SN/Beta/0.07/VZM32-SN_0.07.ota",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Inovelli/VZM32-SN_0.07.ota",
-    "imageType": 259,
-    "manufacturerCode": 4655,
-    "sha512": "3ac80e0ddc651205a21ee7d02a868801acb22dd56a69dcc53c748f6aac4c1183920963fc3b48da777a4acf18400bfb6b9acbe103e18821f089170a654195f474",
-    "otaHeaderString": "vzm32-sn_mmWave"
-  },
-  {
     "fileName": "MICROMODULE_DIMMER_0x21076A30_PROD.fw",
     "fileVersion": 554134064,
     "fileSize": 255570,
@@ -8350,5 +8326,29 @@
       "Namron"
     ],
     "modelId": "4512766"
+  },
+  {
+    "fileName": "VZM32-SN_0.08.ota",
+    "fileVersion": 16973832,
+    "fileSize": 227530,
+    "originalUrl": "https://files.inovelli.com/firmware/VZM32-SN/Beta/0.08/VZM32-SN_0.08.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Inovelli/VZM32-SN_0.08.ota",
+    "imageType": 259,
+    "manufacturerCode": 4655,
+    "sha512": "caad07227667892f7691dbbdd6f087a9d3fed28225155db10da7e32a81cbcc4ba39f394ccb28f8e764c3206e86999440a9226d52a6c3d67886e85bf6759fd4ac",
+    "otaHeaderString": "vzm32-sn_mmWave"
+  },
+  {
+    "fileName": "10F2-7B3B-0000-0001-02610461-m7b-h10.ota.zigbee",
+    "fileVersion": 39912545,
+    "fileSize": 158462,
+    "originalUrl": "http://fwu.ubisys.de/smarthome/OTA/release/10F2-7B3B-0000-0001-02610461-m7b-h10.ota.zigbee",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Ubisys/10F2-7B3B-0000-0001-02610461-m7b-h10.ota.zigbee",
+    "imageType": 31547,
+    "manufacturerCode": 4338,
+    "sha512": "527985bd1c2c44924f5c37d245201431282a7654db6129c02b9bd7fba2329939e2f33f1b60e2c572a6fec65aaae40a973fe54d8ba780739d0f931b14c370c5a7",
+    "otaHeaderString": "ubisys H10 2.6.1",
+    "hardwareVersionMin": 0,
+    "hardwareVersionMax": 1
   }
 ]

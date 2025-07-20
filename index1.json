@@ -1673,19 +1673,6 @@
     "hardwareVersionMin": 0
   },
   {
-    "fileName": "10F2-7B3B-0000-0001-02500447-m7b-h10.ota.zigbee",
-    "fileVersion": 38798407,
-    "fileSize": 157950,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Ubisys/10F2-7B3B-0000-0001-02500447-m7b-h10.ota.zigbee",
-    "imageType": 31547,
-    "manufacturerCode": 4338,
-    "sha512": "7aa6186e680f62447d8bb226d1902affe940b3d070ae228d545a172d75d6e9552febef60959762704003af5dcd319dce06acf33f19ce7cc7bdb90e5aad95e601",
-    "otaHeaderString": "ubisys H10 2.5.0",
-    "originalUrl": "http://fwu.ubisys.de/smarthome/OTA/release/10F2-7B3B-0000-0001-02500447-m7b-h10.ota.zigbee",
-    "hardwareVersionMax": 1,
-    "hardwareVersionMin": 0
-  },
-  {
     "fileName": "10F2-7B45-0100-0100-0250044D-ubisys-s1r-qpg6105.ota.zigbee",
     "fileVersion": 38798413,
     "fileSize": 233726,
@@ -2211,17 +2198,6 @@
     "releaseNotes": "1. A fault has been resolved that caused the radiator thermostat to sometimes enter an endless loop during auto-calibration"
   },
   {
-    "fileName": "VZM32-SN_0.06.ota",
-    "fileVersion": 16973830,
-    "fileSize": 227134,
-    "originalUrl": "https://files.inovelli.com/firmware/VZM32-SN/Beta/0.06/VZM32-SN_0.06.ota",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Inovelli/VZM32-SN_0.06.ota",
-    "imageType": 259,
-    "manufacturerCode": 4655,
-    "sha512": "b77d59318c932ddb5d93611248f80940f81616df24f68a90891fe526863294763430bfa9fb8a3e61334cc8782d83a6124c305a6891ec8fc833c591915f833672",
-    "otaHeaderString": "vzm32-sn_mmWave"
-  },
-  {
     "fileName": "6565-0391-10043001-ZG_222ZA.zigbee",
     "fileVersion": 268709889,
     "fileSize": 152962,
@@ -2327,5 +2303,29 @@
     "manufacturerCode": 4117,
     "sha512": "382a13ab21fa9aed73f136b42f565444ba4ebc115d437a1af6868cad0fca86376fb2f48407056aa511cd77321897981a52bec890b9810aff1af15ac6b072d385",
     "otaHeaderString": ""
+  },
+  {
+    "fileName": "VZM32-SN_0.07.ota",
+    "fileVersion": 16973831,
+    "fileSize": 227562,
+    "originalUrl": "https://files.inovelli.com/firmware/VZM32-SN/Beta/0.07/VZM32-SN_0.07.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Inovelli/VZM32-SN_0.07.ota",
+    "imageType": 259,
+    "manufacturerCode": 4655,
+    "sha512": "3ac80e0ddc651205a21ee7d02a868801acb22dd56a69dcc53c748f6aac4c1183920963fc3b48da777a4acf18400bfb6b9acbe103e18821f089170a654195f474",
+    "otaHeaderString": "vzm32-sn_mmWave"
+  },
+  {
+    "fileName": "10F2-7B3B-0000-0001-02600460-m7b-h10.ota.zigbee",
+    "fileVersion": 39847008,
+    "fileSize": 158462,
+    "originalUrl": "http://fwu.ubisys.de/smarthome/OTA/release/10F2-7B3B-0000-0001-02600460-m7b-h10.ota.zigbee",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Ubisys/10F2-7B3B-0000-0001-02600460-m7b-h10.ota.zigbee",
+    "imageType": 31547,
+    "manufacturerCode": 4338,
+    "sha512": "a1760dc4bf1bbe8cceca6bda11986049bb0a5306db1cdf6acc5cf7b40cb1457308bec2832a8009e1e215c03764ea5104cecce74bd9ea16b4ca305d7e7abe07dd",
+    "otaHeaderString": "ubisys H10 2.6.0",
+    "hardwareVersionMin": 0,
+    "hardwareVersionMax": 1
   }
 ]
