@@ -8350,5 +8350,15 @@
     "otaHeaderString": "ubisys H10 2.6.1",
     "hardwareVersionMin": 0,
     "hardwareVersionMax": 1
+  },
+  {
+    "fileName": "bl702_Dual_plug_v1.00.34.ota",
+    "fileVersion": 34,
+    "fileSize": 284370,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/bl702_Dual_plug_v1.00.34.ota",
+    "imageType": 54197,
+    "manufacturerCode": 5127,
+    "sha512": "ef39209ff1a150ad4088542f04d8b91be669a8db208b484730730e07b76043d6aea24c799e1d12a89dfa373c2df0810b100944e663434dcd8c2568af9bfaf492",
+    "otaHeaderString": "temp_humi_sensor"
   }
 ]
