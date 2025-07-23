@@ -1367,16 +1367,6 @@
     "modelId": "MHOC401-z"
   },
   {
-    "fileName": "Soil_Moisture_Sensor_PROD_OTA_V31_v1.00.31.ota",
-    "fileVersion": 31,
-    "fileSize": 139026,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/Soil_Moisture_Sensor_PROD_OTA_V31_v1.00.31.ota",
-    "imageType": 54191,
-    "manufacturerCode": 5127,
-    "sha512": "18aa9d1118fc0a1bf39a037036c9f6229a789a4c4e20f8403838ede9aa771ccfacbf0eff8ca1b52b265f564a4f555613264556f9e1a1884a6f1fd932dc4e4478",
-    "otaHeaderString": "Telink OTA Sample Usage"
-  },
-  {
     "fileName": "TCM300Z_OTA_ENC_V5_ENC.ota",
     "fileVersion": 5,
     "fileSize": 221166,
@@ -2327,5 +2317,15 @@
     "otaHeaderString": "ubisys H10 2.6.0",
     "hardwareVersionMin": 0,
     "hardwareVersionMax": 1
+  },
+  {
+    "fileName": "Soil_Moisture_Sensor_PROD_OTA_V38_v1.00.38.ota",
+    "fileVersion": 38,
+    "fileSize": 141506,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/Soil_Moisture_Sensor_PROD_OTA_V38_v1.00.38.ota",
+    "imageType": 54191,
+    "manufacturerCode": 5127,
+    "sha512": "3c40fc67cc0fa3e1203fbab939456614f402a4a95670208572d6b3cf948ee4ab978a5431a94f581ae627f8bdaf896eb16d1bff2f72cb226a170b4e4af2b4c9d1",
+    "otaHeaderString": "Telink OTA Sample Usage"
   }
 ]
