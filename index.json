@@ -6693,17 +6693,6 @@
     "otaHeaderString": "Telink OTA Sample Usage"
   },
   {
-    "fileName": "100B-0129-01000D06-Light-EFR32MG26.zigbee",
-    "fileVersion": 16780550,
-    "fileSize": 833604,
-    "originalUrl": "https://firmware.meethue.com/storage/100b-129/16780550/d44f751c-9def-4483-aeb9-940f59ed3aa1/100B-0129-01000D06-Light-EFR32MG26.zigbee",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-0129-01000D06-Light-EFR32MG26.zigbee",
-    "imageType": 297,
-    "manufacturerCode": 4107,
-    "sha512": "c21b60bca9276fb9c1cecfe4b61b91a4cc90ca9a48cd75c93fb2ed8fc33853e81b0f4e618afbc7ba6538b7a868669765698611c3db2430389aa5fae86c28c5d3",
-    "otaHeaderString": ""
-  },
-  {
     "fileName": "mmwave_module_fw_V3_14_3.ota",
     "fileVersion": 100863491,
     "fileSize": 50238,
@@ -8330,5 +8319,16 @@
     "manufacturerCode": 5127,
     "sha512": "a11f007f77a807876c809527540a2aadf199c94273deeea2e2d31529c6704bd24f6080bc44653893e7020c5d0ec1df139f3bb59dacde84fe0946a6e66ee1abbf",
     "otaHeaderString": "Telink OTA Sample Usage"
+  },
+  {
+    "fileName": "100B-0129-01001000-Light-EFR32MG26.zigbee",
+    "fileVersion": 16781312,
+    "fileSize": 881834,
+    "originalUrl": "https://firmware.meethue.com/storage/100b-129/16781312/154cde62-253b-46b5-8b47-a7d705d71eff/100B-0129-01001000-Light-EFR32MG26.zigbee",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-0129-01001000-Light-EFR32MG26.zigbee",
+    "imageType": 297,
+    "manufacturerCode": 4107,
+    "sha512": "d8c6583f9e6db1179af3c8f3e4166d6b5ae8554c3327cdc34ae01712b04393ea527d08734f5032bcb6e46017e8bef70573c0a11e0d0d1441d3757107df17a75b",
+    "otaHeaderString": ""
   }
 ]
