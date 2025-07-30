@@ -2327,5 +2327,41 @@
     "manufacturerCode": 4107,
     "sha512": "c21b60bca9276fb9c1cecfe4b61b91a4cc90ca9a48cd75c93fb2ed8fc33853e81b0f4e618afbc7ba6538b7a868669765698611c3db2430389aa5fae86c28c5d3",
     "otaHeaderString": ""
+  },
+  {
+    "fileName": "100B-010C-01002800-ConfLight-Lamps_0012.zigbee",
+    "fileVersion": 16787456,
+    "fileSize": 266684,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Hue/100B-010C-01002800-ConfLight-Lamps_0012.zigbee",
+    "imageType": 268,
+    "manufacturerCode": 4107,
+    "sha512": "30c754504fed42ce12b4243fbf70a8207675f02cba1efbe2e454270049b472e400578c316602978deadb39166b196cb21aaf0f5cbb527fd2491fd78d4a14b620",
+    "otaHeaderString": "",
+    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_010C/9ee7aed8-faed-43eb-b7f7-712a5b578dba/100B-010C-01002800-ConfLight-Lamps_0012.zigbee",
+    "minFileVersion": 16783874
+  },
+  {
+    "fileName": "100B-010E-01002600-ConfLight-ModuLum_0012.zigbee",
+    "fileVersion": 16786944,
+    "fileSize": 269002,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Hue/100B-010E-01002600-ConfLight-ModuLum_0012.zigbee",
+    "imageType": 270,
+    "manufacturerCode": 4107,
+    "sha512": "f22b61f43ec9a98991825ba492d5373c1e617d62508fa538ef0ae6b5e51ec3419e2b9b15328770918b06391bf3b0adb18d747251bb615e189c43171abf0b3f07",
+    "otaHeaderString": "",
+    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_010E/05e4122d-0d51-41df-91af-7d1aae4cc0a0/100B-010E-01002600-ConfLight-ModuLum_0012.zigbee",
+    "minFileVersion": 16783620
+  },
+  {
+    "fileName": "100B-010F-01001700-ConfLight-LedStrips_0012.zigbee",
+    "fileVersion": 16783104,
+    "fileSize": 250762,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Hue/100B-010F-01001700-ConfLight-LedStrips_0012.zigbee",
+    "imageType": 271,
+    "manufacturerCode": 4107,
+    "sha512": "34a42cd9185602bf76559425d2e4655ec33c2fe3159a09d866cd3425a0d56535ee9a807b86b21a66083fc7578287538c7e1b8e9aebd53923269aedb99b6090f7",
+    "otaHeaderString": "",
+    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_010F/0ed8b3ac-0870-486e-9f8b-5ba6e9b035a1/100B-010F-01001700-ConfLight-LedStrips_0012.zigbee",
+    "minFileVersion": 16779778
   }
 ]
