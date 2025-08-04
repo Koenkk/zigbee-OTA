@@ -93,26 +93,6 @@
     "otaHeaderString": "Danalock V3 BTZBE XM"
   },
   {
-    "fileName": "PSoC4_1246-0100-01280128.0002_(4CA01CD1).ota",
-    "fileVersion": 284,
-    "fileSize": 391402,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Danfoss/PSoC4_1246-0100-01280128.0002_(4CA01CD1).ota",
-    "imageType": 256,
-    "manufacturerCode": 4678,
-    "sha512": "63dafd3332dd2f8901a5094c5d8437861244b78c6348bc3be2b3e7a135e33765cad0001dd842f22a992978e34afe4f7674e082092f03d35040dc0e3fda5f6ae6",
-    "otaHeaderString": "Thu 11/09/2023 V.011C.011C"
-  },
-  {
-    "fileName": "PSoC6_1246-0120-00280028.0002_(90215AC0).ota",
-    "fileVersion": 28,
-    "fileSize": 463202,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Danfoss/PSoC6_1246-0120-00280028.0002_(90215AC0).ota",
-    "imageType": 288,
-    "manufacturerCode": 4678,
-    "sha512": "2be3ce5ff9e9b378a447285a7f2f099313a8ec067c5565b0ceb9fcb917ba663d022b05ceaeddd20d0205d9b98b1c2986570699d749031f4b54ffd04d14d593c8",
-    "otaHeaderString": "Thu 11/09/2023 V.001C.001C"
-  },
-  {
     "fileName": "ctm_mains_power_outlet.ota",
     "fileVersion": 268462640,
     "fileSize": 306294,
@@ -8330,5 +8310,25 @@
     "sha512": "f470784fd69d7f3401b725f24ce08a7488bc5c99a35d0b4ea31518610dacb758477e4ff515294e203ad54592888c799ec78076cd2ae1fccbb6f4b5a0b75edae9",
     "otaHeaderString": "",
     "minFileVersion": 1107326256
+  },
+  {
+    "fileName": "1246-0100-01320132.0002_(56CF25B2).ota",
+    "fileVersion": 288,
+    "fileSize": 393561,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Danfoss/1246-0100-01320132.0002_(56CF25B2).ota",
+    "imageType": 256,
+    "manufacturerCode": 4678,
+    "sha512": "4c87f1b4feccc1210d64aad9ca836a6d03c8a6d1a73378d45b98ad4d80d5ec9f147c99493be450b26db204375cd73747f77271ff577830a784b6f8cce3a25645",
+    "otaHeaderString": "Tue 06/03/2025 V.0120.0120"
+  },
+  {
+    "fileName": "1246-0120-00320032.0002_(74C7CF9C).ota",
+    "fileVersion": 32,
+    "fileSize": 464046,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Danfoss/1246-0120-00320032.0002_(74C7CF9C).ota",
+    "imageType": 288,
+    "manufacturerCode": 4678,
+    "sha512": "8d536faa3fe43d469fe9ec4f92ea78cce1874872fb82b4401334a76f23158de62ecdfa1af49604726782ba6119c6c60d8363eabc023c2f0dcff3fe06dee2367f",
+    "otaHeaderString": "Tue 06/03/2025 V.0020.0020"
   }
 ]

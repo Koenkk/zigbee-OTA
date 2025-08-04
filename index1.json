@@ -2421,5 +2421,25 @@
     "otaHeaderString": "",
     "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_0105/a74b4fe6-805b-4113-8f08-2f6585cb8f5d/WhiteLamp-Atmel-Target_0012.sbl-ota",
     "minFileVersion": 1107326256
+  },
+  {
+    "fileName": "PSoC4_1246-0100-01280128.0002_(4CA01CD1).ota",
+    "fileVersion": 284,
+    "fileSize": 391402,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Danfoss/PSoC4_1246-0100-01280128.0002_(4CA01CD1).ota",
+    "imageType": 256,
+    "manufacturerCode": 4678,
+    "sha512": "63dafd3332dd2f8901a5094c5d8437861244b78c6348bc3be2b3e7a135e33765cad0001dd842f22a992978e34afe4f7674e082092f03d35040dc0e3fda5f6ae6",
+    "otaHeaderString": "Thu 11/09/2023 V.011C.011C"
+  },
+  {
+    "fileName": "PSoC6_1246-0120-00280028.0002_(90215AC0).ota",
+    "fileVersion": 28,
+    "fileSize": 463202,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Danfoss/PSoC6_1246-0120-00280028.0002_(90215AC0).ota",
+    "imageType": 288,
+    "manufacturerCode": 4678,
+    "sha512": "2be3ce5ff9e9b378a447285a7f2f099313a8ec067c5565b0ceb9fcb917ba663d022b05ceaeddd20d0205d9b98b1c2986570699d749031f4b54ffd04d14d593c8",
+    "otaHeaderString": "Thu 11/09/2023 V.001C.001C"
   }
 ]
