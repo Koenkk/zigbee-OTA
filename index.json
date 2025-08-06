@@ -8321,13 +8321,13 @@
     "otaHeaderString": "Tue 06/03/2025 V.0020.0020"
   },
   {
-    "fileName": "GL-C-008P_V11376801.ota",
-    "fileVersion": 22,
-    "fileSize": 276878,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Gledopto/GL-C-008P_V11376801.ota",
+    "fileName": "GL-C-008P_V11076801_OTAV12.ota",
+    "fileVersion": 18,
+    "fileSize": 291802,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Gledopto/GL-C-008P_V11076801_OTAV12.ota",
     "imageType": 0,
     "manufacturerCode": 4687,
-    "sha512": "d8e682e9179ba9353e4ea7e8494ca440be6f5458772e37b82f99ec6184b0cbeace263e8787af5c69da7ab3275ea14b3cc3c2f318b2c9af72aa8c9b43a6d5344d",
+    "sha512": "0bb43de21ea1511ea68e95a1da157b7e0b287433798cf05f90128bd22a2456b31561d96c9c4e3b88e25dae497f124165ce063372a73d0a1fc7c55635726ed93b",
     "otaHeaderString": "EBL ARGBW_V_0_1",
     "modelId": "GL-C-008P"
   }
