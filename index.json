@@ -8332,13 +8332,13 @@
     "otaHeaderString": "Tue 06/03/2025 V.0020.0020"
   },
   {
-    "fileName": "6565-039a-10023001-electricity_meter_abc_zrd.zigbee",
-    "fileVersion": 268578817,
-    "fileSize": 202754,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-039a-10023001-electricity_meter_abc_zrd.zigbee",
+    "fileName": "6565-039a-10033001-electricity_meter_abc_zrd.zigbee",
+    "fileVersion": 268644353,
+    "fileSize": 202738,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-039a-10033001-electricity_meter_abc_zrd.zigbee",
     "imageType": 922,
     "manufacturerCode": 25957,
-    "sha512": "2645908223bc77a1d6a4a156baa63d3736e5d7c9d469cbe4f9670998037ae772a9fcc60af48553f7eb2bebac512b80477bbbd8b294a0b5a04704c84407ed3670",
+    "sha512": "8a1d741e32d5d5df99b562103a7471a82c56ecefd1ea98d3ebf4bcc1495e3beebf93c5c6b0b05d38cdb2b31181383cdad9fc34cc69a04019f4f2fc6fce819add",
     "otaHeaderString": "",
     "manufacturerName": [
       "Slacky-DIY"
