@@ -5775,16 +5775,6 @@
     "otaHeaderString": "EBL zb_wb_msw"
   },
   {
-    "fileName": "zb_wb_msw4_mg21_065.ota",
-    "fileVersion": 65,
-    "fileSize": 270102,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sprut.device/zb_wb_msw4_mg21_065.ota",
-    "imageType": 15,
-    "manufacturerCode": 26214,
-    "sha512": "4701a4296faa914e00a4211f14cdac4bde01a1ba8708049a3ce393471ef33a22a1abb7015b9cb6a5ffa5b7e77879e938d0133445476478af40fdc45ea80c1c3a",
-    "otaHeaderString": ""
-  },
-  {
     "fileName": "zb_wb_msw4_mgm21_065.ota",
     "fileVersion": 65,
     "fileSize": 271050,
@@ -8343,5 +8333,15 @@
     "manufacturerName": [
       "Slacky-DIY"
     ]
+  },
+  {
+    "fileName": "wb_msw4_2_067.ota",
+    "fileVersion": 67,
+    "fileSize": 270334,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sprut.device/wb_msw4_2_067.ota",
+    "imageType": 15,
+    "manufacturerCode": 26214,
+    "sha512": "5d474729ad04f89c9e153ca3c175206f0b305d084b7b6adeb545de42f587d103a7e2635489bbb98ca817d01d5711b84011fc020411a930023e2340222662d9eb",
+    "otaHeaderString": ""
   }
 ]

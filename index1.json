@@ -951,16 +951,6 @@
     "otaHeaderString": "ota-file-test"
   },
   {
-    "fileName": "zb_wb_msw4_mg21_063.ota",
-    "fileVersion": 63,
-    "fileSize": 225738,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Sprut.device/zb_wb_msw4_mg21_063.ota",
-    "imageType": 15,
-    "manufacturerCode": 26214,
-    "sha512": "0cfc487b13ba17154473622e6cbcc710dd173549803e41cbd7dd260486467e95cb93b5ebf34172456c8bb67ad706d3b95a36d4d7357614b6a7103623ae3403a8",
-    "otaHeaderString": ""
-  },
-  {
     "fileName": "zb_wb_msw4_mgm21_063.ota",
     "fileVersion": 63,
     "fileSize": 267118,
@@ -2452,5 +2442,15 @@
     "manufacturerCode": 4678,
     "sha512": "2be3ce5ff9e9b378a447285a7f2f099313a8ec067c5565b0ceb9fcb917ba663d022b05ceaeddd20d0205d9b98b1c2986570699d749031f4b54ffd04d14d593c8",
     "otaHeaderString": "Thu 11/09/2023 V.001C.001C"
+  },
+  {
+    "fileName": "zb_wb_msw4_mg21_065.ota",
+    "fileVersion": 65,
+    "fileSize": 270102,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Sprut.device/zb_wb_msw4_mg21_065.ota",
+    "imageType": 15,
+    "manufacturerCode": 26214,
+    "sha512": "4701a4296faa914e00a4211f14cdac4bde01a1ba8708049a3ce393471ef33a22a1abb7015b9cb6a5ffa5b7e77879e938d0133445476478af40fdc45ea80c1c3a",
+    "otaHeaderString": ""
   }
 ]
