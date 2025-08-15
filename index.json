@@ -6590,16 +6590,6 @@
     "otaHeaderString": "FWSN_SNZB02D"
   },
   {
-    "fileName": "snzb-02p_v2.2.0.ota",
-    "fileVersion": 8704,
-    "fileSize": 260018,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/snzb-02p_v2.2.0.ota",
-    "imageType": 2055,
-    "manufacturerCode": 4742,
-    "sha512": "4a8acf7ab76e2e193e816956c01ec8aebf34455b62240b3cefa856262cce760ca13b0010fa2570553dd6ce8a022ce534d2a6cb28384de34ef5c11f7020e1c8ff",
-    "otaHeaderString": "FWSN_SNZB02P"
-  },
-  {
     "fileName": "10F2-7B02-0002-0007-0192020D-spo-fms.ota1.zigbee",
     "fileVersion": 26345997,
     "fileSize": 256200,
