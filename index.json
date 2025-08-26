@@ -5775,16 +5775,6 @@
     "otaHeaderString": "EBL zb_wb_msw"
   },
   {
-    "fileName": "zb_wb_msw4_mg21_065.ota",
-    "fileVersion": 65,
-    "fileSize": 270102,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sprut.device/zb_wb_msw4_mg21_065.ota",
-    "imageType": 15,
-    "manufacturerCode": 26214,
-    "sha512": "4701a4296faa914e00a4211f14cdac4bde01a1ba8708049a3ce393471ef33a22a1abb7015b9cb6a5ffa5b7e77879e938d0133445476478af40fdc45ea80c1c3a",
-    "otaHeaderString": ""
-  },
-  {
     "fileName": "zb_wb_msw4_mgm21_065.ota",
     "fileVersion": 65,
     "fileSize": 271050,
@@ -8332,16 +8322,36 @@
     "otaHeaderString": "Tue 06/03/2025 V.0020.0020"
   },
   {
-    "fileName": "6565-039a-10023001-electricity_meter_abc_zrd.zigbee",
-    "fileVersion": 268578817,
-    "fileSize": 202754,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-039a-10023001-electricity_meter_abc_zrd.zigbee",
+    "fileName": "6565-039a-10033001-electricity_meter_abc_zrd.zigbee",
+    "fileVersion": 268644353,
+    "fileSize": 202738,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-039a-10033001-electricity_meter_abc_zrd.zigbee",
     "imageType": 922,
     "manufacturerCode": 25957,
-    "sha512": "2645908223bc77a1d6a4a156baa63d3736e5d7c9d469cbe4f9670998037ae772a9fcc60af48553f7eb2bebac512b80477bbbd8b294a0b5a04704c84407ed3670",
+    "sha512": "8a1d741e32d5d5df99b562103a7471a82c56ecefd1ea98d3ebf4bcc1495e3beebf93c5c6b0b05d38cdb2b31181383cdad9fc34cc69a04019f4f2fc6fce819add",
     "otaHeaderString": "",
     "manufacturerName": [
       "Slacky-DIY"
     ]
+  },
+  {
+    "fileName": "wb_msw4_2_067.ota",
+    "fileVersion": 67,
+    "fileSize": 270334,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sprut.device/wb_msw4_2_067.ota",
+    "imageType": 15,
+    "manufacturerCode": 26214,
+    "sha512": "5d474729ad04f89c9e153ca3c175206f0b305d084b7b6adeb545de42f587d103a7e2635489bbb98ca817d01d5711b84011fc020411a930023e2340222662d9eb",
+    "otaHeaderString": ""
+  },
+  {
+    "fileName": "snzb-02p_v2.2.0.ota",
+    "fileVersion": 8704,
+    "fileSize": 260018,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/snzb-02p_v2.2.0.ota",
+    "imageType": 2055,
+    "manufacturerCode": 4742,
+    "sha512": "4a8acf7ab76e2e193e816956c01ec8aebf34455b62240b3cefa856262cce760ca13b0010fa2570553dd6ce8a022ce534d2a6cb28384de34ef5c11f7020e1c8ff",
+    "otaHeaderString": "FWSN_SNZB02P"
   }
 ]
