@@ -5967,18 +5967,6 @@
     "originalUrl": "https://images.tuyaeu.com/smart/firmware/upgrade/ay1557480848074dO17I/1622438235e5764b7a861.zigbee"
   },
   {
-    "fileName": "1662545193-oem_zg_tl8258_plug_OTA_3.0.0.bin",
-    "fileVersion": 192,
-    "fileSize": 307682,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Tuya/1662545193-oem_zg_tl8258_plug_OTA_3.0.0.bin",
-    "imageType": 54179,
-    "manufacturerCode": 4417,
-    "sha512": "01939ca4fc790432d2c233e19b2440c1e0248d2ce85c9299e0b88928cb2341de675350ac7b78187a25f06a2768f93db0a17c4ba950b60c82c072e0c0833cfcfb",
-    "otaHeaderString": "Telink OTA Sample Usage",
-    "originalUrl": "https://images.tuyaeu.com/smart/firmware/upgrade/20220907/1662545193-oem_zg_tl8258_plug_OTA_3.0.0.bin",
-    "modelId": "TS011F"
-  },
-  {
     "fileName": "1662693814-oem_mg21_zg_nh_win_cover_relay_OTA_1.0.7.bin",
     "fileVersion": 71,
     "fileSize": 222762,
@@ -8366,5 +8354,17 @@
     "manufacturerCode": 4655,
     "sha512": "639ae6284c4fd740573a6079c6164c0c73938a7efdb0d78059ea64342f4029a4470377c5577825fac52390b3d046ea3d1c1355da925ac6dfdaf20ff24b88dac2",
     "otaHeaderString": "vzm32-sn_mmWave"
+  },
+  {
+    "fileName": "1662545193-oem_zg_tl8258_plug_OTA_3.0.0.bin",
+    "fileVersion": 192,
+    "fileSize": 307682,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Tuya/1662545193-oem_zg_tl8258_plug_OTA_3.0.0.bin",
+    "imageType": 54179,
+    "manufacturerCode": 4417,
+    "sha512": "01939ca4fc790432d2c233e19b2440c1e0248d2ce85c9299e0b88928cb2341de675350ac7b78187a25f06a2768f93db0a17c4ba950b60c82c072e0c0833cfcfb",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "originalUrl": "https://images.tuyaeu.com/smart/firmware/upgrade/20220907/1662545193-oem_zg_tl8258_plug_OTA_3.0.0.bin",
+    "modelId": "TS011F"
   }
 ]
