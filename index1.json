@@ -2178,19 +2178,6 @@
     "releaseNotes": "1. A fault has been resolved that caused the radiator thermostat to sometimes enter an endless loop during auto-calibration"
   },
   {
-    "fileName": "6565-0391-10043001-ZG_222ZA.zigbee",
-    "fileVersion": 268709889,
-    "fileSize": 152962,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/SlackyDiy/6565-0391-10043001-ZG_222ZA.zigbee",
-    "imageType": 913,
-    "manufacturerCode": 25957,
-    "sha512": "3b23323ac3e2d3dab35524942c29e703e844dc7233481b34c9a7e984061cb7f4124862e3f42b5891fe1e9f538f0e83e99ec2a44d5d648f143da77b1dec53e533",
-    "otaHeaderString": "",
-    "manufacturerName": [
-      "Slacky-DIY"
-    ]
-  },
-  {
     "fileName": "100B-0118-01001802-PixelLum-EFR32MG21.zigbee",
     "fileVersion": 16783362,
     "fileSize": 453438,
@@ -2452,5 +2439,18 @@
     "manufacturerCode": 4655,
     "sha512": "caad07227667892f7691dbbdd6f087a9d3fed28225155db10da7e32a81cbcc4ba39f394ccb28f8e764c3206e86999440a9226d52a6c3d67886e85bf6759fd4ac",
     "otaHeaderString": "vzm32-sn_mmWave"
+  },
+  {
+    "fileName": "6565-0391-10163001-tuya_thermostat_zrd.zigbee",
+    "fileVersion": 269889537,
+    "fileSize": 234866,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/SlackyDiy/6565-0391-10163001-tuya_thermostat_zrd.zigbee",
+    "imageType": 913,
+    "manufacturerCode": 25957,
+    "sha512": "490c8c34e63fe30afcdb88ce2a5a614fe55a9fea08866d3fd1b5fae9755062833098f2414ff7293e4323c60a5c86de8ef2e4859e4232197414df039dd8b692fd",
+    "otaHeaderString": "",
+    "manufacturerName": [
+      "Slacky-DIY"
+    ]
   }
 ]
