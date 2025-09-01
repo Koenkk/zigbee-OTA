@@ -5967,18 +5967,6 @@
     "originalUrl": "https://images.tuyaeu.com/smart/firmware/upgrade/ay1557480848074dO17I/1622438235e5764b7a861.zigbee"
   },
   {
-    "fileName": "1662545193-oem_zg_tl8258_plug_OTA_3.0.0.bin",
-    "fileVersion": 192,
-    "fileSize": 307682,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Tuya/1662545193-oem_zg_tl8258_plug_OTA_3.0.0.bin",
-    "imageType": 54179,
-    "manufacturerCode": 4417,
-    "sha512": "01939ca4fc790432d2c233e19b2440c1e0248d2ce85c9299e0b88928cb2341de675350ac7b78187a25f06a2768f93db0a17c4ba950b60c82c072e0c0833cfcfb",
-    "otaHeaderString": "Telink OTA Sample Usage",
-    "originalUrl": "https://images.tuyaeu.com/smart/firmware/upgrade/20220907/1662545193-oem_zg_tl8258_plug_OTA_3.0.0.bin",
-    "modelId": "TS011F"
-  },
-  {
     "fileName": "1662693814-oem_mg21_zg_nh_win_cover_relay_OTA_1.0.7.bin",
     "fileVersion": 71,
     "fileSize": 222762,
@@ -8153,17 +8141,6 @@
     "modelId": "4512766"
   },
   {
-    "fileName": "VZM32-SN_0.08.ota",
-    "fileVersion": 16973832,
-    "fileSize": 227530,
-    "originalUrl": "https://files.inovelli.com/firmware/VZM32-SN/Beta/0.08/VZM32-SN_0.08.ota",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Inovelli/VZM32-SN_0.08.ota",
-    "imageType": 259,
-    "manufacturerCode": 4655,
-    "sha512": "caad07227667892f7691dbbdd6f087a9d3fed28225155db10da7e32a81cbcc4ba39f394ccb28f8e764c3206e86999440a9226d52a6c3d67886e85bf6759fd4ac",
-    "otaHeaderString": "vzm32-sn_mmWave"
-  },
-  {
     "fileName": "10F2-7B3B-0000-0001-02610461-m7b-h10.ota.zigbee",
     "fileVersion": 39912545,
     "fileSize": 158462,
@@ -8353,5 +8330,41 @@
     "manufacturerCode": 4742,
     "sha512": "4a8acf7ab76e2e193e816956c01ec8aebf34455b62240b3cefa856262cce760ca13b0010fa2570553dd6ce8a022ce534d2a6cb28384de34ef5c11f7020e1c8ff",
     "otaHeaderString": "FWSN_SNZB02P"
+  },
+  {
+    "fileName": "6565-0394-10033001-air_quality_monitor_zrd.zigbee",
+    "fileVersion": 268644353,
+    "fileSize": 302178,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-0394-10033001-air_quality_monitor_zrd.zigbee",
+    "imageType": 916,
+    "manufacturerCode": 25957,
+    "sha512": "92f3613fb4f0839545d5edbc98099899876ef07a0a4355d2c64b7bbe3935cbd040407a88f8fcedb1d7d030cefe6f8bf0b9accb946c2b37c01cc949c1b272e49e",
+    "otaHeaderString": "",
+    "manufacturerName": [
+      "Slacky-DIY"
+    ]
+  },
+  {
+    "fileName": "VZM32-SN_0.09.ota",
+    "fileVersion": 16973833,
+    "fileSize": 227246,
+    "originalUrl": "https://files.inovelli.com/firmware/VZM32-SN/Beta/0.09/VZM32-SN_0.09.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Inovelli/VZM32-SN_0.09.ota",
+    "imageType": 259,
+    "manufacturerCode": 4655,
+    "sha512": "639ae6284c4fd740573a6079c6164c0c73938a7efdb0d78059ea64342f4029a4470377c5577825fac52390b3d046ea3d1c1355da925ac6dfdaf20ff24b88dac2",
+    "otaHeaderString": "vzm32-sn_mmWave"
+  },
+  {
+    "fileName": "1662545193-oem_zg_tl8258_plug_OTA_3.0.0.bin",
+    "fileVersion": 192,
+    "fileSize": 307682,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Tuya/1662545193-oem_zg_tl8258_plug_OTA_3.0.0.bin",
+    "imageType": 54179,
+    "manufacturerCode": 4417,
+    "sha512": "01939ca4fc790432d2c233e19b2440c1e0248d2ce85c9299e0b88928cb2341de675350ac7b78187a25f06a2768f93db0a17c4ba950b60c82c072e0c0833cfcfb",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "originalUrl": "https://images.tuyaeu.com/smart/firmware/upgrade/20220907/1662545193-oem_zg_tl8258_plug_OTA_3.0.0.bin",
+    "modelId": "TS011F"
   }
 ]

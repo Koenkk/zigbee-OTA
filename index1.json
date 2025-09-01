@@ -2285,17 +2285,6 @@
     "otaHeaderString": ""
   },
   {
-    "fileName": "VZM32-SN_0.07.ota",
-    "fileVersion": 16973831,
-    "fileSize": 227562,
-    "originalUrl": "https://files.inovelli.com/firmware/VZM32-SN/Beta/0.07/VZM32-SN_0.07.ota",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Inovelli/VZM32-SN_0.07.ota",
-    "imageType": 259,
-    "manufacturerCode": 4655,
-    "sha512": "3ac80e0ddc651205a21ee7d02a868801acb22dd56a69dcc53c748f6aac4c1183920963fc3b48da777a4acf18400bfb6b9acbe103e18821f089170a654195f474",
-    "otaHeaderString": "vzm32-sn_mmWave"
-  },
-  {
     "fileName": "10F2-7B3B-0000-0001-02600460-m7b-h10.ota.zigbee",
     "fileVersion": 39847008,
     "fileSize": 158462,
@@ -2452,5 +2441,16 @@
     "manufacturerCode": 26214,
     "sha512": "4701a4296faa914e00a4211f14cdac4bde01a1ba8708049a3ce393471ef33a22a1abb7015b9cb6a5ffa5b7e77879e938d0133445476478af40fdc45ea80c1c3a",
     "otaHeaderString": ""
+  },
+  {
+    "fileName": "VZM32-SN_0.08.ota",
+    "fileVersion": 16973832,
+    "fileSize": 227530,
+    "originalUrl": "https://files.inovelli.com/firmware/VZM32-SN/Beta/0.08/VZM32-SN_0.08.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Inovelli/VZM32-SN_0.08.ota",
+    "imageType": 259,
+    "manufacturerCode": 4655,
+    "sha512": "caad07227667892f7691dbbdd6f087a9d3fed28225155db10da7e32a81cbcc4ba39f394ccb28f8e764c3206e86999440a9226d52a6c3d67886e85bf6759fd4ac",
+    "otaHeaderString": "vzm32-sn_mmWave"
   }
 ]
