@@ -6593,16 +6593,6 @@
     "otaHeaderString": ""
   },
   {
-    "fileName": "Zigbee_A19_Bulb_OTA_V66_1.00.66.ota",
-    "fileVersion": 66,
-    "fileSize": 285378,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Zigbee_A19_Bulb_OTA_V66_1.00.66.ota",
-    "imageType": 54188,
-    "manufacturerCode": 5127,
-    "sha512": "b89f44cee97a229f7c98404f7828824d7c363724f2fe981dd9c656624fbdb1ad6ed9082735aff1bfcd488868d32a08728fd851405c29904d5264e59ae422097d",
-    "otaHeaderString": "temp_humi_sensor"
-  },
-  {
     "fileName": "PLUG_EU_EM_T-0x00DC-0x033D3674-MF_DIS.OTA",
     "fileVersion": 54343284,
     "fileSize": 209616,
@@ -8374,6 +8364,16 @@
     "imageType": 54197,
     "manufacturerCode": 5127,
     "sha512": "da2f710777f62b72e6fb28cadcc317d70f1bd68a41ef9c65390cb67cf91af5c8128f942f24881b13498148d512f7e0025126af00392dadc283ed81025569338a",
+    "otaHeaderString": "temp_humi_sensor"
+  },
+  {
+    "fileName": "Zigbee_A19_Bulb_OTA_V74_1.00.74.ota",
+    "fileVersion": 74,
+    "fileSize": 280854,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Zigbee_A19_Bulb_OTA_V74_1.00.74.ota",
+    "imageType": 54188,
+    "manufacturerCode": 5127,
+    "sha512": "e1345eeebc564050469d3d1cf131c10f962c6a4cc3a83de1b3802ffc1f4d66010a40f726244a1a59c460e5a9b8f4d56b8b8ebe19db7ec132234e11d82bba1b98",
     "otaHeaderString": "temp_humi_sensor"
   }
 ]
