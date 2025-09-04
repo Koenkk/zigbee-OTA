@@ -5897,16 +5897,6 @@
     "originalUrl": "https://tr-zha.s3.amazonaws.com/z2m_firmware/SmartCurtain_PROD_OTA_V76_v1.00.76.ota"
   },
   {
-    "fileName": "SmartPlug_Zigbee_PROD_OTA_V92_v1.00.92.ota",
-    "fileVersion": 268513372,
-    "fileSize": 197458,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/SmartPlug_Zigbee_PROD_OTA_V92_v1.00.92.ota",
-    "imageType": 54182,
-    "manufacturerCode": 4659,
-    "sha512": "99c840f67606ddbdb872768e1ec015b023904d40b0de574d63cae165a76b73fa01d56f01d0e3d43a123a404c2deb713914556c86ada709e2b2a14c061a2c8b2c",
-    "otaHeaderString": "Telink OTA Sample Usage"
-  },
-  {
     "fileName": "SmartSwitchGen3_PROD_OTA_V30_v1.00.30.ota",
     "fileVersion": 30,
     "fileSize": 135218,
@@ -8366,5 +8356,15 @@
     "manufacturerName": [
       "Slacky-DIY"
     ]
+  },
+  {
+    "fileName": "SmartPlug_Zigbee_PROD_OTA_V96_v1.00.96.ota",
+    "fileVersion": 268513376,
+    "fileSize": 194178,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/SmartPlug_Zigbee_PROD_OTA_V96_v1.00.96.ota",
+    "imageType": 54182,
+    "manufacturerCode": 4659,
+    "sha512": "a530e3c33ede6d52c001e638ca2b90ebe640e91c6685f2f39ab83c0369e99f561c8ac9b545821e8e871c6e2c98f9647442bedf2bd83c1ecfcfb7cd7da0b8a694",
+    "otaHeaderString": "Telink OTA Sample Usage"
   }
 ]
