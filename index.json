@@ -8120,16 +8120,6 @@
     "hardwareVersionMax": 1
   },
   {
-    "fileName": "bl702_Dual_plug_v1.00.34.ota",
-    "fileVersion": 34,
-    "fileSize": 284370,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/bl702_Dual_plug_v1.00.34.ota",
-    "imageType": 54197,
-    "manufacturerCode": 5127,
-    "sha512": "ef39209ff1a150ad4088542f04d8b91be669a8db208b484730730e07b76043d6aea24c799e1d12a89dfa373c2df0810b100944e663434dcd8c2568af9bfaf492",
-    "otaHeaderString": "temp_humi_sensor"
-  },
-  {
     "fileName": "Soil_Moisture_Sensor_PROD_OTA_V46_v1.00.46.ota",
     "fileVersion": 46,
     "fileSize": 141922,
@@ -8375,5 +8365,15 @@
     "manufacturerCode": 4659,
     "sha512": "006f67f5437a8b5b031a95109c5f94c938152b7b1b06973eabe05a821958fbf0dce681b015dea378fa0098be896603abbb025fca353bd84c3bd87cdf1c149b67",
     "otaHeaderString": "Telink OTA Sample Usage"
+  },
+  {
+    "fileName": "bl702_Dual_plug_v1.00.36.ota",
+    "fileVersion": 36,
+    "fileSize": 285610,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/bl702_Dual_plug_v1.00.36.ota",
+    "imageType": 54197,
+    "manufacturerCode": 5127,
+    "sha512": "da2f710777f62b72e6fb28cadcc317d70f1bd68a41ef9c65390cb67cf91af5c8128f942f24881b13498148d512f7e0025126af00392dadc283ed81025569338a",
+    "otaHeaderString": "temp_humi_sensor"
   }
 ]
