@@ -5842,17 +5842,6 @@
     "otaHeaderString": "TERNCY-SD01"
   },
   {
-    "fileName": "Button_PROD_OTA_V35_v1.00.35.ota",
-    "fileVersion": 35,
-    "fileSize": 129698,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Button_PROD_OTA_V35_v1.00.35.ota",
-    "imageType": 54184,
-    "manufacturerCode": 4659,
-    "sha512": "431aa68788f8e4150ed7b80f0655e234ab34e06afa1b94dce287625991845496d6191578bf335ef56a0c13853616e7ce6feb00b3a2604d60d11384d7dc69f28a",
-    "otaHeaderString": "Telink OTA Sample Usage",
-    "originalUrl": "https://tr-zha.s3.amazonaws.com/z2m_firmware/Button_PROD_OTA_V35_v1.00.35.ota"
-  },
-  {
     "fileName": "Door_Sensor_PROD_OTA_V63_v1.00.63.ota",
     "fileVersion": 63,
     "fileSize": 131682,
@@ -8376,5 +8365,15 @@
     "manufacturerCode": 5127,
     "sha512": "0baf2249228c0a0558efd99adffec9622b78c07d0783716b475916e4c328ee2345f4f4cc75402935978b629c2bb02a642d2c22cbdc7fe60357eedbb385cf608d",
     "otaHeaderString": "temp_humi_sensor"
+  },
+  {
+    "fileName": "Button_PROD_OTA_V47_v1.00.47.ota",
+    "fileVersion": 47,
+    "fileSize": 145986,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Button_PROD_OTA_V47_v1.00.47.ota",
+    "imageType": 54184,
+    "manufacturerCode": 4659,
+    "sha512": "006f67f5437a8b5b031a95109c5f94c938152b7b1b06973eabe05a821958fbf0dce681b015dea378fa0098be896603abbb025fca353bd84c3bd87cdf1c149b67",
+    "otaHeaderString": "Telink OTA Sample Usage"
   }
 ]

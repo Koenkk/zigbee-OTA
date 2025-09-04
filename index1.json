@@ -2451,5 +2451,16 @@
     "manufacturerCode": 4659,
     "sha512": "99c840f67606ddbdb872768e1ec015b023904d40b0de574d63cae165a76b73fa01d56f01d0e3d43a123a404c2deb713914556c86ada709e2b2a14c061a2c8b2c",
     "otaHeaderString": "Telink OTA Sample Usage"
+  },
+  {
+    "fileName": "Button_PROD_OTA_V35_v1.00.35.ota",
+    "fileVersion": 35,
+    "fileSize": 129698,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/Button_PROD_OTA_V35_v1.00.35.ota",
+    "imageType": 54184,
+    "manufacturerCode": 4659,
+    "sha512": "431aa68788f8e4150ed7b80f0655e234ab34e06afa1b94dce287625991845496d6191578bf335ef56a0c13853616e7ce6feb00b3a2604d60d11384d7dc69f28a",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "originalUrl": "https://tr-zha.s3.amazonaws.com/z2m_firmware/Button_PROD_OTA_V35_v1.00.35.ota"
   }
 ]
