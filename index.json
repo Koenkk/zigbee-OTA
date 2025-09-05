@@ -8375,5 +8375,105 @@
     "manufacturerName": [
       "Slacky-DIY"
     ]
+  },
+  {
+    "fileName": "batterymotiondetector-51230002.ota",
+    "fileVersion": 1361248258,
+    "fileSize": 190718,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Niko/batterymotiondetector-51230002.ota",
+    "imageType": 43525,
+    "manufacturerCode": 4703,
+    "sha512": "d2b378079581313188e130684574c5a5b3a5f8f3277cdfd2b355b260b657e8b0d9510210c06f274a2ef6496c251278475ccae8fd6ae4a3ebe73b017b2687aa05",
+    "otaHeaderString": "EBL C150_Motion_LightSensor_L623"
+  },
+  {
+    "fileName": "batteryswitchx1-21076760.ota",
+    "fileVersion": 554133344,
+    "fileSize": 216706,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Niko/batteryswitchx1-21076760.ota",
+    "imageType": 43532,
+    "manufacturerCode": 4703,
+    "sha512": "0f4a7a6d602c970c51191d348911c11c1574ea64654b514c37e294bf6f5eed4db16f217729200edb0ad28ee73a85d684dfe9dc81e9bb07cb94e4c5a9910c823e",
+    "otaHeaderString": "EBL BatterySwitch_1_Gang"
+  },
+  {
+    "fileName": "batteryswitchx2-21076760.ota",
+    "fileVersion": 554133344,
+    "fileSize": 216798,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Niko/batteryswitchx2-21076760.ota",
+    "imageType": 43533,
+    "manufacturerCode": 4703,
+    "sha512": "ae847d8f2ee1881d014e22403f16fdd14f87452b0d60ae96c57d51b85ce1b7eaafd3609e3add9c971896c6125c8e1f3d5f3c8f48720d7a4f95317ce9a9f34a13",
+    "otaHeaderString": "EBL BatterySwitch_2_Gang"
+  },
+  {
+    "fileName": "batteryswitchx4-21076760.ota",
+    "fileVersion": 554133344,
+    "fileSize": 216986,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Niko/batteryswitchx4-21076760.ota",
+    "imageType": 43534,
+    "manufacturerCode": 4703,
+    "sha512": "4d2ad02a52ae0a900ca4e9d513d09c22fd9e0ff44de976dbae6263321d43033d94e61e0594de4be3eadc5f1c54f2a72dc826f0808497b967bd2ecb27287fa03c",
+    "otaHeaderString": "EBL BatterySwitch_6760_512K"
+  },
+  {
+    "fileName": "dimmer-00000043.ota",
+    "fileVersion": 67,
+    "fileSize": 231010,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Niko/dimmer-00000043.ota",
+    "imageType": 43521,
+    "manufacturerCode": 4703,
+    "sha512": "60502b35f03f91f987ee757e5ae4f9a7ac849c000547e9eaf0a7ea2ffc230296e47728e56efab6112b2732e40d5a9a57f08f11dae833fe5af42e7648373086a3",
+    "otaHeaderString": "EBL NikoDimmer_6530_768K"
+  },
+  {
+    "fileName": "electricityclamps-00000009.ota",
+    "fileVersion": 9,
+    "fileSize": 226965,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Niko/electricityclamps-00000009.ota",
+    "imageType": 43539,
+    "manufacturerCode": 4703,
+    "sha512": "852cb79bfb161dad50f04fa97afebf3fa66053b2d1f903f6c50afc482934d16ec48b6f45218564a53a5f7cab00af6640bb161375443d0b933c59eb93b21fa751",
+    "otaHeaderString": "EBL PC321_NIKO"
+  },
+  {
+    "fileName": "motor-21190006.ota",
+    "fileVersion": 555286534,
+    "fileSize": 235386,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Niko/motor-21190006.ota",
+    "imageType": 43522,
+    "manufacturerCode": 4703,
+    "sha512": "3a2a2b93334bc5e62bb284eb4bd9ff7cf3a0c79b260415a1718232fd94bbe8f78b4760b9d1c202e88459a14cceaf8a0302fc767c37e698a3c203c64e3237122e",
+    "otaHeaderString": "GBL C694_Shutter"
+  },
+  {
+    "fileName": "smartsocket-15120006.ota",
+    "fileVersion": 353501190,
+    "fileSize": 218762,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Niko/smartsocket-15120006.ota",
+    "imageType": 43520,
+    "manufacturerCode": 4703,
+    "sha512": "10dc6ae7c043c00e0aee73c6d03c4eac4aa9d9837a63e41ae742ed00a1c43df605a4145563287bedac01e622ea7cf598835514bb173f771a58014ad75097e86c",
+    "otaHeaderString": "GBL Z3WiserIndoorSirenSDK6230"
+  },
+  {
+    "fileName": "switchx1-113B0006.ota",
+    "fileVersion": 289079302,
+    "fileSize": 227437,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Niko/switchx1-113B0006.ota",
+    "imageType": 43523,
+    "manufacturerCode": 4703,
+    "sha512": "de3eab075e69ca5bae13a2be36c25b88962290f1e03822f324f51526ad332e7d0b9b503820602ed163f1a03f1d02aee27eaf016865d101fa93608cf69d01d4ec",
+    "otaHeaderString": "EBL NikoSwitch"
+  },
+  {
+    "fileName": "switchx2-113B0006.ota",
+    "fileVersion": 289079302,
+    "fileSize": 228137,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Niko/switchx2-113B0006.ota",
+    "imageType": 43524,
+    "manufacturerCode": 4703,
+    "sha512": "61479b34dc48791192c0a5f28e1c3ef6a0f5e762e0c51435c6d94fc3490d6b8dcddd05a9345ca503891804c1a01fa1e099797ffdc5cb0d8e41073ca7613da08d",
+    "otaHeaderString": "EBL NikoSwitch"
   }
 ]
