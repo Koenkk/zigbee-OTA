@@ -2420,19 +2420,6 @@
     "otaHeaderString": "vzm32-sn_mmWave"
   },
   {
-    "fileName": "6565-0391-10163001-tuya_thermostat_zrd.zigbee",
-    "fileVersion": 269889537,
-    "fileSize": 234866,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/SlackyDiy/6565-0391-10163001-tuya_thermostat_zrd.zigbee",
-    "imageType": 913,
-    "manufacturerCode": 25957,
-    "sha512": "490c8c34e63fe30afcdb88ce2a5a614fe55a9fea08866d3fd1b5fae9755062833098f2414ff7293e4323c60a5c86de8ef2e4859e4232197414df039dd8b692fd",
-    "otaHeaderString": "",
-    "manufacturerName": [
-      "Slacky-DIY"
-    ]
-  },
-  {
     "fileName": "SmartPlug_Zigbee_PROD_OTA_V92_v1.00.92.ota",
     "fileVersion": 268513372,
     "fileSize": 197458,
@@ -2472,5 +2459,18 @@
     "manufacturerCode": 5127,
     "sha512": "b89f44cee97a229f7c98404f7828824d7c363724f2fe981dd9c656624fbdb1ad6ed9082735aff1bfcd488868d32a08728fd851405c29904d5264e59ae422097d",
     "otaHeaderString": "temp_humi_sensor"
+  },
+  {
+    "fileName": "6565-0391-10173001-tuya_thermostat_zrd.zigbee",
+    "fileVersion": 269955073,
+    "fileSize": 237602,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/SlackyDiy/6565-0391-10173001-tuya_thermostat_zrd.zigbee",
+    "imageType": 913,
+    "manufacturerCode": 25957,
+    "sha512": "e909d258d7eabb8aeb52a18b4090e49297a2f808deab02e222d9b984e8c6597cb94fa78b45cccc891d80a24abd20652b8e79c8f7aceb1f2fd53a355408471b5a",
+    "otaHeaderString": "",
+    "manufacturerName": [
+      "Slacky-DIY"
+    ]
   }
 ]
