@@ -8314,16 +8314,6 @@
     "modelId": "TS011F"
   },
   {
-    "fileName": "SmartPlug_Zigbee_PROD_OTA_V96_v1.00.96.ota",
-    "fileVersion": 268513376,
-    "fileSize": 194178,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/SmartPlug_Zigbee_PROD_OTA_V96_v1.00.96.ota",
-    "imageType": 54182,
-    "manufacturerCode": 4659,
-    "sha512": "a530e3c33ede6d52c001e638ca2b90ebe640e91c6685f2f39ab83c0369e99f561c8ac9b545821e8e871c6e2c98f9647442bedf2bd83c1ecfcfb7cd7da0b8a694",
-    "otaHeaderString": "Telink OTA Sample Usage"
-  },
-  {
     "fileName": "bl702_plug_gen3_uk_v1.00.33.ota",
     "fileVersion": 33,
     "fileSize": 279686,
@@ -8475,5 +8465,15 @@
     "manufacturerCode": 4703,
     "sha512": "61479b34dc48791192c0a5f28e1c3ef6a0f5e762e0c51435c6d94fc3490d6b8dcddd05a9345ca503891804c1a01fa1e099797ffdc5cb0d8e41073ca7613da08d",
     "otaHeaderString": "EBL NikoSwitch"
+  },
+  {
+    "fileName": "SmartPlug_Zigbee_PROD_OTA_V98_v1.00.98.ota",
+    "fileVersion": 268513378,
+    "fileSize": 195586,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/SmartPlug_Zigbee_PROD_OTA_V98_v1.00.98.ota",
+    "imageType": 54182,
+    "manufacturerCode": 4659,
+    "sha512": "3f1424510f2f63ea177067706b962cd96258b7c854fa25cee63ec63d448942358231026222b3c29b4bc30ddc848ca1350ff1ff92c025a9a0100799e2d576dc99",
+    "otaHeaderString": "Telink OTA Sample Usage"
   }
 ]
