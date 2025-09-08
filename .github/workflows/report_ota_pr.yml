@@ -34,7 +34,7 @@ jobs:
               run: pnpm run build
 
             - name: Check OTA PR
-              uses: actions/github-script@v7
+              uses: actions/github-script@v8
               with:
                   script: |
                       const {reportOtaPR} = await import("${{ github.workspace }}/dist/ghw_report_ota_pr.js")

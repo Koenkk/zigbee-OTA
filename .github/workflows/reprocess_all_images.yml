@@ -47,7 +47,7 @@ jobs:
                   git checkout -b $branch_name
 
             - name: Reprocess
-              uses: actions/github-script@v7
+              uses: actions/github-script@v8
               env:
                   NODE_EXTRA_CA_CERTS: cacerts.pem
               with:
@@ -63,7 +63,7 @@ jobs:
                   git push -u origin HEAD
 
             - name: Create pull request
-              uses: actions/github-script@v7
+              uses: actions/github-script@v8
               with:
                   script: |
                       const {createPRToDefault} = await import("${{ github.workspace }}/dist/ghw_create_pr_to_default.js")

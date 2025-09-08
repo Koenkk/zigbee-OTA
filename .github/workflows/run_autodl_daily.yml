@@ -27,7 +27,7 @@ jobs:
               run: pnpm run build
 
             - name: Run Autodl
-              uses: actions/github-script@v7
+              uses: actions/github-script@v8
               env:
                   NODE_EXTRA_CA_CERTS: cacerts.pem
               with:
