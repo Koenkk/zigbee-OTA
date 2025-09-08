@@ -44,7 +44,7 @@ jobs:
               run: pnpm run build
 
             - name: Run Autodl
-              uses: actions/github-script@v7
+              uses: actions/github-script@v8
               env:
                   NODE_EXTRA_CA_CERTS: cacerts.pem
                   PREV: ${{ inputs.prev == 'true' && '1' || '' }}
@@ -60,7 +60,7 @@ jobs:
                       identifyStacks(github, core, context)
 
             - name: Create Autodl release
-              uses: actions/github-script@v7
+              uses: actions/github-script@v8
               with:
                   script: |
                       const {createAutodlRelease} = await import("${{ github.workspace }}/dist/ghw_create_autodl_release.js")
