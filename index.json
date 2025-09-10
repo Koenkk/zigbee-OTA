@@ -8485,6 +8485,8 @@
     "manufacturerCode": 4687,
     "sha512": "8effcb4304d10f0af0fa5b3dc40d0724844f23d3cbfbd409bbfff7549c3483cd04c01652c17cb423ffb6ca3ce24e9589290109530fa19e3bc5033476ae3a17ee",
     "otaHeaderString": "Telink OTA Sample Usage",
-    "modelId": "TODO"
+    "manufacturerName": [
+      "Candeo"
+    ]
   }
 ]
