@@ -10,7 +10,9 @@ import type {RepoImageMeta} from "../src/types";
 import {
     BASE_IMAGES_TEST_DIR_PATH,
     getAdjustedContent,
+    IMAGE_GLEDOPTO,
     IMAGE_INVALID,
+    IMAGE_TUYA,
     IMAGE_V12_1,
     IMAGE_V12_1_METAS,
     IMAGE_V13_1,
@@ -625,5 +627,29 @@ Text after end tag`);
             withExtraMetas(IMAGE_V14_1_METAS, {manufacturerName: ["lixee"], hardwareVersionMin: 2}),
         ]);
         expect(writeManifestSpy).toHaveBeenCalledWith(common.PREV_INDEX_MANIFEST_FILENAME, [IMAGE_V12_1_METAS]);
+    });
+
+    it.each([
+        ['"manufacturerName": ["_TZ3000"]', IMAGE_TUYA, undefined],
+        ["", IMAGE_TUYA, "Tuya image requires extra `manufacturerName` metadata"],
+        ['"modelId": "GL-C-008"', IMAGE_GLEDOPTO, undefined],
+        ["", IMAGE_GLEDOPTO, "Gledopto image requires extra `modelId` metadata"],
+    ])("manufacturer specific checks", async (body: string, image: string, error: string | undefined) => {
+        filePaths = [useImage(image)];
+        const newContext = withBody(`\`\`\`json
+{
+    ${body}
+}
+\`\`\``);
+
+        if (error === undefined) {
+            // @ts-expect-error mock
+            await checkOtaPR(github, core, newContext);
+        } else {
+            await expect(async () => {
+                // @ts-expect-error mock
+                await checkOtaPR(github, core, newContext);
+            }).rejects.toThrow(expect.objectContaining({message: expect.stringContaining(error)}));
+        }
     });
 });

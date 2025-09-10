@@ -11,6 +11,8 @@ import {it} from "vitest";
 import * as common from "../src/common";
 import type {ExtraMetas, RepoImageMeta} from "../src/types";
 
+export const IMAGE_GLEDOPTO = "GL-B-008P_V17A1_OTAV7.ota";
+export const IMAGE_TUYA = "1662693814-oem_mg21_zg_nh_win_cover_relay_OTA_1.0.7.bin";
 export const IMAGE_V14_1 = "ZLinky_router_v14.ota";
 export const IMAGE_V14_2 = "ZLinky_router_v14_limited.ota";
 export const IMAGE_V13_1 = "ZLinky_router_v13.ota";
