@@ -7369,16 +7369,6 @@
     "otaHeaderString": "\u0015aminaS_OTA_amina_encr"
   },
   {
-    "fileName": "Smart_Watering_Kit_PROD_OTA_V40_v1.00.40.ota",
-    "fileVersion": 40,
-    "fileSize": 140818,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Smart_Watering_Kit_PROD_OTA_V40_v1.00.40.ota",
-    "imageType": 54192,
-    "manufacturerCode": 5127,
-    "sha512": "8f3c321885fa361c46abe1cb3d99a288717859227d07d88eeaf555a6a6ff041e2b2750468a30e5472261d1ef42b80273245280350dff96fe7e31621aa3b9dc2b",
-    "otaHeaderString": "Telink OTA Sample Usage"
-  },
-  {
     "fileName": "1166-0132-19243685-rb272t-1.9.36.ota",
     "fileVersion": 421803653,
     "fileSize": 284642,
@@ -8488,5 +8478,15 @@
     "manufacturerName": [
       "Candeo"
     ]
+  },
+  {
+    "fileName": "Smart_Watering_Kit_PROD_OTA_V45_v1.00.45.ota",
+    "fileVersion": 45,
+    "fileSize": 151762,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Smart_Watering_Kit_PROD_OTA_V45_v1.00.45.ota",
+    "imageType": 54192,
+    "manufacturerCode": 5127,
+    "sha512": "52a7822f2968465300da366f83acd5ad88934e483829f4999d7473c18e05c60e5d9de7d2024bda6c6755bf959c544f181d02c9a953b3e2755e94dbebeaef7003",
+    "otaHeaderString": "Telink OTA Sample Usage"
   }
 ]
