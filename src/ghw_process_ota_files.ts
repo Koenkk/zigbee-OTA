@@ -20,7 +20,8 @@ import {
 import type {ExtraMetas, GHExtraMetas, RepoImageMeta} from "./types.js";
 
 const GLEDOPTO_MANUFACTURER_CODE = 4687;
-const TUYA_MANUFACTURER_CODES = [4098, 4417];
+const TUYA_MANUFACTURER_CODE_1 = 4098;
+const TUYA_MANUFACTURER_CODE_2 = 4417;
 
 const EXTRA_METAS_PR_BODY_START_TAG = "```json";
 const EXTRA_METAS_PR_BODY_END_TAG = "```";
@@ -151,24 +152,26 @@ export async function processOtaFiles(
             if (parsedImage.manufacturerCode === GLEDOPTO_MANUFACTURER_CODE && !fileExtraMetas.modelId) {
                 // Gledopto uses the same imageType for every device, force modelId to be present.
                 // https://github.com/Koenkk/zigbee-OTA/pull/864
-                failureComment = "Gledopto image requires extra \`modelId\` metadata";
+                throw new Error("Gledopto image requires extra `modelId` metadata");
             }
-            if (TUYA_MANUFACTURER_CODES.includes(parsedImage.manufacturerCode) && !fileExtraMetas.manufacturerName) {
+            if (
+                (TUYA_MANUFACTURER_CODE_1 === parsedImage.manufacturerCode || TUYA_MANUFACTURER_CODE_2 === parsedImage.manufacturerCode) &&
+                !fileExtraMetas.manufacturerName
+            ) {
                 // Tuya uses the same imageType for every device, force manufacturerName to be present.
-                failureComment = "Tuya image requires extra \`manufacturerName\` metadata";
+                throw new Error("Tuya image requires extra `manufacturerName` metadata");
             }
 
-            if (!failureComment) {
-                switch (statusToBase) {
-                    case ParsedImageStatus.Older: {
-                        // if prev doesn't have a match, move to prev
-                        const [prevMatchIndex, prevMatch] = findMatchImage(parsedImage, prevManifest, fileExtraMetas);
-                        const statusToPrev = getParsedImageStatus(parsedImage, prevMatch);
+            switch (statusToBase) {
+                case ParsedImageStatus.Older: {
+                    // if prev doesn't have a match, move to prev
+                    const [prevMatchIndex, prevMatch] = findMatchImage(parsedImage, prevManifest, fileExtraMetas);
+                    const statusToPrev = getParsedImageStatus(parsedImage, prevMatch);
 
-                        switch (statusToPrev) {
-                            case ParsedImageStatus.Older:
-                            case ParsedImageStatus.Identical: {
-                                failureComment = `Base manifest has higher version:
+                    switch (statusToPrev) {
+                        case ParsedImageStatus.Older:
+                        case ParsedImageStatus.Identical: {
+                            failureComment = `Base manifest has higher version:
 \`\`\`json
 ${JSON.stringify(baseMatch, undefined, 2)}
 \`\`\`
@@ -180,39 +183,38 @@ Parsed image header:
 \`\`\`json
 ${JSON.stringify(parsedImage, undefined, 2)}
 \`\`\``;
-                                break;
-                            }
-
-                            case ParsedImageStatus.Newer:
-                            case ParsedImageStatus.New: {
-                                addImageToPrev(
-                                    logPrefix,
-                                    statusToPrev === ParsedImageStatus.Newer,
-                                    prevManifest,
-                                    prevMatchIndex,
-                                    prevMatch!,
-                                    prevOutDir,
-                                    firmwareFileName,
-                                    manufacturer,
-                                    parsedImage,
-                                    firmwareBuffer,
-                                    undefined,
-                                    fileExtraMetas,
-                                    () => {
-                                        // relocate file to prev
-                                        renameSync(filePath, filePath.replace(`${BASE_IMAGES_DIR}/`, `${PREV_IMAGES_DIR}/`));
-                                    },
-                                );
-
-                                break;
-                            }
+                            break;
                         }
 
-                        break;
+                        case ParsedImageStatus.Newer:
+                        case ParsedImageStatus.New:
+                            addImageToPrev(
+                                logPrefix,
+                                statusToPrev === ParsedImageStatus.Newer,
+                                prevManifest,
+                                prevMatchIndex,
+                                prevMatch!,
+                                prevOutDir,
+                                firmwareFileName,
+                                manufacturer,
+                                parsedImage,
+                                firmwareBuffer,
+                                undefined,
+                                fileExtraMetas,
+                                () => {
+                                    // relocate file to prev
+                                    renameSync(filePath, filePath.replace(`${BASE_IMAGES_DIR}/`, `${PREV_IMAGES_DIR}/`));
+                                },
+                            );
+
+                            break;
                     }
 
-                    case ParsedImageStatus.Identical: {
-                        failureComment = `Conflict with image at index \`${baseMatchIndex}\`:
+                    break;
+                }
+
+                case ParsedImageStatus.Identical:
+                    failureComment = `Conflict with image at index \`${baseMatchIndex}\`:
 \`\`\`json
 ${JSON.stringify(baseMatch, undefined, 2)}
 \`\`\`
@@ -220,34 +222,31 @@ Parsed image header:
 \`\`\`json
 ${JSON.stringify(parsedImage, undefined, 2)}
 \`\`\``;
-                        break;
-                    }
+                    break;
 
-                    case ParsedImageStatus.Newer:
-                    case ParsedImageStatus.New: {
-                        addImageToBase(
-                            logPrefix,
-                            statusToBase === ParsedImageStatus.Newer,
-                            prevManifest,
-                            prevOutDir,
-                            baseManifest,
-                            baseMatchIndex,
-                            baseMatch!,
-                            baseOutDir,
-                            firmwareFileName,
-                            manufacturer,
-                            parsedImage,
-                            firmwareBuffer,
-                            undefined,
-                            fileExtraMetas,
-                            () => {
-                                /* noop */
-                            },
-                        );
+                case ParsedImageStatus.Newer:
+                case ParsedImageStatus.New:
+                    addImageToBase(
+                        logPrefix,
+                        statusToBase === ParsedImageStatus.Newer,
+                        prevManifest,
+                        prevOutDir,
+                        baseManifest,
+                        baseMatchIndex,
+                        baseMatch!,
+                        baseOutDir,
+                        firmwareFileName,
+                        manufacturer,
+                        parsedImage,
+                        firmwareBuffer,
+                        undefined,
+                        fileExtraMetas,
+                        () => {
+                            /* noop */
+                        },
+                    );
 
-                        break;
-                    }
-                }
+                    break;
             }
         } catch (error) {
             failureComment = (error as Error).message;
