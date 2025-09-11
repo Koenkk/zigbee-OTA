@@ -187,7 +187,7 @@ ${JSON.stringify(parsedImage, undefined, 2)}
                         }
 
                         case ParsedImageStatus.Newer:
-                        case ParsedImageStatus.New:
+                        case ParsedImageStatus.New: {
                             addImageToPrev(
                                 logPrefix,
                                 statusToPrev === ParsedImageStatus.Newer,
@@ -208,12 +208,13 @@ ${JSON.stringify(parsedImage, undefined, 2)}
                             );
 
                             break;
+                        }
                     }
 
                     break;
                 }
 
-                case ParsedImageStatus.Identical:
+                case ParsedImageStatus.Identical: {
                     failureComment = `Conflict with image at index \`${baseMatchIndex}\`:
 \`\`\`json
 ${JSON.stringify(baseMatch, undefined, 2)}
@@ -223,9 +224,10 @@ Parsed image header:
 ${JSON.stringify(parsedImage, undefined, 2)}
 \`\`\``;
                     break;
+                }
 
                 case ParsedImageStatus.Newer:
-                case ParsedImageStatus.New:
+                case ParsedImageStatus.New: {
                     addImageToBase(
                         logPrefix,
                         statusToBase === ParsedImageStatus.Newer,
@@ -247,6 +249,7 @@ ${JSON.stringify(parsedImage, undefined, 2)}
                     );
 
                     break;
+                }
             }
         } catch (error) {
             failureComment = (error as Error).message;
