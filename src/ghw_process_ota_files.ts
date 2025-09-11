@@ -19,6 +19,10 @@ import {
 } from "./common.js";
 import type {ExtraMetas, GHExtraMetas, RepoImageMeta} from "./types.js";
 
+const GLEDOPTO_MANUFACTURER_CODE = 4687;
+const TUYA_MANUFACTURER_CODE_1 = 4098;
+const TUYA_MANUFACTURER_CODE_2 = 4417;
+
 const EXTRA_METAS_PR_BODY_START_TAG = "```json";
 const EXTRA_METAS_PR_BODY_END_TAG = "```";
 
@@ -26,7 +30,6 @@ function getFileExtraMetas(extraMetas: GHExtraMetas, fileName: string): ExtraMet
     if (Array.isArray(extraMetas)) {
         const fileExtraMetas = extraMetas.find((m) => m.fileName === fileName) ?? {};
         /** @see getValidMetas */
-        // biome-ignore lint/performance/noDelete: <explanation>
         delete fileExtraMetas.fileName;
 
         return fileExtraMetas;
@@ -36,7 +39,7 @@ function getFileExtraMetas(extraMetas: GHExtraMetas, fileName: string): ExtraMet
     return extraMetas;
 }
 
-async function getPRBody(github: Octokit, core: typeof CoreApi, context: Context): Promise<string | undefined> {
+async function getPRBody(github: Octokit, _core: typeof CoreApi, context: Context): Promise<string | undefined> {
     assert(context.payload.pull_request || context.eventName === "push");
 
     if (context.payload.pull_request) {
@@ -119,7 +122,7 @@ export async function processOtaFiles(
         core.startGroup(filePath);
 
         const logPrefix = `[${filePath}]`;
-        let failureComment = "";
+        let failureComment: string | undefined;
 
         try {
             const firmwareFileName = path.basename(filePath);
@@ -144,6 +147,20 @@ export async function processOtaFiles(
             const prevOutDir = getOutDir(manufacturer, PREV_IMAGES_DIR);
             const [baseMatchIndex, baseMatch] = findMatchImage(parsedImage, baseManifest, fileExtraMetas);
             const statusToBase = getParsedImageStatus(parsedImage, baseMatch);
+
+            // Manufacturer specific checks
+            if (parsedImage.manufacturerCode === GLEDOPTO_MANUFACTURER_CODE && !fileExtraMetas.modelId) {
+                // Gledopto uses the same imageType for every device, force modelId to be present.
+                // https://github.com/Koenkk/zigbee-OTA/pull/864
+                throw new Error("Gledopto image requires extra `modelId` metadata");
+            }
+            if (
+                (TUYA_MANUFACTURER_CODE_1 === parsedImage.manufacturerCode || TUYA_MANUFACTURER_CODE_2 === parsedImage.manufacturerCode) &&
+                !fileExtraMetas.manufacturerName
+            ) {
+                // Tuya uses the same imageType for every device, force manufacturerName to be present.
+                throw new Error("Tuya image requires extra `manufacturerName` metadata");
+            }
 
             switch (statusToBase) {
                 case ParsedImageStatus.Older: {
