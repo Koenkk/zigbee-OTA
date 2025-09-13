@@ -1431,17 +1431,6 @@
     "otaHeaderString": "Telink OTA Sample Usage"
   },
   {
-    "fileName": "VZM30-SN_0.05.ota",
-    "fileVersion": 17825797,
-    "fileSize": 224634,
-    "originalUrl": "https://files.inovelli.com/firmware/VZM30-SN/Beta/0.05/VZM30-SN_0.05.ota",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Inovelli/VZM30-SN_0.05.ota",
-    "imageType": 272,
-    "manufacturerCode": 4655,
-    "sha512": "15199f8d894760764ffee530fa873a5c40c5775ea1ed5d6b3f716000d1218ab66ca247e8aae8342f82e5c4f7e3d444e5e9515bc1b671bb3d370e743d4ab3f39d",
-    "otaHeaderString": "VZM30-SN_OnOff"
-  },
-  {
     "fileName": "PMM300Z2_OTA_ENC_V6_ENC.ota",
     "fileVersion": 6,
     "fileSize": 212478,
@@ -2482,5 +2471,16 @@
     "manufacturerCode": 5127,
     "sha512": "8f3c321885fa361c46abe1cb3d99a288717859227d07d88eeaf555a6a6ff041e2b2750468a30e5472261d1ef42b80273245280350dff96fe7e31621aa3b9dc2b",
     "otaHeaderString": "Telink OTA Sample Usage"
+  },
+  {
+    "fileName": "VZM30-SN_1.00.ota",
+    "fileVersion": 17826048,
+    "fileSize": 224618,
+    "originalUrl": "https://files.inovelli.com/firmware/VZM30-SN/Production/1.00/VZM30-SN_1.00.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Inovelli/VZM30-SN_1.00.ota",
+    "imageType": 272,
+    "manufacturerCode": 4655,
+    "sha512": "5fb948e5d840b4d60699f7affb713ed030e150d3f6a133c5675d12c0191c6bcdd4ce0eeeaa70a13df6aa2181d3251afd071471d554ea875d60d0c69664204f9d",
+    "otaHeaderString": "VZM30-SN_OnOff"
   }
 ]
