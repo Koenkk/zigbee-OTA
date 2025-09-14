@@ -8488,5 +8488,142 @@
     "manufacturerCode": 4655,
     "sha512": "2ce48acc9fc1fa9b08db57e4eff3a4082029a262490a428dac333bed3a1e98d08f11abddcd60d5f9caa074bb7cfe48efc964d89c133e67d2fe3261baecca4a27",
     "otaHeaderString": "VZM30-SN_OnOff"
+  },
+  {
+    "fileName": "100B-0112-01002B02-ConfLightBLE-Lamps-EFR32MG13.zigbee",
+    "fileVersion": 16788226,
+    "fileSize": 478598,
+    "originalUrl": "https://firmware.meethue.com/storage/100b-112/16788226/698e1bad-1bc1-4b25-a7f3-f327eaabd363/100B-0112-01002B02-ConfLightBLE-Lamps-EFR32MG13.zigbee",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-0112-01002B02-ConfLightBLE-Lamps-EFR32MG13.zigbee",
+    "imageType": 274,
+    "manufacturerCode": 4107,
+    "sha512": "69f366711806331acc0dbc0a944f193feff9494c39854e4394bfdd6923a6b00698238c8046ab4843e65279365a7058a585126c47cac4bdc36d040d4a28f4eb23",
+    "otaHeaderString": ""
+  },
+  {
+    "fileName": "100B-0114-01002702-ConfLightBLE-Lamps-EFR32MG21.zigbee",
+    "fileVersion": 16787202,
+    "fileSize": 535948,
+    "originalUrl": "https://firmware.meethue.com/storage/100b-114/16787202/c9f0e968-a064-4e4c-975c-682414fec83b/100B-0114-01002702-ConfLightBLE-Lamps-EFR32MG21.zigbee",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-0114-01002702-ConfLightBLE-Lamps-EFR32MG21.zigbee",
+    "imageType": 276,
+    "manufacturerCode": 4107,
+    "sha512": "b9f2a30c712c24c421bb33d65f251e84a4e1af0cd24eb34a21b7835c7ed4b359e5d5af3366fca3c3c216566d6514d7ef53e0b8a34b135172245ec9648491fb03",
+    "otaHeaderString": ""
+  },
+  {
+    "fileName": "100B-0115-01001502-SmartPlug-EFR32MG13.zigbee",
+    "fileVersion": 16782594,
+    "fileSize": 413774,
+    "originalUrl": "https://firmware.meethue.com/storage/100b-115/16782594/5178c32d-786c-4978-9523-d418cc1c466d/100B-0115-01001502-SmartPlug-EFR32MG13.zigbee",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-0115-01001502-SmartPlug-EFR32MG13.zigbee",
+    "imageType": 277,
+    "manufacturerCode": 4107,
+    "sha512": "49197d65bb9595fbd4a81b52ad1e858d092a41a26c257f484d93a2d828cddbe954b02204522c0861330ec19fec0549d7d3f2146c0f99b6bd77791dc654faa0c2",
+    "otaHeaderString": ""
+  },
+  {
+    "fileName": "100B-011A-01001002-SmartPlug-EFR32MG21.zigbee",
+    "fileVersion": 16781314,
+    "fileSize": 348372,
+    "originalUrl": "https://firmware.meethue.com/storage/100b-11a/16781314/6ddb00eb-c371-47f5-932e-1c62b99803c8/100B-011A-01001002-SmartPlug-EFR32MG21.zigbee",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-011A-01001002-SmartPlug-EFR32MG21.zigbee",
+    "imageType": 282,
+    "manufacturerCode": 4107,
+    "sha512": "9e54f10094bde076bfae5078a6abec604acb46920a26bb683801fec43afeca013b66992f6c814c9f0de558f9ffffe8f151cf8170e997662285472fd1db23b2c9",
+    "otaHeaderString": ""
+  },
+  {
+    "fileName": "100B-011D-01002702-ConfLight-ModuLumV2-EFR32MG13.zigbee",
+    "fileVersion": 16787202,
+    "fileSize": 490934,
+    "originalUrl": "https://firmware.meethue.com/storage/100b-11d/16787202/a182f610-693b-4307-bd49-d2b7aa03607f/100B-011D-01002702-ConfLight-ModuLumV2-EFR32MG13.zigbee",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-011D-01002702-ConfLight-ModuLumV2-EFR32MG13.zigbee",
+    "imageType": 285,
+    "manufacturerCode": 4107,
+    "sha512": "c701ac97678f06dafe17b7b52c000d31bb70aff9d01569bfedf37cf58d3c03bbb53d5d48e238871273de56aa5f628edaeebeb9f44b0cd760a376ac0d13eb6833",
+    "otaHeaderString": ""
+  },
+  {
+    "fileName": "100B-011E-01002502-ConfLight-PortableV2-EFR32MG13.zigbee",
+    "fileVersion": 16786690,
+    "fileSize": 465394,
+    "originalUrl": "https://firmware.meethue.com/storage/100b-11e/16786690/aa577047-ef18-4aa3-b315-fa8ce2f1aca3/100B-011E-01002502-ConfLight-PortableV2-EFR32MG13.zigbee",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-011E-01002502-ConfLight-PortableV2-EFR32MG13.zigbee",
+    "imageType": 286,
+    "manufacturerCode": 4107,
+    "sha512": "9a8315336f4f321f60ffbde051d48c32d9ea02b4f890523c6ce8beab3bb26ab96b7efb91184a366e47e4ef8b608704b1292d5b50302c859b6cd0c28b823b4c09",
+    "otaHeaderString": ""
+  },
+  {
+    "fileName": "100B-011F-01002604-ConfLightBLE-ModuLumV3-EFR32MG21.zigbee",
+    "fileVersion": 16786948,
+    "fileSize": 448166,
+    "originalUrl": "https://firmware.meethue.com/storage/100b-11f/16786948/2156b806-4611-4193-b61f-7e25f1f9754d/100B-011F-01002604-ConfLightBLE-ModuLumV3-EFR32MG21.zigbee",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-011F-01002604-ConfLightBLE-ModuLumV3-EFR32MG21.zigbee",
+    "imageType": 287,
+    "manufacturerCode": 4107,
+    "sha512": "3bc59f38bae9ff9f8ad7672cb7931e3a4eb8405c3672bc5cdbb6962342a7aaefeaa4afdf3902c899f4b0c41bec780708b2131ecb1ceabd4461c484175f0e4a14",
+    "otaHeaderString": ""
+  },
+  {
+    "fileName": "MCU_SELECT_TW_RGB-0x1189-0x00F7-0x01368000-MF_DIS-DOWM_DIS-20250731080530-3224010153640-lzma-encrypted.ota",
+    "fileVersion": 20348928,
+    "fileSize": 359342,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=247&version=1.54.128.0",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/MCU_SELECT_TW_RGB-0x1189-0x00F7-0x01368000-MF_DIS-DOWM_DIS-20250731080530-3224010153640-lzma-encrypted.ota",
+    "imageType": 247,
+    "manufacturerCode": 4489,
+    "sha512": "50129351248c403c86d9252b4dcba33d4f669f4906a8c896c5e1f7d91f9303d9c6dbdf587c0a93b8408b8e38d0c62c42ec25a8032461c8517e7840cc0634e755",
+    "otaHeaderString": "MCU_SELECT_TW_RGB",
+    "releaseNotes": "1.Support dynamic CCT&DIM.\r\n2.Support RGB\r\n3.Support RGB/TW. \r\n4.Support daylight harvest control.\r\n5.Enable OTA upgrade over Bluetooth."
+  },
+  {
+    "fileName": "SENSOR_DIRECT_LS_PD_7_IR_CI_ZB-0x1189-0x00F9-0x025C8000-MF_DIS-DOWM_DIS-20250717074332-3224010153640-lzma-encrypted.ota",
+    "fileVersion": 39616512,
+    "fileSize": 350950,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=249&version=2.92.128.0",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/SENSOR_DIRECT_LS_PD_7_IR_CI_ZB-0x1189-0x00F9-0x025C8000-MF_DIS-DOWM_DIS-20250717074332-3224010153640-lzma-encrypted.ota",
+    "imageType": 249,
+    "manufacturerCode": 4489,
+    "sha512": "3ea5e433ef315dbd8196fb55af3cd64b3436cd0b4b2e4fb4ac7587dc27ff0316a009cbe4ea377c4e5a0e70e36fef88193690760303f632b8adc046efe49922a3",
+    "otaHeaderString": "SENSOR_DIRECT_LS_PD_7_IR_CI_ZB",
+    "releaseNotes": "1.Support occupancy control.\r\n2.Support daylight harvest control.\r\n3.Enable OTA upgrade over Bluetooth.\r\n4.Work with green power switch.\r\n5.Fix bugs reported in system test. "
+  },
+  {
+    "fileName": "STRIP_CONTROL_DIRECT_TW_RGB-0x1189-0x00FA-0x01348000-MF_DIS-DOWM_DIS-20250711054618-3224010153640-lzma-encrypted.ota",
+    "fileVersion": 20217856,
+    "fileSize": 380246,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=250&version=1.52.128.0",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/STRIP_CONTROL_DIRECT_TW_RGB-0x1189-0x00FA-0x01348000-MF_DIS-DOWM_DIS-20250711054618-3224010153640-lzma-encrypted.ota",
+    "imageType": 250,
+    "manufacturerCode": 4489,
+    "sha512": "11fdad46c4ee2919ef5e48ad85921a26a217c0bebc3d6e3fce09d20690ac4d8a49665f5997ee8bf1312be2fc47d98fb0197594b7c21f05a0e0a22c91bc4a479d",
+    "otaHeaderString": "STRIP_CONTROL_DIRECT_TW_RGB",
+    "releaseNotes": "1.Enable 5 channels for DIM,TW,RGB-TW control.\r\n2.Support occupancy control.\r\n3.Support daylight harvest control.\r\n4.Support Ledvance green power switch.\r\n5.Enable OTA upgrade over Bluetooth."
+  },
+  {
+    "fileName": "DR_ZBD_NFC_P_30W_220_240V_0A7-0x1189-0x00FD-0x025E8000-MF_DIS-DOWM_DIS-20250804132155-3224010153640-lzma-encrypted.ota",
+    "fileVersion": 39747584,
+    "fileSize": 374022,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=253&version=2.94.128.0",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/DR_ZBD_NFC_P_30W_220_240V_0A7-0x1189-0x00FD-0x025E8000-MF_DIS-DOWM_DIS-20250804132155-3224010153640-lzma-encrypted.ota",
+    "imageType": 253,
+    "manufacturerCode": 4489,
+    "sha512": "75a299173ed81528407c5b86d14f0e0d3746346eaf976e782a89836b89c5bfabb8d8a9b7e38b877a05b6644b81f453588fb5aa4293ebe653bd24fd29f60feafd",
+    "otaHeaderString": "DR_ZBD_NFC_P_30W_220_240V_0A7",
+    "releaseNotes": "1.Support occupancy control.\r\n2.Support daylight harvest control.\r\n3.Support Ledvance green power switch.\r\n4.Enable OTA upgrade over Bluetooth.\r\n5.Fix bugs reported in system test. "
+  },
+  {
+    "fileName": "DR_ZBD_NFC_P_45W_220_240V_1A2-0x1189-0x00FE-0x025E8000-MF_DIS-DOWM_DIS-20250804132854-3224010153640-lzma-encrypted.ota",
+    "fileVersion": 39747584,
+    "fileSize": 373962,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=254&version=2.94.128.0",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/DR_ZBD_NFC_P_45W_220_240V_1A2-0x1189-0x00FE-0x025E8000-MF_DIS-DOWM_DIS-20250804132854-3224010153640-lzma-encrypted.ota",
+    "imageType": 254,
+    "manufacturerCode": 4489,
+    "sha512": "a8f2f8883d1f3447ec53237ed11dcdad6d090738191c4f53268683f59d90eab6c6a10af5f8f25b0f284d90f4e984220cf8c06bc4a6d11df9f60659f6b2dc095c",
+    "otaHeaderString": "DR_ZBD_NFC_P_45W_220_240V_1A2",
+    "releaseNotes": "1.Support occupancy control.\r\n2.Support daylight harvest control.\r\n3.Support Ledvance green power switch.\r\n4.Enable OTA upgrade over Bluetooth.\r\n5.Fix bugs reported in system test. "
   }
 ]
