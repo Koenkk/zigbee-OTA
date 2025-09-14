@@ -2482,5 +2482,18 @@
     "manufacturerCode": 4655,
     "sha512": "5fb948e5d840b4d60699f7affb713ed030e150d3f6a133c5675d12c0191c6bcdd4ce0eeeaa70a13df6aa2181d3251afd071471d554ea875d60d0c69664204f9d",
     "otaHeaderString": "VZM30-SN_OnOff"
+  },
+  {
+    "fileName": "6565-0394-10033001-air_quality_monitor_zrd.zigbee",
+    "fileVersion": 268644353,
+    "fileSize": 302178,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/SlackyDiy/6565-0394-10033001-air_quality_monitor_zrd.zigbee",
+    "imageType": 916,
+    "manufacturerCode": 25957,
+    "sha512": "92f3613fb4f0839545d5edbc98099899876ef07a0a4355d2c64b7bbe3935cbd040407a88f8fcedb1d7d030cefe6f8bf0b9accb946c2b37c01cc949c1b272e49e",
+    "otaHeaderString": "",
+    "manufacturerName": [
+      "Slacky-DIY"
+    ]
   }
 ]
