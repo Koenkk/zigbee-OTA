@@ -10,16 +10,6 @@
     "otaHeaderString": "DoubleSocket50AU--UNENC000JN5169"
   },
   {
-    "fileName": "0x1209_0x3011_0x03076a30.ota",
-    "fileVersion": 50817584,
-    "fileSize": 264354,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Bosch/0x1209_0x3011_0x03076a30.ota",
-    "imageType": 12305,
-    "manufacturerCode": 4617,
-    "sha512": "63f232232252af0fbb3c4cc2efe2ce2564101405de4923238c71ccef2e66e6abef022deee45399a886af4019dfce64fdea969ff60f5b4b854e222b5ffcf7bcc2",
-    "otaHeaderString": "RTH2_230"
-  },
-  {
     "fileName": "12128_OTA_3.18.ZIGBEE",
     "fileVersion": 318,
     "fileSize": 176624,
@@ -8626,5 +8616,16 @@
     "sha512": "c00e2892cecdb48eecbfb007026527ea1c1353d88deac548209808aabd87b788deff5733981e15a4e981f9f05c483ef2ec0a8f0329aa7cb8560c535ff712bc0e",
     "otaHeaderString": "RTH2_BAT",
     "releaseNotes": "New bootloader"
+  },
+  {
+    "fileName": "ota_t0x3011_m0x1209_v0x03086a90.ota",
+    "fileVersion": 50883216,
+    "fileSize": 279314,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Bosch/ota_t0x3011_m0x1209_v0x03086a90.ota",
+    "imageType": 12305,
+    "manufacturerCode": 4617,
+    "sha512": "c36b0e5ea3119f89e6d34d09e294b27c999d401221bb336dcbdbf52445f6ed4e8290428135be83393e17b9f78e4539402cd026d61e7ee5f815ade69b3f05761b",
+    "otaHeaderString": "RTH2_230",
+    "releaseNotes": "New bootloader and support for connection to a central heating system"
   }
 ]
