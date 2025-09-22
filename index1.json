@@ -2495,5 +2495,15 @@
     "manufacturerName": [
       "Slacky-DIY"
     ]
+  },
+  {
+    "fileName": "0x1209_0x300e_0x02086a30.ota",
+    "fileVersion": 34105904,
+    "fileSize": 258058,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Bosch/0x1209_0x300e_0x02086a30.ota",
+    "imageType": 12302,
+    "manufacturerCode": 4617,
+    "sha512": "901d7b98b3448df06ba0e87465b9140d80e0ef41cdb2c1880c9788a562bcfefd3cd306f2f737007c7f96ad02b3d230391d0d88940ef9c9e976c792bc80d935d2",
+    "otaHeaderString": "RTH2_230"
   }
 ]

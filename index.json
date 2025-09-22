@@ -10,16 +10,6 @@
     "otaHeaderString": "DoubleSocket50AU--UNENC000JN5169"
   },
   {
-    "fileName": "0x1209_0x300e_0x02086a30.ota",
-    "fileVersion": 34105904,
-    "fileSize": 258058,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Bosch/0x1209_0x300e_0x02086a30.ota",
-    "imageType": 12302,
-    "manufacturerCode": 4617,
-    "sha512": "901d7b98b3448df06ba0e87465b9140d80e0ef41cdb2c1880c9788a562bcfefd3cd306f2f737007c7f96ad02b3d230391d0d88940ef9c9e976c792bc80d935d2",
-    "otaHeaderString": "RTH2_230"
-  },
-  {
     "fileName": "0x1209_0x3011_0x03076a30.ota",
     "fileVersion": 50817584,
     "fileSize": 264354,
@@ -8625,5 +8615,16 @@
     "manufacturerName": [
       "Slacky-DIY"
     ]
+  },
+  {
+    "fileName": "ota_t0x300e_m0x1209_v0x02096a90.ota",
+    "fileVersion": 34171536,
+    "fileSize": 269014,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Bosch/ota_t0x300e_m0x1209_v0x02096a90.ota",
+    "imageType": 12302,
+    "manufacturerCode": 4617,
+    "sha512": "c00e2892cecdb48eecbfb007026527ea1c1353d88deac548209808aabd87b788deff5733981e15a4e981f9f05c483ef2ec0a8f0329aa7cb8560c535ff712bc0e",
+    "otaHeaderString": "RTH2_BAT",
+    "releaseNotes": "New bootloader"
   }
 ]
