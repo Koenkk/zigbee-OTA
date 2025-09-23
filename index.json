@@ -8237,17 +8237,6 @@
     "otaHeaderString": "FWSN_SNZB02P"
   },
   {
-    "fileName": "VZM32-SN_0.09.ota",
-    "fileVersion": 16973833,
-    "fileSize": 227246,
-    "originalUrl": "https://files.inovelli.com/firmware/VZM32-SN/Beta/0.09/VZM32-SN_0.09.ota",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Inovelli/VZM32-SN_0.09.ota",
-    "imageType": 259,
-    "manufacturerCode": 4655,
-    "sha512": "639ae6284c4fd740573a6079c6164c0c73938a7efdb0d78059ea64342f4029a4470377c5577825fac52390b3d046ea3d1c1355da925ac6dfdaf20ff24b88dac2",
-    "otaHeaderString": "vzm32-sn_mmWave"
-  },
-  {
     "fileName": "1662545193-oem_zg_tl8258_plug_OTA_3.0.0.bin",
     "fileVersion": 192,
     "fileSize": 307682,
@@ -8627,5 +8616,16 @@
     "sha512": "c36b0e5ea3119f89e6d34d09e294b27c999d401221bb336dcbdbf52445f6ed4e8290428135be83393e17b9f78e4539402cd026d61e7ee5f815ade69b3f05761b",
     "otaHeaderString": "RTH2_230",
     "releaseNotes": "New bootloader and support for connection to a central heating system"
+  },
+  {
+    "fileName": "VZM32-SN_0.10.ota",
+    "fileVersion": 16973834,
+    "fileSize": 227210,
+    "originalUrl": "https://files.inovelli.com/firmware/VZM32-SN/Beta/0.10/VZM32-SN_0.10.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Inovelli/VZM32-SN_0.10.ota",
+    "imageType": 259,
+    "manufacturerCode": 4655,
+    "sha512": "a766719e1f13893adb17ce8aec13d198ce8371a0bb740203515524f972305e8f7cd2b4904b1a50bae9664b44f87d7132305a3348fd0e4481049439a71c19bf89",
+    "otaHeaderString": "vzm32-sn_mmWave"
   }
 ]

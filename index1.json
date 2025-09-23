@@ -2398,17 +2398,6 @@
     "otaHeaderString": ""
   },
   {
-    "fileName": "VZM32-SN_0.08.ota",
-    "fileVersion": 16973832,
-    "fileSize": 227530,
-    "originalUrl": "https://files.inovelli.com/firmware/VZM32-SN/Beta/0.08/VZM32-SN_0.08.ota",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Inovelli/VZM32-SN_0.08.ota",
-    "imageType": 259,
-    "manufacturerCode": 4655,
-    "sha512": "caad07227667892f7691dbbdd6f087a9d3fed28225155db10da7e32a81cbcc4ba39f394ccb28f8e764c3206e86999440a9226d52a6c3d67886e85bf6759fd4ac",
-    "otaHeaderString": "vzm32-sn_mmWave"
-  },
-  {
     "fileName": "Button_PROD_OTA_V35_v1.00.35.ota",
     "fileVersion": 35,
     "fileSize": 129698,
@@ -2515,5 +2504,16 @@
     "manufacturerCode": 4617,
     "sha512": "63f232232252af0fbb3c4cc2efe2ce2564101405de4923238c71ccef2e66e6abef022deee45399a886af4019dfce64fdea969ff60f5b4b854e222b5ffcf7bcc2",
     "otaHeaderString": "RTH2_230"
+  },
+  {
+    "fileName": "VZM32-SN_0.09.ota",
+    "fileVersion": 16973833,
+    "fileSize": 227246,
+    "originalUrl": "https://files.inovelli.com/firmware/VZM32-SN/Beta/0.09/VZM32-SN_0.09.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Inovelli/VZM32-SN_0.09.ota",
+    "imageType": 259,
+    "manufacturerCode": 4655,
+    "sha512": "639ae6284c4fd740573a6079c6164c0c73938a7efdb0d78059ea64342f4029a4470377c5577825fac52390b3d046ea3d1c1355da925ac6dfdaf20ff24b88dac2",
+    "otaHeaderString": "vzm32-sn_mmWave"
   }
 ]
