@@ -2228,18 +2228,6 @@
     "otaHeaderString": "EBL RGBW"
   },
   {
-    "fileName": "DIM-A60_DIM_T-0x00CD-0x03203660.OTA",
-    "fileVersion": 52442720,
-    "fileSize": 188384,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/DIM-A60_DIM_T-0x00CD-0x03203660.OTA",
-    "imageType": 205,
-    "manufacturerCode": 4489,
-    "sha512": "a7be48d6c9e1473748af00bf8696ead99497c7dc5006f76a888ca6e386ed0d266047ff08c4303b85b1f56ea4edaca4f03a0c2aab3842a24707c2fd4fcd73ec8a",
-    "otaHeaderString": "Telink OTA Sample Usage",
-    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=205&version=3.32.54.96",
-    "releaseNotes": "1. Support maximum 30 groups\r\n2. Enable the watchdog\r\n3. Set the Tx power to 9.8dB\r\n4. For Filament dimmable bulbs only, set the minimum level to 3%(according to APP) = the minimum PWM duty cycle is 15/255"
-  },
-  {
     "fileName": "DIM-A60_FIL_DIM_T-0x00D0-0x03203660.OTA",
     "fileVersion": 52442720,
     "fileSize": 188416,
@@ -8627,5 +8615,17 @@
     "manufacturerCode": 4655,
     "sha512": "a766719e1f13893adb17ce8aec13d198ce8371a0bb740203515524f972305e8f7cd2b4904b1a50bae9664b44f87d7132305a3348fd0e4481049439a71c19bf89",
     "otaHeaderString": "vzm32-sn_mmWave"
+  },
+  {
+    "fileName": "A60_DIM_T-0x00CD-0x03483712-MF_DIS.OTA",
+    "fileVersion": 55064338,
+    "fileSize": 241408,
+    "originalUrl": "https://update.ledvance.com/firmware-overview/download?company=4489&product=205&version=3.72.55.18",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/A60_DIM_T-0x00CD-0x03483712-MF_DIS.OTA",
+    "imageType": 205,
+    "manufacturerCode": 4489,
+    "sha512": "6d71d81e00c7c61da73ecac1dee08ec1b9f8e00b0d16a5cab59f03a1debed1452c0a8b6399a4c748d1c97e6cbbfc0aa04d9f27370983954a7e3eb11bd2ec5f49",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "releaseNotes": "Date: Friday, 19 September 2025\r\n1.Fix bug network leave related with green power device commission.\r\n2.Fix abnormal reboot caused by network status.\r\n3.Improve scene control in Hue and other system.\r\n44. Upgrade Zigbee stack to latest version 3.7.1.2."
   }
 ]
