@@ -2409,16 +2409,6 @@
     "originalUrl": "https://tr-zha.s3.amazonaws.com/z2m_firmware/Button_PROD_OTA_V35_v1.00.35.ota"
   },
   {
-    "fileName": "bl702_Dual_plug_v1.00.34.ota",
-    "fileVersion": 34,
-    "fileSize": 284370,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/bl702_Dual_plug_v1.00.34.ota",
-    "imageType": 54197,
-    "manufacturerCode": 5127,
-    "sha512": "ef39209ff1a150ad4088542f04d8b91be669a8db208b484730730e07b76043d6aea24c799e1d12a89dfa373c2df0810b100944e663434dcd8c2568af9bfaf492",
-    "otaHeaderString": "temp_humi_sensor"
-  },
-  {
     "fileName": "Zigbee_A19_Bulb_OTA_V66_1.00.66.ota",
     "fileVersion": 66,
     "fileSize": 285378,
@@ -2527,5 +2517,15 @@
     "otaHeaderString": "Telink OTA Sample Usage",
     "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=205&version=3.32.54.96",
     "releaseNotes": "1. Support maximum 30 groups\r\n2. Enable the watchdog\r\n3. Set the Tx power to 9.8dB\r\n4. For Filament dimmable bulbs only, set the minimum level to 3%(according to APP) = the minimum PWM duty cycle is 15/255"
+  },
+  {
+    "fileName": "bl702_Dual_plug_v1.00.36.ota",
+    "fileVersion": 36,
+    "fileSize": 285610,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/bl702_Dual_plug_v1.00.36.ota",
+    "imageType": 54197,
+    "manufacturerCode": 5127,
+    "sha512": "da2f710777f62b72e6fb28cadcc317d70f1bd68a41ef9c65390cb67cf91af5c8128f942f24881b13498148d512f7e0025126af00392dadc283ed81025569338a",
+    "otaHeaderString": "temp_humi_sensor"
   }
 ]
