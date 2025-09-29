@@ -8617,5 +8617,15 @@
     "manufacturerCode": 4659,
     "sha512": "3859a6d82a0d285abf71fa4f231c9dcb542a49a55fb7d387adadf771f4d6a0d84a16e16da33ca82504acfd0f56f1ff5f051823f57e31240c2afcaf40e3fedb7c",
     "otaHeaderString": "Telink OTA Sample Usage"
+  },
+  {
+    "fileName": "1021-000f-004345ff-NLL.zigbee",
+    "fileVersion": 4408831,
+    "fileSize": 255127,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Legrand/1021-000f-004345ff-NLL.zigbee",
+    "imageType": 15,
+    "manufacturerCode": 4129,
+    "sha512": "aa89a06714e446662dc2f183f0cd72a54dcf344ed62a30ab14b12943eca06857418eba4958398452af60470dc9665e380f155f7d693abb79532d55759b75d772",
+    "otaHeaderString": "                                "
   }
 ]
