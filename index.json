@@ -8529,16 +8529,6 @@
     "otaHeaderString": "temp_humi_sensor"
   },
   {
-    "fileName": "1021-000f-004345ff-NLL.zigbee",
-    "fileVersion": 4408831,
-    "fileSize": 255127,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Legrand/1021-000f-004345ff-NLL.zigbee",
-    "imageType": 15,
-    "manufacturerCode": 4129,
-    "sha512": "aa89a06714e446662dc2f183f0cd72a54dcf344ed62a30ab14b12943eca06857418eba4958398452af60470dc9665e380f155f7d693abb79532d55759b75d772",
-    "otaHeaderString": "                                "
-  },
-  {
     "fileName": "1021-0012-00524203-NLT.zigbee",
     "fileVersion": 5390851,
     "fileSize": 205863,
