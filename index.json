@@ -8105,16 +8105,6 @@
     ]
   },
   {
-    "fileName": "wb_msw4_2_067.ota",
-    "fileVersion": 67,
-    "fileSize": 270334,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sprut.device/wb_msw4_2_067.ota",
-    "imageType": 15,
-    "manufacturerCode": 26214,
-    "sha512": "5d474729ad04f89c9e153ca3c175206f0b305d084b7b6adeb545de42f587d103a7e2635489bbb98ca817d01d5711b84011fc020411a930023e2340222662d9eb",
-    "otaHeaderString": ""
-  },
-  {
     "fileName": "snzb-02p_v2.2.0.ota",
     "fileVersion": 8704,
     "fileSize": 260018,
@@ -8627,5 +8617,15 @@
     "manufacturerCode": 4129,
     "sha512": "aa89a06714e446662dc2f183f0cd72a54dcf344ed62a30ab14b12943eca06857418eba4958398452af60470dc9665e380f155f7d693abb79532d55759b75d772",
     "otaHeaderString": "                                "
+  },
+  {
+    "fileName": "wb_msw4_2_070.ota",
+    "fileVersion": 70,
+    "fileSize": 312950,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sprut.device/wb_msw4_2_070.ota",
+    "imageType": 15,
+    "manufacturerCode": 26214,
+    "sha512": "520465686f77ef055410fd541ec9a4d4e008bea57753707fb28abc69607d8893d9a84ea13f2e8f94e4b3de364b991f74b70df9ae05dbf4726440d7cccf590d1e",
+    "otaHeaderString": ""
   }
 ]
