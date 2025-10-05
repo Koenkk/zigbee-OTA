@@ -2228,78 +2228,6 @@
     "otaHeaderString": "EBL RGBW"
   },
   {
-    "fileName": "DIM-A60_FIL_DIM_T-0x00D0-0x03203660.OTA",
-    "fileVersion": 52442720,
-    "fileSize": 188416,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/DIM-A60_FIL_DIM_T-0x00D0-0x03203660.OTA",
-    "imageType": 208,
-    "manufacturerCode": 4489,
-    "sha512": "3854e452e13ff0c973531e99a842d36fcbff6a4d43f2edd57a472bde48b32eb590759fcaf96ff0824845e1b9c63666adc21d4070c367ff3b18505ff7cab0d5f3",
-    "otaHeaderString": "Telink OTA Sample Usage",
-    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=208&version=3.32.54.96",
-    "releaseNotes": "1. Support maximum 30 groups\r\n2. Enable the watchdog\r\n3. Set the Tx power to 9.8dB\r\n4. For Filament dimmable bulbs only, set the minimum level to 3%(according to APP) = the minimum PWM duty cycle is 15/255"
-  },
-  {
-    "fileName": "DIM-B40_DIM_T-0x00B8-0x03203660.OTA",
-    "fileVersion": 52442720,
-    "fileSize": 188384,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/DIM-B40_DIM_T-0x00B8-0x03203660.OTA",
-    "imageType": 184,
-    "manufacturerCode": 4489,
-    "sha512": "d50a9ebeb0a3d3eefabaf593b71aa229213b44d90046220e753be73e5c72a51c7fb419db27fb667bc1a949f6c9a159edf68ce5bf24f49c7056a668c6d0ee0504",
-    "otaHeaderString": "Telink OTA Sample Usage",
-    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=184&version=3.32.54.96",
-    "releaseNotes": "1. Support maximum 30 groups\r\n2. Enable the watchdog\r\n3. Set the Tx power to 9.8dB\r\n4. For Filament dimmable bulbs only, set the minimum level to 3%(according to APP) = the minimum PWM duty cycle is 15/255"
-  },
-  {
-    "fileName": "DIM-EDISON60_FIL_DIM_T-0x00D1-0x03203660.OTA",
-    "fileVersion": 52442720,
-    "fileSize": 188416,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/DIM-EDISON60_FIL_DIM_T-0x00D1-0x03203660.OTA",
-    "imageType": 209,
-    "manufacturerCode": 4489,
-    "sha512": "92741c25cf6da726cf1d83d45b3d8420546a52c3db0b6c8237551e8d71b8badb6bd3023348d58b94118eebb454cafc06e7a778c3899555b9af5f3e4cef81ae37",
-    "otaHeaderString": "Telink OTA Sample Usage",
-    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=209&version=3.32.54.96",
-    "releaseNotes": "1. Support maximum 30 groups\r\n2. Enable the watchdog\r\n3. Set the Tx power to 9.8dB\r\n4. For Filament dimmable bulbs only, set the minimum level to 3%(according to APP) = the minimum PWM duty cycle is 15/255"
-  },
-  {
-    "fileName": "DIM-GLOBE60_FIL_DIM_T-0x00D2-0x03203660.OTA",
-    "fileVersion": 52442720,
-    "fileSize": 188416,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/DIM-GLOBE60_FIL_DIM_T-0x00D2-0x03203660.OTA",
-    "imageType": 210,
-    "manufacturerCode": 4489,
-    "sha512": "e686f9d515678dcf10bba87545f2588c39354635c2b5e95ac060b5447600819c733c436ce16dcf6122c35d4b24cb4d7a4288c8fc9e71985f88d23ee111bb23ed",
-    "otaHeaderString": "Telink OTA Sample Usage",
-    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=210&version=3.32.54.96",
-    "releaseNotes": "1. Support maximum 30 groups\r\n2. Enable the watchdog\r\n3. Set the Tx power to 9.8dB\r\n4. For Filament dimmable bulbs only, set the minimum level to 3%(according to APP) = the minimum PWM duty cycle is 15/255"
-  },
-  {
-    "fileName": "DIM-P40_DIM_T-0x00CE-0x03203660.OTA",
-    "fileVersion": 52442720,
-    "fileSize": 188384,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/DIM-P40_DIM_T-0x00CE-0x03203660.OTA",
-    "imageType": 206,
-    "manufacturerCode": 4489,
-    "sha512": "b3867cfd8f681ae951ac614b822ad4c0368d4eb5fcf4055d643fb1abf07aebdc763e32f5bc06aa3d491202b4db2621db4bd9810189d2af8bb1c6d85e4c5ac3dd",
-    "otaHeaderString": "Telink OTA Sample Usage",
-    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=206&version=3.32.54.96",
-    "releaseNotes": "1. Support maximum 30 groups\r\n2. Enable the watchdog\r\n3. Set the Tx power to 9.8dB\r\n4. For Filament dimmable bulbs only, set the minimum level to 3%(according to APP) = the minimum PWM duty cycle is 15/255"
-  },
-  {
-    "fileName": "DIM-PAR16_DIM_T-0x00CF-0x03203660.OTA",
-    "fileVersion": 52442720,
-    "fileSize": 188384,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/DIM-PAR16_DIM_T-0x00CF-0x03203660.OTA",
-    "imageType": 207,
-    "manufacturerCode": 4489,
-    "sha512": "2085b60c00c66103d3d178822f210df1f1243c445f2dcd582d854ba244a7ac5993f88f1621fd33eade6282c9df9411304ce8cf6301689309d88e7a95128e573e",
-    "otaHeaderString": "Telink OTA Sample Usage",
-    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=207&version=3.32.54.96",
-    "releaseNotes": "1. Support maximum 30 groups\r\n2. Enable the watchdog\r\n3. Set the Tx power to 9.8dB\r\n4. For Filament dimmable bulbs only, set the minimum level to 3%(according to APP) = the minimum PWM duty cycle is 15/255"
-  },
-  {
     "fileName": "DIM_ENERGY-TUBE_T8_CON_1200_16W_830ZBVR-0x1189-0x00DE-0x02056550-MF_DIS-20230612083031-322101076832.ota",
     "fileVersion": 33908048,
     "fileSize": 197266,
@@ -2788,54 +2716,6 @@
     "otaHeaderString": "EBL RGBW"
   },
   {
-    "fileName": "PLUG_COMPACT_EU_T-0x00D6-0x032B3674-MF_DIS.OTA",
-    "fileVersion": 53163636,
-    "fileSize": 197136,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/PLUG_COMPACT_EU_T-0x00D6-0x032B3674-MF_DIS.OTA",
-    "imageType": 214,
-    "manufacturerCode": 4489,
-    "sha512": "bc45a149b84113718eee4a127fc0bcb4c25c905efa805140de278adc7730461717b256bebe2befdce7e777078e498aae4369e48e9f899526630c4f5a658d933c",
-    "otaHeaderString": "Telink OTA Sample Usage",
-    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=214&version=3.43.54.116",
-    "releaseNotes": "1. Add the \"startuponoff\" attribute.\r\n2. After a successful OTA, the socket maintains its previous state."
-  },
-  {
-    "fileName": "PLUG_EU_T-0x00D4-0x032B3674-MF_DIS.OTA",
-    "fileVersion": 53163636,
-    "fileSize": 197136,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/PLUG_EU_T-0x00D4-0x032B3674-MF_DIS.OTA",
-    "imageType": 212,
-    "manufacturerCode": 4489,
-    "sha512": "de0dbabc38386eef03c3a49330a72e21be11cc16f1254da44c5b2d1d828e18150d3ae80bb05a357ae4f1f7188d621dac4f1263244eeab944ffd271d8dc158c96",
-    "otaHeaderString": "Telink OTA Sample Usage",
-    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=212&version=3.43.54.116",
-    "releaseNotes": "1. Add the \"startuponoff\" attribute.\r\n2. After a successful OTA, the socket maintains its previous state."
-  },
-  {
-    "fileName": "PLUG_OUTDOOR_EU_T-0x00C2-0x032B3674-MF_DIS.OTA",
-    "fileVersion": 53163636,
-    "fileSize": 197136,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/PLUG_OUTDOOR_EU_T-0x00C2-0x032B3674-MF_DIS.OTA",
-    "imageType": 194,
-    "manufacturerCode": 4489,
-    "sha512": "249ec36e24e3a8858093d04967bee25eb350870993fa033a2e04a123242aa52d1f276526fb893abd39e4a85409f5d364e5c3ad0bbb555479604ee4edf4bf0843",
-    "otaHeaderString": "Telink OTA Sample Usage",
-    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=194&version=3.43.54.116",
-    "releaseNotes": "1. Add the \"startuponoff\" attribute.\r\n2. After a successful OTA, the socket maintains its previous state."
-  },
-  {
-    "fileName": "PLUG_UK_T-0x00D5-0x032B3674-MF_DIS.OTA",
-    "fileVersion": 53163636,
-    "fileSize": 197136,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/PLUG_UK_T-0x00D5-0x032B3674-MF_DIS.OTA",
-    "imageType": 213,
-    "manufacturerCode": 4489,
-    "sha512": "db2ed859306e90874012e305e984dedd5d437410ae920c71d0dfb6814ce74c65c41ade1d6c63892c91c6ae6d648ac5be253c35344bbec270d08b462eb940e6cb",
-    "otaHeaderString": "Telink OTA Sample Usage",
-    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=213&version=3.43.54.116",
-    "releaseNotes": "1. Add the \"startuponoff\" attribute.\r\n2. After a successful OTA, the socket maintains its previous state."
-  },
-  {
     "fileName": "PL_HCL600_01_IM0095_010A6400-encrypted_202331101118_withoutMF.OTA",
     "fileVersion": 17458176,
     "fileSize": 179680,
@@ -3018,36 +2898,6 @@
     "otaHeaderString": "Zigbee3toDALIConverter",
     "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4364&product=57374&version=16.14.101.91",
     "releaseNotes": "1. Fix bug that endpoint changes.\r\n2. Supportdim down control from push button coupler."
-  },
-  {
-    "fileName": "ZLinky_router_v16.ota",
-    "fileVersion": 16,
-    "fileSize": 245886,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LiXee/ZLinky_router_v16.ota",
-    "imageType": 1,
-    "manufacturerCode": 4151,
-    "sha512": "562b9598ad436ff31fc4b981c1406cdb99822e472689229ca5f0c8687d17e28df32d07ec7238562a3a22f1495a97ae722e1012aad1735eeba97a6d8b6185379f",
-    "otaHeaderString": "OM15081-RTR-JN5189-0000000000000",
-    "originalUrl": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/download/v16.0/ZLinky_router_v16.ota",
-    "manufacturerName": [
-      "LiXee"
-    ],
-    "releaseNotes": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/tag/v16.0"
-  },
-  {
-    "fileName": "ZLinky_router_v16_limited.ota",
-    "fileVersion": 16,
-    "fileSize": 245886,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LiXee/ZLinky_router_v16_limited.ota",
-    "imageType": 2,
-    "manufacturerCode": 4151,
-    "sha512": "8e3143c62442cb0ccab768b94e791f651a8c40c951e033473c52eb8e34e6d3dd22f4f3e57e42281e0ce72a73d60e956b256414462ce402c02a40a932eb3a0217",
-    "otaHeaderString": "OM15081-RTR-LIMITED-JN5189-00000",
-    "originalUrl": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/download/v16.0/ZLinky_router_v16_limited.ota",
-    "manufacturerName": [
-      "LiXee"
-    ],
-    "releaseNotes": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/tag/v16.0"
   },
   {
     "fileName": "20211122110505_OTA_lumi.curtain.hagl07_V48_20211119_2C5A.ota",
@@ -6521,30 +6371,6 @@
     "otaHeaderString": ""
   },
   {
-    "fileName": "PLUG_EU_EM_T-0x00DC-0x033D3674-MF_DIS.OTA",
-    "fileVersion": 54343284,
-    "fileSize": 209616,
-    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=220&version=3.61.54.116",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/PLUG_EU_EM_T-0x00DC-0x033D3674-MF_DIS.OTA",
-    "imageType": 220,
-    "manufacturerCode": 4489,
-    "sha512": "052726f1832285df5e2383d71f36ab844dc407dc0b3cf064329a0f14031b86341240dc9675dd7ad91c41e1eab84ac854e9b1eff826f2efb3748cd2a36788a5a7",
-    "otaHeaderString": "Telink OTA Sample Usage",
-    "releaseNotes": "1.Support real-time power, current, and voltage report.\r\n2.Support total power consumption statistics feature to track energy usage.\r\n3.Support power-on on/off configuration, allowing users to set initial operating state when power-on."
-  },
-  {
-    "fileName": "PLUG_COMPACT_EU_EM_T-0x00E6-0x033D3674-MF_DIS.OTA",
-    "fileVersion": 54343284,
-    "fileSize": 209648,
-    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=230&version=3.61.54.116",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/PLUG_COMPACT_EU_EM_T-0x00E6-0x033D3674-MF_DIS.OTA",
-    "imageType": 230,
-    "manufacturerCode": 4489,
-    "sha512": "24f916a897010ea397173412ac2a255e1e2c4354ea5a54fa0ff0e0af140094656cfc1bb4dce9ea5a7418132fb489438610cd4bc47dc684b61cd0b26d76213891",
-    "otaHeaderString": "Telink OTA Sample Usage",
-    "releaseNotes": "1.Support real-time power, current, and voltage report.\r\n2.Support total power consumption statistics feature to track energy usage.\r\n3.Support power-on on/off configuration, allowing users to set initial operating state when power-on."
-  },
-  {
     "fileName": "20240625145706_lumi.sensor_occupy.agl1_0.0.0_0028_20240621_AA55A4.ota",
     "fileVersion": 28,
     "fileSize": 302970,
@@ -8627,5 +8453,299 @@
     "manufacturerCode": 26214,
     "sha512": "520465686f77ef055410fd541ec9a4d4e008bea57753707fb28abc69607d8893d9a84ea13f2e8f94e4b3de364b991f74b70df9ae05dbf4726440d7cccf590d1e",
     "otaHeaderString": ""
+  },
+  {
+    "fileName": "A60_RGBW_T-0x00B6-0x03483712-MF_DIS.OTA",
+    "fileVersion": 55064338,
+    "fileSize": 256224,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=182&version=3.72.55.18",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/A60_RGBW_T-0x00B6-0x03483712-MF_DIS.OTA",
+    "imageType": 182,
+    "manufacturerCode": 4489,
+    "sha512": "6696fe6707686d9586cdfa045bb3ce24ef960b6cb664a09096e6e11025143373528760f525f5bd2c715d590a2891bd1a69f24227dfe62290aa80e3fcc7e1949d",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "releaseNotes": "1.Fix bug network leave related with green power device commission.\r\n2.Fix abnormal reboot caused by network status.\r\n3.Improve scene control in Hue and other system.\r\n4. Upgrade Zigbee stack to latest version 3.7.1.2. "
+  },
+  {
+    "fileName": "A60_TW_T-0x00B7-0x03483712-MF_DIS.OTA",
+    "fileVersion": 55064338,
+    "fileSize": 251280,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=183&version=3.72.55.18",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/A60_TW_T-0x00B7-0x03483712-MF_DIS.OTA",
+    "imageType": 183,
+    "manufacturerCode": 4489,
+    "sha512": "f90f54985f122768b814fcd69f975fa9d2e56d153857bf708c9420a9d3f40179ff4d3eeafcac13b717d86542cb24ea2e5e2b95847c879c45b4e6dbd8152bc5d3",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "releaseNotes": "1.Fix bug network leave related with green power device commission.\r\n2.Fix abnormal reboot caused by network status.\r\n3.Improve scene control in Hue and other system.\r\n4.Upgrade Zigbee stack to latest version 3.7.1.2. "
+  },
+  {
+    "fileName": "B40_DIM_T-0x00B8-0x03483712-MF_DIS.OTA",
+    "fileVersion": 55064338,
+    "fileSize": 241408,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=184&version=3.72.55.18",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/B40_DIM_T-0x00B8-0x03483712-MF_DIS.OTA",
+    "imageType": 184,
+    "manufacturerCode": 4489,
+    "sha512": "8bd3aa2381b80aa85dadcf382f437898d8ebee2f1eeda0926d110549298de0793626abce1922af401587b64ba95b3b9df3900693788025fa2e4e178027f0be28",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "releaseNotes": "1.Fix bug network leave related with green power device commission.\r\n2.Fix abnormal reboot caused by network status.\r\n3.Improve scene control in Hue and other system.\r\n4. Upgrade Zigbee stack to latest version 3.7.1.2. "
+  },
+  {
+    "fileName": "PAR16_RGBW_T-0x00BD-0x03483712-MF_DIS.OTA",
+    "fileVersion": 55064338,
+    "fileSize": 256208,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=189&version=3.72.55.18",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/PAR16_RGBW_T-0x00BD-0x03483712-MF_DIS.OTA",
+    "imageType": 189,
+    "manufacturerCode": 4489,
+    "sha512": "feb297e8202ad016e94ef657d494fa7ad011fda377e88842859eb4bc8c0224ef05555c8890fd04889bbafdfeb9eb71e20c30590529b2dbebda78d8020f6d8f76",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "releaseNotes": "1.Fix bug network leave related with green power device commission.\r\n2.Fix abnormal reboot caused by network status.\r\n3.Improve scene control in Hue and other system.\r\n4.Upgrade Zigbee stack to latest version 3.7.1.2. "
+  },
+  {
+    "fileName": "PAR16_TW_T-0x00BE-0x03483712-MF_DIS.OTA",
+    "fileVersion": 55064338,
+    "fileSize": 251280,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=190&version=3.72.55.18",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/PAR16_TW_T-0x00BE-0x03483712-MF_DIS.OTA",
+    "imageType": 190,
+    "manufacturerCode": 4489,
+    "sha512": "af18081386155a69fe95a3ef066c2a1eeb4d26dac85bd6fde1a67d6b3c1ebbdda172da1dd75271c75231ff5c745982e5324c0c21d2d45b8f3f0e664559bf3930",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "releaseNotes": "1.Fix bug network leave related with green power device commission.\r\n2.Fix abnormal reboot caused by network status.\r\n3.Improve scene control in Hue and other system.\r\n4.Upgrade Zigbee stack to latest version 3.7.1.2. "
+  },
+  {
+    "fileName": "B40_TW_T-0x00BF-0x03483712-MF_DIS.OTA",
+    "fileVersion": 55064338,
+    "fileSize": 251280,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=191&version=3.72.55.18",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/B40_TW_T-0x00BF-0x03483712-MF_DIS.OTA",
+    "imageType": 191,
+    "manufacturerCode": 4489,
+    "sha512": "3af82e123b2d828968f61adaf552927bb5364c86de3a8caafd79dea4ddcaf39c0559c8edddcd5322e6903472e3fd312f5012861888ccf943e6b6f8027309779e",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "releaseNotes": "1.Fix bug network leave related with green power device commission.\r\n2.Fix abnormal reboot caused by network status.\r\n3.Improve scene control in Hue and other system.\r\n4.Upgrade Zigbee stack to latest version 3.7.1.2. "
+  },
+  {
+    "fileName": "P40_TW_T-0x00C0-0x03483712-MF_DIS.OTA",
+    "fileVersion": 55064338,
+    "fileSize": 251280,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=192&version=3.72.55.18",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/P40_TW_T-0x00C0-0x03483712-MF_DIS.OTA",
+    "imageType": 192,
+    "manufacturerCode": 4489,
+    "sha512": "f3dbf065b014050c7757a84f37eb7a31e016f03fd7fd3e27d19a76b11d5e02fd79f5411dd2352a06cd95c95345f204ac90d87db022ccdb21d7e0984cbd1ef658",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "releaseNotes": "1.Fix bug network leave related with green power device commission.\r\n2.Fix abnormal reboot caused by network status.\r\n3.Improve scene control in Hue and other system.\r\n4.Upgrade Zigbee stack to latest version 3.7.1.2. "
+  },
+  {
+    "fileName": "FLEX_RGBW_T-0x00C1-0x03483712-MF_DIS.OTA",
+    "fileVersion": 55064338,
+    "fileSize": 255872,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=193&version=3.72.55.18",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/FLEX_RGBW_T-0x00C1-0x03483712-MF_DIS.OTA",
+    "imageType": 193,
+    "manufacturerCode": 4489,
+    "sha512": "673ddae24c4db0396ee1b9016b613b6569f36db36e850e4dd3ad661e87fe53c4685fb8e93d02eb03c4fde04d5123c9df547a693eb3fdb9c12181efba82c299ff",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "releaseNotes": "1.Fix bug network leave related with green power device commission.\r\n2.Fix abnormal reboot caused by network status.\r\n3.Improve scene control in Hue and other system.\r\n4.Upgrade Zigbee stack to latest version 3.7.1.2. "
+  },
+  {
+    "fileName": "PLUG_OUTDOOR_EU_T-0x00C2-0x03463712-MF_DIS.OTA",
+    "fileVersion": 54933266,
+    "fileSize": 239744,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=194&version=3.70.55.18",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/PLUG_OUTDOOR_EU_T-0x00C2-0x03463712-MF_DIS.OTA",
+    "imageType": 194,
+    "manufacturerCode": 4489,
+    "sha512": "3bd32276076511634c797570f2acd51e29ea1933377f8bea8b14e12d81a059d8a5568ed08e3133d09e5fcbcb67ae15ff8d5e2f9a542121a404f7f232227274de",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "releaseNotes": "1.Fix bug network leave related with green power device commission.\r\n2.Fix abnormal reboot caused by network status.\r\n3.Upgrade Zigbee stack to latest version 3.7.1.2. \r\n4.Support using recall scene to turn off plug in Hue system."
+  },
+  {
+    "fileName": "GARDENPOLE_RGBW_T-0x00C3-0x03483712-MF_DIS.OTA",
+    "fileVersion": 55064338,
+    "fileSize": 255792,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=195&version=3.72.55.18",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/GARDENPOLE_RGBW_T-0x00C3-0x03483712-MF_DIS.OTA",
+    "imageType": 195,
+    "manufacturerCode": 4489,
+    "sha512": "5197eb2bba217be6160d56eb0fd988e0d36b68f854babdcf4f45782d4974fa6e27bf9018ee9921eeca83f6e543de026d710ab89b8eedf1088c1ceb79a32dec5d",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "releaseNotes": "1.Fix bug network leave related with green power device commission.\r\n2.Fix abnormal reboot caused by network status.\r\n3.Improve scene control in Hue and other system.\r\n4.Upgrade Zigbee stack to latest version 3.7.1.2. "
+  },
+  {
+    "fileName": "OUTDOOR_FLEX_RGBW_T-0x00C5-0x03483712-MF_DIS.OTA",
+    "fileVersion": 55064338,
+    "fileSize": 255792,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=197&version=3.72.55.18",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/OUTDOOR_FLEX_RGBW_T-0x00C5-0x03483712-MF_DIS.OTA",
+    "imageType": 197,
+    "manufacturerCode": 4489,
+    "sha512": "a35f13504fc18a51850d66a5782ab2b0f87734d911541e5c065cba73c7b455d841d98e6c68d84f9ec519854c2ae5f657669bb1319253385b5f993487fcec0bee",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "releaseNotes": "1.Fix bug network leave related with green power device commission.\r\n2.Fix abnormal reboot caused by network status.\r\n3.Improve scene control in Hue and other system.\r\n4.Upgrade Zigbee stack to latest version 3.7.1.2. "
+  },
+  {
+    "fileName": "P40_DIM_T-0x00CE-0x03483712-MF_DIS.OTA",
+    "fileVersion": 55064338,
+    "fileSize": 241408,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=206&version=3.72.55.18",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/P40_DIM_T-0x00CE-0x03483712-MF_DIS.OTA",
+    "imageType": 206,
+    "manufacturerCode": 4489,
+    "sha512": "021c06af71b53bf00f26608873f4de247fbc561e7d32a91e62eedc58a887f717953a1efc37c2c6c321e3c6aa591c7275114b04e0d0bbb6f90db964a7369dd616",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "releaseNotes": "1.Fix bug network leave related with green power device commission.\r\n2.Fix abnormal reboot caused by network status.\r\n3.Improve scene control in Hue and other system.\r\n4. Upgrade Zigbee stack to latest version 3.7.1.2. "
+  },
+  {
+    "fileName": "PAR16_DIM_T-0x00CF-0x03483712-MF_DIS.OTA",
+    "fileVersion": 55064338,
+    "fileSize": 241408,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=207&version=3.72.55.18",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/PAR16_DIM_T-0x00CF-0x03483712-MF_DIS.OTA",
+    "imageType": 207,
+    "manufacturerCode": 4489,
+    "sha512": "c554dd8edc2216c4a479b85a1563645ed86aa95bbc9b072bee8a9b43f12bc6c29a3a496b18dce6590e99984b90fefb6495d473a801133199616ba7e76e5f16ee",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "releaseNotes": "1.Fix bug network leave related with green power device commission.\r\n2.Fix abnormal reboot caused by network status.\r\n3.Improve scene control in Hue and other system.\r\n4. Upgrade Zigbee stack to latest version 3.7.1.2. "
+  },
+  {
+    "fileName": "A60_FIL_DIM_T-0x00D0-0x03483712-MF_DIS.OTA",
+    "fileVersion": 55064338,
+    "fileSize": 241440,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=208&version=3.72.55.18",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/A60_FIL_DIM_T-0x00D0-0x03483712-MF_DIS.OTA",
+    "imageType": 208,
+    "manufacturerCode": 4489,
+    "sha512": "adc1bf9c1a26c1e3c017a21592d46ffd675ad3f42e08750d855dad62b9d077028b1df03b8e7e895bd54889e5fed2623c2a2bb0fe1ef0d4e6fe8fc7558f3465a6",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "releaseNotes": "1.Fix bug network leave related with green power device commission.\r\n2.Fix abnormal reboot caused by network status.\r\n3.Improve scene control in Hue and other system.\r\n4.Upgrade Zigbee stack to latest version 3.7.1.2. "
+  },
+  {
+    "fileName": "EDISON60_FIL_DIM_T-0x00D1-0x03483712-MF_DIS.OTA",
+    "fileVersion": 55064338,
+    "fileSize": 241456,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=209&version=3.72.55.18",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/EDISON60_FIL_DIM_T-0x00D1-0x03483712-MF_DIS.OTA",
+    "imageType": 209,
+    "manufacturerCode": 4489,
+    "sha512": "2511381a789e8b5047cf0699708418b6d430030befbac33f737ee7269e099ce1a7b31d93486b936805e325867f921b9328d33982337a8c6e13950e26f914c734",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "releaseNotes": "1.Fix bug network leave related with green power device commission.\r\n2.Fix abnormal reboot caused by network status.\r\n3.Improve scene control in Hue and other system.\r\n4.Upgrade Zigbee stack to latest version 3.7.1.2. "
+  },
+  {
+    "fileName": "GLOBE60_FIL_DIM_T-0x00D2-0x03483712-MF_DIS.OTA",
+    "fileVersion": 55064338,
+    "fileSize": 241456,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=210&version=3.72.55.18",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/GLOBE60_FIL_DIM_T-0x00D2-0x03483712-MF_DIS.OTA",
+    "imageType": 210,
+    "manufacturerCode": 4489,
+    "sha512": "8e5fddea8214e669c381eef257bb6341082d37e3c194a12a4fecebec601177873a80fd302745fab2ee1f02bce72ec1fad17330bf8f7c4e111734448d38a30608",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "releaseNotes": "1.Fix bug network leave related with green power device commission.\r\n2.Fix abnormal reboot caused by network status.\r\n3.Improve scene control in Hue and other system.\r\n4.Upgrade Zigbee stack to latest version 3.7.1.2. "
+  },
+  {
+    "fileName": "A60_RGBW_B22D_T-0x00D3-0x03483712-MF_DIS.OTA",
+    "fileVersion": 55064338,
+    "fileSize": 256224,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=211&version=3.72.55.18",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/A60_RGBW_B22D_T-0x00D3-0x03483712-MF_DIS.OTA",
+    "imageType": 211,
+    "manufacturerCode": 4489,
+    "sha512": "36971bbc344fdb3a7e3487390bf0ea03eddd7c670ec23f22f5312be1d0718ebe14b73cddd58927df7c3780be3b7f66099a343d74ae513c73645f7b0bdbf8276f",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "releaseNotes": "1.Fix bug network leave related with green power device commission.\r\n2.Fix abnormal reboot caused by network status.\r\n3.Improve scene control in Hue and other system.\r\n4. Upgrade Zigbee stack to latest version 3.7.1.2. "
+  },
+  {
+    "fileName": "PLUG_EU_T-0x00D4-0x03463712-MF_DIS.OTA",
+    "fileVersion": 54933266,
+    "fileSize": 239728,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=212&version=3.70.55.18",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/PLUG_EU_T-0x00D4-0x03463712-MF_DIS.OTA",
+    "imageType": 212,
+    "manufacturerCode": 4489,
+    "sha512": "bc165e2527ee6c01d53d705d672ec4aeaeb069646c50740400b19235bef078f879c3691af84983a08ba08bb0045a28f0ac4c0e380dd2e67dae51fbfac13c8bc0",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "releaseNotes": "1.Fix bug network leave related with green power device commission.\r\n2.Fix abnormal reboot caused by network status.\r\n3. Upgrade Zigbee stack to latest version 3.7.1.2. \r\n4. Support using recall scene to turn off plug in Hue system."
+  },
+  {
+    "fileName": "PLUG_UK_T-0x00D5-0x03463712-MF_DIS.OTA",
+    "fileVersion": 54933266,
+    "fileSize": 239728,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=213&version=3.70.55.18",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/PLUG_UK_T-0x00D5-0x03463712-MF_DIS.OTA",
+    "imageType": 213,
+    "manufacturerCode": 4489,
+    "sha512": "1c75bd7ee9f47309eb70c7752b04d20fc0e85cd49cd26fef551bed674e7550e8af87f57499604d0d3a8978ac7b8eeed36532dc91d20abd670156a01da3f1c3f5",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "releaseNotes": "1.Fix bug network leave related with green power device commission.\r\n2.Fix abnormal reboot caused by network status.\r\n3.Upgrade Zigbee stack to latest version 3.7.1.2. \r\n4.Support using recall scene to turn off plug in Hue system."
+  },
+  {
+    "fileName": "PLUG_COMPACT_EU_T-0x00D6-0x03463712-MF_DIS.OTA",
+    "fileVersion": 54933266,
+    "fileSize": 239744,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=214&version=3.70.55.18",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/PLUG_COMPACT_EU_T-0x00D6-0x03463712-MF_DIS.OTA",
+    "imageType": 214,
+    "manufacturerCode": 4489,
+    "sha512": "f0ba6231ebed697493dc1b02b65040cb0ba6f9a6f757e5657a2dcf9d18497b9bfd7a800905045b5b81bf5ade057303ccb269cb629d8d7d477a5e82f53bf00bd9",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "releaseNotes": "1.Fix bug network leave related with green power device commission.\r\n2.Fix abnormal reboot caused by network status.\r\n3.Upgrade Zigbee stack to latest version 3.7.1.2. \r\n4.Support using recall scene to turn off plug in Hue system."
+  },
+  {
+    "fileName": "PLUG_EU_EM_T-0x00DC-0x03463712-MF_DIS.OTA",
+    "fileVersion": 54933266,
+    "fileSize": 246112,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=220&version=3.70.55.18",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/PLUG_EU_EM_T-0x00DC-0x03463712-MF_DIS.OTA",
+    "imageType": 220,
+    "manufacturerCode": 4489,
+    "sha512": "7823434f46464f981d9241e83e11bcdb8cec25337a3c3b04817186a48e23f54c4182b5a85d6f92c3f2f34f93ec18489233fd33859504ce19794c5fedba891828",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "releaseNotes": "1.Fix bug network leave related with green power device commission.\r\n2.Fix abnormal reboot caused by network status.\r\n3.Upgrade Zigbee stack to latest version 3.7.1.2. \r\n4.Support using recall scene to turn off plug in Hue system."
+  },
+  {
+    "fileName": "PLUG_COMPACT_EU_EM_T-0x00E6-0x03463712-MF_DIS.OTA",
+    "fileVersion": 54933266,
+    "fileSize": 246112,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=230&version=3.70.55.18",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/PLUG_COMPACT_EU_EM_T-0x00E6-0x03463712-MF_DIS.OTA",
+    "imageType": 230,
+    "manufacturerCode": 4489,
+    "sha512": "2473ee6fd073c0ec900d6202c08b90bee3f069e2008a2537755b53ebd1d59ae36e58282f8705ecc2d7d1231cfec229bdd522fb1a02cdeb4d2a5f94e1cc676cc9",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "releaseNotes": "1.Fix bug network leave related with green power device commission.\r\n2.Fix abnormal reboot caused by network status.\r\n3.Upgrade Zigbee stack to latest version 3.7.1.2. \r\n4.Support using recall scene to turn off plug in Hue system."
+  },
+  {
+    "fileName": "ZLinky_router_v17.ota",
+    "fileVersion": 17,
+    "fileSize": 248078,
+    "originalUrl": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/download/v17.0/ZLinky_router_v17.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LiXee/ZLinky_router_v17.ota",
+    "imageType": 1,
+    "manufacturerCode": 4151,
+    "sha512": "1f2c6b23659279f4a32a100d9563d481cbd45526cec251a62d053acd75bd4cdea440f62c8ec2d28cdfc2c71fe704f9dc5a484000e3a9389b264c9860184a4cf4",
+    "otaHeaderString": "OM15081-RTR-JN5189-0000000000000",
+    "releaseNotes": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/tag/v17.0",
+    "manufacturerName": [
+      "LiXee"
+    ]
+  },
+  {
+    "fileName": "ZLinky_router_v17_limited.ota",
+    "fileVersion": 17,
+    "fileSize": 248078,
+    "originalUrl": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/download/v17.0/ZLinky_router_v17_limited.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LiXee/ZLinky_router_v17_limited.ota",
+    "imageType": 2,
+    "manufacturerCode": 4151,
+    "sha512": "4ce5b3acfff5aa61fa95d21304d133a7f93f102103c3f120b6126cfabae80a92c920a6f64e511008e867af13424db262847c9e4e7202a8b1e9b4b03ac4076988",
+    "otaHeaderString": "OM15081-RTR-LIMITED-JN5189-00000",
+    "releaseNotes": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/tag/v17.0",
+    "manufacturerName": [
+      "LiXee"
+    ]
   }
 ]

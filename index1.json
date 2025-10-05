@@ -446,18 +446,6 @@
     "releaseNotes": "- LQI attribute reporting improved\r\n- Turn On/Off fading time configuration supported\r\n- On with time off Command supported"
   },
   {
-    "fileName": "PLUG_OUTDOOR_EU_T-0x00C2-0x03203672.OTA",
-    "fileVersion": 52442738,
-    "fileSize": 182480,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/LEDVANCE/PLUG_OUTDOOR_EU_T-0x00C2-0x03203672.OTA",
-    "imageType": 194,
-    "manufacturerCode": 4489,
-    "sha512": "9fe0089e552041016ca6a182ad727fa4b60b6b6732d2ec2fe80bffdf631b7de1a787f8aa2bb5611df7a6ae62be49df27a7afbab61952135a75ab09cc7f221db7",
-    "otaHeaderString": "Telink OTA Sample Usage",
-    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=194&version=3.32.54.114",
-    "releaseNotes": "1. Support maximum 30 groups\r\n2. Enable the watchdog\r\n3. Set the Tx power to 9.8dB"
-  },
-  {
     "fileName": "PL_HCL600_01_IM0095_01096400-encrypted_202301071159_withoutMF.OTA",
     "fileVersion": 17392640,
     "fileSize": 179712,
@@ -750,36 +738,6 @@
     "otaHeaderString": "Zigbee3toDALIConverter",
     "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4364&product=57374&version=16.9.101.91",
     "releaseNotes": "Optimized broadcast and multicast message forwarding in large networks"
-  },
-  {
-    "fileName": "ZLinky_router_v15.ota",
-    "fileVersion": 15,
-    "fileSize": 251918,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/LiXee/ZLinky_router_v15.ota",
-    "imageType": 1,
-    "manufacturerCode": 4151,
-    "sha512": "862f9df0d5537a346fe0d283449a797127dc6504f0589d639dc26d334d235c8a3e0a85107d9a6e7569ea9915eb567b95658142d1e0d6e03930dfe42bec8a1f83",
-    "otaHeaderString": "OM15081-RTR-JN5189-0000000000000",
-    "originalUrl": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/download/v15.0/ZLinky_router_v15.ota",
-    "manufacturerName": [
-      "LiXee"
-    ],
-    "releaseNotes": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/tag/v15.0"
-  },
-  {
-    "fileName": "ZLinky_router_v15_limited.ota",
-    "fileVersion": 15,
-    "fileSize": 251918,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/LiXee/ZLinky_router_v15_limited.ota",
-    "imageType": 2,
-    "manufacturerCode": 4151,
-    "sha512": "2647d9424d00c19468548edd9e1153a0a8437e37cea3a00feff1e7b24119d2cd5370a00c5f2acac3c69f3f175f7c7e22b6a24cfe1de8a44abfaf6bc7caf44aec",
-    "otaHeaderString": "OM15081-RTR-LIMITED-JN5189-00000",
-    "originalUrl": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/download/v15.0/ZLinky_router_v15_limited.ota",
-    "manufacturerName": [
-      "LiXee"
-    ],
-    "releaseNotes": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/tag/v15.0"
   },
   {
     "fileName": "20220422195003_lumi.curtain.acn003_Multi_JN5189_FMSH_0.0.0_2424_20220422_1aa302.ota",
@@ -2567,5 +2525,179 @@
     "manufacturerCode": 26214,
     "sha512": "5d474729ad04f89c9e153ca3c175206f0b305d084b7b6adeb545de42f587d103a7e2635489bbb98ca817d01d5711b84011fc020411a930023e2340222662d9eb",
     "otaHeaderString": ""
+  },
+  {
+    "fileName": "DIM-B40_DIM_T-0x00B8-0x03203660.OTA",
+    "fileVersion": 52442720,
+    "fileSize": 188384,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/LEDVANCE/DIM-B40_DIM_T-0x00B8-0x03203660.OTA",
+    "imageType": 184,
+    "manufacturerCode": 4489,
+    "sha512": "d50a9ebeb0a3d3eefabaf593b71aa229213b44d90046220e753be73e5c72a51c7fb419db27fb667bc1a949f6c9a159edf68ce5bf24f49c7056a668c6d0ee0504",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=184&version=3.32.54.96",
+    "releaseNotes": "1. Support maximum 30 groups\r\n2. Enable the watchdog\r\n3. Set the Tx power to 9.8dB\r\n4. For Filament dimmable bulbs only, set the minimum level to 3%(according to APP) = the minimum PWM duty cycle is 15/255"
+  },
+  {
+    "fileName": "PLUG_OUTDOOR_EU_T-0x00C2-0x032B3674-MF_DIS.OTA",
+    "fileVersion": 53163636,
+    "fileSize": 197136,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/LEDVANCE/PLUG_OUTDOOR_EU_T-0x00C2-0x032B3674-MF_DIS.OTA",
+    "imageType": 194,
+    "manufacturerCode": 4489,
+    "sha512": "249ec36e24e3a8858093d04967bee25eb350870993fa033a2e04a123242aa52d1f276526fb893abd39e4a85409f5d364e5c3ad0bbb555479604ee4edf4bf0843",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=194&version=3.43.54.116",
+    "releaseNotes": "1. Add the \"startuponoff\" attribute.\r\n2. After a successful OTA, the socket maintains its previous state."
+  },
+  {
+    "fileName": "DIM-P40_DIM_T-0x00CE-0x03203660.OTA",
+    "fileVersion": 52442720,
+    "fileSize": 188384,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/LEDVANCE/DIM-P40_DIM_T-0x00CE-0x03203660.OTA",
+    "imageType": 206,
+    "manufacturerCode": 4489,
+    "sha512": "b3867cfd8f681ae951ac614b822ad4c0368d4eb5fcf4055d643fb1abf07aebdc763e32f5bc06aa3d491202b4db2621db4bd9810189d2af8bb1c6d85e4c5ac3dd",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=206&version=3.32.54.96",
+    "releaseNotes": "1. Support maximum 30 groups\r\n2. Enable the watchdog\r\n3. Set the Tx power to 9.8dB\r\n4. For Filament dimmable bulbs only, set the minimum level to 3%(according to APP) = the minimum PWM duty cycle is 15/255"
+  },
+  {
+    "fileName": "DIM-PAR16_DIM_T-0x00CF-0x03203660.OTA",
+    "fileVersion": 52442720,
+    "fileSize": 188384,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/LEDVANCE/DIM-PAR16_DIM_T-0x00CF-0x03203660.OTA",
+    "imageType": 207,
+    "manufacturerCode": 4489,
+    "sha512": "2085b60c00c66103d3d178822f210df1f1243c445f2dcd582d854ba244a7ac5993f88f1621fd33eade6282c9df9411304ce8cf6301689309d88e7a95128e573e",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=207&version=3.32.54.96",
+    "releaseNotes": "1. Support maximum 30 groups\r\n2. Enable the watchdog\r\n3. Set the Tx power to 9.8dB\r\n4. For Filament dimmable bulbs only, set the minimum level to 3%(according to APP) = the minimum PWM duty cycle is 15/255"
+  },
+  {
+    "fileName": "DIM-A60_FIL_DIM_T-0x00D0-0x03203660.OTA",
+    "fileVersion": 52442720,
+    "fileSize": 188416,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/LEDVANCE/DIM-A60_FIL_DIM_T-0x00D0-0x03203660.OTA",
+    "imageType": 208,
+    "manufacturerCode": 4489,
+    "sha512": "3854e452e13ff0c973531e99a842d36fcbff6a4d43f2edd57a472bde48b32eb590759fcaf96ff0824845e1b9c63666adc21d4070c367ff3b18505ff7cab0d5f3",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=208&version=3.32.54.96",
+    "releaseNotes": "1. Support maximum 30 groups\r\n2. Enable the watchdog\r\n3. Set the Tx power to 9.8dB\r\n4. For Filament dimmable bulbs only, set the minimum level to 3%(according to APP) = the minimum PWM duty cycle is 15/255"
+  },
+  {
+    "fileName": "DIM-EDISON60_FIL_DIM_T-0x00D1-0x03203660.OTA",
+    "fileVersion": 52442720,
+    "fileSize": 188416,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/LEDVANCE/DIM-EDISON60_FIL_DIM_T-0x00D1-0x03203660.OTA",
+    "imageType": 209,
+    "manufacturerCode": 4489,
+    "sha512": "92741c25cf6da726cf1d83d45b3d8420546a52c3db0b6c8237551e8d71b8badb6bd3023348d58b94118eebb454cafc06e7a778c3899555b9af5f3e4cef81ae37",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=209&version=3.32.54.96",
+    "releaseNotes": "1. Support maximum 30 groups\r\n2. Enable the watchdog\r\n3. Set the Tx power to 9.8dB\r\n4. For Filament dimmable bulbs only, set the minimum level to 3%(according to APP) = the minimum PWM duty cycle is 15/255"
+  },
+  {
+    "fileName": "DIM-GLOBE60_FIL_DIM_T-0x00D2-0x03203660.OTA",
+    "fileVersion": 52442720,
+    "fileSize": 188416,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/LEDVANCE/DIM-GLOBE60_FIL_DIM_T-0x00D2-0x03203660.OTA",
+    "imageType": 210,
+    "manufacturerCode": 4489,
+    "sha512": "e686f9d515678dcf10bba87545f2588c39354635c2b5e95ac060b5447600819c733c436ce16dcf6122c35d4b24cb4d7a4288c8fc9e71985f88d23ee111bb23ed",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=210&version=3.32.54.96",
+    "releaseNotes": "1. Support maximum 30 groups\r\n2. Enable the watchdog\r\n3. Set the Tx power to 9.8dB\r\n4. For Filament dimmable bulbs only, set the minimum level to 3%(according to APP) = the minimum PWM duty cycle is 15/255"
+  },
+  {
+    "fileName": "PLUG_EU_T-0x00D4-0x032B3674-MF_DIS.OTA",
+    "fileVersion": 53163636,
+    "fileSize": 197136,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/LEDVANCE/PLUG_EU_T-0x00D4-0x032B3674-MF_DIS.OTA",
+    "imageType": 212,
+    "manufacturerCode": 4489,
+    "sha512": "de0dbabc38386eef03c3a49330a72e21be11cc16f1254da44c5b2d1d828e18150d3ae80bb05a357ae4f1f7188d621dac4f1263244eeab944ffd271d8dc158c96",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=212&version=3.43.54.116",
+    "releaseNotes": "1. Add the \"startuponoff\" attribute.\r\n2. After a successful OTA, the socket maintains its previous state."
+  },
+  {
+    "fileName": "PLUG_UK_T-0x00D5-0x032B3674-MF_DIS.OTA",
+    "fileVersion": 53163636,
+    "fileSize": 197136,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/LEDVANCE/PLUG_UK_T-0x00D5-0x032B3674-MF_DIS.OTA",
+    "imageType": 213,
+    "manufacturerCode": 4489,
+    "sha512": "db2ed859306e90874012e305e984dedd5d437410ae920c71d0dfb6814ce74c65c41ade1d6c63892c91c6ae6d648ac5be253c35344bbec270d08b462eb940e6cb",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=213&version=3.43.54.116",
+    "releaseNotes": "1. Add the \"startuponoff\" attribute.\r\n2. After a successful OTA, the socket maintains its previous state."
+  },
+  {
+    "fileName": "PLUG_COMPACT_EU_T-0x00D6-0x032B3674-MF_DIS.OTA",
+    "fileVersion": 53163636,
+    "fileSize": 197136,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/LEDVANCE/PLUG_COMPACT_EU_T-0x00D6-0x032B3674-MF_DIS.OTA",
+    "imageType": 214,
+    "manufacturerCode": 4489,
+    "sha512": "bc45a149b84113718eee4a127fc0bcb4c25c905efa805140de278adc7730461717b256bebe2befdce7e777078e498aae4369e48e9f899526630c4f5a658d933c",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=214&version=3.43.54.116",
+    "releaseNotes": "1. Add the \"startuponoff\" attribute.\r\n2. After a successful OTA, the socket maintains its previous state."
+  },
+  {
+    "fileName": "PLUG_EU_EM_T-0x00DC-0x033D3674-MF_DIS.OTA",
+    "fileVersion": 54343284,
+    "fileSize": 209616,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=220&version=3.61.54.116",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/LEDVANCE/PLUG_EU_EM_T-0x00DC-0x033D3674-MF_DIS.OTA",
+    "imageType": 220,
+    "manufacturerCode": 4489,
+    "sha512": "052726f1832285df5e2383d71f36ab844dc407dc0b3cf064329a0f14031b86341240dc9675dd7ad91c41e1eab84ac854e9b1eff826f2efb3748cd2a36788a5a7",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "releaseNotes": "1.Support real-time power, current, and voltage report.\r\n2.Support total power consumption statistics feature to track energy usage.\r\n3.Support power-on on/off configuration, allowing users to set initial operating state when power-on."
+  },
+  {
+    "fileName": "PLUG_COMPACT_EU_EM_T-0x00E6-0x033D3674-MF_DIS.OTA",
+    "fileVersion": 54343284,
+    "fileSize": 209648,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=230&version=3.61.54.116",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/LEDVANCE/PLUG_COMPACT_EU_EM_T-0x00E6-0x033D3674-MF_DIS.OTA",
+    "imageType": 230,
+    "manufacturerCode": 4489,
+    "sha512": "24f916a897010ea397173412ac2a255e1e2c4354ea5a54fa0ff0e0af140094656cfc1bb4dce9ea5a7418132fb489438610cd4bc47dc684b61cd0b26d76213891",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "releaseNotes": "1.Support real-time power, current, and voltage report.\r\n2.Support total power consumption statistics feature to track energy usage.\r\n3.Support power-on on/off configuration, allowing users to set initial operating state when power-on."
+  },
+  {
+    "fileName": "ZLinky_router_v16.ota",
+    "fileVersion": 16,
+    "fileSize": 245886,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/LiXee/ZLinky_router_v16.ota",
+    "imageType": 1,
+    "manufacturerCode": 4151,
+    "sha512": "562b9598ad436ff31fc4b981c1406cdb99822e472689229ca5f0c8687d17e28df32d07ec7238562a3a22f1495a97ae722e1012aad1735eeba97a6d8b6185379f",
+    "otaHeaderString": "OM15081-RTR-JN5189-0000000000000",
+    "originalUrl": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/download/v16.0/ZLinky_router_v16.ota",
+    "manufacturerName": [
+      "LiXee"
+    ],
+    "releaseNotes": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/tag/v16.0"
+  },
+  {
+    "fileName": "ZLinky_router_v16_limited.ota",
+    "fileVersion": 16,
+    "fileSize": 245886,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/LiXee/ZLinky_router_v16_limited.ota",
+    "imageType": 2,
+    "manufacturerCode": 4151,
+    "sha512": "8e3143c62442cb0ccab768b94e791f651a8c40c951e033473c52eb8e34e6d3dd22f4f3e57e42281e0ce72a73d60e956b256414462ce402c02a40a932eb3a0217",
+    "otaHeaderString": "OM15081-RTR-LIMITED-JN5189-00000",
+    "originalUrl": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/download/v16.0/ZLinky_router_v16_limited.ota",
+    "manufacturerName": [
+      "LiXee"
+    ],
+    "releaseNotes": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/tag/v16.0"
   }
 ]
