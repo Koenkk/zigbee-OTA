@@ -3740,5 +3740,14 @@
         "sha512": "c5145d4c73e7ef61d04558c209e03bf990f50a7589385c1cd662a1a95a2183a31771b9ad38592207339b2d67245f4bf9f01957f1da59817426aac4e007eead1c",
         "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Legrand/1021-0034-00064203-NLY.zigbee",
         "path": "images/Legrand/1021-0034-00064203-NLY.zigbee"
+    },
+    {
+        "fileVersion": 4100,
+        "fileSize": 286032,
+        "manufacturerCode": 4742,
+        "imageType": 68,
+        "sha512": "092b398fbdca07e7dd61bb580f130e304bdbcf895fcb2eda2324c166a412c75480ab4f9b323aae7627f80786c4dd94e897f490d768de6da84e406838c24cb01d",
+        "url": "https://github.com/Koenkk/zigbee-OTA/raw/master/images/Sonoff/mini-zb2gs_v1.0.4",
+        "path": "images/Sonoff/mini-zb2gs_v1.0.4"
     }
 ]
