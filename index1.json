@@ -849,56 +849,6 @@
     "otaHeaderString": "EBL D581_ZG"
   },
   {
-    "fileName": "128b-0002-0304-700_nodon_sin_2_fw_efr32_V0304.zigbee",
-    "fileVersion": 772,
-    "fileSize": 415896,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/NodOn/128b-0002-0304-700_nodon_sin_2_fw_efr32_V0304.zigbee",
-    "imageType": 2,
-    "manufacturerCode": 4747,
-    "sha512": "0b9c29f9f10c3121d67e97489fd6fd3e9973a159f2b2364c02733e99d5ae8d6461a11ff76cbf1dff99197308f1e94fef2373be223d47d2d65a70ab2621601b2a",
-    "otaHeaderString": "nodon_sin_efr32_ota"
-  },
-  {
-    "fileName": "128b-0005-0304-700_nodon_sin_met_fw_efr32_V0304.zigbee",
-    "fileVersion": 772,
-    "fileSize": 399628,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/NodOn/128b-0005-0304-700_nodon_sin_met_fw_efr32_V0304.zigbee",
-    "imageType": 5,
-    "manufacturerCode": 4747,
-    "sha512": "b82f0486a32cea87c894e1e5765bf7e5940a67ca7ed06d664b2d369c15b87b5ff8d0410516152168b959cdca0a490d83abef3736c00e3d3edd315e0a959f42af",
-    "otaHeaderString": "nodon_sin_efr32_ota"
-  },
-  {
-    "fileName": "128b-0006-0304-700_nodon_sin_fp_fw_efr32_V0304.zigbee",
-    "fileVersion": 772,
-    "fileSize": 396580,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/NodOn/128b-0006-0304-700_nodon_sin_fp_fw_efr32_V0304.zigbee",
-    "imageType": 6,
-    "manufacturerCode": 4747,
-    "sha512": "cc859821cddf6792b9c6582b846a2d5dfcfa6dd0a1188a4012ccb4d978904bef37458cea967bb86255b10c34a86800ac96cb284ddb1af6c2dbaf4e2e55880a52",
-    "otaHeaderString": "nodon_sin_efr32_ota"
-  },
-  {
-    "fileName": "128b-0009-0304-700_nodon_sin_rs_fw_efr32_V0304.zigbee",
-    "fileVersion": 772,
-    "fileSize": 398704,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/NodOn/128b-0009-0304-700_nodon_sin_rs_fw_efr32_V0304.zigbee",
-    "imageType": 9,
-    "manufacturerCode": 4747,
-    "sha512": "512aa9ad34446126ec33cac8d1dcb4e4592395551d8b2baaf66e1dfd88cf8837100f2a17c3580384964a5662b0ed3de554c45d7c3d3ed8750ea6ee6e1256ba8a",
-    "otaHeaderString": "nodon_sin_efr32_ota"
-  },
-  {
-    "fileName": "128b-000A-0304-700_p1771_nodon_sin_1_fw_efr32_V0304.zigbee",
-    "fileVersion": 772,
-    "fileSize": 412920,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/NodOn/128b-000A-0304-700_p1771_nodon_sin_1_fw_efr32_V0304.zigbee",
-    "imageType": 10,
-    "manufacturerCode": 4747,
-    "sha512": "ef50dc8d3aaa2e2c31618c113436f3f3b830c20d0779a633517fb0b1e68b8fee848e2c388c22e986885cdb0c6d83983950e78d821c8a55071b83fa4c354f469e",
-    "otaHeaderString": "nodon_sin_efr32_ota"
-  },
-  {
     "fileName": "zbminir2_v1.0.2.ota",
     "fileVersion": 4098,
     "fileSize": 275788,
@@ -2699,5 +2649,105 @@
       "LiXee"
     ],
     "releaseNotes": "https://github.com/fairecasoimeme/Zlinky_TIC/releases/tag/v16.0"
+  },
+  {
+    "fileName": "128b-0002-0305-700_nodon_sin_4_2_20_fw_V0305.zigbee",
+    "fileVersion": 773,
+    "fileSize": 415960,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/NodOn/128b-0002-0305-700_nodon_sin_4_2_20_fw_V0305.zigbee",
+    "imageType": 2,
+    "manufacturerCode": 4747,
+    "sha512": "5353005ba068d46aa3c32aa31a1e4958c801e467f65ada46fe438a4f70402c711a7ce22ac5fe3f0b3882b3d8222b08dd43d89fca3babdc30f38121b625b96f04",
+    "otaHeaderString": "nodon_sin_efr32_ota"
+  },
+  {
+    "fileName": "128b-0005-0305-700_nodon_sin_4_1_21_fw_V0305.zigbee",
+    "fileVersion": 773,
+    "fileSize": 399708,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/NodOn/128b-0005-0305-700_nodon_sin_4_1_21_fw_V0305.zigbee",
+    "imageType": 5,
+    "manufacturerCode": 4747,
+    "sha512": "a5eaf2e4faf5b2ce3330f51ee738a65499209cf754784b025626f683c95b7b018a57b6fb55ff47ff86de5ca7dcf7f1a36ada0307252c4119368c5c7bad125261",
+    "otaHeaderString": "nodon_sin_efr32_ota"
+  },
+  {
+    "fileName": "128b-0006-0305-700_nodon_sin_4_fp_21_fw_V0305.zigbee",
+    "fileVersion": 773,
+    "fileSize": 396656,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/NodOn/128b-0006-0305-700_nodon_sin_4_fp_21_fw_V0305.zigbee",
+    "imageType": 6,
+    "manufacturerCode": 4747,
+    "sha512": "9ed0f44d8cd338a53e9be2b9fe136213e9a8ff886f78d94fe992b02ef6fee412fe58c6145c2facf2bf5b516b7d000e8997ee5b680d7c2acf5ff96fdb15d4a82e",
+    "otaHeaderString": "nodon_sin_efr32_ota"
+  },
+  {
+    "fileName": "128b-0009-0305-700_nodon_sin_4_rs_20_fw_V0305.zigbee",
+    "fileVersion": 773,
+    "fileSize": 398752,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/NodOn/128b-0009-0305-700_nodon_sin_4_rs_20_fw_V0305.zigbee",
+    "imageType": 9,
+    "manufacturerCode": 4747,
+    "sha512": "88bdfeadcbae70c3fe541f98af1dfbd9b437600ede7d7d27ca8e21a5b6e86dc8fa6ffbf9921cafda9a0f19809e909d1126b71cc221b53e39f5f62d252e4e407e",
+    "otaHeaderString": "nodon_sin_efr32_ota"
+  },
+  {
+    "fileName": "128b-000A-0305-700_nodon_sin_4_1_20_V0305.zigbee",
+    "fileVersion": 773,
+    "fileSize": 412984,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/NodOn/128b-000A-0305-700_nodon_sin_4_1_20_V0305.zigbee",
+    "imageType": 10,
+    "manufacturerCode": 4747,
+    "sha512": "95d2b3dbcf41e5212e63ff92270a9fa8ebb1cdabf84b3fa94bc4207bd55ce86ac4e110c1c150d78affef2d003ad4a306ad5947a55705d1ff1637cc4df3df29cf",
+    "otaHeaderString": "nodon_sin_efr32_ota"
+  },
+  {
+    "fileName": "128b-0102-10101-700_nodon_sin_2_fm_stm32_V10101.zigbee",
+    "fileVersion": 65793,
+    "fileSize": 27162,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/NodOn/128b-0102-10101-700_nodon_sin_2_fm_stm32_V10101.zigbee",
+    "imageType": 258,
+    "manufacturerCode": 4747,
+    "sha512": "4e9eaa29e4bd1277595d6bc779f4f45b9e70dc5407d7fe200c08884e533e0f377f054021cfb89c7e6fad5ffd1dcd35ec22ae90e39ebc94874c95ab2acdb2e77c",
+    "otaHeaderString": "nodon_sin_stm32_ota"
+  },
+  {
+    "fileName": "128b-0105-010500-700_nodon_sin_xx_met_fm_stm32_V010500.zigbee",
+    "fileVersion": 66816,
+    "fileSize": 39464,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/NodOn/128b-0105-010500-700_nodon_sin_xx_met_fm_stm32_V010500.zigbee",
+    "imageType": 261,
+    "manufacturerCode": 4747,
+    "sha512": "fc47d5f4e6a709cf3ced8b0cbc97dce6f7626a185ea86f807827afd29c87a380ba4f9bbc200f7a19f41033e4d1609ffc2c77f0ac4fe486c6756fa7cfe1b0713e",
+    "otaHeaderString": "nodon_sinMet_stm32_ota"
+  },
+  {
+    "fileName": "128b-0106-010500-700_nodon_sin_xx_met_fm_stm32_V010500.zigbee",
+    "fileVersion": 66816,
+    "fileSize": 39464,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/NodOn/128b-0106-010500-700_nodon_sin_xx_met_fm_stm32_V010500.zigbee",
+    "imageType": 262,
+    "manufacturerCode": 4747,
+    "sha512": "214f6e1793a739a1822ddbe53a5c68a32b0ee48ba19fff974b8e607bfaea4baeb3596dde070e7aec06e0a7eddad25a67db62ee8a7396c77fe5ac71f34e7fb35a",
+    "otaHeaderString": "nodon_sin_stm32_ota"
+  },
+  {
+    "fileName": "128b-0109-10102-700_nodon_sin_rs_fm_stm32_V10102.zigbee",
+    "fileVersion": 65794,
+    "fileSize": 30206,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/NodOn/128b-0109-10102-700_nodon_sin_rs_fm_stm32_V10102.zigbee",
+    "imageType": 265,
+    "manufacturerCode": 4747,
+    "sha512": "54f663c338f26aa89245edc79bbbdc911763897f2ca6ba92d72ce447f03f23d0d33a669af68e87ef84d95fa0df0231441f56fc45cb768a5e12ca2f1e77c2f1b9",
+    "otaHeaderString": "nodon_sin_stm32_ota"
+  },
+  {
+    "fileName": "128b-010A-010500-700_nodon_sin_xx_met_fm_stm32_V010500.zigbee",
+    "fileVersion": 66816,
+    "fileSize": 39456,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/NodOn/128b-010A-010500-700_nodon_sin_xx_met_fm_stm32_V010500.zigbee",
+    "imageType": 266,
+    "manufacturerCode": 4747,
+    "sha512": "d866e1dd0614b33a8d24b0d66228d53f4cca93c26a2613f75dcf73edb311e7bf6e3c791fae93c3b9633a4c40dbb6380aee5e6134fdfb9cee7bce70386fb7eb1d",
+    "otaHeaderString": "nodon_sin1_stm32_ota"
   }
 ]
