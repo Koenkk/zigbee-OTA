@@ -8911,5 +8911,15 @@
     "manufacturerCode": 4447,
     "sha512": "783bc2f63337b6e4c62b2c344cb748ea56e67a05c731c72b942bb3ad45b791220b69513f79eba492e91526f55994006297f952f7b5a0470f07fcf1490334dee9",
     "otaHeaderString": "Aqara OTA Image"
+  },
+  {
+    "fileName": "lumi.sensor_smoke.acn03.ota",
+    "fileVersion": 21,
+    "fileSize": 226126,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/lumi.sensor_smoke.acn03.ota",
+    "imageType": 9728,
+    "manufacturerCode": 4447,
+    "sha512": "f18deefc12bf8acd3994f7dffe38cb0e3b0e04547980fe1d02206070ec277704006adde5eb0f64ccc014754a23f25446cf1e41b983715c44292dd0ff3fc8a4b6",
+    "otaHeaderString": "OM15082-WIN-JN5180--ENCRYPTED000"
   }
 ]
