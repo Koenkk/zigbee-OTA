@@ -2760,5 +2760,25 @@
     "sha512": "6f5b4238758a0c99ca908a17729278b1cc2b378f8338af04456092ff8fddeb4fe42afaea1281151a612a5700e92467ba37f52adc24172b75710fc20640c047e8",
     "otaHeaderString": "ZigbeeTLc OTA",
     "modelId": "ZY-ZTH01-z"
+  },
+  {
+    "fileName": "MICROMODULE_DIMMER_0x21076A30_PROD.fw",
+    "fileVersion": 554134064,
+    "fileSize": 255570,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Bosch/MICROMODULE_DIMMER_0x21076A30_PROD.fw",
+    "imageType": 12300,
+    "manufacturerCode": 4617,
+    "sha512": "639bc773d0b7d7326d594c530ef3d711a4f31cf392df88f32c051ef145f4bd3b151805bdc77234631e9f7d4c7454ba4b7c0335d0a2873a3a7ef60199528b44a6",
+    "otaHeaderString": "MM_DIMMER"
+  },
+  {
+    "fileName": "MICROMODULE_RELAY_0x210C6A30_PROD.fw",
+    "fileVersion": 554461744,
+    "fileSize": 247802,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Bosch/MICROMODULE_RELAY_0x210C6A30_PROD.fw",
+    "imageType": 12301,
+    "manufacturerCode": 4617,
+    "sha512": "efe3066a98b71f067ad9840172b073690c136a7292774e72a3a41fcb403c423aee7e27b71e07538d148123d3d89257e154273e5609b44cb304035dfe6a0611bc",
+    "otaHeaderString": "MM_RELAY"
   }
 ]

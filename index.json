@@ -7143,26 +7143,6 @@
     ]
   },
   {
-    "fileName": "MICROMODULE_DIMMER_0x21076A30_PROD.fw",
-    "fileVersion": 554134064,
-    "fileSize": 255570,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Bosch/MICROMODULE_DIMMER_0x21076A30_PROD.fw",
-    "imageType": 12300,
-    "manufacturerCode": 4617,
-    "sha512": "639bc773d0b7d7326d594c530ef3d711a4f31cf392df88f32c051ef145f4bd3b151805bdc77234631e9f7d4c7454ba4b7c0335d0a2873a3a7ef60199528b44a6",
-    "otaHeaderString": "MM_DIMMER"
-  },
-  {
-    "fileName": "MICROMODULE_RELAY_0x210C6A30_PROD.fw",
-    "fileVersion": 554461744,
-    "fileSize": 247802,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Bosch/MICROMODULE_RELAY_0x210C6A30_PROD.fw",
-    "imageType": 12301,
-    "manufacturerCode": 4617,
-    "sha512": "efe3066a98b71f067ad9840172b073690c136a7292774e72a3a41fcb403c423aee7e27b71e07538d148123d3d89257e154273e5609b44cb304035dfe6a0611bc",
-    "otaHeaderString": "MM_RELAY"
-  },
-  {
     "fileName": "OUTDOOR_SIREN_421095264.fw",
     "fileVersion": 421095264,
     "fileSize": 368542,
@@ -8921,5 +8901,38 @@
     "manufacturerCode": 4447,
     "sha512": "f18deefc12bf8acd3994f7dffe38cb0e3b0e04547980fe1d02206070ec277704006adde5eb0f64ccc014754a23f25446cf1e41b983715c44292dd0ff3fc8a4b6",
     "otaHeaderString": "OM15082-WIN-JN5180--ENCRYPTED000"
+  },
+  {
+    "fileName": "MICROMODULE_DIMMER_0x21086A30_PROD.fw",
+    "fileVersion": 554199600,
+    "fileSize": 255626,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Bosch/MICROMODULE_DIMMER_0x21086A30_PROD.fw",
+    "imageType": 12300,
+    "manufacturerCode": 4617,
+    "sha512": "2a7ea5d325be48731f4e0786f8c17081a55cd5208ce28fada7d963a3ddbeb8c0d9a9bdaad04536f939ce4ed6d8f54794b348bcd16c162c5b08d839093206f2ca",
+    "otaHeaderString": "MICROMODULE_DIMMER",
+    "releaseNotes": "Additional switch decoupling modes (matches those on BMCT-SLZ now)"
+  },
+  {
+    "fileName": "MICROMODULE_RELAY_0x210D6A30_PROD.fw",
+    "fileVersion": 554527280,
+    "fileSize": 247882,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Bosch/MICROMODULE_RELAY_0x210D6A30_PROD.fw",
+    "imageType": 12301,
+    "manufacturerCode": 4617,
+    "sha512": "9796a3452a591f52df50b09316bcd41108bfba1f8cd8ad48ce26204b59852953baa4d472f3c7c63fc12301ce9c43a10313a7fa0ab2ed6cf4186f357e39655668",
+    "otaHeaderString": "MICROMODULE_RELAY",
+    "releaseNotes": "Additional switch decoupling modes (matches those on BMCT-SLZ now)"
+  },
+  {
+    "fileName": "TRV_GEN2_DUAL_0x13027140_PROD.fw",
+    "fileVersion": 318927168,
+    "fileSize": 333078,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Bosch/TRV_GEN2_DUAL_0x13027140_PROD.fw",
+    "imageType": 12306,
+    "manufacturerCode": 4617,
+    "sha512": "2fce90ac4a558e40e13ecf84c0b8ec427d37ce7dd343954da593a5b1bb5de9f60ef251443e98f9ac002b13ce9cdd89ec55b4548ba7cd472fbf9a618f7484acc1",
+    "otaHeaderString": "TRV_GEN2_DUAL",
+    "releaseNotes": "New heating algorithm (like that used on the non-matter radiator thermostat II since November 2024)"
   }
 ]
