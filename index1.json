@@ -2335,16 +2335,6 @@
     "otaHeaderString": "                                "
   },
   {
-    "fileName": "wb_msw4_2_067.ota",
-    "fileVersion": 67,
-    "fileSize": 270334,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Sprut.device/wb_msw4_2_067.ota",
-    "imageType": 15,
-    "manufacturerCode": 26214,
-    "sha512": "5d474729ad04f89c9e153ca3c175206f0b305d084b7b6adeb545de42f587d103a7e2635489bbb98ca817d01d5711b84011fc020411a930023e2340222662d9eb",
-    "otaHeaderString": ""
-  },
-  {
     "fileName": "DIM-B40_DIM_T-0x00B8-0x03203660.OTA",
     "fileVersion": 52442720,
     "fileSize": 188384,
@@ -2780,5 +2770,15 @@
     "manufacturerCode": 4617,
     "sha512": "efe3066a98b71f067ad9840172b073690c136a7292774e72a3a41fcb403c423aee7e27b71e07538d148123d3d89257e154273e5609b44cb304035dfe6a0611bc",
     "otaHeaderString": "MM_RELAY"
+  },
+  {
+    "fileName": "wb_msw4_2_070.ota",
+    "fileVersion": 70,
+    "fileSize": 312950,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Sprut.device/wb_msw4_2_070.ota",
+    "imageType": 15,
+    "manufacturerCode": 26214,
+    "sha512": "520465686f77ef055410fd541ec9a4d4e008bea57753707fb28abc69607d8893d9a84ea13f2e8f94e4b3de364b991f74b70df9ae05dbf4726440d7cccf590d1e",
+    "otaHeaderString": ""
   }
 ]

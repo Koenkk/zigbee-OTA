@@ -8182,16 +8182,6 @@
     "otaHeaderString": "                                "
   },
   {
-    "fileName": "wb_msw4_2_070.ota",
-    "fileVersion": 70,
-    "fileSize": 312950,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sprut.device/wb_msw4_2_070.ota",
-    "imageType": 15,
-    "manufacturerCode": 26214,
-    "sha512": "520465686f77ef055410fd541ec9a4d4e008bea57753707fb28abc69607d8893d9a84ea13f2e8f94e4b3de364b991f74b70df9ae05dbf4726440d7cccf590d1e",
-    "otaHeaderString": ""
-  },
-  {
     "fileName": "A60_RGBW_T-0x00B6-0x03483712-MF_DIS.OTA",
     "fileVersion": 55064338,
     "fileSize": 256224,
@@ -8934,5 +8924,15 @@
     "sha512": "2fce90ac4a558e40e13ecf84c0b8ec427d37ce7dd343954da593a5b1bb5de9f60ef251443e98f9ac002b13ce9cdd89ec55b4548ba7cd472fbf9a618f7484acc1",
     "otaHeaderString": "TRV_GEN2_DUAL",
     "releaseNotes": "New heating algorithm (like that used on the non-matter radiator thermostat II since November 2024)"
+  },
+  {
+    "fileName": "wb_msw4_2_071.ota",
+    "fileVersion": 71,
+    "fileSize": 316790,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sprut.device/wb_msw4_2_071.ota",
+    "imageType": 15,
+    "manufacturerCode": 26214,
+    "sha512": "72f19d6f144442265e79ad0e4630413966a064dd78796c44b3b26463f84206fd112cf40f64519b6cd4084bb45c7443839b7163525133cf00e6c2793af416bbc9",
+    "otaHeaderString": ""
   }
 ]
