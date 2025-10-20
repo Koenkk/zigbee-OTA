@@ -8162,16 +8162,6 @@
     "otaHeaderString": "                                "
   },
   {
-    "fileName": "SmartCurtainModule_Zigbee_PROD_OTA_V45_v1.00.45.ota",
-    "fileVersion": 45,
-    "fileSize": 167954,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/SmartCurtainModule_Zigbee_PROD_OTA_V45_v1.00.45.ota",
-    "imageType": 54186,
-    "manufacturerCode": 4659,
-    "sha512": "3859a6d82a0d285abf71fa4f231c9dcb542a49a55fb7d387adadf771f4d6a0d84a16e16da33ca82504acfd0f56f1ff5f051823f57e31240c2afcaf40e3fedb7c",
-    "otaHeaderString": "Telink OTA Sample Usage"
-  },
-  {
     "fileName": "1021-000f-004345ff-NLL.zigbee",
     "fileVersion": 4408831,
     "fileSize": 255127,
@@ -8934,5 +8924,15 @@
     "manufacturerCode": 26214,
     "sha512": "72f19d6f144442265e79ad0e4630413966a064dd78796c44b3b26463f84206fd112cf40f64519b6cd4084bb45c7443839b7163525133cf00e6c2793af416bbc9",
     "otaHeaderString": ""
+  },
+  {
+    "fileName": "SmartCurtainModule_Zigbee_PROD_OTA_V48_v1.00.48.ota",
+    "fileVersion": 48,
+    "fileSize": 169730,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/SmartCurtainModule_Zigbee_PROD_OTA_V48_v1.00.48.ota",
+    "imageType": 54186,
+    "manufacturerCode": 4659,
+    "sha512": "e81ab364299e7716ec4e7f75df8a36583593c73a818768094dbda866e2acfabae47dbfda2fd0890e6dc8fcabd7d3d1ce66cebde7cb6c1f7eb09e455c12134f1b",
+    "otaHeaderString": "Telink OTA Sample Usage"
   }
 ]

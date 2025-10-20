@@ -2780,5 +2780,15 @@
     "manufacturerCode": 26214,
     "sha512": "520465686f77ef055410fd541ec9a4d4e008bea57753707fb28abc69607d8893d9a84ea13f2e8f94e4b3de364b991f74b70df9ae05dbf4726440d7cccf590d1e",
     "otaHeaderString": ""
+  },
+  {
+    "fileName": "SmartCurtainModule_Zigbee_PROD_OTA_V45_v1.00.45.ota",
+    "fileVersion": 45,
+    "fileSize": 167954,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/SmartCurtainModule_Zigbee_PROD_OTA_V45_v1.00.45.ota",
+    "imageType": 54186,
+    "manufacturerCode": 4659,
+    "sha512": "3859a6d82a0d285abf71fa4f231c9dcb542a49a55fb7d387adadf771f4d6a0d84a16e16da33ca82504acfd0f56f1ff5f051823f57e31240c2afcaf40e3fedb7c",
+    "otaHeaderString": "Telink OTA Sample Usage"
   }
 ]
