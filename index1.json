@@ -15,12 +15,23 @@
     "fileName": "GL-C-008P_V17A1_OTAV7_20210303--V1-4.ota",
     "fileVersion": 7,
     "fileSize": 291702,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Gledopto/GL-C-008P_V17A1_OTAV7_20210303--V1-4.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Gledopto/GL-C-008P_V17A1_OTAV7_20210303--V1-4.ota",
     "imageType": 0,
     "manufacturerCode": 4687,
     "sha512": "8eb197dc7e6f92afca457ce585e754ac3bf39e53cfb3f2e2433bf6317c51e0987cfe9224db046bf24522069651a85defe3bf62531c9eb4f2955b402ab55e9002",
     "otaHeaderString": "EBL ARGBW_V_0_1",
     "modelId": "GL-C-008P"
+  },
+  {
+    "fileName": "20220718113235_OTA_lumi.sensor_smoke.acn03_0.0.0_0017_20220617_CB9276.ota",
+    "fileVersion": 17,
+    "fileSize": 222094,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Lumi/20220718113235_OTA_lumi.sensor_smoke.acn03_0.0.0_0017_20220617_CB9276.ota",
+    "imageType": 9728,
+    "manufacturerCode": 4447,
+    "sha512": "d5a8e5c323acd99ceaf02ab061e7145dbcf2da028c9d73a6042d02536f0b8aaefbc798b9b47e8fb03345721c0231374c8654e3979e73b10ba51997ad9d41cf0a",
+    "otaHeaderString": "OM15082-WIN-JN5180--ENCRYPTED000",
+    "modelId": "lumi.sensor_smoke.acn03"
   },
   {
     "fileName": "100B-0121-02003B19-Switch-EFR32MG22-40xf.zigbee",
