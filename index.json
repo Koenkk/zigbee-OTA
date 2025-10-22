@@ -5531,17 +5531,6 @@
     "originalUrl": "https://tr-zha.s3.amazonaws.com/z2m_firmware/Door_Sensor_PROD_OTA_V63_v1.00.63.ota"
   },
   {
-    "fileName": "FW_ha_v1.00.82.ota",
-    "fileVersion": 82,
-    "fileSize": 297858,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/FW_ha_v1.00.82.ota",
-    "imageType": 0,
-    "manufacturerCode": 4877,
-    "sha512": "ada3886bc02da299648240f71c6d44950937cb6ab29a9bc115a255eeda0d4b3cf061772a60f186361f4c9afddbf90882a28f83370478a561b31eeebf9180e4f2",
-    "otaHeaderString": "test",
-    "originalUrl": "https://tr-zha.s3.amazonaws.com/z2m_firmware/FW_ha_v1.00.82.ota"
-  },
-  {
     "fileName": "Motion_Sensor_PROD_OTA_V79_v1.00.79.ota",
     "fileVersion": 79,
     "fileSize": 132610,
@@ -8935,5 +8924,15 @@
     "manufacturerCode": 4659,
     "sha512": "e81ab364299e7716ec4e7f75df8a36583593c73a818768094dbda866e2acfabae47dbfda2fd0890e6dc8fcabd7d3d1ce66cebde7cb6c1f7eb09e455c12134f1b",
     "otaHeaderString": "Telink OTA Sample Usage"
+  },
+  {
+    "fileName": "FW_ha_v1.00.86.ota",
+    "fileVersion": 86,
+    "fileSize": 298162,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/FW_ha_v1.00.86.ota",
+    "imageType": 0,
+    "manufacturerCode": 4877,
+    "sha512": "7ab5d3cc6059166cc8080101090c1f53f4667a2f8a80da0e890687484182274932cb2061af24771c54f6ca6bcf1bb08d3402ad9c0e6fe0dc2a740d1ee45fb22c",
+    "otaHeaderString": "test"
   }
 ]

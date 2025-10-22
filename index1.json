@@ -2801,5 +2801,16 @@
     "manufacturerCode": 4659,
     "sha512": "3859a6d82a0d285abf71fa4f231c9dcb542a49a55fb7d387adadf771f4d6a0d84a16e16da33ca82504acfd0f56f1ff5f051823f57e31240c2afcaf40e3fedb7c",
     "otaHeaderString": "Telink OTA Sample Usage"
+  },
+  {
+    "fileName": "FW_ha_v1.00.82.ota",
+    "fileVersion": 82,
+    "fileSize": 297858,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/FW_ha_v1.00.82.ota",
+    "imageType": 0,
+    "manufacturerCode": 4877,
+    "sha512": "ada3886bc02da299648240f71c6d44950937cb6ab29a9bc115a255eeda0d4b3cf061772a60f186361f4c9afddbf90882a28f83370478a561b31eeebf9180e4f2",
+    "otaHeaderString": "test",
+    "originalUrl": "https://tr-zha.s3.amazonaws.com/z2m_firmware/FW_ha_v1.00.82.ota"
   }
 ]
