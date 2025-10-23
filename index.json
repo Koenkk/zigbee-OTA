@@ -8923,5 +8923,19 @@
     "manufacturerCode": 4877,
     "sha512": "7ab5d3cc6059166cc8080101090c1f53f4667a2f8a80da0e890687484182274932cb2061af24771c54f6ca6bcf1bb08d3402ad9c0e6fe0dc2a740d1ee45fb22c",
     "otaHeaderString": "test"
+  },
+  {
+    "fileName": "ultron_colortemp_1_12_01.ota",
+    "fileVersion": 17563649,
+    "fileSize": 679720,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/UltronSMART/ultron_colortemp_1_12_01.ota",
+    "imageType": 268,
+    "manufacturerCode": 5003,
+    "sha512": "affe5591446ca4e66e4d5cbf7ab2ef2fca17b8b79c7f96adf4b32ae25b6ffbbe0dee53dd6add58bb2bc7ab4f702d35d04d4d512841f75607e3a9da1f1c228277",
+    "otaHeaderString": "Ultron ColorTemp Light",
+    "manufacturerName": [
+      "UltronSMART Inc."
+    ],
+    "modelId": "ULTRON_COLOR_TEMP_LIGHT"
   }
 ]
