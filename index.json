@@ -3109,17 +3109,6 @@
     "modelId": "lumi.switch.b1lc04"
   },
   {
-    "fileName": "20220718113235_OTA_lumi.sensor_smoke.acn03_0.0.0_0017_20220617_CB9276.ota",
-    "fileVersion": 17,
-    "fileSize": 222094,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20220718113235_OTA_lumi.sensor_smoke.acn03_0.0.0_0017_20220617_CB9276.ota",
-    "imageType": 9728,
-    "manufacturerCode": 4447,
-    "sha512": "d5a8e5c323acd99ceaf02ab061e7145dbcf2da028c9d73a6042d02536f0b8aaefbc798b9b47e8fb03345721c0231374c8654e3979e73b10ba51997ad9d41cf0a",
-    "otaHeaderString": "OM15082-WIN-JN5180--ENCRYPTED000",
-    "modelId": "lumi.sensor_smoke.acn03"
-  },
-  {
     "fileName": "20220718144406_OTA_lumi.switch.n3acn3_0.0.0_0033_20211108_E03E80.ota",
     "fileVersion": 33,
     "fileSize": 291022,
