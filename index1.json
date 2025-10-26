@@ -635,54 +635,6 @@
     "releaseNotes": "- LQI attribute reporting improved\r\n- Turn On/Off fading time configuration supported \r\n- On with time off Command supported "
   },
   {
-    "fileName": "TW_UART_ENERGY-DL_HCL_ND150_02-0x1189-0x00BB-0x02226550-MF_DIS-20220922093310-3221010102432.ota",
-    "fileVersion": 35808592,
-    "fileSize": 208198,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/LEDVANCE/TW_UART_ENERGY-DL_HCL_ND150_02-0x1189-0x00BB-0x02226550-MF_DIS-20220922093310-3221010102432.ota",
-    "imageType": 187,
-    "manufacturerCode": 4489,
-    "sha512": "940d5c4702ebcda1e0f145b7b79fa1050a808c6972b07f46046b20b5cb47a5df3d157c22b6a1f3a941d1bba08264a60cd17dc5306d78830fcff2a9de0e989905",
-    "otaHeaderString": "DL_HCL_ND150_02",
-    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=187&version=2.34.101.80",
-    "releaseNotes": "1. Enable permanent beacon request before Luminaire finish network paring.\r\n2. Patch to pass Zigbee3.0 certification.\r\n3. Improve fading function."
-  },
-  {
-    "fileName": "TW_UART_ENERGY-PL_HCL300x1200_01-0x1189-0x00BC-0x02226550-MF_DIS-20220922093955-3221010102432.ota",
-    "fileVersion": 35808592,
-    "fileSize": 208174,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/LEDVANCE/TW_UART_ENERGY-PL_HCL300x1200_01-0x1189-0x00BC-0x02226550-MF_DIS-20220922093955-3221010102432.ota",
-    "imageType": 188,
-    "manufacturerCode": 4489,
-    "sha512": "3c4123050fa02013fd41a2786fdd7d309373b4cbaef31761416e96aa67f80227f088e920f5030b22994ecaccb3e60373e8891182af3eb131cdd5af059b6eb4cf",
-    "otaHeaderString": "PL_HCL300x1200_01",
-    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=188&version=2.34.101.80",
-    "releaseNotes": "1. Enable permanent beacon request before Luminaire finish network paring.\r\n2. Patch for Zigbee3.0 certification.\r\n3. Improve fading function."
-  },
-  {
-    "fileName": "TW_UART_ENERGY-PL_HCL600_02-0x1189-0x00B9-0x02226550-MF_DIS-20220922091954-3221010102432.ota",
-    "fileVersion": 35808592,
-    "fileSize": 208198,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/LEDVANCE/TW_UART_ENERGY-PL_HCL600_02-0x1189-0x00B9-0x02226550-MF_DIS-20220922091954-3221010102432.ota",
-    "imageType": 185,
-    "manufacturerCode": 4489,
-    "sha512": "2ebc8d54d1e55274abdbba8ed227c21b27ee1f69e3a85ebd6e3ac0fb42c1fe1fca94b1b6e7ef044c4263c69898494dcb5ee469db2aa5ed79c1f06519c20d08a8",
-    "otaHeaderString": "PL_HCL600_02",
-    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=185&version=2.34.101.80",
-    "releaseNotes": "1. Enable permanent beacon request before Luminaire finish network paring.\r\n2. Patch for Zigbee3.0 certification.\r\n3. Improve fading function."
-  },
-  {
-    "fileName": "TW_UART_ENERGY-PL_HCL625_02-0x1189-0x00BA-0x02226550-MF_DIS-20220922092614-3221010102432.ota",
-    "fileVersion": 35808592,
-    "fileSize": 208198,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/LEDVANCE/TW_UART_ENERGY-PL_HCL625_02-0x1189-0x00BA-0x02226550-MF_DIS-20220922092614-3221010102432.ota",
-    "imageType": 186,
-    "manufacturerCode": 4489,
-    "sha512": "a3f9c3327251024d8a890aeff57b90711e87c7a0264663bcc60b3a92f0ca6d91babbe2031009d75cb26aceffb317ae0c78ab31059066a2df0567c5809fccc424",
-    "otaHeaderString": "PL_HCL625_02",
-    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=186&version=2.34.101.80",
-    "releaseNotes": "1. Enable permanent beacon request before Luminaire finish network paring.\r\n2. Patch for Zigbee3.0 certification.\r\n3. Improve fading function."
-  },
-  {
     "fileName": "Tibea_TW_Z3_IM002C_00103101-encrypted_11_23_2018_Fri_163423_97_withoutMF.ota",
     "fileVersion": 1061121,
     "fileSize": 183628,
@@ -2812,5 +2764,53 @@
     "sha512": "ada3886bc02da299648240f71c6d44950937cb6ab29a9bc115a255eeda0d4b3cf061772a60f186361f4c9afddbf90882a28f83370478a561b31eeebf9180e4f2",
     "otaHeaderString": "test",
     "originalUrl": "https://tr-zha.s3.amazonaws.com/z2m_firmware/FW_ha_v1.00.82.ota"
+  },
+  {
+    "fileName": "TW_UART_ENERGY-PL_HCL600_02-0x1189-0x00B9-0x02236550-MF_DIS-20230609100910-3221010102432.ota",
+    "fileVersion": 35874128,
+    "fileSize": 208078,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/LEDVANCE/TW_UART_ENERGY-PL_HCL600_02-0x1189-0x00B9-0x02236550-MF_DIS-20230609100910-3221010102432.ota",
+    "imageType": 185,
+    "manufacturerCode": 4489,
+    "sha512": "23655edfb8be126dd44463e0e4cd7c0cda3e804166ef559a98c2ec8ae70ca0d49a177e2a10f6823af736160aea52f2efb3f983057220abe1f894d69c8cd55ad8",
+    "otaHeaderString": "PL_HCL600_02",
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=185&version=2.35.101.80",
+    "releaseNotes": "1. Support GP switch.\r\n2. Improve network performance by fine tune router table."
+  },
+  {
+    "fileName": "TW_UART_ENERGY-PL_HCL625_02-0x1189-0x00BA-0x02236550-MF_DIS-20230609101747-3221010102432.ota",
+    "fileVersion": 35874128,
+    "fileSize": 208078,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/LEDVANCE/TW_UART_ENERGY-PL_HCL625_02-0x1189-0x00BA-0x02236550-MF_DIS-20230609101747-3221010102432.ota",
+    "imageType": 186,
+    "manufacturerCode": 4489,
+    "sha512": "38e3242e350178d74c2447851c5314db9b522ba380dc26850bc66b8fc9fac367afae2e65a62daf398bb5baf06851cc3b2065af7c0782a6dda3709fee712455f2",
+    "otaHeaderString": "PL_HCL625_02",
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=186&version=2.35.101.80",
+    "releaseNotes": "1. Support GP switch.\r\n2. Improve network performance by fine tune router table."
+  },
+  {
+    "fileName": "TW_UART_ENERGY-DL_HCL_ND150_02-0x1189-0x00BB-0x02236550-MF_DIS-20230609102634-3221010102432.ota",
+    "fileVersion": 35874128,
+    "fileSize": 208078,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/LEDVANCE/TW_UART_ENERGY-DL_HCL_ND150_02-0x1189-0x00BB-0x02236550-MF_DIS-20230609102634-3221010102432.ota",
+    "imageType": 187,
+    "manufacturerCode": 4489,
+    "sha512": "e1719c9df94e390b00f670fcf1864cad8273fb0554986ffa0281f3fdc76a65bc37304793d937fea7555fd01de69cc8ce5cca8bd9f6780a6ca91ab5b0d04073de",
+    "otaHeaderString": "DL_HCL_ND150_02",
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=187&version=2.35.101.80",
+    "releaseNotes": "1. Support GP switch.\r\n2. Improve network performance by fine tune router table."
+  },
+  {
+    "fileName": "TW_UART_ENERGY-PL_HCL300x1200_01-0x1189-0x00BC-0x02236550-MF_DIS-20230609103517-3221010102432.ota",
+    "fileVersion": 35874128,
+    "fileSize": 208054,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/LEDVANCE/TW_UART_ENERGY-PL_HCL300x1200_01-0x1189-0x00BC-0x02236550-MF_DIS-20230609103517-3221010102432.ota",
+    "imageType": 188,
+    "manufacturerCode": 4489,
+    "sha512": "c12b7a8695472aa0c3ebf3e43f504bdbf58c65ef81c137d2718644416214de45054f440eb341c486767f9a4b9fdfaa665575066ad153c56ddbdf50a08a2f863e",
+    "otaHeaderString": "PL_HCL300x1200_01",
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=188&version=2.35.101.80",
+    "releaseNotes": "1. Support GP switch.\r\n2. Improve network performance by fine tune router table."
   }
 ]
