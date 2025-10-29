@@ -7796,17 +7796,6 @@
     "otaHeaderString": "Telink OTA Sample Usage"
   },
   {
-    "fileName": "VZM30-SN_1.01.ota",
-    "fileVersion": 17826049,
-    "fileSize": 224638,
-    "originalUrl": "https://files.inovelli.com/firmware/VZM30-SN/Production/1.01/VZM30-SN_1.01.ota",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Inovelli/VZM30-SN_1.01.ota",
-    "imageType": 272,
-    "manufacturerCode": 4655,
-    "sha512": "2ce48acc9fc1fa9b08db57e4eff3a4082029a262490a428dac333bed3a1e98d08f11abddcd60d5f9caa074bb7cfe48efc964d89c133e67d2fe3261baecca4a27",
-    "otaHeaderString": "VZM30-SN_OnOff"
-  },
-  {
     "fileName": "100B-0112-01002B02-ConfLightBLE-Lamps-EFR32MG13.zigbee",
     "fileVersion": 16788226,
     "fileSize": 478598,
@@ -8937,5 +8926,16 @@
     "sha512": "e7c34906c056b6fa27eac35a916faa2e4bff1f0b1906e527fe6b6a6c1946ab77001c79d4cafc8b938a6ddcbff0d8de935eb6135b454560b2cd32b1b7a20ae1f0",
     "otaHeaderString": "PL_HCL300x1200_01",
     "releaseNotes": "1. Support Green Power switch control in Direct Easy system.\r\n2. Support Rotary switch control in Direct Easy system."
+  },
+  {
+    "fileName": "VZM30-SN_1.02.ota",
+    "fileVersion": 17826050,
+    "fileSize": 224614,
+    "originalUrl": "https://files.inovelli.com/firmware/VZM30-SN/Beta/1.02/VZM30-SN_1.02.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Inovelli/VZM30-SN_1.02.ota",
+    "imageType": 272,
+    "manufacturerCode": 4655,
+    "sha512": "a3a3aa3b2c8c0a625f9c53ce82b5f75ead82c3d0f003c1a29d12ae14b79084f47776e3ae5bbe90ec014a1cb29685b496aadabb949faa6b175bf6b05cfa75a846",
+    "otaHeaderString": "VZM30-SN_OnOff"
   }
 ]
