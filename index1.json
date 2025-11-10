@@ -1144,16 +1144,6 @@
     "otaHeaderString": "EBL Shyugj_Dimmer_mg22_ext_flash"
   },
   {
-    "fileName": "trvzb_v1.2.1.ota",
-    "fileVersion": 4609,
-    "fileSize": 328138,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Sonoff/trvzb_v1.2.1.ota",
-    "imageType": 8199,
-    "manufacturerCode": 4742,
-    "sha512": "fbc751c738cf8c15e088bc5f91f9a0d039d16d09d689ede3c131ac36f2cdf63bf15f3e10cbf775a1896c57e81aeae6425abb893cb5b36e99465c1c7738ec9f39",
-    "otaHeaderString": "vers:00001201,00001200\n"
-  },
-  {
     "fileName": "20220624200938_OTA_lumi.switch.b1nc01_0.0.0_0024_20220615_7D3656.ota",
     "fileVersion": 24,
     "fileSize": 286878,
@@ -2812,5 +2802,15 @@
     "manufacturerCode": 4655,
     "sha512": "2ce48acc9fc1fa9b08db57e4eff3a4082029a262490a428dac333bed3a1e98d08f11abddcd60d5f9caa074bb7cfe48efc964d89c133e67d2fe3261baecca4a27",
     "otaHeaderString": "VZM30-SN_OnOff"
+  },
+  {
+    "fileName": "trvzb_v1.3.0.ota",
+    "fileVersion": 4864,
+    "fileSize": 329856,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Sonoff/trvzb_v1.3.0.ota",
+    "imageType": 8199,
+    "manufacturerCode": 4742,
+    "sha512": "9bb3374caba58ac72d4ffb1f601a4b35ec7ffa74a45bb03ff9892919929399ea4484fafd681f27368646650929dd7a56c6bf230c4d39971658d21b89c382073e",
+    "otaHeaderString": "vers:00001300,00001204\n"
   }
 ]
