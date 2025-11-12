@@ -8936,5 +8936,18 @@
     "manufacturerCode": 4742,
     "sha512": "c1001ffc0d3f38ac1b92e9d113e47ada6aa673671962eb03c11ecb7bc4ab5ea8a3f7c2d1d37095c7749a996c4eb381da0bb120be736d6757da6fa9e396f4522b",
     "otaHeaderString": "vers:00001400,00001208\n"
+  },
+  {
+    "fileName": "C-ZB-LC20v2_V30251203_20251110.ota",
+    "fileVersion": 838938625,
+    "fileSize": 203346,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Candeo/C-ZB-LC20v2_V30251203_20251110.ota",
+    "imageType": 5145,
+    "manufacturerCode": 4687,
+    "sha512": "ec80b37a09422d04894c3460c8137a67fbc4f50ada0dbb5e538bdd6754b416ca9da95d2f962778354ec908e2a889ce1e0257eb6df13559ec16a3440520fcc88a",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "manufacturerName": [
+      "Candeo"
+    ]
   }
 ]
