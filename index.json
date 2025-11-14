@@ -8949,5 +8949,35 @@
     "manufacturerName": [
       "Candeo"
     ]
+  },
+  {
+    "fileName": "20250616154818_OTA_lumi.light.acn032_0.0.0_0027_20250611_34091B.ota",
+    "fileVersion": 27,
+    "fileSize": 466646,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Aqara/20250616154818_OTA_lumi.light.acn032_0.0.0_0027_20250611_34091B.ota",
+    "imageType": 143,
+    "manufacturerCode": 4447,
+    "sha512": "206e6c8eac0d4b144a089339f98b7bf54f1e8936ceb64a4562bce417526c98ca56e2a08c0fefa55e24f3837be6b5bc99db5caee64797df8e65c3fdbaf6146515",
+    "otaHeaderString": "Aqara OTA Image"
+  },
+  {
+    "fileName": "20250827143703_lumi.sensor_occupy.agl1_0.0.0_0029_20250804_33D437.ota",
+    "fileVersion": 29,
+    "fileSize": 302938,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Aqara/20250827143703_lumi.sensor_occupy.agl1_0.0.0_0029_20250804_33D437.ota",
+    "imageType": 8347,
+    "manufacturerCode": 4447,
+    "sha512": "4d57be7074089a2f2014f6d066da101da55267156a46f2ed0e90ef9c2db25471e99123ad12fd945769671e47d76d3d416d252a21c450ca0449caa0b8a8221fba",
+    "otaHeaderString": "\u0014OTA_lumi.motion.ac01"
+  },
+  {
+    "fileName": "20250918173547_OTA_lumi.switch.acn047_0.0.0_0033_20250917_8609D6.ota",
+    "fileVersion": 33,
+    "fileSize": 598474,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Aqara/20250918173547_OTA_lumi.switch.acn047_0.0.0_0033_20250917_8609D6.ota",
+    "imageType": 6416,
+    "manufacturerCode": 4447,
+    "sha512": "783e75a3b1e3dcf0c09ddedb5ca01ab0ca5b97f93154f2df156e5815b0c3061ce6cc9d960b76b8e2126f95b037689a98b869ceb391a04de413ba09805c5de952",
+    "otaHeaderString": "Aqara OTA Image"
   }
 ]
