@@ -8979,5 +8979,15 @@
     "manufacturerCode": 4447,
     "sha512": "783e75a3b1e3dcf0c09ddedb5ca01ab0ca5b97f93154f2df156e5815b0c3061ce6cc9d960b76b8e2126f95b037689a98b869ceb391a04de413ba09805c5de952",
     "otaHeaderString": "Aqara OTA Image"
+  },
+  {
+    "fileName": "ct-clamp-ota-lzma-TEST-v1_1_4.ota",
+    "fileVersion": 65796,
+    "fileSize": 160470,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Chameleon/ct-clamp-ota-lzma-TEST-v1_1_4.ota",
+    "imageType": 35,
+    "manufacturerCode": 4320,
+    "sha512": "4640cee6f93f2f5391d4fdd7ae617578b5a100cef94a011a2d0d0934cd1442fe36e0a1231ff6d7a9dc9f7877b0062fc308472eef85596b2cc6bce22f4521e7ca",
+    "otaHeaderString": "ct-clamp_ota_v1_1_4"
   }
 ]
