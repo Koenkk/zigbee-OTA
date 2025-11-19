@@ -1887,16 +1887,6 @@
     "otaHeaderString": "DR1175r1v02--JN5169--ENCRYPTED00"
   },
   {
-    "fileName": "DIO300Z_OTA_ENC_V5_ENC.ota",
-    "fileVersion": 5,
-    "fileSize": 188702,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Jennic/DIO300Z_OTA_ENC_V5_ENC.ota",
-    "imageType": 4120,
-    "manufacturerCode": 4151,
-    "sha512": "f5a51866ce803e15aed135d81e0a101cabcda00701a73aeaff3d0248dfbab27fc7412559d6b12f7ded8511200f5eda846eaad32b75c2d4bb60434afd379a6c52",
-    "otaHeaderString": "DR1175r1v02--JN5169--ENCRYPTED00"
-  },
-  {
     "fileName": "DLM300Z_OTA_ENC_V8_ENC.ota",
     "fileVersion": 8,
     "fileSize": 173246,
@@ -6282,17 +6272,6 @@
     "modelId": "4512733"
   },
   {
-    "fileName": "TCM300Z_OTA_ENC_V8_ENC.ota",
-    "fileVersion": 8,
-    "fileSize": 223406,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Jennic/TCM300Z_OTA_ENC_V8_ENC.ota",
-    "imageType": 4119,
-    "manufacturerCode": 4151,
-    "sha512": "89aa14e5c33bba2b5758db6737462bab2bd8b64fd34eee27749144533822c8b77a96d3e6b8d0824ff92edb63f3973d2cc3bb2985c6f1a0a445ea393e96292e32",
-    "otaHeaderString": "DR1175r1v02--JN5169--ENCRYPTED00",
-    "releaseNotes": "RS485 communication updates, etc."
-  },
-  {
     "fileName": "1730081189-oem_zg_tl8258_plug_OTA_1.1.2.bin",
     "fileVersion": 82,
     "fileSize": 311026,
@@ -6450,26 +6429,6 @@
     "manufacturerCode": 4742,
     "sha512": "6825c846d11ba0c2a3f0819ced538f929ecbad0d9a182113d3de5f083c2435af657e8e9b5eb01318938e7914c07fa14c7cac462c87f068dd30e999712e9bd33b",
     "otaHeaderString": "ota-file-test"
-  },
-  {
-    "fileName": "PMM300Z2_OTA_ENC_V8_ENC.ota",
-    "fileVersion": 8,
-    "fileSize": 215646,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Jennic/PMM300Z2_OTA_ENC_V8_ENC.ota",
-    "imageType": 4107,
-    "manufacturerCode": 4151,
-    "sha512": "09726b2c22b277ef0552ad58be30069a5c01cd6666b8b19557c02aeff56868ab8f29578ffef41e25f75bea32a6576071639f0589f86d5fccf3cdbd7827cbea0c",
-    "otaHeaderString": "DR1175r1v02--JN5169--ENCRYPTED00"
-  },
-  {
-    "fileName": "PMM300Z3_OTA_ENC_V9_ENC.ota",
-    "fileVersion": 9,
-    "fileSize": 225614,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Jennic/PMM300Z3_OTA_ENC_V9_ENC.ota",
-    "imageType": 4108,
-    "manufacturerCode": 4151,
-    "sha512": "c53941b1b2c3ac7ce121673fd55a85c8a9b659db1354259a219b317995191c1b1e9995e40f26a791363adf41529119bb37bb441e24a7a4fddcc4d12f52b61c8d",
-    "otaHeaderString": "DR1175r1v02--JN5169--ENCRYPTED00"
   },
   {
     "fileName": "1166-070d-30022162-fl122c-3.0.2.ota",
@@ -8989,5 +8948,55 @@
     "manufacturerCode": 4320,
     "sha512": "4640cee6f93f2f5391d4fdd7ae617578b5a100cef94a011a2d0d0934cd1442fe36e0a1231ff6d7a9dc9f7877b0062fc308472eef85596b2cc6bce22f4521e7ca",
     "otaHeaderString": "ct-clamp_ota_v1_1_4"
+  },
+  {
+    "fileName": "DIO300Z_OTA_ENC_V6_ENC.ota",
+    "fileVersion": 6,
+    "fileSize": 190574,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Jennic/DIO300Z_OTA_ENC_V6_ENC.ota",
+    "imageType": 4120,
+    "manufacturerCode": 4151,
+    "sha512": "ef385a139ced65787c89b53a8133c3e2eb9c2c0f421b1015304f87590a9def912f148294b519d7a63b422272eb461584cd1f8498c75a996c99f06a5c0ee461d4",
+    "otaHeaderString": "DR1175r1v02--JN5169--ENCRYPTED00"
+  },
+  {
+    "fileName": "PMM300Z2_OTA_ENC_V9_ENC.ota",
+    "fileVersion": 9,
+    "fileSize": 215662,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Jennic/PMM300Z2_OTA_ENC_V9_ENC.ota",
+    "imageType": 4107,
+    "manufacturerCode": 4151,
+    "sha512": "da4b95393b958ec81617d69c6409a4fa59a4d3cfc62c1c32e0145ab10c07df3449f7d6cfc65ec77e3bc2ccf3065a797e3094270ff08ba50f076e4a5e6fa5fe5b",
+    "otaHeaderString": "DR1175r1v02--JN5169--ENCRYPTED00"
+  },
+  {
+    "fileName": "PMM300Z3_OTA_ENC_V10_ENC.ota",
+    "fileVersion": 10,
+    "fileSize": 225646,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Jennic/PMM300Z3_OTA_ENC_V10_ENC.ota",
+    "imageType": 4108,
+    "manufacturerCode": 4151,
+    "sha512": "2c85462302164a9588c74344ba642a5a436b02b5c9fe43ff85609c6c5b26000c8bf1a5152a031b873d187b5cf23c5fecde77996d64bd419006a1f1b5c15e00e6",
+    "otaHeaderString": "DR1175r1v02--JN5169--ENCRYPTED00"
+  },
+  {
+    "fileName": "TCM300Z_OTA_ENC_V9_ENC.ota",
+    "fileVersion": 9,
+    "fileSize": 223438,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Jennic/TCM300Z_OTA_ENC_V9_ENC.ota",
+    "imageType": 4119,
+    "manufacturerCode": 4151,
+    "sha512": "6d1aff6623d1038de0b21c62ae7def481ad210cd8b172fc5c6ab525f1359069320dc5b0d6360b17e091400423fc6292236f6cf76a6d514e68aa174516824c2d5",
+    "otaHeaderString": "DR1175r1v02--JN5169--ENCRYPTED00"
+  },
+  {
+    "fileName": "WCM300Z_OTA_ENC_V4_ENC.ota",
+    "fileVersion": 4,
+    "fileSize": 222622,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Jennic/WCM300Z_OTA_ENC_V4_ENC.ota",
+    "imageType": 4118,
+    "manufacturerCode": 4151,
+    "sha512": "bd2d9591d8c92655e42d30d9ade3772f6c7a32adf2126aa049b613f77cdb6965ca6ad3c13b5449bd9b8b79f0a09a26d5cd299670212cf21a89884f0a7f4ff4f6",
+    "otaHeaderString": "DR1175r1v02--JN5169--ENCRYPTED00"
   }
 ]

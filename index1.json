@@ -1197,16 +1197,6 @@
     "modelId": "MHOC401-z"
   },
   {
-    "fileName": "TCM300Z_OTA_ENC_V5_ENC.ota",
-    "fileVersion": 5,
-    "fileSize": 221166,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Jennic/TCM300Z_OTA_ENC_V5_ENC.ota",
-    "imageType": 4119,
-    "manufacturerCode": 4151,
-    "sha512": "e1414ec9cde43992fd8e22d39419fdf2c87f4383da677e3499587cf004e70ee7fbe7894816c50c640a0717a59c087ba167cea3c96ee579862f40e73b0d66ee1d",
-    "otaHeaderString": "DR1175r1v02--JN5169--ENCRYPTED00"
-  },
-  {
     "fileName": "1718263020-oem_zg_tl8258_plug_OTA_1.1.0.bin",
     "fileVersion": 80,
     "fileSize": 310402,
@@ -1290,27 +1280,6 @@
     "manufacturerCode": 4454,
     "sha512": "fdff1b901c31d0e443cab9465cf3d7941e318878079bd25f2dcadd697fd304b7eb6e876f123ad4a55a1da7f4dfb8d5619d87ed00dce36bcfbc7ed050073a1f61",
     "otaHeaderString": "Telink OTA Sample Usage"
-  },
-  {
-    "fileName": "PMM300Z2_OTA_ENC_V6_ENC.ota",
-    "fileVersion": 6,
-    "fileSize": 212478,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Jennic/PMM300Z2_OTA_ENC_V6_ENC.ota",
-    "imageType": 4107,
-    "manufacturerCode": 4151,
-    "sha512": "10b0cffcf7dc90804694a52be1ff3ca8178a8685172e309da9eacc71109403fd53be9a127b881341a095cb3ae2284eaedd5bec49a15d7b9d8badd76e382be4b5",
-    "otaHeaderString": "DR1175r1v02--JN5169--ENCRYPTED00"
-  },
-  {
-    "fileName": "PMM300Z3_OTA_ENC_V8_ENC.ota",
-    "fileVersion": 8,
-    "fileSize": 224686,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Jennic/PMM300Z3_OTA_ENC_V8_ENC.ota",
-    "imageType": 4108,
-    "manufacturerCode": 4151,
-    "sha512": "8baf64a84928848a8e50889c9f147eec3af40fe98a08fdae0c81211137e97f41497d14fa9cb1760f166bc7d08febf757f2d6fa58aee91ecc9c0cc32402a8e469",
-    "otaHeaderString": "DR1175r1v02--JN5169--ENCRYPTED00",
-    "releaseNotes": "The acCurrentDivisor has been changed from 100 to 10 to allow acCurrent values to exceed 655.35A. Note, however, that the unit precision will change from two decimal places to one."
   },
   {
     "fileName": "10F2-7B2C-0000-0001-0150044D-ld6.ota.zigbee",
@@ -2812,5 +2781,46 @@
     "manufacturerCode": 4742,
     "sha512": "9bb3374caba58ac72d4ffb1f601a4b35ec7ffa74a45bb03ff9892919929399ea4484fafd681f27368646650929dd7a56c6bf230c4d39971658d21b89c382073e",
     "otaHeaderString": "vers:00001300,00001204\n"
+  },
+  {
+    "fileName": "DIO300Z_OTA_ENC_V5_ENC.ota",
+    "fileVersion": 5,
+    "fileSize": 188702,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Jennic/DIO300Z_OTA_ENC_V5_ENC.ota",
+    "imageType": 4120,
+    "manufacturerCode": 4151,
+    "sha512": "f5a51866ce803e15aed135d81e0a101cabcda00701a73aeaff3d0248dfbab27fc7412559d6b12f7ded8511200f5eda846eaad32b75c2d4bb60434afd379a6c52",
+    "otaHeaderString": "DR1175r1v02--JN5169--ENCRYPTED00"
+  },
+  {
+    "fileName": "PMM300Z2_OTA_ENC_V8_ENC.ota",
+    "fileVersion": 8,
+    "fileSize": 215646,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Jennic/PMM300Z2_OTA_ENC_V8_ENC.ota",
+    "imageType": 4107,
+    "manufacturerCode": 4151,
+    "sha512": "09726b2c22b277ef0552ad58be30069a5c01cd6666b8b19557c02aeff56868ab8f29578ffef41e25f75bea32a6576071639f0589f86d5fccf3cdbd7827cbea0c",
+    "otaHeaderString": "DR1175r1v02--JN5169--ENCRYPTED00"
+  },
+  {
+    "fileName": "PMM300Z3_OTA_ENC_V9_ENC.ota",
+    "fileVersion": 9,
+    "fileSize": 225614,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Jennic/PMM300Z3_OTA_ENC_V9_ENC.ota",
+    "imageType": 4108,
+    "manufacturerCode": 4151,
+    "sha512": "c53941b1b2c3ac7ce121673fd55a85c8a9b659db1354259a219b317995191c1b1e9995e40f26a791363adf41529119bb37bb441e24a7a4fddcc4d12f52b61c8d",
+    "otaHeaderString": "DR1175r1v02--JN5169--ENCRYPTED00"
+  },
+  {
+    "fileName": "TCM300Z_OTA_ENC_V8_ENC.ota",
+    "fileVersion": 8,
+    "fileSize": 223406,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Jennic/TCM300Z_OTA_ENC_V8_ENC.ota",
+    "imageType": 4119,
+    "manufacturerCode": 4151,
+    "sha512": "89aa14e5c33bba2b5758db6737462bab2bd8b64fd34eee27749144533822c8b77a96d3e6b8d0824ff92edb63f3973d2cc3bb2985c6f1a0a445ea393e96292e32",
+    "otaHeaderString": "DR1175r1v02--JN5169--ENCRYPTED00",
+    "releaseNotes": "RS485 communication updates, etc."
   }
 ]
