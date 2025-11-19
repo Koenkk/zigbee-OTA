@@ -3315,17 +3315,6 @@
     "modelId": "lumi.light.acn031"
   },
   {
-    "fileName": "20231227113844_lumi.light.acn032_0.0.0_0026_20231226_064840.ota",
-    "fileVersion": 26,
-    "fileSize": 462258,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20231227113844_lumi.light.acn032_0.0.0_0026_20231226_064840.ota",
-    "imageType": 143,
-    "manufacturerCode": 4447,
-    "sha512": "e221d3bb6d2a28011463b259ab94e1de40953b2bafd66730b7349e00b88591afe3972f02fea6f8a839d86d92015964976ad61da797de312688696bbeecc718a2",
-    "otaHeaderString": "Aqara OTA Image",
-    "modelId": "lumi.light.acn032"
-  },
-  {
     "fileName": "20240103161114_OTA_lumi.switch.n4acn4_V62_20240103_776DCB.ota",
     "fileVersion": 62,
     "fileSize": 377918,
@@ -3583,19 +3572,6 @@
     "sha512": "5605d6bb5b9c0f9a627e1b25f83abade2fd24284aa9a23435e0c39ba5d5d09ecc84dd18a55dc44013f37583f3673f46bf928e35559cca8fd7e702704986edf2f",
     "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000",
     "modelId": "lumi.switch.b2nacn01"
-  },
-  {
-    "fileName": "20240830115847_OTA_lumi.switch.acn047_0.0.0_0032_20240823_D8294E.ota",
-    "fileVersion": 32,
-    "fileSize": 597122,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20240830115847_OTA_lumi.switch.acn047_0.0.0_0032_20240823_D8294E.ota",
-    "imageType": 6416,
-    "manufacturerCode": 4447,
-    "sha512": "a135dcf96e1086d30e945cb3b40885fce60840b98ca6dee595dbed97e702e3583336d21948a19f37d20a942ac9daa84abc57da39465611ff86628d825ce6f5c0",
-    "otaHeaderString": "Aqara OTA Image",
-    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.switch.acn047/20240830115847_OTA_lumi.switch.acn047_0.0.0_0032_20240823_D8294E.ota",
-    "modelId": "lumi.switch.acn047",
-    "releaseNotes": "1.Fix known bugs"
   },
   {
     "fileName": "LM15_86SP_aq_V1.0.11_20170302_OTA_v11_withCRC.20170417201259.ota",
@@ -6179,19 +6155,6 @@
     "manufacturerCode": 4117,
     "sha512": "900688dea743db3097d59d90e5c4a2a4551232a1b5dd21be43e66d58de24ee0b98838e6b3ff400fb044051c97a48dacda429b75f2a9e1259af5d9121ef1238b1",
     "otaHeaderString": ""
-  },
-  {
-    "fileName": "20240625145706_lumi.sensor_occupy.agl1_0.0.0_0028_20240621_AA55A4.ota",
-    "fileVersion": 28,
-    "fileSize": 302970,
-    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.sensor_occupy.agl1/20240625145706_lumi.sensor_occupy.agl1_0.0.0_0028_20240621_AA55A4.ota",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20240625145706_lumi.sensor_occupy.agl1_0.0.0_0028_20240621_AA55A4.ota",
-    "imageType": 8347,
-    "manufacturerCode": 4447,
-    "sha512": "126bbc9d6d16682ac3d83a71491779d2ea5b653d8eda8c80ef22e1f2e834219cd2fd5151bc463a779714f78657a25fdb7344f950cfc397237d9ebe5c9ec0b553",
-    "otaHeaderString": "\u0014OTA_lumi.motion.ac01",
-    "modelId": "lumi.sensor_occupy.agl1",
-    "releaseNotes": "Enhance the accuracy of static human recognition, refine the mechanism for distinguishing between human movement and stillness, reduce false alarms by robotic vacuum cleaners, and minimize the likelihood of false alarms triggered by small pets, curtains, and other factors"
   },
   {
     "fileName": "6565-0204-20043001-watermeter_zed.zigbee",
@@ -8917,7 +8880,8 @@
     "imageType": 143,
     "manufacturerCode": 4447,
     "sha512": "206e6c8eac0d4b144a089339f98b7bf54f1e8936ceb64a4562bce417526c98ca56e2a08c0fefa55e24f3837be6b5bc99db5caee64797df8e65c3fdbaf6146515",
-    "otaHeaderString": "Aqara OTA Image"
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.light.acn032"
   },
   {
     "fileName": "20250827143703_lumi.sensor_occupy.agl1_0.0.0_0029_20250804_33D437.ota",
@@ -8927,7 +8891,8 @@
     "imageType": 8347,
     "manufacturerCode": 4447,
     "sha512": "4d57be7074089a2f2014f6d066da101da55267156a46f2ed0e90ef9c2db25471e99123ad12fd945769671e47d76d3d416d252a21c450ca0449caa0b8a8221fba",
-    "otaHeaderString": "\u0014OTA_lumi.motion.ac01"
+    "otaHeaderString": "\u0014OTA_lumi.motion.ac01",
+    "modelId": "lumi.sensor_occupy.agl1"
   },
   {
     "fileName": "20250918173547_OTA_lumi.switch.acn047_0.0.0_0033_20250917_8609D6.ota",
@@ -8937,7 +8902,8 @@
     "imageType": 6416,
     "manufacturerCode": 4447,
     "sha512": "783e75a3b1e3dcf0c09ddedb5ca01ab0ca5b97f93154f2df156e5815b0c3061ce6cc9d960b76b8e2126f95b037689a98b869ceb391a04de413ba09805c5de952",
-    "otaHeaderString": "Aqara OTA Image"
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.switch.acn047"
   },
   {
     "fileName": "ct-clamp-ota-lzma-TEST-v1_1_4.ota",
