@@ -6972,19 +6972,6 @@
     ]
   },
   {
-    "fileName": "6565-0395-10033001-ts0201_tz3000_zed.zigbee",
-    "fileVersion": 268644353,
-    "fileSize": 147138,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-0395-10033001-ts0201_tz3000_zed.zigbee",
-    "imageType": 917,
-    "manufacturerCode": 25957,
-    "sha512": "77495e0e056444f48481d083fbf7081235d3cafdcf28bd5c5fda7ff6ec5b17554cc96a5ca86d0e30edecf3b2cd957b88efb7953339424330ef93771cccdbb846",
-    "otaHeaderString": "",
-    "manufacturerName": [
-      "Slacky-DIY"
-    ]
-  },
-  {
     "fileName": "OUTDOOR_SIREN_421095264.fw",
     "fileVersion": 421095264,
     "fileSize": 368542,
@@ -8964,5 +8951,18 @@
     "manufacturerCode": 4151,
     "sha512": "bd2d9591d8c92655e42d30d9ade3772f6c7a32adf2126aa049b613f77cdb6965ca6ad3c13b5449bd9b8b79f0a09a26d5cd299670212cf21a89884f0a7f4ff4f6",
     "otaHeaderString": "DR1175r1v02--JN5169--ENCRYPTED00"
+  },
+  {
+    "fileName": "6565-0395-10043001-ts0201_tz3000_zed.zigbee",
+    "fileVersion": 268709889,
+    "fileSize": 148466,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-0395-10043001-ts0201_tz3000_zed.zigbee",
+    "imageType": 917,
+    "manufacturerCode": 25957,
+    "sha512": "605d1cef982a83269543f162a107ba6785c7cd750cf1b61d9df2190f729ae3112567b7abeb9d66ecb35e770e80db98d041b75e270416f69e35e25cb16d5ad65f",
+    "otaHeaderString": "Slacky-DIY OTA",
+    "manufacturerName": [
+      "Slacky-DIY"
+    ]
   }
 ]

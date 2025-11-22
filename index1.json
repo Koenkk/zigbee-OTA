@@ -2822,5 +2822,18 @@
     "sha512": "89aa14e5c33bba2b5758db6737462bab2bd8b64fd34eee27749144533822c8b77a96d3e6b8d0824ff92edb63f3973d2cc3bb2985c6f1a0a445ea393e96292e32",
     "otaHeaderString": "DR1175r1v02--JN5169--ENCRYPTED00",
     "releaseNotes": "RS485 communication updates, etc."
+  },
+  {
+    "fileName": "6565-0395-10033001-ts0201_tz3000_zed.zigbee",
+    "fileVersion": 268644353,
+    "fileSize": 147138,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/SlackyDiy/6565-0395-10033001-ts0201_tz3000_zed.zigbee",
+    "imageType": 917,
+    "manufacturerCode": 25957,
+    "sha512": "77495e0e056444f48481d083fbf7081235d3cafdcf28bd5c5fda7ff6ec5b17554cc96a5ca86d0e30edecf3b2cd957b88efb7953339424330ef93771cccdbb846",
+    "otaHeaderString": "",
+    "manufacturerName": [
+      "Slacky-DIY"
+    ]
   }
 ]
