@@ -8217,30 +8217,6 @@
     "releaseNotes": "1.Fix bug network leave related with green power device commission.\r\n2.Fix abnormal reboot caused by network status.\r\n3.Upgrade Zigbee stack to latest version 3.7.1.2. \r\n4.Support using recall scene to turn off plug in Hue system."
   },
   {
-    "fileName": "PLUG_EU_EM_T-0x00DC-0x03463712-MF_DIS.OTA",
-    "fileVersion": 54933266,
-    "fileSize": 246112,
-    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=220&version=3.70.55.18",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/PLUG_EU_EM_T-0x00DC-0x03463712-MF_DIS.OTA",
-    "imageType": 220,
-    "manufacturerCode": 4489,
-    "sha512": "7823434f46464f981d9241e83e11bcdb8cec25337a3c3b04817186a48e23f54c4182b5a85d6f92c3f2f34f93ec18489233fd33859504ce19794c5fedba891828",
-    "otaHeaderString": "Telink OTA Sample Usage",
-    "releaseNotes": "1.Fix bug network leave related with green power device commission.\r\n2.Fix abnormal reboot caused by network status.\r\n3.Upgrade Zigbee stack to latest version 3.7.1.2. \r\n4.Support using recall scene to turn off plug in Hue system."
-  },
-  {
-    "fileName": "PLUG_COMPACT_EU_EM_T-0x00E6-0x03463712-MF_DIS.OTA",
-    "fileVersion": 54933266,
-    "fileSize": 246112,
-    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=230&version=3.70.55.18",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/PLUG_COMPACT_EU_EM_T-0x00E6-0x03463712-MF_DIS.OTA",
-    "imageType": 230,
-    "manufacturerCode": 4489,
-    "sha512": "2473ee6fd073c0ec900d6202c08b90bee3f069e2008a2537755b53ebd1d59ae36e58282f8705ecc2d7d1231cfec229bdd522fb1a02cdeb4d2a5f94e1cc676cc9",
-    "otaHeaderString": "Telink OTA Sample Usage",
-    "releaseNotes": "1.Fix bug network leave related with green power device commission.\r\n2.Fix abnormal reboot caused by network status.\r\n3.Upgrade Zigbee stack to latest version 3.7.1.2. \r\n4.Support using recall scene to turn off plug in Hue system."
-  },
-  {
     "fileName": "ZLinky_router_v17.ota",
     "fileVersion": 17,
     "fileSize": 248078,
@@ -8964,5 +8940,29 @@
     "manufacturerName": [
       "Slacky-DIY"
     ]
+  },
+  {
+    "fileName": "PLUG_EU_EM_T-0x00DC-0x03483712-MF_DIS.OTA",
+    "fileVersion": 55064338,
+    "fileSize": 246256,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=220&version=3.72.55.18",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/PLUG_EU_EM_T-0x00DC-0x03483712-MF_DIS.OTA",
+    "imageType": 220,
+    "manufacturerCode": 4489,
+    "sha512": "ca9d9bd8e497f76027bc5c10f4c9849354b03db17ae38523cceb54b18e2580ae2fe0ed3d87f778219aacd7ee60676e286a61ee4bf4417a0d0bf6bd21c8291f64",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "releaseNotes": "1. Improve the energy consumption report in Home Assistant system."
+  },
+  {
+    "fileName": "PLUG_COMPACT_EU_EM_T-0x00E6-0x03483712-MF_DIS.OTA",
+    "fileVersion": 55064338,
+    "fileSize": 246288,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=230&version=3.72.55.18",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/PLUG_COMPACT_EU_EM_T-0x00E6-0x03483712-MF_DIS.OTA",
+    "imageType": 230,
+    "manufacturerCode": 4489,
+    "sha512": "450b0626a371088202fc87c16f4e9c58328377f53853ebe8e25aae3cd7609b26da87559620a07f85b56212df52184513ea80190ec9e2020566874b9af92849e7",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "releaseNotes": "1. Improve the energy consumption report in Home Assistant system."
   }
 ]
