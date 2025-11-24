@@ -2057,19 +2057,6 @@
     "otaHeaderString": "temp_humi_sensor"
   },
   {
-    "fileName": "6565-0391-10173001-tuya_thermostat_zrd.zigbee",
-    "fileVersion": 269955073,
-    "fileSize": 237602,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/SlackyDiy/6565-0391-10173001-tuya_thermostat_zrd.zigbee",
-    "imageType": 913,
-    "manufacturerCode": 25957,
-    "sha512": "e909d258d7eabb8aeb52a18b4090e49297a2f808deab02e222d9b984e8c6597cb94fa78b45cccc891d80a24abd20652b8e79c8f7aceb1f2fd53a355408471b5a",
-    "otaHeaderString": "",
-    "manufacturerName": [
-      "Slacky-DIY"
-    ]
-  },
-  {
     "fileName": "SmartPlug_Zigbee_PROD_OTA_V96_v1.00.96.ota",
     "fileVersion": 268513376,
     "fileSize": 194178,
@@ -2835,5 +2822,18 @@
     "sha512": "2473ee6fd073c0ec900d6202c08b90bee3f069e2008a2537755b53ebd1d59ae36e58282f8705ecc2d7d1231cfec229bdd522fb1a02cdeb4d2a5f94e1cc676cc9",
     "otaHeaderString": "Telink OTA Sample Usage",
     "releaseNotes": "1.Fix bug network leave related with green power device commission.\r\n2.Fix abnormal reboot caused by network status.\r\n3.Upgrade Zigbee stack to latest version 3.7.1.2. \r\n4.Support using recall scene to turn off plug in Hue system."
+  },
+  {
+    "fileName": "6565-0391-10183001-tuya_thermostat_zrd.zigbee",
+    "fileVersion": 270020609,
+    "fileSize": 237634,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/SlackyDiy/6565-0391-10183001-tuya_thermostat_zrd.zigbee",
+    "imageType": 913,
+    "manufacturerCode": 25957,
+    "sha512": "c860beead65a3926daff010dbb434d97e3145dc977fe82e56f109bcc0c8e6814495e0432198506fdf381b4f0a3c9395344a07a7c69fd65e6323ed104ae53b4db",
+    "otaHeaderString": "",
+    "manufacturerName": [
+      "Slacky-DIY"
+    ]
   }
 ]

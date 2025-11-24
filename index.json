@@ -7549,19 +7549,6 @@
     "otaHeaderString": "temp_humi_sensor"
   },
   {
-    "fileName": "6565-0391-10183001-tuya_thermostat_zrd.zigbee",
-    "fileVersion": 270020609,
-    "fileSize": 237634,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-0391-10183001-tuya_thermostat_zrd.zigbee",
-    "imageType": 913,
-    "manufacturerCode": 25957,
-    "sha512": "c860beead65a3926daff010dbb434d97e3145dc977fe82e56f109bcc0c8e6814495e0432198506fdf381b4f0a3c9395344a07a7c69fd65e6323ed104ae53b4db",
-    "otaHeaderString": "",
-    "manufacturerName": [
-      "Slacky-DIY"
-    ]
-  },
-  {
     "fileName": "batterymotiondetector-51230002.ota",
     "fileVersion": 1361248258,
     "fileSize": 190718,
@@ -8964,5 +8951,18 @@
     "sha512": "450b0626a371088202fc87c16f4e9c58328377f53853ebe8e25aae3cd7609b26da87559620a07f85b56212df52184513ea80190ec9e2020566874b9af92849e7",
     "otaHeaderString": "Telink OTA Sample Usage",
     "releaseNotes": "1. Improve the energy consumption report in Home Assistant system."
+  },
+  {
+    "fileName": "6565-0391-10193001-tuya_thermostat_zrd.zigbee",
+    "fileVersion": 270086145,
+    "fileSize": 255410,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-0391-10193001-tuya_thermostat_zrd.zigbee",
+    "imageType": 913,
+    "manufacturerCode": 25957,
+    "sha512": "6eb36d3976173b971e93ccf09f4377e0d20670e06e148b19c19113488484efebf97737c8a909abf69e97102523cf1a06ad644f5d01491aa2e4a1c05566085321",
+    "otaHeaderString": "",
+    "manufacturerName": [
+      "Slacky-DIY"
+    ]
   }
 ]
