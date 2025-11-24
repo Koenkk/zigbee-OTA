@@ -48,9 +48,9 @@
     "devDependencies": {
         "@actions/core": "^1.11.1",
         "@actions/github": "^6.0.1",
-        "@biomejs/biome": "^2.3.4",
+        "@biomejs/biome": "^2.3.7",
         "@octokit/rest": "^22.0.1",
-        "@types/node": "^24.10.0",
+        "@types/node": "^24.10.1",
         "@vitest/coverage-v8": "^3.2.4",
         "typescript": "^5.9.3",
         "vitest": "^3.2.4"
