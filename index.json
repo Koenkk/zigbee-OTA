@@ -8695,16 +8695,6 @@
     "otaHeaderString": ""
   },
   {
-    "fileName": "SmartCurtainModule_Zigbee_PROD_OTA_V48_v1.00.48.ota",
-    "fileVersion": 48,
-    "fileSize": 169730,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/SmartCurtainModule_Zigbee_PROD_OTA_V48_v1.00.48.ota",
-    "imageType": 54186,
-    "manufacturerCode": 4659,
-    "sha512": "e81ab364299e7716ec4e7f75df8a36583593c73a818768094dbda866e2acfabae47dbfda2fd0890e6dc8fcabd7d3d1ce66cebde7cb6c1f7eb09e455c12134f1b",
-    "otaHeaderString": "Telink OTA Sample Usage"
-  },
-  {
     "fileName": "FW_ha_v1.00.86.ota",
     "fileVersion": 86,
     "fileSize": 298162,
@@ -8964,5 +8954,15 @@
     "manufacturerName": [
       "Slacky-DIY"
     ]
+  },
+  {
+    "fileName": "SmartCurtainModule_Zigbee_PROD_OTA_V52_v1.00.52.ota",
+    "fileVersion": 52,
+    "fileSize": 170978,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/SmartCurtainModule_Zigbee_PROD_OTA_V52_v1.00.52.ota",
+    "imageType": 54186,
+    "manufacturerCode": 4659,
+    "sha512": "034fcd45cd1276355c62285f881c010e155734082e789ee667d1d17b855a692d329352b73bd011842ca39defdca3a7a8b5fa7edd0cebb1dc0c50c098b48147a7",
+    "otaHeaderString": "Telink OTA Sample Usage"
   }
 ]
