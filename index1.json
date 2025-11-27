@@ -2133,16 +2133,6 @@
     "releaseNotes": "1. Support maximum 30 groups\r\n2. Enable the watchdog\r\n3. Set the Tx power to 9.8dB\r\n4. For Filament dimmable bulbs only, set the minimum level to 3%(according to APP) = the minimum PWM duty cycle is 15/255"
   },
   {
-    "fileName": "bl702_Dual_plug_v1.00.36.ota",
-    "fileVersion": 36,
-    "fileSize": 285610,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/bl702_Dual_plug_v1.00.36.ota",
-    "imageType": 54197,
-    "manufacturerCode": 5127,
-    "sha512": "da2f710777f62b72e6fb28cadcc317d70f1bd68a41ef9c65390cb67cf91af5c8128f942f24881b13498148d512f7e0025126af00392dadc283ed81025569338a",
-    "otaHeaderString": "temp_humi_sensor"
-  },
-  {
     "fileName": "1021-000f-004145ff-NLL.zigbee",
     "fileVersion": 4277759,
     "fileSize": 254391,
@@ -2835,5 +2825,15 @@
     "manufacturerCode": 4659,
     "sha512": "e81ab364299e7716ec4e7f75df8a36583593c73a818768094dbda866e2acfabae47dbfda2fd0890e6dc8fcabd7d3d1ce66cebde7cb6c1f7eb09e455c12134f1b",
     "otaHeaderString": "Telink OTA Sample Usage"
+  },
+  {
+    "fileName": "bl702_Dual_plug_v1.00.38.ota",
+    "fileVersion": 38,
+    "fileSize": 286202,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/bl702_Dual_plug_v1.00.38.ota",
+    "imageType": 54197,
+    "manufacturerCode": 5127,
+    "sha512": "42541b4f77769aa9ea23fa62db5b22dd7dee3ff85e74b27634ac35b7ff639225e50a75713e73d36ecfeebbd5305ed013176a7f62bcde7bc65415c3b64d50fc3d",
+    "otaHeaderString": "temp_humi_sensor"
   }
 ]

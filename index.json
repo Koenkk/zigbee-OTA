@@ -7864,16 +7864,6 @@
     "releaseNotes": "Date: Friday, 19 September 2025\r\n1.Fix bug network leave related with green power device commission.\r\n2.Fix abnormal reboot caused by network status.\r\n3.Improve scene control in Hue and other system.\r\n44. Upgrade Zigbee stack to latest version 3.7.1.2."
   },
   {
-    "fileName": "bl702_Dual_plug_v1.00.38.ota",
-    "fileVersion": 38,
-    "fileSize": 286202,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/bl702_Dual_plug_v1.00.38.ota",
-    "imageType": 54197,
-    "manufacturerCode": 5127,
-    "sha512": "42541b4f77769aa9ea23fa62db5b22dd7dee3ff85e74b27634ac35b7ff639225e50a75713e73d36ecfeebbd5305ed013176a7f62bcde7bc65415c3b64d50fc3d",
-    "otaHeaderString": "temp_humi_sensor"
-  },
-  {
     "fileName": "1021-0012-00524203-NLT.zigbee",
     "fileVersion": 5390851,
     "fileSize": 205863,
@@ -8964,5 +8954,15 @@
     "manufacturerCode": 4659,
     "sha512": "034fcd45cd1276355c62285f881c010e155734082e789ee667d1d17b855a692d329352b73bd011842ca39defdca3a7a8b5fa7edd0cebb1dc0c50c098b48147a7",
     "otaHeaderString": "Telink OTA Sample Usage"
+  },
+  {
+    "fileName": "bl702_Dual_plug_1.00.42.ota",
+    "fileVersion": 42,
+    "fileSize": 286614,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/bl702_Dual_plug_1.00.42.ota",
+    "imageType": 54197,
+    "manufacturerCode": 5127,
+    "sha512": "c3e88377ac23f9eb87b316fd7c94bb07e20762421c638e1804c14f91b3f416c1da83a78e50d3d7b66b0bd0e606c01ad8527d94ffa680afbda104be0eadb6ef03",
+    "otaHeaderString": "temp_humi_sensor"
   }
 ]
