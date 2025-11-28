@@ -7677,7 +7677,8 @@
     "imageType": 274,
     "manufacturerCode": 4107,
     "sha512": "69f366711806331acc0dbc0a944f193feff9494c39854e4394bfdd6923a6b00698238c8046ab4843e65279365a7058a585126c47cac4bdc36d040d4a28f4eb23",
-    "otaHeaderString": ""
+    "otaHeaderString": "",
+    "minFileVersion": 16787714
   },
   {
     "fileName": "100B-0114-01002702-ConfLightBLE-Lamps-EFR32MG21.zigbee",
@@ -7688,7 +7689,8 @@
     "imageType": 276,
     "manufacturerCode": 4107,
     "sha512": "b9f2a30c712c24c421bb33d65f251e84a4e1af0cd24eb34a21b7835c7ed4b359e5d5af3366fca3c3c216566d6514d7ef53e0b8a34b135172245ec9648491fb03",
-    "otaHeaderString": ""
+    "otaHeaderString": "",
+    "minFileVersion": 16786690
   },
   {
     "fileName": "100B-0115-01001502-SmartPlug-EFR32MG13.zigbee",
@@ -7699,7 +7701,8 @@
     "imageType": 277,
     "manufacturerCode": 4107,
     "sha512": "49197d65bb9595fbd4a81b52ad1e858d092a41a26c257f484d93a2d828cddbe954b02204522c0861330ec19fec0549d7d3f2146c0f99b6bd77791dc654faa0c2",
-    "otaHeaderString": ""
+    "otaHeaderString": "",
+    "minFileVersion": 16782338
   },
   {
     "fileName": "100B-011A-01001002-SmartPlug-EFR32MG21.zigbee",
@@ -7710,7 +7713,8 @@
     "imageType": 282,
     "manufacturerCode": 4107,
     "sha512": "9e54f10094bde076bfae5078a6abec604acb46920a26bb683801fec43afeca013b66992f6c814c9f0de558f9ffffe8f151cf8170e997662285472fd1db23b2c9",
-    "otaHeaderString": ""
+    "otaHeaderString": "",
+    "minFileVersion": 16781060
   },
   {
     "fileName": "100B-011D-01002702-ConfLight-ModuLumV2-EFR32MG13.zigbee",
@@ -7721,6 +7725,7 @@
     "imageType": 285,
     "manufacturerCode": 4107,
     "sha512": "c701ac97678f06dafe17b7b52c000d31bb70aff9d01569bfedf37cf58d3c03bbb53d5d48e238871273de56aa5f628edaeebeb9f44b0cd760a376ac0d13eb6833",
+    "minFileVersion": 16786692,
     "otaHeaderString": ""
   },
   {
@@ -7732,7 +7737,8 @@
     "imageType": 286,
     "manufacturerCode": 4107,
     "sha512": "9a8315336f4f321f60ffbde051d48c32d9ea02b4f890523c6ce8beab3bb26ab96b7efb91184a366e47e4ef8b608704b1292d5b50302c859b6cd0c28b823b4c09",
-    "otaHeaderString": ""
+    "otaHeaderString": "",
+    "minFileVersion": 16786436
   },
   {
     "fileName": "100B-011F-01002604-ConfLightBLE-ModuLumV3-EFR32MG21.zigbee",
