@@ -8974,5 +8974,18 @@
     "manufacturerCode": 4129,
     "sha512": "1407a322c5a1f290125150442d3b4254ea93af380d2868c31cd3ccf89cf57d63ee0ca333f253a6f3b3dc0de5412adc78e3aa203c7fbf34c24f4ddc4ddd777789",
     "otaHeaderString": "                                "
+  },
+  {
+    "fileName": "6565-031f-10053001-tuya_plug_ts011f_zrd.zigbee",
+    "fileVersion": 268775425,
+    "fileSize": 205250,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-031f-10053001-tuya_plug_ts011f_zrd.zigbee",
+    "imageType": 799,
+    "manufacturerCode": 25957,
+    "sha512": "9a4906809d7e32c223e2b42d37f98c27b189076419740af46ef290628b2b6d0c1cb538e27d02e98d8d14f2a78efda87bcf313ca6f4636b2228e81b2c26e6635e",
+    "otaHeaderString": "Slacky-DIY OTA",
+    "manufacturerName": [
+      "Slacky-DIY"
+    ]
   }
 ]
