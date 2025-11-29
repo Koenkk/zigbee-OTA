@@ -2716,16 +2716,6 @@
     "otaHeaderString": "VZM30-SN_OnOff"
   },
   {
-    "fileName": "trvzb_v1.3.0.ota",
-    "fileVersion": 4864,
-    "fileSize": 329856,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Sonoff/trvzb_v1.3.0.ota",
-    "imageType": 8199,
-    "manufacturerCode": 4742,
-    "sha512": "9bb3374caba58ac72d4ffb1f601a4b35ec7ffa74a45bb03ff9892919929399ea4484fafd681f27368646650929dd7a56c6bf230c4d39971658d21b89c382073e",
-    "otaHeaderString": "vers:00001300,00001204\n"
-  },
-  {
     "fileName": "DIO300Z_OTA_ENC_V5_ENC.ota",
     "fileVersion": 5,
     "fileSize": 188702,
@@ -2835,5 +2825,15 @@
     "manufacturerCode": 5127,
     "sha512": "42541b4f77769aa9ea23fa62db5b22dd7dee3ff85e74b27634ac35b7ff639225e50a75713e73d36ecfeebbd5305ed013176a7f62bcde7bc65415c3b64d50fc3d",
     "otaHeaderString": "temp_humi_sensor"
+  },
+  {
+    "fileName": "trvzb_v1.4.0.ota",
+    "fileVersion": 5120,
+    "fileSize": 332084,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Sonoff/trvzb_v1.4.0.ota",
+    "imageType": 8199,
+    "manufacturerCode": 4742,
+    "sha512": "c1001ffc0d3f38ac1b92e9d113e47ada6aa673671962eb03c11ecb7bc4ab5ea8a3f7c2d1d37095c7749a996c4eb381da0bb120be736d6757da6fa9e396f4522b",
+    "otaHeaderString": "vers:00001400,00001208\n"
   }
 ]
