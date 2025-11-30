@@ -8571,17 +8571,6 @@
     "otaHeaderString": "Aqara OTA Image"
   },
   {
-    "fileName": "lumi.sensor_smoke.acn03.ota",
-    "fileVersion": 21,
-    "fileSize": 226126,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/lumi.sensor_smoke.acn03.ota",
-    "imageType": 9728,
-    "manufacturerCode": 4447,
-    "sha512": "f18deefc12bf8acd3994f7dffe38cb0e3b0e04547980fe1d02206070ec277704006adde5eb0f64ccc014754a23f25446cf1e41b983715c44292dd0ff3fc8a4b6",
-    "otaHeaderString": "OM15082-WIN-JN5180--ENCRYPTED000",
-    "modelId": "lumi.sensor_smoke.acn03"
-  },
-  {
     "fileName": "MICROMODULE_DIMMER_0x21086A30_PROD.fw",
     "fileVersion": 554199600,
     "fileSize": 255626,
