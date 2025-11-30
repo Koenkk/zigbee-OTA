@@ -8601,6 +8601,7 @@
     "manufacturerCode": 4617,
     "sha512": "2fce90ac4a558e40e13ecf84c0b8ec427d37ce7dd343954da593a5b1bb5de9f60ef251443e98f9ac002b13ce9cdd89ec55b4548ba7cd472fbf9a618f7484acc1",
     "otaHeaderString": "TRV_GEN2_DUAL",
+    "modelId": "RBSH-TRV1-ZB-EU",
     "releaseNotes": "New heating algorithm (like that used on the non-matter radiator thermostat II since November 2024)"
   },
   {
