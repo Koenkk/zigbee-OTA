@@ -7589,16 +7589,6 @@
     "otaHeaderString": "EBL NikoSwitch"
   },
   {
-    "fileName": "SmartPlug_Zigbee_PROD_OTA_V98_v1.00.98.ota",
-    "fileVersion": 268513378,
-    "fileSize": 195586,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/SmartPlug_Zigbee_PROD_OTA_V98_v1.00.98.ota",
-    "imageType": 54182,
-    "manufacturerCode": 4659,
-    "sha512": "3f1424510f2f63ea177067706b962cd96258b7c854fa25cee63ec63d448942358231026222b3c29b4bc30ddc848ca1350ff1ff92c025a9a0100799e2d576dc99",
-    "otaHeaderString": "Telink OTA Sample Usage"
-  },
-  {
     "fileName": "Smart_Watering_Kit_PROD_OTA_V45_v1.00.45.ota",
     "fileVersion": 45,
     "fileSize": 151762,
@@ -8977,5 +8967,15 @@
     "manufacturerName": [
       "Slacky-DIY"
     ]
+  },
+  {
+    "fileName": "SmartPlug_Zigbee_PROD_OTA_V101_1.01.01.ota",
+    "fileVersion": 268513381,
+    "fileSize": 198146,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/SmartPlug_Zigbee_PROD_OTA_V101_1.01.01.ota",
+    "imageType": 54182,
+    "manufacturerCode": 4659,
+    "sha512": "440d4aa1a6984a5fb899019661db40ab9edf6f6d59f936d45a4cf670c677d64b1ad6fc2f7639f72274f1bd4d62c2150d9365c6d05ea7d80f6c4b6cbaa55b28e5",
+    "otaHeaderString": "Telink OTA Sample Usage"
   }
 ]
