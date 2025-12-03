@@ -5320,16 +5320,6 @@
     "otaHeaderString": "ota-file-test"
   },
   {
-    "fileName": "zbminir2_v1.0.4.ota",
-    "fileVersion": 4100,
-    "fileSize": 276694,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/zbminir2_v1.0.4.ota",
-    "imageType": 8,
-    "manufacturerCode": 4742,
-    "sha512": "66b781d8aa2bf5f6cdae2679382bce99b73887f1588008c7d43b9a4ff5ba284463206354b4b8dc01b0a916887c05619350b73ae68c4d1db7a1c76afc1d9975f3",
-    "otaHeaderString": "ota-file-test"
-  },
-  {
     "fileName": "zbswv_v1.0.4.ota",
     "fileVersion": 4100,
     "fileSize": 272354,
@@ -8977,5 +8967,15 @@
     "manufacturerCode": 4659,
     "sha512": "440d4aa1a6984a5fb899019661db40ab9edf6f6d59f936d45a4cf670c677d64b1ad6fc2f7639f72274f1bd4d62c2150d9365c6d05ea7d80f6c4b6cbaa55b28e5",
     "otaHeaderString": "Telink OTA Sample Usage"
+  },
+  {
+    "fileName": "zbminir2_v1.0.8.ota",
+    "fileVersion": 4104,
+    "fileSize": 277180,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/zbminir2_v1.0.8.ota",
+    "imageType": 8,
+    "manufacturerCode": 4742,
+    "sha512": "051912851dffed4b49d3caece8d67b0fec9987dcbdf4d6db45c4e23f4ea0c9be867491758af12f153bc9672d4205129a9270be79e781d150734be295c44971bf",
+    "otaHeaderString": "ota-file-test"
   }
 ]
