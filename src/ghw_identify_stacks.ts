@@ -6,11 +6,11 @@ import type {Octokit} from "@octokit/rest";
 
 import {BASE_INDEX_MANIFEST_FILENAME, BASE_REPO_URL, parseImageHeader, REPO_BRANCH, readManifest, UPGRADE_FILE_IDENTIFIER} from "./common.js";
 
-enum ZigBeeStackVersion {
-    ZigBee2006 = 0x0000,
-    ZigBee2007 = 0x0001,
-    ZigBeePro = 0x0002,
-    ZigBeeIP = 0x0003,
+enum ZigbeeStackVersion {
+    Zigbee2006 = 0x0000,
+    Zigbee2007 = 0x0001,
+    ZigbeePro = 0x0002,
+    ZigbeeIP = 0x0003,
 }
 
 type FirmwareStack = {
@@ -25,7 +25,7 @@ type FirmwareStack = {
         | "ZBOSS" // https://github.com/TexasInstruments/simplelink-lowpower-f3-sdk or https://github.com/nrfconnect/ncs-zigbee/ or https://github.com/nrfconnect/ncs-zigbee-r22/ or https://github.com/espressif/esp-zigbee-sdk
         | "Unknown";
     stackDetails: string;
-    /** @see ZigBeeStackVersion */
+    /** @see ZigbeeStackVersion */
     zigbeeStackVersion: string;
 };
 
@@ -205,7 +205,7 @@ export function identifyStacks(github: Octokit, core: typeof CoreApi, context: C
                 // modelId: meta.modelId,
                 stack,
                 stackDetails,
-                zigbeeStackVersion: ZigBeeStackVersion[header.zigbeeStackVersion],
+                zigbeeStackVersion: ZigbeeStackVersion[header.zigbeeStackVersion],
             });
         }
 

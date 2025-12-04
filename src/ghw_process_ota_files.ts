@@ -149,7 +149,11 @@ export async function processOtaFiles(
             const statusToBase = getParsedImageStatus(parsedImage, baseMatch);
 
             // Manufacturer specific checks
-            if (parsedImage.manufacturerCode === GLEDOPTO_MANUFACTURER_CODE && !fileExtraMetas.modelId) {
+            if (
+                parsedImage.manufacturerCode === GLEDOPTO_MANUFACTURER_CODE &&
+                !fileExtraMetas.modelId &&
+                (fileExtraMetas.manufacturerName == null || fileExtraMetas.manufacturerName.some((name) => name.toLowerCase().includes("gledopto")))
+            ) {
                 // Gledopto uses the same imageType for every device, force modelId to be present.
                 // https://github.com/Koenkk/zigbee-OTA/pull/864
                 throw new Error("Gledopto image requires extra `modelId` metadata");

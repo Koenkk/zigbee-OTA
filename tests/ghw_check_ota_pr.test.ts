@@ -634,6 +634,8 @@ Text after end tag`);
         ["", IMAGE_TUYA, "Tuya image requires extra `manufacturerName` metadata"],
         ['"modelId": "GL-C-008"', IMAGE_GLEDOPTO, undefined],
         ["", IMAGE_GLEDOPTO, "Gledopto image requires extra `modelId` metadata"],
+        ['"manufacturerName": ["GleDopto"]', IMAGE_GLEDOPTO, "Gledopto image requires extra `modelId` metadata"],
+        ['"manufacturerName": ["OtherManuf"]', IMAGE_GLEDOPTO, undefined],
     ])("manufacturer specific checks", async (body: string, image: string, error: string | undefined) => {
         filePaths = [useImage(image)];
         const newContext = withBody(`\`\`\`json
