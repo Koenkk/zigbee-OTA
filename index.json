@@ -9005,5 +9005,18 @@
       "ZBeacon"
     ],
     "modelId": "MC-z"
+  },
+  {
+    "fileName": "6565-0215-10053001-ts0201_tz3000_zed.zigbee",
+    "fileVersion": 268775425,
+    "fileSize": 148850,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-0215-10053001-ts0201_tz3000_zed.zigbee",
+    "imageType": 533,
+    "manufacturerCode": 25957,
+    "sha512": "17e73bf6ae0ebf7f4b273d1a20c9a2b3f03950fb968f6fe23f338c052257984ffcb14645920c34cc823bd8adc4bfeace213615e024f60b351ab19eae4133ee57",
+    "otaHeaderString": "Slacky-DIY OTA",
+    "manufacturerName": [
+      "Slacky-DIY"
+    ]
   }
 ]
