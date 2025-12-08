@@ -9018,5 +9018,15 @@
     "manufacturerName": [
       "Slacky-DIY"
     ]
+  },
+  {
+    "fileName": "Bituo_ZS2S_signing_app14.ota",
+    "fileVersion": 14,
+    "fileSize": 223296,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/BITUOTECHNIK/Bituo_ZS2S_signing_app14.ota",
+    "imageType": 34,
+    "manufacturerCode": 4630,
+    "sha512": "f4074fe1b26eba8437d7eabfe76f1f84cdb93dbb1a0329c7ff993ac67d1cf230202533c21d4c853ce9be2dc8b86152a0b19999f46d8b60afb62b4bd8cd4b47fe",
+    "otaHeaderString": ""
   }
 ]
