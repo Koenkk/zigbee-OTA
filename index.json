@@ -9018,5 +9018,15 @@
     "manufacturerCode": 5127,
     "sha512": "5245f6f61cc0e6179b7913bc2b485cd83e74e9b9eed02460609ce35638db9a41b20a21427ad1283c8932c98e042736e1cfd870c5b2aabc02cfcca3bd12606846",
     "otaHeaderString": "temp_humi_sensor"
+  },
+  {
+    "fileName": "Bituo_ZS2S_signing_app14.ota",
+    "fileVersion": 14,
+    "fileSize": 223296,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/BituoTechnik/Bituo_ZS2S_signing_app14.ota",
+    "imageType": 34,
+    "manufacturerCode": 4630,
+    "sha512": "f4074fe1b26eba8437d7eabfe76f1f84cdb93dbb1a0329c7ff993ac67d1cf230202533c21d4c853ce9be2dc8b86152a0b19999f46d8b60afb62b4bd8cd4b47fe",
+    "otaHeaderString": ""
   }
 ]
