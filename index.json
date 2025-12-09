@@ -7449,16 +7449,6 @@
     "modelId": "TS011F"
   },
   {
-    "fileName": "bl702_plug_gen3_uk_v1.00.33.ota",
-    "fileVersion": 33,
-    "fileSize": 279686,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/bl702_plug_gen3_uk_v1.00.33.ota",
-    "imageType": 54196,
-    "manufacturerCode": 5127,
-    "sha512": "0baf2249228c0a0558efd99adffec9622b78c07d0783716b475916e4c328ee2345f4f4cc75402935978b629c2bb02a642d2c22cbdc7fe60357eedbb385cf608d",
-    "otaHeaderString": "temp_humi_sensor"
-  },
-  {
     "fileName": "Button_PROD_OTA_V47_v1.00.47.ota",
     "fileVersion": 47,
     "fileSize": 145986,
@@ -9018,5 +9008,15 @@
     "manufacturerName": [
       "Slacky-DIY"
     ]
+  },
+  {
+    "fileName": "702usaplugv39.ota",
+    "fileVersion": 39,
+    "fileSize": 281578,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/702usaplugv39.ota",
+    "imageType": 54196,
+    "manufacturerCode": 5127,
+    "sha512": "5245f6f61cc0e6179b7913bc2b485cd83e74e9b9eed02460609ce35638db9a41b20a21427ad1283c8932c98e042736e1cfd870c5b2aabc02cfcca3bd12606846",
+    "otaHeaderString": "temp_humi_sensor"
   }
 ]

@@ -2968,5 +2968,15 @@
       "Sonoff"
     ],
     "modelId": "ZG303Z-z"
+  },
+  {
+    "fileName": "bl702_plug_gen3_uk_v1.00.33.ota",
+    "fileVersion": 33,
+    "fileSize": 279686,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/bl702_plug_gen3_uk_v1.00.33.ota",
+    "imageType": 54196,
+    "manufacturerCode": 5127,
+    "sha512": "0baf2249228c0a0558efd99adffec9622b78c07d0783716b475916e4c328ee2345f4f4cc75402935978b629c2bb02a642d2c22cbdc7fe60357eedbb385cf608d",
+    "otaHeaderString": "temp_humi_sensor"
   }
 ]
