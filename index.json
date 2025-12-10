@@ -8670,19 +8670,6 @@
     "otaHeaderString": "                                "
   },
   {
-    "fileName": "6565-031f-10053001-tuya_plug_ts011f_zrd.zigbee",
-    "fileVersion": 268775425,
-    "fileSize": 205250,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-031f-10053001-tuya_plug_ts011f_zrd.zigbee",
-    "imageType": 799,
-    "manufacturerCode": 25957,
-    "sha512": "9a4906809d7e32c223e2b42d37f98c27b189076419740af46ef290628b2b6d0c1cb538e27d02e98d8d14f2a78efda87bcf313ca6f4636b2228e81b2c26e6635e",
-    "otaHeaderString": "Slacky-DIY OTA",
-    "manufacturerName": [
-      "Slacky-DIY"
-    ]
-  },
-  {
     "fileName": "SmartPlug_Zigbee_PROD_OTA_V101_1.01.01.ota",
     "fileVersion": 268513381,
     "fileSize": 198146,
@@ -9028,5 +9015,18 @@
       "ZBeacon"
     ],
     "modelId": "MC-z"
+  },
+  {
+    "fileName": "6565-031f-10063001-tuya_plug_ts011f_zrd.zigbee",
+    "fileVersion": 268840961,
+    "fileSize": 207522,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-031f-10063001-tuya_plug_ts011f_zrd.zigbee",
+    "imageType": 799,
+    "manufacturerCode": 25957,
+    "sha512": "592672563eb28beb4d9cce50eddb5b06d2017b53a06e79ee42a471a6e7b878c298f7449b977e08a7f0bf13ee2f2a46597a66e77f0ad61d7f5b56a288af87b372",
+    "otaHeaderString": "Slacky-DIY OTA",
+    "manufacturerName": [
+      "Slacky-DIY"
+    ]
   }
 ]
