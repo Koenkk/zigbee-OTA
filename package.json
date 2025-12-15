@@ -46,7 +46,7 @@
         "tar": "^7.5.2"
     },
     "devDependencies": {
-        "@actions/core": "^1.11.1",
+        "@actions/core": "^2.0.1",
         "@actions/github": "^6.0.1",
         "@biomejs/biome": "^2.3.8",
         "@octokit/rest": "^22.0.1",
