@@ -8703,16 +8703,6 @@
     ]
   },
   {
-    "fileName": "702usaplugv39.ota",
-    "fileVersion": 39,
-    "fileSize": 281578,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/702usaplugv39.ota",
-    "imageType": 54196,
-    "manufacturerCode": 5127,
-    "sha512": "5245f6f61cc0e6179b7913bc2b485cd83e74e9b9eed02460609ce35638db9a41b20a21427ad1283c8932c98e042736e1cfd870c5b2aabc02cfcca3bd12606846",
-    "otaHeaderString": "temp_humi_sensor"
-  },
-  {
     "fileName": "Bituo_ZS2S_signing_app14.ota",
     "fileVersion": 14,
     "fileSize": 223296,
@@ -9056,5 +9046,15 @@
       "Third Reality, Inc"
     ],
     "modelId": "3RSPU01080Z"
+  },
+  {
+    "fileName": "bl702_plug_gen3_uk_v1.00.44.ota",
+    "fileVersion": 44,
+    "fileSize": 281654,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/bl702_plug_gen3_uk_v1.00.44.ota",
+    "imageType": 54196,
+    "manufacturerCode": 5127,
+    "sha512": "a25edda7c10d2268c18c276019157dc5b40b8e86af81b8c0564e542734f0123c0e0da1e48662215fe65373921f0b6bda1712f5999e90d77507e0829b95deafef",
+    "otaHeaderString": "temp_humi_sensor"
   }
 ]
