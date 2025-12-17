@@ -812,16 +812,6 @@
     "otaHeaderString": "EBL D581_ZG"
   },
   {
-    "fileName": "zbminir2_v1.0.2.ota",
-    "fileVersion": 4098,
-    "fileSize": 275788,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Sonoff/zbminir2_v1.0.2.ota",
-    "imageType": 8,
-    "manufacturerCode": 4742,
-    "sha512": "b5c5a93ab84607292248e5262ccf0b8c250326d6ed5395c0d8818697b4286df5d85567a63bad7734a959bbaf58b83f9289ff027783284b11de5dfea8a48921ba",
-    "otaHeaderString": "ota-file-test"
-  },
-  {
     "fileName": "zb_wb_msw4_mgm21_063.ota",
     "fileVersion": 63,
     "fileSize": 267118,
@@ -2413,149 +2403,6 @@
     "otaHeaderString": "nodon_sin1_stm32_ota"
   },
   {
-    "fileName": "1141-0202-01283001-ZCGG1.zigbee",
-    "fileVersion": 19410945,
-    "fileSize": 132578,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/pvvx/1141-0202-01283001-ZCGG1.zigbee",
-    "imageType": 514,
-    "manufacturerCode": 4417,
-    "sha512": "96347f21c43b1362f0d7adedc241eee25d9369d9e53d9315d726dc56df39d4aca922acf1ccf25c1f92adae986abb08c24f9add99bfe332ffcf2893d8467498c2",
-    "otaHeaderString": "ZigbeeTLc OTA",
-    "modelId": "CGG1-z"
-  },
-  {
-    "fileName": "1141-0206-01283001-ZCGDK2.zigbee",
-    "fileVersion": 19410945,
-    "fileSize": 131426,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/pvvx/1141-0206-01283001-ZCGDK2.zigbee",
-    "imageType": 518,
-    "manufacturerCode": 4417,
-    "sha512": "55c8dadf222532b6b8f24fa88fe1085320e233baae8747f25330d2f8438e393909284c864c009b79b3dc718cb5bce40c51d4ca95b24a638b919cf633d1d97a74",
-    "otaHeaderString": "ZigbeeTLc OTA",
-    "modelId": "CGDK2-z"
-  },
-  {
-    "fileName": "1141-0207-01283001-ZCGG1N.zigbee",
-    "fileVersion": 19410945,
-    "fileSize": 132082,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/pvvx/1141-0207-01283001-ZCGG1N.zigbee",
-    "imageType": 519,
-    "manufacturerCode": 4417,
-    "sha512": "d06de24e489b860eaa7bd79e61f355e0759d3ea47a5c4aa279cb58a0e7eb382a6906440bb7364cd1675db637727d06985e50f6417c5fe4163b31b5eba03d2151",
-    "otaHeaderString": "ZigbeeTLc OTA",
-    "modelId": "CGG1N-z"
-  },
-  {
-    "fileName": "1141-020a-01283001-Z03MMC.zigbee",
-    "fileVersion": 19410945,
-    "fileSize": 131426,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/pvvx/1141-020a-01283001-Z03MMC.zigbee",
-    "imageType": 522,
-    "manufacturerCode": 4417,
-    "sha512": "0ad4a1adc6a2867a1deec3a591e22c9b88999bc554a60d3f0d80a3ab72ca2ea289cb10f44e39379ec5853d8cadedc4fcb2a98ca886161642865f2dee8f15f7bc",
-    "otaHeaderString": "ZigbeeTLc OTA",
-    "modelId": "LYWSD03MMC-z"
-  },
-  {
-    "fileName": "1141-020b-01283001-ZMHOC122.zigbee",
-    "fileVersion": 19410945,
-    "fileSize": 130898,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/pvvx/1141-020b-01283001-ZMHOC122.zigbee",
-    "imageType": 523,
-    "manufacturerCode": 4417,
-    "sha512": "d21e998a538c386243c8c276c3b74bfb6abd00e5c1758f1a07fee73ea019e8e5e188005f62ccdb72cf69019212151246f4d4e86cc97ed21005f1c04b6f260c46",
-    "otaHeaderString": "ZigbeeTLc OTA",
-    "modelId": "MHO-C122-z"
-  },
-  {
-    "fileName": "1141-020d-01283001-Z06MMC.zigbee",
-    "fileVersion": 19410945,
-    "fileSize": 130114,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/pvvx/1141-020d-01283001-Z06MMC.zigbee",
-    "imageType": 525,
-    "manufacturerCode": 4417,
-    "sha512": "77d824517a97c43ffb62067401afc8f4b93012db6d9f2f17bed5cdcc59e10650cc254643e79d771966b10963315a5a4649e4bf03c84f190822d880bc714098af",
-    "otaHeaderString": "ZigbeeTLc OTA",
-    "modelId": "MJWSD06MMC-z"
-  },
-  {
-    "fileName": "1141-0211-01283001-ZTS0201Z3000.zigbee",
-    "fileVersion": 19410945,
-    "fileSize": 130098,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/pvvx/1141-0211-01283001-ZTS0201Z3000.zigbee",
-    "imageType": 529,
-    "manufacturerCode": 4417,
-    "sha512": "3592631d1e9320b8d7feea1af3f05d466c3ebaa0c0a76806481467d5b0fee635b79a60b41c2a685379953f561bb1612cc12b371be6aac9542e361bab6deddf03",
-    "otaHeaderString": "ZigbeeTLc OTA",
-    "modelId": "TS0201-z"
-  },
-  {
-    "fileName": "1141-0216-01283001-ZTH03Z.zigbee",
-    "fileVersion": 19410945,
-    "fileSize": 128354,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/pvvx/1141-0216-01283001-ZTH03Z.zigbee",
-    "imageType": 534,
-    "manufacturerCode": 4417,
-    "sha512": "ef8cb05a303f5eec3617d890c237bc1ad1b0a861b20354a57b8be390e719d002996186d1876c290cb78c9bb5bff31123d0f737602c2f239a83fd65b2e595a1f8",
-    "otaHeaderString": "ZigbeeTLc OTA",
-    "modelId": "ZTH03-z"
-  },
-  {
-    "fileName": "1141-021b-01283001-ZTH01Z.zigbee",
-    "fileVersion": 19410945,
-    "fileSize": 128034,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/pvvx/1141-021b-01283001-ZTH01Z.zigbee",
-    "imageType": 539,
-    "manufacturerCode": 4417,
-    "sha512": "907f7dc1e2deeb634f6061462129afc18b800857d55405d42c9ad64014f5ec025d15c2bfdfc6c52be4b146ea881a6ae802fc92e4d401049c613b2d9ef297ef91",
-    "otaHeaderString": "ZigbeeTLc OTA",
-    "modelId": "ZTH01-z"
-  },
-  {
-    "fileName": "1141-021c-01283001-ZTH02Z.zigbee",
-    "fileVersion": 19410945,
-    "fileSize": 128034,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/pvvx/1141-021c-01283001-ZTH02Z.zigbee",
-    "imageType": 540,
-    "manufacturerCode": 4417,
-    "sha512": "1b1e5a6f0dc820e8fd14d7da34c67cacd99d4b89813165fb59f8985d4f781fc4499b19fa4ef885295e29806e6116c2c513e6e84a6e9066e8225c64f16da7c7ce",
-    "otaHeaderString": "ZigbeeTLc OTA",
-    "modelId": "ZTH02-z"
-  },
-  {
-    "fileName": "1141-021e-01283001-TH03Z.zigbee",
-    "fileVersion": 19410945,
-    "fileSize": 132834,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/pvvx/1141-021e-01283001-TH03Z.zigbee",
-    "imageType": 542,
-    "manufacturerCode": 4417,
-    "sha512": "a444208dda17778850feb71b92e3c37d02b85831b295e9f24eecaf179d8617ecb862073caf766a5da930bcb91f41c170ee176729e8f11a0b96cb4416f5b17dc6",
-    "otaHeaderString": "ZigbeeTLc OTA",
-    "modelId": "TH03-z"
-  },
-  {
-    "fileName": "1141-021f-01283001-LKTMZL02Z.zigbee",
-    "fileVersion": 19410945,
-    "fileSize": 129874,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/pvvx/1141-021f-01283001-LKTMZL02Z.zigbee",
-    "imageType": 543,
-    "manufacturerCode": 4417,
-    "sha512": "73678c278a4f825348ad75e2218cf4cfed4a60181c11f31bc3788f5a19ae7745b23ca2ae17b78eabfae3720820c2b4d796c180f5b9aab408ae47307af662c47a",
-    "otaHeaderString": "ZigbeeTLc OTA",
-    "modelId": "LKTMZL02-z"
-  },
-  {
-    "fileName": "1141-0226-01283001-ZYZTH01.zigbee",
-    "fileVersion": 19410945,
-    "fileSize": 127810,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/pvvx/1141-0226-01283001-ZYZTH01.zigbee",
-    "imageType": 550,
-    "manufacturerCode": 4417,
-    "sha512": "6f5b4238758a0c99ca908a17729278b1cc2b378f8338af04456092ff8fddeb4fe42afaea1281151a612a5700e92467ba37f52adc24172b75710fc20640c047e8",
-    "otaHeaderString": "ZigbeeTLc OTA",
-    "modelId": "ZY-ZTH01-z"
-  },
-  {
     "fileName": "MICROMODULE_DIMMER_0x21076A30_PROD.fw",
     "fileVersion": 554134064,
     "fileSize": 255570,
@@ -2845,5 +2692,332 @@
     "manufacturerCode": 4659,
     "sha512": "3f1424510f2f63ea177067706b962cd96258b7c854fa25cee63ec63d448942358231026222b3c29b4bc30ddc848ca1350ff1ff92c025a9a0100799e2d576dc99",
     "otaHeaderString": "Telink OTA Sample Usage"
+  },
+  {
+    "fileName": "zbminir2_v1.0.4.ota",
+    "fileVersion": 4100,
+    "fileSize": 276694,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Sonoff/zbminir2_v1.0.4.ota",
+    "imageType": 8,
+    "manufacturerCode": 4742,
+    "sha512": "66b781d8aa2bf5f6cdae2679382bce99b73887f1588008c7d43b9a4ff5ba284463206354b4b8dc01b0a916887c05619350b73ae68c4d1db7a1c76afc1d9975f3",
+    "otaHeaderString": "ota-file-test"
+  },
+  {
+    "fileName": "1141-0201-01313001-ZMHOC401.zigbee",
+    "fileVersion": 20000769,
+    "fileSize": 134450,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/pvvx/1141-0201-01313001-ZMHOC401.zigbee",
+    "imageType": 513,
+    "manufacturerCode": 4417,
+    "sha512": "39ca425a5c33cf791acfdefe2f0e046ad284f591b0c6117bbd8b4042044775f28891cc939b4b09870d6974a48beeabc74e1e2cbe11b6e0e9b6cadec55aab7889",
+    "otaHeaderString": "MiaoMiaoCe:MHO-C401-z",
+    "manufacturerName": [
+      "MiaoMiaoCe"
+    ],
+    "modelId": "MHO-C401-z"
+  },
+  {
+    "fileName": "1141-0202-01313001-ZCGG1.zigbee",
+    "fileVersion": 20000769,
+    "fileSize": 134882,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/pvvx/1141-0202-01313001-ZCGG1.zigbee",
+    "imageType": 514,
+    "manufacturerCode": 4417,
+    "sha512": "a5093ac69108a4e1901a2d4617096a5e0da62b83cd33978cee854203a4b1de4168f030377bf62797ce86e224edb631326d73db164dd95a6aadb97954ea73796f",
+    "otaHeaderString": "Qingping:CGG1-z",
+    "manufacturerName": [
+      "Qingping"
+    ],
+    "modelId": "CGG1-z"
+  },
+  {
+    "fileName": "1141-0206-01313001-ZCGDK2.zigbee",
+    "fileVersion": 20000769,
+    "fileSize": 133730,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/pvvx/1141-0206-01313001-ZCGDK2.zigbee",
+    "imageType": 518,
+    "manufacturerCode": 4417,
+    "sha512": "e3cbb79c45385b6e7eb5f27e980784ba14b25785be08402175d575a2516f949c6d904930711a22abda02c74935b8a1779aa302b1c36afdedc5022a2d14270058",
+    "otaHeaderString": "Qingping:CGDK2-z",
+    "manufacturerName": [
+      "Qingping"
+    ],
+    "modelId": "CGDK2-z"
+  },
+  {
+    "fileName": "1141-0207-01313001-ZCGG1N.zigbee",
+    "fileVersion": 20000769,
+    "fileSize": 134370,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/pvvx/1141-0207-01313001-ZCGG1N.zigbee",
+    "imageType": 519,
+    "manufacturerCode": 4417,
+    "sha512": "f2c522c3d0439b1ef1d1550be395c65c464241cb06e1c4e2ba1b02f9029128987f4339c3ffebec173b7ec0b8654deadad3744dd079306914aa83cdcfb8ca9e95",
+    "otaHeaderString": "Qingping:CGG1N-z",
+    "manufacturerName": [
+      "Qingping"
+    ],
+    "modelId": "CGG1N-z"
+  },
+  {
+    "fileName": "1141-0208-01313001-ZMHOC401N.zigbee",
+    "fileVersion": 20000769,
+    "fileSize": 134034,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/pvvx/1141-0208-01313001-ZMHOC401N.zigbee",
+    "imageType": 520,
+    "manufacturerCode": 4417,
+    "sha512": "853b8ea9a1476794101e7ae626becfe0e8913f135ea2db693191fa0dc06d76dcb25665ce3396a76fb2ae8e8eaf85d9971fe4d444b17eb79f83f28d684ec52dbc",
+    "otaHeaderString": "MiaoMiaoCe:MHO-C401N-z",
+    "manufacturerName": [
+      "MiaoMiaoCe"
+    ],
+    "modelId": "MHO-C401N-z"
+  },
+  {
+    "fileName": "1141-020a-01313001-Z03MMC.zigbee",
+    "fileVersion": 20000769,
+    "fileSize": 134162,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/pvvx/1141-020a-01313001-Z03MMC.zigbee",
+    "imageType": 522,
+    "manufacturerCode": 4417,
+    "sha512": "4654a79a3e556a1397fa9d5041afceb5f76b27a40344e2cf4f5ff4c88ba33c1f75e0daadfa4195fc56c122665784a5bb92dff571042dd2cdfee2f0370a0ad1c0",
+    "otaHeaderString": "Xiaomi:LYWSD03MMC-z",
+    "manufacturerName": [
+      "Xiaomi"
+    ],
+    "modelId": "LYWSD03MMC-z"
+  },
+  {
+    "fileName": "1141-020b-01313001-ZMHOC122.zigbee",
+    "fileVersion": 20000769,
+    "fileSize": 133186,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/pvvx/1141-020b-01313001-ZMHOC122.zigbee",
+    "imageType": 523,
+    "manufacturerCode": 4417,
+    "sha512": "979c810ce1082e758bac4eb162079afc52272c5bc924068d0a4141090997a79595c73f00c52a04db38b2f2b505121df4d8e41c3545cfc1947ae9f840c97ea6b3",
+    "otaHeaderString": "MiaoMiaoCe:MHO-C122-z",
+    "manufacturerName": [
+      "MiaoMiaoCe"
+    ],
+    "modelId": "MHO-C122-z"
+  },
+  {
+    "fileName": "1141-020d-01313001-Z06MMC.zigbee",
+    "fileVersion": 20000769,
+    "fileSize": 132434,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/pvvx/1141-020d-01313001-Z06MMC.zigbee",
+    "imageType": 525,
+    "manufacturerCode": 4417,
+    "sha512": "db920d63f03a3713a0fef4de82f7979b7c631a2a61ee1811bee466b52bd7ad048aef682cfc50d7762da937889b12e9626bad182a723e58188f50fbce9b720fcc",
+    "otaHeaderString": "Xiaomi:MJWSD06MMC-z",
+    "manufacturerName": [
+      "Xiaomi"
+    ],
+    "modelId": "MJWSD06MMC-z"
+  },
+  {
+    "fileName": "1141-0211-01313001-ZTS0201Z3000.zigbee",
+    "fileVersion": 20000769,
+    "fileSize": 132402,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/pvvx/1141-0211-01313001-ZTS0201Z3000.zigbee",
+    "imageType": 529,
+    "manufacturerCode": 4417,
+    "sha512": "ff6f7c6bbc833be37002b8f0433b12b311a8e92727ca685ab207e38da80f7834a0c8abd7fcd8b96631a4b2e2c342e78fc00e10602b3007444a1a84dbc3322b4d",
+    "otaHeaderString": "Tuya:TS0201-z",
+    "manufacturerName": [
+      "Tuya"
+    ],
+    "modelId": "TS0201-z"
+  },
+  {
+    "fileName": "1141-0216-01313001-ZTH03Z.zigbee",
+    "fileVersion": 20000769,
+    "fileSize": 131618,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/pvvx/1141-0216-01313001-ZTH03Z.zigbee",
+    "imageType": 534,
+    "manufacturerCode": 4417,
+    "sha512": "2eaa703669bd78255c10079022c0cc1d1458355d8cd0125bcc3136fefc562debed11e2baa4ff92f3cb24a36bb7d0c55d0efdeaf75d2c51f997a7e52deb94d9b3",
+    "otaHeaderString": "Tuya:TH03Z-z",
+    "manufacturerName": [
+      "Tuya"
+    ],
+    "modelId": "ZTH03-z"
+  },
+  {
+    "fileName": "1141-021b-01313001-ZTH01Z.zigbee",
+    "fileVersion": 20000769,
+    "fileSize": 130354,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/pvvx/1141-021b-01313001-ZTH01Z.zigbee",
+    "imageType": 539,
+    "manufacturerCode": 4417,
+    "sha512": "eeeafa06317e73e9fa2457f5871df58ea69038f5df71a7c9f0499f968086865295991e6d5af04134b9155bfe956ad1ae536319768006d8fc3a67fbd4dad88d2a",
+    "otaHeaderString": "Tuya:ZTH01-z",
+    "manufacturerName": [
+      "Tuya"
+    ],
+    "modelId": "ZTH01-z"
+  },
+  {
+    "fileName": "1141-021c-01313001-ZTH02Z.zigbee",
+    "fileVersion": 20000769,
+    "fileSize": 130354,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/pvvx/1141-021c-01313001-ZTH02Z.zigbee",
+    "imageType": 540,
+    "manufacturerCode": 4417,
+    "sha512": "f746b8f0c548c9dfa08bd17109afb927cf6d7c9287f0c308c4f9a3e945a306871188749f76be9a3be6305ecd3845cb33bcf18bdb34a66704ffb6ac1e5cf38b8e",
+    "otaHeaderString": "Tuya:ZTH02-z",
+    "manufacturerName": [
+      "Tuya"
+    ],
+    "modelId": "ZTH02-z"
+  },
+  {
+    "fileName": "1141-021e-01313001-TH03Z.zigbee",
+    "fileVersion": 20000769,
+    "fileSize": 135122,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/pvvx/1141-021e-01313001-TH03Z.zigbee",
+    "imageType": 542,
+    "manufacturerCode": 4417,
+    "sha512": "88345ee1f372c8ec5fd01bf2eba27a8eaec448fe1873beb06fcd077a3ca980db6fa00b230391adc235022f7ef8ba7d0a172435acafab35be3242aaf07109712f",
+    "otaHeaderString": "Sonoff:TH03-z",
+    "manufacturerName": [
+      "Sonoff"
+    ],
+    "modelId": "TH03-z"
+  },
+  {
+    "fileName": "1141-021f-01313001-LKTMZL02Z.zigbee",
+    "fileVersion": 20000769,
+    "fileSize": 132178,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/pvvx/1141-021f-01313001-LKTMZL02Z.zigbee",
+    "imageType": 543,
+    "manufacturerCode": 4417,
+    "sha512": "b42f86422dff6645a5392338115263db043b77af4222dbada3350b1321a84bb1672797fed0df3f6e6883fd87f8fca5040eed22f2f49ad863c0507340b0828030",
+    "otaHeaderString": "Tuya:LKTMZL02-z",
+    "manufacturerName": [
+      "Tuya"
+    ],
+    "modelId": "LKTMZL02-z"
+  },
+  {
+    "fileName": "1141-0221-01313001-ZTH05.zigbee",
+    "fileVersion": 20000769,
+    "fileSize": 134658,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/pvvx/1141-0221-01313001-ZTH05.zigbee",
+    "imageType": 545,
+    "manufacturerCode": 4417,
+    "sha512": "e14e47d5cde750d1260f46ec8f362c6d667510f6688822b6c60ae7fc3d472bec2334b405948ef86af0b12d39293fb58108347ff53dda5fc366edbd36a08a6734",
+    "otaHeaderString": "Tuya:TH05-z",
+    "manufacturerName": [
+      "Tuya"
+    ],
+    "modelId": "TH05-z"
+  },
+  {
+    "fileName": "1141-0225-01313001-ZYZTH02.zigbee",
+    "fileVersion": 20000769,
+    "fileSize": 128754,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/pvvx/1141-0225-01313001-ZYZTH02.zigbee",
+    "imageType": 549,
+    "manufacturerCode": 4417,
+    "sha512": "57ac24504e5051cee03c6ae14055399b59c8d762e7757fc23bb65f86afe0a7f8d85fb481183f88b7719ebc49fb275cabbd45428cf44953fc14109c8da775b115",
+    "otaHeaderString": "Tuya:ZY-ZTH02-z",
+    "manufacturerName": [
+      "Tuya"
+    ],
+    "modelId": "ZY-ZTH02-z"
+  },
+  {
+    "fileName": "1141-0226-01313001-ZYZTH01.zigbee",
+    "fileVersion": 20000769,
+    "fileSize": 130130,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/pvvx/1141-0226-01313001-ZYZTH01.zigbee",
+    "imageType": 550,
+    "manufacturerCode": 4417,
+    "sha512": "d4f033d42996ab041b7f30293a86a036525fdb2a38653d77d5f1db3a3f200f4977e5d56a746d44784af6e32edf9bcfa3b06836ab13155a9ee01235107b356437",
+    "otaHeaderString": "Tuya:ZY-ZTH01-z",
+    "manufacturerName": [
+      "Tuya"
+    ],
+    "modelId": "ZY-ZTH01-z"
+  },
+  {
+    "fileName": "1141-0227-01313001-ZG227Z.zigbee",
+    "fileVersion": 20000769,
+    "fileSize": 128594,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/pvvx/1141-0227-01313001-ZG227Z.zigbee",
+    "imageType": 551,
+    "manufacturerCode": 4417,
+    "sha512": "63b21b189f886bda4ecc21d63095341be907874c5a4d256d2b78a841596ed62a6ca8b6a97f6ae24570daf8ce2acf5f461f21100b23a1d928517d8636ad62e145",
+    "otaHeaderString": "Tuya:ZG-227Z-z",
+    "manufacturerName": [
+      "Tuya"
+    ],
+    "modelId": "ZG-227Z-z"
+  },
+  {
+    "fileName": "1141-022c-01313001-ZG303Z.zigbee",
+    "fileVersion": 20000769,
+    "fileSize": 133010,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/pvvx/1141-022c-01313001-ZG303Z.zigbee",
+    "imageType": 556,
+    "manufacturerCode": 4417,
+    "sha512": "0859aae83a859fb29ccb6d043dd6e97e9b34bcc913cfc66396203704152d3e52c6a02678b56fc8677b3d4e302936026104decc54666bd2d125a6085da7f3d384",
+    "otaHeaderString": "Sonoff:ZG-303Z-z",
+    "manufacturerName": [
+      "Sonoff"
+    ],
+    "modelId": "ZG303Z-z"
+  },
+  {
+    "fileName": "1141-022d-01313001-ZBTH01.zigbee",
+    "fileVersion": 20000769,
+    "fileSize": 130146,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/pvvx/1141-022d-01313001-ZBTH01.zigbee",
+    "imageType": 557,
+    "manufacturerCode": 4417,
+    "sha512": "8c7889dcd1d2a69dd78c200bfe1671d545b0adedf1878002c914955e250da89458a9c4549aac532769efda7e590fcb4e6e57111d28e773f39db65710c2285b8d",
+    "otaHeaderString": "ZBeacon:TH01-z",
+    "manufacturerName": [
+      "ZBeacon"
+    ],
+    "modelId": "TH01-z"
+  },
+  {
+    "fileName": "1141-022e-01313001-ZB_MC.zigbee",
+    "fileVersion": 20000769,
+    "fileSize": 130146,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/pvvx/1141-022e-01313001-ZB_MC.zigbee",
+    "imageType": 558,
+    "manufacturerCode": 4417,
+    "sha512": "64e5cb0054cbe39e461f2047cb7e1816b19688e8b6be8332e4004f82eceb3d065b774ec20dab070570e8def7cdb46eee3c5f8d82900371cca80b957477076129",
+    "otaHeaderString": "ZBeacon:MC-z",
+    "manufacturerName": [
+      "ZBeacon"
+    ],
+    "modelId": "MC-z"
+  },
+  {
+    "fileName": "6565-031f-10053001-tuya_plug_ts011f_zrd.zigbee",
+    "fileVersion": 268775425,
+    "fileSize": 205250,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/SlackyDiy/6565-031f-10053001-tuya_plug_ts011f_zrd.zigbee",
+    "imageType": 799,
+    "manufacturerCode": 25957,
+    "sha512": "9a4906809d7e32c223e2b42d37f98c27b189076419740af46ef290628b2b6d0c1cb538e27d02e98d8d14f2a78efda87bcf313ca6f4636b2228e81b2c26e6635e",
+    "otaHeaderString": "Slacky-DIY OTA",
+    "manufacturerName": [
+      "Slacky-DIY"
+    ]
+  },
+  {
+    "fileName": "702usaplugv39.ota",
+    "fileVersion": 39,
+    "fileSize": 281578,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/702usaplugv39.ota",
+    "imageType": 54196,
+    "manufacturerCode": 5127,
+    "sha512": "5245f6f61cc0e6179b7913bc2b485cd83e74e9b9eed02460609ce35638db9a41b20a21427ad1283c8932c98e042736e1cfd870c5b2aabc02cfcca3bd12606846",
+    "otaHeaderString": "temp_humi_sensor"
   }
 ]

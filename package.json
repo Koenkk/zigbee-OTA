@@ -46,11 +46,11 @@
         "tar": "^7.5.2"
     },
     "devDependencies": {
-        "@actions/core": "^1.11.1",
+        "@actions/core": "^2.0.1",
         "@actions/github": "^6.0.1",
         "@biomejs/biome": "^2.3.8",
         "@octokit/rest": "^22.0.1",
-        "@types/node": "^24.10.1",
+        "@types/node": "^25.0.2",
         "@vitest/coverage-v8": "^3.2.4",
         "typescript": "^5.9.3",
         "vitest": "^3.2.4"
