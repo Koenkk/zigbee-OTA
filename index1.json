@@ -3019,5 +3019,15 @@
     "manufacturerCode": 5127,
     "sha512": "5245f6f61cc0e6179b7913bc2b485cd83e74e9b9eed02460609ce35638db9a41b20a21427ad1283c8932c98e042736e1cfd870c5b2aabc02cfcca3bd12606846",
     "otaHeaderString": "temp_humi_sensor"
+  },
+  {
+    "fileName": "zbm5-120-zr_v1.0.4.ota",
+    "fileVersion": 4100,
+    "fileSize": 294932,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Sonoff/zbm5-120-zr_v1.0.4.ota",
+    "imageType": 10,
+    "manufacturerCode": 4742,
+    "sha512": "6825c846d11ba0c2a3f0819ced538f929ecbad0d9a182113d3de5f083c2435af657e8e9b5eb01318938e7914c07fa14c7cac462c87f068dd30e999712e9bd33b",
+    "otaHeaderString": "ota-file-test"
   }
 ]
