@@ -9027,5 +9027,15 @@
     "manufacturerCode": 4405,
     "sha512": "f352188fd1c70c15410d2d79aaf0f0b3a0c4bcc0e9cba8a586c414779dc3de41630faaee2ddb805057a4e075a35efe6418be5355defe045179f80bd65ac509b9",
     "otaHeaderString": "�u}6@`>@\u0013p@\u0001�6@�\u0015@ �@��"
+  },
+  {
+    "fileName": "1135-000D-01010106-FLS-M.zigbee",
+    "fileVersion": 16843014,
+    "fileSize": 2101822,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/DresdenElektronik/1135-000D-01010106-FLS-M.zigbee",
+    "imageType": 13,
+    "manufacturerCode": 4405,
+    "sha512": "d3a7f0f7d1fd5a414754b5c1d88a820fc7b1b800f6b353ff1cf903f87b3d0d07e8b4ba19324b3f643964b8e50207b32aa2a0fa89e589bdb1256c7b1cfb12a374",
+    "otaHeaderString": "FLS-M Firmware 0x01010106"
   }
 ]
