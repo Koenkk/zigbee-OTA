@@ -9007,5 +9007,15 @@
     "manufacturerCode": 4742,
     "sha512": "a40601e64cdb0088ae8992ef396a3474e2f9cc5a8e5a9e992110401c1b36440fc272f8c2d7c8a2ba84d94de61f8065456274e465a9066e800bcc798c1049d4cd",
     "otaHeaderString": "ota-file-test"
+  },
+  {
+    "fileName": "1135-0009-201000F8-FLS-CT_16Mhz.zigbee",
+    "fileVersion": 537919736,
+    "fileSize": 202909,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/DresdenElektronik/1135-0009-201000F8-FLS-CT_16Mhz.zigbee",
+    "imageType": 9,
+    "manufacturerCode": 4405,
+    "sha512": "8f7e611648a2fa547f9f240e7bf06682f3009e24ebb1f0713165401266a3afe9231f1dd23678545e504caea902f8f3cb83b2e7a0905d39d1b15a28f81e3642bd",
+    "otaHeaderString": "Sw}6@`>@\u0013p@\u0001�6@�\u0015@ �@��"
   }
 ]
