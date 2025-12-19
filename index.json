@@ -9017,5 +9017,15 @@
     "manufacturerCode": 4405,
     "sha512": "4fae8d84702b7a4938ffaaee4c02a727562616ff3315568ad868d7afcd26c31b033c4cd9d32448d6951f8aa0dc7ac4e69f96444498f7ba093f3848c569f585dd",
     "otaHeaderString": "Sw}6@`>@\u0013p@\u0001�6@�\u0015@ �@��"
+  },
+  {
+    "fileName": "1135-0004-201000E9-FLS-A2_MD.zigbee",
+    "fileVersion": 537919721,
+    "fileSize": 194221,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/DresdenElektronik/1135-0004-201000E9-FLS-A2_MD.zigbee",
+    "imageType": 4,
+    "manufacturerCode": 4405,
+    "sha512": "f352188fd1c70c15410d2d79aaf0f0b3a0c4bcc0e9cba8a586c414779dc3de41630faaee2ddb805057a4e075a35efe6418be5355defe045179f80bd65ac509b9",
+    "otaHeaderString": "�u}6@`>@\u0013p@\u0001�6@�\u0015@ �@��"
   }
 ]
