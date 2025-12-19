@@ -263,16 +263,6 @@
     "otaHeaderString": "Router - Range Extender"
   },
   {
-    "fileName": "1135-0000-201000F5-FLS-PP3_RGBW_16Mhz.zigbee",
-    "fileVersion": 537919733,
-    "fileSize": 202911,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/DresdenElektronik/1135-0000-201000F5-FLS-PP3_RGBW_16Mhz.zigbee",
-    "imageType": 0,
-    "manufacturerCode": 4405,
-    "sha512": "5aa0a6156c8fe672b0fdfcc6e97bb21244cc5497ca86b75c2d371db85c0712334f88886a0903723f9230c21c6f3ee3a19a0e6ebdcdfc2ac5390fd4c8830be402",
-    "otaHeaderString": "�w}6@`>@\u0013p@\u0001�6@�\u0015@ �@��"
-  },
-  {
     "fileName": "1135-0100-1000002A-Kobold.zigbee",
     "fileVersion": 268435498,
     "fileSize": 244094,
@@ -9016,6 +9006,16 @@
     "imageType": 9,
     "manufacturerCode": 4405,
     "sha512": "8f7e611648a2fa547f9f240e7bf06682f3009e24ebb1f0713165401266a3afe9231f1dd23678545e504caea902f8f3cb83b2e7a0905d39d1b15a28f81e3642bd",
+    "otaHeaderString": "Sw}6@`>@\u0013p@\u0001�6@�\u0015@ �@��"
+  },
+  {
+    "fileName": "1135-0000-201000F8-FLS-PP3_RGBW_16Mhz.zigbee",
+    "fileVersion": 537919736,
+    "fileSize": 202909,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/DresdenElektronik/1135-0000-201000F8-FLS-PP3_RGBW_16Mhz.zigbee",
+    "imageType": 0,
+    "manufacturerCode": 4405,
+    "sha512": "4fae8d84702b7a4938ffaaee4c02a727562616ff3315568ad868d7afcd26c31b033c4cd9d32448d6951f8aa0dc7ac4e69f96444498f7ba093f3848c569f585dd",
     "otaHeaderString": "Sw}6@`>@\u0013p@\u0001�6@�\u0015@ �@��"
   }
 ]
