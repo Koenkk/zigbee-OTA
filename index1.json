@@ -1734,17 +1734,6 @@
     "releaseNotes": "1. A fault has been resolved that caused the radiator thermostat to sometimes enter an endless loop during auto-calibration"
   },
   {
-    "fileName": "100B-0118-01001802-PixelLum-EFR32MG21.zigbee",
-    "fileVersion": 16783362,
-    "fileSize": 453438,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Hue/100B-0118-01001802-PixelLum-EFR32MG21.zigbee",
-    "imageType": 280,
-    "manufacturerCode": 4107,
-    "sha512": "9acb1a53c13fedcdf1528cf402971eea7bd7b5c81a8ab4569f86757392fdd5bc305bde30df7c967be63a03ff2a8c961b598ae7eeb561835d56f91be7833fc81b",
-    "otaHeaderString": "",
-    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_0118/de21c7c9-cdfa-4f95-90a6-b0e01bb62e82/100B-0118-01001802-PixelLum-EFR32MG21.zigbee"
-  },
-  {
     "fileName": "100B-0120-01002402-ConfLightBLE-PortableV3-EFR32MG21.zigbee",
     "fileVersion": 16786434,
     "fileSize": 400336,
@@ -3039,5 +3028,16 @@
     "manufacturerCode": 4405,
     "sha512": "5aa0a6156c8fe672b0fdfcc6e97bb21244cc5497ca86b75c2d371db85c0712334f88886a0903723f9230c21c6f3ee3a19a0e6ebdcdfc2ac5390fd4c8830be402",
     "otaHeaderString": "�w}6@`>@\u0013p@\u0001�6@�\u0015@ �@��"
+  },
+  {
+    "fileName": "100B-0118-01001A02-PixelLum-EFR32MG21.zigbee",
+    "fileVersion": 16783874,
+    "fileSize": 461188,
+    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_0118/c2cb7044-da81-4fd0-b9e8-de64070e793c/100B-0118-01001A02-PixelLum-EFR32MG21.zigbee",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Hue/100B-0118-01001A02-PixelLum-EFR32MG21.zigbee",
+    "imageType": 280,
+    "manufacturerCode": 4107,
+    "sha512": "916714904a78a01074593aa8438ce7cfbe59a1166f3b0c87d72dc8dfcae5f7e0b57370effd6e5bc897f1a7d8d7b45a48fde68f4c22b7c8404077347f62e3a9d8",
+    "otaHeaderString": ""
   }
 ]
