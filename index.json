@@ -9037,5 +9037,15 @@
     "manufacturerCode": 4107,
     "sha512": "14ecc44c4a500fa7b41c12e29df85f901ba4baf3fc8a6652008611c35361ff611abef5b291e51d31e9852f720c75cf14ed56fa5cf05d66897340f030a96b2d9f",
     "otaHeaderString": ""
+  },
+  {
+    "fileName": "snzb-02dr2_v1.0.3.ota",
+    "fileVersion": 4099,
+    "fileSize": 212336,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/snzb-02dr2_v1.0.3.ota",
+    "imageType": 2064,
+    "manufacturerCode": 4742,
+    "sha512": "9bd9f188c4b5e45878d72a6b513e9630f4fdc326d1d791d18c9d418971a6a6ad090f81e6e76a5fe800f213d735f116d95f704454212bea8823a13053c5e6a443",
+    "otaHeaderString": "FIRMWARE"
   }
 ]
