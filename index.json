@@ -9073,5 +9073,18 @@
     "manufacturerName": [
       "Slacky-DIY"
     ]
+  },
+  {
+    "fileName": "6565-021d-10093001-qs_zigbee_sec02_zrd.zigbee",
+    "fileVersion": 269037569,
+    "fileSize": 201202,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-021d-10093001-qs_zigbee_sec02_zrd.zigbee",
+    "imageType": 541,
+    "manufacturerCode": 25957,
+    "sha512": "3e15012a7541b40851cf285c9539de086283771e988af102e769da74f36f6c009148a7187d15ac85438bf9e1a8ab920dc79084a3675dfb205b9baad8df22f18e",
+    "otaHeaderString": "Slacky-DIY OTA",
+    "manufacturerName": [
+      "Svetomaniya"
+    ]
   }
 ]
