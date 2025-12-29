@@ -12,6 +12,7 @@ import {
     getAdjustedContent,
     IMAGE_GLEDOPTO,
     IMAGE_INVALID,
+    IMAGE_LUMI,
     IMAGE_TUYA,
     IMAGE_V12_1,
     IMAGE_V12_1_METAS,
@@ -634,6 +635,8 @@ Text after end tag`);
         ["", IMAGE_TUYA, "Tuya image requires extra `manufacturerName` metadata"],
         ['"modelId": "GL-C-008"', IMAGE_GLEDOPTO, undefined],
         ["", IMAGE_GLEDOPTO, "Gledopto image requires extra `modelId` metadata"],
+        ['"modelId": "lumi.switch.n1aeu1"', IMAGE_LUMI, undefined],
+        ["", IMAGE_LUMI, "Lumi/Aqara image requires extra `modelId` metadata"],
         ['"manufacturerName": ["GleDopto"]', IMAGE_GLEDOPTO, "Gledopto image requires extra `modelId` metadata"],
         ['"manufacturerName": ["OtherManuf"]', IMAGE_GLEDOPTO, undefined],
     ])("manufacturer specific checks", async (body: string, image: string, error: string | undefined) => {
