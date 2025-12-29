@@ -183,8 +183,6 @@ describe("Github Workflow: Re-Process All Images", () => {
             rmSync(NOT_IN_BASE_MANIFEST_IMAGES_DIR, {recursive: true, force: true});
             renameSync(NOT_IN_BASE_MANIFEST_IMAGES_DIR_TMP, NOT_IN_BASE_MANIFEST_IMAGES_DIR);
         }
-
-        rmSync(IMAGES_TEST_DIR, {recursive: true, force: true});
     });
 
     beforeEach(() => {

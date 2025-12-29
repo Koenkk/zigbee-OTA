@@ -156,7 +156,7 @@ export function findMatchImage(
             extraMetas.hardwareVersionMin === i.hardwareVersionMin &&
             extraMetas.hardwareVersionMax === i.hardwareVersionMax &&
             i.modelId === extraMetas.modelId &&
-            (!i.manufacturerName || (extraMetas.manufacturerName && primitivesArrayEquals(i.manufacturerName, extraMetas.manufacturerName))),
+            (!i.manufacturerName || extraMetas.manufacturerName?.some((v) => i.manufacturerName!.includes(v))),
     );
 
     return [imageIndex, imageIndex === -1 ? undefined : imageList[imageIndex]];
@@ -199,14 +199,17 @@ export function getLatestImage<T>(list: T[] | undefined, compareFn: (a: T, b: T)
 }
 
 /** Check if has image in same base path (manufacturer), either by SHA or by spec matching */
-export function hasManufacturerImage(list: RepoImageMeta[], image: RepoImageMeta): boolean {
+export function hasManufacturerImage(list: RepoImageMeta[], image: RepoImageMeta, extraManufacturerName: string[] | undefined): boolean {
     const imageBasePath = path.posix.dirname(image.url);
 
     return list.some(
         (i) =>
             path.posix.dirname(i.url) === imageBasePath &&
             (i.sha512 === image.sha512 ||
-                (i.fileVersion === image.fileVersion && i.imageType === image.imageType && i.manufacturerCode === image.manufacturerCode)),
+                (i.fileVersion === image.fileVersion &&
+                    i.imageType === image.imageType &&
+                    i.manufacturerCode === image.manufacturerCode &&
+                    (!i.manufacturerName || extraManufacturerName?.some((v) => i.manufacturerName!.includes(v))))),
     );
 }
 
@@ -362,7 +365,7 @@ export function addImageToPrev(
         ...extraMetas,
     };
 
-    if (hasManufacturerImage(prevManifest, newMetas)) {
+    if (hasManufacturerImage(prevManifest, newMetas, extraMetas.manufacturerName)) {
         throw new Error("Image already present for manufacturer");
     }
 
@@ -410,7 +413,7 @@ export function addImageToBase(
         ...extraMetas,
     };
 
-    if (hasManufacturerImage(baseManifest, newMetas)) {
+    if (hasManufacturerImage(baseManifest, newMetas, extraMetas.manufacturerName)) {
         throw new Error("Image already present for manufacturer");
     }
 
