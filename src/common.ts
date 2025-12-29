@@ -198,6 +198,18 @@ export function getLatestImage<T>(list: T[] | undefined, compareFn: (a: T, b: T)
     return sortedList.slice(0, sortedList.length > 1 && process.env.PREV ? -1 : undefined).pop();
 }
 
+/** Check if has image in same base path (manufacturer), either by SHA or by spec matching */
+export function hasManufacturerImage(list: RepoImageMeta[], image: RepoImageMeta): boolean {
+    const imageBasePath = path.posix.dirname(image.url);
+
+    return list.some(
+        (i) =>
+            path.posix.dirname(i.url) === imageBasePath &&
+            (i.sha512 === image.sha512 ||
+                (i.fileVersion === image.fileVersion && i.imageType === image.imageType && i.manufacturerCode === image.manufacturerCode)),
+    );
+}
+
 export enum ParsedImageStatus {
     New = 0,
     Newer = 1,
@@ -337,6 +349,23 @@ export function addImageToPrev(
 ): void {
     console.log(`${logPrefix} Base manifest has higher version. Adding to prev instead.`);
 
+    const newMetas: RepoImageMeta = {
+        fileName: firmwareFileName,
+        fileVersion: parsedImage.fileVersion,
+        fileSize: parsedImage.totalImageSize,
+        originalUrl,
+        url: getRepoFirmwareFileUrl(manufacturer, firmwareFileName, PREV_IMAGES_DIR),
+        imageType: parsedImage.imageType,
+        manufacturerCode: parsedImage.manufacturerCode,
+        sha512: computeSHA512(firmwareBuffer),
+        otaHeaderString: parsedImage.otaHeaderString.replaceAll("\u0000", ""),
+        ...extraMetas,
+    };
+
+    if (hasManufacturerImage(prevManifest, newMetas)) {
+        throw new Error("Image already present for manufacturer");
+    }
+
     if (isNewer) {
         console.log(`${logPrefix} Removing prev image.`);
         prevManifest.splice(prevMatchIndex, 1);
@@ -348,18 +377,7 @@ export function addImageToPrev(
     }
 
     onBeforeManifestPush();
-    prevManifest.push({
-        fileName: firmwareFileName,
-        fileVersion: parsedImage.fileVersion,
-        fileSize: parsedImage.totalImageSize,
-        originalUrl,
-        url: getRepoFirmwareFileUrl(manufacturer, firmwareFileName, PREV_IMAGES_DIR),
-        imageType: parsedImage.imageType,
-        manufacturerCode: parsedImage.manufacturerCode,
-        sha512: computeSHA512(firmwareBuffer),
-        otaHeaderString: parsedImage.otaHeaderString.replaceAll("\u0000", ""),
-        ...extraMetas,
-    });
+    prevManifest.push(newMetas);
 }
 
 export function addImageToBase(
@@ -379,6 +397,23 @@ export function addImageToBase(
     extraMetas: ExtraMetas,
     onBeforeManifestPush: () => void,
 ): void {
+    const newMetas: RepoImageMeta = {
+        fileName: firmwareFileName,
+        fileVersion: parsedImage.fileVersion,
+        fileSize: parsedImage.totalImageSize,
+        originalUrl,
+        url: getRepoFirmwareFileUrl(manufacturer, firmwareFileName, BASE_IMAGES_DIR),
+        imageType: parsedImage.imageType,
+        manufacturerCode: parsedImage.manufacturerCode,
+        sha512: computeSHA512(firmwareBuffer),
+        otaHeaderString: parsedImage.otaHeaderString.replaceAll("\u0000", ""),
+        ...extraMetas,
+    };
+
+    if (hasManufacturerImage(baseManifest, newMetas)) {
+        throw new Error("Image already present for manufacturer");
+    }
+
     if (isNewer) {
         console.log(`${logPrefix} Base manifest has older version ${baseMatch.fileVersion}. Replacing with ${parsedImage.fileVersion}.`);
 
@@ -421,16 +456,5 @@ export function addImageToBase(
     }
 
     onBeforeManifestPush();
-    baseManifest.push({
-        fileName: firmwareFileName,
-        fileVersion: parsedImage.fileVersion,
-        fileSize: parsedImage.totalImageSize,
-        originalUrl,
-        url: getRepoFirmwareFileUrl(manufacturer, firmwareFileName, BASE_IMAGES_DIR),
-        imageType: parsedImage.imageType,
-        manufacturerCode: parsedImage.manufacturerCode,
-        sha512: computeSHA512(firmwareBuffer),
-        otaHeaderString: parsedImage.otaHeaderString.replaceAll("\u0000", ""),
-        ...extraMetas,
-    });
+    baseManifest.push(newMetas);
 }

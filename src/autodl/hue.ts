@@ -39,9 +39,9 @@ const DEVICE_TYPE_IDS: string[] = [
     "100b-125",
     // '100b-126',
     "100b-127",
-    // '100b-128',
+    "100b-128",
     "100b-129",
-    // '100b-12a',
+    "100b-12a",
     // '100b-12b',
     // '100b-12c',
     // '100b-12d',
@@ -92,14 +92,21 @@ export async function download(): Promise<void> {
 
         writeCacheJson(cacheFileName, page);
 
-        const image = getLatestImage(page.updates, sortByVersion);
+        page.updates.sort(sortByVersion);
 
-        if (!image) {
-            continue;
+        let previousImage: (typeof page.updates)[number] | undefined;
+
+        for (const image of page.updates) {
+            const firmwareFileName = image.binaryUrl.split("/").pop()!;
+
+            await processFirmwareImage(NAME, firmwareFileName, image.binaryUrl, {
+                releaseNotes: image.versionName
+                    ? `Version: ${image.versionName}${image.releaseNotes ? ` | ${image.releaseNotes}` : ""}`
+                    : image.releaseNotes || undefined,
+                minFileVersion: previousImage?.version,
+            });
+
+            previousImage = image;
         }
-
-        const firmwareFileName = image.binaryUrl.split("/").pop()!;
-
-        await processFirmwareImage(NAME, firmwareFileName, image.binaryUrl, {releaseNotes: image.releaseNotes || undefined});
     }
 }

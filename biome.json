@@ -33,8 +33,8 @@
                 "noExportsInTest": "off"
             },
             "style": {
-                "noNonNullAssertion": "warn",
-                "noParameterAssign": "warn",
+                "noNonNullAssertion": "off",
+                "noParameterAssign": "off",
                 "useNamingConvention": {
                     "level": "error",
                     "options": {
