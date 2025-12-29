@@ -16,9 +16,9 @@ type GatewayImageJson = {
 };
 type DeviceImageJson = {
     fw_binary_url: string;
-    // biome-ignore lint/style/useNamingConvention: <explanation>
+    // biome-ignore lint/style/useNamingConvention: API
     fw_file_version_LSB: number;
-    // biome-ignore lint/style/useNamingConvention: <explanation>
+    // biome-ignore lint/style/useNamingConvention: API
     fw_file_version_MSB: number;
     fw_filesize: number;
     fw_image_type: number;
