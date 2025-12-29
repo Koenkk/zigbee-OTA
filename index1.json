@@ -3052,5 +3052,27 @@
     "manufacturerName": [
       "Slacky-DIY"
     ]
+  },
+  {
+    "fileName": "20211124154453_OTA_lumi.switch.n1aeu1_0.0.0_1123_20211110.ota",
+    "fileVersion": 2839,
+    "fileSize": 294136,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20211124154453_OTA_lumi.switch.n1aeu1_0.0.0_1123_20211110.ota",
+    "imageType": 5404,
+    "manufacturerCode": 4447,
+    "sha512": "140be0a40f40f84fcb1878ba623ad5830bfab2049f489ee7acf8ae22c1db1e4991fbf39832482a55fee2fc5b20681d9ab5592d457d1e5bf705b0c75af45eff1f",
+    "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000",
+    "modelId": "lumi.switch.n1aeu1"
+  },
+  {
+    "fileName": "20221009111923_OTA_lumi.curtain.acn002_0.0.0_1530_20221009_6C9C3D.ota",
+    "fileVersion": 3870,
+    "fileSize": 296304,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Lumi/20221009111923_OTA_lumi.curtain.acn002_0.0.0_1530_20221009_6C9C3D.ota",
+    "imageType": 14976,
+    "manufacturerCode": 4447,
+    "sha512": "2436508af75c9b0139d304f8b62ce5579ad721fffec74967db7256bb030f47f8172a2b2ef2003eede1c868410b007ac6c89b3936dd44dffd07fdff155bcb7451",
+    "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000",
+    "modelId": "lumi.curtain.acn002"
   }
 ]

@@ -22,6 +22,7 @@ import type {ExtraMetas, GHExtraMetas, RepoImageMeta} from "./types.js";
 const GLEDOPTO_MANUFACTURER_CODE = 4687;
 const TUYA_MANUFACTURER_CODE_1 = 4098;
 const TUYA_MANUFACTURER_CODE_2 = 4417;
+const LUMI_UNITED_TECHOLOGY_LTD_SHENZHEN = 4447;
 
 const EXTRA_METAS_PR_BODY_START_TAG = "```json";
 const EXTRA_METAS_PR_BODY_END_TAG = "```";
@@ -149,21 +150,33 @@ export async function processOtaFiles(
             const statusToBase = getParsedImageStatus(parsedImage, baseMatch);
 
             // Manufacturer specific checks
-            if (
-                parsedImage.manufacturerCode === GLEDOPTO_MANUFACTURER_CODE &&
-                !fileExtraMetas.modelId &&
-                (fileExtraMetas.manufacturerName == null || fileExtraMetas.manufacturerName.some((name) => name.toLowerCase().includes("gledopto")))
-            ) {
-                // Gledopto uses the same imageType for every device, force modelId to be present.
-                // https://github.com/Koenkk/zigbee-OTA/pull/864
-                throw new Error("Gledopto image requires extra `modelId` metadata");
-            }
-            if (
-                (TUYA_MANUFACTURER_CODE_1 === parsedImage.manufacturerCode || TUYA_MANUFACTURER_CODE_2 === parsedImage.manufacturerCode) &&
-                !fileExtraMetas.manufacturerName
-            ) {
-                // Tuya uses the same imageType for every device, force manufacturerName to be present.
-                throw new Error("Tuya image requires extra `manufacturerName` metadata");
+            switch (parsedImage.manufacturerCode) {
+                case GLEDOPTO_MANUFACTURER_CODE: {
+                    if (
+                        !fileExtraMetas.modelId &&
+                        (fileExtraMetas.manufacturerName == null ||
+                            fileExtraMetas.manufacturerName.some((name) => name.toLowerCase().includes("gledopto")))
+                    ) {
+                        // Gledopto uses the same imageType for every device, force modelId to be present.
+                        // https://github.com/Koenkk/zigbee-OTA/pull/864
+                        throw new Error("Gledopto image requires extra `modelId` metadata");
+                    }
+                    break;
+                }
+                case TUYA_MANUFACTURER_CODE_1:
+                case TUYA_MANUFACTURER_CODE_2: {
+                    if (!fileExtraMetas.manufacturerName) {
+                        // Tuya uses the same imageType for every device, force manufacturerName to be present.
+                        throw new Error("Tuya image requires extra `manufacturerName` metadata");
+                    }
+                    break;
+                }
+                case LUMI_UNITED_TECHOLOGY_LTD_SHENZHEN: {
+                    if (!fileExtraMetas.modelId) {
+                        throw new Error("Lumi/Aqara image requires extra `modelId` metadata");
+                    }
+                    break;
+                }
             }
 
             switch (statusToBase) {

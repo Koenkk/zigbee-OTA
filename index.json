@@ -2843,17 +2843,6 @@
     "modelId": "lumi.curtain.hagl07"
   },
   {
-    "fileName": "20211124154453_OTA_lumi.switch.n1aeu1_0.0.0_1123_20211110.ota",
-    "fileVersion": 2839,
-    "fileSize": 294136,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20211124154453_OTA_lumi.switch.n1aeu1_0.0.0_1123_20211110.ota",
-    "imageType": 5404,
-    "manufacturerCode": 4447,
-    "sha512": "140be0a40f40f84fcb1878ba623ad5830bfab2049f489ee7acf8ae22c1db1e4991fbf39832482a55fee2fc5b20681d9ab5592d457d1e5bf705b0c75af45eff1f",
-    "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000",
-    "modelId": "lumi.switch.n1aeu1"
-  },
-  {
     "fileName": "20211228121851_OTA_lumi.switch.b1nacn02_0.0.0_0065_20211223_EB5B32.ota",
     "fileVersion": 65,
     "fileSize": 187230,
@@ -3072,17 +3061,6 @@
     "sha512": "89a392b29fab601cb7d17980806dbf131ebfdbd807fa12031fb92caa71f48f204b989f4477621cd309fcdb23c961ff1adefaff698d4bf0e97383c480fa1a7eba",
     "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000",
     "modelId": "lumi.airm.fhac01"
-  },
-  {
-    "fileName": "20221009111923_OTA_lumi.curtain.acn002_0.0.0_1530_20221009_6C9C3D.ota",
-    "fileVersion": 3870,
-    "fileSize": 296304,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20221009111923_OTA_lumi.curtain.acn002_0.0.0_1530_20221009_6C9C3D.ota",
-    "imageType": 14976,
-    "manufacturerCode": 4447,
-    "sha512": "2436508af75c9b0139d304f8b62ce5579ad721fffec74967db7256bb030f47f8172a2b2ef2003eede1c868410b007ac6c89b3936dd44dffd07fdff155bcb7451",
-    "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000",
-    "modelId": "lumi.curtain.acn002"
   },
   {
     "fileName": "20221123140517_OTA_lumi.remote.b1acn02_0.0.0_0031_20221010_8D956D.ota",
@@ -6815,7 +6793,8 @@
     "imageType": 5404,
     "manufacturerCode": 4447,
     "sha512": "04d1359fecdd69d13d167d05b3f3bedae5b11250b6cbc79016568c3a37b9b708be0e62b519a8d13a9fbeeea0bf1a3eb36e94e1faa29da2f1264729c9c0d7af1f",
-    "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000"
+    "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000",
+    "modelId": "lumi.switch.n1aeu1"
   },
   {
     "fileName": "20240726111850_OTA_lumi.switch.n2aeu1_0.0.0_0025_20240725_4EABF3.ota",
@@ -6825,7 +6804,8 @@
     "imageType": 5532,
     "manufacturerCode": 4447,
     "sha512": "8887e3192c9bf2464f02930235c054a5cf7a801b91d43b355dfbd93f15391c965c767fd310ca4c7c985f0c5143484a99d26b73b7cbb8f0aa3c2c06ef0eee67be",
-    "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000"
+    "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000",
+    "modelId": "lumi.switch.n2aeu1"
   },
   {
     "fileName": "20240624144545_OTA_lumi.curtain.acn002_0.0.0_1532_20240528_438A0E.ota",
@@ -6835,7 +6815,8 @@
     "imageType": 14976,
     "manufacturerCode": 4447,
     "sha512": "8e4a84798920a32e6ff992eb7438d9db2665353295a27963ee3cd25c6bbdaa160a4ab13e640d46e5b459f6aa8c89c25e081e11760b8b7997abb3b9e80f919ea8",
-    "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000"
+    "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000",
+    "modelId": "lumi.curtain.acn002"
   },
   {
     "fileName": "TRTL_ThermalSensor_PROD_OTA_V40_v1.00.40.ota",
