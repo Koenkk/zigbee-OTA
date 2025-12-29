@@ -8638,19 +8638,6 @@
     "otaHeaderString": "ota-file-test"
   },
   {
-    "fileName": "6565-0215-10053001-ts0201_tz3000_zed.zigbee",
-    "fileVersion": 268775425,
-    "fileSize": 148850,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-0215-10053001-ts0201_tz3000_zed.zigbee",
-    "imageType": 533,
-    "manufacturerCode": 25957,
-    "sha512": "17e73bf6ae0ebf7f4b273d1a20c9a2b3f03950fb968f6fe23f338c052257984ffcb14645920c34cc823bd8adc4bfeace213615e024f60b351ab19eae4133ee57",
-    "otaHeaderString": "Slacky-DIY OTA",
-    "manufacturerName": [
-      "Slacky-DIY"
-    ]
-  },
-  {
     "fileName": "Bituo_ZS2S_signing_app14.ota",
     "fileVersion": 14,
     "fileSize": 223296,
@@ -9037,5 +9024,67 @@
     "manufacturerCode": 4107,
     "sha512": "14ecc44c4a500fa7b41c12e29df85f901ba4baf3fc8a6652008611c35361ff611abef5b291e51d31e9852f720c75cf14ed56fa5cf05d66897340f030a96b2d9f",
     "otaHeaderString": ""
+  },
+  {
+    "fileName": "snzb-02dr2_v1.0.3.ota",
+    "fileVersion": 4099,
+    "fileSize": 212336,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/snzb-02dr2_v1.0.3.ota",
+    "imageType": 2064,
+    "manufacturerCode": 4742,
+    "sha512": "9bd9f188c4b5e45878d72a6b513e9630f4fdc326d1d791d18c9d418971a6a6ad090f81e6e76a5fe800f213d735f116d95f704454212bea8823a13053c5e6a443",
+    "otaHeaderString": "FIRMWARE"
+  },
+  {
+    "fileName": "6565-0215-10083001-ts0201_tz3000_0x15_zed.zigbee",
+    "fileVersion": 268972033,
+    "fileSize": 151714,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-0215-10083001-ts0201_tz3000_0x15_zed.zigbee",
+    "imageType": 533,
+    "manufacturerCode": 25957,
+    "sha512": "1ba29af0db0488ef49defdce43d0e4d0673bd5738273dd3e15c51c2288290f058b657a64a14185a73d76da2d1a0b1cf64a0e1ef1e8e90e8350a413b845c58a3d",
+    "otaHeaderString": "Slacky-DIY OTA",
+    "manufacturerName": [
+      "Slacky-DIY"
+    ]
+  },
+  {
+    "fileName": "6565-0221-10083001-ts0201_tz3000_0x21_zed.zigbee",
+    "fileVersion": 268972033,
+    "fileSize": 151794,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-0221-10083001-ts0201_tz3000_0x21_zed.zigbee",
+    "imageType": 545,
+    "manufacturerCode": 25957,
+    "sha512": "1e080e460374055a76fb66d273575b1f9bb202ff5b4429a1329b4f6b30567bc67bbf8ee939216b463c6a8de82eeaa7280a088f3f68b85b83c12f10ea0644386a",
+    "otaHeaderString": "Slacky-DIY OTA",
+    "manufacturerName": [
+      "Slacky-DIY"
+    ]
+  },
+  {
+    "fileName": "6565-0222-10083001-ts0201_tz3000_0x22_zed.zigbee",
+    "fileVersion": 268972033,
+    "fileSize": 151474,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-0222-10083001-ts0201_tz3000_0x22_zed.zigbee",
+    "imageType": 546,
+    "manufacturerCode": 25957,
+    "sha512": "275778c6359620db890f9933cea0ffc11e2b2eba14fa7a4a6bb5b2393148be05d4b8143ae8fbb98cac843022d5468dd7b5c4f47cd1df8117f951fb994f55fd88",
+    "otaHeaderString": "Slacky-DIY OTA",
+    "manufacturerName": [
+      "Slacky-DIY"
+    ]
+  },
+  {
+    "fileName": "6565-021d-10093001-qs_zigbee_sec02_zrd.zigbee",
+    "fileVersion": 269037569,
+    "fileSize": 201202,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-021d-10093001-qs_zigbee_sec02_zrd.zigbee",
+    "imageType": 541,
+    "manufacturerCode": 25957,
+    "sha512": "3e15012a7541b40851cf285c9539de086283771e988af102e769da74f36f6c009148a7187d15ac85438bf9e1a8ab920dc79084a3675dfb205b9baad8df22f18e",
+    "otaHeaderString": "Slacky-DIY OTA",
+    "manufacturerName": [
+      "Svetomaniya"
+    ]
   }
 ]
