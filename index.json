@@ -9087,15 +9087,4 @@
       "Svetomaniya"
     ]
   },
-  {
-    "fileName": "snzb-01m_v1.0.5.ota",
-    "fileVersion": 4101,
-    "fileSize": 193360,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/snzb-01m_v1.0.5.ota",
-    "imageType": 2062,
-    "manufacturerCode": 4742,
-    "customParseLogic":"telinkEncrypted",
-    "sha512": "0ac93af2c1ad69ef9ba3fd923de018f1a1efee2f8c9795372495706b201b4bd4aca2cf3b6cc3046e81a78b7de747ce57f0ae1e42638953983c22a2fc300c5b9a",
-    "otaHeaderString": "FIRMWARE"
-  }
 ]
