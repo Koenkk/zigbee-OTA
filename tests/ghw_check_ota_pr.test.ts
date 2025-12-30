@@ -1,4 +1,4 @@
-import {existsSync, readFileSync, rmSync} from "node:fs";
+import {existsSync, readFileSync, rmSync, writeFileSync} from "node:fs";
 import path from "node:path";
 import type CoreApi from "@actions/core";
 import type {Context} from "@actions/github/lib/context";
@@ -141,7 +141,6 @@ describe("Github Workflow: Check OTA PR", () => {
         addImageToPrevSpy.mockRestore();
         rmSync(BASE_IMAGES_TEST_DIR_PATH, {recursive: true, force: true});
         rmSync(PREV_IMAGES_TEST_DIR_PATH, {recursive: true, force: true});
-        rmSync(IMAGES_TEST_DIR, {recursive: true, force: true});
     });
 
     beforeEach(() => {
@@ -453,16 +452,71 @@ Text after end tag`);
     it("success without extra metas with matching type-manuf present", async () => {
         filePaths = [useImage(IMAGE_V14_2_COPY), useImage(IMAGE_V14_2)];
         const newContext = withBody(`\`\`\`json [{"fileName": "${IMAGE_V14_2_COPY}", "manufacturerName": ["lixee"]}] \`\`\``);
+        // manip SHA512 so it doesn't match on that point in `hasManufacturerImage`
+        const f = readFileSync(filePaths[0].filename);
+        f[f.byteLength - 1] = 0xff;
+        writeFileSync(filePaths[0].filename, f);
 
         // @ts-expect-error mock
         await checkOtaPR(github, core, newContext);
+
+        const metaCopy = {
+            ...IMAGE_V14_2_MANUF_METAS,
+            sha512: "071be434a1c4ef95da68bfcfc0fdff9fb23729b16df50c4d6b70612414e39caacb1fd856c3849df6e99509a15ef8088cfdcd74c7f1f44d2048bac8fb5421ee64",
+        };
 
         expect(readManifestSpy).toHaveBeenCalledWith(common.BASE_INDEX_MANIFEST_FILENAME);
         expect(readManifestSpy).toHaveBeenCalledWith(common.PREV_INDEX_MANIFEST_FILENAME);
         expect(addImageToBaseSpy).toHaveBeenCalledTimes(2);
         expect(addImageToPrevSpy).toHaveBeenCalledTimes(0);
         expect(writeManifestSpy).toHaveBeenCalledTimes(2);
-        expect(writeManifestSpy).toHaveBeenCalledWith(common.BASE_INDEX_MANIFEST_FILENAME, [IMAGE_V14_2_MANUF_METAS, IMAGE_V14_2_METAS]);
+        expect(writeManifestSpy).toHaveBeenCalledWith(common.BASE_INDEX_MANIFEST_FILENAME, [metaCopy, IMAGE_V14_2_METAS]);
+    });
+
+    it("failure with SHA-matching image present", async () => {
+        filePaths = [useImage(IMAGE_V14_2_COPY), useImage(IMAGE_V14_2)];
+        const newContext = withBody(`\`\`\`json [{"fileName": "${IMAGE_V14_2_COPY}", "manufacturerName": ["lixee"]}] \`\`\``);
+
+        await expect(async () => {
+            // @ts-expect-error mock
+            await checkOtaPR(github, core, newContext);
+        }).rejects.toThrow(`[${path.join(BASE_IMAGES_TEST_DIR_PATH, IMAGE_V14_2)}] Image already present for manufacturer`);
+
+        expect(readManifestSpy).toHaveBeenCalledWith(common.BASE_INDEX_MANIFEST_FILENAME);
+        expect(readManifestSpy).toHaveBeenCalledWith(common.PREV_INDEX_MANIFEST_FILENAME);
+        expect(addImageToBaseSpy).toHaveBeenCalledTimes(2);
+        expect(addImageToPrevSpy).toHaveBeenCalledTimes(0);
+        expect(writeManifestSpy).toHaveBeenCalledTimes(0);
+        expect(baseManifest).toStrictEqual([IMAGE_V14_2_MANUF_METAS]);
+    });
+
+    it("failure with spec-matching image present", async () => {
+        filePaths = [useImage(IMAGE_V14_2_COPY), useImage(IMAGE_V14_2)];
+        // bypass initial "conflict" match by using random `minFileVersion`
+        const newContext = withBody(`\`\`\`json [{"fileName": "${IMAGE_V14_2_COPY}", "minFileVersion": 1}] \`\`\``);
+        // manip SHA512 so it doesn't match on that point in `hasManufacturerImage`
+        const f = readFileSync(filePaths[0].filename);
+        f[f.byteLength - 1] = 0xff;
+        writeFileSync(filePaths[0].filename, f);
+
+        await expect(async () => {
+            // @ts-expect-error mock
+            await checkOtaPR(github, core, newContext);
+        }).rejects.toThrow(`[${path.join(BASE_IMAGES_TEST_DIR_PATH, IMAGE_V14_2)}] Image already present for manufacturer`);
+
+        const metaCopy = {
+            ...IMAGE_V14_2_METAS,
+            sha512: "071be434a1c4ef95da68bfcfc0fdff9fb23729b16df50c4d6b70612414e39caacb1fd856c3849df6e99509a15ef8088cfdcd74c7f1f44d2048bac8fb5421ee64",
+            fileName: IMAGE_V14_2_COPY,
+            minFileVersion: 1,
+            url: IMAGE_V14_2_METAS.url.replace(IMAGE_V14_2, IMAGE_V14_2_COPY),
+        };
+        expect(readManifestSpy).toHaveBeenCalledWith(common.BASE_INDEX_MANIFEST_FILENAME);
+        expect(readManifestSpy).toHaveBeenCalledWith(common.PREV_INDEX_MANIFEST_FILENAME);
+        expect(addImageToBaseSpy).toHaveBeenCalledTimes(2);
+        expect(addImageToPrevSpy).toHaveBeenCalledTimes(0);
+        expect(writeManifestSpy).toHaveBeenCalledTimes(0);
+        expect(baseManifest).toStrictEqual([metaCopy]);
     });
 
     it("success with newer than current but minFileVersion keeps both", async () => {

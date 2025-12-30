@@ -5,7 +5,7 @@ import type {Octokit} from "@octokit/rest";
 
 import {ALL_AUTODL_MANUFACTURERS, BASE_INDEX_MANIFEST_FILENAME, CACHE_DIR, PREV_INDEX_MANIFEST_FILENAME, TMP_DIR, writeManifest} from "./common.js";
 
-export async function runAutodl(github: Octokit, core: typeof CoreApi, context: Context, manufacturersCSV?: string): Promise<void> {
+export async function runAutodl(_github: Octokit, core: typeof CoreApi, _context: Context, manufacturersCSV?: string): Promise<void> {
     const manufacturers = manufacturersCSV ? manufacturersCSV.trim().split(",") : ALL_AUTODL_MANUFACTURERS;
 
     core.info("Setup...");
