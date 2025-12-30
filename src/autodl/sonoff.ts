@@ -51,7 +51,7 @@ export async function download(): Promise<void> {
                 continue;
             }
 
-            await processFirmwareImage(NAME, firmwareFileName, image.fw_binary_url, {modelId: image.model_id});
+            await processFirmwareImage(NAME, firmwareFileName, image.fw_binary_url, {});
         }
 
         writeCacheJson(NAME, images);
