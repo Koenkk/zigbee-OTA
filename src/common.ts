@@ -309,8 +309,8 @@ export function getValidMetas(metas: Partial<ExtraMetas & ExtraMetasWithFileName
     }
 
     if (metas.customParseLogic != null) {
-        if (metas.customParseLogic === "telinkEncrypted") {
-            throw new Error(`Invalid value for 'customParseLogic', expected 'telinkEncrypted' type.`);
+        if (metas.customParseLogic !== "telinkEncrypted") {
+            throw new Error(`Invalid value for 'customParseLogic', expected 'telinkEncrypted' value.`);
         }
 
         validMetas.customParseLogic = metas.customParseLogic;
