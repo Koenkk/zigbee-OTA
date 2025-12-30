@@ -9011,7 +9011,8 @@
     "imageType": 2064,
     "manufacturerCode": 4742,
     "sha512": "9bd9f188c4b5e45878d72a6b513e9630f4fdc326d1d791d18c9d418971a6a6ad090f81e6e76a5fe800f213d735f116d95f704454212bea8823a13053c5e6a443",
-    "otaHeaderString": "FIRMWARE"
+    "otaHeaderString": "FIRMWARE",
+    "customParseLogic": "telinkEncrypted"
   },
   {
     "fileName": "zbm5-120-zed_v1.0.4.ota",
@@ -9088,7 +9089,8 @@
     "imageType": 2061,
     "manufacturerCode": 4742,
     "sha512": "d84f2e016626b25a5ada1171c920ae31fae57c77edfedc7959c8d2bb56af8c331d8b2bd71346afef7c68ff7672e816faa935262db78aad1b030c99f7bf865879",
-    "otaHeaderString": "Telink OTA Sample Usage"
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "customParseLogic": "telinkEncrypted"
   },
   {
     "fileName": "86-0001-00001101.zigbee",
