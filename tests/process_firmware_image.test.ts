@@ -116,7 +116,6 @@ describe("Process Firmware Image", () => {
         setTimeoutSpy.mockRestore();
         rmSync(BASE_IMAGES_TEST_DIR_PATH, {recursive: true, force: true});
         rmSync(PREV_IMAGES_TEST_DIR_PATH, {recursive: true, force: true});
-        rmSync(IMAGES_TEST_DIR, {recursive: true, force: true});
     });
 
     beforeEach(() => {

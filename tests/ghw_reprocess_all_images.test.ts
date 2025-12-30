@@ -141,10 +141,8 @@ describe("Github Workflow: Re-Process All Images", () => {
 
     const withOldMetas = (metas: RepoImageMeta): RepoImageMeta => {
         const oldMetas = structuredClone(metas);
-        // biome-ignore lint/performance/noDelete: <explanation>
         delete oldMetas.originalUrl;
         // @ts-expect-error mock
-        // biome-ignore lint/performance/noDelete: <explanation>
         delete oldMetas.sha512;
 
         return oldMetas;
@@ -185,8 +183,6 @@ describe("Github Workflow: Re-Process All Images", () => {
             rmSync(NOT_IN_BASE_MANIFEST_IMAGES_DIR, {recursive: true, force: true});
             renameSync(NOT_IN_BASE_MANIFEST_IMAGES_DIR_TMP, NOT_IN_BASE_MANIFEST_IMAGES_DIR);
         }
-
-        rmSync(IMAGES_TEST_DIR, {recursive: true, force: true});
     });
 
     beforeEach(() => {
@@ -393,7 +389,6 @@ describe("Github Workflow: Re-Process All Images", () => {
             // @ts-expect-error override
             {fileName: newName, url: `${baseUrl}${encodeURIComponent(newName)}`},
         );
-        // biome-ignore lint/performance/noDelete: <explanation>
         delete outManifestMetas.originalUrl;
         expect(writeManifestSpy).toHaveBeenNthCalledWith(2, common.BASE_INDEX_MANIFEST_FILENAME, [outManifestMetas]);
     });

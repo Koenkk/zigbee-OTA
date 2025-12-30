@@ -76,7 +76,7 @@ function parseSubElements(otaData: Buffer, totalImageSize: number): OtaSubElemen
     return elements;
 }
 
-export function identifyStacks(github: Octokit, core: typeof CoreApi, context: Context): void {
+export function identifyStacks(_github: Octokit, core: typeof CoreApi, _context: Context): void {
     try {
         const firmwareList: FirmwareStack[] = [];
         const baseManifest = readManifest(BASE_INDEX_MANIFEST_FILENAME);

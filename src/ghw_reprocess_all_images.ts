@@ -61,9 +61,9 @@ function get3rdPartyDir(meta: RepoImageMeta): string | undefined {
 }
 
 async function download3rdParties(
-    github: Octokit,
+    _github: Octokit,
     core: typeof CoreApi,
-    context: Context,
+    _context: Context,
     /* v8 ignore next */ outDirFinder = get3rdPartyDir,
 ): Promise<void> {
     if (!process.env.NODE_EXTRA_CA_CERTS) {
@@ -213,7 +213,7 @@ async function download3rdParties(
     core.info(`Prev manifest now contains ${prevManifest.length} images.`);
 }
 
-function checkImagesAgainstManifests(github: Octokit, core: typeof CoreApi, context: Context, removeNotInManifest: boolean): void {
+function checkImagesAgainstManifests(_github: Octokit, core: typeof CoreApi, _context: Context, removeNotInManifest: boolean): void {
     for (const [manifestName, imagesDir, moveDir] of [
         [PREV_INDEX_MANIFEST_FILENAME, PREV_IMAGES_DIR, NOT_IN_PREV_MANIFEST_IMAGES_DIR],
         [BASE_INDEX_MANIFEST_FILENAME, BASE_IMAGES_DIR, NOT_IN_BASE_MANIFEST_IMAGES_DIR],

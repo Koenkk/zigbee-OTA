@@ -8,7 +8,7 @@ export const CACERTS_DIR = "cacerts";
 export const CACERTS_CONCAT_FILEPATH = "cacerts.pem";
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-export function concatCaCerts(github: Octokit, core: typeof CoreApi, context: Context): void {
+export function concatCaCerts(_github: Octokit, core: typeof CoreApi, _context: Context): void {
     let pemContents = "";
 
     for (const pem of readdirSync(CACERTS_DIR)) {

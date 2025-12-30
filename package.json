@@ -16,6 +16,7 @@
         "clean": "rm -rf dist coverage *.tsbuildinfo",
         "start": "node ./dist/index.js",
         "check": "biome check",
+        "check:w": "biome check --write",
         "test": "vitest run --config ./tests/vitest.config.mts",
         "test:coverage": "vitest run --config ./tests/vitest.config.mts --coverage",
         "test:watch": "vitest watch --config ./tests/vitest.config.mts"
