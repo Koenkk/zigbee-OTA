@@ -8187,7 +8187,7 @@
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/snzb-02dr2_v1.0.3.ota",
     "imageType": 2064,
     "manufacturerCode": 4742,
-    "customParseLogic":"telinkEncrypted",
+    "customParseLogic": "telinkEncrypted",
     "sha512": "9bd9f188c4b5e45878d72a6b513e9630f4fdc326d1d791d18c9d418971a6a6ad090f81e6e76a5fe800f213d735f116d95f704454212bea8823a13053c5e6a443",
     "otaHeaderString": "FIRMWARE"
   },
@@ -9111,5 +9111,16 @@
     "sha512": "8a201045a669df5e17daed5ee80bdfb318e0465fcdeaebf69cfe1eb5cf563c0137526be894921512f8333cbb7dfacf36002d25b2dfd8e7789bb1d376f300bd97",
     "otaHeaderString": "",
     "releaseNotes": "Version: 7.0"
+  },
+  {
+    "fileName": "snzb-01m_v1.0.5.ota",
+    "fileVersion": 4101,
+    "fileSize": 193360,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/snzb-01m_v1.0.5.ota",
+    "imageType": 2062,
+    "manufacturerCode": 4742,
+    "sha512": "0ac93af2c1ad69ef9ba3fd923de018f1a1efee2f8c9795372495706b201b4bd4aca2cf3b6cc3046e81a78b7de747ce57f0ae1e42638953983c22a2fc300c5b9a",
+    "otaHeaderString": "FIRMWARE",
+    "customParseLogic": "telinkEncrypted"
   }
 ]
