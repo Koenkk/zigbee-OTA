@@ -4735,76 +4735,6 @@
     "otaHeaderString": ""
   },
   {
-    "fileName": "s40zbLite_v1.0.3.ota",
-    "fileVersion": 4099,
-    "fileSize": 156778,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/s40zbLite_v1.0.3.ota",
-    "imageType": 65,
-    "manufacturerCode": 4742,
-    "sha512": "38bc090584b844a0fe75900d6c0efb34a57d776b8d549fa3938cda437de4a454885f557a43ba51c7fa524f79de279a17c9da1d6c656c351f82b6eb46db1cf2b7",
-    "otaHeaderString": ""
-  },
-  {
-    "fileName": "snzb-05p_v1.0.2.ota",
-    "fileVersion": 4098,
-    "fileSize": 267632,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/snzb-05p_v1.0.2.ota",
-    "imageType": 2059,
-    "manufacturerCode": 4742,
-    "sha512": "bb64ae86d9ac2dc398d4520f97554515990ecef5568eebdaa7cdb2be19fe2471b35f53583adc8d8e9e70189a90add27556581bca444690155972ffa6b341b81e",
-    "otaHeaderString": "ota-file-test"
-  },
-  {
-    "fileName": "snzb-06p_v1.0.6.ota",
-    "fileVersion": 4102,
-    "fileSize": 258306,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/snzb-06p_v1.0.6.ota",
-    "imageType": 2060,
-    "manufacturerCode": 4742,
-    "sha512": "e722a7058439abba22f2d392f9308c0eb22dcb89ad32c3409983b74a28724713e9709cd2b6b61622dac57487227d2f902dd38291b9116a87b9fc52981669cf46",
-    "otaHeaderString": "vers: ZigBee:00001006"
-  },
-  {
-    "fileName": "zbmicro_v1.0.5.ota",
-    "fileVersion": 4101,
-    "fileSize": 269220,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/zbmicro_v1.0.5.ota",
-    "imageType": 7,
-    "manufacturerCode": 4742,
-    "sha512": "dd1d67ba721740c3eec4da80a2396c6fa09b981bcf2ed9fc712790e45ec9fb392d58d33e36a1bc19899a77a3421a206c1c9c2f7512ed3c8c571e1344f7d996d8",
-    "otaHeaderString": "ota-file-test"
-  },
-  {
-    "fileName": "zbmini-l_v1.1.1.ota",
-    "fileVersion": 4353,
-    "fileSize": 131086,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/zbmini-l_v1.1.1.ota",
-    "imageType": 1,
-    "manufacturerCode": 4742,
-    "sha512": "b136d2656ea1197ae84f5e9c2244a9d9697bccab2c448324d9176bac791aff0161afc73c8a1574bbd51c0ea2e318840ca58a0a99da32669d3e5fc776bdf3473a",
-    "otaHeaderString": ""
-  },
-  {
-    "fileName": "zbminil2_v1.0.14.ota",
-    "fileVersion": 4110,
-    "fileSize": 259018,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/zbminil2_v1.0.14.ota",
-    "imageType": 4,
-    "manufacturerCode": 4742,
-    "sha512": "c80d29e84e3019a84f7a3bdb3e84a3b462e2516c7de5120cdbb68a0e474fcb8b1c5d8eb79b204ad2d9c5af2bed4e544588b192b7884d493a11f82d4ac8625177",
-    "otaHeaderString": "ota-file-test"
-  },
-  {
-    "fileName": "zbswv_v1.0.4.ota",
-    "fileVersion": 4100,
-    "fileSize": 272354,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/zbswv_v1.0.4.ota",
-    "imageType": 8202,
-    "manufacturerCode": 4742,
-    "sha512": "49ef75a2d1dd6f706d2182d6cd88c6d98c0aa1e70fdb37e739e6e970266884579794faab361f976aed84c6f9c3c547f7d32f28940f16b72e3f7e454bd5001b1b",
-    "otaHeaderString": "ota-file-test"
-  },
-  {
     "fileName": "wb_msw3_0_061.ota",
     "fileVersion": 61,
     "fileSize": 412542,
@@ -5555,16 +5485,6 @@
     "otaHeaderString": "LD6002B"
   },
   {
-    "fileName": "snzb-02d_v2.3.0.ota",
-    "fileVersion": 8960,
-    "fileSize": 264118,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/snzb-02d_v2.3.0.ota",
-    "imageType": 2053,
-    "manufacturerCode": 4742,
-    "sha512": "1ff8bc7d3d38adc87b4b2050fc6241efdd989c6410b6a73f6f8dde999450f9468bc08ca62f7223adc61a2d655a746c257002af4c2c36f3c089c182cc4a58aaea",
-    "otaHeaderString": "FWSN_SNZB02D"
-  },
-  {
     "fileName": "10F2-7B02-0002-0007-0192020D-spo-fms.ota1.zigbee",
     "fileVersion": 26345997,
     "fileSize": 256200,
@@ -5816,16 +5736,6 @@
     "manufacturerCode": 4454,
     "sha512": "128de267c5c3ab0a1cff90ba0e19e8641674c27fde6c131bdd175eb86df5e2a07df60b610f974690d211350a79e08ca40f01e6dfbf6202548f03b9a933ec882f",
     "otaHeaderString": "Telink OTA Sample Usage"
-  },
-  {
-    "fileName": "zbm5-120-zed_v1.0.4.ota",
-    "fileVersion": 4100,
-    "fileSize": 273908,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/zbm5-120-zed_v1.0.4.ota",
-    "imageType": 9,
-    "manufacturerCode": 4742,
-    "sha512": "a380068b7f4436d2930d37e6ddf63dddca1dd33dc9f5b6f05be36191c94b3c142735219985c26d1d3521a2216d9b95da44123ab0cab01ea1d77ec55e997de167",
-    "otaHeaderString": "ota-file-test"
   },
   {
     "fileName": "1166-070d-30022162-fl122c-3.0.2.ota",
@@ -6629,16 +6539,6 @@
     ]
   },
   {
-    "fileName": "snzb-02p_v2.2.0.ota",
-    "fileVersion": 8704,
-    "fileSize": 260018,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/snzb-02p_v2.2.0.ota",
-    "imageType": 2055,
-    "manufacturerCode": 4742,
-    "sha512": "4a8acf7ab76e2e193e816956c01ec8aebf34455b62240b3cefa856262cce760ca13b0010fa2570553dd6ce8a022ce534d2a6cb28384de34ef5c11f7020e1c8ff",
-    "otaHeaderString": "FWSN_SNZB02P"
-  },
-  {
     "fileName": "1662545193-oem_zg_tl8258_plug_OTA_3.0.0.bin",
     "fileVersion": 192,
     "fileSize": 307682,
@@ -7259,16 +7159,6 @@
     ]
   },
   {
-    "fileName": "mini-zb2gs_v1.0.4.ota",
-    "fileVersion": 4100,
-    "fileSize": 286032,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/mini-zb2gs_v1.0.4.ota",
-    "imageType": 68,
-    "manufacturerCode": 4742,
-    "sha512": "092b398fbdca07e7dd61bb580f130e304bdbcf895fcb2eda2324c166a412c75480ab4f9b323aae7627f80786c4dd94e897f490d768de6da84e406838c24cb01d",
-    "otaHeaderString": "ota-file-test"
-  },
-  {
     "fileName": "128b-0002-030C-700_nodon_sin_4_2_20_fw_antenna_V030C.zigbee",
     "fileVersion": 780,
     "fileSize": 426384,
@@ -7704,16 +7594,6 @@
     "otaHeaderString": "temp_humi_sensor"
   },
   {
-    "fileName": "trvzb_v1.4.1.ota",
-    "fileVersion": 5121,
-    "fileSize": 332092,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/trvzb_v1.4.1.ota",
-    "imageType": 8199,
-    "manufacturerCode": 4742,
-    "sha512": "139a5f85f25bd2378ed110bd8698bfb31a8a4a9759dcf476a29677f550a274d3269c1b15abf477116b96e26eb407bd9424467b3a054d6f156de178bcd9f8a66f",
-    "otaHeaderString": "vers:00001401,00001208\n"
-  },
-  {
     "fileName": "1021-000e-004e45ff-NLF.zigbee",
     "fileVersion": 5129727,
     "fileSize": 254311,
@@ -7792,16 +7672,6 @@
     "manufacturerCode": 4659,
     "sha512": "440d4aa1a6984a5fb899019661db40ab9edf6f6d59f936d45a4cf670c677d64b1ad6fc2f7639f72274f1bd4d62c2150d9365c6d05ea7d80f6c4b6cbaa55b28e5",
     "otaHeaderString": "Telink OTA Sample Usage"
-  },
-  {
-    "fileName": "zbminir2_v1.0.8.ota",
-    "fileVersion": 4104,
-    "fileSize": 277180,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/zbminir2_v1.0.8.ota",
-    "imageType": 8,
-    "manufacturerCode": 4742,
-    "sha512": "051912851dffed4b49d3caece8d67b0fec9987dcbdf4d6db45c4e23f4ea0c9be867491758af12f153bc9672d4205129a9270be79e781d150734be295c44971bf",
-    "otaHeaderString": "ota-file-test"
   },
   {
     "fileName": "Bituo_ZS2S_signing_app14.ota",
@@ -8131,16 +8001,6 @@
     "otaHeaderString": "temp_humi_sensor"
   },
   {
-    "fileName": "zbm5-120-zr_v1.0.6.ota",
-    "fileVersion": 4102,
-    "fileSize": 295168,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/zbm5-120-zr_v1.0.6.ota",
-    "imageType": 10,
-    "manufacturerCode": 4742,
-    "sha512": "a40601e64cdb0088ae8992ef396a3474e2f9cc5a8e5a9e992110401c1b36440fc272f8c2d7c8a2ba84d94de61f8065456274e465a9066e800bcc798c1049d4cd",
-    "otaHeaderString": "ota-file-test"
-  },
-  {
     "fileName": "1135-0009-201000F8-FLS-CT_16Mhz.zigbee",
     "fileVersion": 537919736,
     "fileSize": 202909,
@@ -8179,17 +8039,6 @@
     "manufacturerCode": 4405,
     "sha512": "d3a7f0f7d1fd5a414754b5c1d88a820fc7b1b800f6b353ff1cf903f87b3d0d07e8b4ba19324b3f643964b8e50207b32aa2a0fa89e589bdb1256c7b1cfb12a374",
     "otaHeaderString": "FLS-M Firmware 0x01010106"
-  },
-  {
-    "fileName": "snzb-02dr2_v1.0.3.ota",
-    "fileVersion": 4099,
-    "fileSize": 212336,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/snzb-02dr2_v1.0.3.ota",
-    "imageType": 2064,
-    "manufacturerCode": 4742,
-    "customParseLogic": "telinkEncrypted",
-    "sha512": "9bd9f188c4b5e45878d72a6b513e9630f4fdc326d1d791d18c9d418971a6a6ad090f81e6e76a5fe800f213d735f116d95f704454212bea8823a13053c5e6a443",
-    "otaHeaderString": "FIRMWARE"
   },
   {
     "fileName": "6565-0215-10083001-ts0201_tz3000_0x15_zed.zigbee",
@@ -9111,6 +8960,181 @@
     "sha512": "8a201045a669df5e17daed5ee80bdfb318e0465fcdeaebf69cfe1eb5cf563c0137526be894921512f8333cbb7dfacf36002d25b2dfd8e7789bb1d376f300bd97",
     "otaHeaderString": "",
     "releaseNotes": "Version: 7.0"
+  },
+  {
+    "fileName": "s40zbLite_v1.0.3.ota",
+    "fileVersion": 4099,
+    "fileSize": 156778,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/s40zbLite_v1.0.3.ota",
+    "imageType": 65,
+    "manufacturerCode": 4742,
+    "sha512": "38bc090584b844a0fe75900d6c0efb34a57d776b8d549fa3938cda437de4a454885f557a43ba51c7fa524f79de279a17c9da1d6c656c351f82b6eb46db1cf2b7",
+    "otaHeaderString": ""
+  },
+  {
+    "fileName": "zbswv_v1.0.4.ota",
+    "fileVersion": 4100,
+    "fileSize": 272354,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/zbswv_v1.0.4.ota",
+    "imageType": 8202,
+    "manufacturerCode": 4742,
+    "sha512": "49ef75a2d1dd6f706d2182d6cd88c6d98c0aa1e70fdb37e739e6e970266884579794faab361f976aed84c6f9c3c547f7d32f28940f16b72e3f7e454bd5001b1b",
+    "otaHeaderString": "ota-file-test"
+  },
+  {
+    "fileName": "mini-zb2gs_v1.0.4.ota",
+    "fileVersion": 4100,
+    "fileSize": 286032,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/mini-zb2gs_v1.0.4.ota",
+    "imageType": 68,
+    "manufacturerCode": 4742,
+    "sha512": "092b398fbdca07e7dd61bb580f130e304bdbcf895fcb2eda2324c166a412c75480ab4f9b323aae7627f80786c4dd94e897f490d768de6da84e406838c24cb01d",
+    "otaHeaderString": "ota-file-test"
+  },
+  {
+    "fileName": "snzb-05p_v1.0.2.ota",
+    "fileVersion": 4098,
+    "fileSize": 267632,
+    "originalUrl": "https://zigbee-ota.sonoff.tech/releases/snzb-05p_v1.0.2.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/snzb-05p_v1.0.2.ota",
+    "imageType": 2059,
+    "manufacturerCode": 4742,
+    "sha512": "bb64ae86d9ac2dc398d4520f97554515990ecef5568eebdaa7cdb2be19fe2471b35f53583adc8d8e9e70189a90add27556581bca444690155972ffa6b341b81e",
+    "otaHeaderString": "ota-file-test"
+  },
+  {
+    "fileName": "snzb-02dr2_v1.0.3.ota",
+    "fileVersion": 4099,
+    "fileSize": 212336,
+    "originalUrl": "https://zigbee-ota.sonoff.tech/releases/snzb-02dr2_v1.0.3.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/snzb-02dr2_v1.0.3.ota",
+    "imageType": 2064,
+    "manufacturerCode": 4742,
+    "sha512": "9bd9f188c4b5e45878d72a6b513e9630f4fdc326d1d791d18c9d418971a6a6ad090f81e6e76a5fe800f213d735f116d95f704454212bea8823a13053c5e6a443",
+    "otaHeaderString": "FIRMWARE",
+    "customParseLogic": "telinkEncrypted"
+  },
+  {
+    "fileName": "zbm5-120-zed_v1.0.4.ota",
+    "fileVersion": 4100,
+    "fileSize": 273908,
+    "originalUrl": "https://zigbee-ota.sonoff.tech/releases/zbm5-120-zed_v1.0.4.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/zbm5-120-zed_v1.0.4.ota",
+    "imageType": 9,
+    "manufacturerCode": 4742,
+    "sha512": "a380068b7f4436d2930d37e6ddf63dddca1dd33dc9f5b6f05be36191c94b3c142735219985c26d1d3521a2216d9b95da44123ab0cab01ea1d77ec55e997de167",
+    "otaHeaderString": "ota-file-test"
+  },
+  {
+    "fileName": "snzb-06p_v1.0.5.ota",
+    "fileVersion": 4101,
+    "fileSize": 258206,
+    "originalUrl": "https://zigbee-ota.sonoff.tech/releases/snzb-06p_v1.0.5.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/snzb-06p_v1.0.5.ota",
+    "imageType": 2060,
+    "manufacturerCode": 4742,
+    "sha512": "fdcd4e238b25a971d79746a0305e185567e027c3ba08ed42ac7ca003601c25ccce497fd1f8e6ede1e0e7b058768bc2daf3ebc985174fc6265a9df4acc4f81467",
+    "otaHeaderString": "vers: ZigBee:00001005"
+  },
+  {
+    "fileName": "zbmicro_v1.0.5.ota",
+    "fileVersion": 4101,
+    "fileSize": 269220,
+    "originalUrl": "https://zigbee-ota.sonoff.tech/releases/zbmicro_v1.0.5.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/zbmicro_v1.0.5.ota",
+    "imageType": 7,
+    "manufacturerCode": 4742,
+    "sha512": "dd1d67ba721740c3eec4da80a2396c6fa09b981bcf2ed9fc712790e45ec9fb392d58d33e36a1bc19899a77a3421a206c1c9c2f7512ed3c8c571e1344f7d996d8",
+    "otaHeaderString": "ota-file-test"
+  },
+  {
+    "fileName": "zbm5-120-zr_v1.0.6.ota",
+    "fileVersion": 4102,
+    "fileSize": 295168,
+    "originalUrl": "https://zigbee-ota.sonoff.tech/releases/zbm5-120-zr_v1.0.6.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/zbm5-120-zr_v1.0.6.ota",
+    "imageType": 10,
+    "manufacturerCode": 4742,
+    "sha512": "a40601e64cdb0088ae8992ef396a3474e2f9cc5a8e5a9e992110401c1b36440fc272f8c2d7c8a2ba84d94de61f8065456274e465a9066e800bcc798c1049d4cd",
+    "otaHeaderString": "ota-file-test"
+  },
+  {
+    "fileName": "zbminir2_v1.0.8.ota",
+    "fileVersion": 4104,
+    "fileSize": 277180,
+    "originalUrl": "https://zigbee-ota.sonoff.tech/releases/zbminir2_v1.0.8.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/zbminir2_v1.0.8.ota",
+    "imageType": 8,
+    "manufacturerCode": 4742,
+    "sha512": "051912851dffed4b49d3caece8d67b0fec9987dcbdf4d6db45c4e23f4ea0c9be867491758af12f153bc9672d4205129a9270be79e781d150734be295c44971bf",
+    "otaHeaderString": "ota-file-test"
+  },
+  {
+    "fileName": "zigbeeminil2_100E_stand_ota_file.ota",
+    "fileVersion": 4110,
+    "fileSize": 259018,
+    "originalUrl": "https://zigbee-ota.sonoff.tech/releases/zigbeeminil2_100E_stand_ota_file.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/zigbeeminil2_100E_stand_ota_file.ota",
+    "imageType": 4,
+    "manufacturerCode": 4742,
+    "sha512": "c80d29e84e3019a84f7a3bdb3e84a3b462e2516c7de5120cdbb68a0e474fcb8b1c5d8eb79b204ad2d9c5af2bed4e544588b192b7884d493a11f82d4ac8625177",
+    "otaHeaderString": "ota-file-test"
+  },
+  {
+    "fileName": "snzb02lwd_v1.1.0.ota",
+    "fileVersion": 4352,
+    "fileSize": 167888,
+    "originalUrl": "https://zigbee-ota.sonoff.tech/releases/snzb02lwd_v1.1.0.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/snzb02lwd_v1.1.0.ota",
+    "imageType": 2061,
+    "manufacturerCode": 4742,
+    "sha512": "d84f2e016626b25a5ada1171c920ae31fae57c77edfedc7959c8d2bb56af8c331d8b2bd71346afef7c68ff7672e816faa935262db78aad1b030c99f7bf865879",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "customParseLogic": "telinkEncrypted"
+  },
+  {
+    "fileName": "86-0001-00001101.zigbee",
+    "fileVersion": 4353,
+    "fileSize": 131086,
+    "originalUrl": "https://zigbee-ota.sonoff.tech/releases/86-0001-00001101.zigbee",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/86-0001-00001101.zigbee",
+    "imageType": 1,
+    "manufacturerCode": 4742,
+    "sha512": "b136d2656ea1197ae84f5e9c2244a9d9697bccab2c448324d9176bac791aff0161afc73c8a1574bbd51c0ea2e318840ca58a0a99da32669d3e5fc776bdf3473a",
+    "otaHeaderString": ""
+  },
+  {
+    "fileName": "trvzb_v1.4.1.ota",
+    "fileVersion": 5121,
+    "fileSize": 332092,
+    "originalUrl": "https://zigbee-ota.sonoff.tech/releases/trvzb_v1.4.1.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/trvzb_v1.4.1.ota",
+    "imageType": 8199,
+    "manufacturerCode": 4742,
+    "sha512": "139a5f85f25bd2378ed110bd8698bfb31a8a4a9759dcf476a29677f550a274d3269c1b15abf477116b96e26eb407bd9424467b3a054d6f156de178bcd9f8a66f",
+    "otaHeaderString": "vers:00001401,00001208\n"
+  },
+  {
+    "fileName": "snzb-02p_v2.2.0.ota",
+    "fileVersion": 8704,
+    "fileSize": 260018,
+    "originalUrl": "https://zigbee-ota.sonoff.tech/releases/snzb-02p_v2.2.0.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/snzb-02p_v2.2.0.ota",
+    "imageType": 2055,
+    "manufacturerCode": 4742,
+    "sha512": "4a8acf7ab76e2e193e816956c01ec8aebf34455b62240b3cefa856262cce760ca13b0010fa2570553dd6ce8a022ce534d2a6cb28384de34ef5c11f7020e1c8ff",
+    "otaHeaderString": "FWSN_SNZB02P"
+  },
+  {
+    "fileName": "snzb-02d_v2.3.0.ota",
+    "fileVersion": 8960,
+    "fileSize": 264118,
+    "originalUrl": "https://zigbee-ota.sonoff.tech/releases/snzb-02d_v2.3.0.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/snzb-02d_v2.3.0.ota",
+    "imageType": 2053,
+    "manufacturerCode": 4742,
+    "sha512": "1ff8bc7d3d38adc87b4b2050fc6241efdd989c6410b6a73f6f8dde999450f9468bc08ca62f7223adc61a2d655a746c257002af4c2c36f3c089c182cc4a58aaea",
+    "otaHeaderString": "FWSN_SNZB02D"
   },
   {
     "fileName": "snzb-01m_v1.0.5.ota",

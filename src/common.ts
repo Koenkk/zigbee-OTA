@@ -38,6 +38,7 @@ export const ALL_AUTODL_MANUFACTURERS = [
     "ledvance",
     "lixee",
     "salus",
+    "sonoff",
     "ubisys",
     "xyzroe",
 ];
