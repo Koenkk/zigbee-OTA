@@ -7561,19 +7561,6 @@
     "releaseNotes": "1. Improve the energy consumption report in Home Assistant system."
   },
   {
-    "fileName": "6565-0391-10193001-tuya_thermostat_zrd.zigbee",
-    "fileVersion": 270086145,
-    "fileSize": 255410,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-0391-10193001-tuya_thermostat_zrd.zigbee",
-    "imageType": 913,
-    "manufacturerCode": 25957,
-    "sha512": "6eb36d3976173b971e93ccf09f4377e0d20670e06e148b19c19113488484efebf97737c8a909abf69e97102523cf1a06ad644f5d01491aa2e4a1c05566085321",
-    "otaHeaderString": "",
-    "manufacturerName": [
-      "Slacky-DIY"
-    ]
-  },
-  {
     "fileName": "SmartCurtainModule_Zigbee_PROD_OTA_V52_v1.00.52.ota",
     "fileVersion": 52,
     "fileSize": 170978,
@@ -9166,5 +9153,18 @@
     "manufacturerCode": 4742,
     "sha512": "f831d7d14f51d79944559c95ff7ca68955c453c6936b9ad59f1eafe78143a0c632dec92c55072849a88ae0dd51bdc702eb64df9fb1f6a0120bce6b6a44c9eff9",
     "otaHeaderString": "ota-file-test"
+  },
+  {
+    "fileName": "6565-0391-10203001-tuya_thermostat_zrd.zigbee",
+    "fileVersion": 270544897,
+    "fileSize": 259570,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-0391-10203001-tuya_thermostat_zrd.zigbee",
+    "imageType": 913,
+    "manufacturerCode": 25957,
+    "sha512": "c8a532b04ab47b113fa374c71a7e808a97c851506ce5addf7086b1bf3659b27a71a2b221b36727ac9f0cc5945c61fec3d55da2e54ee574134387229654ad589a",
+    "otaHeaderString": "",
+    "manufacturerName": [
+      "Slacky-DIY"
+    ]
   }
 ]

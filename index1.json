@@ -2387,19 +2387,6 @@
     "releaseNotes": "1.Fix bug network leave related with green power device commission.\r\n2.Fix abnormal reboot caused by network status.\r\n3.Upgrade Zigbee stack to latest version 3.7.1.2. \r\n4.Support using recall scene to turn off plug in Hue system."
   },
   {
-    "fileName": "6565-0391-10183001-tuya_thermostat_zrd.zigbee",
-    "fileVersion": 270020609,
-    "fileSize": 237634,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/SlackyDiy/6565-0391-10183001-tuya_thermostat_zrd.zigbee",
-    "imageType": 913,
-    "manufacturerCode": 25957,
-    "sha512": "c860beead65a3926daff010dbb434d97e3145dc977fe82e56f109bcc0c8e6814495e0432198506fdf381b4f0a3c9395344a07a7c69fd65e6323ed104ae53b4db",
-    "otaHeaderString": "",
-    "manufacturerName": [
-      "Slacky-DIY"
-    ]
-  },
-  {
     "fileName": "SmartCurtainModule_Zigbee_PROD_OTA_V48_v1.00.48.ota",
     "fileVersion": 48,
     "fileSize": 169730,
@@ -2994,5 +2981,18 @@
     "manufacturerCode": 4742,
     "sha512": "c1001ffc0d3f38ac1b92e9d113e47ada6aa673671962eb03c11ecb7bc4ab5ea8a3f7c2d1d37095c7749a996c4eb381da0bb120be736d6757da6fa9e396f4522b",
     "otaHeaderString": "vers:00001400,00001208\n"
+  },
+  {
+    "fileName": "6565-0391-10193001-tuya_thermostat_zrd.zigbee",
+    "fileVersion": 270086145,
+    "fileSize": 255410,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/SlackyDiy/6565-0391-10193001-tuya_thermostat_zrd.zigbee",
+    "imageType": 913,
+    "manufacturerCode": 25957,
+    "sha512": "6eb36d3976173b971e93ccf09f4377e0d20670e06e148b19c19113488484efebf97737c8a909abf69e97102523cf1a06ad644f5d01491aa2e4a1c05566085321",
+    "otaHeaderString": "",
+    "manufacturerName": [
+      "Slacky-DIY"
+    ]
   }
 ]
