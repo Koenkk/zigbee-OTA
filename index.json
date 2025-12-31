@@ -9146,5 +9146,25 @@
     "sha512": "0ac93af2c1ad69ef9ba3fd923de018f1a1efee2f8c9795372495706b201b4bd4aca2cf3b6cc3046e81a78b7de747ce57f0ae1e42638953983c22a2fc300c5b9a",
     "otaHeaderString": "FIRMWARE",
     "customParseLogic": "telinkEncrypted"
+  },
+  {
+    "fileName": "mini-zbdim_v1.0.5.ota",
+    "fileVersion": 4101,
+    "fileSize": 236032,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/mini-zbdim_v1.0.5.ota",
+    "imageType": 69,
+    "manufacturerCode": 4742,
+    "sha512": "88cf2b860f2929c6d0f4b2b3ac44b4b00b391e13938203ac4f9aacf3727ee59afff7080ba54cb41797f130ae93b30c4a16cd726545d7e173c76bcc22d8afc30c",
+    "otaHeaderString": "vers:00001005,00001102\n"
+  },
+  {
+    "fileName": "mini-zbrbs_v1.1.0.ota",
+    "fileVersion": 4352,
+    "fileSize": 305020,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/mini-zbrbs_v1.1.0.ota",
+    "imageType": 8204,
+    "manufacturerCode": 4742,
+    "sha512": "f831d7d14f51d79944559c95ff7ca68955c453c6936b9ad59f1eafe78143a0c632dec92c55072849a88ae0dd51bdc702eb64df9fb1f6a0120bce6b6a44c9eff9",
+    "otaHeaderString": "ota-file-test"
   }
 ]
