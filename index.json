@@ -9155,13 +9155,13 @@
     "otaHeaderString": "ota-file-test"
   },
   {
-    "fileName": "6565-0391-10203001-tuya_thermostat_zrd.zigbee",
-    "fileVersion": 270544897,
+    "fileName": "6565-0391-10213001-tuya_thermostat_zrd.zigbee",
+    "fileVersion": 270610433,
     "fileSize": 259570,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-0391-10203001-tuya_thermostat_zrd.zigbee",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-0391-10213001-tuya_thermostat_zrd.zigbee",
     "imageType": 913,
     "manufacturerCode": 25957,
-    "sha512": "c8a532b04ab47b113fa374c71a7e808a97c851506ce5addf7086b1bf3659b27a71a2b221b36727ac9f0cc5945c61fec3d55da2e54ee574134387229654ad589a",
+    "sha512": "9f0eba893fcb11f7d15e282a55f93706b710de8b40dd68e56df2a2d7095f707b07059fd7393369d7998c5fc4fc8e6f1355c740764ec2b5bbb3f0d0e7132f3ef9",
     "otaHeaderString": "",
     "manufacturerName": [
       "Slacky-DIY"
