@@ -9179,5 +9179,96 @@
     "manufacturerName": [
       "Slacky-DIY"
     ]
+  },
+  {
+    "fileName": "132f-0212-0000000d-YNDX-00530.zigbee",
+    "fileVersion": 13,
+    "fileSize": 226562,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Yandex/132f-0212-0000000d-YNDX-00530.zigbee",
+    "imageType": 530,
+    "manufacturerCode": 4911,
+    "sha512": "6d5b39c871ba4294388fca4931f973a8bc9587dc69399ade1d5052448020abfa06246d324e89be27375d67880dd7f6b0bd53cd8088745cb5e7001f44b4b528e4",
+    "otaHeaderString": "Yandex OTA",
+    "manufacturerName": [
+      "Yandex"
+    ]
+  },
+  {
+    "fileName": "132f-0213-00000018-YNDX-00531.zigbee",
+    "fileVersion": 24,
+    "fileSize": 166914,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Yandex/132f-0213-00000018-YNDX-00531.zigbee",
+    "imageType": 531,
+    "manufacturerCode": 4911,
+    "sha512": "6a9635d5ae51ae2435c510938d02ac0c96cb8a13f441582e4d47f94766bba2c5789e30fbeb05dd88fe8e095c8023ae6085aa20a2ceab7f649efed55d875d10dc",
+    "otaHeaderString": "Yandex OTA",
+    "manufacturerName": [
+      "Yandex"
+    ]
+  },
+  {
+    "fileName": "132f-0214-00000018-YNDX-00532.zigbee",
+    "fileVersion": 24,
+    "fileSize": 166914,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Yandex/132f-0214-00000018-YNDX-00532.zigbee",
+    "imageType": 532,
+    "manufacturerCode": 4911,
+    "sha512": "6c81f1462b41407dda4e65b4bbba1c158eee41387316354e57c51052b642ecdcebbfad271c8a55730d7b8eb33b76782f07a7ce21b711bcd9f57f57095efd35d4",
+    "otaHeaderString": "Yandex OTA",
+    "manufacturerName": [
+      "Yandex"
+    ]
+  },
+  {
+    "fileName": "132f-0216-00000011-YNDX-00534.zigbee",
+    "fileVersion": 17,
+    "fileSize": 157298,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Yandex/132f-0216-00000011-YNDX-00534.zigbee",
+    "imageType": 534,
+    "manufacturerCode": 4911,
+    "sha512": "288583f4a4b8266e72be8823b7ffc2543258d2df0ba3ba988c22d0eaeb0a0e7029aaa1af9ecd72510fcc1cbc896f2315a611dca8e99aa544cdfd63e002a25d6f",
+    "otaHeaderString": "Yandex OTA",
+    "manufacturerName": [
+      "Yandex"
+    ]
+  },
+  {
+    "fileName": "132f-0217-00000011-YNDX-00535.zigbee",
+    "fileVersion": 17,
+    "fileSize": 157298,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Yandex/132f-0217-00000011-YNDX-00535.zigbee",
+    "imageType": 535,
+    "manufacturerCode": 4911,
+    "sha512": "20bca53a86c3954376509bac33d369e09e5c8b0d22243ff67006009fe4b4b9f475061bf22af487908cdd0f33c4d785bb830cea815d25d7ff573cf79728a5015f",
+    "otaHeaderString": "Yandex OTA",
+    "manufacturerName": [
+      "Yandex"
+    ]
+  },
+  {
+    "fileName": "132f-0219-00000015-YNDX-00537.zigbee",
+    "fileVersion": 21,
+    "fileSize": 166242,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Yandex/132f-0219-00000015-YNDX-00537.zigbee",
+    "imageType": 537,
+    "manufacturerCode": 4911,
+    "sha512": "170a261b2c1d83fe307ab8a4944b46a8d1499a96bbcb2cfe3227722abe542ad30bc2ab45c3bd128e1cbad13a59dce1aa257daada932ebad4d8b9d1ad169a7e72",
+    "otaHeaderString": "Yandex OTA",
+    "manufacturerName": [
+      "Yandex"
+    ]
+  },
+  {
+    "fileName": "132f-021a-00000016-YNDX-00538.zigbee",
+    "fileVersion": 22,
+    "fileSize": 167058,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Yandex/132f-021a-00000016-YNDX-00538.zigbee",
+    "imageType": 538,
+    "manufacturerCode": 4911,
+    "sha512": "89495799a2cc5d6d7fb454bd0ec389f5b9b046d294e40c14b3406c3c88448b6704fefdb3def905a5a8249c9f652ab5f1e32d3033095266508c9de5fdbee43678",
+    "otaHeaderString": "Yandex OTA",
+    "manufacturerName": [
+      "Yandex"
+    ]
   }
 ]
