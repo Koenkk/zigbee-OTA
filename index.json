@@ -6369,45 +6369,6 @@
     ]
   },
   {
-    "fileName": "6565-0218-10043001-ZG_222Z.zigbee",
-    "fileVersion": 268709889,
-    "fileSize": 153554,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-0218-10043001-ZG_222Z.zigbee",
-    "imageType": 536,
-    "manufacturerCode": 25957,
-    "sha512": "cea20063aebd297522f20a3087d7f06d6f90fc7dab5eb3b35389d0138da906bdf9ba35b2a811121b8662340e8d59011498f7fb834b58dfb58ac5cf0db1c17234",
-    "otaHeaderString": "",
-    "manufacturerName": [
-      "Slacky-DIY"
-    ]
-  },
-  {
-    "fileName": "6565-0219-10043001-SNZB_05.zigbee",
-    "fileVersion": 268709889,
-    "fileSize": 153538,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-0219-10043001-SNZB_05.zigbee",
-    "imageType": 537,
-    "manufacturerCode": 25957,
-    "sha512": "aef31e6415c7faa9ad8c056035c295d5a2b053388dd3a059286b51068577c526cca35d53e73fef3a6d9a7ff424c04700ff7d10e21d3372eae91d6f4a2d9b7538",
-    "otaHeaderString": "",
-    "manufacturerName": [
-      "Slacky-DIY"
-    ]
-  },
-  {
-    "fileName": "6565-0397-10043001-ZG_222ZA.zigbee",
-    "fileVersion": 268709889,
-    "fileSize": 152962,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-0397-10043001-ZG_222ZA.zigbee",
-    "imageType": 919,
-    "manufacturerCode": 25957,
-    "sha512": "e82d1c91fbd7b2614a6d4c6ebdd709ad2118d69a785b960068611da0ed3ee693a6d36a27bc88d365ae0679545bd3a13f2a1988669cf23be4493b1f75796d1f5f",
-    "otaHeaderString": "",
-    "manufacturerName": [
-      "Slacky-DIY"
-    ]
-  },
-  {
     "fileName": "EntrySensor_4.0.3.zigbee",
     "fileVersion": 262147,
     "fileSize": 200550,
@@ -9163,6 +9124,58 @@
     "manufacturerCode": 25957,
     "sha512": "9f0eba893fcb11f7d15e282a55f93706b710de8b40dd68e56df2a2d7095f707b07059fd7393369d7998c5fc4fc8e6f1355c740764ec2b5bbb3f0d0e7132f3ef9",
     "otaHeaderString": "",
+    "manufacturerName": [
+      "Slacky-DIY"
+    ]
+  },
+  {
+    "fileName": "6565-0217-10053001-zg_227za_0x17_zed.zigbee",
+    "fileVersion": 268775425,
+    "fileSize": 151682,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-0217-10053001-zg_227za_0x17_zed.zigbee",
+    "imageType": 535,
+    "manufacturerCode": 25957,
+    "sha512": "4e42158d6b55fa03ab8f1e03e87319501ff74336d1193593ead568655d09797e5670c3257d7a7ea4781783528aa3f0055c89452288a34e2e08a8376b0b017c66",
+    "otaHeaderString": "Slacky-DIY OTA",
+    "manufacturerName": [
+      "Slacky-DIY"
+    ]
+  },
+  {
+    "fileName": "6565-0218-10053001-zg_227z_0x18_zed.zigbee",
+    "fileVersion": 268775425,
+    "fileSize": 151698,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-0218-10053001-zg_227z_0x18_zed.zigbee",
+    "imageType": 536,
+    "manufacturerCode": 25957,
+    "sha512": "0577d8b3598577c70c3e3336d2a8341e7b5faa7bd4d558306601b2f0c8aa5b9c412d9707bb8c0a67a17181dfc8ba2ff5b03860da712e90bc83802a6a2ec4207f",
+    "otaHeaderString": "Slacky-DIY OTA",
+    "manufacturerName": [
+      "Slacky-DIY"
+    ]
+  },
+  {
+    "fileName": "6565-0219-10053001-snzb_05_0x19_zed.zigbee",
+    "fileVersion": 268775425,
+    "fileSize": 151682,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-0219-10053001-snzb_05_0x19_zed.zigbee",
+    "imageType": 537,
+    "manufacturerCode": 25957,
+    "sha512": "b8a42d679d433cac748fbcd1fe8fe2ba9c6ce7acedc596c929aee13e51b1937e89a95a1463f897a9302000c04523f3e3eb93dc648cbcd44b1f615fda6ebd3d8f",
+    "otaHeaderString": "Slacky-DIY OTA",
+    "manufacturerName": [
+      "Slacky-DIY"
+    ]
+  },
+  {
+    "fileName": "6565-0397-10053001-zg_227za_0x17_zed.zigbee",
+    "fileVersion": 268775425,
+    "fileSize": 151682,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-0397-10053001-zg_227za_0x17_zed.zigbee",
+    "imageType": 919,
+    "manufacturerCode": 25957,
+    "sha512": "d2f4fa0c66eb87cc919372d92b91655e62439b7bdb68846320a839064ff4e13ef9acdb98e0bda5254bd8c393d32230c116fd5e684fd628f63980e9c8c8f79617",
+    "otaHeaderString": "Slacky-DIY OTA",
     "manufacturerName": [
       "Slacky-DIY"
     ]
