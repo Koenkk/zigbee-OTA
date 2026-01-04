@@ -9270,5 +9270,15 @@
     "manufacturerName": [
       "Yandex"
     ]
+  },
+  {
+    "fileName": "Smart Soil Moisture Sensor Gen2_v1.00.13.ota",
+    "fileVersion": 13,
+    "fileSize": 263730,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Smart%20Soil%20Moisture%20Sensor%20Gen2_v1.00.13.ota",
+    "imageType": 54207,
+    "manufacturerCode": 5127,
+    "sha512": "4c445ed092a7a9321bf195bc0247c108f9da5c42de5a3b9669ce71b929d97401d80a70fb83e818ded8cee45923eafd74fd61b7e2371ee96cce19a9732d4c5160",
+    "otaHeaderString": "temp_humi_sensor"
   }
 ]
