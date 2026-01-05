@@ -7939,16 +7939,6 @@
     ]
   },
   {
-    "fileName": "bl702_plug_gen3_uk_v1.00.44.ota",
-    "fileVersion": 44,
-    "fileSize": 281654,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/bl702_plug_gen3_uk_v1.00.44.ota",
-    "imageType": 54196,
-    "manufacturerCode": 5127,
-    "sha512": "a25edda7c10d2268c18c276019157dc5b40b8e86af81b8c0564e542734f0123c0e0da1e48662215fe65373921f0b6bda1712f5999e90d77507e0829b95deafef",
-    "otaHeaderString": "temp_humi_sensor"
-  },
-  {
     "fileName": "1135-0009-201000F8-FLS-CT_16Mhz.zigbee",
     "fileVersion": 537919736,
     "fileSize": 202909,
