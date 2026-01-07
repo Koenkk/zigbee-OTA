@@ -9096,16 +9096,6 @@
     "otaHeaderString": "vers:00001005,00001102\n"
   },
   {
-    "fileName": "mini-zbrbs_v1.1.0.ota",
-    "fileVersion": 4352,
-    "fileSize": 305020,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/mini-zbrbs_v1.1.0.ota",
-    "imageType": 8204,
-    "manufacturerCode": 4742,
-    "sha512": "f831d7d14f51d79944559c95ff7ca68955c453c6936b9ad59f1eafe78143a0c632dec92c55072849a88ae0dd51bdc702eb64df9fb1f6a0120bce6b6a44c9eff9",
-    "otaHeaderString": "ota-file-test"
-  },
-  {
     "fileName": "6565-0391-10213001-tuya_thermostat_zrd.zigbee",
     "fileVersion": 270610433,
     "fileSize": 259570,
