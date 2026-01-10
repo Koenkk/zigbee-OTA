@@ -9252,16 +9252,6 @@
     ]
   },
   {
-    "fileName": "SceneButton_PROD_OTA_V7_1.00.07.ota",
-    "fileVersion": 7,
-    "fileSize": 139874,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/SceneButton_PROD_OTA_V7_1.00.07.ota",
-    "imageType": 54224,
-    "manufacturerCode": 4659,
-    "sha512": "6f8121d4a93a1cdf9898180029fc6596c6bcc5f7f258a10638596e2bb91b794fed46593bcceb07b9354f7cecefc28fe28d190ec5e06f2e79b6a8e2b0c60f0b7e",
-    "otaHeaderString": "Telink OTA Sample Usage"
-  },
-  {
     "fileName": "Water_Leak_Sensor_V2_OTA_V12_v1.00.12.ota",
     "fileVersion": 12,
     "fileSize": 261554,
@@ -9338,5 +9328,15 @@
     "manufacturerCode": 5127,
     "sha512": "d3a6dcc0b8db8ac3d4ccf49d01f3d64b7f9f7dd372a2ecece7f7c8a5a3fc2b6f1eb4182fa36a7535e5ee2312d4004cc9b71b0373fc478d8ce942af60399604b5",
     "otaHeaderString": "temp_humi_sensor"
+  },
+  {
+    "fileName": "SceneButton_PROD_OTA_V9_1.00.09.ota",
+    "fileVersion": 9,
+    "fileSize": 143522,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/SceneButton_PROD_OTA_V9_1.00.09.ota",
+    "imageType": 54224,
+    "manufacturerCode": 4659,
+    "sha512": "701bef96bb1b245a077d57343d7c3883fd30e2786a77e864a7407fcfdd79daf9261a1045b7da235a7b3e069ebbf39820a55f0fe26b34dc03ea00eb5f6938b66f",
+    "otaHeaderString": "Telink OTA Sample Usage"
   }
 ]
