@@ -3043,5 +3043,15 @@
     "manufacturerCode": 5127,
     "sha512": "4c445ed092a7a9321bf195bc0247c108f9da5c42de5a3b9669ce71b929d97401d80a70fb83e818ded8cee45923eafd74fd61b7e2371ee96cce19a9732d4c5160",
     "otaHeaderString": "temp_humi_sensor"
+  },
+  {
+    "fileName": "60G_Radar_OTA_V9_v1.00.09.ota",
+    "fileVersion": 9,
+    "fileSize": 347346,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/60G_Radar_OTA_V9_v1.00.09.ota",
+    "imageType": 54211,
+    "manufacturerCode": 5127,
+    "sha512": "1744c8dfbab62661ed8b601f569b42601edefb6d160024940b9fa24541281137d049b0a815535525600f306337e35babd96d097a63dcbd60b9a35ad9010c8997",
+    "otaHeaderString": "temp_humi_sensor"
   }
 ]
