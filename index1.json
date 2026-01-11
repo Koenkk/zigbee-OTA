@@ -3063,5 +3063,17 @@
     "manufacturerCode": 4659,
     "sha512": "6f8121d4a93a1cdf9898180029fc6596c6bcc5f7f258a10638596e2bb91b794fed46593bcceb07b9354f7cecefc28fe28d190ec5e06f2e79b6a8e2b0c60f0b7e",
     "otaHeaderString": "Telink OTA Sample Usage"
+  },
+  {
+    "fileName": "100B-012A-01000700-Light-SiMG301.zigbee",
+    "fileVersion": 16779008,
+    "fileSize": 1062460,
+    "originalUrl": "https://firmware.meethue.com/storage/100b-12a/16779008/229a7fd1-9d41-459a-bba8-807cae8ae333/100B-012A-01000700-Light-SiMG301.zigbee",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Hue/100B-012A-01000700-Light-SiMG301.zigbee",
+    "imageType": 298,
+    "manufacturerCode": 4107,
+    "sha512": "8a201045a669df5e17daed5ee80bdfb318e0465fcdeaebf69cfe1eb5cf563c0137526be894921512f8333cbb7dfacf36002d25b2dfd8e7789bb1d376f300bd97",
+    "otaHeaderString": "",
+    "releaseNotes": "Version: 7.0"
   }
 ]
