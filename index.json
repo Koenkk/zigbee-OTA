@@ -9338,5 +9338,16 @@
     "sha512": "ff26fc033694a078c9a8f23e1e2762d47c00ed39f29c6833eb784b252b872587164628139cbef32a356a62985106706e39d415b93066d9c5131ebf83783e1d86",
     "otaHeaderString": "",
     "releaseNotes": "Version: 8.8"
+  },
+  {
+    "fileName": "bl702_plug_gen3_e_v1.00.47.ota",
+    "fileVersion": 47,
+    "fileSize": 281722,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/bl702_plug_gen3_e_v1.00.47.ota",
+    "imageType": 54206,
+    "manufacturerCode": 5127,
+    "sha512": "0a9390caadb57c153c7d26dbe85cae1f512b2eecfc3b687961008aafbeef4b53414354e90a15fcff831537c98946b4d72a7b66b03985a322e04d3a4f11783635",
+    "otaHeaderString": "temp_humi_sensor",
+    "modelId": "3RSPE02065Z"
   }
 ]
