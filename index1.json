@@ -3088,5 +3088,15 @@
     "maxFileVersion": 40,
     "minFileVersion": 0,
     "modelId": "3RSP02064Z"
+  },
+  {
+    "fileName": "Smart_Air_Pressure_Sensor_OTA_V8_1.00.08.ota",
+    "fileVersion": 8,
+    "fileSize": 263418,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/Smart_Air_Pressure_Sensor_OTA_V8_1.00.08.ota",
+    "imageType": 54190,
+    "manufacturerCode": 5127,
+    "sha512": "bf816e6c1d21c50cf4f071fca137bbfba1b3406647d8321293665257c3d14dbd7a81b1c246464bc79565e31b056efa1c6f846a721f9de694b64a3385b2cd4c1b",
+    "otaHeaderString": "temp_humi_sensor"
   }
 ]

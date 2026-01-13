@@ -9250,16 +9250,6 @@
     "otaHeaderString": "temp_humi_sensor"
   },
   {
-    "fileName": "Smart_Air_Pressure_Sensor_OTA_V8_1.00.08.ota",
-    "fileVersion": 8,
-    "fileSize": 263418,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Smart_Air_Pressure_Sensor_OTA_V8_1.00.08.ota",
-    "imageType": 54190,
-    "manufacturerCode": 5127,
-    "sha512": "bf816e6c1d21c50cf4f071fca137bbfba1b3406647d8321293665257c3d14dbd7a81b1c246464bc79565e31b056efa1c6f846a721f9de694b64a3385b2cd4c1b",
-    "otaHeaderString": "temp_humi_sensor"
-  },
-  {
     "fileName": "702plug47_usa_h0xD3BD_b0xD3BD.ota",
     "fileVersion": 47,
     "fileSize": 281750,
@@ -9397,5 +9387,15 @@
     "manufacturerCode": 4880,
     "sha512": "938ddf2b55a72622eb726dfccd01705ff497376d233570b557a4f3bbbe86957d30602669982aef640ce801f016bfe114fc7ebe1a2e29dc401e89de8a9c6fd04b",
     "otaHeaderString": "EBL Z3RangeExtender"
+  },
+  {
+    "fileName": "Smart_Air_Pressure_Sensor_OTA_V9_1.00.09.ota",
+    "fileVersion": 9,
+    "fileSize": 263402,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Smart_Air_Pressure_Sensor_OTA_V9_1.00.09.ota",
+    "imageType": 54190,
+    "manufacturerCode": 5127,
+    "sha512": "557967aaf86b1464eca9e944aab5fd980beeee9c5c3a69e262a91b3dbf9c1a0f4fe1aabfa8620c2f305d8e9c5f53d4e1d08430b447d0881f71ad3f99353d4f4a",
+    "otaHeaderString": "temp_humi_sensor"
   }
 ]
