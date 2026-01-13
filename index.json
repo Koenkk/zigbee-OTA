@@ -6509,7 +6509,10 @@
     "sha512": "01939ca4fc790432d2c233e19b2440c1e0248d2ce85c9299e0b88928cb2341de675350ac7b78187a25f06a2768f93db0a17c4ba950b60c82c072e0c0833cfcfb",
     "otaHeaderString": "Telink OTA Sample Usage",
     "originalUrl": "https://images.tuyaeu.com/smart/firmware/upgrade/20220907/1662545193-oem_zg_tl8258_plug_OTA_3.0.0.bin",
-    "modelId": "TS011F"
+    "manufacturerName": [
+      "_TZ3008_ufv0gpfo",
+      "_TZ3000_ufv0gpfo"
+    ]
   },
   {
     "fileName": "Button_PROD_OTA_V47_v1.00.47.ota",
