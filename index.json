@@ -9336,5 +9336,66 @@
     "sha512": "0a9390caadb57c153c7d26dbe85cae1f512b2eecfc3b687961008aafbeef4b53414354e90a15fcff831537c98946b4d72a7b66b03985a322e04d3a4f11783635",
     "otaHeaderString": "temp_humi_sensor",
     "modelId": "3RSPE02065Z"
+  },
+  {
+    "fileName": "Pico_Duo_Switch_V1.0.6.ota",
+    "fileVersion": 262,
+    "fileSize": 311594,
+    "originalUrl": "https://github.com/Aeotec-ccheng/aeotecZigbeeProducts/main/ZigbeeOTAUpdates/Pico_Duo_Switch_V1.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Aeotec/Pico_Duo_Switch_V1.0.6.ota",
+    "imageType": 2051,
+    "manufacturerCode": 4880,
+    "sha512": "e60097b31873716ddfab1f3ae8e4ef493216c1535d5f6a1ae207c49daf5b5c6e19ea89fc39bf7e83068253d933c65d472254a11faba4a8066ee3380501615558",
+    "otaHeaderString": "EBL DualPicoSw",
+    "hardwareVersionMax": 1,
+    "hardwareVersionMin": 1,
+    "manufacturerName": [
+      "AEOTEC",
+      "Aeotec",
+      "aeotec"
+    ],
+    "maxFileVersion": 261,
+    "modelId": "ZGA003",
+    "releaseNotes": ""
+  },
+  {
+    "fileName": "Pico_Shutter_V1.0.8.ota",
+    "fileVersion": 264,
+    "fileSize": 326978,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Aeotec/Pico_Shutter_V1.0.8.ota",
+    "imageType": 31748,
+    "manufacturerCode": 4880,
+    "sha512": "15b3772fa75236fd6e3b8a9b075a7a646903f7a60d202b279a190a025df2c7f6398e7b453c1109e0c9dbfa0f4a441b8b250137ba9f24a45920ede3e0471cf722",
+    "otaHeaderString": "EBL PicoMotor"
+  },
+  {
+    "fileName": "Pico_Switch_V1.0.6.ota",
+    "fileVersion": 262,
+    "fileSize": 310098,
+    "originalUrl": "https://github.com/Aeotec-ccheng/aeotecZigbeeProducts/main/ZigbeeOTAUpdates/Pico_Switch_V1.0.6.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Aeotec/Pico_Switch_V1.0.6.ota",
+    "imageType": 2050,
+    "manufacturerCode": 4880,
+    "sha512": "5a42d396bacb304f9fd8b838b7405e154b4e1975933a125b41337d249e1272b2b3a9ef7b35ebab3273cd8c093fe91fa3ca9008cd09aab787f6fbe1f23fb37571",
+    "otaHeaderString": "EBL SinglePicoSw",
+    "hardwareVersionMax": 1,
+    "hardwareVersionMin": 1,
+    "manufacturerName": [
+      "AEOTEC",
+      "Aeotec",
+      "aeotec"
+    ],
+    "maxFileVersion": 261,
+    "modelId": "ZGA002"
+  },
+  {
+    "fileName": "Range_Extender_Zi_V1.0.3.ota",
+    "fileVersion": 17,
+    "fileSize": 297306,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Aeotec/Range_Extender_Zi_V1.0.3.ota",
+    "imageType": 0,
+    "manufacturerCode": 4880,
+    "sha512": "938ddf2b55a72622eb726dfccd01705ff497376d233570b557a4f3bbbe86957d30602669982aef640ce801f016bfe114fc7ebe1a2e29dc401e89de8a9c6fd04b",
+    "otaHeaderString": "EBL Z3RangeExtender"
   }
 ]
