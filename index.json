@@ -9265,16 +9265,6 @@
     "modelId": "3RSP02064Z"
   },
   {
-    "fileName": "Smart_Soil_Moisture_Sensor_Gen2_v1.00.16.ota",
-    "fileVersion": 16,
-    "fileSize": 264314,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Smart_Soil_Moisture_Sensor_Gen2_v1.00.16.ota",
-    "imageType": 54207,
-    "manufacturerCode": 5127,
-    "sha512": "b7a4749681759b9553b1a657d3c8637502d2948f21b6e82cf0fdca62058fba1251956b309e3f729d938c5db8bf5dbc9c97e0d14637cd341b60b7503c8afb7fdd",
-    "otaHeaderString": "temp_humi_sensor"
-  },
-  {
     "fileName": "20251229111353_OTA_lumi.airrtc.aeu005_0.0.0_2543_20251229_14D78A.ota",
     "fileVersion": 6443,
     "fileSize": 646746,
@@ -9399,6 +9389,16 @@
     "imageType": 54190,
     "manufacturerCode": 5127,
     "sha512": "557967aaf86b1464eca9e944aab5fd980beeee9c5c3a69e262a91b3dbf9c1a0f4fe1aabfa8620c2f305d8e9c5f53d4e1d08430b447d0881f71ad3f99353d4f4a",
+    "otaHeaderString": "temp_humi_sensor"
+  },
+  {
+    "fileName": "Smart_Soil_Moisture_Sensor_Gen2_v1.00.17.ota",
+    "fileVersion": 17,
+    "fileSize": 264330,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Smart_Soil_Moisture_Sensor_Gen2_v1.00.17.ota",
+    "imageType": 54207,
+    "manufacturerCode": 5127,
+    "sha512": "dc6b5d83bf13fe67f56a83a6fe324d0ebe983e5489901de36f7f2c3909dcb85e8593cf4ea22ac473bbe772ba3499967274758452579e29a7d370e3a85a73a8c0",
     "otaHeaderString": "temp_humi_sensor"
   }
 ]
