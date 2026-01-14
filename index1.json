@@ -3075,5 +3075,28 @@
     "sha512": "8a201045a669df5e17daed5ee80bdfb318e0465fcdeaebf69cfe1eb5cf563c0137526be894921512f8333cbb7dfacf36002d25b2dfd8e7789bb1d376f300bd97",
     "otaHeaderString": "",
     "releaseNotes": "Version: 7.0"
+  },
+  {
+    "fileName": "702plug46_h0xD3B4_b0xD3BD.ota",
+    "fileVersion": 46,
+    "fileSize": 281746,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/702plug46_h0xD3B4_b0xD3BD.ota",
+    "imageType": 54196,
+    "manufacturerCode": 5127,
+    "sha512": "81faf7fc6e50f246b3eb7abc2611a86c2b6e474549450006c94e137613b51e4260892f1b09fd00625d947bd44c7a1f033e34660f0b98d8c2fdd2c3f58524c943",
+    "otaHeaderString": "thirdreality",
+    "maxFileVersion": 40,
+    "minFileVersion": 0,
+    "modelId": "3RSP02064Z"
+  },
+  {
+    "fileName": "Smart_Air_Pressure_Sensor_OTA_V8_1.00.08.ota",
+    "fileVersion": 8,
+    "fileSize": 263418,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/Smart_Air_Pressure_Sensor_OTA_V8_1.00.08.ota",
+    "imageType": 54190,
+    "manufacturerCode": 5127,
+    "sha512": "bf816e6c1d21c50cf4f071fca137bbfba1b3406647d8321293665257c3d14dbd7a81b1c246464bc79565e31b056efa1c6f846a721f9de694b64a3385b2cd4c1b",
+    "otaHeaderString": "temp_humi_sensor"
   }
 ]
