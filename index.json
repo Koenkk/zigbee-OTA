@@ -9411,5 +9411,18 @@
     "sha512": "4a12d5177e34226c6ec861f956d64969dcb3f68909a43690f835026ea3cb0b5fe5650bbe233d6d691ab749e7567d5343547d14cfaa1d1b57f6c72bc768dee89d",
     "otaHeaderString": "temp_humi_sensor",
     "modelId": "3RSPU01080Z"
+  },
+  {
+    "fileName": "702plug46_h0xD3B4_b0xD3BD.ota",
+    "fileVersion": 46,
+    "fileSize": 281746,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/702plug46_h0xD3B4_b0xD3BD.ota",
+    "imageType": 54196,
+    "manufacturerCode": 5127,
+    "sha512": "81faf7fc6e50f246b3eb7abc2611a86c2b6e474549450006c94e137613b51e4260892f1b09fd00625d947bd44c7a1f033e34660f0b98d8c2fdd2c3f58524c943",
+    "otaHeaderString": "thirdreality",
+    "maxFileVersion": 40,
+    "minFileVersion": 0,
+    "modelId": "3RSP02064Z"
   }
 ]
