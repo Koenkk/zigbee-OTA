@@ -81,17 +81,6 @@
     "originalUrl": "https://github.com/InovelliUSA/Firmware/raw/main/Blue-Series/Zigbee/VZM31-SN-2-1-Switch/Production/2.15/VZM31-SN_2.15-Production.ota"
   },
   {
-    "fileName": "VZM35-SN_1.05.ota",
-    "fileVersion": 33685765,
-    "fileSize": 232882,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Inovelli/VZM35-SN_1.05.ota",
-    "imageType": 513,
-    "manufacturerCode": 4655,
-    "sha512": "a2f991faaac21cd0851d86d1057bddbcc614fbb616e4f2f841402a6bced67465db85e622bd4271a10b740e09a1fe241fa96b660bfc6e4783bd1eceb76b20a64c",
-    "otaHeaderString": "VZM35_MG24",
-    "originalUrl": "https://files.inovelli.com/firmware/VZM35-SN/Beta/1.05/VZM35-SN_1.05.ota"
-  },
-  {
     "fileName": "VZM36_0.04.ota",
     "fileVersion": 67174404,
     "fileSize": 237962,
@@ -2298,17 +2287,6 @@
     "releaseNotes": "1. Support GP switch.\r\n2. Improve network performance by fine tune router table."
   },
   {
-    "fileName": "VZM30-SN_1.01.ota",
-    "fileVersion": 17826049,
-    "fileSize": 224638,
-    "originalUrl": "https://files.inovelli.com/firmware/VZM30-SN/Production/1.01/VZM30-SN_1.01.ota",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Inovelli/VZM30-SN_1.01.ota",
-    "imageType": 272,
-    "manufacturerCode": 4655,
-    "sha512": "2ce48acc9fc1fa9b08db57e4eff3a4082029a262490a428dac333bed3a1e98d08f11abddcd60d5f9caa074bb7cfe48efc964d89c133e67d2fe3261baecca4a27",
-    "otaHeaderString": "VZM30-SN_OnOff"
-  },
-  {
     "fileName": "DIO300Z_OTA_ENC_V5_ENC.ota",
     "fileVersion": 5,
     "fileSize": 188702,
@@ -3098,5 +3076,27 @@
     "manufacturerCode": 5127,
     "sha512": "b7a4749681759b9553b1a657d3c8637502d2948f21b6e82cf0fdca62058fba1251956b309e3f729d938c5db8bf5dbc9c97e0d14637cd341b60b7503c8afb7fdd",
     "otaHeaderString": "temp_humi_sensor"
+  },
+  {
+    "fileName": "VZM35-SN_1.07.ota",
+    "fileVersion": 33685767,
+    "fileSize": 232994,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Inovelli/VZM35-SN_1.07.ota",
+    "imageType": 513,
+    "manufacturerCode": 4655,
+    "sha512": "cc2e1639debcebb42e8cb8e48559258378112a94eaf6480721ee9ce5b5ab8d562a2b8c0c6df8819b1db9b3a539178f1b1bbf039243cf1184efe1024e4c8f05d0",
+    "otaHeaderString": "VZM35_MG24",
+    "originalUrl": "https://files.inovelli.com/firmware/VZM35-SN/Beta/1.07/VZM35-SN_1.07.ota"
+  },
+  {
+    "fileName": "VZM30-SN_1.02.ota",
+    "fileVersion": 17826050,
+    "fileSize": 224614,
+    "originalUrl": "https://files.inovelli.com/firmware/VZM30-SN/Beta/1.02/VZM30-SN_1.02.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Inovelli/VZM30-SN_1.02.ota",
+    "imageType": 272,
+    "manufacturerCode": 4655,
+    "sha512": "a3a3aa3b2c8c0a625f9c53ce82b5f75ead82c3d0f003c1a29d12ae14b79084f47776e3ae5bbe90ec014a1cb29685b496aadabb949faa6b175bf6b05cfa75a846",
+    "otaHeaderString": "VZM30-SN_OnOff"
   }
 ]

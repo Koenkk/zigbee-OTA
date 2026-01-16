@@ -1302,17 +1302,6 @@
     "otaHeaderString": "EBL VM_SWITCH"
   },
   {
-    "fileName": "VZM35-SN_1.07.ota",
-    "fileVersion": 33685767,
-    "fileSize": 232994,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Inovelli/VZM35-SN_1.07.ota",
-    "imageType": 513,
-    "manufacturerCode": 4655,
-    "sha512": "cc2e1639debcebb42e8cb8e48559258378112a94eaf6480721ee9ce5b5ab8d562a2b8c0c6df8819b1db9b3a539178f1b1bbf039243cf1184efe1024e4c8f05d0",
-    "otaHeaderString": "VZM35_MG24",
-    "originalUrl": "https://files.inovelli.com/firmware/VZM35-SN/Beta/1.07/VZM35-SN_1.07.ota"
-  },
-  {
     "fileName": "VZM36_1.01-Beta.ota",
     "fileVersion": 67174657,
     "fileSize": 237938,
@@ -7359,17 +7348,6 @@
     "releaseNotes": "1. Support Green Power switch control in Direct Easy system.\r\n2. Support Rotary switch control in Direct Easy system."
   },
   {
-    "fileName": "VZM30-SN_1.02.ota",
-    "fileVersion": 17826050,
-    "fileSize": 224614,
-    "originalUrl": "https://files.inovelli.com/firmware/VZM30-SN/Beta/1.02/VZM30-SN_1.02.ota",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Inovelli/VZM30-SN_1.02.ota",
-    "imageType": 272,
-    "manufacturerCode": 4655,
-    "sha512": "a3a3aa3b2c8c0a625f9c53ce82b5f75ead82c3d0f003c1a29d12ae14b79084f47776e3ae5bbe90ec014a1cb29685b496aadabb949faa6b175bf6b05cfa75a846",
-    "otaHeaderString": "VZM30-SN_OnOff"
-  },
-  {
     "fileName": "DOT_IT_ZBD_G01-0x1189-0x00FC-0x01328000-MF_DIS-DOWM_DIS-20250815123429-3224010153640-lzma-encrypted.ota",
     "fileVersion": 20086784,
     "fileSize": 373050,
@@ -9424,5 +9402,27 @@
     "maxFileVersion": 40,
     "minFileVersion": 0,
     "modelId": "3RSP02064Z"
+  },
+  {
+    "fileName": "VZM35-SN_1.08.ota",
+    "fileVersion": 33685768,
+    "fileSize": 230538,
+    "originalUrl": "https://files.inovelli.com/firmware/VZM35-SN/Production/1.08/VZM35-SN_1.08.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Inovelli/VZM35-SN_1.08.ota",
+    "imageType": 513,
+    "manufacturerCode": 4655,
+    "sha512": "96e7bd8b4b3bc5e47fb802c5df9133f76617d0fbf400ada66e6c81a42c12ec23afe7d638c7b15865ae894cde99e6a93cfc2b4085d9d71e5e371273050c92348b",
+    "otaHeaderString": "VZM35_MG24"
+  },
+  {
+    "fileName": "VZM30-SN_1.03.ota",
+    "fileVersion": 17826051,
+    "fileSize": 224794,
+    "originalUrl": "https://files.inovelli.com/firmware/VZM30-SN/Production/1.03/VZM30-SN_1.03.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Inovelli/VZM30-SN_1.03.ota",
+    "imageType": 272,
+    "manufacturerCode": 4655,
+    "sha512": "b7a8958f6f1f56a75e95f0ef8fbfc7ce3988cff77d63c2e5afea43727be2974a5828dd1ca888c8d87771cfd8c1a29838eff316546af0190d3b7ff2b664af8255",
+    "otaHeaderString": "VZM30-SN_OnOff"
   }
 ]
