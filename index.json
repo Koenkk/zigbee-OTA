@@ -9276,18 +9276,6 @@
     "otaHeaderString": "Telink OTA Sample Usage"
   },
   {
-    "fileName": "100B-012A-01000808-Light-SiMG301.zigbee",
-    "fileVersion": 16779272,
-    "fileSize": 1065002,
-    "originalUrl": "https://firmware.meethue.com/storage/100b-12a/16779272/a3b58141-22fa-4622-add5-1f512cd017a7/100B-012A-01000808-Light-SiMG301.zigbee",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-012A-01000808-Light-SiMG301.zigbee",
-    "imageType": 298,
-    "manufacturerCode": 4107,
-    "sha512": "ff26fc033694a078c9a8f23e1e2762d47c00ed39f29c6833eb784b252b872587164628139cbef32a356a62985106706e39d415b93066d9c5131ebf83783e1d86",
-    "otaHeaderString": "",
-    "releaseNotes": "Version: 8.8"
-  },
-  {
     "fileName": "bl702_plug_gen3_e_v1.00.47.ota",
     "fileVersion": 47,
     "fileSize": 281722,
@@ -9424,5 +9412,17 @@
     "manufacturerCode": 4655,
     "sha512": "b7a8958f6f1f56a75e95f0ef8fbfc7ce3988cff77d63c2e5afea43727be2974a5828dd1ca888c8d87771cfd8c1a29838eff316546af0190d3b7ff2b664af8255",
     "otaHeaderString": "VZM30-SN_OnOff"
+  },
+  {
+    "fileName": "100B-012A-0100080E-Light-SiMG301.zigbee",
+    "fileVersion": 16779278,
+    "fileSize": 1064930,
+    "originalUrl": "https://firmware.meethue.com/storage/100b-12a/16779278/7a8949c0-0c59-4135-9f23-dabd04d9fd96/100B-012A-0100080E-Light-SiMG301.zigbee",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-012A-0100080E-Light-SiMG301.zigbee",
+    "imageType": 298,
+    "manufacturerCode": 4107,
+    "sha512": "1ea4124bd32665e8c457ab8e049c9b4cd7de7b4465863d44f58d963f8ef926cab9bf564e8810d9f05cab35545f4724602d834cbc9813d428942d8b0e73e6e3c9",
+    "otaHeaderString": "",
+    "releaseNotes": "Version: 8.14"
   }
 ]
