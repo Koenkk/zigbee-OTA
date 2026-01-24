@@ -1,6 +1,5 @@
 import {getJson, readCacheJson, writeCacheJson} from "../common.js";
 import {processFirmwareImage} from "../process_firmware_image.js";
-import type {ExtraMetas} from "../types.js";
 
 type DeviceImageJson = {
     fw_binary_url: string;
@@ -16,7 +15,6 @@ type ImagesJson = DeviceImageJson[];
 const NAME = "Sonoff";
 const LOG_PREFIX = `[${NAME}]`;
 const FIRMWARE_URL = "https://zigbee-ota.sonoff.tech/releases/upgrade.json";
-const TELINK_ENCRYPTED = ["SNZB-02DR2", "SNZB-02LWD"];
 
 function findInCache(image: DeviceImageJson, cachedData?: ImagesJson): DeviceImageJson | undefined {
     return cachedData?.find((d) => d.fw_image_type === image.fw_image_type && d.fw_manufacturer_id === image.fw_manufacturer_id) as
@@ -53,9 +51,7 @@ export async function download(): Promise<void> {
                 continue;
             }
 
-            const extraMetas: ExtraMetas = TELINK_ENCRYPTED.includes(image.model_id) ? {customParseLogic: "telinkEncrypted"} : {};
-
-            await processFirmwareImage(NAME, firmwareFileName, image.fw_binary_url, extraMetas);
+            await processFirmwareImage(NAME, firmwareFileName, image.fw_binary_url, {});
         }
 
         writeCacheJson(NAME, images);

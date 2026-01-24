@@ -61,7 +61,6 @@ export interface RepoImageMeta extends ImageInfo, ImageMeta {
     maxFileVersion?: number;
     originalUrl?: string;
     releaseNotes?: string;
-    customParseLogic?: string;
 }
 
 export type ExtraMetas = Omit<
