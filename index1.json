@@ -3098,5 +3098,18 @@
       "ZBeacon"
     ],
     "modelId": "MC-z"
+  },
+  {
+    "fileName": "20251229111353_OTA_lumi.airrtc.aeu005_0.0.0_2543_20251229_14D78A.ota",
+    "fileVersion": 6443,
+    "fileSize": 646746,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.airrtc.aeu005/20251229111353_OTA_lumi.airrtc.aeu005_0.0.0_2543_20251229_14D78A.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Aqara/20251229111353_OTA_lumi.airrtc.aeu005_0.0.0_2543_20251229_14D78A.ota",
+    "imageType": 5120,
+    "manufacturerCode": 4447,
+    "sha512": "cda2c05341dd522b2d83c15633b89e61707325fbb02ff98fc20dfffa5b6eda10ad2f9e8403bc30698061b76b3d4ac4937ecbdd457c4b5911607b9d00bc65a51e",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.airrtc.aeu005",
+    "releaseNotes": "Fix known issues, optimize user experience"
   }
 ]

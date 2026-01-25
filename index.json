@@ -8949,19 +8949,6 @@
     "modelId": "3RSP02064Z"
   },
   {
-    "fileName": "20251229111353_OTA_lumi.airrtc.aeu005_0.0.0_2543_20251229_14D78A.ota",
-    "fileVersion": 6443,
-    "fileSize": 646746,
-    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.airrtc.aeu005/20251229111353_OTA_lumi.airrtc.aeu005_0.0.0_2543_20251229_14D78A.ota",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Aqara/20251229111353_OTA_lumi.airrtc.aeu005_0.0.0_2543_20251229_14D78A.ota",
-    "imageType": 5120,
-    "manufacturerCode": 4447,
-    "sha512": "cda2c05341dd522b2d83c15633b89e61707325fbb02ff98fc20dfffa5b6eda10ad2f9e8403bc30698061b76b3d4ac4937ecbdd457c4b5911607b9d00bc65a51e",
-    "otaHeaderString": "Aqara OTA Image",
-    "modelId": "lumi.airrtc.aeu005",
-    "releaseNotes": "Fix known issues, optimize user experience"
-  },
-  {
     "fileName": "60G_Radar_OTA_V12_v1.00.12.ota",
     "fileVersion": 12,
     "fileSize": 347762,
@@ -9424,5 +9411,18 @@
       "ZBeacon"
     ],
     "modelId": "MC-z"
+  },
+  {
+    "fileName": "20260122175716_OTA_lumi.airrtc.aeu005_0.0.0_2644_20260122_6A6DB5.ota",
+    "fileVersion": 6700,
+    "fileSize": 649258,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.airrtc.aeu005/20260122175716_OTA_lumi.airrtc.aeu005_0.0.0_2644_20260122_6A6DB5.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Aqara/20260122175716_OTA_lumi.airrtc.aeu005_0.0.0_2644_20260122_6A6DB5.ota",
+    "imageType": 5120,
+    "manufacturerCode": 4447,
+    "sha512": "f2cdc3b1afc1fda1f922c05236d8f9353afdf85f41f2d1b336bed4f43043d2ef78882d4c35347bf9b7b095e0caf17199d87557ae7bda4076ed3b3856bf603b6f",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.airrtc.aeu005",
+    "releaseNotes": "Fix known issues and optimize the experience."
   }
 ]
