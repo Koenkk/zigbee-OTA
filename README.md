@@ -85,7 +85,6 @@ Any field not in this list will be ignored. Any field not matching the required 
 - "maxFileVersion": number _(target only devices with this version or below)_
 - "minFileVersion": number _(target only devices with this version or above)_
 - "modelId": string _(target only devices with this model ID)_
-- "customParseLogic": string _(custom parsing logic used for this image)_
 
 ###### For record purpose
 

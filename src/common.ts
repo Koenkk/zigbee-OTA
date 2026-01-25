@@ -309,14 +309,6 @@ export function getValidMetas(metas: Partial<ExtraMetas & ExtraMetasWithFileName
         validMetas.maxFileVersion = metas.maxFileVersion;
     }
 
-    if (metas.customParseLogic != null) {
-        if (metas.customParseLogic !== "telinkEncrypted") {
-            throw new Error(`Invalid value for 'customParseLogic', expected 'telinkEncrypted' value.`);
-        }
-
-        validMetas.customParseLogic = metas.customParseLogic;
-    }
-
     if (metas.minFileVersion != null) {
         if (typeof metas.minFileVersion !== "number") {
             throw new Error(`Invalid format for 'minFileVersion', expected 'number' type.`);
