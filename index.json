@@ -9421,5 +9421,18 @@
     "otaHeaderString": "Aqara OTA Image",
     "modelId": "lumi.airrtc.aeu005",
     "releaseNotes": "Fix known issues and optimize the experience."
+  },
+  {
+    "fileName": "20260105174558_OTA_lumi.sensor_occupy.agl8_0.0.0_5841_20260105_8C0C5C.ota",
+    "fileVersion": 14889,
+    "fileSize": 783338,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.sensor_occupy.agl8/20260105174558_OTA_lumi.sensor_occupy.agl8_0.0.0_5841_20260105_8C0C5C.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Aqara/20260105174558_OTA_lumi.sensor_occupy.agl8_0.0.0_5841_20260105_8C0C5C.ota",
+    "imageType": 9792,
+    "manufacturerCode": 4447,
+    "sha512": "6f641849e3b379655571a876a3cde3b3f904f3e80433c767af8571ee36d2b0168374da8d452030cea0231f0025b0ef16364c5b57dab90bda9a309ece26257f15",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.sensor_occupy.agl8",
+    "releaseNotes": ""
   }
 ]
