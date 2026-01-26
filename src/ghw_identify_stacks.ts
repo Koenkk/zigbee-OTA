@@ -182,7 +182,7 @@ export function identifyStacks(_github: Octokit, core: typeof CoreApi, _context:
                     break;
                 }
 
-                core.info(`UNKNOWN ${filePath} tagId=${tagId} firstBytes=${data.subarray(0, 16).toString("hex")}`);
+                // core.info(`UNKNOWN ${filePath} tagId=${tagId} firstBytes=${data.subarray(0, 16).toString("hex")}`);
             }
 
             if (stack === "Unknown") {
