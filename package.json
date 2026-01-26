@@ -44,14 +44,14 @@
     "license": "GPL-3.0-or-later",
     "description": "",
     "dependencies": {
-        "tar": "^7.5.4"
+        "tar": "^7.5.6"
     },
     "devDependencies": {
         "@actions/core": "^2.0.2",
         "@actions/github": "^8.0.0",
-        "@biomejs/biome": "^2.3.11",
+        "@biomejs/biome": "^2.3.13",
         "@octokit/rest": "^22.0.1",
-        "@types/node": "^25.0.9",
+        "@types/node": "^25.0.10",
         "@vitest/coverage-v8": "^3.2.4",
         "typescript": "^5.9.3",
         "vitest": "^3.2.4"
