@@ -339,17 +339,6 @@
     "modelId": "GL-B-008P"
   },
   {
-    "fileName": "GL-C-008P_V17A1_OTAV7_20210303--V1-4.ota",
-    "fileVersion": 7,
-    "fileSize": 291702,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Gledopto/GL-C-008P_V17A1_OTAV7_20210303--V1-4.ota",
-    "imageType": 0,
-    "manufacturerCode": 4687,
-    "sha512": "8eb197dc7e6f92afca457ce585e754ac3bf39e53cfb3f2e2433bf6317c51e0987cfe9224db046bf24522069651a85defe3bf62531c9eb4f2955b402ab55e9002",
-    "otaHeaderString": "EBL ARGBW_V_0_1",
-    "modelId": "GL-C-008P"
-  },
-  {
     "fileName": "GL-D-004P_V105_20220427(1).ota",
     "fileVersion": 352399361,
     "fileSize": 209138,
