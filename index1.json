@@ -746,16 +746,6 @@
     "modelId": "lumi.switch.b3n01"
   },
   {
-    "fileName": "1402769-Firmware-35.ota",
-    "fileVersion": 2,
-    "fileSize": 286646,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Namron/1402769-Firmware-35.ota",
-    "imageType": 1000,
-    "manufacturerCode": 4714,
-    "sha512": "524608958eb54909a76e5a555b18a34ac4917d504b48bdf6593898213f8aec1ae814d8e0270ebe7f983fb8c73f78a5afc7390e98e07f86ec6b2a9df7f4a9eaba",
-    "otaHeaderString": "EBL D581_ZG"
-  },
-  {
     "fileName": "zb_wb_msw4_mgm21_063.ota",
     "fileVersion": 63,
     "fileSize": 267118,
