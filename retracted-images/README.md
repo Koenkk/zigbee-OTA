@@ -1,4 +1,7 @@
-## Removed images
+## Retracted images
+
+> [!CAUTION]
+> This folder is intended to keep track of firmware with known issues. Do not use unless you know exactly what to expect!
 
 ### IKEA
 
@@ -12,7 +15,7 @@
   - https://github.com/Koenkk/zigbee-OTA/issues/938 
   - alarm stops after 1 beep
 
-### SONOFF 
+### SONOFF
 
 - **MINI-ZBRBS v1.1.0**
   - https://github.com/Koenkk/zigbee-OTA/issues/993
