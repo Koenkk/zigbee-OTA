@@ -90,7 +90,7 @@ export function identifyStacks(_github: Octokit, core: typeof CoreApi, _context:
             let stack: FirmwareStack["stack"] = "Unknown";
             let stackDetails = "";
 
-            for (const {tagId, data} of parseSubElements(otaData, header.totalImageSize)) {
+            for (const {data} of parseSubElements(otaData, header.totalImageSize)) {
                 if (data.indexOf(SI_GBL_HEADER_TAG) === 0) {
                     stack = "EmberZNet";
                     stackDetails = "GBL";
