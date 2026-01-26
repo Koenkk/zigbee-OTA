@@ -48,7 +48,7 @@
     },
     "devDependencies": {
         "@actions/core": "^2.0.2",
-        "@actions/github": "^7.0.0",
+        "@actions/github": "^8.0.0",
         "@biomejs/biome": "^2.3.11",
         "@octokit/rest": "^22.0.1",
         "@types/node": "^25.0.9",
