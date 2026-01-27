@@ -9397,5 +9397,15 @@
     "manufacturerCode": 4742,
     "sha512": "7389631847f6b78573a14ac370ab19cf760c0efc3727cb1aa30664e9c18064d707cd6224a019f48032614f49bee84f2b1cc34ade46793341f31fdc32bcb923cf",
     "otaHeaderString": "ota-file-test"
+  },
+  {
+    "fileName": "TQM300Z_OTA_ENC_V10_ENC.ota",
+    "fileVersion": 10,
+    "fileSize": 194814,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Jennic/TQM300Z_OTA_ENC_V10_ENC.ota",
+    "imageType": 4128,
+    "manufacturerCode": 4151,
+    "sha512": "a6a745a55c458bcc7edf82c962903a0e6e0325f2b61c545f05cc66e580769ef55c370ca99b7cf2a64d530cb98ad4da3dfd002687af8599a2b9546eeddd5c42b5",
+    "otaHeaderString": "DR1175r1v02--JN5169--ENCRYPTED00"
   }
 ]
