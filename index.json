@@ -8548,16 +8548,6 @@
     "otaHeaderString": "ota-file-test"
   },
   {
-    "fileName": "mini-zb2gs_v1.0.4.ota",
-    "fileVersion": 4100,
-    "fileSize": 286032,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/mini-zb2gs_v1.0.4.ota",
-    "imageType": 68,
-    "manufacturerCode": 4742,
-    "sha512": "092b398fbdca07e7dd61bb580f130e304bdbcf895fcb2eda2324c166a412c75480ab4f9b323aae7627f80786c4dd94e897f490d768de6da84e406838c24cb01d",
-    "otaHeaderString": "ota-file-test"
-  },
-  {
     "fileName": "snzb-05p_v1.0.2.ota",
     "fileVersion": 4098,
     "fileSize": 267632,
@@ -9397,5 +9387,15 @@
     "manufacturerCode": 4714,
     "sha512": "ba713c875210bf93e6674eda8f29b04e0722654134f50c199fa567700d4054b72cdebc2fda6de42cf758ad3220f02f51d85465526dfc744c722f40c8338ca96c",
     "otaHeaderString": "test"
+  },
+  {
+    "fileName": "mini-zb2gs_v1.0.7.ota",
+    "fileVersion": 4103,
+    "fileSize": 297974,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/mini-zb2gs_v1.0.7.ota",
+    "imageType": 68,
+    "manufacturerCode": 4742,
+    "sha512": "7389631847f6b78573a14ac370ab19cf760c0efc3727cb1aa30664e9c18064d707cd6224a019f48032614f49bee84f2b1cc34ade46793341f31fdc32bcb923cf",
+    "otaHeaderString": "ota-file-test"
   }
 ]

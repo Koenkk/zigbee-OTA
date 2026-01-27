@@ -3090,5 +3090,15 @@
     "otaHeaderString": "Aqara OTA Image",
     "modelId": "lumi.airrtc.aeu005",
     "releaseNotes": "Fix known issues, optimize user experience"
+  },
+  {
+    "fileName": "mini-zb2gs_v1.0.4.ota",
+    "fileVersion": 4100,
+    "fileSize": 286032,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Sonoff/mini-zb2gs_v1.0.4.ota",
+    "imageType": 68,
+    "manufacturerCode": 4742,
+    "sha512": "092b398fbdca07e7dd61bb580f130e304bdbcf895fcb2eda2324c166a412c75480ab4f9b323aae7627f80786c4dd94e897f490d768de6da84e406838c24cb01d",
+    "otaHeaderString": "ota-file-test"
   }
 ]
