@@ -2355,16 +2355,6 @@
     "releaseNotes": "1.Fix bug network leave related with green power device commission.\r\n2.Fix abnormal reboot caused by network status.\r\n3.Upgrade Zigbee stack to latest version 3.7.1.2. \r\n4.Support using recall scene to turn off plug in Hue system."
   },
   {
-    "fileName": "SmartCurtainModule_Zigbee_PROD_OTA_V48_v1.00.48.ota",
-    "fileVersion": 48,
-    "fileSize": 169730,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/SmartCurtainModule_Zigbee_PROD_OTA_V48_v1.00.48.ota",
-    "imageType": 54186,
-    "manufacturerCode": 4659,
-    "sha512": "e81ab364299e7716ec4e7f75df8a36583593c73a818768094dbda866e2acfabae47dbfda2fd0890e6dc8fcabd7d3d1ce66cebde7cb6c1f7eb09e455c12134f1b",
-    "otaHeaderString": "Telink OTA Sample Usage"
-  },
-  {
     "fileName": "bl702_Dual_plug_v1.00.38.ota",
     "fileVersion": 38,
     "fileSize": 286202,
@@ -3100,5 +3090,15 @@
     "manufacturerCode": 4742,
     "sha512": "092b398fbdca07e7dd61bb580f130e304bdbcf895fcb2eda2324c166a412c75480ab4f9b323aae7627f80786c4dd94e897f490d768de6da84e406838c24cb01d",
     "otaHeaderString": "ota-file-test"
+  },
+  {
+    "fileName": "SmartCurtainModule_Zigbee_PROD_OTA_V52_v1.00.52.ota",
+    "fileVersion": 52,
+    "fileSize": 170978,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/SmartCurtainModule_Zigbee_PROD_OTA_V52_v1.00.52.ota",
+    "imageType": 54186,
+    "manufacturerCode": 4659,
+    "sha512": "034fcd45cd1276355c62285f881c010e155734082e789ee667d1d17b855a692d329352b73bd011842ca39defdca3a7a8b5fa7edd0cebb1dc0c50c098b48147a7",
+    "otaHeaderString": "Telink OTA Sample Usage"
   }
 ]

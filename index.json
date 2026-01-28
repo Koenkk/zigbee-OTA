@@ -7456,16 +7456,6 @@
     "releaseNotes": "1. Improve the energy consumption report in Home Assistant system."
   },
   {
-    "fileName": "SmartCurtainModule_Zigbee_PROD_OTA_V52_v1.00.52.ota",
-    "fileVersion": 52,
-    "fileSize": 170978,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/SmartCurtainModule_Zigbee_PROD_OTA_V52_v1.00.52.ota",
-    "imageType": 54186,
-    "manufacturerCode": 4659,
-    "sha512": "034fcd45cd1276355c62285f881c010e155734082e789ee667d1d17b855a692d329352b73bd011842ca39defdca3a7a8b5fa7edd0cebb1dc0c50c098b48147a7",
-    "otaHeaderString": "Telink OTA Sample Usage"
-  },
-  {
     "fileName": "bl702_Dual_plug_1.00.42.ota",
     "fileVersion": 42,
     "fileSize": 286614,
@@ -9407,5 +9397,15 @@
     "manufacturerCode": 4151,
     "sha512": "a6a745a55c458bcc7edf82c962903a0e6e0325f2b61c545f05cc66e580769ef55c370ca99b7cf2a64d530cb98ad4da3dfd002687af8599a2b9546eeddd5c42b5",
     "otaHeaderString": "DR1175r1v02--JN5169--ENCRYPTED00"
+  },
+  {
+    "fileName": "SmartCurtainModule_Zigbee_PROD_OTA_V53_v1.00.53.ota",
+    "fileVersion": 53,
+    "fileSize": 171938,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/SmartCurtainModule_Zigbee_PROD_OTA_V53_v1.00.53.ota",
+    "imageType": 54186,
+    "manufacturerCode": 4659,
+    "sha512": "f83abb034cb40b0ebf32e3532f99232f7f4b9625f1598d4f2f8062f6ad0765802b1f19a1312c108a70fa398f529e06dda7026c3a2acd3870492ab5ccab3b11a3",
+    "otaHeaderString": "Telink OTA Sample Usage"
   }
 ]
