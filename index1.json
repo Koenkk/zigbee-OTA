@@ -3110,5 +3110,16 @@
     "manufacturerCode": 4129,
     "sha512": "3e8b61e93ec160be32bdbbc8c319739f5694841f81c6235f8641bf64647a3312445f3826d4a46222c91a402c6d69d28df34e6a925d8b49867624f776a6b69cd2",
     "otaHeaderString": "                                "
+  },
+  {
+    "fileName": "Water_Leak_Sensor_PROD_OTA_V66_v1.00.66.ota",
+    "fileVersion": 66,
+    "fileSize": 133234,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/Water_Leak_Sensor_PROD_OTA_V66_v1.00.66.ota",
+    "imageType": 54179,
+    "manufacturerCode": 4659,
+    "sha512": "daba6b3ad69bb070aa46ddae95bf8fa4a3eed151063b9e14f07a5f8937baac5edc922f99b0f6207b9ece62ee65a4ba896721383947c552f94a82c89d4bd04f1d",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "originalUrl": "https://tr-zha.s3.amazonaws.com/z2m_firmware/Water_Leak_Sensor_PROD_OTA_V66_v1.00.66.ota"
   }
 ]
