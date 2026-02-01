@@ -168,12 +168,6 @@
     "zigbeeStackVersion": "ZigbeePro"
   },
   {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/EcoDim/ZB21S3_HZC_Dimmer1_EcoDim-Zigbee%203.0_1.01_20230908.ota",
-    "stack": "EmberZNet",
-    "stackDetails": "GBL",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/GammaTroniques/TICMeter.ota",
     "stack": "ZBOSS",
     "stackDetails": "Nordic (fuzzy matching)",
@@ -2574,12 +2568,6 @@
     "zigbeeStackVersion": "ZigbeePro"
   },
   {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Water_Leak_Sensor_PROD_OTA_V66_v1.00.66.ota",
-    "stack": "Telink",
-    "stackDetails": "",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Tuya/1615190575-si32_zg_uart_connect_sleep_ZS5_ty_OTA_1.1.7.bin",
     "stack": "EmberZNet",
     "stackDetails": "GBL",
@@ -3138,25 +3126,7 @@
     "zigbeeStackVersion": "ZigbeePro"
   },
   {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Legrand/1021-0019-002645ff-NLFN.zigbee",
-    "stack": "Unknown",
-    "stackDetails": "",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Legrand/1021-001c-002245ff-NLFE.zigbee",
-    "stack": "Unknown",
-    "stackDetails": "",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Legrand/1021-002a-001845ff-NLW.zigbee",
-    "stack": "Unknown",
-    "stackDetails": "",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Legrand/1021-002e-001e45ff-NLIV.zigbee",
     "stack": "Unknown",
     "stackDetails": "",
     "zigbeeStackVersion": "ZigbeePro"
@@ -3169,12 +3139,6 @@
   },
   {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Legrand/1021-0037-000345ff-NLIB.zigbee",
-    "stack": "Unknown",
-    "stackDetails": "",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Legrand/1021-0039-000745ff-NLOC.zigbee",
     "stack": "Unknown",
     "stackDetails": "",
     "zigbeeStackVersion": "ZigbeePro"
@@ -3576,12 +3540,6 @@
     "zigbeeStackVersion": "ZigbeePro"
   },
   {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Legrand/1021-0016-00384203-NLD.zigbee",
-    "stack": "Unknown",
-    "stackDetails": "",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Legrand/1021-001d-00314203-NLUI-8090D2-Boot-universal-Switch_2_18.zigbee",
     "stack": "Unknown",
     "stackDetails": "",
@@ -3963,12 +3921,6 @@
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/PLUG_COMPACT_EU_EM_T-0x00E6-0x03483712-MF_DIS.OTA",
     "stack": "Telink",
     "stackDetails": "(fallback matching)",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/SmartCurtainModule_Zigbee_PROD_OTA_V52_v1.00.52.ota",
-    "stack": "Telink",
-    "stackDetails": "",
     "zigbeeStackVersion": "ZigbeePro"
   },
   {
@@ -4530,12 +4482,6 @@
     "zigbeeStackVersion": "ZigbeePro"
   },
   {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/mini-zb2gs_v1.0.4.ota",
-    "stack": "EmberZNet",
-    "stackDetails": "GBL",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/snzb-05p_v1.0.2.ota",
     "stack": "EmberZNet",
     "stackDetails": "GBL",
@@ -4705,12 +4651,6 @@
   },
   {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/702plug47_usa_h0xD3BD_b0xD3BD.ota",
-    "stack": "Unknown",
-    "stackDetails": "",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/60G_Radar_OTA_V12_v1.00.12.ota",
     "stack": "Unknown",
     "stackDetails": "",
     "zigbeeStackVersion": "ZigbeePro"
@@ -4928,6 +4868,72 @@
   {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Aqara/20260105174558_OTA_lumi.sensor_occupy.agl8_0.0.0_5841_20260105_8C0C5C.ota",
     "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Namron/1402769_v4.02_20251222.ota",
+    "stack": "EmberZNet",
+    "stackDetails": "GBL",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/mini-zb2gs_v1.0.7.ota",
+    "stack": "EmberZNet",
+    "stackDetails": "GBL",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Jennic/TQM300Z_OTA_ENC_V10_ENC.ota",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/SmartCurtainModule_Zigbee_PROD_OTA_V53_v1.00.53.ota",
+    "stack": "Telink",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/60G_Radar_OTA_V17_v1.00.17.ota",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Legrand/1021-0016-003945ff-NLD.zigbee",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Legrand/1021-0019-002945ff-NLFN.zigbee",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Legrand/1021-001c-002345ff-NLFE.zigbee",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Legrand/1021-002e-002045ff-NLIV.zigbee",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Legrand/1021-0039-000845ff-NLOC.zigbee",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Water_Leak_Sensor_PROD_OTA_V73_v1.00.73.ota",
+    "stack": "Telink",
     "stackDetails": "",
     "zigbeeStackVersion": "ZigbeePro"
   }
