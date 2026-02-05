@@ -9338,16 +9338,6 @@
     "otaHeaderString": "Telink OTA Sample Usage"
   },
   {
-    "fileName": "60G_Radar_OTA_V17_v1.00.17.ota",
-    "fileVersion": 17,
-    "fileSize": 349414,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/60G_Radar_OTA_V17_v1.00.17.ota",
-    "imageType": 54211,
-    "manufacturerCode": 5127,
-    "sha512": "c4f104e31c6f7fd49b302a296ca16fc6fb41cee5b85547d2e52f54a4708265f6e92d95b2f5c899cb541d16fe3c45cd4d1e4d1b41cca40b5abfa85ba8cbb5dd80",
-    "otaHeaderString": "temp_humi_sensor"
-  },
-  {
     "fileName": "1021-0016-003945ff-NLD.zigbee",
     "fileVersion": 3753471,
     "fileSize": 207623,
@@ -9406,5 +9396,15 @@
     "manufacturerCode": 4659,
     "sha512": "ac780d5d2bd0da487099210a5abd7137cf52179966194e5637059a1724c12eabce2cc53057a7b0b94be7c37426e4d22b1d71fb60aba27ef93e41286d75ee0f03",
     "otaHeaderString": "Telink OTA Sample Usage"
+  },
+  {
+    "fileName": "60G_Radar_OTA_V20_v1.00.20.ota",
+    "fileVersion": 20,
+    "fileSize": 349878,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/60G_Radar_OTA_V20_v1.00.20.ota",
+    "imageType": 54211,
+    "manufacturerCode": 5127,
+    "sha512": "40a69f595d2b07f671127c96ddddcefdfe8b698d942d2d5269e398d526efc0da998f0f670e2426afced903274f8509ba7e5a960442e288d0efd6693d75ec6a2f",
+    "otaHeaderString": "temp_humi_sensor"
   }
 ]

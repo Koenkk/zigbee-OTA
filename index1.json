@@ -3052,16 +3052,6 @@
     "otaHeaderString": "Telink OTA Sample Usage"
   },
   {
-    "fileName": "60G_Radar_OTA_V12_v1.00.12.ota",
-    "fileVersion": 12,
-    "fileSize": 347762,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/60G_Radar_OTA_V12_v1.00.12.ota",
-    "imageType": 54211,
-    "manufacturerCode": 5127,
-    "sha512": "d3a6dcc0b8db8ac3d4ccf49d01f3d64b7f9f7dd372a2ecece7f7c8a5a3fc2b6f1eb4182fa36a7535e5ee2312d4004cc9b71b0373fc478d8ce942af60399604b5",
-    "otaHeaderString": "temp_humi_sensor"
-  },
-  {
     "fileName": "1021-0016-00384203-NLD.zigbee",
     "fileVersion": 3686915,
     "fileSize": 205239,
@@ -3121,5 +3111,15 @@
     "sha512": "daba6b3ad69bb070aa46ddae95bf8fa4a3eed151063b9e14f07a5f8937baac5edc922f99b0f6207b9ece62ee65a4ba896721383947c552f94a82c89d4bd04f1d",
     "otaHeaderString": "Telink OTA Sample Usage",
     "originalUrl": "https://tr-zha.s3.amazonaws.com/z2m_firmware/Water_Leak_Sensor_PROD_OTA_V66_v1.00.66.ota"
+  },
+  {
+    "fileName": "60G_Radar_OTA_V17_v1.00.17.ota",
+    "fileVersion": 17,
+    "fileSize": 349414,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/60G_Radar_OTA_V17_v1.00.17.ota",
+    "imageType": 54211,
+    "manufacturerCode": 5127,
+    "sha512": "c4f104e31c6f7fd49b302a296ca16fc6fb41cee5b85547d2e52f54a4708265f6e92d95b2f5c899cb541d16fe3c45cd4d1e4d1b41cca40b5abfa85ba8cbb5dd80",
+    "otaHeaderString": "temp_humi_sensor"
   }
 ]
