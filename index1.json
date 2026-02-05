@@ -2562,17 +2562,6 @@
     "otaHeaderString": "ota-file-test"
   },
   {
-    "fileName": "trvzb_v1.4.0.ota",
-    "fileVersion": 5120,
-    "fileSize": 332084,
-    "originalUrl": "https://zigbee-ota.sonoff.tech/releases/trvzb_v1.4.0.ota",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Sonoff/trvzb_v1.4.0.ota",
-    "imageType": 8199,
-    "manufacturerCode": 4742,
-    "sha512": "c1001ffc0d3f38ac1b92e9d113e47ada6aa673671962eb03c11ecb7bc4ab5ea8a3f7c2d1d37095c7749a996c4eb381da0bb120be736d6757da6fa9e396f4522b",
-    "otaHeaderString": "vers:00001400,00001208\n"
-  },
-  {
     "fileName": "6565-0391-10203001-tuya_thermostat_zrd.zigbee",
     "fileVersion": 270544897,
     "fileSize": 259570,
@@ -3132,5 +3121,16 @@
     "manufacturerName": [
       "Slacky-DIY"
     ]
+  },
+  {
+    "fileName": "trvzb_v1.4.1.ota",
+    "fileVersion": 5121,
+    "fileSize": 332092,
+    "originalUrl": "https://zigbee-ota.sonoff.tech/releases/trvzb_v1.4.1.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Sonoff/trvzb_v1.4.1.ota",
+    "imageType": 8199,
+    "manufacturerCode": 4742,
+    "sha512": "139a5f85f25bd2378ed110bd8698bfb31a8a4a9759dcf476a29677f550a274d3269c1b15abf477116b96e26eb407bd9424467b3a054d6f156de178bcd9f8a66f",
+    "otaHeaderString": "vers:00001401,00001208\n"
   }
 ]

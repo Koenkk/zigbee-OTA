@@ -8553,17 +8553,6 @@
     "otaHeaderString": ""
   },
   {
-    "fileName": "trvzb_v1.4.1.ota",
-    "fileVersion": 5121,
-    "fileSize": 332092,
-    "originalUrl": "https://zigbee-ota.sonoff.tech/releases/trvzb_v1.4.1.ota",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/trvzb_v1.4.1.ota",
-    "imageType": 8199,
-    "manufacturerCode": 4742,
-    "sha512": "139a5f85f25bd2378ed110bd8698bfb31a8a4a9759dcf476a29677f550a274d3269c1b15abf477116b96e26eb407bd9424467b3a054d6f156de178bcd9f8a66f",
-    "otaHeaderString": "vers:00001401,00001208\n"
-  },
-  {
     "fileName": "snzb-02p_v2.2.0.ota",
     "fileVersion": 8704,
     "fileSize": 260018,
@@ -9405,5 +9394,15 @@
     "manufacturerName": [
       "Slacky-DIY"
     ]
+  },
+  {
+    "fileName": "trvzb_v1.4.4.ota",
+    "fileVersion": 5124,
+    "fileSize": 332220,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/trvzb_v1.4.4.ota",
+    "imageType": 8199,
+    "manufacturerCode": 4742,
+    "sha512": "c7640e2a238ab9807b77d36abc4b9e58d64c99a8fe8ac8d6246f48760bc85a2aec5c446630c94dd2e85fe3fe088011eccc992e543183b74ede7e061ae6f324b3",
+    "otaHeaderString": "vers:00001404,00001301\n"
   }
 ]
