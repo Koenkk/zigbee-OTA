@@ -6596,19 +6596,6 @@
     "releaseNotes": "1.Support occupancy control.\r\n2.Support daylight harvest control.\r\n3.Support Ledvance green power switch.\r\n4.Enable OTA upgrade over Bluetooth.\r\n5.Fix bugs reported in system test. "
   },
   {
-    "fileName": "6565-0394-10043001-air_quality_monitor_zrd.zigbee",
-    "fileVersion": 268709889,
-    "fileSize": 302674,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-0394-10043001-air_quality_monitor_zrd.zigbee",
-    "imageType": 916,
-    "manufacturerCode": 25957,
-    "sha512": "2d47c772f50dcb56467fce2e3d5f8b362bd9cbba8401108633cc38cfc28dec2251ef351c9ec1d9f654d2c84b6f414ed4f0657fb5317d9572b6bd9480ac5f5d9a",
-    "otaHeaderString": "",
-    "manufacturerName": [
-      "Slacky-DIY"
-    ]
-  },
-  {
     "fileName": "ota_t0x300e_m0x1209_v0x02096a90.ota",
     "fileVersion": 34171536,
     "fileSize": 269014,
@@ -9405,5 +9392,18 @@
     "manufacturerCode": 26214,
     "sha512": "de8c0ebc89aedeca8fef55b133d72ee3fb7e04859d6411c196133d906ca34d219c212b1549b0fe817f63fb5d458bb3d40ceb2e561276c14ae0acc2e0b1e1aa53",
     "otaHeaderString": ""
+  },
+  {
+    "fileName": "6565-0394-10053001-air_quality_monitor_zrd.zigbee",
+    "fileVersion": 268775425,
+    "fileSize": 303378,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-0394-10053001-air_quality_monitor_zrd.zigbee",
+    "imageType": 916,
+    "manufacturerCode": 25957,
+    "sha512": "45beefbfd991d688cd095dc0f2da66e4fd099dcde2e0730f071cb74ab0af26680796fb7705c52aadc63feff2b5b5ab87e016d753c5bdf5784b1427a33869d4e9",
+    "otaHeaderString": "",
+    "manufacturerName": [
+      "Slacky-DIY"
+    ]
   }
 ]

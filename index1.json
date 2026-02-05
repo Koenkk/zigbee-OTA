@@ -1762,19 +1762,6 @@
     "otaHeaderString": "Telink OTA Sample Usage"
   },
   {
-    "fileName": "6565-0394-10033001-air_quality_monitor_zrd.zigbee",
-    "fileVersion": 268644353,
-    "fileSize": 302178,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/SlackyDiy/6565-0394-10033001-air_quality_monitor_zrd.zigbee",
-    "imageType": 916,
-    "manufacturerCode": 25957,
-    "sha512": "92f3613fb4f0839545d5edbc98099899876ef07a0a4355d2c64b7bbe3935cbd040407a88f8fcedb1d7d030cefe6f8bf0b9accb946c2b37c01cc949c1b272e49e",
-    "otaHeaderString": "",
-    "manufacturerName": [
-      "Slacky-DIY"
-    ]
-  },
-  {
     "fileName": "0x1209_0x300e_0x02086a30.ota",
     "fileVersion": 34105904,
     "fileSize": 258058,
@@ -3132,5 +3119,18 @@
     "manufacturerCode": 26214,
     "sha512": "72f19d6f144442265e79ad0e4630413966a064dd78796c44b3b26463f84206fd112cf40f64519b6cd4084bb45c7443839b7163525133cf00e6c2793af416bbc9",
     "otaHeaderString": ""
+  },
+  {
+    "fileName": "6565-0394-10043001-air_quality_monitor_zrd.zigbee",
+    "fileVersion": 268709889,
+    "fileSize": 302674,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/SlackyDiy/6565-0394-10043001-air_quality_monitor_zrd.zigbee",
+    "imageType": 916,
+    "manufacturerCode": 25957,
+    "sha512": "2d47c772f50dcb56467fce2e3d5f8b362bd9cbba8401108633cc38cfc28dec2251ef351c9ec1d9f654d2c84b6f414ed4f0657fb5317d9572b6bd9480ac5f5d9a",
+    "otaHeaderString": "",
+    "manufacturerName": [
+      "Slacky-DIY"
+    ]
   }
 ]
