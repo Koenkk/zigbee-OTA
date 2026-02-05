@@ -2168,16 +2168,6 @@
     "otaHeaderString": "MM_RELAY"
   },
   {
-    "fileName": "wb_msw4_2_070.ota",
-    "fileVersion": 70,
-    "fileSize": 312950,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Sprut.device/wb_msw4_2_070.ota",
-    "imageType": 15,
-    "manufacturerCode": 26214,
-    "sha512": "520465686f77ef055410fd541ec9a4d4e008bea57753707fb28abc69607d8893d9a84ea13f2e8f94e4b3de364b991f74b70df9ae05dbf4726440d7cccf590d1e",
-    "otaHeaderString": ""
-  },
-  {
     "fileName": "FW_ha_v1.00.82.ota",
     "fileVersion": 82,
     "fileSize": 297858,
@@ -3132,5 +3122,15 @@
     "manufacturerCode": 4742,
     "sha512": "9bd9f188c4b5e45878d72a6b513e9630f4fdc326d1d791d18c9d418971a6a6ad090f81e6e76a5fe800f213d735f116d95f704454212bea8823a13053c5e6a443",
     "otaHeaderString": "FIRMWARE"
+  },
+  {
+    "fileName": "wb_msw4_2_071.ota",
+    "fileVersion": 71,
+    "fileSize": 316790,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Sprut.device/wb_msw4_2_071.ota",
+    "imageType": 15,
+    "manufacturerCode": 26214,
+    "sha512": "72f19d6f144442265e79ad0e4630413966a064dd78796c44b3b26463f84206fd112cf40f64519b6cd4084bb45c7443839b7163525133cf00e6c2793af416bbc9",
+    "otaHeaderString": ""
   }
 ]
