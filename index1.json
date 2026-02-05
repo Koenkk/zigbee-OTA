@@ -3121,5 +3121,16 @@
     "manufacturerCode": 5127,
     "sha512": "c4f104e31c6f7fd49b302a296ca16fc6fb41cee5b85547d2e52f54a4708265f6e92d95b2f5c899cb541d16fe3c45cd4d1e4d1b41cca40b5abfa85ba8cbb5dd80",
     "otaHeaderString": "temp_humi_sensor"
+  },
+  {
+    "fileName": "snzb-02dr2_v1.0.3.ota",
+    "fileVersion": 4099,
+    "fileSize": 212336,
+    "originalUrl": "https://zigbee-ota.sonoff.tech/releases/snzb-02dr2_v1.0.3.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Sonoff/snzb-02dr2_v1.0.3.ota",
+    "imageType": 2064,
+    "manufacturerCode": 4742,
+    "sha512": "9bd9f188c4b5e45878d72a6b513e9630f4fdc326d1d791d18c9d418971a6a6ad090f81e6e76a5fe800f213d735f116d95f704454212bea8823a13053c5e6a443",
+    "otaHeaderString": "FIRMWARE"
   }
 ]

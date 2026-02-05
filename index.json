@@ -8488,17 +8488,6 @@
     "otaHeaderString": "ota-file-test"
   },
   {
-    "fileName": "snzb-02dr2_v1.0.3.ota",
-    "fileVersion": 4099,
-    "fileSize": 212336,
-    "originalUrl": "https://zigbee-ota.sonoff.tech/releases/snzb-02dr2_v1.0.3.ota",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/snzb-02dr2_v1.0.3.ota",
-    "imageType": 2064,
-    "manufacturerCode": 4742,
-    "sha512": "9bd9f188c4b5e45878d72a6b513e9630f4fdc326d1d791d18c9d418971a6a6ad090f81e6e76a5fe800f213d735f116d95f704454212bea8823a13053c5e6a443",
-    "otaHeaderString": "FIRMWARE"
-  },
-  {
     "fileName": "zbm5-120-zed_v1.0.4.ota",
     "fileVersion": 4100,
     "fileSize": 273908,
@@ -9406,5 +9395,15 @@
     "manufacturerCode": 5127,
     "sha512": "40a69f595d2b07f671127c96ddddcefdfe8b698d942d2d5269e398d526efc0da998f0f670e2426afced903274f8509ba7e5a960442e288d0efd6693d75ec6a2f",
     "otaHeaderString": "temp_humi_sensor"
+  },
+  {
+    "fileName": "snzb-02dr2_v1.0.4.ota",
+    "fileVersion": 4100,
+    "fileSize": 208432,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/snzb-02dr2_v1.0.4.ota",
+    "imageType": 2064,
+    "manufacturerCode": 4742,
+    "sha512": "1aab2e361c65211f5db43ad8eb8781a8375953222f8e5fdae3716c3b07c5383b6a0ae88994fa48b1c71f1b53b2b5d6e9ac0f5a3f342506af2d778e5ed2e7073f",
+    "otaHeaderString": "FIRMWARE"
   }
 ]
