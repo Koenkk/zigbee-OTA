@@ -7217,18 +7217,6 @@
     "releaseNotes": "1. Support Green Power switch control in Direct Easy system.\r\n2. Support Rotary switch control in Direct Easy system."
   },
   {
-    "fileName": "DOT_IT_ZBD_G01-0x1189-0x00FC-0x01328000-MF_DIS-DOWM_DIS-20250815123429-3224010153640-lzma-encrypted.ota",
-    "fileVersion": 20086784,
-    "fileSize": 373050,
-    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=252&version=1.50.128.0",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/DOT_IT_ZBD_G01-0x1189-0x00FC-0x01328000-MF_DIS-DOWM_DIS-20250815123429-3224010153640-lzma-encrypted.ota",
-    "imageType": 252,
-    "manufacturerCode": 4489,
-    "sha512": "970d3f2f3cf4ef919d6f44dc6feb354eb603038d00b68542f07f72f3d7a4685b539708e3a0443f046974d4d841353da2a2734f4fedf157057d19d68b97042a93",
-    "otaHeaderString": "DOT_IT_ZBD_G01",
-    "releaseNotes": "1. Standard brightness of Dot-It @70%.\r\n2. Improve Dimming Curve."
-  },
-  {
     "fileName": "C-ZB-LC20v2_V30251203_20251110.ota",
     "fileVersion": 838938625,
     "fileSize": 203346,
@@ -9404,5 +9392,17 @@
     "manufacturerCode": 4742,
     "sha512": "c7640e2a238ab9807b77d36abc4b9e58d64c99a8fe8ac8d6246f48760bc85a2aec5c446630c94dd2e85fe3fe088011eccc992e543183b74ede7e061ae6f324b3",
     "otaHeaderString": "vers:00001404,00001301\n"
+  },
+  {
+    "fileName": "DOT_IT_ZBD_G01-0x1189-0x00FC-0x013E8000-MF_DIS-DOWM_DIS-20251212105551-3224010153640-lzma-encrypted.ota",
+    "fileVersion": 20873216,
+    "fileSize": 371006,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=252&version=1.62.128.0",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/DOT_IT_ZBD_G01-0x1189-0x00FC-0x013E8000-MF_DIS-DOWM_DIS-20251212105551-3224010153640-lzma-encrypted.ota",
+    "imageType": 252,
+    "manufacturerCode": 4489,
+    "sha512": "837dcc5ef00e4daa10dc11cb44821526ae8da8ab6e586ca6ac9fe3abcdf2182d41c690df180899141dffdbd54ae080417646c5070c414c88849bf950778846d1",
+    "otaHeaderString": "DOT_IT_ZBD_G01",
+    "releaseNotes": "1. Improve low-level dimming smoothness\r\n2. Add 500ms transition time to make the switch from RGB to CCT smoother\r\n3. Keep Lum level synced during rapid on off control\r\n4. Replace 90s sensor mute with new occupancy control\r\n5. Sync platform code changes"
   }
 ]
