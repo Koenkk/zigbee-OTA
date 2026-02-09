@@ -1,6 +1,6 @@
 import assert from "node:assert";
 import {existsSync, readFileSync, writeFileSync} from "node:fs";
-import type CoreApi from "@actions/core";
+import type * as CoreApi from "@actions/core";
 import type {Context} from "@actions/github/lib/context";
 import type {Octokit} from "@octokit/rest";
 

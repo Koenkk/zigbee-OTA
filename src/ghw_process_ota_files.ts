@@ -1,7 +1,7 @@
 import assert from "node:assert";
 import {readFileSync, renameSync} from "node:fs";
 import path from "node:path";
-import type CoreApi from "@actions/core";
+import type * as CoreApi from "@actions/core";
 import type {Context} from "@actions/github/lib/context";
 import type {Octokit} from "@octokit/rest";
 import {
