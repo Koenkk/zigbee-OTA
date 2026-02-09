@@ -1,6 +1,6 @@
 import {existsSync, readFileSync, rmSync, writeFileSync} from "node:fs";
 import path from "node:path";
-import type CoreApi from "@actions/core";
+import type * as CoreApi from "@actions/core";
 import type {Context} from "@actions/github/lib/context";
 import type {Octokit} from "@octokit/rest";
 import {afterAll, afterEach, beforeAll, beforeEach, describe, expect, it, type MockInstance, vi} from "vitest";
