@@ -3079,16 +3079,6 @@
     "originalUrl": "https://tr-zha.s3.amazonaws.com/z2m_firmware/Water_Leak_Sensor_PROD_OTA_V66_v1.00.66.ota"
   },
   {
-    "fileName": "60G_Radar_OTA_V17_v1.00.17.ota",
-    "fileVersion": 17,
-    "fileSize": 349414,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/60G_Radar_OTA_V17_v1.00.17.ota",
-    "imageType": 54211,
-    "manufacturerCode": 5127,
-    "sha512": "c4f104e31c6f7fd49b302a296ca16fc6fb41cee5b85547d2e52f54a4708265f6e92d95b2f5c899cb541d16fe3c45cd4d1e4d1b41cca40b5abfa85ba8cbb5dd80",
-    "otaHeaderString": "temp_humi_sensor"
-  },
-  {
     "fileName": "snzb-02dr2_v1.0.3.ota",
     "fileVersion": 4099,
     "fileSize": 212336,
@@ -3144,5 +3134,15 @@
     "sha512": "970d3f2f3cf4ef919d6f44dc6feb354eb603038d00b68542f07f72f3d7a4685b539708e3a0443f046974d4d841353da2a2734f4fedf157057d19d68b97042a93",
     "otaHeaderString": "DOT_IT_ZBD_G01",
     "releaseNotes": "1. Standard brightness of Dot-It @70%.\r\n2. Improve Dimming Curve."
+  },
+  {
+    "fileName": "60G_Radar_OTA_V20_v1.00.20.ota",
+    "fileVersion": 20,
+    "fileSize": 349878,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/60G_Radar_OTA_V20_v1.00.20.ota",
+    "imageType": 54211,
+    "manufacturerCode": 5127,
+    "sha512": "40a69f595d2b07f671127c96ddddcefdfe8b698d942d2d5269e398d526efc0da998f0f670e2426afced903274f8509ba7e5a960442e288d0efd6693d75ec6a2f",
+    "otaHeaderString": "temp_humi_sensor"
   }
 ]
