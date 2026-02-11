@@ -3136,13 +3136,13 @@
     "releaseNotes": "1. Standard brightness of Dot-It @70%.\r\n2. Improve Dimming Curve."
   },
   {
-    "fileName": "60G_Radar_OTA_V20_v1.00.20.ota",
-    "fileVersion": 20,
-    "fileSize": 349878,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/60G_Radar_OTA_V20_v1.00.20.ota",
+    "fileName": "60G_Radar_OTA_V23_v1.00.23.ota",
+    "fileVersion": 23,
+    "fileSize": 349846,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/60G_Radar_OTA_V23_v1.00.23.ota",
     "imageType": 54211,
     "manufacturerCode": 5127,
-    "sha512": "40a69f595d2b07f671127c96ddddcefdfe8b698d942d2d5269e398d526efc0da998f0f670e2426afced903274f8509ba7e5a960442e288d0efd6693d75ec6a2f",
+    "sha512": "2804f83240a6c78b6eb7a9864eacf3901c2ba9be1dc1a919ee5cf23d150891717a2bec772243593c4bf2ba61e973dbcd17f757104e0ad24802afa049da07c47f",
     "otaHeaderString": "temp_humi_sensor"
   }
 ]

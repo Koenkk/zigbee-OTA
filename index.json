@@ -9396,13 +9396,13 @@
     "releaseNotes": "1. Improve low-level dimming smoothness\r\n2. Add 500ms transition time to make the switch from RGB to CCT smoother\r\n3. Keep Lum level synced during rapid on off control\r\n4. Replace 90s sensor mute with new occupancy control\r\n5. Sync platform code changes"
   },
   {
-    "fileName": "60G_Radar_OTA_V23_v1.00.23.ota",
-    "fileVersion": 23,
-    "fileSize": 349846,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/60G_Radar_OTA_V23_v1.00.23.ota",
+    "fileName": "60G_Radar_OTA_V24_v1.00.24.ota",
+    "fileVersion": 24,
+    "fileSize": 349302,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/60G_Radar_OTA_V24_v1.00.24.ota",
     "imageType": 54211,
     "manufacturerCode": 5127,
-    "sha512": "2804f83240a6c78b6eb7a9864eacf3901c2ba9be1dc1a919ee5cf23d150891717a2bec772243593c4bf2ba61e973dbcd17f757104e0ad24802afa049da07c47f",
+    "sha512": "f071aa4bfd06f015819f67472d967380dfb2111b4b02d6f1d0344afbe90a37cdeaac8c761f8fed6d25377dacd89407fbddd983442505d6b51a850b837448c02b",
     "otaHeaderString": "temp_humi_sensor"
   }
 ]
