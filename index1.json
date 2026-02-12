@@ -70,17 +70,6 @@
     "releaseNotes": "https://ww8.ikea.com/ikeahomesmart/releasenotes/releasenotes.html"
   },
   {
-    "fileName": "VZM31-SN_2.15-Production.ota",
-    "fileVersion": 16908815,
-    "fileSize": 306782,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Inovelli/VZM31-SN_2.15-Production.ota",
-    "imageType": 257,
-    "manufacturerCode": 4655,
-    "sha512": "0c0973c9ad5f627b9cd1cfea8c6d4b0e57958378b4ca21b97d9552fa0183eecbb3c3971cf4f965e39c8b974aa3e91653c9ef7a55abe4ae478a67dccc6417b26a",
-    "otaHeaderString": "EBL VM_SWITCH",
-    "originalUrl": "https://github.com/InovelliUSA/Firmware/raw/main/Blue-Series/Zigbee/VZM31-SN-2-1-Switch/Production/2.15/VZM31-SN_2.15-Production.ota"
-  },
-  {
     "fileName": "VZM36_0.04.ota",
     "fileVersion": 67174404,
     "fileSize": 237962,
@@ -3144,5 +3133,15 @@
     "manufacturerCode": 5127,
     "sha512": "2804f83240a6c78b6eb7a9864eacf3901c2ba9be1dc1a919ee5cf23d150891717a2bec772243593c4bf2ba61e973dbcd17f757104e0ad24802afa049da07c47f",
     "otaHeaderString": "temp_humi_sensor"
+  },
+  {
+    "fileName": "VZM31-SN_2.18-Production.ota",
+    "fileVersion": 16908818,
+    "fileSize": 310258,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Inovelli/VZM31-SN_2.18-Production.ota",
+    "imageType": 257,
+    "manufacturerCode": 4655,
+    "sha512": "6d480a5d621a16bb3a57fcc1af09071fc528dab2a8f3e479620c3bd75ddfa9e8f624c32b1dc35d5c1bc8db0f67a70ee150ce3a516a2026f717076dcbeba23df7",
+    "otaHeaderString": "EBL VM_SWITCH"
   }
 ]

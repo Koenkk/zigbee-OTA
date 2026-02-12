@@ -1271,16 +1271,6 @@
     "originalUrl": "https://files.inovelli.com/firmware/DZM32-SN/Beta/1.13/DZM32-SN_1.13.ota"
   },
   {
-    "fileName": "VZM31-SN_2.18-Production.ota",
-    "fileVersion": 16908818,
-    "fileSize": 310258,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Inovelli/VZM31-SN_2.18-Production.ota",
-    "imageType": 257,
-    "manufacturerCode": 4655,
-    "sha512": "6d480a5d621a16bb3a57fcc1af09071fc528dab2a8f3e479620c3bd75ddfa9e8f624c32b1dc35d5c1bc8db0f67a70ee150ce3a516a2026f717076dcbeba23df7",
-    "otaHeaderString": "EBL VM_SWITCH"
-  },
-  {
     "fileName": "VZM36_1.01-Beta.ota",
     "fileVersion": 67174657,
     "fileSize": 237938,
@@ -9404,5 +9394,16 @@
     "manufacturerCode": 5127,
     "sha512": "f071aa4bfd06f015819f67472d967380dfb2111b4b02d6f1d0344afbe90a37cdeaac8c761f8fed6d25377dacd89407fbddd983442505d6b51a850b837448c02b",
     "otaHeaderString": "temp_humi_sensor"
+  },
+  {
+    "fileName": "VZM31-SN_3.04.ota",
+    "fileVersion": 16909060,
+    "fileSize": 319866,
+    "originalUrl": "https://files.inovelli.com/firmware/VZM31-SN/Production/3.04/VZM31-SN_3.04.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Inovelli/VZM31-SN_3.04.ota",
+    "imageType": 257,
+    "manufacturerCode": 4655,
+    "sha512": "95aac7aacb41c9437c9b372bade31c7a1201180c21083cd0ef588ecb9be9208d4d97593528f6ebbe1039d850ee6702eb3f1835488363b30b1a694ac19bf92ae2",
+    "otaHeaderString": "EBL VM_SWITCH"
   }
 ]
