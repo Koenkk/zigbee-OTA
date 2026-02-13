@@ -9386,16 +9386,6 @@
     "releaseNotes": "1. Improve low-level dimming smoothness\r\n2. Add 500ms transition time to make the switch from RGB to CCT smoother\r\n3. Keep Lum level synced during rapid on off control\r\n4. Replace 90s sensor mute with new occupancy control\r\n5. Sync platform code changes"
   },
   {
-    "fileName": "60G_Radar_OTA_V24_v1.00.24.ota",
-    "fileVersion": 24,
-    "fileSize": 349302,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/60G_Radar_OTA_V24_v1.00.24.ota",
-    "imageType": 54211,
-    "manufacturerCode": 5127,
-    "sha512": "f071aa4bfd06f015819f67472d967380dfb2111b4b02d6f1d0344afbe90a37cdeaac8c761f8fed6d25377dacd89407fbddd983442505d6b51a850b837448c02b",
-    "otaHeaderString": "temp_humi_sensor"
-  },
-  {
     "fileName": "VZM31-SN_3.04.ota",
     "fileVersion": 16909060,
     "fileSize": 319866,
@@ -9405,5 +9395,15 @@
     "manufacturerCode": 4655,
     "sha512": "95aac7aacb41c9437c9b372bade31c7a1201180c21083cd0ef588ecb9be9208d4d97593528f6ebbe1039d850ee6702eb3f1835488363b30b1a694ac19bf92ae2",
     "otaHeaderString": "EBL VM_SWITCH"
+  },
+  {
+    "fileName": "60G_Radar_OTA_V25_v1.00.25.ota",
+    "fileVersion": 25,
+    "fileSize": 349302,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/60G_Radar_OTA_V25_v1.00.25.ota",
+    "imageType": 54211,
+    "manufacturerCode": 5127,
+    "sha512": "05571052672eb92487bc436549f5dd11d084c6f1671d27c6de9fd446ed95339c71ff33953013153e29f814824b265b295a9b47452e1201d7386b4126f522188a",
+    "otaHeaderString": "temp_humi_sensor"
   }
 ]

@@ -3125,16 +3125,6 @@
     "releaseNotes": "1. Standard brightness of Dot-It @70%.\r\n2. Improve Dimming Curve."
   },
   {
-    "fileName": "60G_Radar_OTA_V23_v1.00.23.ota",
-    "fileVersion": 23,
-    "fileSize": 349846,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/60G_Radar_OTA_V23_v1.00.23.ota",
-    "imageType": 54211,
-    "manufacturerCode": 5127,
-    "sha512": "2804f83240a6c78b6eb7a9864eacf3901c2ba9be1dc1a919ee5cf23d150891717a2bec772243593c4bf2ba61e973dbcd17f757104e0ad24802afa049da07c47f",
-    "otaHeaderString": "temp_humi_sensor"
-  },
-  {
     "fileName": "VZM31-SN_2.18-Production.ota",
     "fileVersion": 16908818,
     "fileSize": 310258,
@@ -3143,5 +3133,15 @@
     "manufacturerCode": 4655,
     "sha512": "6d480a5d621a16bb3a57fcc1af09071fc528dab2a8f3e479620c3bd75ddfa9e8f624c32b1dc35d5c1bc8db0f67a70ee150ce3a516a2026f717076dcbeba23df7",
     "otaHeaderString": "EBL VM_SWITCH"
+  },
+  {
+    "fileName": "60G_Radar_OTA_V24_v1.00.24.ota",
+    "fileVersion": 24,
+    "fileSize": 349302,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/60G_Radar_OTA_V24_v1.00.24.ota",
+    "imageType": 54211,
+    "manufacturerCode": 5127,
+    "sha512": "f071aa4bfd06f015819f67472d967380dfb2111b4b02d6f1d0344afbe90a37cdeaac8c761f8fed6d25377dacd89407fbddd983442505d6b51a850b837448c02b",
+    "otaHeaderString": "temp_humi_sensor"
   }
 ]
