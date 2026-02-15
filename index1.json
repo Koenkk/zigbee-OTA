@@ -3143,5 +3143,53 @@
     "manufacturerCode": 5127,
     "sha512": "f071aa4bfd06f015819f67472d967380dfb2111b4b02d6f1d0344afbe90a37cdeaac8c761f8fed6d25377dacd89407fbddd983442505d6b51a850b837448c02b",
     "otaHeaderString": "temp_humi_sensor"
+  },
+  {
+    "fileName": "MCU_SELECT_TW_RGB-0x1189-0x00F7-0x01368000-MF_DIS-DOWM_DIS-20250731080530-3224010153640-lzma-encrypted.ota",
+    "fileVersion": 20348928,
+    "fileSize": 359342,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=247&version=1.54.128.0",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/LEDVANCE/MCU_SELECT_TW_RGB-0x1189-0x00F7-0x01368000-MF_DIS-DOWM_DIS-20250731080530-3224010153640-lzma-encrypted.ota",
+    "imageType": 247,
+    "manufacturerCode": 4489,
+    "sha512": "50129351248c403c86d9252b4dcba33d4f669f4906a8c896c5e1f7d91f9303d9c6dbdf587c0a93b8408b8e38d0c62c42ec25a8032461c8517e7840cc0634e755",
+    "otaHeaderString": "MCU_SELECT_TW_RGB",
+    "releaseNotes": "1.Support dynamic CCT&DIM.\r\n2.Support RGB\r\n3.Support RGB/TW. \r\n4.Support daylight harvest control.\r\n5.Enable OTA upgrade over Bluetooth."
+  },
+  {
+    "fileName": "SENSOR_DIRECT_LS_PD_7_IR_CI_ZB-0x1189-0x00F9-0x025C8000-MF_DIS-DOWM_DIS-20250717074332-3224010153640-lzma-encrypted.ota",
+    "fileVersion": 39616512,
+    "fileSize": 350950,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=249&version=2.92.128.0",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/LEDVANCE/SENSOR_DIRECT_LS_PD_7_IR_CI_ZB-0x1189-0x00F9-0x025C8000-MF_DIS-DOWM_DIS-20250717074332-3224010153640-lzma-encrypted.ota",
+    "imageType": 249,
+    "manufacturerCode": 4489,
+    "sha512": "3ea5e433ef315dbd8196fb55af3cd64b3436cd0b4b2e4fb4ac7587dc27ff0316a009cbe4ea377c4e5a0e70e36fef88193690760303f632b8adc046efe49922a3",
+    "otaHeaderString": "SENSOR_DIRECT_LS_PD_7_IR_CI_ZB",
+    "releaseNotes": "1.Support occupancy control.\r\n2.Support daylight harvest control.\r\n3.Enable OTA upgrade over Bluetooth.\r\n4.Work with green power switch.\r\n5.Fix bugs reported in system test. "
+  },
+  {
+    "fileName": "DR_ZBD_NFC_P_30W_220_240V_0A7-0x1189-0x00FD-0x025E8000-MF_DIS-DOWM_DIS-20250804132155-3224010153640-lzma-encrypted.ota",
+    "fileVersion": 39747584,
+    "fileSize": 374022,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=253&version=2.94.128.0",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/LEDVANCE/DR_ZBD_NFC_P_30W_220_240V_0A7-0x1189-0x00FD-0x025E8000-MF_DIS-DOWM_DIS-20250804132155-3224010153640-lzma-encrypted.ota",
+    "imageType": 253,
+    "manufacturerCode": 4489,
+    "sha512": "75a299173ed81528407c5b86d14f0e0d3746346eaf976e782a89836b89c5bfabb8d8a9b7e38b877a05b6644b81f453588fb5aa4293ebe653bd24fd29f60feafd",
+    "otaHeaderString": "DR_ZBD_NFC_P_30W_220_240V_0A7",
+    "releaseNotes": "1.Support occupancy control.\r\n2.Support daylight harvest control.\r\n3.Support Ledvance green power switch.\r\n4.Enable OTA upgrade over Bluetooth.\r\n5.Fix bugs reported in system test. "
+  },
+  {
+    "fileName": "DR_ZBD_NFC_P_45W_220_240V_1A2-0x1189-0x00FE-0x025E8000-MF_DIS-DOWM_DIS-20250804132854-3224010153640-lzma-encrypted.ota",
+    "fileVersion": 39747584,
+    "fileSize": 373962,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=254&version=2.94.128.0",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/LEDVANCE/DR_ZBD_NFC_P_45W_220_240V_1A2-0x1189-0x00FE-0x025E8000-MF_DIS-DOWM_DIS-20250804132854-3224010153640-lzma-encrypted.ota",
+    "imageType": 254,
+    "manufacturerCode": 4489,
+    "sha512": "a8f2f8883d1f3447ec53237ed11dcdad6d090738191c4f53268683f59d90eab6c6a10af5f8f25b0f284d90f4e984220cf8c06bc4a6d11df9f60659f6b2dc095c",
+    "otaHeaderString": "DR_ZBD_NFC_P_45W_220_240V_1A2",
+    "releaseNotes": "1.Support occupancy control.\r\n2.Support daylight harvest control.\r\n3.Support Ledvance green power switch.\r\n4.Enable OTA upgrade over Bluetooth.\r\n5.Fix bugs reported in system test. "
   }
 ]

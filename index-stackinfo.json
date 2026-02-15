@@ -702,12 +702,6 @@
     "zigbeeStackVersion": "ZigbeePro"
   },
   {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Inovelli/VZM31-SN_2.18-Production.ota",
-    "stack": "EmberZNet",
-    "stackDetails": "GBL",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Inovelli/VZM36_1.01-Beta.ota",
     "stack": "EmberZNet",
     "stackDetails": "GBL",
@@ -3468,31 +3462,7 @@
     "zigbeeStackVersion": "ZigbeePro"
   },
   {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/MCU_SELECT_TW_RGB-0x1189-0x00F7-0x01368000-MF_DIS-DOWM_DIS-20250731080530-3224010153640-lzma-encrypted.ota",
-    "stack": "EmberZNet",
-    "stackDetails": "GBL",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/SENSOR_DIRECT_LS_PD_7_IR_CI_ZB-0x1189-0x00F9-0x025C8000-MF_DIS-DOWM_DIS-20250717074332-3224010153640-lzma-encrypted.ota",
-    "stack": "EmberZNet",
-    "stackDetails": "GBL",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/STRIP_CONTROL_DIRECT_TW_RGB-0x1189-0x00FA-0x01348000-MF_DIS-DOWM_DIS-20250711054618-3224010153640-lzma-encrypted.ota",
-    "stack": "EmberZNet",
-    "stackDetails": "GBL",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/DR_ZBD_NFC_P_30W_220_240V_0A7-0x1189-0x00FD-0x025E8000-MF_DIS-DOWM_DIS-20250804132155-3224010153640-lzma-encrypted.ota",
-    "stack": "EmberZNet",
-    "stackDetails": "GBL",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/DR_ZBD_NFC_P_45W_220_240V_1A2-0x1189-0x00FE-0x025E8000-MF_DIS-DOWM_DIS-20250804132854-3224010153640-lzma-encrypted.ota",
     "stack": "EmberZNet",
     "stackDetails": "GBL",
     "zigbeeStackVersion": "ZigbeePro"
@@ -4902,12 +4872,6 @@
     "zigbeeStackVersion": "ZigbeePro"
   },
   {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/60G_Radar_OTA_V20_v1.00.20.ota",
-    "stack": "Unknown",
-    "stackDetails": "",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/snzb-02dr2_v1.0.4.ota",
     "stack": "Unknown",
     "stackDetails": "",
@@ -4933,6 +4897,42 @@
   },
   {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/DOT_IT_ZBD_G01-0x1189-0x00FC-0x013E8000-MF_DIS-DOWM_DIS-20251212105551-3224010153640-lzma-encrypted.ota",
+    "stack": "EmberZNet",
+    "stackDetails": "GBL",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Inovelli/VZM31-SN_3.04.ota",
+    "stack": "EmberZNet",
+    "stackDetails": "GBL",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/60G_Radar_OTA_V25_v1.00.25.ota",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/MCU_SELECT_TW_RGB-0x1189-0x00F7-0x013E8000-MF_DIS-DOWM_DIS-20251222101431-3224010153640-lzma-encrypted.ota",
+    "stack": "EmberZNet",
+    "stackDetails": "GBL",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/SENSOR_DIRECT_LS_PD_7_IR_CI_ZB-0x1189-0x00F9-0x026E8000-MF_DIS-DOWM_DIS-20251212102214-3224010153640-lzma-encrypted.ota",
+    "stack": "EmberZNet",
+    "stackDetails": "GBL",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/DR_ZBD_NFC_P_30W_220_240V_0A7-0x1189-0x00FD-0x02728000-MF_DIS-DOWM_DIS-20251222133901-3224010153640-lzma-encrypted.ota",
+    "stack": "EmberZNet",
+    "stackDetails": "GBL",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/DR_ZBD_NFC_P_45W_220_240V_1A2-0x1189-0x00FE-0x02728000-MF_DIS-DOWM_DIS-20251222134435-3224010153640-lzma-encrypted.ota",
     "stack": "EmberZNet",
     "stackDetails": "GBL",
     "zigbeeStackVersion": "ZigbeePro"
