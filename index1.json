@@ -2613,16 +2613,6 @@
     "modelId": "3RSP02064Z"
   },
   {
-    "fileName": "Smart_Air_Pressure_Sensor_OTA_V8_1.00.08.ota",
-    "fileVersion": 8,
-    "fileSize": 263418,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/Smart_Air_Pressure_Sensor_OTA_V8_1.00.08.ota",
-    "imageType": 54190,
-    "manufacturerCode": 5127,
-    "sha512": "bf816e6c1d21c50cf4f071fca137bbfba1b3406647d8321293665257c3d14dbd7a81b1c246464bc79565e31b056efa1c6f846a721f9de694b64a3385b2cd4c1b",
-    "otaHeaderString": "temp_humi_sensor"
-  },
-  {
     "fileName": "Smart_Soil_Moisture_Sensor_Gen2_v1.00.16.ota",
     "fileVersion": 16,
     "fileSize": 264314,
@@ -3190,6 +3180,16 @@
     "imageType": 54211,
     "manufacturerCode": 5127,
     "sha512": "05571052672eb92487bc436549f5dd11d084c6f1671d27c6de9fd446ed95339c71ff33953013153e29f814824b265b295a9b47452e1201d7386b4126f522188a",
+    "otaHeaderString": "temp_humi_sensor"
+  },
+  {
+    "fileName": "Smart_Air_Pressure_Sensor_OTA_V9_1.00.09.ota",
+    "fileVersion": 9,
+    "fileSize": 263402,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/Smart_Air_Pressure_Sensor_OTA_V9_1.00.09.ota",
+    "imageType": 54190,
+    "manufacturerCode": 5127,
+    "sha512": "557967aaf86b1464eca9e944aab5fd980beeee9c5c3a69e262a91b3dbf9c1a0f4fe1aabfa8620c2f305d8e9c5f53d4e1d08430b447d0881f71ad3f99353d4f4a",
     "otaHeaderString": "temp_humi_sensor"
   }
 ]
