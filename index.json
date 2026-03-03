@@ -8567,16 +8567,6 @@
     ]
   },
   {
-    "fileName": "Water_Leak_Sensor_V2_OTA_V12_v1.00.12.ota",
-    "fileVersion": 12,
-    "fileSize": 261554,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Water_Leak_Sensor_V2_OTA_V12_v1.00.12.ota",
-    "imageType": 54210,
-    "manufacturerCode": 5127,
-    "sha512": "8153b046787330625d6b188510ed22d0b950c2ab4f5cad7b4af6b3df9db6fd93811bd29f4094855faa55ead54cd87a0702ba969eb201c621da64c35f25649086",
-    "otaHeaderString": "temp_humi_sensor"
-  },
-  {
     "fileName": "702plug47_usa_h0xD3BD_b0xD3BD.ota",
     "fileVersion": 47,
     "fileSize": 281750,
@@ -9341,6 +9331,16 @@
     "imageType": 54190,
     "manufacturerCode": 5127,
     "sha512": "9be7591c9524384266af2a28ff6a81d5f89bbac0623085b5d5ce61879e6c8ed783bbf550261ec4d175ba4abdc95bd6bca25cdf3490de577975b0456c2123cdde",
+    "otaHeaderString": "temp_humi_sensor"
+  },
+  {
+    "fileName": "Water_Leak_Sensor_V2_OTA_V17_v1.00.17.ota",
+    "fileVersion": 17,
+    "fileSize": 261534,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Water_Leak_Sensor_V2_OTA_V17_v1.00.17.ota",
+    "imageType": 54210,
+    "manufacturerCode": 5127,
+    "sha512": "f47a8048a35d8ebf1c12abf0ce8d60ee408db4153ccea046045132de254c18ee68b6be79589f32615073ab5f9a9148f5cefb0b8e4feebf8d9099832293f1d31d",
     "otaHeaderString": "temp_humi_sensor"
   }
 ]
