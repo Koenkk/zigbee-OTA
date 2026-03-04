@@ -9324,16 +9324,6 @@
     "otaHeaderString": "temp_humi_sensor"
   },
   {
-    "fileName": "Smart_Air_Pressure_Sensor_OTA_V11_1.00.11.ota",
-    "fileVersion": 11,
-    "fileSize": 264614,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Smart_Air_Pressure_Sensor_OTA_V11_1.00.11.ota",
-    "imageType": 54190,
-    "manufacturerCode": 5127,
-    "sha512": "9be7591c9524384266af2a28ff6a81d5f89bbac0623085b5d5ce61879e6c8ed783bbf550261ec4d175ba4abdc95bd6bca25cdf3490de577975b0456c2123cdde",
-    "otaHeaderString": "temp_humi_sensor"
-  },
-  {
     "fileName": "Water_Leak_Sensor_V2_OTA_V17_v1.00.17.ota",
     "fileVersion": 17,
     "fileSize": 261534,
@@ -9341,6 +9331,16 @@
     "imageType": 54210,
     "manufacturerCode": 5127,
     "sha512": "f47a8048a35d8ebf1c12abf0ce8d60ee408db4153ccea046045132de254c18ee68b6be79589f32615073ab5f9a9148f5cefb0b8e4feebf8d9099832293f1d31d",
+    "otaHeaderString": "temp_humi_sensor"
+  },
+  {
+    "fileName": "Smart_Air_Pressure_Sensor_OTA_V12_1.00.12.ota",
+    "fileVersion": 12,
+    "fileSize": 264670,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Smart_Air_Pressure_Sensor_OTA_V12_1.00.12.ota",
+    "imageType": 54190,
+    "manufacturerCode": 5127,
+    "sha512": "8c9a8e4474360c362636914498cb87ed08403718b897607bdc74ad299bc73d750f020a02cda486d383c4da11c8ac1b15b686a13e50361f425258f96d24e3c4f5",
     "otaHeaderString": "temp_humi_sensor"
   }
 ]
