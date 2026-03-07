@@ -3201,5 +3201,15 @@
     "manufacturerCode": 5127,
     "sha512": "9be7591c9524384266af2a28ff6a81d5f89bbac0623085b5d5ce61879e6c8ed783bbf550261ec4d175ba4abdc95bd6bca25cdf3490de577975b0456c2123cdde",
     "otaHeaderString": "temp_humi_sensor"
+  },
+  {
+    "fileName": "t_h_sensor_Lite_v2_OTA_V10_v1.00.10.ota",
+    "fileVersion": 10,
+    "fileSize": 250794,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/t_h_sensor_Lite_v2_OTA_V10_v1.00.10.ota",
+    "imageType": 54209,
+    "manufacturerCode": 5127,
+    "sha512": "7cd406d8fffce3fa012735c667d04191be174d49e77f33f6e59b22b9e802031c0caccb9be56e8411e491f5735793bdea0ddae73c024684fc66bd47b324540879",
+    "otaHeaderString": "temp_humi_sensor"
   }
 ]
