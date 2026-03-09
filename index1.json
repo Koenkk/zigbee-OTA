@@ -745,17 +745,6 @@
     "otaHeaderString": ""
   },
   {
-    "fileName": "SmartSwitchGen3_PROD_OTA_V29_v1.00.29.ota",
-    "fileVersion": 29,
-    "fileSize": 134898,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/SmartSwitchGen3_PROD_OTA_V29_v1.00.29.ota",
-    "imageType": 54181,
-    "manufacturerCode": 4659,
-    "sha512": "39f22a3ef9eac451b9dde671650db324082af90452bc39c1184fe22cdbde02d89efdebf401a2ede487e15a9ef333e71f3792d3470da3aa040a1921ff24e520ba",
-    "otaHeaderString": "Telink OTA Sample Usage",
-    "originalUrl": "https://tr-zha.s3.amazonaws.com/z2m_firmware/SmartSwitchGen3_PROD_OTA_V29_v1.00.29.ota"
-  },
-  {
     "fileName": "10F2-7B01-0000-0006-01110206-spo-fmd.ota.zigbee",
     "fileVersion": 17891846,
     "fileSize": 256748,
@@ -3211,5 +3200,15 @@
     "manufacturerCode": 5127,
     "sha512": "7cd406d8fffce3fa012735c667d04191be174d49e77f33f6e59b22b9e802031c0caccb9be56e8411e491f5735793bdea0ddae73c024684fc66bd47b324540879",
     "otaHeaderString": "temp_humi_sensor"
+  },
+  {
+    "fileName": "SmartSwitchGen3_PROD_OTA_V30_v1.00.30.ota",
+    "fileVersion": 30,
+    "fileSize": 135218,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/SmartSwitchGen3_PROD_OTA_V30_v1.00.30.ota",
+    "imageType": 54181,
+    "manufacturerCode": 4659,
+    "sha512": "02dbf23109067616e3bd2cc8b1efc820c4fcf48d56cc3ecb34117d1519d935a886845db73a7d59b56c65cb0a6e4b43c352311f2af24c8c1ddf15164baa438132",
+    "otaHeaderString": "Telink OTA Sample Usage"
   }
 ]
