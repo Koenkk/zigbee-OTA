@@ -5988,13 +5988,13 @@
     "otaHeaderString": "Telink OTA Sample Usage"
   },
   {
-    "fileName": "20240726111155_OTA_lumi.switch.n1aeu1_0.0.0_0025_20240725_8F4299.ota",
-    "fileVersion": 25,
+    "fileName": "20240726111155_OTA_lumi.switch.n1aeu1_0.0.0_0b25_20240725_8F4299.ota",
+    "fileVersion": 2841,
     "fileSize": 289392,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20240726111155_OTA_lumi.switch.n1aeu1_0.0.0_0025_20240725_8F4299.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20240726111155_OTA_lumi.switch.n1aeu1_0.0.0_0b25_20240725_8F4299.ota",
     "imageType": 5404,
     "manufacturerCode": 4447,
-    "sha512": "04d1359fecdd69d13d167d05b3f3bedae5b11250b6cbc79016568c3a37b9b708be0e62b519a8d13a9fbeeea0bf1a3eb36e94e1faa29da2f1264729c9c0d7af1f",
+    "sha512": "7aa2a2dc56f8b4a0e2f880900783581cc56f8d6e877507a572f56692f7d0ed210325f42adf8b4183f2d5c08912a1bbd2e2f9003fd0240632a5513f2252d6743b",
     "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000",
     "modelId": "lumi.switch.n1aeu1"
   },
