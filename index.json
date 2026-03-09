@@ -4781,17 +4781,6 @@
     "originalUrl": "https://tr-zha.s3.amazonaws.com/z2m_firmware/Motion_Sensor_PROD_OTA_V79_v1.00.79.ota"
   },
   {
-    "fileName": "SmartCurtain_PROD_OTA_V76_v1.00.76.ota",
-    "fileVersion": 76,
-    "fileSize": 136738,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/SmartCurtain_PROD_OTA_V76_v1.00.76.ota",
-    "imageType": 54183,
-    "manufacturerCode": 4659,
-    "sha512": "4e071cbdb4e440d37c820ecb844571e6acd0d7c6d3f9c06cbb22dde2f0d2387d5cee0f67ed294333ba5c6b31addd2d1772a3cc2aaf0de582b28fefe3ca42ff8b",
-    "otaHeaderString": "Telink OTA Sample Usage",
-    "originalUrl": "https://tr-zha.s3.amazonaws.com/z2m_firmware/SmartCurtain_PROD_OTA_V76_v1.00.76.ota"
-  },
-  {
     "fileName": "ThermalLiteSensor_PROD_OTA_V29_1.00.29.ota",
     "fileVersion": 29,
     "fileSize": 256174,
@@ -9352,6 +9341,16 @@
     "imageType": 54181,
     "manufacturerCode": 4659,
     "sha512": "0cba05cd3e5f08ac30d0b0d4edf2fdd8695450d4e4f2efd33863ede5da83f07cb83fb2b1f7491a3790d22425bcba6da73397f38bb2310c4e1a98a4d4f94f5131",
+    "otaHeaderString": "Telink OTA Sample Usage"
+  },
+  {
+    "fileName": "SmartCurtain_PROD_OTA_V84_v1.00.84.ota",
+    "fileVersion": 84,
+    "fileSize": 157106,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/SmartCurtain_PROD_OTA_V84_v1.00.84.ota",
+    "imageType": 54183,
+    "manufacturerCode": 4659,
+    "sha512": "676f1d1deef03c6d92a81ba269a05f26aae54455e03beb86de44a40f75ecc6be07d0c0772ec5da19aedd2e0ef70e5ecaf66fac88642df92431d3152839fe29a3",
     "otaHeaderString": "Telink OTA Sample Usage"
   }
 ]
