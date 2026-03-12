@@ -7103,26 +7103,6 @@
     "otaHeaderString": "DR1175r1v02--JN5169--ENCRYPTED00"
   },
   {
-    "fileName": "PMM300Z2_OTA_ENC_V9_ENC.ota",
-    "fileVersion": 9,
-    "fileSize": 215662,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Jennic/PMM300Z2_OTA_ENC_V9_ENC.ota",
-    "imageType": 4107,
-    "manufacturerCode": 4151,
-    "sha512": "da4b95393b958ec81617d69c6409a4fa59a4d3cfc62c1c32e0145ab10c07df3449f7d6cfc65ec77e3bc2ccf3065a797e3094270ff08ba50f076e4a5e6fa5fe5b",
-    "otaHeaderString": "DR1175r1v02--JN5169--ENCRYPTED00"
-  },
-  {
-    "fileName": "PMM300Z3_OTA_ENC_V10_ENC.ota",
-    "fileVersion": 10,
-    "fileSize": 225646,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Jennic/PMM300Z3_OTA_ENC_V10_ENC.ota",
-    "imageType": 4108,
-    "manufacturerCode": 4151,
-    "sha512": "2c85462302164a9588c74344ba642a5a436b02b5c9fe43ff85609c6c5b26000c8bf1a5152a031b873d187b5cf23c5fecde77996d64bd419006a1f1b5c15e00e6",
-    "otaHeaderString": "DR1175r1v02--JN5169--ENCRYPTED00"
-  },
-  {
     "fileName": "TCM300Z_OTA_ENC_V9_ENC.ota",
     "fileVersion": 9,
     "fileSize": 223438,
@@ -9352,5 +9332,25 @@
     "manufacturerCode": 4659,
     "sha512": "676f1d1deef03c6d92a81ba269a05f26aae54455e03beb86de44a40f75ecc6be07d0c0772ec5da19aedd2e0ef70e5ecaf66fac88642df92431d3152839fe29a3",
     "otaHeaderString": "Telink OTA Sample Usage"
+  },
+  {
+    "fileName": "PMM300Z2_OTA_ENC_V10_ENC.ota",
+    "fileVersion": 10,
+    "fileSize": 216206,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Jennic/PMM300Z2_OTA_ENC_V10_ENC.ota",
+    "imageType": 4107,
+    "manufacturerCode": 4151,
+    "sha512": "2b6dea4686d681f3a51ce9e045e35011657538ef2de054f035a33b82ab3f5663eb9ac74f21b2dc2f6fb83c60706ddded71ae732cadd80f2b72a51aee4863dedf",
+    "otaHeaderString": "DR1175r1v02--JN5169--ENCRYPTED00"
+  },
+  {
+    "fileName": "PMM300Z3_OTA_ENC_V11_ENC.ota",
+    "fileVersion": 11,
+    "fileSize": 226014,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Jennic/PMM300Z3_OTA_ENC_V11_ENC.ota",
+    "imageType": 4108,
+    "manufacturerCode": 4151,
+    "sha512": "f48d9af7ee06c71f38c4e9316431ffff9ea2624adee46d3cdf2b2dc6f0cff578c02d13c5aa9e50d0449a685a9d2036dd33277e7cf9d22c276038f39c24eac174",
+    "otaHeaderString": "DR1175r1v02--JN5169--ENCRYPTED00"
   }
 ]
