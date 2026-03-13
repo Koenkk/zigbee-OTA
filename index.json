@@ -9283,16 +9283,6 @@
     "otaHeaderString": "temp_humi_sensor"
   },
   {
-    "fileName": "Smart_Air_Pressure_Sensor_OTA_V12_1.00.12.ota",
-    "fileVersion": 12,
-    "fileSize": 264670,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Smart_Air_Pressure_Sensor_OTA_V12_1.00.12.ota",
-    "imageType": 54190,
-    "manufacturerCode": 5127,
-    "sha512": "8c9a8e4474360c362636914498cb87ed08403718b897607bdc74ad299bc73d750f020a02cda486d383c4da11c8ac1b15b686a13e50361f425258f96d24e3c4f5",
-    "otaHeaderString": "temp_humi_sensor"
-  },
-  {
     "fileName": "Smart_Presence_Sensor_R2_v1.00.13.ota",
     "fileVersion": 13,
     "fileSize": 289758,
@@ -9352,5 +9342,15 @@
     "manufacturerCode": 4151,
     "sha512": "f48d9af7ee06c71f38c4e9316431ffff9ea2624adee46d3cdf2b2dc6f0cff578c02d13c5aa9e50d0449a685a9d2036dd33277e7cf9d22c276038f39c24eac174",
     "otaHeaderString": "DR1175r1v02--JN5169--ENCRYPTED00"
+  },
+  {
+    "fileName": "air_pressure_sensor-1.00.13.ota",
+    "fileVersion": 13,
+    "fileSize": 263358,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/air_pressure_sensor-1.00.13.ota",
+    "imageType": 54190,
+    "manufacturerCode": 5127,
+    "sha512": "72eb39d940a2b621c2f849a49f76b5a4abd08887136cf274c7f546b46097f0b8e09bc291a1ef1b566a6983053eb3eb271a4c496621a39dc1986445eb8ef3f2b1",
+    "otaHeaderString": "temp_humi_sensor"
   }
 ]
