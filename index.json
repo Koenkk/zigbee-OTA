@@ -6404,18 +6404,6 @@
     "otaHeaderString": "Telink OTA Sample Usage"
   },
   {
-    "fileName": "STRIP_CONTROL_DIRECT_TW_RGB-0x1189-0x00FA-0x01348000-MF_DIS-DOWM_DIS-20250711054618-3224010153640-lzma-encrypted.ota",
-    "fileVersion": 20217856,
-    "fileSize": 380246,
-    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=250&version=1.52.128.0",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/STRIP_CONTROL_DIRECT_TW_RGB-0x1189-0x00FA-0x01348000-MF_DIS-DOWM_DIS-20250711054618-3224010153640-lzma-encrypted.ota",
-    "imageType": 250,
-    "manufacturerCode": 4489,
-    "sha512": "11fdad46c4ee2919ef5e48ad85921a26a217c0bebc3d6e3fce09d20690ac4d8a49665f5997ee8bf1312be2fc47d98fb0197594b7c21f05a0e0a22c91bc4a479d",
-    "otaHeaderString": "STRIP_CONTROL_DIRECT_TW_RGB",
-    "releaseNotes": "1.Enable 5 channels for DIM,TW,RGB-TW control.\r\n2.Support occupancy control.\r\n3.Support daylight harvest control.\r\n4.Support Ledvance green power switch.\r\n5.Enable OTA upgrade over Bluetooth."
-  },
-  {
     "fileName": "ota_t0x300e_m0x1209_v0x02096a90.ota",
     "fileVersion": 34171536,
     "fileSize": 269014,
@@ -9352,5 +9340,17 @@
     "manufacturerCode": 5127,
     "sha512": "72eb39d940a2b621c2f849a49f76b5a4abd08887136cf274c7f546b46097f0b8e09bc291a1ef1b566a6983053eb3eb271a4c496621a39dc1986445eb8ef3f2b1",
     "otaHeaderString": "temp_humi_sensor"
+  },
+  {
+    "fileName": "STRIP_CONTROL_DIRECT_TW_RGB-0x1189-0x00FA-0x01428000-MF_DIS-DOWM_DIS-20260129044906-3224010153640-lzma-encrypted.ota",
+    "fileVersion": 21135360,
+    "fileSize": 378814,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=250&version=1.66.128.0",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/STRIP_CONTROL_DIRECT_TW_RGB-0x1189-0x00FA-0x01428000-MF_DIS-DOWM_DIS-20260129044906-3224010153640-lzma-encrypted.ota",
+    "imageType": 250,
+    "manufacturerCode": 4489,
+    "sha512": "aadb90a51ea1a7fbad23bdf1ca5c1c5e23fe0bf1c21167c05da5621cb6d1f393db9cc5a21ad1ad7eb8f21502a5f0ccc8bd19ac3aeab7ff97e490609fd9c034d9",
+    "otaHeaderString": "STRIP_CONTROL_DIRECT_TW_RGB",
+    "releaseNotes": "1.Refine OnOff response with transition time.\r\n2.Modify min level in logarithm curve.\r\n3.Sync multi endpoints to same level when rapidly toggling in App.\r\n4.Fix off effect on Endpoint 2.\r\n5.Support Biolux dimming curve.\r\n6.Sync the platform modification."
   }
 ]

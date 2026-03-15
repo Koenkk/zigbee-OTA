@@ -2544,18 +2544,6 @@
     "zigbeeStackVersion": "ZigbeePro"
   },
   {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/SmartCurtain_PROD_OTA_V76_v1.00.76.ota",
-    "stack": "Telink",
-    "stackDetails": "",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/SmartSwitchGen3_PROD_OTA_V30_v1.00.30.ota",
-    "stack": "Telink",
-    "stackDetails": "",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/ThermalLiteSensor_PROD_OTA_V29_1.00.29.ota",
     "stack": "Unknown",
     "stackDetails": "",
@@ -3408,12 +3396,6 @@
     "zigbeeStackVersion": "ZigbeePro"
   },
   {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/STRIP_CONTROL_DIRECT_TW_RGB-0x1189-0x00FA-0x01348000-MF_DIS-DOWM_DIS-20250711054618-3224010153640-lzma-encrypted.ota",
-    "stack": "EmberZNet",
-    "stackDetails": "GBL",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Bosch/ota_t0x300e_m0x1209_v0x02096a90.ota",
     "stack": "EmberZNet",
     "stackDetails": "GBL",
@@ -3775,18 +3757,6 @@
   },
   {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Jennic/DIO300Z_OTA_ENC_V6_ENC.ota",
-    "stack": "Unknown",
-    "stackDetails": "",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Jennic/PMM300Z2_OTA_ENC_V9_ENC.ota",
-    "stack": "Unknown",
-    "stackDetails": "",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Jennic/PMM300Z3_OTA_ENC_V10_ENC.ota",
     "stack": "Unknown",
     "stackDetails": "",
     "zigbeeStackVersion": "ZigbeePro"
@@ -4890,12 +4860,6 @@
     "zigbeeStackVersion": "ZigbeePro"
   },
   {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Smart_Air_Pressure_Sensor_OTA_V12_1.00.12.ota",
-    "stack": "Unknown",
-    "stackDetails": "",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Smart_Presence_Sensor_R2_v1.00.13.ota",
     "stack": "Unknown",
     "stackDetails": "",
@@ -4905,6 +4869,42 @@
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/t_h_sensor_Lite_v2_OTA_V12_v1.00.12.ota",
     "stack": "Unknown",
     "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/SmartSwitch_PROD_OTA_V36_v1.00.36.ota",
+    "stack": "Telink",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/SmartCurtain_PROD_OTA_V84_v1.00.84.ota",
+    "stack": "Telink",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Jennic/PMM300Z2_OTA_ENC_V10_ENC.ota",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Jennic/PMM300Z3_OTA_ENC_V11_ENC.ota",
+    "stack": "ZBOSS",
+    "stackDetails": "Nordic (fuzzy matching)",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/air_pressure_sensor-1.00.13.ota",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/STRIP_CONTROL_DIRECT_TW_RGB-0x1189-0x00FA-0x01428000-MF_DIS-DOWM_DIS-20260129044906-3224010153640-lzma-encrypted.ota",
+    "stack": "EmberZNet",
+    "stackDetails": "GBL",
     "zigbeeStackVersion": "ZigbeePro"
   }
 ]
