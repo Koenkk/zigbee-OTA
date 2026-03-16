@@ -8732,16 +8732,6 @@
     "otaHeaderString": "DR1175r1v02--JN5169--ENCRYPTED00"
   },
   {
-    "fileName": "SmartCurtainModule_Zigbee_PROD_OTA_V53_v1.00.53.ota",
-    "fileVersion": 53,
-    "fileSize": 171938,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/SmartCurtainModule_Zigbee_PROD_OTA_V53_v1.00.53.ota",
-    "imageType": 54186,
-    "manufacturerCode": 4659,
-    "sha512": "f83abb034cb40b0ebf32e3532f99232f7f4b9625f1598d4f2f8062f6ad0765802b1f19a1312c108a70fa398f529e06dda7026c3a2acd3870492ab5ccab3b11a3",
-    "otaHeaderString": "Telink OTA Sample Usage"
-  },
-  {
     "fileName": "1021-0016-003945ff-NLD.zigbee",
     "fileVersion": 3753471,
     "fileSize": 207623,
@@ -9352,5 +9342,15 @@
     "sha512": "aadb90a51ea1a7fbad23bdf1ca5c1c5e23fe0bf1c21167c05da5621cb6d1f393db9cc5a21ad1ad7eb8f21502a5f0ccc8bd19ac3aeab7ff97e490609fd9c034d9",
     "otaHeaderString": "STRIP_CONTROL_DIRECT_TW_RGB",
     "releaseNotes": "1.Refine OnOff response with transition time.\r\n2.Modify min level in logarithm curve.\r\n3.Sync multi endpoints to same level when rapidly toggling in App.\r\n4.Fix off effect on Endpoint 2.\r\n5.Support Biolux dimming curve.\r\n6.Sync the platform modification."
+  },
+  {
+    "fileName": "SmartCurtainModule_Zigbee_PROD_OTA_V55_v1.00.55.ota",
+    "fileVersion": 55,
+    "fileSize": 173522,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/SmartCurtainModule_Zigbee_PROD_OTA_V55_v1.00.55.ota",
+    "imageType": 54186,
+    "manufacturerCode": 4659,
+    "sha512": "649f572d23e239b78e33b8157cbebc86f4b67f56ec62178d8637417eb8265b645eabdf518e808456016f1e450bf1e5747f11bb39ac6590f9e620c94c68534ed8",
+    "otaHeaderString": "Telink OTA Sample Usage"
   }
 ]

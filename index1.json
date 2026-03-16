@@ -2649,16 +2649,6 @@
     "otaHeaderString": "ota-file-test"
   },
   {
-    "fileName": "SmartCurtainModule_Zigbee_PROD_OTA_V52_v1.00.52.ota",
-    "fileVersion": 52,
-    "fileSize": 170978,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/SmartCurtainModule_Zigbee_PROD_OTA_V52_v1.00.52.ota",
-    "imageType": 54186,
-    "manufacturerCode": 4659,
-    "sha512": "034fcd45cd1276355c62285f881c010e155734082e789ee667d1d17b855a692d329352b73bd011842ca39defdca3a7a8b5fa7edd0cebb1dc0c50c098b48147a7",
-    "otaHeaderString": "Telink OTA Sample Usage"
-  },
-  {
     "fileName": "1021-0016-00384203-NLD.zigbee",
     "fileVersion": 3686915,
     "fileSize": 205239,
@@ -3233,5 +3223,15 @@
     "sha512": "11fdad46c4ee2919ef5e48ad85921a26a217c0bebc3d6e3fce09d20690ac4d8a49665f5997ee8bf1312be2fc47d98fb0197594b7c21f05a0e0a22c91bc4a479d",
     "otaHeaderString": "STRIP_CONTROL_DIRECT_TW_RGB",
     "releaseNotes": "1.Enable 5 channels for DIM,TW,RGB-TW control.\r\n2.Support occupancy control.\r\n3.Support daylight harvest control.\r\n4.Support Ledvance green power switch.\r\n5.Enable OTA upgrade over Bluetooth."
+  },
+  {
+    "fileName": "SmartCurtainModule_Zigbee_PROD_OTA_V53_v1.00.53.ota",
+    "fileVersion": 53,
+    "fileSize": 171938,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/SmartCurtainModule_Zigbee_PROD_OTA_V53_v1.00.53.ota",
+    "imageType": 54186,
+    "manufacturerCode": 4659,
+    "sha512": "f83abb034cb40b0ebf32e3532f99232f7f4b9625f1598d4f2f8062f6ad0765802b1f19a1312c108a70fa398f529e06dda7026c3a2acd3870492ab5ccab3b11a3",
+    "otaHeaderString": "Telink OTA Sample Usage"
   }
 ]
