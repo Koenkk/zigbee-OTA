@@ -8802,16 +8802,6 @@
     "otaHeaderString": "FIRMWARE"
   },
   {
-    "fileName": "wb_msw4_2_072.ota",
-    "fileVersion": 72,
-    "fileSize": 317290,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sprut.device/wb_msw4_2_072.ota",
-    "imageType": 15,
-    "manufacturerCode": 26214,
-    "sha512": "de8c0ebc89aedeca8fef55b133d72ee3fb7e04859d6411c196133d906ca34d219c212b1549b0fe817f63fb5d458bb3d40ceb2e561276c14ae0acc2e0b1e1aa53",
-    "otaHeaderString": ""
-  },
-  {
     "fileName": "6565-0394-10053001-air_quality_monitor_zrd.zigbee",
     "fileVersion": 268775425,
     "fileSize": 303378,
@@ -9352,5 +9342,15 @@
     "manufacturerCode": 4659,
     "sha512": "649f572d23e239b78e33b8157cbebc86f4b67f56ec62178d8637417eb8265b645eabdf518e808456016f1e450bf1e5747f11bb39ac6590f9e620c94c68534ed8",
     "otaHeaderString": "Telink OTA Sample Usage"
+  },
+  {
+    "fileName": "wb_msw4_2_073.ota",
+    "fileVersion": 73,
+    "fileSize": 365122,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sprut.device/wb_msw4_2_073.ota",
+    "imageType": 15,
+    "manufacturerCode": 26214,
+    "sha512": "cc3eb5ff06fb2fde93298999122d3aa4a8874f5998bd8d56aace52943fede0117b19c5973a14efc0680b14d0345f5c44cf35537ab6f3903c4166530bee5a41b3",
+    "otaHeaderString": ""
   }
 ]
