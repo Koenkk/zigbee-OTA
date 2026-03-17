@@ -9352,5 +9352,29 @@
       "Tuya"
     ],
     "modelId": "TY0201-z"
+  },
+  {
+    "fileName": "100B-012D-0100080A-MSD-SiMG301.zigbee",
+    "fileVersion": 16779274,
+    "fileSize": 1100624,
+    "originalUrl": "https://firmware.meethue.com/storage/100b-12d/16779274/a68e141b-0a50-451d-8a4a-b56232ed3239/100B-012D-0100080A-MSD-SiMG301.zigbee",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-012D-0100080A-MSD-SiMG301.zigbee",
+    "imageType": 301,
+    "manufacturerCode": 4107,
+    "sha512": "c18273331c54192b21404dccc30bfa29bab5ee4a6593c2d311389ba11f92c9e84b6d1fcbca923b4262ff578bfde352517d919045c813032ba5b1508e1bdf1db7",
+    "otaHeaderString": "",
+    "releaseNotes": "Version: 8.10"
+  },
+  {
+    "fileName": "100B-012F-01000404-Switch-SiMG301.zigbee",
+    "fileVersion": 16778244,
+    "fileSize": 974276,
+    "originalUrl": "https://firmware.meethue.com/storage/100b-12f/16778244/35ab2c3d-90c5-4ca5-86b2-89edef364f63/100B-012F-01000404-Switch-SiMG301.zigbee",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-012F-01000404-Switch-SiMG301.zigbee",
+    "imageType": 303,
+    "manufacturerCode": 4107,
+    "sha512": "0fe63e4dcdf60b304281c75b1d65eda6903b50fec61f4ae62ae3cec9c1f9dbd8d0352c95e07800f391d80dfa62de854dad6140f937043017710b8f3401672152",
+    "otaHeaderString": "",
+    "releaseNotes": "Version: 4.4"
   }
 ]
