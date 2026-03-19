@@ -2921,16 +2921,6 @@
     "otaHeaderString": "Telink OTA Sample Usage"
   },
   {
-    "fileName": "wb_msw4_2_072.ota",
-    "fileVersion": 72,
-    "fileSize": 317290,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Sprut.device/wb_msw4_2_072.ota",
-    "imageType": 15,
-    "manufacturerCode": 26214,
-    "sha512": "de8c0ebc89aedeca8fef55b133d72ee3fb7e04859d6411c196133d906ca34d219c212b1549b0fe817f63fb5d458bb3d40ceb2e561276c14ae0acc2e0b1e1aa53",
-    "otaHeaderString": ""
-  },
-  {
     "fileName": "1141-0201-01343001-ZMHOC401.zigbee",
     "fileVersion": 20197377,
     "fileSize": 134722,
@@ -3261,5 +3251,15 @@
     "manufacturerCode": 5127,
     "sha512": "344d3a6f37f55857c672cfd5a8965cc9ee5ccba27a375b67cc5f77b9263cbd70db7159d202f681a7541215bb1e41cd5fe6baf9fa7be792b0b11b87883f97a4be",
     "otaHeaderString": "temp_humi_sensor"
+  },
+  {
+    "fileName": "wb_msw4_2_073.ota",
+    "fileVersion": 73,
+    "fileSize": 365122,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Sprut.device/wb_msw4_2_073.ota",
+    "imageType": 15,
+    "manufacturerCode": 26214,
+    "sha512": "cc3eb5ff06fb2fde93298999122d3aa4a8874f5998bd8d56aace52943fede0117b19c5973a14efc0680b14d0345f5c44cf35537ab6f3903c4166530bee5a41b3",
+    "otaHeaderString": ""
   }
 ]
