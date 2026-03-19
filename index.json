@@ -9376,5 +9376,18 @@
     "manufacturerCode": 26214,
     "sha512": "3fcf432f8b153aa5e1241d299ed72a06bce378e6e248a127e6f801c950b15d06bb5e5b7b1b0d2508dedd250bf1589649473ef86c0399bdfd681807ae1a695085",
     "otaHeaderString": ""
+  },
+  {
+    "fileName": "20251013121050_OTA_lumi.light.agl003_0.0.0_0030_20251013_F7321F.ota",
+    "fileVersion": 30,
+    "fileSize": 688622,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.light.agl003/20251013121050_OTA_lumi.light.agl003_0.0.0_0030_20251013_F7321F.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Aqara/20251013121050_OTA_lumi.light.agl003_0.0.0_0030_20251013_F7321F.ota",
+    "imageType": 1043,
+    "manufacturerCode": 4447,
+    "sha512": "d8f11a0d36844e70288e688f9ef58ee553d0d4b1f45eb3975ffc94dff12d0c6b580e03b87311e15e8e8c06121c93d43a1c526872bd6bab10c7d1cb337f07bac5",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.light.agl003",
+    "releaseNotes": ""
   }
 ]
