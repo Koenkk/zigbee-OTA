@@ -2848,16 +2848,6 @@
     "otaHeaderString": "temp_humi_sensor"
   },
   {
-    "fileName": "t_h_sensor_Lite_v2_OTA_V10_v1.00.10.ota",
-    "fileVersion": 10,
-    "fileSize": 250794,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/t_h_sensor_Lite_v2_OTA_V10_v1.00.10.ota",
-    "imageType": 54209,
-    "manufacturerCode": 5127,
-    "sha512": "7cd406d8fffce3fa012735c667d04191be174d49e77f33f6e59b22b9e802031c0caccb9be56e8411e491f5735793bdea0ddae73c024684fc66bd47b324540879",
-    "otaHeaderString": "temp_humi_sensor"
-  },
-  {
     "fileName": "SmartSwitchGen3_PROD_OTA_V30_v1.00.30.ota",
     "fileVersion": 30,
     "fileSize": 135218,
@@ -3261,5 +3251,15 @@
       "Tuya"
     ],
     "modelId": "TY0201-z"
+  },
+  {
+    "fileName": "t_h_sensor_Lite_v2_OTA_V12_v1.00.12.ota",
+    "fileVersion": 12,
+    "fileSize": 251054,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/t_h_sensor_Lite_v2_OTA_V12_v1.00.12.ota",
+    "imageType": 54209,
+    "manufacturerCode": 5127,
+    "sha512": "344d3a6f37f55857c672cfd5a8965cc9ee5ccba27a375b67cc5f77b9263cbd70db7159d202f681a7541215bb1e41cd5fe6baf9fa7be792b0b11b87883f97a4be",
+    "otaHeaderString": "temp_humi_sensor"
   }
 ]

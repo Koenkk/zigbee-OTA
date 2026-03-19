@@ -8940,16 +8940,6 @@
     "modelId": "3RPS01083Z"
   },
   {
-    "fileName": "t_h_sensor_Lite_v2_OTA_V12_v1.00.12.ota",
-    "fileVersion": 12,
-    "fileSize": 251054,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/t_h_sensor_Lite_v2_OTA_V12_v1.00.12.ota",
-    "imageType": 54209,
-    "manufacturerCode": 5127,
-    "sha512": "344d3a6f37f55857c672cfd5a8965cc9ee5ccba27a375b67cc5f77b9263cbd70db7159d202f681a7541215bb1e41cd5fe6baf9fa7be792b0b11b87883f97a4be",
-    "otaHeaderString": "temp_humi_sensor"
-  },
-  {
     "fileName": "SmartSwitch_PROD_OTA_V36_v1.00.36.ota",
     "fileVersion": 36,
     "fileSize": 153570,
@@ -9376,5 +9366,15 @@
     "sha512": "0fe63e4dcdf60b304281c75b1d65eda6903b50fec61f4ae62ae3cec9c1f9dbd8d0352c95e07800f391d80dfa62de854dad6140f937043017710b8f3401672152",
     "otaHeaderString": "",
     "releaseNotes": "Version: 4.4"
+  },
+  {
+    "fileName": "t_h_sensor_Lite_v2_OTA_V13_v1.00.13.ota",
+    "fileVersion": 13,
+    "fileSize": 251062,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/t_h_sensor_Lite_v2_OTA_V13_v1.00.13.ota",
+    "imageType": 54209,
+    "manufacturerCode": 5127,
+    "sha512": "989f3d15ff28962a17e9eb46fff73b770ecb9d8f7680f70ae661c4013762fa23c19707572dd413b307b8d7333268c0a57f76bc32cd0541b6ede70696a6fb2c96",
+    "otaHeaderString": "temp_humi_sensor"
   }
 ]
