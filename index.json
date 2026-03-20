@@ -9389,5 +9389,15 @@
     "otaHeaderString": "Aqara OTA Image",
     "modelId": "lumi.light.agl003",
     "releaseNotes": ""
+  },
+  {
+    "fileName": "SN-TLSR8656-S60-01-v2.0.2.ota",
+    "fileVersion": 8194,
+    "fileSize": 147232,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/SN-TLSR8656-S60-01-v2.0.2.ota",
+    "imageType": 11,
+    "manufacturerCode": 4742,
+    "sha512": "dfddb274c4d549f0ea0e155592191e19409ef7368072e9bf0f9af4889e23cd3dfeeee849cdfbfc4afcb595301b391e9d66ccef49985f02bc90a8043b4f34989a",
+    "otaHeaderString": "Telink OTA Sample Usage"
   }
 ]
