@@ -4716,12 +4716,6 @@
     "zigbeeStackVersion": "ZigbeePro"
   },
   {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/t_h_sensor_Lite_v2_OTA_V12_v1.00.12.ota",
-    "stack": "Unknown",
-    "stackDetails": "",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/SmartSwitch_PROD_OTA_V36_v1.00.36.ota",
     "stack": "Telink",
     "stackDetails": "",
@@ -4761,12 +4755,6 @@
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/SmartCurtainModule_Zigbee_PROD_OTA_V55_v1.00.55.ota",
     "stack": "Telink",
     "stackDetails": "",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sprut.device/wb_msw4_2_073.ota",
-    "stack": "EmberZNet",
-    "stackDetails": "GBL",
     "zigbeeStackVersion": "ZigbeePro"
   },
   {
@@ -4917,6 +4905,30 @@
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-012F-01000404-Switch-SiMG301.zigbee",
     "stack": "Unknown",
     "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/t_h_sensor_Lite_v2_OTA_V13_v1.00.13.ota",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sprut.device/wb_msw4_2_075.ota",
+    "stack": "EmberZNet",
+    "stackDetails": "GBL",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Aqara/20251013121050_OTA_lumi.light.agl003_0.0.0_0030_20251013_F7321F.ota",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/SN-TLSR8656-S60-01-v2.0.2.ota",
+    "stack": "Telink",
+    "stackDetails": "(fallback matching)",
     "zigbeeStackVersion": "ZigbeePro"
   }
 ]
