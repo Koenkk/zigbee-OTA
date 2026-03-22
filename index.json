@@ -8676,19 +8676,6 @@
     "releaseNotes": "Version: 8.14"
   },
   {
-    "fileName": "20260122175716_OTA_lumi.airrtc.aeu005_0.0.0_2644_20260122_6A6DB5.ota",
-    "fileVersion": 6700,
-    "fileSize": 649258,
-    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.airrtc.aeu005/20260122175716_OTA_lumi.airrtc.aeu005_0.0.0_2644_20260122_6A6DB5.ota",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Aqara/20260122175716_OTA_lumi.airrtc.aeu005_0.0.0_2644_20260122_6A6DB5.ota",
-    "imageType": 5120,
-    "manufacturerCode": 4447,
-    "sha512": "f2cdc3b1afc1fda1f922c05236d8f9353afdf85f41f2d1b336bed4f43043d2ef78882d4c35347bf9b7b095e0caf17199d87557ae7bda4076ed3b3856bf603b6f",
-    "otaHeaderString": "Aqara OTA Image",
-    "modelId": "lumi.airrtc.aeu005",
-    "releaseNotes": "Fix known issues and optimize the experience."
-  },
-  {
     "fileName": "20260105174558_OTA_lumi.sensor_occupy.agl8_0.0.0_5841_20260105_8C0C5C.ota",
     "fileVersion": 14889,
     "fileSize": 783338,
@@ -9399,5 +9386,18 @@
     "manufacturerCode": 4742,
     "sha512": "dfddb274c4d549f0ea0e155592191e19409ef7368072e9bf0f9af4889e23cd3dfeeee849cdfbfc4afcb595301b391e9d66ccef49985f02bc90a8043b4f34989a",
     "otaHeaderString": "Telink OTA Sample Usage"
+  },
+  {
+    "fileName": "20260306113631_OTA_lumi.airrtc.aeu005_0.0.0_2745_20260305_9BBD2E.ota",
+    "fileVersion": 6957,
+    "fileSize": 648362,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.airrtc.aeu005/20260306113631_OTA_lumi.airrtc.aeu005_0.0.0_2745_20260305_9BBD2E.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20260306113631_OTA_lumi.airrtc.aeu005_0.0.0_2745_20260305_9BBD2E.ota",
+    "imageType": 5120,
+    "manufacturerCode": 4447,
+    "sha512": "fae4c28a8eec4173bcbfbc34026d376def2c3eefce19222f58f3f4b12ede89c3c6d245966344e9e98bade0a2736a44806c692b66d341f50ca0f539721d46f240",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.airrtc.aeu005",
+    "releaseNotes": "This version update focuses on temperature control precision and operational stability, specifically addressing:\n1. Reduced temperature fluctuation range for more precise temperature control;\n2. Optimized speed to reach temperature steady state for more efficient response;\n3. Resolved temperature fluctuation issues after small-range temperature control for smoother operation;\n4. Fixed abnormal temperature display issues with linked sensors for more accurate data."
   }
 ]
