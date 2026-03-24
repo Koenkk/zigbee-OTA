@@ -3220,16 +3220,6 @@
     "modelId": "TY0201-z"
   },
   {
-    "fileName": "t_h_sensor_Lite_v2_OTA_V12_v1.00.12.ota",
-    "fileVersion": 12,
-    "fileSize": 251054,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/t_h_sensor_Lite_v2_OTA_V12_v1.00.12.ota",
-    "imageType": 54209,
-    "manufacturerCode": 5127,
-    "sha512": "344d3a6f37f55857c672cfd5a8965cc9ee5ccba27a375b67cc5f77b9263cbd70db7159d202f681a7541215bb1e41cd5fe6baf9fa7be792b0b11b87883f97a4be",
-    "otaHeaderString": "temp_humi_sensor"
-  },
-  {
     "fileName": "wb_msw4_2_073.ota",
     "fileVersion": 73,
     "fileSize": 365122,
@@ -3247,6 +3237,16 @@
     "imageType": 54211,
     "manufacturerCode": 5127,
     "sha512": "e33120b110e541a4af5756fc5368e6507de04fd34f44a282f4eb21066a425c43c03395e955834670a550df91d5ad106808920afb25fe32bdd432d4d3a78c984a",
+    "otaHeaderString": "temp_humi_sensor"
+  },
+  {
+    "fileName": "t_h_sensor_Lite_v2_OTA_V13_v1.00.13.ota",
+    "fileVersion": 13,
+    "fileSize": 251062,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/t_h_sensor_Lite_v2_OTA_V13_v1.00.13.ota",
+    "imageType": 54209,
+    "manufacturerCode": 5127,
+    "sha512": "989f3d15ff28962a17e9eb46fff73b770ecb9d8f7680f70ae661c4013762fa23c19707572dd413b307b8d7333268c0a57f76bc32cd0541b6ede70696a6fb2c96",
     "otaHeaderString": "temp_humi_sensor"
   }
 ]
