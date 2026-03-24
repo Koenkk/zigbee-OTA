@@ -2815,16 +2815,6 @@
     "hardwareVersionMax": 1
   },
   {
-    "fileName": "60G_Radar_OTA_V25_v1.00.25.ota",
-    "fileVersion": 25,
-    "fileSize": 349302,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/60G_Radar_OTA_V25_v1.00.25.ota",
-    "imageType": 54211,
-    "manufacturerCode": 5127,
-    "sha512": "05571052672eb92487bc436549f5dd11d084c6f1671d27c6de9fd446ed95339c71ff33953013153e29f814824b265b295a9b47452e1201d7386b4126f522188a",
-    "otaHeaderString": "temp_humi_sensor"
-  },
-  {
     "fileName": "Water_Leak_Sensor_V2_OTA_V12_v1.00.12.ota",
     "fileVersion": 12,
     "fileSize": 261554,
@@ -3248,5 +3238,15 @@
     "manufacturerCode": 26214,
     "sha512": "cc3eb5ff06fb2fde93298999122d3aa4a8874f5998bd8d56aace52943fede0117b19c5973a14efc0680b14d0345f5c44cf35537ab6f3903c4166530bee5a41b3",
     "otaHeaderString": ""
+  },
+  {
+    "fileName": "60G_Radar_OTA_V27_v1.00.27.ota",
+    "fileVersion": 27,
+    "fileSize": 349962,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/60G_Radar_OTA_V27_v1.00.27.ota",
+    "imageType": 54211,
+    "manufacturerCode": 5127,
+    "sha512": "e33120b110e541a4af5756fc5368e6507de04fd34f44a282f4eb21066a425c43c03395e955834670a550df91d5ad106808920afb25fe32bdd432d4d3a78c984a",
+    "otaHeaderString": "temp_humi_sensor"
   }
 ]

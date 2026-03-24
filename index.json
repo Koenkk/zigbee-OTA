@@ -8896,16 +8896,6 @@
     "hardwareVersionMax": 1
   },
   {
-    "fileName": "60G_Radar_OTA_V27_v1.00.27.ota",
-    "fileVersion": 27,
-    "fileSize": 349962,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/60G_Radar_OTA_V27_v1.00.27.ota",
-    "imageType": 54211,
-    "manufacturerCode": 5127,
-    "sha512": "e33120b110e541a4af5756fc5368e6507de04fd34f44a282f4eb21066a425c43c03395e955834670a550df91d5ad106808920afb25fe32bdd432d4d3a78c984a",
-    "otaHeaderString": "temp_humi_sensor"
-  },
-  {
     "fileName": "Water_Leak_Sensor_V2_OTA_V17_v1.00.17.ota",
     "fileVersion": 17,
     "fileSize": 261534,
@@ -9399,5 +9389,15 @@
     "otaHeaderString": "Aqara OTA Image",
     "modelId": "lumi.airrtc.aeu005",
     "releaseNotes": "This version update focuses on temperature control precision and operational stability, specifically addressing:\n1. Reduced temperature fluctuation range for more precise temperature control;\n2. Optimized speed to reach temperature steady state for more efficient response;\n3. Resolved temperature fluctuation issues after small-range temperature control for smoother operation;\n4. Fixed abnormal temperature display issues with linked sensors for more accurate data."
+  },
+  {
+    "fileName": "60G_Radar_OTA_V33_v1.00.33.ota",
+    "fileVersion": 33,
+    "fileSize": 350590,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/60G_Radar_OTA_V33_v1.00.33.ota",
+    "imageType": 54211,
+    "manufacturerCode": 5127,
+    "sha512": "21189086cae323d870f963ea9c65cdb1bec3add4d543d8b7f488629402d23fe92258d6bdbccafa4c70d6627891a2c846a3f1ff61b7a07c63085a15e4aa2aefe8",
+    "otaHeaderString": "temp_humi_sensor"
   }
 ]
