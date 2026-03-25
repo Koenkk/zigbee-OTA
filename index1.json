@@ -2572,16 +2572,6 @@
     "modelId": "3RSP02064Z"
   },
   {
-    "fileName": "Smart_Soil_Moisture_Sensor_Gen2_v1.00.16.ota",
-    "fileVersion": 16,
-    "fileSize": 264314,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/Smart_Soil_Moisture_Sensor_Gen2_v1.00.16.ota",
-    "imageType": 54207,
-    "manufacturerCode": 5127,
-    "sha512": "b7a4749681759b9553b1a657d3c8637502d2948f21b6e82cf0fdca62058fba1251956b309e3f729d938c5db8bf5dbc9c97e0d14637cd341b60b7503c8afb7fdd",
-    "otaHeaderString": "temp_humi_sensor"
-  },
-  {
     "fileName": "VZM35-SN_1.07.ota",
     "fileVersion": 33685767,
     "fileSize": 232994,
@@ -3259,5 +3249,15 @@
     "manufacturerCode": 5127,
     "sha512": "a11f007f77a807876c809527540a2aadf199c94273deeea2e2d31529c6704bd24f6080bc44653893e7020c5d0ec1df139f3bb59dacde84fe0946a6e66ee1abbf",
     "otaHeaderString": "Telink OTA Sample Usage"
+  },
+  {
+    "fileName": "Smart_Soil_Moisture_Sensor_Gen2_v1.00.17.ota",
+    "fileVersion": 17,
+    "fileSize": 264330,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/Smart_Soil_Moisture_Sensor_Gen2_v1.00.17.ota",
+    "imageType": 54207,
+    "manufacturerCode": 5127,
+    "sha512": "dc6b5d83bf13fe67f56a83a6fe324d0ebe983e5489901de36f7f2c3909dcb85e8593cf4ea22ac473bbe772ba3499967274758452579e29a7d370e3a85a73a8c0",
+    "otaHeaderString": "temp_humi_sensor"
   }
 ]

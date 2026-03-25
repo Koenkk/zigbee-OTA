@@ -8598,16 +8598,6 @@
     "otaHeaderString": "EBL Z3RangeExtender"
   },
   {
-    "fileName": "Smart_Soil_Moisture_Sensor_Gen2_v1.00.17.ota",
-    "fileVersion": 17,
-    "fileSize": 264330,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Smart_Soil_Moisture_Sensor_Gen2_v1.00.17.ota",
-    "imageType": 54207,
-    "manufacturerCode": 5127,
-    "sha512": "dc6b5d83bf13fe67f56a83a6fe324d0ebe983e5489901de36f7f2c3909dcb85e8593cf4ea22ac473bbe772ba3499967274758452579e29a7d370e3a85a73a8c0",
-    "otaHeaderString": "temp_humi_sensor"
-  },
-  {
     "fileName": "bl702_plug_gen3_uk_v1.00.47.ota",
     "fileVersion": 47,
     "fileSize": 281734,
@@ -9399,5 +9389,15 @@
     "manufacturerCode": 5127,
     "sha512": "742082a6a3421bfd757b10f7f5a94afa052fba975852ffac44e2ef25a24a087eb16878117b16f5985dcd44a96ed8c3a59bcb5e1b28b4d51ba56f73c0ea727863",
     "otaHeaderString": "Telink OTA Sample Usage"
+  },
+  {
+    "fileName": "Smart_Soil_Moisture_Sensor_Gen2_v1.00.21.ota",
+    "fileVersion": 21,
+    "fileSize": 264830,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Smart_Soil_Moisture_Sensor_Gen2_v1.00.21.ota",
+    "imageType": 54207,
+    "manufacturerCode": 5127,
+    "sha512": "8f9d157f200bc30e5bb541c350c4907bc633e1c731764c8de3afc20d9bfcb0b69abb3c4c699572c39d3569811b33ffb77729c531ecbde4e867196a83dd4d20b2",
+    "otaHeaderString": "temp_humi_sensor"
   }
 ]
