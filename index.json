@@ -465,7 +465,8 @@
     "imageType": 40766,
     "manufacturerCode": 4476,
     "sha512": "76f16f4c2ca48a2b6a66693c3a2d4f85d2f52ff440cc09a565b5856d46a872435b28c5a9b6746d50cb2425555db9bdf41ae05e1a17b0292095198af53552e5eb",
-    "otaHeaderString": "GBL inspelning_smart_plug_soc"
+    "otaHeaderString": "GBL inspelning_smart_plug_soc",
+    "modelId": "INSPELNING Smart plug"
   },
   {
     "fileName": "mgm210l-light-cws-cv-rgbw_release_prod_v268572245_3ae78af7-14fd-44df-bca2-6d366f2e9d02.ota",
@@ -821,7 +822,8 @@
     "sha512": "cd2f88f3f47f459218dd23d1317e76f413cea8a4eedee047a7a6627a595e742f47ec2783eeb2b33e634435cda3f219fa7b540dde6d67876f05d3fdf6feb636d2",
     "otaHeaderString": "GBL tretakt_smart_plug_soc",
     "originalUrl": "http://fw.ota.homesmart.ikea.net/global/GW1.0/01.21.031/bin/tretakt_smart_plug_soc-0x1100-2.4.25-prod.ota.ota.signed",
-    "releaseNotes": "https://ww8.ikea.com/ikeahomesmart/releasenotes/releasenotes.html"
+    "releaseNotes": "https://ww8.ikea.com/ikeahomesmart/releasenotes/releasenotes.html",
+    "modelId": "TRETAKT Smart plug"
   },
   {
     "fileName": "zingo-jetstrom-cws_release_prod_v16777268_023f19b9-f55b-4c94-a3fe-00c97755eb78.ota",
