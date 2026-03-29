@@ -3288,12 +3288,6 @@
     "zigbeeStackVersion": "ZigbeePro"
   },
   {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Soil_Moisture_Sensor_PROD_OTA_V46_v1.00.46.ota",
-    "stack": "Telink",
-    "stackDetails": "",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Danfoss/1246-0100-01320132.0002_(56CF25B2).ota",
     "stack": "EmberZNet",
     "stackDetails": "GBL",
@@ -4536,12 +4530,6 @@
     "zigbeeStackVersion": "ZigbeePro"
   },
   {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Smart_Soil_Moisture_Sensor_Gen2_v1.00.17.ota",
-    "stack": "Unknown",
-    "stackDetails": "",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/bl702_plug_gen3_uk_v1.00.47.ota",
     "stack": "Unknown",
     "stackDetails": "",
@@ -4567,12 +4555,6 @@
   },
   {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-012A-0100080E-Light-SiMG301.zigbee",
-    "stack": "Unknown",
-    "stackDetails": "",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Aqara/20260122175716_OTA_lumi.airrtc.aeu005_0.0.0_2644_20260122_6A6DB5.ota",
     "stack": "Unknown",
     "stackDetails": "",
     "zigbeeStackVersion": "ZigbeePro"
@@ -4698,19 +4680,7 @@
     "zigbeeStackVersion": "ZigbeePro"
   },
   {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/60G_Radar_OTA_V27_v1.00.27.ota",
-    "stack": "Unknown",
-    "stackDetails": "",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Water_Leak_Sensor_V2_OTA_V17_v1.00.17.ota",
-    "stack": "Unknown",
-    "stackDetails": "",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Smart_Presence_Sensor_R2_v1.00.13.ota",
     "stack": "Unknown",
     "stackDetails": "",
     "zigbeeStackVersion": "ZigbeePro"
@@ -4737,12 +4707,6 @@
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Jennic/PMM300Z3_OTA_ENC_V11_ENC.ota",
     "stack": "ZBOSS",
     "stackDetails": "Nordic (fuzzy matching)",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/air_pressure_sensor-1.00.13.ota",
-    "stack": "Unknown",
-    "stackDetails": "",
     "zigbeeStackVersion": "ZigbeePro"
   },
   {
@@ -4902,18 +4866,6 @@
     "zigbeeStackVersion": "ZigbeePro"
   },
   {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-012F-01000404-Switch-SiMG301.zigbee",
-    "stack": "Unknown",
-    "stackDetails": "",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/t_h_sensor_Lite_v2_OTA_V13_v1.00.13.ota",
-    "stack": "Unknown",
-    "stackDetails": "",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sprut.device/wb_msw4_2_075.ota",
     "stack": "EmberZNet",
     "stackDetails": "GBL",
@@ -4929,6 +4881,54 @@
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/SN-TLSR8656-S60-01-v2.0.2.ota",
     "stack": "Telink",
     "stackDetails": "(fallback matching)",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20260306113631_OTA_lumi.airrtc.aeu005_0.0.0_2745_20260305_9BBD2E.ota",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/60G_Radar_OTA_V33_v1.00.33.ota",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/t_h_sensor_Lite_v2_OTA_V15_v1.00.15.ota",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Smart_Presence_Sensor_R2_v1.00.15.ota",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Soil_Moisture_Sensor_PROD_OTA_V51_v1.00.51.ota",
+    "stack": "Telink",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Smart_Soil_Moisture_Sensor_Gen2_v1.00.21.ota",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Smart_Air_Pressure_Sensor_OTA_V14_1.00.14.ota",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-012F-01000600-Switch-SiMG301.zigbee",
+    "stack": "Unknown",
+    "stackDetails": "",
     "zigbeeStackVersion": "ZigbeePro"
   }
 ]

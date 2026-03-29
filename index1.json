@@ -3259,5 +3259,17 @@
     "manufacturerCode": 5127,
     "sha512": "72eb39d940a2b621c2f849a49f76b5a4abd08887136cf274c7f546b46097f0b8e09bc291a1ef1b566a6983053eb3eb271a4c496621a39dc1986445eb8ef3f2b1",
     "otaHeaderString": "temp_humi_sensor"
+  },
+  {
+    "fileName": "100B-012F-01000404-Switch-SiMG301.zigbee",
+    "fileVersion": 16778244,
+    "fileSize": 974276,
+    "originalUrl": "https://firmware.meethue.com/storage/100b-12f/16778244/35ab2c3d-90c5-4ca5-86b2-89edef364f63/100B-012F-01000404-Switch-SiMG301.zigbee",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Hue/100B-012F-01000404-Switch-SiMG301.zigbee",
+    "imageType": 303,
+    "manufacturerCode": 4107,
+    "sha512": "0fe63e4dcdf60b304281c75b1d65eda6903b50fec61f4ae62ae3cec9c1f9dbd8d0352c95e07800f391d80dfa62de854dad6140f937043017710b8f3401672152",
+    "otaHeaderString": "",
+    "releaseNotes": "Version: 4.4"
   }
 ]

@@ -9282,18 +9282,6 @@
     "releaseNotes": "Version: 8.10"
   },
   {
-    "fileName": "100B-012F-01000404-Switch-SiMG301.zigbee",
-    "fileVersion": 16778244,
-    "fileSize": 974276,
-    "originalUrl": "https://firmware.meethue.com/storage/100b-12f/16778244/35ab2c3d-90c5-4ca5-86b2-89edef364f63/100B-012F-01000404-Switch-SiMG301.zigbee",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-012F-01000404-Switch-SiMG301.zigbee",
-    "imageType": 303,
-    "manufacturerCode": 4107,
-    "sha512": "0fe63e4dcdf60b304281c75b1d65eda6903b50fec61f4ae62ae3cec9c1f9dbd8d0352c95e07800f391d80dfa62de854dad6140f937043017710b8f3401672152",
-    "otaHeaderString": "",
-    "releaseNotes": "Version: 4.4"
-  },
-  {
     "fileName": "wb_msw4_2_075.ota",
     "fileVersion": 75,
     "fileSize": 365250,
@@ -9399,5 +9387,17 @@
     "manufacturerCode": 5127,
     "sha512": "8463689e2f43cc83966ffdc849e5885f46e4e636361e4619bfcefb886adac928d1876a09bc92e1afc8e8b14ab1257c5dc52a5e4ae79dde37806fdb491be343eb",
     "otaHeaderString": "temp_humi_sensor"
+  },
+  {
+    "fileName": "100B-012F-01000600-Switch-SiMG301.zigbee",
+    "fileVersion": 16778752,
+    "fileSize": 983900,
+    "originalUrl": "https://firmware.meethue.com/storage/100b-12f/16778752/bd83cc05-2945-4314-bf99-b2b0ae0c9055/100B-012F-01000600-Switch-SiMG301.zigbee",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-012F-01000600-Switch-SiMG301.zigbee",
+    "imageType": 303,
+    "manufacturerCode": 4107,
+    "sha512": "485d09cb4566626fbaf8c6253d99aa602d552e07a9bffe618273beee4b77b03bbe656a457c70a8b546738e531fdce41a978b739a3d1f7dc6e9efceaec984db78",
+    "otaHeaderString": "",
+    "releaseNotes": "Version: 6.0"
   }
 ]
