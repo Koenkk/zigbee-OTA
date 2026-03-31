@@ -2376,17 +2376,6 @@
     "releaseNotes": "Various improvements"
   },
   {
-    "fileName": "100B-0121-02003B19-Switch-EFR32MG22-40xf.zigbee",
-    "fileVersion": 33569561,
-    "fileSize": 185770,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Hue/100B-0121-02003B19-Switch-EFR32MG22-40xf.zigbee",
-    "imageType": 289,
-    "manufacturerCode": 4107,
-    "sha512": "b117d19666222b0b1962585f1e47e525c643d3d784fa3a59c0299cd1533a3799a1c72553c7964708879fe0131d4c5cb9fcc5af681d8059d18e6f47b942a5e4fb",
-    "otaHeaderString": "",
-    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_0121/f28229fd-c450-4d0c-ada4-21f855674e06/100B-0121-02003B19-Switch-EFR32MG22-40xf.zigbee"
-  },
-  {
     "fileName": "Sensor-ATmega_6.1.1.27575_0012.sbl-ota",
     "fileVersion": 1107323831,
     "fileSize": 240760,
@@ -3281,5 +3270,27 @@
     "manufacturerCode": 5127,
     "sha512": "8463689e2f43cc83966ffdc849e5885f46e4e636361e4619bfcefb886adac928d1876a09bc92e1afc8e8b14ab1257c5dc52a5e4ae79dde37806fdb491be343eb",
     "otaHeaderString": "temp_humi_sensor"
+  },
+  {
+    "fileName": "100B-011B-02004D23-Sensor-EFR32MG22.zigbee",
+    "fileVersion": 33574179,
+    "fileSize": 200814,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Hue/100B-011B-02004D23-Sensor-EFR32MG22.zigbee",
+    "imageType": 283,
+    "manufacturerCode": 4107,
+    "sha512": "eab283cabf8d9f55c84b9a0e0ee2da9c6d3eacaebcb3ef8973cb01448df091d437855e7dd6f01e8d8d8bc2db26aa729db52f2c8531d8d0e6d05cce2f4a875d5c",
+    "otaHeaderString": "",
+    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_011B/126cdb96-9758-45c3-98dc-ae35386bc960/100B-011B-02004D23-Sensor-EFR32MG22.zigbee"
+  },
+  {
+    "fileName": "100B-0121-02004D27-Switch-EFR32MG22-40xf.zigbee",
+    "fileVersion": 33574183,
+    "fileSize": 208106,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Hue/100B-0121-02004D27-Switch-EFR32MG22-40xf.zigbee",
+    "imageType": 289,
+    "manufacturerCode": 4107,
+    "sha512": "3ea0778f4eb4c2494e0b81d7ef85bd957fece8ca051289bd99dc5de1a6fb344d92ae1f481be64a516f97f72a6e947d0c0d88408c6b0945bda63dd81e7adc6618",
+    "otaHeaderString": "",
+    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_0121/c4cba7cc-7784-4b20-88db-df8e82ddb487/100B-0121-02004D27-Switch-EFR32MG22-40xf.zigbee"
   }
 ]
