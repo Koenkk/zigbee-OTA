@@ -9401,5 +9401,15 @@
     "manufacturerCode": 5127,
     "sha512": "47eed21269c400d86f19a0006ee0578c097119791affe1f57e9c64dbfc9ff8e2d21aa4111da6188e25d1c624d51ff3056fb97ed54d6cbd8acaf3e127b67077d7",
     "otaHeaderString": "temp_humi_sensor"
+  },
+  {
+    "fileName": "HS1SA-E-PLUS-120BA080-20260311-Release.ota",
+    "fileVersion": 34,
+    "fileSize": 214938,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Heiman/HS1SA-E-PLUS-120BA080-20260311-Release.ota",
+    "imageType": 41088,
+    "manufacturerCode": 4619,
+    "sha512": "3a57f0642ffa3ae765ec867759a00c1491fb8b5a6cfd8d37d18a231e32c22ac7f82c6c2957358189be54aea58b809dfd368cbd0bfcc52d08420afa4601ac4c94",
+    "otaHeaderString": "EBL HS1SA_EF2_UART_0787_dianshan"
   }
 ]
