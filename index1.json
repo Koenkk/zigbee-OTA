@@ -3251,16 +3251,6 @@
     "otaHeaderString": "temp_humi_sensor"
   },
   {
-    "fileName": "air_pressure_sensor-1.00.13.ota",
-    "fileVersion": 13,
-    "fileSize": 263358,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/air_pressure_sensor-1.00.13.ota",
-    "imageType": 54190,
-    "manufacturerCode": 5127,
-    "sha512": "72eb39d940a2b621c2f849a49f76b5a4abd08887136cf274c7f546b46097f0b8e09bc291a1ef1b566a6983053eb3eb271a4c496621a39dc1986445eb8ef3f2b1",
-    "otaHeaderString": "temp_humi_sensor"
-  },
-  {
     "fileName": "100B-012F-01000404-Switch-SiMG301.zigbee",
     "fileVersion": 16778244,
     "fileSize": 974276,
@@ -3281,5 +3271,15 @@
     "manufacturerCode": 5127,
     "sha512": "ef965246281a1b3da9f908b8c0d45e597c459b7db1e4b98a0ac1b3f3fab67058216eaf8c31ef5b6d9fd413c0cbb0030b38062581a2daa21c3ef42d09afcf5af8",
     "otaHeaderString": "Telink OTA Sample Usage"
+  },
+  {
+    "fileName": "Smart_Air_Pressure_Sensor_OTA_V14_1.00.14.ota",
+    "fileVersion": 14,
+    "fileSize": 264018,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/Smart_Air_Pressure_Sensor_OTA_V14_1.00.14.ota",
+    "imageType": 54190,
+    "manufacturerCode": 5127,
+    "sha512": "8463689e2f43cc83966ffdc849e5885f46e4e636361e4619bfcefb886adac928d1876a09bc92e1afc8e8b14ab1257c5dc52a5e4ae79dde37806fdb491be343eb",
+    "otaHeaderString": "temp_humi_sensor"
   }
 ]
