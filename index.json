@@ -5382,16 +5382,6 @@
     "modelId": "lumi.switch.b2nc01"
   },
   {
-    "fileName": "Radar_PROD_OTA_V6_v1.00.06.ota",
-    "fileVersion": 6,
-    "fileSize": 136354,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Radar_PROD_OTA_V6_v1.00.06.ota",
-    "imageType": 54194,
-    "manufacturerCode": 5127,
-    "sha512": "ef965246281a1b3da9f908b8c0d45e597c459b7db1e4b98a0ac1b3f3fab67058216eaf8c31ef5b6d9fd413c0cbb0030b38062581a2daa21c3ef42d09afcf5af8",
-    "otaHeaderString": "Telink OTA Sample Usage"
-  },
-  {
     "fileName": "GarageDoorSensor_PROD_OTA_V36_v1.00.36.ota",
     "fileVersion": 36,
     "fileSize": 137698,
@@ -9401,5 +9391,15 @@
     "sha512": "485d09cb4566626fbaf8c6253d99aa602d552e07a9bffe618273beee4b77b03bbe656a457c70a8b546738e531fdce41a978b739a3d1f7dc6e9efceaec984db78",
     "otaHeaderString": "",
     "releaseNotes": "Version: 6.0"
+  },
+  {
+    "fileName": "Radar_PROD_OTA_V14_v1.00.14.ota",
+    "fileVersion": 14,
+    "fileSize": 136594,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Radar_PROD_OTA_V14_v1.00.14.ota",
+    "imageType": 54194,
+    "manufacturerCode": 5127,
+    "sha512": "54ff734daccbe523e08cfd9566a882db6eee040928bc0ad11072d65e59cddc315b52fb0fcefda83233d4165d350c453f4a4ac6dc895afea60a9ebed8b83b208c",
+    "otaHeaderString": "Telink OTA Sample Usage"
   }
 ]
