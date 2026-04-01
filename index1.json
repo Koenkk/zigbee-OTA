@@ -3292,5 +3292,15 @@
     "sha512": "3ea0778f4eb4c2494e0b81d7ef85bd957fece8ca051289bd99dc5de1a6fb344d92ae1f481be64a516f97f72a6e947d0c0d88408c6b0945bda63dd81e7adc6618",
     "otaHeaderString": "",
     "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_0121/c4cba7cc-7784-4b20-88db-df8e82ddb487/100B-0121-02004D27-Switch-EFR32MG22-40xf.zigbee"
+  },
+  {
+    "fileName": "snzb-01m_v1.0.5.ota",
+    "fileVersion": 4101,
+    "fileSize": 193360,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Sonoff/snzb-01m_v1.0.5.ota",
+    "imageType": 2062,
+    "manufacturerCode": 4742,
+    "sha512": "0ac93af2c1ad69ef9ba3fd923de018f1a1efee2f8c9795372495706b201b4bd4aca2cf3b6cc3046e81a78b7de747ce57f0ae1e42638953983c22a2fc300c5b9a",
+    "otaHeaderString": "FIRMWARE"
   }
 ]
