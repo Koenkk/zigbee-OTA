@@ -9411,5 +9411,17 @@
     "manufacturerCode": 4742,
     "sha512": "7fcdc207b28979930d179f904fefac18ed1ddbd9c5a6098dfa49da5dff46c6f8b51bf09cee26634a31705ef0c1e821cb11a07b4604149423a86e45273f863127",
     "otaHeaderString": "FIRMWARE"
+  },
+  {
+    "fileName": "20240731113643_OTA_lumi.switch.acn040_0.0.0_0029_20240729_746A00.ota",
+    "fileVersion": 29,
+    "fileSize": 292640,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20240731113643_OTA_lumi.switch.acn040_0.0.0_0029_20240729_746A00.ota",
+    "imageType": 6409,
+    "manufacturerCode": 4447,
+    "sha512": "cf4b5ab3741cf12d87207e9e8c0e6a713ac81cec9958ed0eebbf253aa32b2c39141ff59c7a89111c4cb102134c195985251c03dde21ff6031e81b953d4d6b752",
+    "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000",
+    "modelId": "lumi.switch.acn040",
+    "releaseNotes": "Fixes unwanted control from remotes"
   }
 ]
