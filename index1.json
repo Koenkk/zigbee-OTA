@@ -3209,17 +3209,6 @@
     "otaHeaderString": "temp_humi_sensor"
   },
   {
-    "fileName": "Smart_Presence_Sensor_R2_v1.00.13.ota",
-    "fileVersion": 13,
-    "fileSize": 289758,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/Smart_Presence_Sensor_R2_v1.00.13.ota",
-    "imageType": 54201,
-    "manufacturerCode": 5127,
-    "sha512": "87114b4199cafd909249c0a3fe9d0bb0d83850731732e15acb715993c1c1dec44ca5f6ad42e98b70eeda416c456952637699f2d3ecaeeaf5d4ada37711b09b12",
-    "otaHeaderString": "temp_humi_sensor",
-    "modelId": "3RPS01083Z"
-  },
-  {
     "fileName": "Soil_Moisture_Sensor_PROD_OTA_V46_v1.00.46.ota",
     "fileVersion": 46,
     "fileSize": 141922,
@@ -3302,5 +3291,16 @@
     "manufacturerCode": 4742,
     "sha512": "0ac93af2c1ad69ef9ba3fd923de018f1a1efee2f8c9795372495706b201b4bd4aca2cf3b6cc3046e81a78b7de747ce57f0ae1e42638953983c22a2fc300c5b9a",
     "otaHeaderString": "FIRMWARE"
+  },
+  {
+    "fileName": "Smart_Presence_Sensor_R2_v1.00.15.ota",
+    "fileVersion": 15,
+    "fileSize": 288610,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/Smart_Presence_Sensor_R2_v1.00.15.ota",
+    "imageType": 54201,
+    "manufacturerCode": 5127,
+    "sha512": "71b58fdaec208347720c3d5b1e6b29ad1206c9955f7bc8f0d16dd41f53d7d54d43db42a8fdf12eeb511f7ecbf8012018853436bcda0591a4a7d20e1b7670619e",
+    "otaHeaderString": "temp_humi_sensor",
+    "modelId": "3RPS01083Z"
   }
 ]

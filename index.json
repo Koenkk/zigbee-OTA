@@ -9308,17 +9308,6 @@
     "otaHeaderString": "temp_humi_sensor"
   },
   {
-    "fileName": "Smart_Presence_Sensor_R2_v1.00.15.ota",
-    "fileVersion": 15,
-    "fileSize": 288610,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Smart_Presence_Sensor_R2_v1.00.15.ota",
-    "imageType": 54201,
-    "manufacturerCode": 5127,
-    "sha512": "71b58fdaec208347720c3d5b1e6b29ad1206c9955f7bc8f0d16dd41f53d7d54d43db42a8fdf12eeb511f7ecbf8012018853436bcda0591a4a7d20e1b7670619e",
-    "otaHeaderString": "temp_humi_sensor",
-    "modelId": "3RPS01083Z"
-  },
-  {
     "fileName": "Soil_Moisture_Sensor_PROD_OTA_V51_v1.00.51.ota",
     "fileVersion": 51,
     "fileSize": 144258,
@@ -9423,5 +9412,16 @@
     "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000",
     "modelId": "lumi.switch.acn040",
     "releaseNotes": "Fixes unwanted control from remotes"
+  },
+  {
+    "fileName": "Smart_Presence_Sensor_R2_v1.00.19.ota",
+    "fileVersion": 19,
+    "fileSize": 288582,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Smart_Presence_Sensor_R2_v1.00.19.ota",
+    "imageType": 54201,
+    "manufacturerCode": 5127,
+    "sha512": "b3119f590b246b8994cbd8c2edd756f0d0c86f303259b6a8c2c284a174f8d6b697fea1e3679d008910e0ba856f1f2109b2e2503de62038ad6d324bc41ea126a3",
+    "otaHeaderString": "temp_humi_sensor",
+    "modelId": "3RPS01083Z"
   }
 ]
