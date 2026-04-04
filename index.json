@@ -8629,16 +8629,6 @@
     "releaseNotes": ""
   },
   {
-    "fileName": "1402769_v4.02_20251222.ota",
-    "fileVersion": 9,
-    "fileSize": 283206,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Namron/1402769_v4.02_20251222.ota",
-    "imageType": 1000,
-    "manufacturerCode": 4714,
-    "sha512": "ba713c875210bf93e6674eda8f29b04e0722654134f50c199fa567700d4054b72cdebc2fda6de42cf758ad3220f02f51d85465526dfc744c722f40c8338ca96c",
-    "otaHeaderString": "test"
-  },
-  {
     "fileName": "mini-zb2gs_v1.0.7.ota",
     "fileVersion": 4103,
     "fileSize": 297974,
