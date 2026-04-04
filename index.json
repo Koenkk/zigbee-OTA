@@ -9413,5 +9413,15 @@
     "sha512": "b3119f590b246b8994cbd8c2edd756f0d0c86f303259b6a8c2c284a174f8d6b697fea1e3679d008910e0ba856f1f2109b2e2503de62038ad6d324bc41ea126a3",
     "otaHeaderString": "temp_humi_sensor",
     "modelId": "3RPS01083Z"
+  },
+  {
+    "fileName": "ZB21S3_EcoDim_BV_eco-dim.07_zi.rSwitch_ZB3.0_4.03_O9_20260210.ota",
+    "fileVersion": 9,
+    "fileSize": 283958,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/EcoDim/ZB21S3_EcoDim_BV_eco-dim.07_zi.rSwitch_ZB3.0_4.03_O9_20260210.ota",
+    "imageType": 1000,
+    "manufacturerCode": 4714,
+    "sha512": "2856413ea5ae298a25ae5a82c1af55ccc609861cef98b37c00d3d2c3910f5a48002d19dc74367d00b6a1d6c409028bcb19e854139613cb440b0fa0ac820d6951",
+    "otaHeaderString": "test for custom"
   }
 ]
