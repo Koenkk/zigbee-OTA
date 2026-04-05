@@ -9423,5 +9423,18 @@
     "sha512": "b07bafb93719e1bebc689a1bd3b5b39cbfb6752371e1ad8653c4c40731abcbd0e5959c7eb10864991cbc1cc0e9fc5c54b4411729fdf2eecc98abbce02b59364b",
     "otaHeaderString": "",
     "releaseNotes": "Version: 7.6"
+  },
+  {
+    "fileName": "6565-021e-10053001-qs_zigbee_sec01_zrd.zigbee",
+    "fileVersion": 268775425,
+    "fileSize": 203874,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-021e-10053001-qs_zigbee_sec01_zrd.zigbee",
+    "imageType": 542,
+    "manufacturerCode": 25957,
+    "sha512": "73144a6cf50eab9d649216fe2e37c11e981ddf897756a255149324e730dafe755bb3f45223c6be9311f1a9ace9cccc225d5bc16d13109b3a29a3ca644cd230cc",
+    "otaHeaderString": "Slacky-DIY OTA",
+    "manufacturerName": [
+      "Svetomaniya"
+    ]
   }
 ]
