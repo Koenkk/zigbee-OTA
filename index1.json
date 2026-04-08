@@ -70,17 +70,6 @@
     "releaseNotes": "https://ww8.ikea.com/ikeahomesmart/releasenotes/releasenotes.html"
   },
   {
-    "fileName": "VZM36_0.04.ota",
-    "fileVersion": 67174404,
-    "fileSize": 237962,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Inovelli/VZM36_0.04.ota",
-    "imageType": 1025,
-    "manufacturerCode": 4655,
-    "sha512": "dfbae89d7ff0010527530c995a457fb162f4059f9824bf98b11c27e6146f061d2be5a51ced3a7cba3909ff1ada1135a91b39db39a63e86527bb97ac1636c5a4f",
-    "otaHeaderString": "VMZB_Canopy",
-    "originalUrl": "https://inov.li/IRbxhx1646F/VZM36_0.04.ota"
-  },
-  {
     "fileName": "jethome_zigbee_release_13_zigbee.ota.zigbee",
     "fileVersion": 13,
     "fileSize": 160226,
@@ -3302,5 +3291,16 @@
     "sha512": "485d09cb4566626fbaf8c6253d99aa602d552e07a9bffe618273beee4b77b03bbe656a457c70a8b546738e531fdce41a978b739a3d1f7dc6e9efceaec984db78",
     "otaHeaderString": "",
     "releaseNotes": "Version: 6.0"
+  },
+  {
+    "fileName": "VZM36_1.01-Beta.ota",
+    "fileVersion": 67174657,
+    "fileSize": 237938,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Inovelli/VZM36_1.01-Beta.ota",
+    "imageType": 1025,
+    "manufacturerCode": 4655,
+    "sha512": "daa5570379960cc959d867160bc21d3cf651926af63c4c3076a02810cee1a4b8a4def1a097b2bdaea818c712f39fb93c37ccf84aeb0ada4eaedebd9b1c4eb882",
+    "otaHeaderString": "VMZB_Canopy",
+    "originalUrl": "https://github.com/InovelliUSA/Firmware/raw/6608d75c73b5200b20ed197653c9ad3af1f5c1e7/Blue-Series/Zigbee/VZM36-Fan-Plus-Light/Beta/1.01/VZM36_1.01-Beta.ota"
   }
 ]

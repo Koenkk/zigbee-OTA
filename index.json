@@ -1273,17 +1273,6 @@
     "originalUrl": "https://files.inovelli.com/firmware/DZM32-SN/Beta/1.13/DZM32-SN_1.13.ota"
   },
   {
-    "fileName": "VZM36_1.01-Beta.ota",
-    "fileVersion": 67174657,
-    "fileSize": 237938,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Inovelli/VZM36_1.01-Beta.ota",
-    "imageType": 1025,
-    "manufacturerCode": 4655,
-    "sha512": "daa5570379960cc959d867160bc21d3cf651926af63c4c3076a02810cee1a4b8a4def1a097b2bdaea818c712f39fb93c37ccf84aeb0ada4eaedebd9b1c4eb882",
-    "otaHeaderString": "VMZB_Canopy",
-    "originalUrl": "https://github.com/InovelliUSA/Firmware/raw/6608d75c73b5200b20ed197653c9ad3af1f5c1e7/Blue-Series/Zigbee/VZM36-Fan-Plus-Light/Beta/1.01/VZM36_1.01-Beta.ota"
-  },
-  {
     "fileName": "V00.00.52.12.ota",
     "fileVersion": 5212,
     "fileSize": 578278,
@@ -9426,5 +9415,16 @@
     "manufacturerName": [
       "Svetomaniya"
     ]
+  },
+  {
+    "fileName": "VZM36_1.02.ota",
+    "fileVersion": 67174658,
+    "fileSize": 234866,
+    "originalUrl": "https://files.inovelli.com/firmware/VZM36/Beta/1.02/VZM36_1.02.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Inovelli/VZM36_1.02.ota",
+    "imageType": 1025,
+    "manufacturerCode": 4655,
+    "sha512": "a53ce5132b40e21491320961c51777b27dc5b2914a2bebd1a15406569be8930931da8a74dc1d2af009dda7c95b59e760ea33423c3e6b0ccf48945a3d3df7adf9",
+    "otaHeaderString": "VMZB_Canopy"
   }
 ]
