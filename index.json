@@ -9307,16 +9307,6 @@
     "otaHeaderString": "Telink OTA Sample Usage"
   },
   {
-    "fileName": "Smart_Air_Pressure_Sensor_OTA_V15_1.00.15.ota",
-    "fileVersion": 15,
-    "fileSize": 263926,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Smart_Air_Pressure_Sensor_OTA_V15_1.00.15.ota",
-    "imageType": 54190,
-    "manufacturerCode": 5127,
-    "sha512": "47eed21269c400d86f19a0006ee0578c097119791affe1f57e9c64dbfc9ff8e2d21aa4111da6188e25d1c624d51ff3056fb97ed54d6cbd8acaf3e127b67077d7",
-    "otaHeaderString": "temp_humi_sensor"
-  },
-  {
     "fileName": "HS1SA-E-PLUS-120BA080-20260311-Release.ota",
     "fileVersion": 34,
     "fileSize": 214938,
@@ -9426,5 +9416,15 @@
     "manufacturerCode": 4655,
     "sha512": "a53ce5132b40e21491320961c51777b27dc5b2914a2bebd1a15406569be8930931da8a74dc1d2af009dda7c95b59e760ea33423c3e6b0ccf48945a3d3df7adf9",
     "otaHeaderString": "VMZB_Canopy"
+  },
+  {
+    "fileName": "Smart_Air_Pressure_Sensor_OTA_V16_1.00.16.ota",
+    "fileVersion": 16,
+    "fileSize": 263910,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Smart_Air_Pressure_Sensor_OTA_V16_1.00.16.ota",
+    "imageType": 54190,
+    "manufacturerCode": 5127,
+    "sha512": "227e540165479cfac853f9dd0c03b58a4c506bb491b29e62279771a69fb081eb52c2dbc5086c87cf4d90587141f0e4d083baa5e187341918add4b72501dfc76e",
+    "otaHeaderString": "temp_humi_sensor"
   }
 ]

@@ -3228,16 +3228,6 @@
     "otaHeaderString": "Telink OTA Sample Usage"
   },
   {
-    "fileName": "Smart_Air_Pressure_Sensor_OTA_V14_1.00.14.ota",
-    "fileVersion": 14,
-    "fileSize": 264018,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/Smart_Air_Pressure_Sensor_OTA_V14_1.00.14.ota",
-    "imageType": 54190,
-    "manufacturerCode": 5127,
-    "sha512": "8463689e2f43cc83966ffdc849e5885f46e4e636361e4619bfcefb886adac928d1876a09bc92e1afc8e8b14ab1257c5dc52a5e4ae79dde37806fdb491be343eb",
-    "otaHeaderString": "temp_humi_sensor"
-  },
-  {
     "fileName": "100B-011B-02004D23-Sensor-EFR32MG22.zigbee",
     "fileVersion": 33574179,
     "fileSize": 200814,
@@ -3302,5 +3292,15 @@
     "sha512": "daa5570379960cc959d867160bc21d3cf651926af63c4c3076a02810cee1a4b8a4def1a097b2bdaea818c712f39fb93c37ccf84aeb0ada4eaedebd9b1c4eb882",
     "otaHeaderString": "VMZB_Canopy",
     "originalUrl": "https://github.com/InovelliUSA/Firmware/raw/6608d75c73b5200b20ed197653c9ad3af1f5c1e7/Blue-Series/Zigbee/VZM36-Fan-Plus-Light/Beta/1.01/VZM36_1.01-Beta.ota"
+  },
+  {
+    "fileName": "Smart_Air_Pressure_Sensor_OTA_V15_1.00.15.ota",
+    "fileVersion": 15,
+    "fileSize": 263926,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/Smart_Air_Pressure_Sensor_OTA_V15_1.00.15.ota",
+    "imageType": 54190,
+    "manufacturerCode": 5127,
+    "sha512": "47eed21269c400d86f19a0006ee0578c097119791affe1f57e9c64dbfc9ff8e2d21aa4111da6188e25d1c624d51ff3056fb97ed54d6cbd8acaf3e127b67077d7",
+    "otaHeaderString": "temp_humi_sensor"
   }
 ]
