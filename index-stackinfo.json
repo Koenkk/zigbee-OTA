@@ -702,12 +702,6 @@
     "zigbeeStackVersion": "ZigbeePro"
   },
   {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Inovelli/VZM36_1.01-Beta.ota",
-    "stack": "EmberZNet",
-    "stackDetails": "GBL",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Insta/V00.00.52.12.ota",
     "stack": "EmberZNet",
     "stackDetails": "GBL",
@@ -4542,12 +4536,6 @@
     "zigbeeStackVersion": "ZigbeePro"
   },
   {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Namron/1402769_v4.02_20251222.ota",
-    "stack": "EmberZNet",
-    "stackDetails": "GBL",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/mini-zb2gs_v1.0.7.ota",
     "stack": "EmberZNet",
     "stackDetails": "GBL",
@@ -4854,12 +4842,6 @@
     "zigbeeStackVersion": "ZigbeePro"
   },
   {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/SN-TLSR8656-S60-01-v2.0.2.ota",
-    "stack": "Telink",
-    "stackDetails": "(fallback matching)",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20260306113631_OTA_lumi.airrtc.aeu005_0.0.0_2745_20260305_9BBD2E.ota",
     "stack": "Unknown",
     "stackDetails": "",
@@ -4892,12 +4874,6 @@
   {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Radar_PROD_OTA_V14_v1.00.14.ota",
     "stack": "Telink",
-    "stackDetails": "",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Smart_Air_Pressure_Sensor_OTA_V15_1.00.15.ota",
-    "stack": "Unknown",
     "stackDetails": "",
     "zigbeeStackVersion": "ZigbeePro"
   },
@@ -4938,7 +4914,31 @@
     "zigbeeStackVersion": "ZigbeePro"
   },
   {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/EcoDim/ZB21S3_EcoDim_BV_eco-dim.07_zi.rSwitch_ZB3.0_4.03_O9_20260210.ota",
+    "stack": "EmberZNet",
+    "stackDetails": "GBL",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-012F-01000706-Switch-SiMG301.zigbee",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-021e-10053001-qs_zigbee_sec01_zrd.zigbee",
+    "stack": "Telink",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Inovelli/VZM36_1.02.ota",
+    "stack": "EmberZNet",
+    "stackDetails": "GBL",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Smart_Air_Pressure_Sensor_OTA_V16_1.00.16.ota",
     "stack": "Unknown",
     "stackDetails": "",
     "zigbeeStackVersion": "ZigbeePro"
