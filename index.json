@@ -9426,5 +9426,125 @@
     "manufacturerCode": 5127,
     "sha512": "c128dd22f9bd281d05f791fb0660e196b76a272940400246031873179bb26747265eeb2a276dc3a6e291f7d74f9a11e25556cb71b3055c563a70792e1752ca4c",
     "otaHeaderString": "temp_humi_sensor"
+  },
+  {
+    "fileName": "aux-1-zb-s_hw1.x_fw0.6.1_ota20.ota",
+    "fileVersion": 20,
+    "fileSize": 277822,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ONOKOM/aux-1-zb-s_hw1.x_fw0.6.1_ota20.ota",
+    "imageType": 8865,
+    "manufacturerCode": 18179,
+    "sha512": "b4fc90fbb39a9e086d59bf664234b8ed62913f48f02c809b46e666bedd089dfbbcb390d891e4e8bb43d36639e0ed91b98b8757d9f0db5d6202514c854987d24f",
+    "otaHeaderString": ""
+  },
+  {
+    "fileName": "dk-1-zb-s_hw1.x_fw0.6.1_ota20.ota",
+    "fileVersion": 20,
+    "fileSize": 278718,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ONOKOM/dk-1-zb-s_hw1.x_fw0.6.1_ota20.ota",
+    "imageType": 8849,
+    "manufacturerCode": 18179,
+    "sha512": "33ee3aac7b7ff493d07aaccc4b944e21735855ee01d75c93b343f9e85ef2dbafeb80c13e6efdc14511e72d99135b4250c60bb24de4504b2e5e8a69a77530d081",
+    "otaHeaderString": ""
+  },
+  {
+    "fileName": "gr-1-zb-s_hw1.x_fw0.6.1_ota20.ota",
+    "fileVersion": 20,
+    "fileSize": 277726,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ONOKOM/gr-1-zb-s_hw1.x_fw0.6.1_ota20.ota",
+    "imageType": 8833,
+    "manufacturerCode": 18179,
+    "sha512": "4e607dd1c24abf95b310698c001863b5ea7768d8a1ee67925e8783f27278c1377758d1a88449be7d525fb6e88f58f0a8c1e853ca4578b9f076c05020ab264dee",
+    "otaHeaderString": ""
+  },
+  {
+    "fileName": "gr-3-zb-s_hw1.x_fw0.6.2_ota21.ota",
+    "fileVersion": 21,
+    "fileSize": 278258,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ONOKOM/gr-3-zb-s_hw1.x_fw0.6.2_ota21.ota",
+    "imageType": 8835,
+    "manufacturerCode": 18179,
+    "sha512": "ec8499d497457fcc7fadeee9caa592090ece31acbb39d200e9e8da702dd90fc417e114425fe1ee631383926aafc1ec13d98d7f93df6c1728d90c8fc5ce3f0174",
+    "otaHeaderString": ""
+  },
+  {
+    "fileName": "hr-1-zb-s_hw1.x_fw0.6.1_ota20.ota",
+    "fileVersion": 20,
+    "fileSize": 278558,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ONOKOM/hr-1-zb-s_hw1.x_fw0.6.1_ota20.ota",
+    "imageType": 8881,
+    "manufacturerCode": 18179,
+    "sha512": "d03a15db3108d6c8f99cff0e6726d98a50186240b8f661eb84804d1e283fc3c9129da3245848b51115ff6ae92ebc82c36d76ec1dfbc0c4c8cacc2d90db8b98a5",
+    "otaHeaderString": ""
+  },
+  {
+    "fileName": "hs-3-zb-s_hw1.x_fw0.6.1_ota20.ota",
+    "fileVersion": 20,
+    "fileSize": 279546,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ONOKOM/hs-3-zb-s_hw1.x_fw0.6.1_ota20.ota",
+    "imageType": 8899,
+    "manufacturerCode": 18179,
+    "sha512": "085d22b3618b85f8f44b35369fdd71d118fcc5c56b393966dbed344bc25ee48d46ba8dcf97bfe8395d6361f978dbe1d79ca49d53d587cd8af3498350f84e2054",
+    "otaHeaderString": ""
+  },
+  {
+    "fileName": "ht-1-zb-s_hw1.x_fw0.6.1_ota20.ota",
+    "fileVersion": 20,
+    "fileSize": 277294,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ONOKOM/ht-1-zb-s_hw1.x_fw0.6.1_ota20.ota",
+    "imageType": 8977,
+    "manufacturerCode": 18179,
+    "sha512": "d33297f3fb3a15a136e31bf57a27472c8b16eab44cb069bfbd397d4b659d784a4fb5552bb8585881524bba9be82242c8b1f0c7db6128a7f10a3abba872dbc0e5",
+    "otaHeaderString": ""
+  },
+  {
+    "fileName": "md-1-zb-s_hw1.x_fw0.6.2_ota21.ota",
+    "fileVersion": 21,
+    "fileSize": 280934,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ONOKOM/md-1-zb-s_hw1.x_fw0.6.2_ota21.ota",
+    "imageType": 8913,
+    "manufacturerCode": 18179,
+    "sha512": "74ee23725efdbb3a17cbbd715c46d65a8057c18a5dab21688b31af65386b0537e64b1050bb8a9b8fa625bdc819db369dfd7d2cbb557a8b84c157367766a4c70d",
+    "otaHeaderString": ""
+  },
+  {
+    "fileName": "md-3-zb-s_hw1.x_fw0.6.1_ota20.ota",
+    "fileVersion": 20,
+    "fileSize": 276410,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ONOKOM/md-3-zb-s_hw1.x_fw0.6.1_ota20.ota",
+    "imageType": 8915,
+    "manufacturerCode": 18179,
+    "sha512": "1c1bb991d3fd45a7ff64705277ee63f2aec59687ed2671c4f52a680195638f7899ba312f3228b10b77a1d130a322f1cfaa0358c8b3b2ac84bd77e391ed274ff6",
+    "otaHeaderString": ""
+  },
+  {
+    "fileName": "me-1-zb-s_hw1.x_fw0.6.1_ota20.ota",
+    "fileVersion": 20,
+    "fileSize": 276798,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ONOKOM/me-1-zb-s_hw1.x_fw0.6.1_ota20.ota",
+    "imageType": 8929,
+    "manufacturerCode": 18179,
+    "sha512": "0cce36f500a6dacb5c6ff5eee3c94bfc26efd041eabbb82c075a9f613805adbe1ffe884fde159128ad26db3276886d3e80078e3f5fd2c211d6930e37c947271f",
+    "otaHeaderString": ""
+  },
+  {
+    "fileName": "tcl-1-zb-s_hw1.x_fw0.6.1_ota20.ota",
+    "fileVersion": 20,
+    "fileSize": 278830,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ONOKOM/tcl-1-zb-s_hw1.x_fw0.6.1_ota20.ota",
+    "imageType": 8945,
+    "manufacturerCode": 18179,
+    "sha512": "85c4f5cb7792166bf984a602da2feaba8b5004e0bf6e0373d62a87a6dc0a78a6e63562ea793356baac0d735e4b7e989234d682df82b1e9ed181d465770fd16c9",
+    "otaHeaderString": ""
+  },
+  {
+    "fileName": "tcl-3-zb-s_hw1.x_fw0.6.1_ota20.ota",
+    "fileVersion": 20,
+    "fileSize": 279142,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ONOKOM/tcl-3-zb-s_hw1.x_fw0.6.1_ota20.ota",
+    "imageType": 8947,
+    "manufacturerCode": 18179,
+    "sha512": "94aee73664cf623300ada326cfc621e90c043d8777237ee1df2dc5d0b9ea9323d82122e866e34163c56e96e7fbbec386af40a4f1ebf904129f5a73deac53dbb4",
+    "otaHeaderString": ""
   }
 ]
