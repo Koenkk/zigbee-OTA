@@ -1,3 +1,8 @@
+// Was originally imported from `@actions/github/lib/context` but this
+// path is not exported by the library.
+import type {context as _githubContext} from "@actions/github";
+export type Context = typeof _githubContext;
+
 //-- Copied from ZHC
 export interface Version {
     imageType: number;

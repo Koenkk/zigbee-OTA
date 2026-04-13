@@ -1,9 +1,9 @@
 import {existsSync, mkdirSync} from "node:fs";
 import type * as CoreApi from "@actions/core";
-import type {Context} from "@actions/github/lib/context";
 import type {Octokit} from "@octokit/rest";
 
 import {ALL_AUTODL_MANUFACTURERS, CACHE_DIR} from "./common.js";
+import type {Context} from "./types";
 
 export async function overwriteCache(_github: Octokit, core: typeof CoreApi, _context: Context, manufacturersCSV?: string): Promise<void> {
     if (!existsSync(CACHE_DIR)) {

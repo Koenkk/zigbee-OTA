@@ -1,7 +1,6 @@
 import {existsSync, lstatSync, mkdirSync, readdirSync, readFileSync, renameSync, rmSync, writeFileSync} from "node:fs";
 import path from "node:path";
 import type * as CoreApi from "@actions/core";
-import type {Context} from "@actions/github/lib/context";
 import type {Octokit} from "@octokit/rest";
 import {
     addImageToBase,
@@ -24,7 +23,7 @@ import {
     UPGRADE_FILE_IDENTIFIER,
     writeManifest,
 } from "./common.js";
-import type {RepoImageMeta} from "./types";
+import type {Context, RepoImageMeta} from "./types";
 
 /** These are now handled by autodl */
 const IGNORE_3RD_PARTIES = ["https://github.com/fairecasoimeme/", "https://github.com/xyzroe/"];

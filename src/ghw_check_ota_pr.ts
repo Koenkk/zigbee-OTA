@@ -1,7 +1,6 @@
 import assert from "node:assert";
 import {existsSync, mkdirSync, writeFileSync} from "node:fs";
 import type * as CoreApi from "@actions/core";
-import type {Context} from "@actions/github/lib/context";
 import type {Octokit} from "@octokit/rest";
 
 import {
@@ -17,6 +16,7 @@ import {
 } from "./common.js";
 import {getChangedOtaFiles} from "./ghw_get_changed_ota_files.js";
 import {processOtaFiles} from "./ghw_process_ota_files.js";
+import type {Context} from "./types";
 
 function throwError(comment: string): void {
     writeFileSync(PR_ARTIFACT_ERROR_FILEPATH, comment);

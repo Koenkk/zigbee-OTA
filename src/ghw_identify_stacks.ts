@@ -1,10 +1,10 @@
 import {readFileSync, writeFileSync} from "node:fs";
 import {join} from "node:path";
 import type * as CoreApi from "@actions/core";
-import type {Context} from "@actions/github/lib/context";
 import type {Octokit} from "@octokit/rest";
 
 import {BASE_INDEX_MANIFEST_FILENAME, BASE_REPO_URL, parseImageHeader, REPO_BRANCH, readManifest, UPGRADE_FILE_IDENTIFIER} from "./common.js";
+import type {Context} from "./types";
 
 enum ZigbeeStackVersion {
     Zigbee2006 = 0x0000,

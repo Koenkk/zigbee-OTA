@@ -1,7 +1,7 @@
 import assert from "node:assert";
 import type * as CoreApi from "@actions/core";
-import type {Context} from "@actions/github/lib/context";
 import type {Octokit} from "@octokit/rest";
+import type {Context} from "./types";
 
 const IGNORE_OTA_WORKFLOW_LABEL = "ignore-ota-workflow";
 
