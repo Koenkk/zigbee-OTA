@@ -1,16 +1,15 @@
 import {copyFileSync, existsSync, mkdirSync, readFileSync, renameSync, rmSync} from "node:fs";
 import path from "node:path";
 import type * as CoreApi from "@actions/core";
-import type {Context} from "@actions/github/lib/context";
 import {afterAll, afterEach, beforeAll, beforeEach, describe, expect, it, type MockInstance, vi} from "vitest";
-import * as common from "../src/common";
+import * as common from "../src/common.js";
 import {
     NOT_IN_BASE_MANIFEST_IMAGES_DIR,
     NOT_IN_MANIFEST_FILENAME,
     NOT_IN_PREV_MANIFEST_IMAGES_DIR,
     reProcessAllImages,
-} from "../src/ghw_reprocess_all_images";
-import type {RepoImageMeta} from "../src/types";
+} from "../src/ghw_reprocess_all_images.js";
+import type {Context, RepoImageMeta} from "../src/types.js";
 import {
     BASE_IMAGES_TEST_DIR_PATH,
     getAdjustedContent,
@@ -26,7 +25,7 @@ import {
     PREV_IMAGES_TEST_DIR_PATH,
     useImage,
     withExtraMetas,
-} from "./data.test";
+} from "./data.test.js";
 
 /** not used */
 const github = {};

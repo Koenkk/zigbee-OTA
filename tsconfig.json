@@ -2,8 +2,8 @@
     "compilerOptions": {
         "rootDir": "src",
         "outDir": "dist",
-        "module": "ESNext",
-        "moduleResolution": "bundler",
+        "module": "nodenext",
+        "moduleResolution": "nodenext",
         "target": "ESNext",
         "lib": ["ESNext"],
         "types": ["node"],

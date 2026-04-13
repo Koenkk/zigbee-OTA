@@ -16,7 +16,7 @@ import {
 } from "./common.js";
 import {getChangedOtaFiles} from "./ghw_get_changed_ota_files.js";
 import {processOtaFiles} from "./ghw_process_ota_files.js";
-import type {Context} from "./types";
+import type {Context} from "./types.js";
 
 function throwError(comment: string): void {
     writeFileSync(PR_ARTIFACT_ERROR_FILEPATH, comment);

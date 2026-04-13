@@ -1,7 +1,6 @@
-// Was originally imported from `@actions/github/lib/context` but this
-// path is not exported by the library.
-import type {context as _githubContext} from "@actions/github";
-export type Context = typeof _githubContext;
+// XXX: workaround, `Context` no longer exported in v9+
+import type {context as githubContext} from "@actions/github";
+export type Context = typeof githubContext;
 
 //-- Copied from ZHC
 export interface Version {

@@ -23,7 +23,7 @@ import {
     UPGRADE_FILE_IDENTIFIER,
     writeManifest,
 } from "./common.js";
-import type {Context, RepoImageMeta} from "./types";
+import type {Context, RepoImageMeta} from "./types.js";
 
 /** These are now handled by autodl */
 const IGNORE_3RD_PARTIES = ["https://github.com/fairecasoimeme/", "https://github.com/xyzroe/"];

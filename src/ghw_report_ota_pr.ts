@@ -4,7 +4,7 @@ import type * as CoreApi from "@actions/core";
 import type {Octokit} from "@octokit/rest";
 
 import {execute, PR_ARTIFACT_DIR, PR_DIFF_FILENAME, PR_ERROR_FILENAME, PR_NUMBER_FILENAME} from "./common.js";
-import type {Context} from "./types";
+import type {Context} from "./types.js";
 
 export async function reportOtaPR(github: Octokit, core: typeof CoreApi, context: Context): Promise<void> {
     assert(context.payload.workflow_run, "Not a workflow run");
