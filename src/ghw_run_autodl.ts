@@ -1,9 +1,9 @@
 import {existsSync, mkdirSync, rmSync} from "node:fs";
 import type * as CoreApi from "@actions/core";
-import type {Context} from "@actions/github/lib/context";
 import type {Octokit} from "@octokit/rest";
 
 import {ALL_AUTODL_MANUFACTURERS, BASE_INDEX_MANIFEST_FILENAME, CACHE_DIR, PREV_INDEX_MANIFEST_FILENAME, TMP_DIR, writeManifest} from "./common.js";
+import type {Context} from "./types.js";
 
 export async function runAutodl(_github: Octokit, core: typeof CoreApi, _context: Context, manufacturersCSV?: string): Promise<void> {
     const manufacturers = manufacturersCSV ? manufacturersCSV.trim().split(",") : ALL_AUTODL_MANUFACTURERS;

@@ -1,3 +1,7 @@
+// XXX: workaround, `Context` no longer exported in v9+
+import type {context as githubContext} from "@actions/github";
+export type Context = typeof githubContext;
+
 //-- Copied from ZHC
 export interface Version {
     imageType: number;

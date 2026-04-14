@@ -1,6 +1,6 @@
 import {existsSync} from "node:fs";
 import {join} from "node:path";
-import {BASE_INDEX_MANIFEST_FILENAME, BASE_REPO_URL, PREV_INDEX_MANIFEST_FILENAME, REPO_BRANCH, readManifest} from "./common";
+import {BASE_INDEX_MANIFEST_FILENAME, BASE_REPO_URL, PREV_INDEX_MANIFEST_FILENAME, REPO_BRANCH, readManifest} from "./common.js";
 
 const baseManifest = readManifest(BASE_INDEX_MANIFEST_FILENAME);
 

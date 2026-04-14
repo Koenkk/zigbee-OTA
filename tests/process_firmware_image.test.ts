@@ -1,8 +1,8 @@
 import {existsSync, mkdirSync, readFileSync, rmSync} from "node:fs";
 import {afterAll, afterEach, beforeAll, beforeEach, describe, expect, it, type MockInstance, vi} from "vitest";
-import * as common from "../src/common";
-import {ProcessFirmwareImageStatus, processFirmwareImage} from "../src/process_firmware_image";
-import type {RepoImageMeta} from "../src/types";
+import * as common from "../src/common.js";
+import {ProcessFirmwareImageStatus, processFirmwareImage} from "../src/process_firmware_image.js";
+import type {RepoImageMeta} from "../src/types.js";
 import {
     BASE_IMAGES_TEST_DIR_PATH,
     getAdjustedContent,
@@ -20,7 +20,7 @@ import {
     PREV_IMAGES_TEST_DIR_PATH,
     useImage,
     withExtraMetas,
-} from "./data.test";
+} from "./data.test.js";
 
 describe("Process Firmware Image", () => {
     let baseManifest: RepoImageMeta[];

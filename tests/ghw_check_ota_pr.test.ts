@@ -1,12 +1,11 @@
 import {existsSync, readFileSync, rmSync, writeFileSync} from "node:fs";
 import path from "node:path";
 import type * as CoreApi from "@actions/core";
-import type {Context} from "@actions/github/lib/context";
 import type {Octokit} from "@octokit/rest";
 import {afterAll, afterEach, beforeAll, beforeEach, describe, expect, it, type MockInstance, vi} from "vitest";
-import * as common from "../src/common";
-import {checkOtaPR} from "../src/ghw_check_ota_pr";
-import type {RepoImageMeta} from "../src/types";
+import * as common from "../src/common.js";
+import {checkOtaPR} from "../src/ghw_check_ota_pr.js";
+import type {Context, RepoImageMeta} from "../src/types.js";
 import {
     BASE_IMAGES_TEST_DIR_PATH,
     getAdjustedContent,
@@ -29,7 +28,7 @@ import {
     PREV_IMAGES_TEST_DIR_PATH,
     useImage,
     withExtraMetas,
-} from "./data.test";
+} from "./data.test.js";
 
 const github = {
     rest: {

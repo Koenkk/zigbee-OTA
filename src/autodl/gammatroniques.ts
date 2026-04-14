@@ -64,7 +64,7 @@ export async function download(): Promise<void> {
 
         const appUrl: ImagesJsonBuildPart | undefined = page.builds[0].parts.find((part) => part.type === "app");
 
-        if (!appUrl || !appUrl.ota) {
+        if (!appUrl?.ota) {
             console.error(`${logPrefix} No image found.`);
             continue;
         }

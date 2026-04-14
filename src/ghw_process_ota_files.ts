@@ -2,7 +2,6 @@ import assert from "node:assert";
 import {readFileSync, renameSync} from "node:fs";
 import path from "node:path";
 import type * as CoreApi from "@actions/core";
-import type {Context} from "@actions/github/lib/context";
 import type {Octokit} from "@octokit/rest";
 import {
     addImageToBase,
@@ -17,7 +16,7 @@ import {
     parseImageHeader,
     UPGRADE_FILE_IDENTIFIER,
 } from "./common.js";
-import type {ExtraMetas, GHExtraMetas, RepoImageMeta} from "./types.js";
+import type {Context, ExtraMetas, GHExtraMetas, RepoImageMeta} from "./types.js";
 
 const GLEDOPTO_MANUFACTURER_CODE = 4687;
 const TUYA_MANUFACTURER_CODE_1 = 4098;

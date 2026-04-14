@@ -1,9 +1,9 @@
 import assert from "node:assert";
 import type * as CoreApi from "@actions/core";
-import type {Context} from "@actions/github/lib/context";
 import type {Octokit} from "@octokit/rest";
 
 import {BASE_IMAGES_DIR} from "./common.js";
+import type {Context} from "./types.js";
 
 export async function getChangedOtaFiles(
     github: Octokit,
