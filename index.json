@@ -9546,5 +9546,15 @@
     "manufacturerCode": 5127,
     "sha512": "0f4fa0b764ccc46d414b9ff0731b418a00552c1ab524a7f56677fa820087d209f652a1eacdc15c3e0eed7840296f79e5c9fbbe1fa36bf5cebb565b020e39e299",
     "otaHeaderString": "temp_humi_sensor"
+  },
+  {
+    "fileName": "hue-secure-contact-ota_t0x0125_m0x100b_v0x02005501.ota",
+    "fileVersion": 33576193,
+    "fileSize": 196934,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/hue-secure-contact-ota_t0x0125_m0x100b_v0x02005501.ota",
+    "imageType": 293,
+    "manufacturerCode": 4107,
+    "sha512": "72503079544bc2e4fca09bbce55f50b9dcb758553bbc16724dee9a59876b7b647ec8caecb6daa64654790f4c892448bcfdeb5e9e03865920f95530c639e0120e",
+    "otaHeaderString": ""
   }
 ]
