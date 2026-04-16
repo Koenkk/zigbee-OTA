@@ -3250,17 +3250,6 @@
     "otaHeaderString": "FIRMWARE"
   },
   {
-    "fileName": "Smart_Presence_Sensor_R2_v1.00.15.ota",
-    "fileVersion": 15,
-    "fileSize": 288610,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/Smart_Presence_Sensor_R2_v1.00.15.ota",
-    "imageType": 54201,
-    "manufacturerCode": 5127,
-    "sha512": "71b58fdaec208347720c3d5b1e6b29ad1206c9955f7bc8f0d16dd41f53d7d54d43db42a8fdf12eeb511f7ecbf8012018853436bcda0591a4a7d20e1b7670619e",
-    "otaHeaderString": "temp_humi_sensor",
-    "modelId": "3RPS01083Z"
-  },
-  {
     "fileName": "100B-012F-01000600-Switch-SiMG301.zigbee",
     "fileVersion": 16778752,
     "fileSize": 983900,
@@ -3302,5 +3291,16 @@
     "manufacturerCode": 5127,
     "sha512": "227e540165479cfac853f9dd0c03b58a4c506bb491b29e62279771a69fb081eb52c2dbc5086c87cf4d90587141f0e4d083baa5e187341918add4b72501dfc76e",
     "otaHeaderString": "temp_humi_sensor"
+  },
+  {
+    "fileName": "Smart_Presence_Sensor_R2_v1.00.19.ota",
+    "fileVersion": 19,
+    "fileSize": 288582,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/Smart_Presence_Sensor_R2_v1.00.19.ota",
+    "imageType": 54201,
+    "manufacturerCode": 5127,
+    "sha512": "b3119f590b246b8994cbd8c2edd756f0d0c86f303259b6a8c2c284a174f8d6b697fea1e3679d008910e0ba856f1f2109b2e2503de62038ad6d324bc41ea126a3",
+    "otaHeaderString": "temp_humi_sensor",
+    "modelId": "3RPS01083Z"
   }
 ]

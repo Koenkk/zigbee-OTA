@@ -9351,17 +9351,6 @@
     "releaseNotes": "Fixes unwanted control from remotes"
   },
   {
-    "fileName": "Smart_Presence_Sensor_R2_v1.00.19.ota",
-    "fileVersion": 19,
-    "fileSize": 288582,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Smart_Presence_Sensor_R2_v1.00.19.ota",
-    "imageType": 54201,
-    "manufacturerCode": 5127,
-    "sha512": "b3119f590b246b8994cbd8c2edd756f0d0c86f303259b6a8c2c284a174f8d6b697fea1e3679d008910e0ba856f1f2109b2e2503de62038ad6d324bc41ea126a3",
-    "otaHeaderString": "temp_humi_sensor",
-    "modelId": "3RPS01083Z"
-  },
-  {
     "fileName": "ZB21S3_EcoDim_BV_eco-dim.07_zi.rSwitch_ZB3.0_4.03_O9_20260210.ota",
     "fileVersion": 9,
     "fileSize": 283958,
@@ -9556,5 +9545,16 @@
     "manufacturerCode": 4107,
     "sha512": "72503079544bc2e4fca09bbce55f50b9dcb758553bbc16724dee9a59876b7b647ec8caecb6daa64654790f4c892448bcfdeb5e9e03865920f95530c639e0120e",
     "otaHeaderString": ""
+  },
+  {
+    "fileName": "Smart_Presence_Sensor_R2_v1.00.20.ota",
+    "fileVersion": 20,
+    "fileSize": 288654,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Smart_Presence_Sensor_R2_v1.00.20.ota",
+    "imageType": 54201,
+    "manufacturerCode": 5127,
+    "sha512": "9812a5d4152e44e44c7a1e7aac35c299838336ccd0a9c668b81632a1eaef98aba90eed0986d6d164f65bb60bde59940acc4c5337bf32b878f645ffb4cacb9517",
+    "otaHeaderString": "temp_humi_sensor",
+    "modelId": "3RPS01083Z"
   }
 ]
