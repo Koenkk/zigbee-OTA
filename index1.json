@@ -3302,5 +3302,25 @@
     "sha512": "b3119f590b246b8994cbd8c2edd756f0d0c86f303259b6a8c2c284a174f8d6b697fea1e3679d008910e0ba856f1f2109b2e2503de62038ad6d324bc41ea126a3",
     "otaHeaderString": "temp_humi_sensor",
     "modelId": "3RPS01083Z"
+  },
+  {
+    "fileName": "128b-0022-000B_nodon_sem_4_1_00_V010011.ota",
+    "fileVersion": 11,
+    "fileSize": 219820,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/NodOn/128b-0022-000B_nodon_sem_4_1_00_V010011.ota",
+    "imageType": 34,
+    "manufacturerCode": 4747,
+    "sha512": "d7073e0b115ad7dafe8210ddad78bbbf01169f80cb3d789343f8eba7b976429d8a3d0b394e68faf474e12aba77a510c326af0559cf9b84162d60fc4983493b0b",
+    "otaHeaderString": ""
+  },
+  {
+    "fileName": "128b-4002-010600-nodon_irb-4-1-00_fw_V010600.zigbee",
+    "fileVersion": 17197616,
+    "fileSize": 155734,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/NodOn/128b-4002-010600-nodon_irb-4-1-00_fw_V010600.zigbee",
+    "imageType": 16386,
+    "manufacturerCode": 4747,
+    "sha512": "d2a350be20dd1d3c46a1d26d505b6dbbe5c6fd0894d048f99cd09946ed109163bab8883cded8a9882af6f19dff726232cc2c1066b26ea98b131b7b4d53d9d717",
+    "otaHeaderString": "EBL Remotec_IR"
   }
 ]

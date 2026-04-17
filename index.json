@@ -3646,16 +3646,6 @@
     "otaHeaderString": "p2022_HSP_dc_fw_efr32"
   },
   {
-    "fileName": "128b-4002-010600-nodon_irb-4-1-00_fw_V010600.zigbee",
-    "fileVersion": 17197616,
-    "fileSize": 155734,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/NodOn/128b-4002-010600-nodon_irb-4-1-00_fw_V010600.zigbee",
-    "imageType": 16386,
-    "manufacturerCode": 4747,
-    "sha512": "d2a350be20dd1d3c46a1d26d505b6dbbe5c6fd0894d048f99cd09946ed109163bab8883cded8a9882af6f19dff726232cc2c1066b26ea98b131b7b4d53d9d717",
-    "otaHeaderString": "EBL Remotec_IR"
-  },
-  {
     "fileName": "ZLL_MK_0x01020509_CLA60_TW.ota",
     "fileVersion": 16909577,
     "fileSize": 133444,
@@ -6820,16 +6810,6 @@
     "otaHeaderString": "nodon_sin_efr32_ota"
   },
   {
-    "fileName": "128b-0022-000B_nodon_sem_4_1_00_V010011.ota",
-    "fileVersion": 11,
-    "fileSize": 219820,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/NodOn/128b-0022-000B_nodon_sem_4_1_00_V010011.ota",
-    "imageType": 34,
-    "manufacturerCode": 4747,
-    "sha512": "d7073e0b115ad7dafe8210ddad78bbbf01169f80cb3d789343f8eba7b976429d8a3d0b394e68faf474e12aba77a510c326af0559cf9b84162d60fc4983493b0b",
-    "otaHeaderString": ""
-  },
-  {
     "fileName": "128b-0102-030103-700_nodon_sin_4_2_20_fw_power_V030103.zigbee",
     "fileVersion": 196867,
     "fileSize": 47452,
@@ -9556,5 +9536,25 @@
     "sha512": "9812a5d4152e44e44c7a1e7aac35c299838336ccd0a9c668b81632a1eaef98aba90eed0986d6d164f65bb60bde59940acc4c5337bf32b878f645ffb4cacb9517",
     "otaHeaderString": "temp_humi_sensor",
     "modelId": "3RPS01083Z"
+  },
+  {
+    "fileName": "128b-0022-000B_nodon_sem_4_1_00_V010015.ota",
+    "fileVersion": 15,
+    "fileSize": 219812,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/NodOn/128b-0022-000B_nodon_sem_4_1_00_V010015.ota",
+    "imageType": 34,
+    "manufacturerCode": 4747,
+    "sha512": "9fdef2e260af34f928a7b210f37a7bebdec02fe5774a4664a132053c30ee2e843efa09dea65824b79b6adbee1c210462c527f93b6ed20adc406dff4f3676a290",
+    "otaHeaderString": ""
+  },
+  {
+    "fileName": "128b-4002-020700-nodon_irb-4-1-00_fw_V020700.zigbee",
+    "fileVersion": 34040368,
+    "fileSize": 154442,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/NodOn/128b-4002-020700-nodon_irb-4-1-00_fw_V020700.zigbee",
+    "imageType": 16386,
+    "manufacturerCode": 4747,
+    "sha512": "24e58233649dea4a4881e9355d88472ee2540df8c740073198df91244c89d1082c2162d721ed64da494be112fee6c92f561156959e1e15ca5e35ac041d93044b",
+    "otaHeaderString": "EBL Remotec_IR"
   }
 ]
