@@ -7463,18 +7463,6 @@
     "maxFileVersion": 33559295
   },
   {
-    "fileName": "100B-0116-02004D27-Switch-EFR32MG13.zigbee",
-    "fileVersion": 33574183,
-    "fileSize": 235434,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-0116-02004D27-Switch-EFR32MG13.zigbee",
-    "imageType": 278,
-    "manufacturerCode": 4107,
-    "sha512": "aa7c8ffcc189cf32f7a2096fe2e9fdb6c35765d0a08f9558ffff646de8d33b8233c161491be2f959f11e1b60111746406a5f27b0f8aa805589ce784656b5c5df",
-    "otaHeaderString": "",
-    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_0116/37d5e444-b304-423e-a2bb-27e74a263726/100B-0116-02004D27-Switch-EFR32MG13.zigbee",
-    "minFileVersion": 33559296
-  },
-  {
     "fileName": "100B-0117-01000B00-ConfLightBLE-ModuLum-EFR32MG21.zigbee",
     "fileVersion": 16780032,
     "fileSize": 300890,
@@ -7537,18 +7525,6 @@
     "maxFileVersion": 33562879
   },
   {
-    "fileName": "100B-0119-02004D27-Switch-EFR32MG22.zigbee",
-    "fileVersion": 33574183,
-    "fileSize": 202986,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-0119-02004D27-Switch-EFR32MG22.zigbee",
-    "imageType": 281,
-    "manufacturerCode": 4107,
-    "sha512": "0c4bc737a5ea23a9c4fac34f2a2b90308fad1a6ca2e9068519ecaeb623eb3a540e61e96c18b803c46aca968be03d4ad03ed65d70a51f9a2eb16c2dce15ce4beb",
-    "otaHeaderString": "",
-    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_0119/d9e42e82-ed2d-4b98-82fa-f0217e5895d2/100B-0119-02004D27-Switch-EFR32MG22.zigbee",
-    "minFileVersion": 33562880
-  },
-  {
     "fileName": "100B-011A-01000400-SmartPlug-EFR32MG21.zigbee",
     "fileVersion": 16778240,
     "fileSize": 272454,
@@ -7600,17 +7576,6 @@
     "maxFileVersion": 16781059
   },
   {
-    "fileName": "100B-011C-02004D23-SwitchModule-EFR32MG13.zigbee",
-    "fileVersion": 33574179,
-    "fileSize": 227550,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-011C-02004D23-SwitchModule-EFR32MG13.zigbee",
-    "imageType": 284,
-    "manufacturerCode": 4107,
-    "sha512": "aa5b10bdf5910581f1c02e29ef994546d14b7d9be536977d666fcf0af7392db86783478a5d57802e1f320c2235a80d9cf959f6ca2f117c64534b6f24e76292b2",
-    "otaHeaderString": "",
-    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_011C/f8e8feb9-b5b5-4e46-b09d-59c2f2f23efb/100B-011C-02004D23-SwitchModule-EFR32MG13.zigbee"
-  },
-  {
     "fileName": "100B-011D-01002504-ConfLight-ModuLumV2-EFR32MG13.zigbee",
     "fileVersion": 16786692,
     "fileSize": 485542,
@@ -7645,17 +7610,6 @@
     "otaHeaderString": "",
     "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_011F/f88abe86-a753-417f-b6e9-772a7a15e84a/100B-011F-01002402-ConfLightBLE-ModuLumV3-EFR32MG21.zigbee",
     "maxFileVersion": 16786433
-  },
-  {
-    "fileName": "100B-0122-02004D23-SwitchModule-EFR32MG22.zigbee",
-    "fileVersion": 33574179,
-    "fileSize": 197206,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-0122-02004D23-SwitchModule-EFR32MG22.zigbee",
-    "imageType": 290,
-    "manufacturerCode": 4107,
-    "sha512": "12c72c104444768ad8af52eb699e51f72726da24338fa6b24df0a0f2bd042a5cb4e193e838b9c38826d1debe81f612e27130e5b5dd75de31a9d55ebd99ec4045",
-    "otaHeaderString": "",
-    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_0122/b839c65f-9ee0-4cb5-94e4-8063b92bcb01/100B-0122-02004D23-SwitchModule-EFR32MG22.zigbee"
   },
   {
     "fileName": "100B-0125-02004301-ContactSensor-EFR32MG22.zigbee",
@@ -7694,18 +7648,6 @@
     "maxFileVersion": 1107326255
   },
   {
-    "fileName": "LivingColors-Atmel-Target_0012.sbl-ota",
-    "fileVersion": 1124103171,
-    "fileSize": 256696,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/LivingColors-Atmel-Target_0012.sbl-ota",
-    "imageType": 264,
-    "manufacturerCode": 4107,
-    "sha512": "5c0736a0d4f191a214a209fca6a1984a5ca2caa073b79dccc3ea62cfb0dd4b6755d92770f49bdc904ddafaa586a65d8b71160f74420ff937007f79f5cc477389",
-    "otaHeaderString": "",
-    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_0108/a2470745-062a-4159-adc5-5162080aacb5/LivingColors-Atmel-Target_0012.sbl-ota",
-    "minFileVersion": 1107326256
-  },
-  {
     "fileName": "LivingColors-Target_0108_5.130.1.30000_0012.sbl-ota",
     "fileVersion": 1107326256,
     "fileSize": 256632,
@@ -7730,17 +7672,6 @@
     "maxFileVersion": 1107326255
   },
   {
-    "fileName": "Sensor-ATmega_0012.sbl-ota",
-    "fileVersion": 1124102917,
-    "fileSize": 240760,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/Sensor-ATmega_0012.sbl-ota",
-    "imageType": 269,
-    "manufacturerCode": 4107,
-    "sha512": "ba7cc0e3632c1f6c50ccb6f3a33ee44947de643425743c35657ce34dae3c0c9c45d48b05479b1183fcb9f1572df68d9d5b8c6f2f0a86c72d095773e817e8147f",
-    "otaHeaderString": "",
-    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_010D/fa14f094-f99f-497d-9bd5-cc2742b2cb69/Sensor-ATmega_0012.sbl-ota"
-  },
-  {
     "fileName": "Superman_v3_08_ProdKey_3080.ota",
     "fileVersion": 3080,
     "fileSize": 232594,
@@ -7750,17 +7681,6 @@
     "sha512": "eb1e76825aca6a6418042d71821921d4c073aa1ada0d52eaffd967ce2ccba7a5dda07a6caab70f19b3a2f9630d43b055c06d16050101b655413ba271375bea57",
     "otaHeaderString": "EBL Z3SwitchSoc",
     "originalUrl": "https://otau.meethue.com/storage/ZGB_1144_0000/04071b69-217b-4d73-8cf3-367ed2dc7ca8/Superman_v3_08_ProdKey_3080.ota"
-  },
-  {
-    "fileName": "Switch-ATmega_0012.sbl-ota",
-    "fileVersion": 1124102917,
-    "fileSize": 240760,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/Switch-ATmega_0012.sbl-ota",
-    "imageType": 265,
-    "manufacturerCode": 4107,
-    "sha512": "6bec6b6dce7ef9bb47c4467643222871788256d5c3f0aa88ded80be24fc002dbdda525ca2cafa78b996ff7fe0c18d7c9194288e4f6b40f0f37d147bc1724dd4e",
-    "otaHeaderString": "",
-    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_0109/3a1c8cf8-3f4c-4464-93f0-24cc7f67f0d7/Switch-ATmega_0012.sbl-ota"
   },
   {
     "fileName": "WhiteLamp-Atmel-Target_0105_5.130.1.30000_0012.sbl-ota",
@@ -7785,66 +7705,6 @@
     "sha512": "39c58e26eec6708e8a4dc6263903b640a808c3104db7877fae6fe7461ccb76f454aec288d3629ddbc3d70f5a17b964b382dc548c7c6d67a57957a3d68a08cfa6",
     "otaHeaderString": "",
     "minFileVersion": 16786946
-  },
-  {
-    "fileName": "100B-0112-01002B02-ConfLightBLE-Lamps-EFR32MG13.zigbee",
-    "fileVersion": 16788226,
-    "fileSize": 478598,
-    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_0112/d4faae8c-26f9-4f0b-a03d-5f563e160f59/100B-0112-01002B02-ConfLightBLE-Lamps-EFR32MG13.zigbee",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-0112-01002B02-ConfLightBLE-Lamps-EFR32MG13.zigbee",
-    "imageType": 274,
-    "manufacturerCode": 4107,
-    "sha512": "69f366711806331acc0dbc0a944f193feff9494c39854e4394bfdd6923a6b00698238c8046ab4843e65279365a7058a585126c47cac4bdc36d040d4a28f4eb23",
-    "otaHeaderString": "",
-    "minFileVersion": 16787714
-  },
-  {
-    "fileName": "100B-0114-01002702-ConfLightBLE-Lamps-EFR32MG21.zigbee",
-    "fileVersion": 16787202,
-    "fileSize": 535948,
-    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_0114/284b2125-d925-4769-9d8e-5c1ca5e364dd/100B-0114-01002702-ConfLightBLE-Lamps-EFR32MG21.zigbee",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-0114-01002702-ConfLightBLE-Lamps-EFR32MG21.zigbee",
-    "imageType": 276,
-    "manufacturerCode": 4107,
-    "sha512": "b9f2a30c712c24c421bb33d65f251e84a4e1af0cd24eb34a21b7835c7ed4b359e5d5af3366fca3c3c216566d6514d7ef53e0b8a34b135172245ec9648491fb03",
-    "otaHeaderString": "",
-    "minFileVersion": 16786690
-  },
-  {
-    "fileName": "100B-0115-01001502-SmartPlug-EFR32MG13.zigbee",
-    "fileVersion": 16782594,
-    "fileSize": 413774,
-    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_0115/5dcc1ce3-e4ad-412f-a0c7-d9b3b631b97b/100B-0115-01001502-SmartPlug-EFR32MG13.zigbee",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-0115-01001502-SmartPlug-EFR32MG13.zigbee",
-    "imageType": 277,
-    "manufacturerCode": 4107,
-    "sha512": "49197d65bb9595fbd4a81b52ad1e858d092a41a26c257f484d93a2d828cddbe954b02204522c0861330ec19fec0549d7d3f2146c0f99b6bd77791dc654faa0c2",
-    "otaHeaderString": "",
-    "minFileVersion": 16782338
-  },
-  {
-    "fileName": "100B-011A-01001002-SmartPlug-EFR32MG21.zigbee",
-    "fileVersion": 16781314,
-    "fileSize": 348372,
-    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_011A/22c14119-ebd3-43be-91f5-5257541e79fe/100B-011A-01001002-SmartPlug-EFR32MG21.zigbee",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-011A-01001002-SmartPlug-EFR32MG21.zigbee",
-    "imageType": 282,
-    "manufacturerCode": 4107,
-    "sha512": "9e54f10094bde076bfae5078a6abec604acb46920a26bb683801fec43afeca013b66992f6c814c9f0de558f9ffffe8f151cf8170e997662285472fd1db23b2c9",
-    "otaHeaderString": "",
-    "minFileVersion": 16781060
-  },
-  {
-    "fileName": "100B-011D-01002702-ConfLight-ModuLumV2-EFR32MG13.zigbee",
-    "fileVersion": 16787202,
-    "fileSize": 490934,
-    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_011D/7ad85d23-aeb3-41a7-95df-8b36341598df/100B-011D-01002702-ConfLight-ModuLumV2-EFR32MG13.zigbee",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-011D-01002702-ConfLight-ModuLumV2-EFR32MG13.zigbee",
-    "imageType": 285,
-    "manufacturerCode": 4107,
-    "sha512": "c701ac97678f06dafe17b7b52c000d31bb70aff9d01569bfedf37cf58d3c03bbb53d5d48e238871273de56aa5f628edaeebeb9f44b0cd760a376ac0d13eb6833",
-    "otaHeaderString": "",
-    "minFileVersion": 16786692
   },
   {
     "fileName": "100B-011E-01002502-ConfLight-PortableV2-EFR32MG13.zigbee",
@@ -7915,54 +7775,6 @@
     "otaHeaderString": ""
   },
   {
-    "fileName": "100B-010C-01002900-ConfLight-Lamps_0012.zigbee",
-    "fileVersion": 16787712,
-    "fileSize": 266684,
-    "originalUrl": "https://otau.meethue.com/storage/zgb_100b_010c/7547f504-7711-47e9-8564-219d31eabeb4/100B-010C-01002900-ConfLight-Lamps_0012.zigbee",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-010C-01002900-ConfLight-Lamps_0012.zigbee",
-    "imageType": 268,
-    "manufacturerCode": 4107,
-    "sha512": "b49b383eb92c7c7afcf6ef49938db4f7f1b551daca9de2de2ea910d9aed395085032061631adaeb60b4d32fbcaf30468300a5e3117d431d8c9a1f65c24c269aa",
-    "otaHeaderString": "",
-    "minFileVersion": 16783874
-  },
-  {
-    "fileName": "100B-010E-01002700-ConfLight-ModuLum_0012.zigbee",
-    "fileVersion": 16787200,
-    "fileSize": 269002,
-    "originalUrl": "https://otau.meethue.com/storage/zgb_100b_010e/aec9e571-c648-4d16-8027-6e9ee8080129/100B-010E-01002700-ConfLight-ModuLum_0012.zigbee",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-010E-01002700-ConfLight-ModuLum_0012.zigbee",
-    "imageType": 270,
-    "manufacturerCode": 4107,
-    "sha512": "069a87458f84453da1936e2dfb8373a7df719c926b611a0c4e32fc1a18f20c1ce3e1e79ca1252d3941738e31f11215b45c5e0758efbd501d4c7395a68998079a",
-    "otaHeaderString": "",
-    "minFileVersion": 16783620
-  },
-  {
-    "fileName": "100B-010F-01001800-ConfLight-LedStrips_0012.zigbee",
-    "fileVersion": 16783360,
-    "fileSize": 250762,
-    "originalUrl": "https://otau.meethue.com/storage/zgb_100b_010f/a3427d6b-8fff-450d-b85e-cfc09bad3f20/100B-010F-01001800-ConfLight-LedStrips_0012.zigbee",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-010F-01001800-ConfLight-LedStrips_0012.zigbee",
-    "imageType": 271,
-    "manufacturerCode": 4107,
-    "sha512": "85875d504466f9950b9ae6399abeb5a7bfd8230714384cc7a3186e32707ec6c290314e2f426ecfe3a91a892f4c2265d9a51d423668e6e53be62c33eb13cbb9b5",
-    "otaHeaderString": "",
-    "minFileVersion": 16779778
-  },
-  {
-    "fileName": "ConnectedLamp-Atmel-Target_0012_1.sbl-ota",
-    "fileVersion": 1124103176,
-    "fileSize": 256696,
-    "originalUrl": "https://otau.meethue.com/storage/zgb_100b_0104/702d5dc4-a6a7-4bbc-b411-cfab75c5cbea/ConnectedLamp-Atmel-Target_0012.sbl-ota",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/ConnectedLamp-Atmel-Target_0012_1.sbl-ota",
-    "imageType": 260,
-    "manufacturerCode": 4107,
-    "sha512": "a4ab8e80660e08a44d8205e8b5a5a2ce0db97f78ea9239b31de3d608ed1c38bf726c94a18420ac2285e9e110bedccd1b3a7a60ea4bdb98f15cda2d93822bd565",
-    "otaHeaderString": "",
-    "minFileVersion": 1107326256
-  },
-  {
     "fileName": "ConnectedLamp-TI-Target_0012_1.sbl-ota",
     "fileVersion": 1124103178,
     "fileSize": 258104,
@@ -7983,42 +7795,6 @@
     "manufacturerCode": 4107,
     "sha512": "ef34b196b4ef74a8f2e1a36123175f481685163569386e4252766b3f0b22a2411e3df0e41d630e5c8cd031ae2befcee054b859ba3fb5176e1adb5a49d62d241f",
     "otaHeaderString": ""
-  },
-  {
-    "fileName": "ModuLum-ATmega_0012_1.sbl-ota",
-    "fileVersion": 1124103176,
-    "fileSize": 256696,
-    "originalUrl": "https://otau.meethue.com/storage/zgb_100b_010b/c5b4cc0b-dc67-4a3e-b7a6-564db3d507d8/ModuLum-ATmega_0012.sbl-ota",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/ModuLum-ATmega_0012_1.sbl-ota",
-    "imageType": 267,
-    "manufacturerCode": 4107,
-    "sha512": "821afb1f7b2edfa3fd00f5e7932ae26e32a479fc1f26b078201e2a24d71b2a0a4bd7653e97b24400a2de47ccd533621a52760fa3e0d26784e529945b7a0fa8ee",
-    "otaHeaderString": "",
-    "minFileVersion": 1107326256
-  },
-  {
-    "fileName": "WhiteLamp-Atmel-Target_0012_1.sbl-ota",
-    "fileVersion": 1124103176,
-    "fileSize": 256696,
-    "originalUrl": "https://otau.meethue.com/storage/zgb_100b_0105/3c2e855f-cdf8-493d-9d06-e2d25d1b3dc7/WhiteLamp-Atmel-Target_0012.sbl-ota",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/WhiteLamp-Atmel-Target_0012_1.sbl-ota",
-    "imageType": 261,
-    "manufacturerCode": 4107,
-    "sha512": "f470784fd69d7f3401b725f24ce08a7488bc5c99a35d0b4ea31518610dacb758477e4ff515294e203ad54592888c799ec78076cd2ae1fccbb6f4b5a0b75edae9",
-    "otaHeaderString": "",
-    "minFileVersion": 1107326256
-  },
-  {
-    "fileName": "100B-011F-01002604-ConfLightBLE-ModuLumV3-EFR32MG21.zigbee",
-    "fileVersion": 16786948,
-    "fileSize": 448166,
-    "originalUrl": "https://firmware.meethue.com/storage/100b-11f/16786948/2156b806-4611-4193-b61f-7e25f1f9754d/100B-011F-01002604-ConfLightBLE-ModuLumV3-EFR32MG21.zigbee",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-011F-01002604-ConfLightBLE-ModuLumV3-EFR32MG21.zigbee",
-    "imageType": 287,
-    "manufacturerCode": 4107,
-    "sha512": "3bc59f38bae9ff9f8ad7672cb7931e3a4eb8405c3672bc5cdbb6962342a7aaefeaa4afdf3902c899f4b0c41bec780708b2131ecb1ceabd4461c484175f0e4a14",
-    "otaHeaderString": "",
-    "minFileVersion": 16786436
   },
   {
     "fileName": "100B-0117-01001D0E-ConfLightBLE-ModuLum-EFR32MG21.zigbee",
@@ -9556,5 +9332,264 @@
     "manufacturerCode": 4747,
     "sha512": "24e58233649dea4a4881e9355d88472ee2540df8c740073198df91244c89d1082c2162d721ed64da494be112fee6c92f561156959e1e15ca5e35ac041d93044b",
     "otaHeaderString": "EBL Remotec_IR"
+  },
+  {
+    "fileName": "100B-010C-01002A00-ConfLight-Lamps_0012.zigbee",
+    "fileVersion": 16787968,
+    "fileSize": 266684,
+    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_010C/556d5268-ba28-42eb-8035-25eb6b7f7126/100B-010C-01002A00-ConfLight-Lamps_0012.zigbee",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-010C-01002A00-ConfLight-Lamps_0012.zigbee",
+    "imageType": 268,
+    "manufacturerCode": 4107,
+    "sha512": "2592456e2173b816d8506e52d735ec21657ad11cf6feae364f3ba4b338fcc54f5c0dc919648f6a3a66003cf448106b9deea0cf83e37db2e40f4d44c43f86a87c",
+    "otaHeaderString": "",
+    "minFileVersion": 16783874
+  },
+  {
+    "fileName": "100B-010E-01002800-ConfLight-ModuLum_0012.zigbee",
+    "fileVersion": 16787456,
+    "fileSize": 269002,
+    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_010E/ac2f1d18-4fc4-4ca2-ae14-38e563ed5979/100B-010E-01002800-ConfLight-ModuLum_0012.zigbee",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-010E-01002800-ConfLight-ModuLum_0012.zigbee",
+    "imageType": 270,
+    "manufacturerCode": 4107,
+    "sha512": "f7247d851561cbce29798f4bb6e395b320843dad416bdfb120333085e703dcf2c5203664b778a0d05f686702e64f8f10660948cdac13a32fbad496895bb1de24",
+    "otaHeaderString": "",
+    "minFileVersion": 16783620
+  },
+  {
+    "fileName": "100B-010F-01001900-ConfLight-LedStrips_0012.zigbee",
+    "fileVersion": 16783616,
+    "fileSize": 250762,
+    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_010F/3dbc238a-2fd5-42e2-9200-68a6cea09905/100B-010F-01001900-ConfLight-LedStrips_0012.zigbee",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-010F-01001900-ConfLight-LedStrips_0012.zigbee",
+    "imageType": 271,
+    "manufacturerCode": 4107,
+    "sha512": "4b28d4c3a0c54f2910047b49c52e5b5dbbacc22267c7a605c97600e10e5a9cef106586b24c1a0d8a39b02b5f8ebfd5b1895ea9c5c6539f78eee182edc0cc22cb",
+    "otaHeaderString": "",
+    "minFileVersion": 16779778
+  },
+  {
+    "fileName": "100B-0112-01002C00-ConfLightBLE-Lamps-EFR32MG13.zigbee",
+    "fileVersion": 16788480,
+    "fileSize": 472538,
+    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_0112/a9443782-9e6a-47be-bdf1-c5f6457bff31/100B-0112-01002C00-ConfLightBLE-Lamps-EFR32MG13.zigbee",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-0112-01002C00-ConfLightBLE-Lamps-EFR32MG13.zigbee",
+    "imageType": 274,
+    "manufacturerCode": 4107,
+    "sha512": "8713ed858e3b3a3bbe33a0890482ee01d2cdb0ea793b3dcb223392a69ced35f76fe8e0233d72846bc828decd5a402f87b90b0e62cd35dbc81b2d3071d3dd2d2d",
+    "otaHeaderString": "",
+    "minFileVersion": 16787714
+  },
+  {
+    "fileName": "100B-0114-01002800-ConfLightBLE-Lamps-EFR32MG21.zigbee",
+    "fileVersion": 16787456,
+    "fileSize": 546914,
+    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_0114/13e95921-583d-4df7-a93f-fa39504347dd/100B-0114-01002800-ConfLightBLE-Lamps-EFR32MG21.zigbee",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-0114-01002800-ConfLightBLE-Lamps-EFR32MG21.zigbee",
+    "imageType": 276,
+    "manufacturerCode": 4107,
+    "sha512": "dbd0cedee45173559d2c6af697baaefd66ed560333624090043b907cd2ac21236362056961f9483457af1307444c04a89310ef5a5ff6ff5b35cfc3a1109c79e9",
+    "otaHeaderString": "",
+    "minFileVersion": 16786690
+  },
+  {
+    "fileName": "100B-0115-01001600-SmartPlug-EFR32MG13.zigbee",
+    "fileVersion": 16782848,
+    "fileSize": 408706,
+    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_0115/755bd649-3ae3-471f-9a0b-fd060d5e886d/100B-0115-01001600-SmartPlug-EFR32MG13.zigbee",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-0115-01001600-SmartPlug-EFR32MG13.zigbee",
+    "imageType": 277,
+    "manufacturerCode": 4107,
+    "sha512": "84498a68eb04090570040becec472152e6ac415abcaa05d44e4ad0a5771f0973330095de9bde43f6c485ed8c70a7ae3b1bf142cad11108200153f22534f4a224",
+    "otaHeaderString": "",
+    "minFileVersion": 16782338
+  },
+  {
+    "fileName": "100B-0116-02005501-Switch-EFR32MG13.zigbee",
+    "fileVersion": 33576193,
+    "fileSize": 239462,
+    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_0116/491b5201-32f4-4642-aea5-4c65d800819a/100B-0116-02005501-Switch-EFR32MG13.zigbee",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-0116-02005501-Switch-EFR32MG13.zigbee",
+    "imageType": 278,
+    "manufacturerCode": 4107,
+    "sha512": "3e8d304914ca531d3b78504ce821f6f15920b635c1b3cf18dac6922e1528e7efe7c71b778c25bc1ba0a18182332c2e06be25822da0bffedb08d18cee0fce3b8d",
+    "otaHeaderString": "",
+    "minFileVersion": 33559296
+  },
+  {
+    "fileName": "100B-0119-02005501-Switch-EFR32MG22.zigbee",
+    "fileVersion": 33576193,
+    "fileSize": 207290,
+    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_0119/a1ec971e-4504-4d0b-bcc1-83cd9ed6c623/100B-0119-02005501-Switch-EFR32MG22.zigbee",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-0119-02005501-Switch-EFR32MG22.zigbee",
+    "imageType": 281,
+    "manufacturerCode": 4107,
+    "sha512": "6678ca6bba6b057d32978d6ca461ffc9ead321ae1f947d38731d8e66c1778a98c01c0a05ecccab0a832c6106962a9fdb478634be817cfb1ba50d8c3bc37713ba",
+    "otaHeaderString": "",
+    "minFileVersion": 33562880
+  },
+  {
+    "fileName": "100B-011A-01001100-SmartPlug-EFR32MG21.zigbee",
+    "fileVersion": 16781568,
+    "fileSize": 358512,
+    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_011A/df68ee36-6b0f-4327-b927-062814360e4d/100B-011A-01001100-SmartPlug-EFR32MG21.zigbee",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-011A-01001100-SmartPlug-EFR32MG21.zigbee",
+    "imageType": 282,
+    "manufacturerCode": 4107,
+    "sha512": "1dd06e1043ad2c131abd3782543d956ab19b7c3e37ff0cfe82afb5e4598c3ce67c6a77597a05226ab68670ff871e2251c958c23dc7344c0f1023bcbb2cab4149",
+    "otaHeaderString": "",
+    "minFileVersion": 16781060
+  },
+  {
+    "fileName": "100B-011C-02005505-SwitchModule-EFR32MG13.zigbee",
+    "fileVersion": 33576197,
+    "fileSize": 230506,
+    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_011C/b6aaad37-7f51-4f57-adfe-a2cae173fafa/100B-011C-02005505-SwitchModule-EFR32MG13.zigbee",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-011C-02005505-SwitchModule-EFR32MG13.zigbee",
+    "imageType": 284,
+    "manufacturerCode": 4107,
+    "sha512": "b4603829db672476e10f6a19139bdda96d17cb36d56a94ac9063a95843267be0523146b68fcd2b1c2041b25fdd94e29a0a3c2b85361ecaa2baeff7eba4d68b5a",
+    "otaHeaderString": ""
+  },
+  {
+    "fileName": "100B-011D-01002800-ConfLight-ModuLumV2-EFR32MG13.zigbee",
+    "fileVersion": 16787456,
+    "fileSize": 484642,
+    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_011D/8574978a-f55b-459b-b850-e91b154ae69e/100B-011D-01002800-ConfLight-ModuLumV2-EFR32MG13.zigbee",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-011D-01002800-ConfLight-ModuLumV2-EFR32MG13.zigbee",
+    "imageType": 285,
+    "manufacturerCode": 4107,
+    "sha512": "991915606eb57b62b111dc450b0617f93721e90875d061abf97a63a79ff1465d2b31f2d158f8972e6d74b23ae1dceb5f096550f62afcfcac23662122554bdaf4",
+    "otaHeaderString": "",
+    "minFileVersion": 16786692
+  },
+  {
+    "fileName": "100B-011F-01002700-ConfLightBLE-ModuLumV3-EFR32MG21.zigbee",
+    "fileVersion": 16787200,
+    "fileSize": 458058,
+    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_011F/28b32aff-9c4b-4236-bb41-c032862013a4/100B-011F-01002700-ConfLightBLE-ModuLumV3-EFR32MG21.zigbee",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-011F-01002700-ConfLightBLE-ModuLumV3-EFR32MG21.zigbee",
+    "imageType": 287,
+    "manufacturerCode": 4107,
+    "sha512": "2dda0564576ad8f0e289bad154ec0586f98c0b7f5112eef203cc0043960a9d447334dfb01e405ad81419abd23bf3e41b3093552755aad5b5efbb756d169321d4",
+    "otaHeaderString": "",
+    "minFileVersion": 16786436
+  },
+  {
+    "fileName": "100B-0122-02005501-SwitchModule-EFR32MG22.zigbee",
+    "fileVersion": 33576193,
+    "fileSize": 200262,
+    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_0122/b0421279-11f1-48b8-8d95-e227c4a24a08/100B-0122-02005501-SwitchModule-EFR32MG22.zigbee",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-0122-02005501-SwitchModule-EFR32MG22.zigbee",
+    "imageType": 290,
+    "manufacturerCode": 4107,
+    "sha512": "6851da6d05714ecff280b15c58fd62a0be244f1fff3c4bec9dafa517e101d09f68612273870801729b2ba5902ec2f95f1fd1211022c54ef876f69998673ce992",
+    "otaHeaderString": ""
+  },
+  {
+    "fileName": "100B-0128-01000800-Chime-EFR32MG21.zigbee",
+    "fileVersion": 16779264,
+    "fileSize": 331354,
+    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_0128/7b8e8876-b5ce-4a2d-9c99-137ca22e9cfb/100B-0128-01000800-Chime-EFR32MG21.zigbee",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-0128-01000800-Chime-EFR32MG21.zigbee",
+    "imageType": 296,
+    "manufacturerCode": 4107,
+    "sha512": "e499a1c1d535fb4adeea03c20cd856120ea89e7b2a252914724ee2215fda5c4dbde72f9df09fc1e8ddddf9ea023272d2d2950dcf69445cbf9b0e317597fa0eac",
+    "otaHeaderString": "",
+    "maxFileVersion": 16779263
+  },
+  {
+    "fileName": "100B-0128-01000C00-Chime-EFR32MG21.zigbee",
+    "fileVersion": 16780288,
+    "fileSize": 929470,
+    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_0128/6012a966-1b44-4657-97f0-a7f6533ded94/100B-0128-01000C00-Chime-EFR32MG21.zigbee",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-0128-01000C00-Chime-EFR32MG21.zigbee",
+    "imageType": 296,
+    "manufacturerCode": 4107,
+    "sha512": "316b5e648df0f8b1ebf57eef39bd63642b82de8d6b4841d7dec17448addbe1fdf8aec98d3e2fe11d1f9893709d943ee893da85a6c6d97367182958f709a8ce61",
+    "otaHeaderString": "",
+    "minFileVersion": 16779264
+  },
+  {
+    "fileName": "100B-012B-02005501-Switch-EFR32MG27.zigbee",
+    "fileVersion": 33576193,
+    "fileSize": 230510,
+    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_012B/53f31561-01e8-4497-9100-768324195d36/100B-012B-02005501-Switch-EFR32MG27.zigbee",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-012B-02005501-Switch-EFR32MG27.zigbee",
+    "imageType": 299,
+    "manufacturerCode": 4107,
+    "sha512": "e21d8a6e7267dbf53ec5b56fb29e0081cec46542fd4b2284ab7d5f4d5b730cefd1ec0223f6094da80553e7055e04076f6113d8d419334617cf7fde94db5e1b3f",
+    "otaHeaderString": ""
+  },
+  {
+    "fileName": "ConnectedLamp-Atmel-Target_0012.sbl-ota",
+    "fileVersion": 1124103180,
+    "fileSize": 256696,
+    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_0104/9ee0489d-2a1c-49f9-8569-9d74054befa4/ConnectedLamp-Atmel-Target_0012.sbl-ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/ConnectedLamp-Atmel-Target_0012.sbl-ota",
+    "imageType": 260,
+    "manufacturerCode": 4107,
+    "sha512": "30a5717084b50f95ccb47641d0d127e138e9d3cf81f2317dc0137ef47aef485c2e0719cef85e998af030df452c3844899facaec0f33732fb175432cc0c02434c",
+    "otaHeaderString": "",
+    "minFileVersion": 1107326256
+  },
+  {
+    "fileName": "LivingColors-Atmel-Target_0012.sbl-ota",
+    "fileVersion": 1124103180,
+    "fileSize": 256696,
+    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_0108/21b8a824-5b37-4393-8d05-cdaa84ef7aeb/LivingColors-Atmel-Target_0012.sbl-ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/LivingColors-Atmel-Target_0012.sbl-ota",
+    "imageType": 264,
+    "manufacturerCode": 4107,
+    "sha512": "fe99dda29a0aaa166ed84a6b7bc11e77c04e63f73877e9d7e88c8d2dde35b3a72cb1fffd492bb319259b6081c94fbf0571c525d7d2b512dd96d9cbddd7005896",
+    "otaHeaderString": "",
+    "minFileVersion": 1107326256
+  },
+  {
+    "fileName": "ModuLum-ATmega_0012.sbl-ota",
+    "fileVersion": 1124103180,
+    "fileSize": 256696,
+    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_010B/4ffcc65d-0675-4327-9c60-55c715659da2/ModuLum-ATmega_0012.sbl-ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/ModuLum-ATmega_0012.sbl-ota",
+    "imageType": 267,
+    "manufacturerCode": 4107,
+    "sha512": "1ecae965c8e804ddf631426d84653d084e5c26b160c06abdb243193d51048122203e84693a65db0f333505913f68f8fa3be3f9b042a666d73c35544ee62674e6",
+    "otaHeaderString": "",
+    "minFileVersion": 1107326256
+  },
+  {
+    "fileName": "Sensor-ATmega_0012.sbl-ota",
+    "fileVersion": 1124103169,
+    "fileSize": 240760,
+    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_010D/9d7f5455-e599-4584-88db-d8163fb9ad94/Sensor-ATmega_0012.sbl-ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/Sensor-ATmega_0012.sbl-ota",
+    "imageType": 269,
+    "manufacturerCode": 4107,
+    "sha512": "3a4266047f88641f9d9706c2bfbde31f15698493203f66ba3281af4e6047829c593a45dc3ff10156d6920810e68d4e6a1bc0036749d012a3076e1fab24c734f0",
+    "otaHeaderString": ""
+  },
+  {
+    "fileName": "Switch-ATmega_0012.sbl-ota",
+    "fileVersion": 1124103169,
+    "fileSize": 240760,
+    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_0109/dc1ad3e4-5541-4664-a4eb-cd3602271708/Switch-ATmega_0012.sbl-ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/Switch-ATmega_0012.sbl-ota",
+    "imageType": 265,
+    "manufacturerCode": 4107,
+    "sha512": "5e846e5ba6f29a64a6ee1b287b24fe3f82a818797f0005dcb936992536a4432eb02b70d45559e95a7d5567a3292684c4cc68fe4c0d91e47c28603fe0e81bc3cd",
+    "otaHeaderString": ""
+  },
+  {
+    "fileName": "WhiteLamp-Atmel-Target_0012.sbl-ota",
+    "fileVersion": 1124103180,
+    "fileSize": 256696,
+    "originalUrl": "https://otau.meethue.com/storage/ZGB_100B_0105/aff7c28d-8b6c-4921-a616-63c74b576494/WhiteLamp-Atmel-Target_0012.sbl-ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/WhiteLamp-Atmel-Target_0012.sbl-ota",
+    "imageType": 261,
+    "manufacturerCode": 4107,
+    "sha512": "e42e7b440283185f6b73ed3bde46d88861e59d7c73a134ed619a3ee75467381cbd53d7a554b6e9be829a263342b33add51a149efc8193129a19d4c6bb173e019",
+    "otaHeaderString": "",
+    "minFileVersion": 1107326256
   }
 ]
