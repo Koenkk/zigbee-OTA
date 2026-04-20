@@ -163,16 +163,6 @@
     "otaHeaderString": "EBL mains_power_outlet"
   },
   {
-    "fileName": "ED - HA - VOC Sensor-SSIG 4.0.1.zigbee",
-    "fileVersion": 262145,
-    "fileSize": 194471,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Develco/ED%20-%20HA%20-%20VOC%20Sensor-SSIG%204.0.1.zigbee",
-    "imageType": 800,
-    "manufacturerCode": 4117,
-    "sha512": "d6779d7e0879c86d8a7479f352d187cb854cc8586b57245dc96f6c202ccf455a19acb5d360b9ae62510e5b7ae2ea67a95841ff822a5a3a69199d5841dbcf2dbe",
-    "otaHeaderString": ""
-  },
-  {
     "fileName": "EMI2LED_3.1.2.zigbee",
     "fileVersion": 196866,
     "fileSize": 213826,
@@ -201,46 +191,6 @@
     "manufacturerCode": 4117,
     "sha512": "cbc9158bc45d7a819d56ed72dc9b53c717371ccc25a17e84ea13819ce62c5a50cc549602b4b7979dd70561be5e1c4c0a31ba2899a15a20730d894165f3c4a487",
     "otaHeaderString": ""
-  },
-  {
-    "fileName": "EntrySensor2_2.0.6.zigbee",
-    "fileVersion": 131078,
-    "fileSize": 217058,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Develco/EntrySensor2_2.0.6.zigbee",
-    "imageType": 928,
-    "manufacturerCode": 4117,
-    "sha512": "49b5c712b9e5ef91440bece5512cfc66d112e99c4d43c2f9d9755617d0ce302ffad2cd7b981769457d060c58e7e3950f9eb208583be87c98d638ac47fb1dda1d",
-    "otaHeaderString": "WindowVibrationSensor"
-  },
-  {
-    "fileName": "IntelligentKeyPad_2.0.5.zigbee",
-    "fileVersion": 131077,
-    "fileSize": 217046,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Develco/IntelligentKeyPad_2.0.5.zigbee",
-    "imageType": 915,
-    "manufacturerCode": 4117,
-    "sha512": "59b62aab3326b662f6e21a0327440db4836e55a618c7ce7b2cf5578c7b847cd9d08d8e6c431feb714f87a3556c1951069466f3986effa8dd5e1f91b39f3edd53",
-    "otaHeaderString": "KeyPad"
-  },
-  {
-    "fileName": "MotionSensor2_2.0.6.zigbee",
-    "fileVersion": 131078,
-    "fileSize": 216102,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Develco/MotionSensor2_2.0.6.zigbee",
-    "imageType": 387,
-    "manufacturerCode": 4117,
-    "sha512": "4e78aa73ceec45e03606a67ba5e05d930862e01afc8fc81c86fa3cfa4b5433d3b2a785187afb1983c2b1874db5a9ab10d1a22876ddb9cf6a15252cc600c518d0",
-    "otaHeaderString": "MotionSensor"
-  },
-  {
-    "fileName": "SmartButton_2.0.2.zigbee",
-    "fileVersion": 131074,
-    "fileSize": 208318,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Develco/SmartButton_2.0.2.zigbee",
-    "imageType": 913,
-    "manufacturerCode": 4117,
-    "sha512": "79a014db8559dd8ec42d3d867d3330eee0208904eb5169a3fe47a072b341486864dd4a62bfb7bb42f00aa62a7c2d36ef861842441cbd46e44fca37b98b28097c",
-    "otaHeaderString": "PanicButton"
   },
   {
     "fileName": "ZR_Smartplug_SSIG_3.12.16.zigbee",
@@ -6109,16 +6059,6 @@
     "otaHeaderString": ""
   },
   {
-    "fileName": "HumiditySensor_4.0.2.zigbee",
-    "fileVersion": 262146,
-    "fileSize": 190095,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Develco/HumiditySensor_4.0.2.zigbee",
-    "imageType": 784,
-    "manufacturerCode": 4117,
-    "sha512": "f1dbfc002e53c186fc6ddd6241c4aa692372cd610d032cde583991884bae9fb7a276343335a14edff5750961bccf5594067c45e79faca7b9ea326a804d31efbc",
-    "otaHeaderString": ""
-  },
-  {
     "fileName": "MotionSensor_4.0.8.zigbee",
     "fileVersion": 262152,
     "fileSize": 210984,
@@ -9604,5 +9544,75 @@
     "otaHeaderString": "Aqara OTA Image",
     "modelId": "lumi.light.agl004",
     "releaseNotes": ""
+  },
+  {
+    "fileName": "AirQualitySensor_4.0.3.zigbee",
+    "fileVersion": 262147,
+    "fileSize": 197820,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Develco/AirQualitySensor_4.0.3.zigbee",
+    "imageType": 800,
+    "manufacturerCode": 4117,
+    "sha512": "f83baaa15e904a96cce8cf525fd9acae8d4944519c6e788ad882dafdc0499178d1607473238a0de75f321e1fda4bfd6e03bd4b309c5feec864e4de89ddd79b6a",
+    "otaHeaderString": ""
+  },
+  {
+    "fileName": "EntrySensor2_2.0.7.zigbee",
+    "fileVersion": 131079,
+    "fileSize": 217818,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Develco/EntrySensor2_2.0.7.zigbee",
+    "imageType": 928,
+    "manufacturerCode": 4117,
+    "sha512": "beff5260fea1010a9ebbbb37870cb0b9adcf616cce58e4ab8449a1738bb6d289d4cd4d8fbe6497dd2584c9cf24223368e72a3305ce64a6f3eaac1628ee6e5d57",
+    "otaHeaderString": "WindowVibrationSensor"
+  },
+  {
+    "fileName": "HumiditySensor_4.0.3.zigbee",
+    "fileVersion": 262147,
+    "fileSize": 189735,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Develco/HumiditySensor_4.0.3.zigbee",
+    "imageType": 784,
+    "manufacturerCode": 4117,
+    "sha512": "5e08e54ffecdf2339d5a9ffff1162242dadcc91e05279f690118670eb0f36b3cfd03a2696d748bb414891b79e7f2feef7bc4420135719eb321af32a2211f74b0",
+    "otaHeaderString": ""
+  },
+  {
+    "fileName": "IOModule_2.0.1.zigbee",
+    "fileVersion": 131073,
+    "fileSize": 237070,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Develco/IOModule_2.0.1.zigbee",
+    "imageType": 912,
+    "manufacturerCode": 4117,
+    "sha512": "7e39f51bdffbec36d4b9cb53ba9cc0abaf672b17102cc3127ea62f85057a89ff0f579cdc89dad83378118c5169ec36b308480253442b6695842efb775ca6741b",
+    "otaHeaderString": "Router - Digital IO"
+  },
+  {
+    "fileName": "IntelligentKeyPad_2.0.6.zigbee",
+    "fileVersion": 131078,
+    "fileSize": 217690,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Develco/IntelligentKeyPad_2.0.6.zigbee",
+    "imageType": 915,
+    "manufacturerCode": 4117,
+    "sha512": "f5ceec198dcaf61bc2615a0bd249f8a3e3abffa7251100913c13d88df284fd1e73a07c72467cb725e4caa3ff16d70032d134b390cee490fd9d9521092267882a",
+    "otaHeaderString": "KeyPad"
+  },
+  {
+    "fileName": "MotionSensor2_2.0.8.zigbee",
+    "fileVersion": 131080,
+    "fileSize": 217454,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Develco/MotionSensor2_2.0.8.zigbee",
+    "imageType": 387,
+    "manufacturerCode": 4117,
+    "sha512": "b5e3be1a224f0411b702a7b9e5b239d79367fdcfe445dc8c7fd73c1ae8ae07f3ff62af353b6709f7762444be8f702eb49e85669811f4be065eb3968ec9f444f5",
+    "otaHeaderString": "MotionSensor"
+  },
+  {
+    "fileName": "SmartButton_2.0.4.zigbee",
+    "fileVersion": 131076,
+    "fileSize": 209338,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Develco/SmartButton_2.0.4.zigbee",
+    "imageType": 913,
+    "manufacturerCode": 4117,
+    "sha512": "d36ce5885c2a2ff184546a04defa9c9087a15469125bdc3fc265bdbd4d850ae3edea1b32e44d480bc4debd1908db154d7796d766240635593dd6031a5b8481e9",
+    "otaHeaderString": "PanicButton"
   }
 ]
