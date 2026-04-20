@@ -9614,5 +9614,15 @@
     "manufacturerCode": 4117,
     "sha512": "d36ce5885c2a2ff184546a04defa9c9087a15469125bdc3fc265bdbd4d850ae3edea1b32e44d480bc4debd1908db154d7796d766240635593dd6031a5b8481e9",
     "otaHeaderString": "PanicButton"
+  },
+  {
+    "fileName": "Icon2_SYS_0182.ota",
+    "fileVersion": 338,
+    "fileSize": 1806860,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Danfoss/Icon2_SYS_0182.ota",
+    "imageType": 816,
+    "manufacturerCode": 4678,
+    "sha512": "c5fb4cb826f6e65a2aed062f0b8a59d51a025eb542037a58acababff8c0c4f6983c3a442f998aae050e567a7799c6370b77599c609b30aaac7feb0db65c923e7",
+    "otaHeaderString": "Icon2 system package"
   }
 ]
