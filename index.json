@@ -9624,5 +9624,18 @@
     "manufacturerCode": 4678,
     "sha512": "c5fb4cb826f6e65a2aed062f0b8a59d51a025eb542037a58acababff8c0c4f6983c3a442f998aae050e567a7799c6370b77599c609b30aaac7feb0db65c923e7",
     "otaHeaderString": "Icon2 system package"
+  },
+  {
+    "fileName": "20260206105339_OTA_lumi.vibration.agl002_0.0.0_0021_20260206_65FA7D.ota",
+    "fileVersion": 21,
+    "fileSize": 584766,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.vibration.agl002/20260206105339_OTA_lumi.vibration.agl002_0.0.0_0021_20260206_65FA7D.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Aqara/20260206105339_OTA_lumi.vibration.agl002_0.0.0_0021_20260206_65FA7D.ota",
+    "imageType": 9794,
+    "manufacturerCode": 4447,
+    "sha512": "18241266652316468a2c42ef54408670fd819b39a90dde3c49bfc3da6578f2806c87397b8215c6609a07d997b14530d949029a9c3ac2c11d6aa00bd35b6228dc",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.vibration.agl002",
+    "releaseNotes": ""
   }
 ]
