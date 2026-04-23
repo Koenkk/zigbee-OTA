@@ -3,6 +3,12 @@
 > [!CAUTION]
 > This folder is intended to keep track of firmware with known issues. Do not use unless you know exactly what to expect!
 
+### Develco / Frient
+
+- KEYZB-110 Intelligent Keypad v2.0.6
+  - https://github.com/Koenkk/zigbee2mqtt/issues/31761
+  - buzzer not working
+
 ### IKEA
 
 - **E1745 TRADFRI motion sensor v24.4.5**
