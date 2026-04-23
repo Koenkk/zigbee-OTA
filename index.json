@@ -9586,6 +9586,16 @@
     "otaHeaderString": "Router - Digital IO"
   },
   {
+    "fileName": "IntelligentKeyPad_2.0.5.zigbee",
+    "fileVersion": 131077,
+    "fileSize": 217046,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Develco/IntelligentKeyPad_2.0.5.zigbee",
+    "imageType": 915,
+    "manufacturerCode": 4117,
+    "sha512": "59b62aab3326b662f6e21a0327440db4836e55a618c7ce7b2cf5578c7b847cd9d08d8e6c431feb714f87a3556c1951069466f3986effa8dd5e1f91b39f3edd53",
+    "otaHeaderString": "KeyPad"
+  },
+  {
     "fileName": "MotionSensor2_2.0.8.zigbee",
     "fileVersion": 131080,
     "fileSize": 217454,
