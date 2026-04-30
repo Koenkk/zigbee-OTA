@@ -1077,17 +1077,6 @@
     "otaHeaderString": ""
   },
   {
-    "fileName": "1141-0201-01253001-ZMHOC401.zigbee",
-    "fileVersion": 19214337,
-    "fileSize": 132098,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/pvvx/1141-0201-01253001-ZMHOC401.zigbee",
-    "imageType": 513,
-    "manufacturerCode": 4417,
-    "sha512": "375019d234add85c09a3c15beafc633a1e1a89f6e5d2ccd9cedaf850c94393ae2af802452669b2edbc0a5c5bdffb1ca3908b4215bf2c973099c1adc7c91c2cd3",
-    "otaHeaderString": "ZigbeeTLc OTA",
-    "modelId": "MHOC401-z"
-  },
-  {
     "fileName": "1718263020-oem_zg_tl8258_plug_OTA_1.1.0.bin",
     "fileVersion": 80,
     "fileSize": 310402,
@@ -1487,61 +1476,6 @@
     "manufacturerCode": 4454,
     "sha512": "d0a6e22f59c41ee9899d470fb56115017c155952e7dc7fff6f60dfe405f5aaa9240f9c8a2c63afa1f800fca2190c3155156c6eac4a7262605f9d69ff4c976b62",
     "otaHeaderString": "Telink OTA Sample Usage"
-  },
-  {
-    "fileName": "1141-0201-01273001-ZMHOC401.zigbee",
-    "fileVersion": 19345409,
-    "fileSize": 132082,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/pvvx/1141-0201-01273001-ZMHOC401.zigbee",
-    "imageType": 513,
-    "manufacturerCode": 4417,
-    "sha512": "4e4831d7c6b527726a4d80ce5f8d3edf64e772e7dc1657d66bea35603ff9355d0dcbd5c727d0d5771f1b45125268b87aade5b1b44295eaee2785e9e0cd386f08",
-    "otaHeaderString": "ZigbeeTLc OTA",
-    "modelId": "MHO-C401N-z"
-  },
-  {
-    "fileName": "1141-0208-01273001-ZMHOC401N.zigbee",
-    "fileVersion": 19345409,
-    "fileSize": 131634,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/pvvx/1141-0208-01273001-ZMHOC401N.zigbee",
-    "imageType": 520,
-    "manufacturerCode": 4417,
-    "sha512": "c04d88d03153927361dcdcbf76038f44087c4edad8ec7284bf75688fed813cfdc8e9942dd6a30147dd7b3f7995c3008c96ce88c074043256b15d6b7e0609ff44",
-    "otaHeaderString": "ZigbeeTLc OTA",
-    "modelId": "MHOC401N-z"
-  },
-  {
-    "fileName": "1141-0221-01273001-ZTH05.zigbee",
-    "fileVersion": 19345409,
-    "fileSize": 132354,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/pvvx/1141-0221-01273001-ZTH05.zigbee",
-    "imageType": 545,
-    "manufacturerCode": 4417,
-    "sha512": "249d2f49b476e1751ed932999a8ed4cf1a4569981aec9f2bb620d8244349310dba8d7ff4bd951fba28caa3896a9f8b8bd4ae8c7120aaa767744f89887caf4d9f",
-    "otaHeaderString": "ZigbeeTLc OTA",
-    "modelId": "ZTH05-z"
-  },
-  {
-    "fileName": "1141-0225-01273001-ZYZTH02.zigbee",
-    "fileVersion": 19345409,
-    "fileSize": 126434,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/pvvx/1141-0225-01273001-ZYZTH02.zigbee",
-    "imageType": 549,
-    "manufacturerCode": 4417,
-    "sha512": "5a7ef0f53032e4e4631053fa2b821d8c721ae404dc7060718654c9221adf0807917ac3002fa34e90813890636ff845a1d7f2c7f941f4b8586eba218e71e23e08",
-    "otaHeaderString": "ZigbeeTLc OTA",
-    "modelId": "ZY-ZTH02z"
-  },
-  {
-    "fileName": "1141-0227-01273001-ZG227Z.zigbee",
-    "fileVersion": 19345409,
-    "fileSize": 126290,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/pvvx/1141-0227-01273001-ZG227Z.zigbee",
-    "imageType": 551,
-    "manufacturerCode": 4417,
-    "sha512": "86ddb61b1273f5f6093c9d5762b55b35e21ff97ff2c5a56dc761638369984168d0903495872c2533906ee9d43e3a54e398c3f62a6490f3bba003e3be6c18c559",
-    "otaHeaderString": "ZigbeeTLc OTA",
-    "modelId": "ZG227-z"
   },
   {
     "fileName": "TRTL_ThermalSensor_PROD_OTA_V37_v1.00.37.ota",
