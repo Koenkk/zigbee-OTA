@@ -5,9 +5,9 @@
 
 ### Develco / Frient
 
-- KEYZB-110 Intelligent Keypad v2.0.6
+- **KEYZB-110 Intelligent Keypad v2.0.6**
   - https://github.com/Koenkk/zigbee2mqtt/issues/31761
-  - buzzer not working
+  - buzzer not working (needs ZHC fix)
 
 ### IKEA
 
