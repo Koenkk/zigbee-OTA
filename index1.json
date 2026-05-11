@@ -3157,16 +3157,6 @@
     "otaHeaderString": "PanicButton"
   },
   {
-    "fileName": "Smart_Air_Pressure_Sensor_OTA_V17_1.00.17.ota",
-    "fileVersion": 17,
-    "fileSize": 263922,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/Smart_Air_Pressure_Sensor_OTA_V17_1.00.17.ota",
-    "imageType": 54190,
-    "manufacturerCode": 5127,
-    "sha512": "0f4fa0b764ccc46d414b9ff0731b418a00552c1ab524a7f56677fa820087d209f652a1eacdc15c3e0eed7840296f79e5c9fbbe1fa36bf5cebb565b020e39e299",
-    "otaHeaderString": "temp_humi_sensor"
-  },
-  {
     "fileName": "1141-0201-01353001-ZMHOC401.zigbee",
     "fileVersion": 20262913,
     "fileSize": 134738,
@@ -3513,5 +3503,15 @@
     "manufacturerName": [
       "Svetomaniya"
     ]
+  },
+  {
+    "fileName": "Smart_Air_Pressure_Sensor_OTA_V19_1.00.19.ota",
+    "fileVersion": 19,
+    "fileSize": 265874,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/Smart_Air_Pressure_Sensor_OTA_V19_1.00.19.ota",
+    "imageType": 54190,
+    "manufacturerCode": 5127,
+    "sha512": "e1486d6d44870cd48ee9862233ba2e1686f558c3470f78cfbb504cdecdb0666a2714aa19788045397106556b318592828de596d81fba349c02c16765c2c5db47",
+    "otaHeaderString": "temp_humi_sensor"
   }
 ]

@@ -9281,16 +9281,6 @@
     "releaseNotes": ""
   },
   {
-    "fileName": "Smart_Air_Pressure_Sensor_OTA_V19_1.00.19.ota",
-    "fileVersion": 19,
-    "fileSize": 265874,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Smart_Air_Pressure_Sensor_OTA_V19_1.00.19.ota",
-    "imageType": 54190,
-    "manufacturerCode": 5127,
-    "sha512": "e1486d6d44870cd48ee9862233ba2e1686f558c3470f78cfbb504cdecdb0666a2714aa19788045397106556b318592828de596d81fba349c02c16765c2c5db47",
-    "otaHeaderString": "temp_humi_sensor"
-  },
-  {
     "fileName": "SN-TLSR8656-S60-01-v2.0.2.ota",
     "fileVersion": 8194,
     "fileSize": 147232,
@@ -9701,5 +9691,15 @@
     "manufacturerName": [
       "Svetomaniya"
     ]
+  },
+  {
+    "fileName": "Smart_Filter_Sensor_v1.00.22.ota",
+    "fileVersion": 22,
+    "fileSize": 265858,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Smart_Filter_Sensor_v1.00.22.ota",
+    "imageType": 54190,
+    "manufacturerCode": 5127,
+    "sha512": "1a1cdecd080acec76664a461788a2a035f8edd0ac43818ce7beedc3f7dfa952d3b91cac32da4d69dea99e3ffe56f485373944d4e229a3dd4f188ceaac7ba4518",
+    "otaHeaderString": "temp_humi_sensor"
   }
 ]
