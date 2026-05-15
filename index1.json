@@ -2842,16 +2842,6 @@
     "originalUrl": "https://github.com/InovelliUSA/Firmware/raw/6608d75c73b5200b20ed197653c9ad3af1f5c1e7/Blue-Series/Zigbee/VZM36-Fan-Plus-Light/Beta/1.01/VZM36_1.01-Beta.ota"
   },
   {
-    "fileName": "60G_Radar_OTA_V33_v1.00.33.ota",
-    "fileVersion": 33,
-    "fileSize": 350590,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/60G_Radar_OTA_V33_v1.00.33.ota",
-    "imageType": 54211,
-    "manufacturerCode": 5127,
-    "sha512": "21189086cae323d870f963ea9c65cdb1bec3add4d543d8b7f488629402d23fe92258d6bdbccafa4c70d6627891a2c846a3f1ff61b7a07c63085a15e4aa2aefe8",
-    "otaHeaderString": "temp_humi_sensor"
-  },
-  {
     "fileName": "Smart_Presence_Sensor_R2_v1.00.19.ota",
     "fileVersion": 19,
     "fileSize": 288582,
@@ -3512,6 +3502,16 @@
     "imageType": 54190,
     "manufacturerCode": 5127,
     "sha512": "e1486d6d44870cd48ee9862233ba2e1686f558c3470f78cfbb504cdecdb0666a2714aa19788045397106556b318592828de596d81fba349c02c16765c2c5db47",
+    "otaHeaderString": "temp_humi_sensor"
+  },
+  {
+    "fileName": "60G_Radar_OTA_V35_v1.00.35.ota",
+    "fileVersion": 35,
+    "fileSize": 352278,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/60G_Radar_OTA_V35_v1.00.35.ota",
+    "imageType": 54211,
+    "manufacturerCode": 5127,
+    "sha512": "c128dd22f9bd281d05f791fb0660e196b76a272940400246031873179bb26747265eeb2a276dc3a6e291f7d74f9a11e25556cb71b3055c563a70792e1752ca4c",
     "otaHeaderString": "temp_humi_sensor"
   }
 ]

@@ -8745,16 +8745,6 @@
     "otaHeaderString": "VMZB_Canopy"
   },
   {
-    "fileName": "60G_Radar_OTA_V35_v1.00.35.ota",
-    "fileVersion": 35,
-    "fileSize": 352278,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/60G_Radar_OTA_V35_v1.00.35.ota",
-    "imageType": 54211,
-    "manufacturerCode": 5127,
-    "sha512": "c128dd22f9bd281d05f791fb0660e196b76a272940400246031873179bb26747265eeb2a276dc3a6e291f7d74f9a11e25556cb71b3055c563a70792e1752ca4c",
-    "otaHeaderString": "temp_humi_sensor"
-  },
-  {
     "fileName": "aux-1-zb-s_hw1.x_fw0.6.1_ota20.ota",
     "fileVersion": 20,
     "fileSize": 277822,
@@ -9700,6 +9690,16 @@
     "imageType": 54190,
     "manufacturerCode": 5127,
     "sha512": "1a1cdecd080acec76664a461788a2a035f8edd0ac43818ce7beedc3f7dfa952d3b91cac32da4d69dea99e3ffe56f485373944d4e229a3dd4f188ceaac7ba4518",
+    "otaHeaderString": "temp_humi_sensor"
+  },
+  {
+    "fileName": "Radar_60G(v1.00.40).ota",
+    "fileVersion": 40,
+    "fileSize": 352526,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Radar_60G(v1.00.40).ota",
+    "imageType": 54211,
+    "manufacturerCode": 5127,
+    "sha512": "7f8670e7411b83b2d41fccd551b03daa834707654344b015925a30a2d234538d3942dada616c2004d294da33cf4a1babc7c1866b93a8059984f4a7534de6d278",
     "otaHeaderString": "temp_humi_sensor"
   }
 ]
