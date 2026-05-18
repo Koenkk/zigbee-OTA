@@ -3513,5 +3513,18 @@
     "manufacturerCode": 5127,
     "sha512": "c128dd22f9bd281d05f791fb0660e196b76a272940400246031873179bb26747265eeb2a276dc3a6e291f7d74f9a11e25556cb71b3055c563a70792e1752ca4c",
     "otaHeaderString": "temp_humi_sensor"
+  },
+  {
+    "fileName": "20251013120448_OTA_lumi.light.agl004_0.0.0_0030_20251011_137354.ota",
+    "fileVersion": 30,
+    "fileSize": 665598,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.light.agl004/20251013120448_OTA_lumi.light.agl004_0.0.0_0030_20251011_137354.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Aqara/20251013120448_OTA_lumi.light.agl004_0.0.0_0030_20251011_137354.ota",
+    "imageType": 1044,
+    "manufacturerCode": 4447,
+    "sha512": "2fcf5b1013580f5ba204bbc8756a956ebedd5253730e80250b486380fcd096f7676502d8d5bcc09b66f57004671798688c2bdf09b42953e95c95221211509fa0",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.light.agl004",
+    "releaseNotes": ""
   }
 ]
