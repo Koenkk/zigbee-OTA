@@ -9584,5 +9584,18 @@
     "sha512": "dc9bb4669f947be422747de971285f917301b343bb1be5e78e7dbbe68988ea1fcaf1eaa0989a22a2f64647f0897c1d45d7967e08f36d2c4c8634a8fd9581efd4",
     "otaHeaderString": "                                ",
     "minFileVersion": 458752
+  },
+  {
+    "fileName": "20230510105212_OTA_aqara.toilet.acn002_0.0.0_1233_20230505_35594D.ota",
+    "fileVersion": 3105,
+    "fileSize": 86722,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/aqara.toilet.acn002/20230510105212_OTA_aqara.toilet.acn002_0.0.0_1233_20230505_35594D.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Aqara/20230510105212_OTA_aqara.toilet.acn002_0.0.0_1233_20230505_35594D.ota",
+    "imageType": 4873,
+    "manufacturerCode": 4447,
+    "sha512": "0cee6ba664c69cf52e0d118c609ee30ec9c6b1d3ca61c16d258d3382f96c35d5317b82f4be994d92f19b283ea6ab75c9e967e0f7f1273af853fd98f40adf2b74",
+    "otaHeaderString": "empower mcu",
+    "modelId": "aqara.toilet.acn002",
+    "releaseNotes": ""
   }
 ]
