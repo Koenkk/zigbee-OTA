@@ -8158,19 +8158,6 @@
     "releaseNotes": "Version: 8.14"
   },
   {
-    "fileName": "20260105174558_OTA_lumi.sensor_occupy.agl8_0.0.0_5841_20260105_8C0C5C.ota",
-    "fileVersion": 14889,
-    "fileSize": 783338,
-    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.sensor_occupy.agl8/20260105174558_OTA_lumi.sensor_occupy.agl8_0.0.0_5841_20260105_8C0C5C.ota",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Aqara/20260105174558_OTA_lumi.sensor_occupy.agl8_0.0.0_5841_20260105_8C0C5C.ota",
-    "imageType": 9792,
-    "manufacturerCode": 4447,
-    "sha512": "6f641849e3b379655571a876a3cde3b3f904f3e80433c767af8571ee36d2b0168374da8d452030cea0231f0025b0ef16364c5b57dab90bda9a309ece26257f15",
-    "otaHeaderString": "Aqara OTA Image",
-    "modelId": "lumi.sensor_occupy.agl8",
-    "releaseNotes": ""
-  },
-  {
     "fileName": "mini-zb2gs_v1.0.7.ota",
     "fileVersion": 4103,
     "fileSize": 297974,
@@ -9611,5 +9598,18 @@
       "Sonoff"
     ],
     "modelId": "ZG-204ZV-z"
+  },
+  {
+    "fileName": "20260515175538_OTA_lumi.sensor_occupy.agl8_0.0.0_6542_20260515_0B98DE.ota",
+    "fileVersion": 16682,
+    "fileSize": 799370,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.sensor_occupy.agl8/20260515175538_OTA_lumi.sensor_occupy.agl8_0.0.0_6542_20260515_0B98DE.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Aqara/20260515175538_OTA_lumi.sensor_occupy.agl8_0.0.0_6542_20260515_0B98DE.ota",
+    "imageType": 9792,
+    "manufacturerCode": 4447,
+    "sha512": "cf420863475f5ee0a219936322e29841f665ed242464a0db47a3d8175ecdc3ea6b06941f8634291d0551c949226ef0646642513f5d207d9016d484eaa42801c0",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.sensor_occupy.agl8",
+    "releaseNotes": "1. Optimized radar performance and monitoring logic, improved resistance to false alarms 2. Improved response speed and smoothness 3. Added Thread auto-reconnection network mechanism 4. Optimized logic for unoccupied determination period 5. Optimized sensor sampling logic, filtering out abnormal temperature and humidity data"
   }
 ]
