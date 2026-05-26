@@ -688,7 +688,7 @@
     "sha512": "8527aa46afbf93cfaec68845cfc5092ca533b87ef0d162741eee82b32185a9d2966235edaae8127d9ee81a70f5247a23d75907b2387f520d797f3da1e9fdc3db",
     "otaHeaderString": "GBL GBL_tradfri_shortcut_button",
     "originalUrl": "https://fw.ota.homesmart.ikea.com/files/tradfri-shortcut-button_release_prod_v604241926_56f5d8d1-78b1-4088-afc1-05d3b7e3314b.ota",
-    "releaseNotes": "https://ww8.ikea.com/ikeahomesmart/releasenotes/releasenotes.html"
+    "releaseNotes": "Enables double-clicks.\r\nhttps://www.zigbee2mqtt.io/devices/E1812.html\r\nhttps://ww8.ikea.com/ikeahomesmart/releasenotes/releasenotes.html"
   },
   {
     "fileName": "tradfri-signal-repeater_release_prod_v587753009_3ce8f096-bd12-4b2c-b66e-51dc9f2637dc.ota",
