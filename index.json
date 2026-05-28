@@ -9611,5 +9611,65 @@
     "otaHeaderString": "Aqara OTA Image",
     "modelId": "lumi.sensor_occupy.agl8",
     "releaseNotes": "1. Optimized radar performance and monitoring logic, improved resistance to false alarms 2. Improved response speed and smoothness 3. Added Thread auto-reconnection network mechanism 4. Optimized logic for unoccupied determination period 5. Optimized sensor sampling logic, filtering out abnormal temperature and humidity data"
+  },
+  {
+    "fileName": "152F_SBDV-00196_switch1gang_r_6_48fb8e55_06000000.ota.zigbee",
+    "fileVersion": 100663296,
+    "fileSize": 224844,
+    "originalUrl": "https://cdn-app.sberdevices.ru/misc/0.0.0/assets/sd-help/9bc11a28_152F_SBDV-00196_switch1gang_r_6_48fb8e55_06000000.ota.zip",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SDevices/152F_SBDV-00196_switch1gang_r_6_48fb8e55_06000000.ota.zigbee",
+    "imageType": 406,
+    "manufacturerCode": 5423,
+    "sha512": "ce41fd98e02f225ade6a032e1919d16e39a824e652a540c5b0afba908db51663ec73ac42722175d0a59544948bcf954ae62fca47895bfbbfedd931a2dde5ba94",
+    "otaHeaderString": "",
+    "manufacturerName": [
+      "SDevices"
+    ],
+    "modelId": "SBDV-00196"
+  },
+  {
+    "fileName": "152F_SBDV-00199_switch2gang_r_6_3d00993b_06000000.ota.zigbee",
+    "fileVersion": 100663296,
+    "fileSize": 230196,
+    "originalUrl": "https://cdn-app.sberdevices.ru/misc/0.0.0/assets/sd-help/53507544_152F_SBDV-00199_switch2gang_r_6_3d00993b_06000000.ota.zip",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SDevices/152F_SBDV-00199_switch2gang_r_6_3d00993b_06000000.ota.zigbee",
+    "imageType": 409,
+    "manufacturerCode": 5423,
+    "sha512": "6bf347116e495637d92040a1897a28b2a98f7a3205cbe6a674a8a0f6621a1b496b7d8b6d8ebeb9920e9b29f505bbe6f7d4ef1ab91a322c9c4f1a1b869ba14f6a",
+    "otaHeaderString": "",
+    "manufacturerName": [
+      "SDevices"
+    ],
+    "modelId": "SBDV-00199"
+  },
+  {
+    "fileName": "152F_SBDV-00202_socket_r_6_7a7d7c21_06000000.ota.zigbee",
+    "fileVersion": 100663296,
+    "fileSize": 235520,
+    "originalUrl": "https://cdn-app.sberdevices.ru/misc/0.0.0/assets/sd-help/97dc34fd_152F_SBDV-00202_socket_r_6_7a7d7c21_06000000.ota.zip",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SDevices/152F_SBDV-00202_socket_r_6_7a7d7c21_06000000.ota.zigbee",
+    "imageType": 514,
+    "manufacturerCode": 5423,
+    "sha512": "33219c4a671432609c83edf71ce46f9594486f07701a37d55c1c72dd4db6040e56c996034af3a965349417be8f4f90786b697ed3eaf6c21239667c210a78d562",
+    "otaHeaderString": "",
+    "manufacturerName": [
+      "SDevices"
+    ],
+    "modelId": "SBDV-00202"
+  },
+  {
+    "fileName": "152F_SBDV-00205_thermostat_r_7_7bd95d88_07000000.ota.zigbee",
+    "fileVersion": 117440512,
+    "fileSize": 265600,
+    "originalUrl": "https://cdn-app.sberdevices.ru/misc/0.0.0/assets/sd-help/3ea7cbe6_152F_SBDV-00205_thermostat_r_7_7bd95d88_07000000.ota.zip",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SDevices/152F_SBDV-00205_thermostat_r_7_7bd95d88_07000000.ota.zigbee",
+    "imageType": 517,
+    "manufacturerCode": 5423,
+    "sha512": "a2a7b09ad7f0f94cc801480fad8ca4aae36407ea7563d7fc2cad1a2aced6565496890033072d7eda195951deb7e3560e05a3bb34e923c1d0b25bb6c0563b7ff0",
+    "otaHeaderString": "",
+    "manufacturerName": [
+      "SDevices"
+    ],
+    "modelId": "SBDV-00205"
   }
 ]
