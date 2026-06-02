@@ -3147,32 +3147,6 @@
     "otaHeaderString": "PanicButton"
   },
   {
-    "fileName": "6565-021d-10093001-qs_zigbee_sec02_zrd.zigbee",
-    "fileVersion": 269037569,
-    "fileSize": 201202,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/SlackyDiy/6565-021d-10093001-qs_zigbee_sec02_zrd.zigbee",
-    "imageType": 541,
-    "manufacturerCode": 25957,
-    "sha512": "3e15012a7541b40851cf285c9539de086283771e988af102e769da74f36f6c009148a7187d15ac85438bf9e1a8ab920dc79084a3675dfb205b9baad8df22f18e",
-    "otaHeaderString": "Slacky-DIY OTA",
-    "manufacturerName": [
-      "Svetomaniya"
-    ]
-  },
-  {
-    "fileName": "6565-021e-10053001-qs_zigbee_sec01_zrd.zigbee",
-    "fileVersion": 268775425,
-    "fileSize": 203874,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/SlackyDiy/6565-021e-10053001-qs_zigbee_sec01_zrd.zigbee",
-    "imageType": 542,
-    "manufacturerCode": 25957,
-    "sha512": "73144a6cf50eab9d649216fe2e37c11e981ddf897756a255149324e730dafe755bb3f45223c6be9311f1a9ace9cccc225d5bc16d13109b3a29a3ca644cd230cc",
-    "otaHeaderString": "Slacky-DIY OTA",
-    "manufacturerName": [
-      "Svetomaniya"
-    ]
-  },
-  {
     "fileName": "Smart_Air_Pressure_Sensor_OTA_V19_1.00.19.ota",
     "fileVersion": 19,
     "fileSize": 265874,
@@ -3567,5 +3541,31 @@
     "otaHeaderString": "Aqara OTA Image",
     "modelId": "lumi.sensor_occupy.agl8",
     "releaseNotes": ""
+  },
+  {
+    "fileName": "6565-021d-10103001-qs_zigbee_sec02_zrd.zigbee",
+    "fileVersion": 269496321,
+    "fileSize": 205634,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/SlackyDiy/6565-021d-10103001-qs_zigbee_sec02_zrd.zigbee",
+    "imageType": 541,
+    "manufacturerCode": 25957,
+    "sha512": "6fcb61c46f7d78755a8e50e646dd99b07e7a2cffb29ecaa9de0be0438c491766a30af4b2817e8ca7cc088a06aade7c136b25f568dc7fa898e57affa6f79b6a6e",
+    "otaHeaderString": "Slacky-DIY OTA",
+    "manufacturerName": [
+      "Svetomaniya"
+    ]
+  },
+  {
+    "fileName": "6565-021e-10063001-qs_zigbee_sec01_zrd.zigbee",
+    "fileVersion": 268840961,
+    "fileSize": 203922,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/SlackyDiy/6565-021e-10063001-qs_zigbee_sec01_zrd.zigbee",
+    "imageType": 542,
+    "manufacturerCode": 25957,
+    "sha512": "feedd005914ed3c4b905332e850b1a7bddf60d9900efa7dc1784188bcc5dbda13571ae4029a252c2a7250a0902c20da0ed872ca09e33d37a1110fb478a33284f",
+    "otaHeaderString": "Slacky-DIY OTA",
+    "manufacturerName": [
+      "Svetomaniya"
+    ]
   }
 ]
