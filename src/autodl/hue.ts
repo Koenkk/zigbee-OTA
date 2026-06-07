@@ -44,9 +44,9 @@ const DEVICE_TYPE_IDS: string[] = [
     "100b-12a",
     // '100b-12b',
     // '100b-12c',
-    // '100b-12d',
+    "100b-12d",
     // '100b-12e',
-    // '100b-12f',
+    "100b-12f",
 ];
 
 function sortByVersion(a: ImageJson, b: ImageJson): number {

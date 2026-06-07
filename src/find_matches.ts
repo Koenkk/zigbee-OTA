@@ -1,5 +1,5 @@
-import {BASE_INDEX_MANIFEST_FILENAME, PREV_INDEX_MANIFEST_FILENAME, readManifest} from "./common";
-import type {RepoImageMeta} from "./types";
+import {BASE_INDEX_MANIFEST_FILENAME, PREV_INDEX_MANIFEST_FILENAME, readManifest} from "./common.js";
+import type {RepoImageMeta} from "./types.js";
 
 const USAGE = `Usage: tsx src/find_matches.ts <BASE|PREV> <imageType> <manufacturerCode> [modelId] [manufacturerName]
        Examples:
