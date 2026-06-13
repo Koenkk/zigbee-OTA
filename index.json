@@ -9684,13 +9684,13 @@
     "otaHeaderString": "EBL FWPLUG_MINIZB1GSP_ELECTRICAL"
   },
   {
-    "fileName": "Smart_Air_Quality_Sensor_OTA_v14_v1.00.14.ota",
-    "fileVersion": 14,
-    "fileSize": 241646,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Smart_Air_Quality_Sensor_OTA_v14_v1.00.14.ota",
+    "fileName": "Smart_Air_Quality_Sensor_OTA_v15_v1.00.15.ota",
+    "fileVersion": 15,
+    "fileSize": 241758,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Smart_Air_Quality_Sensor_OTA_v15_v1.00.15.ota",
     "imageType": 54277,
     "manufacturerCode": 5127,
-    "sha512": "ba77839d6089278bb274ea90b2d79666269eb883a9ec3d0d95b34ff7d783af58a0975526d47f57a8d6e608f40fe2bc2a109a948a29feca574b0c54063f037e92",
+    "sha512": "5ebfd5ee7f06218c4c3109e9720f6cb58ea6a0c639e9ce4f25a706b92abd855b68fdf9db74f7c7c7b259b369a49184882992eeec0618801401600a697b659bff",
     "otaHeaderString": "test"
   }
 ]
