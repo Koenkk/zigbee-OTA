@@ -9692,5 +9692,15 @@
     "manufacturerCode": 5127,
     "sha512": "5ebfd5ee7f06218c4c3109e9720f6cb58ea6a0c639e9ce4f25a706b92abd855b68fdf9db74f7c7c7b259b369a49184882992eeec0618801401600a697b659bff",
     "otaHeaderString": "test"
+  },
+  {
+    "fileName": "HS1RM-E-120B452F-20260615-V17-Release.ota.ota",
+    "fileVersion": 23,
+    "fileSize": 220634,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Heiman/HS1RM-E-120B452F-20260615-V17-Release.ota.ota",
+    "imageType": 17711,
+    "manufacturerCode": 4619,
+    "sha512": "8f956f4caf8bf585ac8a28824251c04a81cb187b8db28e7ea0a383419749c5a7b1ab78456603c70f048ae5d5cf3f44f4141f44af6b066d7c12c0695dd79b26ac",
+    "otaHeaderString": "EBL HS1RM_EF_0787_NEW_V01"
   }
 ]
