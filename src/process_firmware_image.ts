@@ -19,7 +19,7 @@ import {
     UPGRADE_FILE_IDENTIFIER,
     writeManifest,
 } from "./common.js";
-import type {ExtraMetas} from "./types";
+import type {ExtraMetas} from "./types.js";
 
 export enum ProcessFirmwareImageStatus {
     Error = -1,

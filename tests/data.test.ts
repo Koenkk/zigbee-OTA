@@ -8,8 +8,8 @@
 import {copyFileSync, existsSync, mkdirSync} from "node:fs";
 import path from "node:path";
 import {it} from "vitest";
-import * as common from "../src/common";
-import type {ExtraMetas, RepoImageMeta} from "../src/types";
+import * as common from "../src/common.js";
+import type {ExtraMetas, RepoImageMeta} from "../src/types.js";
 
 export const IMAGE_LUMI = "20240726111155_OTA_lumi.switch.n1aeu1_0.0.0_0025_20240725_8F4299.ota";
 export const IMAGE_GLEDOPTO = "GL-B-008P_V17A1_OTAV7.ota";
