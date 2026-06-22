@@ -5809,16 +5809,6 @@
     "otaHeaderString": "                                "
   },
   {
-    "fileName": "1021-002f-001245ff-NLH.zigbee",
-    "fileVersion": 1197567,
-    "fileSize": 214807,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Legrand/1021-002f-001245ff-NLH.zigbee",
-    "imageType": 47,
-    "manufacturerCode": 4129,
-    "sha512": "4bba71db84465cbc5c8bed40e354a01948818dfce6e130ac94a6cdcf5cd7e717ac5c603c596f3221f76f8e349d9c2f7b2a6247d8f3275e729e7a038396a503e7",
-    "otaHeaderString": "                                "
-  },
-  {
     "fileName": "1021-0037-000345ff-NLIB.zigbee",
     "fileVersion": 214527,
     "fileSize": 248151,
@@ -8168,16 +8158,6 @@
     "otaHeaderString": "DR1175r1v02--JN5169--ENCRYPTED00"
   },
   {
-    "fileName": "1021-0016-003945ff-NLD.zigbee",
-    "fileVersion": 3753471,
-    "fileSize": 207623,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Legrand/1021-0016-003945ff-NLD.zigbee",
-    "imageType": 22,
-    "manufacturerCode": 4129,
-    "sha512": "6bd78b7da69ee3a255889eb64334a246aa69147ec46c5402650a4776e42b4832852398adc079faf3181af5eb051f3306a7a1d50bd609b4ba89b3a4371823f165",
-    "otaHeaderString": "                                "
-  },
-  {
     "fileName": "1021-0019-002945ff-NLFN.zigbee",
     "fileVersion": 2704895,
     "fileSize": 239559,
@@ -9692,5 +9672,25 @@
     "manufacturerCode": 5127,
     "sha512": "d5a1236dc27f86157d2b83cc24a66c77c15b94f81d42cb2db3a46c34e3b8a4059642e1cc0e17622428abecb4790680c228b3f6a39313a3273b24c65b9f5bc60b",
     "otaHeaderString": "test"
+  },
+  {
+    "fileName": "1021-0016-003d45ff-NLD.zigbee",
+    "fileVersion": 4015615,
+    "fileSize": 208791,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Legrand/1021-0016-003d45ff-NLD.zigbee",
+    "imageType": 22,
+    "manufacturerCode": 4129,
+    "sha512": "7fe289d7a52fbf508414b81edcd8c59817a257a061bf0a5d5e81c92f08ba755af9ad1d0e4ed88e9d69c7bd218ef01d44d5251dea364dd5b8ffa701e18c9cab57",
+    "otaHeaderString": "                                "
+  },
+  {
+    "fileName": "1021-002f-001745ff-NLH.zigbee",
+    "fileVersion": 1525247,
+    "fileSize": 215095,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Legrand/1021-002f-001745ff-NLH.zigbee",
+    "imageType": 47,
+    "manufacturerCode": 4129,
+    "sha512": "4f96abb2f5a3fb776bd6600871cc0b67ad83c76712b005b40c070887fc782b6811411b11ff423d1651ec1b3dc8c1ee234c423d4d5b4a73d2d1b4af88a3d4d0a5",
+    "otaHeaderString": "                                "
   }
 ]
