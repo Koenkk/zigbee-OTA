@@ -2757,16 +2757,6 @@
     "otaHeaderString": "temp_humi_sensor"
   },
   {
-    "fileName": "Radar_PROD_OTA_V6_v1.00.06.ota",
-    "fileVersion": 6,
-    "fileSize": 136354,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/Radar_PROD_OTA_V6_v1.00.06.ota",
-    "imageType": 54194,
-    "manufacturerCode": 5127,
-    "sha512": "ef965246281a1b3da9f908b8c0d45e597c459b7db1e4b98a0ac1b3f3fab67058216eaf8c31ef5b6d9fd413c0cbb0030b38062581a2daa21c3ef42d09afcf5af8",
-    "otaHeaderString": "Telink OTA Sample Usage"
-  },
-  {
     "fileName": "100B-011B-02004D23-Sensor-EFR32MG22.zigbee",
     "fileVersion": 33574179,
     "fileSize": 200814,
@@ -3589,5 +3579,15 @@
     "manufacturerCode": 4129,
     "sha512": "4bba71db84465cbc5c8bed40e354a01948818dfce6e130ac94a6cdcf5cd7e717ac5c603c596f3221f76f8e349d9c2f7b2a6247d8f3275e729e7a038396a503e7",
     "otaHeaderString": "                                "
+  },
+  {
+    "fileName": "Radar_PROD_OTA_V14_v1.00.14.ota",
+    "fileVersion": 14,
+    "fileSize": 136594,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/Radar_PROD_OTA_V14_v1.00.14.ota",
+    "imageType": 54194,
+    "manufacturerCode": 5127,
+    "sha512": "54ff734daccbe523e08cfd9566a882db6eee040928bc0ad11072d65e59cddc315b52fb0fcefda83233d4165d350c453f4a4ac6dc895afea60a9ebed8b83b208c",
+    "otaHeaderString": "Telink OTA Sample Usage"
   }
 ]
