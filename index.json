@@ -9692,5 +9692,18 @@
     "manufacturerCode": 4655,
     "sha512": "c203b8b462a2d5b71be3d760ea5ef4bd4ce4df051e3816775ec1f5386f1451e40f527109378208a183da8ad821a38e80ddacc71ab8e3bf3d79ca73062cad4ba2",
     "otaHeaderString": "vzm32-sn_mmWave"
+  },
+  {
+    "fileName": "20251111112800_lumi.airrtc.aeu001_0.0.0_1030_20251110_525351.ota",
+    "fileVersion": 2590,
+    "fileSize": 681962,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.airrtc.aeu001/20251111112800_lumi.airrtc.aeu001_0.0.0_1030_20251110_525351.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20251111112800_lumi.airrtc.aeu001_0.0.0_1030_20251110_525351.ota",
+    "imageType": 6032,
+    "manufacturerCode": 4447,
+    "sha512": "81ecf8770fe751067184414851438a5278cc7f4e7cb5a49f5b5bfd203cf1f28124a2e9fd8fd162cd76e4cd405b0bd090b9f5d902051d0228addb5e0f2870dfee",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.airrtc.aeu001",
+    "releaseNotes": ""
   }
 ]
