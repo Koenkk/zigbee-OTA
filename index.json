@@ -2238,17 +2238,6 @@
     "releaseNotes": "1. Fix bug that endpoint changes.\r\n2. Supportdim down control from push button coupler."
   },
   {
-    "fileName": "20211122110505_OTA_lumi.curtain.hagl07_V48_20211119_2C5A.ota",
-    "fileVersion": 48,
-    "fileSize": 284750,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20211122110505_OTA_lumi.curtain.hagl07_V48_20211119_2C5A.ota",
-    "imageType": 4104,
-    "manufacturerCode": 4447,
-    "sha512": "41788737db26cfe01890a1c5f400b5f3ffb01f4d8ac81606e55a7bfbc0c1d8a22ae8725ff9ff2d9a4bff890fce3271a6fbc808c2a43f3bddf07c7ea75d630432",
-    "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000",
-    "modelId": "lumi.curtain.hagl07"
-  },
-  {
     "fileName": "20211228121851_OTA_lumi.switch.b1nacn02_0.0.0_0065_20211223_EB5B32.ota",
     "fileVersion": 65,
     "fileSize": 187230,
@@ -2599,17 +2588,6 @@
     "sha512": "25007f79ccb030715cd9fa1a0acd447554aa1b8c0627116b0ae06e5135e6c5922e64eace80452e9a05423487d499df1fa0a23a30aead31fac2f15c51f9d82895",
     "otaHeaderString": "Aqara OTA Image",
     "modelId": "lumi.light.acn132"
-  },
-  {
-    "fileName": "20230704151031_OTA_lumi.curtain.vagl02_V41_20230703_563B.ota",
-    "fileVersion": 41,
-    "fileSize": 285742,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20230704151031_OTA_lumi.curtain.vagl02_V41_20230703_563B.ota",
-    "imageType": 4616,
-    "manufacturerCode": 4447,
-    "sha512": "5c154c263bddba0ab0f5ffc0fb80d68f1c56c833b9018ad2a1942f30cec1efee977d6e2f431f8e06d617b241b1311ce4dc8d04f68757e889314e18075e485e5e",
-    "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000",
-    "modelId": "lumi.curtain.vagl02"
   },
   {
     "fileName": "20230905121119_OTA_lumi.light.acn003_0.0.0_0029_20230712_1D4A6E.ota",
@@ -9753,5 +9731,43 @@
     "sha512": "7ed48bbea412126e7f48763d13f188f3fa1f66c159a5a686f4a1977073986cdfd37892b852932d4bebc35bc17c8698c8d2d7e1774622eadb7b26d13797b66125",
     "otaHeaderString": "Aqara OTA Image",
     "modelId": "lumi.light.agl006"
+  },
+  {
+    "fileName": "20231229163914_lumi.curtain.acn04_0.0.0_0015_20231229_73B3.ota",
+    "fileVersion": 15,
+    "fileSize": 421126,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.curtain.acn04/20231229163914_lumi.curtain.acn04_0.0.0_0015_20231229_73B3.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20231229163914_lumi.curtain.acn04_0.0.0_0015_20231229_73B3.ota",
+    "imageType": 56209,
+    "manufacturerCode": 4447,
+    "sha512": "f6dc425cafe193fce2396b751810e08be9bf824859d5e3b8c533b608ffeb4fd0f16cfef096862aef87acccf4e9df3bfafd431485faa250b6634780fad7922a06",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.curtain.acn04",
+    "releaseNotes": "Fix known issues."
+  },
+  {
+    "fileName": "20241231154830_OTA_lumi.curtain.vagl02_V45_20241011_B012.ota",
+    "fileVersion": 45,
+    "fileSize": 290990,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.curtain.vagl02/20241231154830_OTA_lumi.curtain.vagl02_V45_20241011_B012.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20241231154830_OTA_lumi.curtain.vagl02_V45_20241011_B012.ota",
+    "imageType": 4616,
+    "manufacturerCode": 4447,
+    "sha512": "50139154774e7840cea68c885181472cd1566b875be97f38300a8331d33719b69de1bbed10c982f1cdd7c3a0a57cebbd8ebdba1b0ae652dfbf04f50c12a2bf97",
+    "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000",
+    "modelId": "lumi.curtain.vagl02"
+  },
+  {
+    "fileName": "20250117154637_OTA_lumi.curtain.hagl07_V54_20241011_5603.ota",
+    "fileVersion": 54,
+    "fileSize": 289582,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.curtain.hagl07/20250117154637_OTA_lumi.curtain.hagl07_V54_20241011_5603.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20250117154637_OTA_lumi.curtain.hagl07_V54_20241011_5603.ota",
+    "imageType": 4104,
+    "manufacturerCode": 4447,
+    "sha512": "c2bf2972a1cddd474b09baf037d3fe85f0750267096ff40d2ecda85a90daf8a778e1d8e42b44078a7736bd770ac910152912e1c492fb805e1b471a630d04701b",
+    "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000",
+    "modelId": "lumi.curtain.hagl07",
+    "releaseNotes": "Fix known issues"
   }
 ]

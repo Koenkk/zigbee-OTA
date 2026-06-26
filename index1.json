@@ -3589,5 +3589,27 @@
     "manufacturerCode": 4655,
     "sha512": "a766719e1f13893adb17ce8aec13d198ce8371a0bb740203515524f972305e8f7cd2b4904b1a50bae9664b44f87d7132305a3348fd0e4481049439a71c19bf89",
     "otaHeaderString": "vzm32-sn_mmWave"
+  },
+  {
+    "fileName": "20230704151031_OTA_lumi.curtain.vagl02_V41_20230703_563B.ota",
+    "fileVersion": 41,
+    "fileSize": 285742,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Lumi/20230704151031_OTA_lumi.curtain.vagl02_V41_20230703_563B.ota",
+    "imageType": 4616,
+    "manufacturerCode": 4447,
+    "sha512": "5c154c263bddba0ab0f5ffc0fb80d68f1c56c833b9018ad2a1942f30cec1efee977d6e2f431f8e06d617b241b1311ce4dc8d04f68757e889314e18075e485e5e",
+    "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000",
+    "modelId": "lumi.curtain.vagl02"
+  },
+  {
+    "fileName": "20211122110505_OTA_lumi.curtain.hagl07_V48_20211119_2C5A.ota",
+    "fileVersion": 48,
+    "fileSize": 284750,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Lumi/20211122110505_OTA_lumi.curtain.hagl07_V48_20211119_2C5A.ota",
+    "imageType": 4104,
+    "manufacturerCode": 4447,
+    "sha512": "41788737db26cfe01890a1c5f400b5f3ffb01f4d8ac81606e55a7bfbc0c1d8a22ae8725ff9ff2d9a4bff890fce3271a6fbc808c2a43f3bddf07c7ea75d630432",
+    "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000",
+    "modelId": "lumi.curtain.hagl07"
   }
 ]
