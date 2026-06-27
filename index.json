@@ -8185,19 +8185,6 @@
     "otaHeaderString": "FIRMWARE"
   },
   {
-    "fileName": "6565-0394-10053001-air_quality_monitor_zrd.zigbee",
-    "fileVersion": 268775425,
-    "fileSize": 303378,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-0394-10053001-air_quality_monitor_zrd.zigbee",
-    "imageType": 916,
-    "manufacturerCode": 25957,
-    "sha512": "45beefbfd991d688cd095dc0f2da66e4fd099dcde2e0730f071cb74ab0af26680796fb7705c52aadc63feff2b5b5ab87e016d753c5bdf5784b1427a33869d4e9",
-    "otaHeaderString": "",
-    "manufacturerName": [
-      "Slacky-DIY"
-    ]
-  },
-  {
     "fileName": "trvzb_v1.4.4.ota",
     "fileVersion": 5124,
     "fileSize": 332220,
@@ -9769,5 +9756,31 @@
     "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000",
     "modelId": "lumi.curtain.hagl07",
     "releaseNotes": "Fix known issues"
+  },
+  {
+    "fileName": "6565-032a-10043001-socket_ekf_stockholm_zrd.zigbee",
+    "fileVersion": 268709889,
+    "fileSize": 195090,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-032a-10043001-socket_ekf_stockholm_zrd.zigbee",
+    "imageType": 810,
+    "manufacturerCode": 25957,
+    "sha512": "f999f9cd9f4a4ea87acca72a9d0816127fdd03d21129eebaa06329d3c50e470a29dd3bc09ead31d0d590539a1e3dd94ac99bc2d380622123d0cdee13e48c5fda",
+    "otaHeaderString": "Slacky-DIY OTA",
+    "manufacturerName": [
+      "Slacky-DIY"
+    ]
+  },
+  {
+    "fileName": "6565-0394-10063001-air_quality_monitor_zrd.zigbee",
+    "fileVersion": 268840961,
+    "fileSize": 303106,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-0394-10063001-air_quality_monitor_zrd.zigbee",
+    "imageType": 916,
+    "manufacturerCode": 25957,
+    "sha512": "59b101540c12e73f9621d5f34a08cd72b5774d616ba845b07f3e838407ec1a3c55f9de6c8063a47e258456a454d52586befb6be88469daf56e515dbc2b40f685",
+    "otaHeaderString": "Slacky-DIY OTA",
+    "manufacturerName": [
+      "Slacky-DIY"
+    ]
   }
 ]
