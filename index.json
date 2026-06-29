@@ -6986,16 +6986,6 @@
     "releaseNotes": "1. Improve the energy consumption report in Home Assistant system."
   },
   {
-    "fileName": "bl702_Dual_plug_1.00.42.ota",
-    "fileVersion": 42,
-    "fileSize": 286614,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/bl702_Dual_plug_1.00.42.ota",
-    "imageType": 54197,
-    "manufacturerCode": 5127,
-    "sha512": "c3e88377ac23f9eb87b316fd7c94bb07e20762421c638e1804c14f91b3f416c1da83a78e50d3d7b66b0bd0e606c01ad8527d94ffa680afbda104be0eadb6ef03",
-    "otaHeaderString": "temp_humi_sensor"
-  },
-  {
     "fileName": "1021-000e-004e45ff-NLF.zigbee",
     "fileVersion": 5129727,
     "fileSize": 254311,
@@ -9782,5 +9772,15 @@
     "manufacturerName": [
       "Slacky-DIY"
     ]
+  },
+  {
+    "fileName": "bl702_dual_plug_1.00.52.ota",
+    "fileVersion": 52,
+    "fileSize": 287614,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/bl702_dual_plug_1.00.52.ota",
+    "imageType": 54197,
+    "manufacturerCode": 5127,
+    "sha512": "de2bc2ad5a9a8e275e188c17277518178d4ba2a8ebc600eb4373adbd050cf739721adb9b98ad017119f0da1054dd2e9a6c8345d029e5abbd74c027d326dbe9b1",
+    "otaHeaderString": "temp_humi_sensor"
   }
 ]

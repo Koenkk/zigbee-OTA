@@ -2108,16 +2108,6 @@
     "releaseNotes": "1.Fix bug network leave related with green power device commission.\r\n2.Fix abnormal reboot caused by network status.\r\n3.Upgrade Zigbee stack to latest version 3.7.1.2. \r\n4.Support using recall scene to turn off plug in Hue system."
   },
   {
-    "fileName": "bl702_Dual_plug_v1.00.38.ota",
-    "fileVersion": 38,
-    "fileSize": 286202,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/bl702_Dual_plug_v1.00.38.ota",
-    "imageType": 54197,
-    "manufacturerCode": 5127,
-    "sha512": "42541b4f77769aa9ea23fa62db5b22dd7dee3ff85e74b27634ac35b7ff639225e50a75713e73d36ecfeebbd5305ed013176a7f62bcde7bc65415c3b64d50fc3d",
-    "otaHeaderString": "temp_humi_sensor"
-  },
-  {
     "fileName": "1021-000e-004d45ff-NLF.zigbee",
     "fileVersion": 5064191,
     "fileSize": 254231,
@@ -3611,5 +3601,15 @@
     "manufacturerName": [
       "Slacky-DIY"
     ]
+  },
+  {
+    "fileName": "bl702_Dual_plug_1.00.42.ota",
+    "fileVersion": 42,
+    "fileSize": 286614,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/bl702_Dual_plug_1.00.42.ota",
+    "imageType": 54197,
+    "manufacturerCode": 5127,
+    "sha512": "c3e88377ac23f9eb87b316fd7c94bb07e20762421c638e1804c14f91b3f416c1da83a78e50d3d7b66b0bd0e606c01ad8527d94ffa680afbda104be0eadb6ef03",
+    "otaHeaderString": "temp_humi_sensor"
   }
 ]
