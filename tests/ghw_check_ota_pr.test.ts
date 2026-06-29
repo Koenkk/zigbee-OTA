@@ -519,6 +519,69 @@ Text after end tag`);
         expect(baseManifest).toStrictEqual([metaCopy]);
     });
 
+    // Aqara devices share same imageType and manufacturerCode, but have different modelIds, so they can have multiple
+    // images (with same imageType/manufacturerCode) in the base manifest.
+    // Images with same imageType and manufacturerCode are only allowed when both images have different modelIds.
+    // https://github.com/Koenkk/zigbee-OTA/pull/1214
+    it.each([
+        {
+            name: "different modelIds",
+            modelIdCopy: "model_a",
+            modelIdOriginal: "model_b",
+            shouldSucceed: true,
+        },
+        {
+            name: "matching modelIds",
+            modelIdCopy: "model_a",
+            modelIdOriginal: "model_a",
+            shouldSucceed: false,
+        },
+        {
+            name: "only copy has modelId",
+            modelIdCopy: "model_a",
+            modelIdOriginal: undefined,
+            shouldSucceed: true,
+        },
+        {
+            name: "only original has modelId",
+            modelIdCopy: undefined,
+            modelIdOriginal: "model_a",
+            shouldSucceed: true,
+        },
+    ])("modelId spec-matching with $name", async ({modelIdCopy, modelIdOriginal, shouldSucceed}) => {
+        filePaths = [useImage(IMAGE_V14_2_COPY), useImage(IMAGE_V14_2)];
+
+        // Build JSON body with modelId only if defined
+        const metasArray = [];
+        if (modelIdCopy !== undefined) {
+            metasArray.push({fileName: IMAGE_V14_2_COPY, modelId: modelIdCopy});
+        } else {
+            metasArray.push({fileName: IMAGE_V14_2_COPY});
+        }
+        if (modelIdOriginal !== undefined) {
+            metasArray.push({fileName: IMAGE_V14_2, modelId: modelIdOriginal});
+        } else {
+            metasArray.push({fileName: IMAGE_V14_2});
+        }
+
+        const newContext = withBody(`\`\`\`json ${JSON.stringify(metasArray)} \`\`\``);
+
+        // manip SHA512 so it doesn't match on that point in `hasManufacturerImage`
+        const f = readFileSync(filePaths[0].filename);
+        f[f.byteLength - 1] = 0xff;
+        writeFileSync(filePaths[0].filename, f);
+
+        if (shouldSucceed) {
+            // @ts-expect-error mock
+            await checkOtaPR(github, core, newContext);
+        } else {
+            await expect(async () => {
+                // @ts-expect-error mock
+                await checkOtaPR(github, core, newContext);
+            }).rejects.toThrow(/Conflict with image at index|Image already present for manufacturer/);
+        }
+    });
+
     it("success with newer than current but minFileVersion keeps both", async () => {
         filePaths = [useImage(IMAGE_V13_1), useImage(IMAGE_V14_1)];
         const newContext = withBody(
