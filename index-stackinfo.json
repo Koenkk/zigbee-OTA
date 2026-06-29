@@ -1212,12 +1212,6 @@
     "zigbeeStackVersion": "ZigbeePro"
   },
   {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20211122110505_OTA_lumi.curtain.hagl07_V48_20211119_2C5A.ota",
-    "stack": "Unknown",
-    "stackDetails": "",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20211228121851_OTA_lumi.switch.b1nacn02_0.0.0_0065_20211223_EB5B32.ota",
     "stack": "Unknown",
     "stackDetails": "",
@@ -1407,12 +1401,6 @@
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20230610160234_lumi.light.acn132_mcu_0.0.0_2627_20230606_DA1C86.ota",
     "stack": "EmberZNet",
     "stackDetails": "GBL",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20230704151031_OTA_lumi.curtain.vagl02_V41_20230703_563B.ota",
-    "stack": "Unknown",
-    "stackDetails": "",
     "zigbeeStackVersion": "ZigbeePro"
   },
   {
@@ -2472,13 +2460,13 @@
     "zigbeeStackVersion": "ZigbeePro"
   },
   {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Telink/1663234985-oem_ztu_dimmer1_klt_OTA_1.0.6.bin",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Tuya/1663234985-oem_ztu_dimmer1_klt_OTA_1.0.6.bin",
     "stack": "Telink",
     "stackDetails": "",
     "zigbeeStackVersion": "ZigbeePro"
   },
   {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Telink/1686137326-oem_zg_tl8258_plug_OTA_1.0.14.bin",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Tuya/1686137326-oem_zg_tl8258_plug_OTA_1.0.14.bin",
     "stack": "Telink",
     "stackDetails": "",
     "zigbeeStackVersion": "ZigbeePro"
@@ -2844,7 +2832,7 @@
     "zigbeeStackVersion": "ZigbeePro"
   },
   {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Telink/oem_tl8258_zg_breaker_OTA_1.0.10.bin",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Tuya/oem_tl8258_zg_breaker_OTA_1.0.10.bin",
     "stack": "Telink",
     "stackDetails": "",
     "zigbeeStackVersion": "ZigbeePro"
@@ -2862,7 +2850,7 @@
     "zigbeeStackVersion": "ZigbeePro"
   },
   {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Telink/1730081189-oem_zg_tl8258_plug_OTA_1.1.2.bin",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Tuya/1730081189-oem_zg_tl8258_plug_OTA_1.1.2.bin",
     "stack": "Telink",
     "stackDetails": "",
     "zigbeeStackVersion": "ZigbeePro"
@@ -3049,12 +3037,6 @@
   },
   {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Legrand/1021-002a-001845ff-NLW.zigbee",
-    "stack": "Unknown",
-    "stackDetails": "",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Legrand/1021-002f-001245ff-NLH.zigbee",
     "stack": "Unknown",
     "stackDetails": "",
     "zigbeeStackVersion": "ZigbeePro"
@@ -3343,12 +3325,6 @@
   },
   {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Bosch/ota_t0x3011_m0x1209_v0x03086a90.ota",
-    "stack": "EmberZNet",
-    "stackDetails": "GBL",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Inovelli/VZM32-SN_0.10.ota",
     "stack": "EmberZNet",
     "stackDetails": "GBL",
     "zigbeeStackVersion": "ZigbeePro"
@@ -4302,12 +4278,6 @@
     "zigbeeStackVersion": "ZigbeePro"
   },
   {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Legrand/1021-0016-003945ff-NLD.zigbee",
-    "stack": "Unknown",
-    "stackDetails": "",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Legrand/1021-0019-002945ff-NLFN.zigbee",
     "stack": "Unknown",
     "stackDetails": "",
@@ -4340,12 +4310,6 @@
   {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/snzb-02dr2_v1.0.4.ota",
     "stack": "Unknown",
-    "stackDetails": "",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-0394-10053001-air_quality_monitor_zrd.zigbee",
-    "stack": "Telink",
     "stackDetails": "",
     "zigbeeStackVersion": "ZigbeePro"
   },
@@ -4478,12 +4442,6 @@
   {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Smart_Soil_Moisture_Sensor_Gen2_v1.00.21.ota",
     "stack": "Unknown",
-    "stackDetails": "",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Radar_PROD_OTA_V14_v1.00.14.ota",
-    "stack": "Telink",
     "stackDetails": "",
     "zigbeeStackVersion": "ZigbeePro"
   },
@@ -5078,6 +5036,90 @@
   {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Smart_Air_Quality_Sensor_OTA_v16_v1.00.16.ota",
     "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Legrand/1021-0016-003d45ff-NLD.zigbee",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Legrand/1021-002f-001745ff-NLH.zigbee",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Radar_PROD_OTA_V16_v1.00.16.ota",
+    "stack": "Telink",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Inovelli/VZM32-SN_1.02.ota",
+    "stack": "EmberZNet",
+    "stackDetails": "GBL",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20251111112800_lumi.airrtc.aeu001_0.0.0_1030_20251110_525351.ota",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20251013111834_OTA_lumi.light.agl001_0.0.0_0030_20251013_F7321F.ota",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20260409141326_OTA_lumi.light.agl002_0.0.0_0031_20260407_9D1EC7.ota",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20251013120727_OTA_lumi.light.agl005_0.0.0_0030_20251013_F7321F.ota",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20260407182855_OTA_lumi.light.agl006_0.0.0_0031_20260407_9D1EC7.ota",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20231229163914_lumi.curtain.acn04_0.0.0_0015_20231229_73B3.ota",
+    "stack": "EmberZNet",
+    "stackDetails": "GBL",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20241231154830_OTA_lumi.curtain.vagl02_V45_20241011_B012.ota",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20250117154637_OTA_lumi.curtain.hagl07_V54_20241011_5603.ota",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-032a-10043001-socket_ekf_stockholm_zrd.zigbee",
+    "stack": "Telink",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-0394-10063001-air_quality_monitor_zrd.zigbee",
+    "stack": "Telink",
     "stackDetails": "",
     "zigbeeStackVersion": "ZigbeePro"
   }
