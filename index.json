@@ -9782,5 +9782,15 @@
     "manufacturerCode": 5127,
     "sha512": "de2bc2ad5a9a8e275e188c17277518178d4ba2a8ebc600eb4373adbd050cf739721adb9b98ad017119f0da1054dd2e9a6c8345d029e5abbd74c027d326dbe9b1",
     "otaHeaderString": "temp_humi_sensor"
+  },
+  {
+    "fileName": "bl702_wall_plug_1.00.52.ota",
+    "fileVersion": 52,
+    "fileSize": 287558,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/bl702_wall_plug_1.00.52.ota",
+    "imageType": 54198,
+    "manufacturerCode": 5127,
+    "sha512": "bb1777cff5fe2c4022d42e004f67abc8a54c99634f8ef8d15b2a543af245cc0fffb732c1425c04894d64128481644e4572db16dbabfeef899bd13569ff47876c",
+    "otaHeaderString": "temp_humi_sensor"
   }
 ]
