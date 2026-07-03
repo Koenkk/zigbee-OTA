@@ -9598,16 +9598,6 @@
     "otaHeaderString": "EBL HS1RM_EF_0787_NEW_V01"
   },
   {
-    "fileName": "Smart_Air_Quality_Sensor_OTA_v16_v1.00.16.ota",
-    "fileVersion": 16,
-    "fileSize": 243102,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Smart_Air_Quality_Sensor_OTA_v16_v1.00.16.ota",
-    "imageType": 54277,
-    "manufacturerCode": 5127,
-    "sha512": "d5a1236dc27f86157d2b83cc24a66c77c15b94f81d42cb2db3a46c34e3b8a4059642e1cc0e17622428abecb4790680c228b3f6a39313a3273b24c65b9f5bc60b",
-    "otaHeaderString": "test"
-  },
-  {
     "fileName": "1021-0016-003d45ff-NLD.zigbee",
     "fileVersion": 4015615,
     "fileSize": 208791,
@@ -9792,5 +9782,15 @@
     "manufacturerCode": 5127,
     "sha512": "bb1777cff5fe2c4022d42e004f67abc8a54c99634f8ef8d15b2a543af245cc0fffb732c1425c04894d64128481644e4572db16dbabfeef899bd13569ff47876c",
     "otaHeaderString": "temp_humi_sensor"
+  },
+  {
+    "fileName": "Smart_Air_Quality_Sensor_OTA_v17_v1.00.17.ota",
+    "fileVersion": 17,
+    "fileSize": 244506,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Smart_Air_Quality_Sensor_OTA_v17_v1.00.17.ota",
+    "imageType": 54277,
+    "manufacturerCode": 5127,
+    "sha512": "8431ac5cc986ad3fa3c2c4b44db34212eeb05b6fc50e448f3a8556a759b3748701787eecf2876ff80d18f5bd4034d24bc33563309654c43fa55a8b087538a676",
+    "otaHeaderString": "test"
   }
 ]
