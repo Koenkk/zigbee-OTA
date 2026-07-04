@@ -9792,5 +9792,18 @@
     "manufacturerCode": 5127,
     "sha512": "8431ac5cc986ad3fa3c2c4b44db34212eeb05b6fc50e448f3a8556a759b3748701787eecf2876ff80d18f5bd4034d24bc33563309654c43fa55a8b087538a676",
     "otaHeaderString": "test"
+  },
+  {
+    "fileName": "20260518142429_OTA_lumi.sensor_ht.agl001_0.0.0_1641_20260518_0DFD70.ota",
+    "fileVersion": 4137,
+    "fileSize": 624570,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.sensor_ht.agl001/20260518142429_OTA_lumi.sensor_ht.agl001_0.0.0_1641_20260518_0DFD70.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20260518142429_OTA_lumi.sensor_ht.agl001_0.0.0_1641_20260518_0DFD70.ota",
+    "imageType": 9744,
+    "manufacturerCode": 4447,
+    "sha512": "be31d72eb21ee697bd826857044a0de057c27ab089dd386e7edbd0c4157c0fba1492271396f92ce4c3dc7bc49a3ae471d2a4c6aae644346f0daba4af5a424ba9",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.sensor_ht.agl001",
+    "releaseNotes": "Fixes integer-truncated temperature/humidity reports being interleaved with precise ones"
   }
 ]
