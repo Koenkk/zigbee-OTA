@@ -490,6 +490,31 @@ Text after end tag`);
         expect(baseManifest).toStrictEqual([IMAGE_V14_2_MANUF_METAS]);
     });
 
+    it("success with SHA-matching image present when modelId differs", async () => {
+        filePaths = [useImage(IMAGE_V14_2_COPY), useImage(IMAGE_V14_2)];
+        const newContext = withBody(
+            `\`\`\`json [{"fileName": "${IMAGE_V14_2_COPY}", "modelId": "model_a"}, {"fileName": "${IMAGE_V14_2}", "modelId": "model_b"}] \`\`\``,
+        );
+
+        // @ts-expect-error mock
+        await checkOtaPR(github, core, newContext);
+
+        expect(readManifestSpy).toHaveBeenCalledWith(common.BASE_INDEX_MANIFEST_FILENAME);
+        expect(readManifestSpy).toHaveBeenCalledWith(common.PREV_INDEX_MANIFEST_FILENAME);
+        expect(addImageToBaseSpy).toHaveBeenCalledTimes(2);
+        expect(addImageToPrevSpy).toHaveBeenCalledTimes(0);
+        expect(writeManifestSpy).toHaveBeenCalledTimes(2);
+        expect(writeManifestSpy).toHaveBeenCalledWith(common.BASE_INDEX_MANIFEST_FILENAME, [
+            {
+                ...IMAGE_V14_2_METAS,
+                fileName: IMAGE_V14_2_COPY,
+                modelId: "model_a",
+                url: IMAGE_V14_2_METAS.url.replace(IMAGE_V14_2, IMAGE_V14_2_COPY),
+            },
+            withExtraMetas(IMAGE_V14_2_METAS, {modelId: "model_b"}),
+        ]);
+    });
+
     it("failure with spec-matching image present", async () => {
         filePaths = [useImage(IMAGE_V14_2_COPY), useImage(IMAGE_V14_2)];
         // bypass initial "conflict" match by using random `minFileVersion`
