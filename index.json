@@ -9805,5 +9805,53 @@
     "otaHeaderString": "Aqara OTA Image",
     "modelId": "lumi.sensor_ht.agl001",
     "releaseNotes": "Fixes integer-truncated temperature/humidity reports being interleaved with precise ones"
+  },
+  {
+    "fileName": "20230217145452_OTA_lumi.light.acn006_0.0.0_0039_20230216_216801.ota",
+    "fileVersion": 39,
+    "fileSize": 385152,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.light.acn006/20230217145452_OTA_lumi.light.acn006_0.0.0_0039_20230216_216801.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20230217145452_OTA_lumi.light.acn006_0.0.0_0039_20230216_216801.ota",
+    "imageType": 132,
+    "manufacturerCode": 4447,
+    "sha512": "cf84026e63fdb9cce7886a4b209e059f76eb0426e5b26fe2c6bb02150e2527144b1287dc1496153038a217aa7957577df2dde02772839f6670aeb7f7d5962626",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.light.acn006"
+  },
+  {
+    "fileName": "20231222195103_lumi.light.acn023_0.0.0_0041_20231220_20F906.ota",
+    "fileVersion": 41,
+    "fileSize": 317900,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.light.acn023/20231222195103_lumi.light.acn023_0.0.0_0041_20231220_20F906.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20231222195103_lumi.light.acn023_0.0.0_0041_20231220_20F906.ota",
+    "imageType": 138,
+    "manufacturerCode": 4447,
+    "sha512": "dea351b8a1208cb6703530a78966cc940a5d67c2a8990df18a3fcb7d55304a82d713a656efd27705a8ff51b43028ddef4b765dc3692be2f9cdaf47795ab15b11",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.light.acn023"
+  },
+  {
+    "fileName": "20231222195251_lumi.light.acn025_0.0.0_0041_20231220_20F906.ota",
+    "fileVersion": 41,
+    "fileSize": 317900,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.light.acn025/20231222195251_lumi.light.acn025_0.0.0_0041_20231220_20F906.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20231222195251_lumi.light.acn025_0.0.0_0041_20231220_20F906.ota",
+    "imageType": 138,
+    "manufacturerCode": 4447,
+    "sha512": "dea351b8a1208cb6703530a78966cc940a5d67c2a8990df18a3fcb7d55304a82d713a656efd27705a8ff51b43028ddef4b765dc3692be2f9cdaf47795ab15b11",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.light.acn025"
+  },
+  {
+    "fileName": "20250801110500_OTA_lumi.light.acn040_0.0.0_0024_20250728_C35D9C.ota",
+    "fileVersion": 24,
+    "fileSize": 666126,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.light.acn040/20250801110500_OTA_lumi.light.acn040_0.0.0_0024_20250728_C35D9C.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20250801110500_OTA_lumi.light.acn040_0.0.0_0024_20250728_C35D9C.ota",
+    "imageType": 1045,
+    "manufacturerCode": 4447,
+    "sha512": "9b6f9ee722b877a5d61243f586129bd005e5e278acb6fda77e28ca444831e7c95c966bc9fd0bd030988410804d56bb8bbf5cc3c2aef51d0ced2381f66e319f94",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.light.acn040"
   }
 ]
