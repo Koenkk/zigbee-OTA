@@ -2623,17 +2623,6 @@
     "modelId": "lumi.light.acn014"
   },
   {
-    "fileName": "20231222194652_lumi.dimmer.acn004_0.0.0_0024_9FD15B.ota",
-    "fileVersion": 24,
-    "fileSize": 440714,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20231222194652_lumi.dimmer.acn004_0.0.0_0024_9FD15B.ota",
-    "imageType": 6028,
-    "manufacturerCode": 4447,
-    "sha512": "56ecdbb4940e48ab4abeb2ca7a168f23e4c9c116818f842a36b3a28c935a3b8f6e99c42cdef4b2db1dcb9ad2a244548591a1d112d9c37bd4bc568b5c20a3fa07",
-    "otaHeaderString": "Aqara OTA Image",
-    "modelId": "lumi.dimmer.acn004"
-  },
-  {
     "fileName": "20231222195203_lumi.light.acn024_0.0.0_0041_20231220_20F906.ota",
     "fileVersion": 41,
     "fileSize": 317900,
@@ -9853,5 +9842,41 @@
     "sha512": "9b6f9ee722b877a5d61243f586129bd005e5e278acb6fda77e28ca444831e7c95c966bc9fd0bd030988410804d56bb8bbf5cc3c2aef51d0ced2381f66e319f94",
     "otaHeaderString": "Aqara OTA Image",
     "modelId": "lumi.light.acn040"
+  },
+  {
+    "fileName": "20250718111625_lumi.dimmer.acn003_0.0.0_0025_20250717_817611.ota",
+    "fileVersion": 25,
+    "fileSize": 445174,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.dimmer.acn003/20250718111625_lumi.dimmer.acn003_0.0.0_0025_20250717_817611.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20250718111625_lumi.dimmer.acn003_0.0.0_0025_20250717_817611.ota",
+    "imageType": 6028,
+    "manufacturerCode": 4447,
+    "sha512": "da9393eccecff6eeb511481dcc5f98c5f73bd418aabc070e636e23275b107ab1cc81b642bb5d74dc428c7c348f218f8f2dc6541ebc3386c02b4870e06f03ef26",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.dimmer.acn003"
+  },
+  {
+    "fileName": "20250718112958_lumi.dimmer.acn004_0.0.0_0025_20250717_817611.ota",
+    "fileVersion": 25,
+    "fileSize": 445174,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.dimmer.acn004/20250718112958_lumi.dimmer.acn004_0.0.0_0025_20250717_817611.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20250718112958_lumi.dimmer.acn004_0.0.0_0025_20250717_817611.ota",
+    "imageType": 6028,
+    "manufacturerCode": 4447,
+    "sha512": "da9393eccecff6eeb511481dcc5f98c5f73bd418aabc070e636e23275b107ab1cc81b642bb5d74dc428c7c348f218f8f2dc6541ebc3386c02b4870e06f03ef26",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.dimmer.acn004"
+  },
+  {
+    "fileName": "20250722114553_lumi.dimmer.acn005_0.0.0_0025_20250717_817611.ota",
+    "fileVersion": 25,
+    "fileSize": 445174,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.dimmer.acn005/20250722114553_lumi.dimmer.acn005_0.0.0_0025_20250717_817611.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20250722114553_lumi.dimmer.acn005_0.0.0_0025_20250717_817611.ota",
+    "imageType": 6028,
+    "manufacturerCode": 4447,
+    "sha512": "da9393eccecff6eeb511481dcc5f98c5f73bd418aabc070e636e23275b107ab1cc81b642bb5d74dc428c7c348f218f8f2dc6541ebc3386c02b4870e06f03ef26",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.dimmer.acn005"
   }
 ]

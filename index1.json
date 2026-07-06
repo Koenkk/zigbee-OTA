@@ -3611,5 +3611,16 @@
     "manufacturerCode": 5127,
     "sha512": "d5a1236dc27f86157d2b83cc24a66c77c15b94f81d42cb2db3a46c34e3b8a4059642e1cc0e17622428abecb4790680c228b3f6a39313a3273b24c65b9f5bc60b",
     "otaHeaderString": "test"
+  },
+  {
+    "fileName": "20231222194652_lumi.dimmer.acn004_0.0.0_0024_9FD15B.ota",
+    "fileVersion": 24,
+    "fileSize": 440714,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Lumi/20231222194652_lumi.dimmer.acn004_0.0.0_0024_9FD15B.ota",
+    "imageType": 6028,
+    "manufacturerCode": 4447,
+    "sha512": "56ecdbb4940e48ab4abeb2ca7a168f23e4c9c116818f842a36b3a28c935a3b8f6e99c42cdef4b2db1dcb9ad2a244548591a1d112d9c37bd4bc568b5c20a3fa07",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.dimmer.acn004"
   }
 ]
