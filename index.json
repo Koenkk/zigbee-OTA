@@ -9918,5 +9918,41 @@
     "otaHeaderString": "Aqara OTA Image",
     "modelId": "lumi.sensor_occupy.acn1",
     "releaseNotes": "[After pressing Update in the APP, single press the button on the device to speed up the firmware update]\n1. Radar performance optimization to improve trigger speed when someone is detected\n2. Improved accuracy of detection range settings and target detection\n3. Fixed known issues"
+  },
+  {
+    "fileName": "20250121151129_OTA_lumi.valve.agl001_0.0.0_0054_20250121_D75D28.ota",
+    "fileVersion": 54,
+    "fileSize": 512218,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.valve.agl001/20250121151129_OTA_lumi.valve.agl001_0.0.0_0054_20250121_D75D28.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20250121151129_OTA_lumi.valve.agl001_0.0.0_0054_20250121_D75D28.ota",
+    "imageType": 56224,
+    "manufacturerCode": 4447,
+    "sha512": "a2e291a69e0cd0e185b6845811d77c67e7df52f64ec7977b5ee3bfbd6746b1c7748b1daf0113e6e6ad5e3b21cd25d5da15634afcdc6700338999c0bfe3d5da65",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.valve.agl001"
+  },
+  {
+    "fileName": "20250613153406_OTA_lumi.plug.acn005_0.0.0_0032_20250611_DA5E0E.ota",
+    "fileVersion": 32,
+    "fileSize": 609442,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.plug.acn005/20250613153406_OTA_lumi.plug.acn005_0.0.0_0032_20250611_DA5E0E.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20250613153406_OTA_lumi.plug.acn005_0.0.0_0032_20250611_DA5E0E.ota",
+    "imageType": 39694,
+    "manufacturerCode": 4447,
+    "sha512": "c1f1c7a46a23f7a8214fa140512f8cf0d6d4b33d2033734beae73fca444dc8124316c4fceeaa6611746fecd9f9113a430284cde2327abd5364063b78f646e823",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.plug.acn005"
+  },
+  {
+    "fileName": "20260120122157_OTA_lumi.plug.aeu001_0.0.0_0033_20260109_2A1D5E.ota",
+    "fileVersion": 33,
+    "fileSize": 609594,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.plug.aeu001/20260120122157_OTA_lumi.plug.aeu001_0.0.0_0033_20260109_2A1D5E.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20260120122157_OTA_lumi.plug.aeu001_0.0.0_0033_20260109_2A1D5E.ota",
+    "imageType": 39694,
+    "manufacturerCode": 4447,
+    "sha512": "b2d3513f0a2d9e5e63711f844b5da0e69d82f4192b878c687f31c78948296d04964b9c6d8ed9765a8d3d27864bb94fbebbd6cb89e2c208a73784c5137422cb91",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.plug.aeu001"
   }
 ]
