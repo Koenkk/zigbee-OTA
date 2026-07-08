@@ -2348,17 +2348,6 @@
     "modelId": "lumi.curtain.agl001"
   },
   {
-    "fileName": "20220524105221_OTA_lumi.motion.ac01_0.0.0_0054_20220509_EB279B.ota",
-    "fileVersion": 54,
-    "fileSize": 317658,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20220524105221_OTA_lumi.motion.ac01_0.0.0_0054_20220509_EB279B.ota",
-    "imageType": 8347,
-    "manufacturerCode": 4447,
-    "sha512": "32174d5bc4abbb7295e7619a1684b0a37a9622dfc4cebbc6a39174e18fa3b9bde9b562cbb34e1eb9c61169c0f1f879245d4e452890dfc0645cd22e6ad36f468d",
-    "otaHeaderString": "\u0014OTA_lumi.motion.ac01",
-    "modelId": "lumi.motion.ac01"
-  },
-  {
     "fileName": "20220607175331_OTA_lumi.switch.acn029_0.0.0_211551_20220217_08B622.ota",
     "fileVersion": 1380147,
     "fileSize": 322672,
@@ -9878,5 +9867,56 @@
     "sha512": "da9393eccecff6eeb511481dcc5f98c5f73bd418aabc070e636e23275b107ab1cc81b642bb5d74dc428c7c348f218f8f2dc6541ebc3386c02b4870e06f03ef26",
     "otaHeaderString": "Aqara OTA Image",
     "modelId": "lumi.dimmer.acn005"
+  },
+  {
+    "fileName": "20220718113235_OTA_lumi.sensor_smoke.acn03_0.0.0_0017_20220617_CB9276.ota",
+    "fileVersion": 17,
+    "fileSize": 222094,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.sensor_smoke.acn03/20220718113235_OTA_lumi.sensor_smoke.acn03_0.0.0_0017_20220617_CB9276.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20220718113235_OTA_lumi.sensor_smoke.acn03_0.0.0_0017_20220617_CB9276.ota",
+    "imageType": 9728,
+    "manufacturerCode": 4447,
+    "sha512": "d5a8e5c323acd99ceaf02ab061e7145dbcf2da028c9d73a6042d02536f0b8aaefbc798b9b47e8fb03345721c0231374c8654e3979e73b10ba51997ad9d41cf0a",
+    "otaHeaderString": "OM15082-WIN-JN5180--ENCRYPTED000",
+    "modelId": "lumi.sensor_smoke.acn03"
+  },
+  {
+    "fileName": "20230925143537_OTA_lumi.motion.ac01_0.0.0_0058_20230925_90FDB9.ota",
+    "fileVersion": 58,
+    "fileSize": 319114,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.motion.ac01/20230925143537_OTA_lumi.motion.ac01_0.0.0_0058_20230925_90FDB9.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20230925143537_OTA_lumi.motion.ac01_0.0.0_0058_20230925_90FDB9.ota",
+    "imageType": 8347,
+    "manufacturerCode": 4447,
+    "sha512": "df4ed6e63bb8df642d682553631a0bc91b340abe4edf3f149de908a95631433de69abb742d9f99f5fd9839583c680c7288301d8b634f1c5c28fbb5957356e520",
+    "otaHeaderString": "\u0014OTA_lumi.motion.ac01",
+    "modelId": "lumi.motion.ac01",
+    "releaseNotes": "Change background learning time from 6 seconds to 30 seconds."
+  },
+  {
+    "fileName": "20250513095547_OTA_lumi.remote.b28ac1_0.0.0_0023_20250511_05D11F.ota",
+    "fileVersion": 23,
+    "fileSize": 214446,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.remote.b28ac1/20250513095547_OTA_lumi.remote.b28ac1_0.0.0_0023_20250511_05D11F.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20250513095547_OTA_lumi.remote.b28ac1_0.0.0_0023_20250511_05D11F.ota",
+    "imageType": 9864,
+    "manufacturerCode": 4447,
+    "sha512": "3b0cd678615254b87b4bbeb4896b3d037df07bf97a513dc3755c7791134149bada2568a67c65301351563286b8334f5247896e62014e9534bd69ceb395061e50",
+    "otaHeaderString": "OM15082-SW_AQ02-JN5180-ENCRYPTED",
+    "modelId": "lumi.remote.b28ac1",
+    "releaseNotes": "1. Fixed known issues\n2. Changed device pairing time to 180s;\n3. Support for private attribute function switch;"
+  },
+  {
+    "fileName": "20260421105623_OTA_lumi.sensor_occupy.acn1_0.0.0_0027_20260420_C3005D.ota",
+    "fileVersion": 27,
+    "fileSize": 605150,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.sensor_occupy.acn1/20260421105623_OTA_lumi.sensor_occupy.acn1_0.0.0_0027_20260420_C3005D.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20260421105623_OTA_lumi.sensor_occupy.acn1_0.0.0_0027_20260420_C3005D.ota",
+    "imageType": 9793,
+    "manufacturerCode": 4447,
+    "sha512": "c59f84ab88fc3e4c2b00f2c76a2d48de602ea473739b14aa883374e3c7005717704918c23e720c30f91b181eeb45ddf121042d9f9fcb2137e6ee70455e92b1e4",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.sensor_occupy.acn1",
+    "releaseNotes": "[After pressing Update in the APP, single press the button on the device to speed up the firmware update]\n1. Radar performance optimization to improve trigger speed when someone is detected\n2. Improved accuracy of detection range settings and target detection\n3. Fixed known issues"
   }
 ]
