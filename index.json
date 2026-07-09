@@ -9954,5 +9954,15 @@
     "sha512": "b2d3513f0a2d9e5e63711f844b5da0e69d82f4192b878c687f31c78948296d04964b9c6d8ed9765a8d3d27864bb94fbebbd6cb89e2c208a73784c5137422cb91",
     "otaHeaderString": "Aqara OTA Image",
     "modelId": "lumi.plug.aeu001"
+  },
+  {
+    "fileName": "SN-TLSR8656-BASICZB1GSP-01-v1.0.5.ota",
+    "fileVersion": 4101,
+    "fileSize": 154512,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/SN-TLSR8656-BASICZB1GSP-01-v1.0.5.ota",
+    "imageType": 73,
+    "manufacturerCode": 4742,
+    "sha512": "41d3a384612384ff0c9e4d4559f162b270973b8a983638b617b3a9a2ac9337dddc8cdd7ef51764e735794b0b715c5a8bac960c7ccc285152d5cc84dc4515f69d",
+    "otaHeaderString": "Telink OTA Sample Usage"
   }
 ]
