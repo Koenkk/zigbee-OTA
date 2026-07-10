@@ -10001,5 +10001,90 @@
     "otaHeaderString": "Aqara OTA Image",
     "modelId": "lumi.switch.acn059",
     "releaseNotes": "1.Fix known bugs"
+  },
+  {
+    "fileName": "20250704175639_OTA_lumi.switch.agl007_0.0.0_1722_20250627_E82F8E.ota",
+    "fileVersion": 4374,
+    "fileSize": 713290,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.switch.agl007/20250704175639_OTA_lumi.switch.agl007_0.0.0_1722_20250627_E82F8E.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20250704175639_OTA_lumi.switch.agl007_0.0.0_1722_20250627_E82F8E.ota",
+    "imageType": 6417,
+    "manufacturerCode": 4447,
+    "sha512": "feb2cdcedaf8a226d1868d4d192bf6915ce075ecc65ea7d0f58437b96e9e16131dae14a6b006c4c3f201e3cd9eeeb820a70ac811545148d14ebaaa551ff03efc",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.switch.agl007",
+    "releaseNotes": "1. The new version adds localized button operations for maximum brightness adjustment. After upgrading, you can adjust the minimum and maximum brightness range through local buttons\n2. The new version optimizes compatibility with various types of lamps"
+  },
+  {
+    "fileName": "20250912143436_OTA_lumi.switch.agl010_0.0.0_2226_20250827_D45D0D.ota",
+    "fileVersion": 5658,
+    "fileSize": 730314,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.switch.agl010/20250912143436_OTA_lumi.switch.agl010_0.0.0_2226_20250827_D45D0D.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20250912143436_OTA_lumi.switch.agl010_0.0.0_2226_20250827_D45D0D.ota",
+    "imageType": 6432,
+    "manufacturerCode": 4447,
+    "sha512": "e2c1f886ee3fa3ecb14c9c63893b57fa582b86bf9a9faf9c624cabd20de2e3de10e769408db356b0481d5ba6b79509b0ef562b8174ad7f30c35117e48fd45abd",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.switch.agl010"
+  },
+  {
+    "fileName": "20250912143613_OTA_lumi.switch.agl009_0.0.0_2226_20250827_D45D0D.ota",
+    "fileVersion": 5658,
+    "fileSize": 730314,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.switch.agl009/20250912143613_OTA_lumi.switch.agl009_0.0.0_2226_20250827_D45D0D.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20250912143613_OTA_lumi.switch.agl009_0.0.0_2226_20250827_D45D0D.ota",
+    "imageType": 6432,
+    "manufacturerCode": 4447,
+    "sha512": "e2c1f886ee3fa3ecb14c9c63893b57fa582b86bf9a9faf9c624cabd20de2e3de10e769408db356b0481d5ba6b79509b0ef562b8174ad7f30c35117e48fd45abd",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.switch.agl009"
+  },
+  {
+    "fileName": "20251021150600_OTA_lumi.switch.agl005_0.0.0_2327_20251014_A354A9.ota",
+    "fileVersion": 5915,
+    "fileSize": 730330,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.switch.agl005/20251021150600_OTA_lumi.switch.agl005_0.0.0_2327_20251014_A354A9.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20251021150600_OTA_lumi.switch.agl005_0.0.0_2327_20251014_A354A9.ota",
+    "imageType": 6432,
+    "manufacturerCode": 4447,
+    "sha512": "ea4cd110ecb2bbdfc35c659719f5717bfec524566def05a65b8ebb506d95b4ff03c96626f3c35b65b2813cc00d562d587f94cf761fa4afda045998d33bbef19f",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.switch.agl005"
+  },
+  {
+    "fileName": "20251021150755_OTA_lumi.switch.agl004_0.0.0_2327_20251014_A354A9.ota",
+    "fileVersion": 5915,
+    "fileSize": 730330,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.switch.agl004/20251021150755_OTA_lumi.switch.agl004_0.0.0_2327_20251014_A354A9.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20251021150755_OTA_lumi.switch.agl004_0.0.0_2327_20251014_A354A9.ota",
+    "imageType": 6432,
+    "manufacturerCode": 4447,
+    "sha512": "ea4cd110ecb2bbdfc35c659719f5717bfec524566def05a65b8ebb506d95b4ff03c96626f3c35b65b2813cc00d562d587f94cf761fa4afda045998d33bbef19f",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.switch.agl004"
+  },
+  {
+    "fileName": "20260303155224_OTA_lumi.switch.aeu003_0.0.0_1626_20260226_F1B468.ota",
+    "fileVersion": 4122,
+    "fileSize": 659562,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.switch.aeu003/20260303155224_OTA_lumi.switch.aeu003_0.0.0_1626_20260226_F1B468.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20260303155224_OTA_lumi.switch.aeu003_0.0.0_1626_20260226_F1B468.ota",
+    "imageType": 52233,
+    "manufacturerCode": 4447,
+    "sha512": "e21804c8d4d61a99f268db17bb71febd954de834bbc2920418f517a27349cb7f2d9b02020ab406f6a3fec7c94ffa1239eb60c44735378a4444df2301a9520a4f",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.switch.aeu003"
+  },
+  {
+    "fileName": "20260409115506_OTA_lumi.switch.agl011_0.0.0_1624_20260409_F619DD.ota",
+    "fileVersion": 4120,
+    "fileSize": 718858,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.switch.agl011/20260409115506_OTA_lumi.switch.agl011_0.0.0_1624_20260409_F619DD.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20260409115506_OTA_lumi.switch.agl011_0.0.0_1624_20260409_F619DD.ota",
+    "imageType": 6417,
+    "manufacturerCode": 4447,
+    "sha512": "4a8edae751cc335c9f657573b8169a9a5e4ee867052d5fcde1d0bce6a3c9de100e0f44ba979bcb95bc198a840cbfc1d9ebe33886f2a15c1b5dce26665474c2f4",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.switch.agl011"
   }
 ]
