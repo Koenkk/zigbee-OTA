@@ -10097,5 +10097,18 @@
     "otaHeaderString": "Aqara OTA Image",
     "modelId": "lumi.airrtc.aeu005",
     "releaseNotes": "1. Fix known issues and optimize user experience"
+  },
+  {
+    "fileName": "20260707150541_OTA_lumi.curtain.acn018_0.0.0_0011_20260625_A49385.ota",
+    "fileVersion": 11,
+    "fileSize": 694034,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.curtain.acn018/20260707150541_OTA_lumi.curtain.acn018_0.0.0_0011_20260625_A49385.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20260707150541_OTA_lumi.curtain.acn018_0.0.0_0011_20260625_A49385.ota",
+    "imageType": 56217,
+    "manufacturerCode": 4447,
+    "sha512": "93aec4b7aceb15b16fc6a19c520ebfbafacf61fd976ed3700bca38e209466407c329833a8fbc4e69e791fdf536766b61200152894e4b8b4facc0e0f04d5b1fad",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.curtain.acn018",
+    "releaseNotes": "Fixed known issues"
   }
 ]
