@@ -3666,5 +3666,49 @@
     "sha512": "783e75a3b1e3dcf0c09ddedb5ca01ab0ca5b97f93154f2df156e5815b0c3061ce6cc9d960b76b8e2126f95b037689a98b869ceb391a04de413ba09805c5de952",
     "otaHeaderString": "Aqara OTA Image",
     "modelId": "lumi.switch.acn047"
+  },
+  {
+    "fileName": "20240204163609_OTA_lumi.switch.acn056_0.0.0_0034_20240204_80D522.ota",
+    "fileVersion": 34,
+    "fileSize": 579494,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Lumi/20240204163609_OTA_lumi.switch.acn056_0.0.0_0034_20240204_80D522.ota",
+    "imageType": 6424,
+    "manufacturerCode": 4447,
+    "sha512": "8bed0ef08684be7c182c00bb6226d301e94f73052c997b1adef7ed4379d953c54e870175eca3596e1a5fb3db91ebf8bacd6fa9d9ba65eb3c00556ff2406c1622",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.switch.acn056"
+  },
+  {
+    "fileName": "20240204163527_OTA_lumi.switch.acn057_0.0.0_0034_20240204_80D522.ota",
+    "fileVersion": 34,
+    "fileSize": 579494,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Lumi/20240204163527_OTA_lumi.switch.acn057_0.0.0_0034_20240204_80D522.ota",
+    "imageType": 6424,
+    "manufacturerCode": 4447,
+    "sha512": "8bed0ef08684be7c182c00bb6226d301e94f73052c997b1adef7ed4379d953c54e870175eca3596e1a5fb3db91ebf8bacd6fa9d9ba65eb3c00556ff2406c1622",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.switch.acn057"
+  },
+  {
+    "fileName": "20240204163449_OTA_lumi.switch.acn058_0.0.0_0034_20240204_80D522.ota",
+    "fileVersion": 34,
+    "fileSize": 579494,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Lumi/20240204163449_OTA_lumi.switch.acn058_0.0.0_0034_20240204_80D522.ota",
+    "imageType": 6424,
+    "manufacturerCode": 4447,
+    "sha512": "8bed0ef08684be7c182c00bb6226d301e94f73052c997b1adef7ed4379d953c54e870175eca3596e1a5fb3db91ebf8bacd6fa9d9ba65eb3c00556ff2406c1622",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.switch.acn058"
+  },
+  {
+    "fileName": "20240204163339_OTA_lumi.switch.acn059_0.0.0_0034_20240204_80D522.ota",
+    "fileVersion": 34,
+    "fileSize": 579494,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Lumi/20240204163339_OTA_lumi.switch.acn059_0.0.0_0034_20240204_80D522.ota",
+    "imageType": 6424,
+    "manufacturerCode": 4447,
+    "sha512": "8bed0ef08684be7c182c00bb6226d301e94f73052c997b1adef7ed4379d953c54e870175eca3596e1a5fb3db91ebf8bacd6fa9d9ba65eb3c00556ff2406c1622",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.switch.acn059"
   }
 ]
