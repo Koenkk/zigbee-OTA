@@ -2755,17 +2755,6 @@
     "modelId": "lumi.switch.acn048"
   },
   {
-    "fileName": "20240312112538_OTA_lumi.switch.n1acn1_0.0.0_58_20240311_02B313.ota",
-    "fileVersion": 58,
-    "fileSize": 288030,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20240312112538_OTA_lumi.switch.n1acn1_0.0.0_58_20240311_02B313.ota",
-    "imageType": 2572,
-    "manufacturerCode": 4447,
-    "sha512": "f5d7b9af469e2f627dd341ba70b677400e3e25b43118b8d32f8970f8674cbb8948c195b692a8f425d78fd178e931ca2d0572ca45cd4419a4e6367b47208a9410",
-    "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000",
-    "modelId": "lumi.switch.n1acn1"
-  },
-  {
     "fileName": "20240411111850_OTA_lumi.light.cbacn1_0.0.0_0043_20240407_AE8330.ota",
     "fileVersion": 43,
     "fileSize": 288846,
@@ -3144,17 +3133,6 @@
     "sha512": "5c0ef08e8a09d8611d05f9816556f92aaf142854a36564f44a8583928fb87ad4d6870080fde39d29a0daca8f767ddc7382de23b9689a1a9c8baa86f85e62d0af",
     "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000",
     "modelId": "lumi.switch.b1laus01"
-  },
-  {
-    "fileName": "OTA_lumi.switch.b1nacn01_0.0.0_0026_20211101_E70B9E.ota",
-    "fileVersion": 26,
-    "fileSize": 286350,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/OTA_lumi.switch.b1nacn01_0.0.0_0026_20211101_E70B9E.ota",
-    "imageType": 268,
-    "manufacturerCode": 4447,
-    "sha512": "45cc317c491ba0d3cf84d9d16572920009481d9be2527d43be156af8cedb263ebe76320c1e55bcbf114578967efa30d2abec840adfe8394cbc850931c5e4b258",
-    "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000",
-    "modelId": "lumi.switch.b1nacn01"
   },
   {
     "fileName": "OTA_lumi.switch.b2laus01_0.0.0_0032_20200609_CC225A.20200811140905.ota",
@@ -6865,17 +6843,6 @@
     "modelId": "lumi.sensor_occupy.agl1"
   },
   {
-    "fileName": "20250918173547_OTA_lumi.switch.acn047_0.0.0_0033_20250917_8609D6.ota",
-    "fileVersion": 33,
-    "fileSize": 598474,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20250918173547_OTA_lumi.switch.acn047_0.0.0_0033_20250917_8609D6.ota",
-    "imageType": 6416,
-    "manufacturerCode": 4447,
-    "sha512": "783e75a3b1e3dcf0c09ddedb5ca01ab0ca5b97f93154f2df156e5815b0c3061ce6cc9d960b76b8e2126f95b037689a98b869ceb391a04de413ba09805c5de952",
-    "otaHeaderString": "Aqara OTA Image",
-    "modelId": "lumi.switch.acn047"
-  },
-  {
     "fileName": "ct-clamp-ota-lzma-TEST-v1_1_4.ota",
     "fileVersion": 65796,
     "fileSize": 160470,
@@ -9966,5 +9933,68 @@
     "otaHeaderString": "OM15082-CUBE-JN5180-ENCRYPTED000",
     "modelId": "lumi.remote.cagl02",
     "releaseNotes": "Function optimization."
+  },
+  {
+    "fileName": "20211228180601_OTA_lumi.switch.b2naus01_0.0.0_0031_20211228_C784BB.ota",
+    "fileVersion": 31,
+    "fileSize": 289790,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.switch.b2naus01/20211228180601_OTA_lumi.switch.b2naus01_0.0.0_0031_20211228_C784BB.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20211228180601_OTA_lumi.switch.b2naus01_0.0.0_0031_20211228_C784BB.ota",
+    "imageType": 404,
+    "manufacturerCode": 4447,
+    "sha512": "4516f165a9efaeed975e6c5af8f7854fda16baa5ab682033914c11a92629060ccdc9daf743efd1f13d25b8b0abe49a19fd9a75f457717a16d6f67b19ab1a00d3",
+    "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000",
+    "modelId": "lumi.switch.b2naus01",
+    "releaseNotes": "Fix the offline problem of device"
+  },
+  {
+    "fileName": "20240725161810_OTA_lumi.switch.b1nacn01_0.0.0_0028_20240722_16306D.ota",
+    "fileVersion": 28,
+    "fileSize": 277104,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.switch.b1nacn01/20240725161810_OTA_lumi.switch.b1nacn01_0.0.0_0028_20240722_16306D.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20240725161810_OTA_lumi.switch.b1nacn01_0.0.0_0028_20240722_16306D.ota",
+    "imageType": 268,
+    "manufacturerCode": 4447,
+    "sha512": "73e36c7990a0779f26a3f7aada5ba175e69da375df170f0060263c79e76b9dcc724463322d26f64d1a6443f8724a5117a0307162f81051de246cebe81157e02b",
+    "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000",
+    "modelId": "lumi.switch.b1nacn01",
+    "releaseNotes": "1、Fix occasional offline issue for some devices\n2、Modify the device entry time to 180s"
+  },
+  {
+    "fileName": "20240726113348_OTA_lumi.switch.n1acn1_0.0.0_59_20240724_CB11DF.ota",
+    "fileVersion": 59,
+    "fileSize": 289920,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.switch.n1acn1/20240726113348_OTA_lumi.switch.n1acn1_0.0.0_59_20240724_CB11DF.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20240726113348_OTA_lumi.switch.n1acn1_0.0.0_59_20240724_CB11DF.ota",
+    "imageType": 2572,
+    "manufacturerCode": 4447,
+    "sha512": "c1efc798521997933d5859d927c01aa604695af148bf75df155856900ff38f1efeb19dfd8f99b07313861dfa93615848fd90cbf9415688e1eba125a72c74848f",
+    "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000",
+    "modelId": "lumi.switch.n1acn1"
+  },
+  {
+    "fileName": "20260113072905_OTA_lumi.switch.acn047_0.0.0_0035_20260105_C895E8.ota",
+    "fileVersion": 35,
+    "fileSize": 605242,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.switch.acn047/20260113072905_OTA_lumi.switch.acn047_0.0.0_0035_20260105_C895E8.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20260113072905_OTA_lumi.switch.acn047_0.0.0_0035_20260105_C895E8.ota",
+    "imageType": 6416,
+    "manufacturerCode": 4447,
+    "sha512": "70d6f1b5d78adf0d8d587e6f2ee9c97e6c397b04378b9ea6988e03ba84251b627090c8aa98ae0bde784cb329d1d28c08a0ef2798a111a22aaa8cda08eabe6dc5",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.switch.acn047"
+  },
+  {
+    "fileName": "lumi.switch.rkna01_0.0.0_1420_20200623.ota",
+    "fileVersion": 3604,
+    "fileSize": 310716,
+    "originalUrl": "http://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.switch.rkna01/lumi.switch.rkna01_0.0.0_1420_20200623.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/lumi.switch.rkna01_0.0.0_1420_20200623.ota",
+    "imageType": 5256,
+    "manufacturerCode": 4447,
+    "sha512": "06490c20995a3a9c43031e63720ab0ac2273ecd3f5025f0bd4d895d7e577ee4bf780e201b28a254e79b96366a17609c743de44f23ea9d015387269c6cf2a7fbb",
+    "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000",
+    "modelId": "lumi.switch.rkna01",
+    "releaseNotes": "Fixes known issues"
   }
 ]
