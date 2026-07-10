@@ -2381,17 +2381,6 @@
     "modelId": "lumi.switch.acn031"
   },
   {
-    "fileName": "20220607183723_OTA_lumi.remote.cagl02_V1.0.25_20220602_44D1AF.ota",
-    "fileVersion": 25,
-    "fileSize": 266926,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20220607183723_OTA_lumi.remote.cagl02_V1.0.25_20220602_44D1AF.ota",
-    "imageType": 8840,
-    "manufacturerCode": 4447,
-    "sha512": "c92357df7603f9e33f7c818eabb42ba301886fed9a0f2c70df0d909932c024ea772929f62dce10a71deef723ecb69f67346f487260d9bcea76eb96b436569c9e",
-    "otaHeaderString": "OM15082-CUBE-JN5180-ENCRYPTED000",
-    "modelId": "lumi.remote.cagl02"
-  },
-  {
     "fileName": "20220701175804_OTA_lumi.switch.b2lc04_0.0.0_0023_20220701_E4CE08.ota",
     "fileVersion": 23,
     "fileSize": 291662,
@@ -9964,5 +9953,18 @@
     "manufacturerCode": 5127,
     "sha512": "daeecb7f466090994aeaf0e98681edbee84ef713f1d8a6ef0b584081b3c32df483753253291ae679b893a4bec40bf7f8727cc7a088792930a9358aadb4a97c13",
     "otaHeaderString": "thirdreality"
+  },
+  {
+    "fileName": "20230825154523_OTA_lumi.remote.cagl02_0.0.0_0028_20230825_4A5A4A.ota",
+    "fileVersion": 28,
+    "fileSize": 266734,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.remote.cagl02/20230825154523_OTA_lumi.remote.cagl02_0.0.0_0028_20230825_4A5A4A.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20230825154523_OTA_lumi.remote.cagl02_0.0.0_0028_20230825_4A5A4A.ota",
+    "imageType": 8840,
+    "manufacturerCode": 4447,
+    "sha512": "ea3d59a711cbf25b61bda33c154a701ab0741b8860236c61116da0523aa5c81fc2a99cbe254d49eeb8a54b8d6266e8ea6ffd1489778a5e256981d4da55d195d3",
+    "otaHeaderString": "OM15082-CUBE-JN5180-ENCRYPTED000",
+    "modelId": "lumi.remote.cagl02",
+    "releaseNotes": "Function optimization."
   }
 ]
