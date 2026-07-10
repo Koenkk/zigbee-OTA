@@ -3484,18 +3484,6 @@
     ]
   },
   {
-    "fileName": "20260122175716_OTA_lumi.airrtc.aeu005_0.0.0_2644_20260122_6A6DB5.ota",
-    "fileVersion": 6700,
-    "fileSize": 649258,
-    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.airrtc.aeu005/20260122175716_OTA_lumi.airrtc.aeu005_0.0.0_2644_20260122_6A6DB5.ota",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Lumi/20260122175716_OTA_lumi.airrtc.aeu005_0.0.0_2644_20260122_6A6DB5.ota",
-    "imageType": 5120,
-    "manufacturerCode": 4447,
-    "sha512": "f2cdc3b1afc1fda1f922c05236d8f9353afdf85f41f2d1b336bed4f43043d2ef78882d4c35347bf9b7b095e0caf17199d87557ae7bda4076ed3b3856bf603b6f",
-    "otaHeaderString": "Aqara OTA Image",
-    "modelId": "lumi.airrtc.aeu005"
-  },
-  {
     "fileName": "1021-0016-003945ff-NLD.zigbee",
     "fileVersion": 3753471,
     "fileSize": 207623,
@@ -3747,5 +3735,18 @@
     "sha512": "d8f11a0d36844e70288e688f9ef58ee553d0d4b1f45eb3975ffc94dff12d0c6b580e03b87311e15e8e8c06121c93d43a1c526872bd6bab10c7d1cb337f07bac5",
     "otaHeaderString": "Aqara OTA Image",
     "modelId": "lumi.light.agl005"
+  },
+  {
+    "fileName": "20260306113631_OTA_lumi.airrtc.aeu005_0.0.0_2745_20260305_9BBD2E.ota",
+    "fileVersion": 6957,
+    "fileSize": 648362,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.airrtc.aeu005/20260306113631_OTA_lumi.airrtc.aeu005_0.0.0_2745_20260305_9BBD2E.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Lumi/20260306113631_OTA_lumi.airrtc.aeu005_0.0.0_2745_20260305_9BBD2E.ota",
+    "imageType": 5120,
+    "manufacturerCode": 4447,
+    "sha512": "fae4c28a8eec4173bcbfbc34026d376def2c3eefce19222f58f3f4b12ede89c3c6d245966344e9e98bade0a2736a44806c692b66d341f50ca0f539721d46f240",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.airrtc.aeu005",
+    "releaseNotes": "This version update focuses on temperature control precision and operational stability, specifically addressing:\n1. Reduced temperature fluctuation range for more precise temperature control;\n2. Optimized speed to reach temperature steady state for more efficient response;\n3. Resolved temperature fluctuation issues after small-range temperature control for smoother operation;\n4. Fixed abnormal temperature display issues with linked sensors for more accurate data."
   }
 ]

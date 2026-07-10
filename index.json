@@ -8253,19 +8253,6 @@
     "otaHeaderString": ""
   },
   {
-    "fileName": "20260306113631_OTA_lumi.airrtc.aeu005_0.0.0_2745_20260305_9BBD2E.ota",
-    "fileVersion": 6957,
-    "fileSize": 648362,
-    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.airrtc.aeu005/20260306113631_OTA_lumi.airrtc.aeu005_0.0.0_2745_20260305_9BBD2E.ota",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20260306113631_OTA_lumi.airrtc.aeu005_0.0.0_2745_20260305_9BBD2E.ota",
-    "imageType": 5120,
-    "manufacturerCode": 4447,
-    "sha512": "fae4c28a8eec4173bcbfbc34026d376def2c3eefce19222f58f3f4b12ede89c3c6d245966344e9e98bade0a2736a44806c692b66d341f50ca0f539721d46f240",
-    "otaHeaderString": "Aqara OTA Image",
-    "modelId": "lumi.airrtc.aeu005",
-    "releaseNotes": "This version update focuses on temperature control precision and operational stability, specifically addressing:\n1. Reduced temperature fluctuation range for more precise temperature control;\n2. Optimized speed to reach temperature steady state for more efficient response;\n3. Resolved temperature fluctuation issues after small-range temperature control for smoother operation;\n4. Fixed abnormal temperature display issues with linked sensors for more accurate data."
-  },
-  {
     "fileName": "t_h_sensor_Lite_v2_OTA_V15_v1.00.15.ota",
     "fileVersion": 15,
     "fileSize": 250418,
@@ -10097,5 +10084,18 @@
     "sha512": "897b6ff2e2c37cc7de99ef7b92d180489313cd48b49b53ed4b9e6873d952f7148288b52bfce16efcf3537ad8e8329c9d629e55c7ddf2e4d3fc77a1b639c4850c",
     "otaHeaderString": "Aqara OTA Image",
     "modelId": "lumi.light.agl005"
+  },
+  {
+    "fileName": "20260626190610_OTA_lumi.airrtc.aeu005_0.0.0_2848_20260623_071869.ota",
+    "fileVersion": 7216,
+    "fileSize": 662650,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.airrtc.aeu005/20260626190610_OTA_lumi.airrtc.aeu005_0.0.0_2848_20260623_071869.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20260626190610_OTA_lumi.airrtc.aeu005_0.0.0_2848_20260623_071869.ota",
+    "imageType": 5120,
+    "manufacturerCode": 4447,
+    "sha512": "5c6c1f3c97e63630f5046336aaf243fed4d5715ae57ab302f72214bc8a8cc6ec2ce96d85d9c88a092faaf5e6c1cf0a4fa6aff13de709d56a65d43fe910d16d24",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.airrtc.aeu005",
+    "releaseNotes": "1. Fix known issues and optimize user experience"
   }
 ]
