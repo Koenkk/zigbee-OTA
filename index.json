@@ -9818,16 +9818,6 @@
     "otaHeaderString": "Telink OTA Sample Usage"
   },
   {
-    "fileName": "Smart_Filter_Sensor_OTA_24_1.00.24.ota",
-    "fileVersion": 24,
-    "fileSize": 266114,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Smart_Filter_Sensor_OTA_24_1.00.24.ota",
-    "imageType": 54190,
-    "manufacturerCode": 5127,
-    "sha512": "daeecb7f466090994aeaf0e98681edbee84ef713f1d8a6ef0b584081b3c32df483753253291ae679b893a4bec40bf7f8727cc7a088792930a9358aadb4a97c13",
-    "otaHeaderString": "thirdreality"
-  },
-  {
     "fileName": "20230825154523_OTA_lumi.remote.cagl02_0.0.0_0028_20230825_4A5A4A.ota",
     "fileVersion": 28,
     "fileSize": 266734,
@@ -10110,5 +10100,15 @@
     "otaHeaderString": "Aqara OTA Image",
     "modelId": "lumi.curtain.acn018",
     "releaseNotes": "Fixed known issues"
+  },
+  {
+    "fileName": "Smart_Filter_Sensor_OTA_25_1.00.25.ota",
+    "fileVersion": 25,
+    "fileSize": 266258,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Smart_Filter_Sensor_OTA_25_1.00.25.ota",
+    "imageType": 54190,
+    "manufacturerCode": 5127,
+    "sha512": "8c27456b9ec89a572e125e514212b9f2e8315665259bc4c60bfe5e8488656bb7819d5db238cb42c66e3a8845b89423c436e1b5c422df3c8589834f69e3f6490c",
+    "otaHeaderString": "thirdreality"
   }
 ]

@@ -3602,16 +3602,6 @@
     "modelId": "lumi.motion.ac01"
   },
   {
-    "fileName": "Smart_Filter_Sensor_v1.00.22.ota",
-    "fileVersion": 22,
-    "fileSize": 265858,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/Smart_Filter_Sensor_v1.00.22.ota",
-    "imageType": 54190,
-    "manufacturerCode": 5127,
-    "sha512": "1a1cdecd080acec76664a461788a2a035f8edd0ac43818ce7beedc3f7dfa952d3b91cac32da4d69dea99e3ffe56f485373944d4e229a3dd4f188ceaac7ba4518",
-    "otaHeaderString": "temp_humi_sensor"
-  },
-  {
     "fileName": "20220607183723_OTA_lumi.remote.cagl02_V1.0.25_20220602_44D1AF.ota",
     "fileVersion": 25,
     "fileSize": 266926,
@@ -3748,5 +3738,15 @@
     "otaHeaderString": "Aqara OTA Image",
     "modelId": "lumi.airrtc.aeu005",
     "releaseNotes": "This version update focuses on temperature control precision and operational stability, specifically addressing:\n1. Reduced temperature fluctuation range for more precise temperature control;\n2. Optimized speed to reach temperature steady state for more efficient response;\n3. Resolved temperature fluctuation issues after small-range temperature control for smoother operation;\n4. Fixed abnormal temperature display issues with linked sensors for more accurate data."
+  },
+  {
+    "fileName": "Smart_Filter_Sensor_OTA_24_1.00.24.ota",
+    "fileVersion": 24,
+    "fileSize": 266114,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/Smart_Filter_Sensor_OTA_24_1.00.24.ota",
+    "imageType": 54190,
+    "manufacturerCode": 5127,
+    "sha512": "daeecb7f466090994aeaf0e98681edbee84ef713f1d8a6ef0b584081b3c32df483753253291ae679b893a4bec40bf7f8727cc7a088792930a9358aadb4a97c13",
+    "otaHeaderString": "thirdreality"
   }
 ]
