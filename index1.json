@@ -3748,5 +3748,18 @@
     "manufacturerCode": 5127,
     "sha512": "daeecb7f466090994aeaf0e98681edbee84ef713f1d8a6ef0b584081b3c32df483753253291ae679b893a4bec40bf7f8727cc7a088792930a9358aadb4a97c13",
     "otaHeaderString": "thirdreality"
+  },
+  {
+    "fileName": "20260206105339_OTA_lumi.vibration.agl002_0.0.0_0021_20260206_65FA7D.ota",
+    "fileVersion": 21,
+    "fileSize": 584766,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.vibration.agl002/20260206105339_OTA_lumi.vibration.agl002_0.0.0_0021_20260206_65FA7D.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Lumi/20260206105339_OTA_lumi.vibration.agl002_0.0.0_0021_20260206_65FA7D.ota",
+    "imageType": 9794,
+    "manufacturerCode": 4447,
+    "sha512": "18241266652316468a2c42ef54408670fd819b39a90dde3c49bfc3da6578f2806c87397b8215c6609a07d997b14530d949029a9c3ac2c11d6aa00bd35b6228dc",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.vibration.agl002",
+    "releaseNotes": ""
   }
 ]

@@ -8872,19 +8872,6 @@
     "otaHeaderString": "Icon2 system package"
   },
   {
-    "fileName": "20260206105339_OTA_lumi.vibration.agl002_0.0.0_0021_20260206_65FA7D.ota",
-    "fileVersion": 21,
-    "fileSize": 584766,
-    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.vibration.agl002/20260206105339_OTA_lumi.vibration.agl002_0.0.0_0021_20260206_65FA7D.ota",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20260206105339_OTA_lumi.vibration.agl002_0.0.0_0021_20260206_65FA7D.ota",
-    "imageType": 9794,
-    "manufacturerCode": 4447,
-    "sha512": "18241266652316468a2c42ef54408670fd819b39a90dde3c49bfc3da6578f2806c87397b8215c6609a07d997b14530d949029a9c3ac2c11d6aa00bd35b6228dc",
-    "otaHeaderString": "Aqara OTA Image",
-    "modelId": "lumi.vibration.agl002",
-    "releaseNotes": ""
-  },
-  {
     "fileName": "SN-TLSR8656-S60-01-v2.0.2.ota",
     "fileVersion": 8194,
     "fileSize": 147232,
@@ -10110,5 +10097,17 @@
     "manufacturerCode": 5127,
     "sha512": "8c27456b9ec89a572e125e514212b9f2e8315665259bc4c60bfe5e8488656bb7819d5db238cb42c66e3a8845b89423c436e1b5c422df3c8589834f69e3f6490c",
     "otaHeaderString": "thirdreality"
+  },
+  {
+    "fileName": "20260615192607_OTA_lumi.vibration.agl002_0.0.0_0024_20260615_4A41B3.ota",
+    "fileVersion": 24,
+    "fileSize": 604398,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.vibration.agl002/20260615192607_OTA_lumi.vibration.agl002_0.0.0_0024_20260615_4A41B3.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20260615192607_OTA_lumi.vibration.agl002_0.0.0_0024_20260615_4A41B3.ota",
+    "imageType": 9794,
+    "manufacturerCode": 4447,
+    "sha512": "414dfe629810cbbbd536660f04a3b28d433334bbd640fa7cbd33b08281255d63c59a4cbe9c664d8d2f666e53a846cd53d97e6b31aa180261e7f0ae52e95398ac",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.vibration.agl002"
   }
 ]
