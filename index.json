@@ -10119,5 +10119,27 @@
     "manufacturerCode": 5127,
     "sha512": "3940f5cadf186ad60076be36b26f5282b18bcd491348f8c311b94374f18fa0ec2a6c20fa27806e825c45402964a8338edb3ce471f9d2901c534e2762fff31ef9",
     "otaHeaderString": "thirdreality"
+  },
+  {
+    "fileName": "TRV_GEN2_0x38031514_PROD.fw",
+    "fileVersion": 939726100,
+    "fileSize": 167020,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Bosch/TRV_GEN2_0x38031514_PROD.fw",
+    "imageType": 12298,
+    "manufacturerCode": 4617,
+    "sha512": "3fc35c6676c7d655fc6e7fbdde1a838b5bd758bab7a25e5b898f75fddbb873b4a71da1e56889b72bee9e06035d29d1f3963ca5fa26ba2106d1a3de17eca1c539",
+    "otaHeaderString": "RBSH-TRV0-ZB-EU",
+    "releaseNotes": "The value for the valve opening when the battery is very low was reduced to 5% to prevent overheating when the battery is flat and to still guarantee frost protection."
+  },
+  {
+    "fileName": "TRV_GEN2_DUAL_0x13098210_PROD.fw",
+    "fileVersion": 319390224,
+    "fileSize": 313470,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Bosch/TRV_GEN2_DUAL_0x13098210_PROD.fw",
+    "imageType": 12306,
+    "manufacturerCode": 4617,
+    "sha512": "1f69378387098da6926088d3e676b4d9a75d54bcbeb87f2af67165dd32d2dcda3a3e470d35deb2f1afda91bce6246a8c53488bda31349debe96715082f63417a",
+    "otaHeaderString": "TRV_GEN2_DUAL",
+    "releaseNotes": "The value for the valve opening when the battery is very low was reduced to 5% to prevent overheating when the battery is flat and to still guarantee frost protection."
   }
 ]
