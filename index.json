@@ -10109,5 +10109,15 @@
     "sha512": "414dfe629810cbbbd536660f04a3b28d433334bbd640fa7cbd33b08281255d63c59a4cbe9c664d8d2f666e53a846cd53d97e6b31aa180261e7f0ae52e95398ac",
     "otaHeaderString": "Aqara OTA Image",
     "modelId": "lumi.vibration.agl002"
+  },
+  {
+    "fileName": "Smart_Outdoor_Repeater_OTA_4_1.00.04.ota",
+    "fileVersion": 4,
+    "fileSize": 254998,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Smart_Outdoor_Repeater_OTA_4_1.00.04.ota",
+    "imageType": 54275,
+    "manufacturerCode": 5127,
+    "sha512": "3940f5cadf186ad60076be36b26f5282b18bcd491348f8c311b94374f18fa0ec2a6c20fa27806e825c45402964a8338edb3ce471f9d2901c534e2762fff31ef9",
+    "otaHeaderString": "thirdreality"
   }
 ]
