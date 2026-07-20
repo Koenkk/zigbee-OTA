@@ -3740,16 +3740,6 @@
     "releaseNotes": "This version update focuses on temperature control precision and operational stability, specifically addressing:\n1. Reduced temperature fluctuation range for more precise temperature control;\n2. Optimized speed to reach temperature steady state for more efficient response;\n3. Resolved temperature fluctuation issues after small-range temperature control for smoother operation;\n4. Fixed abnormal temperature display issues with linked sensors for more accurate data."
   },
   {
-    "fileName": "Smart_Filter_Sensor_OTA_24_1.00.24.ota",
-    "fileVersion": 24,
-    "fileSize": 266114,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/Smart_Filter_Sensor_OTA_24_1.00.24.ota",
-    "imageType": 54190,
-    "manufacturerCode": 5127,
-    "sha512": "daeecb7f466090994aeaf0e98681edbee84ef713f1d8a6ef0b584081b3c32df483753253291ae679b893a4bec40bf7f8727cc7a088792930a9358aadb4a97c13",
-    "otaHeaderString": "thirdreality"
-  },
-  {
     "fileName": "20260206105339_OTA_lumi.vibration.agl002_0.0.0_0021_20260206_65FA7D.ota",
     "fileVersion": 21,
     "fileSize": 584766,
@@ -3772,5 +3762,15 @@
     "manufacturerCode": 4742,
     "sha512": "cfe91590d0aad095903c8a309655744a7ac4b0d44429b9b10486ce07555fffcfcfaf22a78238173c38077760b5e3951a682906f7133617c13eb29e1d6091a4a2",
     "otaHeaderString": "EBL FWPLUG_MINIZB1GSP_ELECTRICAL"
+  },
+  {
+    "fileName": "Smart_Filter_Sensor_OTA_25_1.00.25.ota",
+    "fileVersion": 25,
+    "fileSize": 266258,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/Smart_Filter_Sensor_OTA_25_1.00.25.ota",
+    "imageType": 54190,
+    "manufacturerCode": 5127,
+    "sha512": "8c27456b9ec89a572e125e514212b9f2e8315665259bc4c60bfe5e8488656bb7819d5db238cb42c66e3a8845b89423c436e1b5c422df3c8589834f69e3f6490c",
+    "otaHeaderString": "thirdreality"
   }
 ]
