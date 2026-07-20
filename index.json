@@ -8897,17 +8897,6 @@
     "releaseNotes": "FreezBee v0.1.5 : détection chauffage et autonomie améliorées"
   },
   {
-    "fileName": "minizb1gsp_v1.0.3.ota",
-    "fileVersion": 4100,
-    "fileSize": 335742,
-    "originalUrl": "https://zigbee-ota.sonoff.tech/releases/minizb1gsp_v1.0.3.ota",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/minizb1gsp_v1.0.3.ota",
-    "imageType": 70,
-    "manufacturerCode": 4742,
-    "sha512": "cfe91590d0aad095903c8a309655744a7ac4b0d44429b9b10486ce07555fffcfcfaf22a78238173c38077760b5e3951a682906f7133617c13eb29e1d6091a4a2",
-    "otaHeaderString": "EBL FWPLUG_MINIZB1GSP_ELECTRICAL"
-  },
-  {
     "fileName": "Radar_60G(v1.00.40).ota",
     "fileVersion": 40,
     "fileSize": 352526,
@@ -10143,5 +10132,15 @@
     "otaHeaderString": "TRV_GEN2_DUAL",
     "modelId": "RBSH-TRV1-ZB-EU",
     "releaseNotes": "The value for the valve opening when the battery is very low was reduced to 5% to prevent overheating when the battery is flat and to still guarantee frost protection."
+  },
+  {
+    "fileName": "FWPLUG_MINIZB1GSP_ELECTRICAL_EFR32MG21_v1.1.2.ota",
+    "fileVersion": 4354,
+    "fileSize": 329538,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/FWPLUG_MINIZB1GSP_ELECTRICAL_EFR32MG21_v1.1.2.ota",
+    "imageType": 70,
+    "manufacturerCode": 4742,
+    "sha512": "c217bfa6b83d0b186af326374613ce0fc8f9ae13d65e06924d1b22d728bbe04613c24e4321399c98b7308b3e4d2a0c88ba994ab7eb55f2e3dce61cca92eccced",
+    "otaHeaderString": "EBL FWPLUG_MINIZB1GSP_ELECTRICAL"
   }
 ]

@@ -3761,5 +3761,16 @@
     "otaHeaderString": "Aqara OTA Image",
     "modelId": "lumi.vibration.agl002",
     "releaseNotes": ""
+  },
+  {
+    "fileName": "minizb1gsp_v1.0.3.ota",
+    "fileVersion": 4100,
+    "fileSize": 335742,
+    "originalUrl": "https://zigbee-ota.sonoff.tech/releases/minizb1gsp_v1.0.3.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Sonoff/minizb1gsp_v1.0.3.ota",
+    "imageType": 70,
+    "manufacturerCode": 4742,
+    "sha512": "cfe91590d0aad095903c8a309655744a7ac4b0d44429b9b10486ce07555fffcfcfaf22a78238173c38077760b5e3951a682906f7133617c13eb29e1d6091a4a2",
+    "otaHeaderString": "EBL FWPLUG_MINIZB1GSP_ELECTRICAL"
   }
 ]
