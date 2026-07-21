@@ -1482,18 +1482,6 @@
     ]
   },
   {
-    "fileName": "ota_t0x300a_m0x1209_v0x37061514.ota",
-    "fileVersion": 923145492,
-    "fileSize": 168588,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Bosch/ota_t0x300a_m0x1209_v0x37061514.ota",
-    "imageType": 12298,
-    "manufacturerCode": 4617,
-    "sha512": "d8c7f60a98f36580a70be3d67ed62272109d5631de7535f47db8af70a049d501aed95b95fe6f651036fd1b6cc26c6dc71cd46952a12291c051032c07506222c0",
-    "otaHeaderString": "RBSH-TRV0-ZB-EU",
-    "modelId": "RBSH-TRV0-ZB-EU",
-    "releaseNotes": "1. A fault has been resolved that caused the radiator thermostat to sometimes enter an endless loop during auto-calibration"
-  },
-  {
     "fileName": "EntrySensor_4.0.2.zigbee",
     "fileVersion": 262146,
     "fileSize": 200121,
@@ -3772,5 +3760,28 @@
     "manufacturerCode": 5127,
     "sha512": "8c27456b9ec89a572e125e514212b9f2e8315665259bc4c60bfe5e8488656bb7819d5db238cb42c66e3a8845b89423c436e1b5c422df3c8589834f69e3f6490c",
     "otaHeaderString": "thirdreality"
+  },
+  {
+    "fileName": "TRV_GEN2_0x38011514_PROD.fw",
+    "fileVersion": 939595028,
+    "fileSize": 168715,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Bosch/TRV_GEN2_0x38011514_PROD.fw",
+    "imageType": 12298,
+    "manufacturerCode": 4617,
+    "sha512": "a5a7c00dead9a7a9ee42e7d914512281258131d1ad2bb8b4a43ec83aa94cad0a02a0427e6b51e0495d9c35782d1ba434d8185c34cdf4207cebabfd4d4d1ee2fd",
+    "otaHeaderString": "RBSH-TRV0-ZB-EU",
+    "modelId": "RBSH-TRV0-ZB-EU"
+  },
+  {
+    "fileName": "TRV_GEN2_DUAL_0x13027140_PROD.fw",
+    "fileVersion": 318927168,
+    "fileSize": 333078,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Bosch/TRV_GEN2_DUAL_0x13027140_PROD.fw",
+    "imageType": 12306,
+    "manufacturerCode": 4617,
+    "sha512": "2fce90ac4a558e40e13ecf84c0b8ec427d37ce7dd343954da593a5b1bb5de9f60ef251443e98f9ac002b13ce9cdd89ec55b4548ba7cd472fbf9a618f7484acc1",
+    "otaHeaderString": "TRV_GEN2_DUAL",
+    "modelId": "RBSH-TRV1-ZB-EU",
+    "releaseNotes": "New heating algorithm (like that used on the non-matter radiator thermostat II since November 2024)"
   }
 ]
