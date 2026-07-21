@@ -5907,17 +5907,6 @@
     "modelId": "RBSH-SP-ZB-EU"
   },
   {
-    "fileName": "TRV_GEN2_0x38011514_PROD.fw",
-    "fileVersion": 939595028,
-    "fileSize": 168715,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Bosch/TRV_GEN2_0x38011514_PROD.fw",
-    "imageType": 12298,
-    "manufacturerCode": 4617,
-    "sha512": "a5a7c00dead9a7a9ee42e7d914512281258131d1ad2bb8b4a43ec83aa94cad0a02a0427e6b51e0495d9c35782d1ba434d8185c34cdf4207cebabfd4d4d1ee2fd",
-    "otaHeaderString": "RBSH-TRV0-ZB-EU",
-    "modelId": "RBSH-TRV0-ZB-EU"
-  },
-  {
     "fileName": "EntrySensor_4.0.3.zigbee",
     "fileVersion": 262147,
     "fileSize": 200550,
@@ -6678,18 +6667,6 @@
     "sha512": "9796a3452a591f52df50b09316bcd41108bfba1f8cd8ad48ce26204b59852953baa4d472f3c7c63fc12301ce9c43a10313a7fa0ab2ed6cf4186f357e39655668",
     "otaHeaderString": "MICROMODULE_RELAY",
     "releaseNotes": "Additional switch decoupling modes (matches those on BMCT-SLZ now)"
-  },
-  {
-    "fileName": "TRV_GEN2_DUAL_0x13027140_PROD.fw",
-    "fileVersion": 318927168,
-    "fileSize": 333078,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Bosch/TRV_GEN2_DUAL_0x13027140_PROD.fw",
-    "imageType": 12306,
-    "manufacturerCode": 4617,
-    "sha512": "2fce90ac4a558e40e13ecf84c0b8ec427d37ce7dd343954da593a5b1bb5de9f60ef251443e98f9ac002b13ce9cdd89ec55b4548ba7cd472fbf9a618f7484acc1",
-    "otaHeaderString": "TRV_GEN2_DUAL",
-    "modelId": "RBSH-TRV1-ZB-EU",
-    "releaseNotes": "New heating algorithm (like that used on the non-matter radiator thermostat II since November 2024)"
   },
   {
     "fileName": "FW_ha_v1.00.86.ota",
