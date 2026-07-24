@@ -44,7 +44,7 @@
     "license": "GPL-3.0-or-later",
     "description": "",
     "dependencies": {
-        "tar": "^7.5.20"
+        "tar": "^7.5.22"
     },
     "devDependencies": {
         "@actions/core": "^3.0.1",
