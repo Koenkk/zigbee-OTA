@@ -64,12 +64,10 @@ async function getPRBody(github: Octokit, _core: typeof CoreApi, context: Contex
             } catch (error) {
                 throw new Error(`Failed to get PR#${prNumber} for extra metas: ${error}`);
             }
-        } else {
             /* v8 ignore start */
+        } else {
         }
-        /* v8 ignore stop */
     } else {
-        /* v8 ignore start */
     }
     /* v8 ignore stop */
 }
@@ -105,8 +103,7 @@ async function parsePRBodyExtraMetas(github: Octokit, core: typeof CoreApi, cont
                 } else {
                     extraMetas = getValidMetas(metas, false);
                 }
-            } else {
-                /* v8 ignore start */
+            } /* v8 ignore start */ else {
             }
             /* v8 ignore stop */
         } catch (error) {
