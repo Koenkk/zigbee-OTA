@@ -3114,12 +3114,6 @@
     "zigbeeStackVersion": "ZigbeePro"
   },
   {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Bosch/TRV_GEN2_0x38011514_PROD.fw",
-    "stack": "Unknown",
-    "stackDetails": "",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Develco/EntrySensor_4.0.3.zigbee",
     "stack": "Unknown",
     "stackDetails": "",
@@ -3529,12 +3523,6 @@
   },
   {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Bosch/MICROMODULE_RELAY_0x210D6A30_PROD.fw",
-    "stack": "EmberZNet",
-    "stackDetails": "GBL",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Bosch/TRV_GEN2_DUAL_0x13027140_PROD.fw",
     "stack": "EmberZNet",
     "stackDetails": "GBL",
     "zigbeeStackVersion": "ZigbeePro"
@@ -4704,12 +4692,6 @@
     "zigbeeStackVersion": "ZigbeePro"
   },
   {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/minizb1gsp_v1.0.3.ota",
-    "stack": "EmberZNet",
-    "stackDetails": "GBL",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Radar_60G(v1.00.40).ota",
     "stack": "Unknown",
     "stackDetails": "",
@@ -5268,12 +5250,6 @@
     "zigbeeStackVersion": "ZigbeePro"
   },
   {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Smart_Filter_Sensor_OTA_25_1.00.25.ota",
-    "stack": "Unknown",
-    "stackDetails": "",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20260615192607_OTA_lumi.vibration.agl002_0.0.0_0024_20260615_4A41B3.ota",
     "stack": "Unknown",
     "stackDetails": "",
@@ -5295,6 +5271,18 @@
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Bosch/TRV_GEN2_DUAL_0x13098210_PROD.fw",
     "stack": "EmberZNet",
     "stackDetails": "GBL",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/FWPLUG_MINIZB1GSP_ELECTRICAL_EFR32MG21_v1.1.2.ota",
+    "stack": "EmberZNet",
+    "stackDetails": "GBL",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Smart_Filter_Sensor_OTA_26_1.00.26.ota",
+    "stack": "Unknown",
+    "stackDetails": "",
     "zigbeeStackVersion": "ZigbeePro"
   }
 ]
