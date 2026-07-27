@@ -3794,5 +3794,16 @@
     "sha512": "ef7dd6575b60532af41b63957ccfe750fd8ab188d3c896d2c005bdb19b0c0df2ddf3d68100bf887449ad9085cca410c1bfc446c2aa632ee13d5bb2fb62761440",
     "otaHeaderString": "Telink OTA Sample Usage",
     "originalUrl": "https://tr-zha.s3.amazonaws.com/z2m_firmware/Door_Sensor_PROD_OTA_V63_v1.00.63.ota"
+  },
+  {
+    "fileName": "minizb1gp_v1.0.7.ota",
+    "fileVersion": 4103,
+    "fileSize": 323934,
+    "originalUrl": "https://zigbee-ota.sonoff.tech/releases/minizb1gp_v1.0.7.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Sonoff/minizb1gp_v1.0.7.ota",
+    "imageType": 71,
+    "manufacturerCode": 4742,
+    "sha512": "69d48905d3a3e64177ce41aeb98062610aa6f0ef6b04d5324e8d49352d458cf48c6e5b5d4641a8b1a8bb4d5ad56fe35c4c4da512349c0701cf771b940806ef9a",
+    "otaHeaderString": "EBL FWPLUG_MINIZB1GSP_ELECTRICAL"
   }
 ]
