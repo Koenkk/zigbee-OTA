@@ -3783,5 +3783,16 @@
     "otaHeaderString": "TRV_GEN2_DUAL",
     "modelId": "RBSH-TRV1-ZB-EU",
     "releaseNotes": "New heating algorithm (like that used on the non-matter radiator thermostat II since November 2024)"
+  },
+  {
+    "fileName": "Door_Sensor_PROD_OTA_V63_v1.00.63.ota",
+    "fileVersion": 63,
+    "fileSize": 131682,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/Door_Sensor_PROD_OTA_V63_v1.00.63.ota",
+    "imageType": 54178,
+    "manufacturerCode": 4659,
+    "sha512": "ef7dd6575b60532af41b63957ccfe750fd8ab188d3c896d2c005bdb19b0c0df2ddf3d68100bf887449ad9085cca410c1bfc446c2aa632ee13d5bb2fb62761440",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "originalUrl": "https://tr-zha.s3.amazonaws.com/z2m_firmware/Door_Sensor_PROD_OTA_V63_v1.00.63.ota"
   }
 ]
