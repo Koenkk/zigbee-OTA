@@ -7799,18 +7799,6 @@
     ]
   },
   {
-    "fileName": "702plug47_usa_h0xD3BD_b0xD3BD.ota",
-    "fileVersion": 47,
-    "fileSize": 281750,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/702plug47_usa_h0xD3BD_b0xD3BD.ota",
-    "imageType": 54205,
-    "manufacturerCode": 5127,
-    "sha512": "87f65bb17e35820179499ff4c74ac651a1af781bdfbbb3d048e7735c9a82cdcee2e52ce0190a3c183dc76d9fd9c3d63bdf1907711eb995bc3e376e52c56b184d",
-    "otaHeaderString": "thirdreality",
-    "minFileVersion": 40,
-    "modelId": "3RSP02064Z"
-  },
-  {
     "fileName": "SceneButton_PROD_OTA_V9_1.00.09.ota",
     "fileVersion": 9,
     "fileSize": 143522,
@@ -10117,5 +10105,17 @@
     "manufacturerCode": 4742,
     "sha512": "aa17174b8bd95fd02575c3e9c5cbb57163cd917e0cc05244d6840ebe45b8bf0f211a795e2946a18b717667d46061196051a6ed9915df17db098481cf30497fd3",
     "otaHeaderString": "EBL FWPLUG_MINIZB1GSP_ELECTRICAL"
+  },
+  {
+    "fileName": "bl702_plug_gen3_usa_1.00.56.ota",
+    "fileVersion": 56,
+    "fileSize": 282386,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/bl702_plug_gen3_usa_1.00.56.ota",
+    "imageType": 54205,
+    "manufacturerCode": 5127,
+    "sha512": "3a933d01a1deea94759cd72d0b5c91c809b8d43f930b29c66fcf075041f648928ae33ef207395b795050c1748b48d72537befe63c18761183a7e8b862d1773eb",
+    "otaHeaderString": "thirdreality",
+    "minFileVersion": 40,
+    "modelId": "3RSP02064Z"
   }
 ]
