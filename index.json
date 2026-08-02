@@ -8064,42 +8064,6 @@
     "releaseNotes": "1.Fix bug that level will be changed after power on in Vivares.\r\n2.In RGB mode,  rotate action changes RGB and knob+rotate action changes level.\r\n3.Sync the platform modification."
   },
   {
-    "fileName": "SENSOR_DIRECT_LS_PD_7_IR_CI_ZB-0x1189-0x00F9-0x026E8000-MF_DIS-DOWM_DIS-20251212102214-3224010153640-lzma-encrypted.ota",
-    "fileVersion": 40796160,
-    "fileSize": 349106,
-    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=249&version=2.110.128.0",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/SENSOR_DIRECT_LS_PD_7_IR_CI_ZB-0x1189-0x00F9-0x026E8000-MF_DIS-DOWM_DIS-20251212102214-3224010153640-lzma-encrypted.ota",
-    "imageType": 249,
-    "manufacturerCode": 4489,
-    "sha512": "060e5821eb46b9fb3483750ec9243efab1d808c7bf30041f03a2bf1ac3eec77040a50bc355624cc77a65735fc7614840247466db0f27a6c784e6690a3320dfd5",
-    "otaHeaderString": "SENSOR_DIRECT_LS_PD_7_IR_CI_ZB",
-    "releaseNotes": "1.Fix bug LUM doesn't stay off in case of power cut and then power recovery.\r\n2.New solution for occupancy control to replace 90s sensor mute.\r\n3.Support both MCU V2.7 and MCU V2.8.\r\n4.Sync the platform modification to Sensor."
-  },
-  {
-    "fileName": "DR_ZBD_NFC_P_30W_220_240V_0A7-0x1189-0x00FD-0x02728000-MF_DIS-DOWM_DIS-20251222133901-3224010153640-lzma-encrypted.ota",
-    "fileVersion": 41058304,
-    "fileSize": 372118,
-    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=253&version=2.114.128.0",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/DR_ZBD_NFC_P_30W_220_240V_0A7-0x1189-0x00FD-0x02728000-MF_DIS-DOWM_DIS-20251222133901-3224010153640-lzma-encrypted.ota",
-    "imageType": 253,
-    "manufacturerCode": 4489,
-    "sha512": "d6026dfd30c182d3b564527e735ff6a7962b595cb5522ddde3d04cdf27c4fc9c714522049d5435c760dbd8c18ffec443aa39be81c2c7f1a6e88fc8d25561268d",
-    "otaHeaderString": "DR_ZBD_NFC_P_30W_220_240V_0A7",
-    "releaseNotes": "1. Refine responding to OnOff command with transition time. \r\n2. Modify min level 1% in logarithm dimming curve.\r\n3. Fix bug ZBD-1063. New solution for occupancy control to replacing 90s sensor mute.\r\n4. Sync the platform modification to Sensor."
-  },
-  {
-    "fileName": "DR_ZBD_NFC_P_45W_220_240V_1A2-0x1189-0x00FE-0x02728000-MF_DIS-DOWM_DIS-20251222134435-3224010153640-lzma-encrypted.ota",
-    "fileVersion": 41058304,
-    "fileSize": 372126,
-    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=254&version=2.114.128.0",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/DR_ZBD_NFC_P_45W_220_240V_1A2-0x1189-0x00FE-0x02728000-MF_DIS-DOWM_DIS-20251222134435-3224010153640-lzma-encrypted.ota",
-    "imageType": 254,
-    "manufacturerCode": 4489,
-    "sha512": "cc630f84746aa851c94bd322936dcefe369f70e6a9b4b6d01c47477446f3b8d36f32f2e33813929a8b5695d1821c6c3edd97ed788fdc6ee49d7aa7f81a920b6d",
-    "otaHeaderString": "DR_ZBD_NFC_P_45W_220_240V_1A2",
-    "releaseNotes": "1. Refine responding to OnOff command with transition time. \r\n2. Modify min level 1% in logarithm dimming curve.\r\n3. Fix bug ZBD-1063. New solution for occupancy control to replacing 90s sensor mute.\r\n4. Sync the platform modification to Sensor."
-  },
-  {
     "fileName": "10F2-7B2D-0000-0001-01810460-m7b-h1.ota.zigbee",
     "fileVersion": 25232480,
     "fileSize": 182526,
@@ -8161,18 +8125,6 @@
     "manufacturerCode": 4151,
     "sha512": "f48d9af7ee06c71f38c4e9316431ffff9ea2624adee46d3cdf2b2dc6f0cff578c02d13c5aa9e50d0449a685a9d2036dd33277e7cf9d22c276038f39c24eac174",
     "otaHeaderString": "DR1175r1v02--JN5169--ENCRYPTED00"
-  },
-  {
-    "fileName": "STRIP_CONTROL_DIRECT_TW_RGB-0x1189-0x00FA-0x01428000-MF_DIS-DOWM_DIS-20260129044906-3224010153640-lzma-encrypted.ota",
-    "fileVersion": 21135360,
-    "fileSize": 378814,
-    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=250&version=1.66.128.0",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/STRIP_CONTROL_DIRECT_TW_RGB-0x1189-0x00FA-0x01428000-MF_DIS-DOWM_DIS-20260129044906-3224010153640-lzma-encrypted.ota",
-    "imageType": 250,
-    "manufacturerCode": 4489,
-    "sha512": "aadb90a51ea1a7fbad23bdf1ca5c1c5e23fe0bf1c21167c05da5621cb6d1f393db9cc5a21ad1ad7eb8f21502a5f0ccc8bd19ac3aeab7ff97e490609fd9c034d9",
-    "otaHeaderString": "STRIP_CONTROL_DIRECT_TW_RGB",
-    "releaseNotes": "1.Refine OnOff response with transition time.\r\n2.Modify min level in logarithm curve.\r\n3.Sync multi endpoints to same level when rapidly toggling in App.\r\n4.Fix off effect on Endpoint 2.\r\n5.Support Biolux dimming curve.\r\n6.Sync the platform modification."
   },
   {
     "fileName": "SmartCurtainModule_Zigbee_PROD_OTA_V55_v1.00.55.ota",
@@ -10117,5 +10069,161 @@
     "manufacturerCode": 4742,
     "sha512": "dae1245594b9ba392c8acd0bcfaba682d22fa24c08147539cec5435856c0f26556b5e14f6ea983e8fd0f4b35c3f6ff5aca34e9f2598b6ba596b411cff6534c82",
     "otaHeaderString": "Telink OTA Sample Usage"
+  },
+  {
+    "fileName": "TUBE_T8_600_6_8W_830ZBVR_G3-0x1189-0x00E8-0x013B8000-MF_DIS-DOWM_DIS-20260709051649-3224010153640-lzma-encrypted.ota",
+    "fileVersion": 20676608,
+    "fileSize": 368806,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=232&version=1.59.128.0",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/TUBE_T8_600_6_8W_830ZBVR_G3-0x1189-0x00E8-0x013B8000-MF_DIS-DOWM_DIS-20260709051649-3224010153640-lzma-encrypted.ota",
+    "imageType": 232,
+    "manufacturerCode": 4489,
+    "sha512": "5341f0a0c94bc421ee3d4a8c31f4a507ee0dea8dffd5629f15dd570fad3c3cf83927d062d8afcd39f8b10794694aad9de7941cffa386c1328080e39d0e5079c5",
+    "otaHeaderString": "TUBE_T8_600_6_8W_830ZBVR_G3",
+    "releaseNotes": "1. Background OTA upgrade improvement and Bluetooth OTA upgrade bug fix.\r\n2. Add patch for network rejoining."
+  },
+  {
+    "fileName": "TUBE_T8_600_6_8W_840ZBVR_G3-0x1189-0x00E9-0x013B8000-MF_DIS-DOWM_DIS-20260709052134-3224010153640-lzma-encrypted.ota",
+    "fileVersion": 20676608,
+    "fileSize": 368822,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=233&version=1.59.128.0",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/TUBE_T8_600_6_8W_840ZBVR_G3-0x1189-0x00E9-0x013B8000-MF_DIS-DOWM_DIS-20260709052134-3224010153640-lzma-encrypted.ota",
+    "imageType": 233,
+    "manufacturerCode": 4489,
+    "sha512": "c37194626a484b43ad75dcda4ee144dc5ee92eb9e515d73d108a0d3c4635df2c1f2849f10cd54716dacd864dbde97a6df3a4170a67ca066377377f0eb36711e4",
+    "otaHeaderString": "TUBE_T8_600_6_8W_840ZBVR_G3",
+    "releaseNotes": "1. Background OTA upgrade improvement and Bluetooth OTA upgrade bug fix.\r\n2. Add patch for network rejoining."
+  },
+  {
+    "fileName": "TUBE_T8_600_6_8W_865ZBVR_G3-0x1189-0x00EA-0x013B8000-MF_DIS-DOWM_DIS-20260709052620-3224010153640-lzma-encrypted.ota",
+    "fileVersion": 20676608,
+    "fileSize": 368794,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=234&version=1.59.128.0",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/TUBE_T8_600_6_8W_865ZBVR_G3-0x1189-0x00EA-0x013B8000-MF_DIS-DOWM_DIS-20260709052620-3224010153640-lzma-encrypted.ota",
+    "imageType": 234,
+    "manufacturerCode": 4489,
+    "sha512": "c54eb4cd79eb48200c0adb1ec05e18e83e750d6353d1774a5d2e974043cfb7857e68c0881ebe556a7402f44fb2dc89cf81b4a1e53187f9b4a4692b1b945ccf8f",
+    "otaHeaderString": "TUBE_T8_600_6_8W_865ZBVR_G3",
+    "releaseNotes": "1. Background OTA upgrade improvement and Bluetooth OTA upgrade bug fix.\r\n2. Add patch for network rejoining."
+  },
+  {
+    "fileName": "TUBE_T8_1200_15W_830ZBVR_G3-0x1189-0x00EB-0x013B8000-MF_DIS-DOWM_DIS-20260709053104-3224010153640-lzma-encrypted.ota",
+    "fileVersion": 20676608,
+    "fileSize": 368802,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=235&version=1.59.128.0",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/TUBE_T8_1200_15W_830ZBVR_G3-0x1189-0x00EB-0x013B8000-MF_DIS-DOWM_DIS-20260709053104-3224010153640-lzma-encrypted.ota",
+    "imageType": 235,
+    "manufacturerCode": 4489,
+    "sha512": "6daeacfb1f8a9eadcb3a826828b4777912e5e526742dae77377f2424e39aaf01e42683bdfdfb501a72ac2b7fe0b64dcd2a7619f9ec3ec29f70d0b8cb8e33eedd",
+    "otaHeaderString": "TUBE_T8_1200_15W_830ZBVR_G3",
+    "releaseNotes": "1. Background OTA upgrade improvement and Bluetooth OTA upgrade bug fix.\r\n2. Add patch for network rejoining."
+  },
+  {
+    "fileName": "TUBE_T8_1200_15W_840ZBVR_G3-0x1189-0x00EC-0x013B8000-MF_DIS-DOWM_DIS-20260709053549-3224010153640-lzma-encrypted.ota",
+    "fileVersion": 20676608,
+    "fileSize": 368802,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=236&version=1.59.128.0",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/TUBE_T8_1200_15W_840ZBVR_G3-0x1189-0x00EC-0x013B8000-MF_DIS-DOWM_DIS-20260709053549-3224010153640-lzma-encrypted.ota",
+    "imageType": 236,
+    "manufacturerCode": 4489,
+    "sha512": "d65833dc3d306d1589c32d396e75a5dfb89d12bc9b647c3ea06dd62645ce7ef2b28d0855eee2ba8ecaa39ba32372e73feb7474d2c4426cc32bab392d77080994",
+    "otaHeaderString": "TUBE_T8_1200_15W_840ZBVR_G3",
+    "releaseNotes": "1. Background OTA upgrade improvement and Bluetooth OTA upgrade bug fix.\r\n2. Add patch for network rejoining."
+  },
+  {
+    "fileName": "TUBE_T8_1200_15W_865ZBVR_G3-0x1189-0x00ED-0x013B8000-MF_DIS-DOWM_DIS-20260709054034-3224010153640-lzma-encrypted.ota",
+    "fileVersion": 20676608,
+    "fileSize": 368822,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=237&version=1.59.128.0",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/TUBE_T8_1200_15W_865ZBVR_G3-0x1189-0x00ED-0x013B8000-MF_DIS-DOWM_DIS-20260709054034-3224010153640-lzma-encrypted.ota",
+    "imageType": 237,
+    "manufacturerCode": 4489,
+    "sha512": "8376f2d8666faac2bb3f750a8d121385f49d9906460833d71ab493394716dcfc306b3fa5531cc0eab7d629a223eca3d2eaab971a6b9e6cfbe7b18c870ac1bc22",
+    "otaHeaderString": "TUBE_T8_1200_15W_865ZBVR_G3",
+    "releaseNotes": "1. Background OTA upgrade improvement and Bluetooth OTA upgrade bug fix.\r\n2. Add patch for network rejoining."
+  },
+  {
+    "fileName": "TUBE_T8_1500_23W_840ZBVR_G3-0x1189-0x00EE-0x013B8000-MF_DIS-DOWM_DIS-20260709055011-3224010153640-lzma-encrypted.ota",
+    "fileVersion": 20676608,
+    "fileSize": 368802,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=238&version=1.59.128.0",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/TUBE_T8_1500_23W_840ZBVR_G3-0x1189-0x00EE-0x013B8000-MF_DIS-DOWM_DIS-20260709055011-3224010153640-lzma-encrypted.ota",
+    "imageType": 238,
+    "manufacturerCode": 4489,
+    "sha512": "f2505781f714a937ef74c5d6a3b1a12bf1b5368f6374cadef6dd8422918b9df00f4fa0179e0bff416e1a9d391b6e81388cfbbebef7204f234c74e9893d577495",
+    "otaHeaderString": "TUBE_T8_1500_23W_840ZBVR_G3",
+    "releaseNotes": "1. Background OTA upgrade improvement and Bluetooth OTA upgrade bug fix.\r\n2. Add patch for network rejoining."
+  },
+  {
+    "fileName": "TUBE_T8_1500_23W_830ZBVR_G3-0x1189-0x00EF-0x013B8000-MF_DIS-DOWM_DIS-20260709054521-3224010153640-lzma-encrypted.ota",
+    "fileVersion": 20676608,
+    "fileSize": 368842,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=239&version=1.59.128.0",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/TUBE_T8_1500_23W_830ZBVR_G3-0x1189-0x00EF-0x013B8000-MF_DIS-DOWM_DIS-20260709054521-3224010153640-lzma-encrypted.ota",
+    "imageType": 239,
+    "manufacturerCode": 4489,
+    "sha512": "6f961135c7d9b12d1d3938713017d67c493c64153d09728e9aa3b3630d57db78301c4b549addeafdc4831568fea8695d30b9c7f3dc850f9efc5fe878bbba1f8d",
+    "otaHeaderString": "TUBE_T8_1500_23W_830ZBVR_G3",
+    "releaseNotes": "1. Background OTA upgrade improvement and Bluetooth OTA upgrade bug fix.\r\n2. Add patch for network rejoining."
+  },
+  {
+    "fileName": "TUBE_T8_1500_23W_865ZBVR_G3-0x1189-0x00F0-0x013B8000-MF_DIS-DOWM_DIS-20260709055459-3224010153640-lzma-encrypted.ota",
+    "fileVersion": 20676608,
+    "fileSize": 368794,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=240&version=1.59.128.0",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/TUBE_T8_1500_23W_865ZBVR_G3-0x1189-0x00F0-0x013B8000-MF_DIS-DOWM_DIS-20260709055459-3224010153640-lzma-encrypted.ota",
+    "imageType": 240,
+    "manufacturerCode": 4489,
+    "sha512": "620cc4a37156631c4abf6b0253946929477d5998f4a2b66657556344732c3969f40bc745e314071be81b578ab2f5f15551a01daf860630e5368ad7919fbf6553",
+    "otaHeaderString": "TUBE_T8_1500_23W_865ZBVR_G3",
+    "releaseNotes": "1. Background OTA upgrade improvement and Bluetooth OTA upgrade bug fix.\r\n2. Add patch for network rejoining."
+  },
+  {
+    "fileName": "SENSOR_DIRECT_LS_PD_7_IR_CI_ZB-0x1189-0x00F9-0x027A8000-MF_DIS-DOWM_DIS-20260707051532-3224010153640-lzma-encrypted.ota",
+    "fileVersion": 41582592,
+    "fileSize": 349378,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=249&version=2.122.128.0",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/SENSOR_DIRECT_LS_PD_7_IR_CI_ZB-0x1189-0x00F9-0x027A8000-MF_DIS-DOWM_DIS-20260707051532-3224010153640-lzma-encrypted.ota",
+    "imageType": 249,
+    "manufacturerCode": 4489,
+    "sha512": "d40346db8396d5399a0518f96e693fa2e6428fdcbc8ba7ba880ddcc99db5acbd69136cb6a571d4f8645fc319dbdabcc341ac6a77dff3a8b47527a11f24d00231",
+    "otaHeaderString": "SENSOR_DIRECT_LS_PD_7_IR_CI_ZB",
+    "releaseNotes": "1. Background OTA upgrade improvement and Bluetooth OTA upgrade bug fix.\r\n2. Add patch for network rejoining."
+  },
+  {
+    "fileName": "STRIP_CONTROL_DIRECT_TW_RGB-0x1189-0x00FA-0x014A8000-MF_DIS-DOWM_DIS-20260709080401-3224010153640-lzma-encrypted.ota",
+    "fileVersion": 21659648,
+    "fileSize": 379066,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=250&version=1.74.128.0",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/STRIP_CONTROL_DIRECT_TW_RGB-0x1189-0x00FA-0x014A8000-MF_DIS-DOWM_DIS-20260709080401-3224010153640-lzma-encrypted.ota",
+    "imageType": 250,
+    "manufacturerCode": 4489,
+    "sha512": "5331c3f630b5fcdd82bb91b869d0f98303d8547fbf457dece6632350f2688b5746553bba627ce045a3b77c8344bc0cfc2ca27789f30cd3a10336142752526a61",
+    "otaHeaderString": "STRIP_CONTROL_DIRECT_TW_RGB",
+    "releaseNotes": "1. Background OTA upgrade improvement and Bluetooth OTA upgrade bug fix.\r\n2. Add patch for network rejoining."
+  },
+  {
+    "fileName": "DR_ZBD_NFC_P_30W_220_240V_0A7-0x1189-0x00FD-0x027E8000-MF_DIS-DOWM_DIS-20260706122935-3224010153640-lzma-encrypted.ota",
+    "fileVersion": 41844736,
+    "fileSize": 372298,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=253&version=2.126.128.0",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/DR_ZBD_NFC_P_30W_220_240V_0A7-0x1189-0x00FD-0x027E8000-MF_DIS-DOWM_DIS-20260706122935-3224010153640-lzma-encrypted.ota",
+    "imageType": 253,
+    "manufacturerCode": 4489,
+    "sha512": "df82ede779fb2f796427bac21ec4c4517a37fa0e7c09e1240fd8cf58cdd6ae7b637843229097f2dd744e38c6d24dffa332a64c6188b5115161728592201b5744",
+    "otaHeaderString": "DR_ZBD_NFC_P_30W_220_240V_0A7",
+    "releaseNotes": "1. Background OTA upgrade improvement and Bluetooth OTA upgrade bug fix.\r\n2. Add patch for rejoin case.\r\n3. Support AD serial basic code in NFC storage."
+  },
+  {
+    "fileName": "DR_ZBD_NFC_P_45W_220_240V_1A2-0x1189-0x00FE-0x027E8000-MF_DIS-DOWM_DIS-20260706123424-3224010153640-lzma-encrypted.ota",
+    "fileVersion": 41844736,
+    "fileSize": 372294,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=254&version=2.126.128.0",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/DR_ZBD_NFC_P_45W_220_240V_1A2-0x1189-0x00FE-0x027E8000-MF_DIS-DOWM_DIS-20260706123424-3224010153640-lzma-encrypted.ota",
+    "imageType": 254,
+    "manufacturerCode": 4489,
+    "sha512": "957935efce88d0eb8934e65bea20cd540336b62d0c5e2d2a216f75f69b36e33e860c6c1f3a42ea8b8ef5b8b6f4272e134a7ffb3c5e1d8cb08aa88736dd865a35",
+    "otaHeaderString": "DR_ZBD_NFC_P_45W_220_240V_1A2",
+    "releaseNotes": "1. Background OTA upgrade improvement and Bluetooth OTA upgrade bug fix.\r\n2. Add patch for rejoin case.\r\n3. Support AD serial basic code in NFC storage."
   }
 ]
