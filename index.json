@@ -10225,5 +10225,30 @@
     "sha512": "957935efce88d0eb8934e65bea20cd540336b62d0c5e2d2a216f75f69b36e33e860c6c1f3a42ea8b8ef5b8b6f4272e134a7ffb3c5e1d8cb08aa88736dd865a35",
     "otaHeaderString": "DR_ZBD_NFC_P_45W_220_240V_1A2",
     "releaseNotes": "1. Background OTA upgrade improvement and Bluetooth OTA upgrade bug fix.\r\n2. Add patch for rejoin case.\r\n3. Support AD serial basic code in NFC storage."
+  },
+  {
+    "fileName": "20250612153944_OTA_lumi.light.acn036_0.0.0_0028_20250610_43F8EC.ota",
+    "fileVersion": 28,
+    "fileSize": 630566,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.light.acn036/20250612153944_OTA_lumi.light.acn036_0.0.0_0028_20250610_43F8EC.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20250612153944_OTA_lumi.light.acn036_0.0.0_0028_20250610_43F8EC.ota",
+    "imageType": 1041,
+    "manufacturerCode": 4447,
+    "sha512": "432f7d4ac044ccee1e6bd3d5e7e5c8715c268d777aedb3efade8439d34a3d9d21a7453637b3e416b115bf3dd503ef35280e5382404a4d37278066666c76da027",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.light.acn036"
+  },
+  {
+    "fileName": "20251124210151_lumi.bhf_light.acn001_0.0.7_0734_20251124_331AF1.ota",
+    "fileVersion": 460578,
+    "fileSize": 560210,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.bhf_light.acn001/20251124210151_lumi.bhf_light.acn001_0.0.7_0734_20251124_331AF1.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20251124210151_lumi.bhf_light.acn001_0.0.7_0734_20251124_331AF1.ota",
+    "imageType": 135,
+    "manufacturerCode": 4447,
+    "sha512": "aed2ef9ab1e3930567f4c48cb9cc4bb259c5bef781b220cc2131952dc42dd8654f2d9ee1139a87f2e274a5c94f1edff14ed3357029ddf6e127d1239b17659304",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.bhf_light.acn001",
+    "releaseNotes": "1. Fix known issues and optimize user experience"
   }
 ]
