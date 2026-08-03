@@ -10029,16 +10029,6 @@
     "otaHeaderString": "thirdreality"
   },
   {
-    "fileName": "Door_Sensor_PROD_OTA_V68_1.00.68.ota",
-    "fileVersion": 68,
-    "fileSize": 150098,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Door_Sensor_PROD_OTA_V68_1.00.68.ota",
-    "imageType": 54178,
-    "manufacturerCode": 4659,
-    "sha512": "493bcbc65ad49d378d9e1cb84e769c58edd4c7278677c6023c506d7c103f37332a30277fbfd7e81466507dcb593e10f0cbc1717486f44b566bf17770c6209cd3",
-    "otaHeaderString": "Telink OTA Sample Usage"
-  },
-  {
     "fileName": "FWPLUG_MINIZB1GP_ELECTRICAL_EFR32MG21_v1.1.2.ota",
     "fileVersion": 4354,
     "fileSize": 323774,
@@ -10250,5 +10240,15 @@
     "otaHeaderString": "Aqara OTA Image",
     "modelId": "lumi.bhf_light.acn001",
     "releaseNotes": "1. Fix known issues and optimize user experience"
+  },
+  {
+    "fileName": "Door_Sensor_PROD_OTA_V69_1.00.69.ota",
+    "fileVersion": 69,
+    "fileSize": 148834,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Door_Sensor_PROD_OTA_V69_1.00.69.ota",
+    "imageType": 54178,
+    "manufacturerCode": 4659,
+    "sha512": "e272bd46dd6795c872e52ada7ad482f733bd3f0079129df9f51aa38300ad70a189e9559a6f18f1dc5d7773a35759666449e1a865861e42877bf9a56e7b4bb618",
+    "otaHeaderString": "Telink OTA Sample Usage"
   }
 ]
