@@ -8409,16 +8409,6 @@
     "modelId": "3RPS01083Z"
   },
   {
-    "fileName": "128b-0022-000B_nodon_sem_4_1_00_V010015.ota",
-    "fileVersion": 15,
-    "fileSize": 219812,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/NodOn/128b-0022-000B_nodon_sem_4_1_00_V010015.ota",
-    "imageType": 34,
-    "manufacturerCode": 4747,
-    "sha512": "9fdef2e260af34f928a7b210f37a7bebdec02fe5774a4664a132053c30ee2e843efa09dea65824b79b6adbee1c210462c527f93b6ed20adc406dff4f3676a290",
-    "otaHeaderString": ""
-  },
-  {
     "fileName": "128b-4002-020700-nodon_irb-4-1-00_fw_V020700.zigbee",
     "fileVersion": 34040368,
     "fileSize": 154442,
@@ -10250,5 +10240,16 @@
     "manufacturerCode": 5127,
     "sha512": "95e6e7f32388f829ee892d153d6711e68c8747ced7522991ff1af82bc6c90cc3c9f90cc26c6aec1fde19485caaf143881e40ae51445ffbdb51e9f54182ffb146",
     "otaHeaderString": "temp_humi_sensor"
+  },
+  {
+    "fileName": "128b-0022-0011-nodon-SEM_4_1_00_v17.zigbee",
+    "fileVersion": 17,
+    "fileSize": 233696,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/NodOn/128b-0022-0011-nodon-SEM_4_1_00_v17.zigbee",
+    "imageType": 34,
+    "manufacturerCode": 4747,
+    "sha512": "562f31e79b0bb8b97fa92c9e38483e69a708552dc6d956c944b9ad4df9bb1c82133842b5ebc68152e7c04ab6157c935aa7daef37c2d5714e2f3fa209f42654ce",
+    "otaHeaderString": "",
+    "releaseNotes": "Add endpoint242 and Green Power Server Cluster. Fix the issue where devices are frozen after being online for 18 hours (first production series only)."
   }
 ]
