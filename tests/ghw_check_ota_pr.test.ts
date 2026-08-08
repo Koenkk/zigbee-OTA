@@ -490,6 +490,31 @@ Text after end tag`);
         expect(baseManifest).toStrictEqual([IMAGE_V14_2_MANUF_METAS]);
     });
 
+    it("success with SHA-matching image present when modelId differs", async () => {
+        filePaths = [useImage(IMAGE_V14_2_COPY), useImage(IMAGE_V14_2)];
+        const newContext = withBody(
+            `\`\`\`json [{"fileName": "${IMAGE_V14_2_COPY}", "modelId": "model_a"}, {"fileName": "${IMAGE_V14_2}", "modelId": "model_b"}] \`\`\``,
+        );
+
+        // @ts-expect-error mock
+        await checkOtaPR(github, core, newContext);
+
+        expect(readManifestSpy).toHaveBeenCalledWith(common.BASE_INDEX_MANIFEST_FILENAME);
+        expect(readManifestSpy).toHaveBeenCalledWith(common.PREV_INDEX_MANIFEST_FILENAME);
+        expect(addImageToBaseSpy).toHaveBeenCalledTimes(2);
+        expect(addImageToPrevSpy).toHaveBeenCalledTimes(0);
+        expect(writeManifestSpy).toHaveBeenCalledTimes(2);
+        expect(writeManifestSpy).toHaveBeenCalledWith(common.BASE_INDEX_MANIFEST_FILENAME, [
+            {
+                ...IMAGE_V14_2_METAS,
+                fileName: IMAGE_V14_2_COPY,
+                modelId: "model_a",
+                url: IMAGE_V14_2_METAS.url.replace(IMAGE_V14_2, IMAGE_V14_2_COPY),
+            },
+            withExtraMetas(IMAGE_V14_2_METAS, {modelId: "model_b"}),
+        ]);
+    });
+
     it("failure with spec-matching image present", async () => {
         filePaths = [useImage(IMAGE_V14_2_COPY), useImage(IMAGE_V14_2)];
         // bypass initial "conflict" match by using random `minFileVersion`
@@ -517,6 +542,69 @@ Text after end tag`);
         expect(addImageToPrevSpy).toHaveBeenCalledTimes(0);
         expect(writeManifestSpy).toHaveBeenCalledTimes(0);
         expect(baseManifest).toStrictEqual([metaCopy]);
+    });
+
+    // Aqara devices share same imageType and manufacturerCode, but have different modelIds, so they can have multiple
+    // images (with same imageType/manufacturerCode) in the base manifest.
+    // Images with same imageType and manufacturerCode are only allowed when both images have different modelIds.
+    // https://github.com/Koenkk/zigbee-OTA/pull/1214
+    it.each([
+        {
+            name: "different modelIds",
+            modelIdCopy: "model_a",
+            modelIdOriginal: "model_b",
+            shouldSucceed: true,
+        },
+        {
+            name: "matching modelIds",
+            modelIdCopy: "model_a",
+            modelIdOriginal: "model_a",
+            shouldSucceed: false,
+        },
+        {
+            name: "only copy has modelId",
+            modelIdCopy: "model_a",
+            modelIdOriginal: undefined,
+            shouldSucceed: true,
+        },
+        {
+            name: "only original has modelId",
+            modelIdCopy: undefined,
+            modelIdOriginal: "model_a",
+            shouldSucceed: true,
+        },
+    ])("modelId spec-matching with $name", async ({modelIdCopy, modelIdOriginal, shouldSucceed}) => {
+        filePaths = [useImage(IMAGE_V14_2_COPY), useImage(IMAGE_V14_2)];
+
+        // Build JSON body with modelId only if defined
+        const metasArray = [];
+        if (modelIdCopy !== undefined) {
+            metasArray.push({fileName: IMAGE_V14_2_COPY, modelId: modelIdCopy});
+        } else {
+            metasArray.push({fileName: IMAGE_V14_2_COPY});
+        }
+        if (modelIdOriginal !== undefined) {
+            metasArray.push({fileName: IMAGE_V14_2, modelId: modelIdOriginal});
+        } else {
+            metasArray.push({fileName: IMAGE_V14_2});
+        }
+
+        const newContext = withBody(`\`\`\`json ${JSON.stringify(metasArray)} \`\`\``);
+
+        // manip SHA512 so it doesn't match on that point in `hasManufacturerImage`
+        const f = readFileSync(filePaths[0].filename);
+        f[f.byteLength - 1] = 0xff;
+        writeFileSync(filePaths[0].filename, f);
+
+        if (shouldSucceed) {
+            // @ts-expect-error mock
+            await checkOtaPR(github, core, newContext);
+        } else {
+            await expect(async () => {
+                // @ts-expect-error mock
+                await checkOtaPR(github, core, newContext);
+            }).rejects.toThrow(/Conflict with image at index|Image already present for manufacturer/);
+        }
     });
 
     it("success with newer than current but minFileVersion keeps both", async () => {

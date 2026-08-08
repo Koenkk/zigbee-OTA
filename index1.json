@@ -658,17 +658,6 @@
     "modelId": "lumi.plug.macn01"
   },
   {
-    "fileName": "20240111171722_OTA_lumi.switch.acn047__20240110_EC6C1F.ota",
-    "fileVersion": 30,
-    "fileSize": 411786,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Lumi/20240111171722_OTA_lumi.switch.acn047__20240110_EC6C1F.ota",
-    "imageType": 6416,
-    "manufacturerCode": 4447,
-    "sha512": "bed1de09ca57d6f9d04e2503fe52c79db4d1daf9706c9f169507897609853cacc45c875860bb6853bfde7226ef0da861dba952c9e2b177e90b31002bf0e4daeb",
-    "otaHeaderString": "Aqara OTA Image",
-    "modelId": "lumi.switch.acn047"
-  },
-  {
     "fileName": "20240312112133_OTA_lumi.switch.n3acn1_0.0.0_58_20240311_90ED4C.ota",
     "fileVersion": 58,
     "fileSize": 291358,
@@ -1080,7 +1069,7 @@
     "fileName": "1718263020-oem_zg_tl8258_plug_OTA_1.1.0.bin",
     "fileVersion": 80,
     "fileSize": 310402,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Telink/1718263020-oem_zg_tl8258_plug_OTA_1.1.0.bin",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Tuya/1718263020-oem_zg_tl8258_plug_OTA_1.1.0.bin",
     "imageType": 54179,
     "manufacturerCode": 4417,
     "sha512": "c541878e792620ad16cc70967e0458c03de21876ad8ed3c3b1eb90c8ecf7bcdfe6bfe711460a5888bb033def141e7dd22d78fe24c44a4e0b9707afb473a2d2a2",
@@ -1387,16 +1376,6 @@
     "otaHeaderString": "                                "
   },
   {
-    "fileName": "1021-002f-00104203-NLH.zigbee",
-    "fileVersion": 1065475,
-    "fileSize": 215735,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Legrand/1021-002f-00104203-NLH.zigbee",
-    "imageType": 47,
-    "manufacturerCode": 4129,
-    "sha512": "b742fab60dbe4c03e75d89bd6a33af39cbd4211957e93e1037311144234df5b1e806d5e182f804db3a8378197483001c45f3367db30f262c12a0714f661c60d6",
-    "otaHeaderString": "                                "
-  },
-  {
     "fileName": "1166-0132-19223685-rb272t-1.9.34.ota",
     "fileVersion": 421672581,
     "fileSize": 283810,
@@ -1501,18 +1480,6 @@
     "manufacturerName": [
       "Slacky-DIY"
     ]
-  },
-  {
-    "fileName": "ota_t0x300a_m0x1209_v0x37061514.ota",
-    "fileVersion": 923145492,
-    "fileSize": 168588,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Bosch/ota_t0x300a_m0x1209_v0x37061514.ota",
-    "imageType": 12298,
-    "manufacturerCode": 4617,
-    "sha512": "d8c7f60a98f36580a70be3d67ed62272109d5631de7535f47db8af70a049d501aed95b95fe6f651036fd1b6cc26c6dc71cd46952a12291c051032c07506222c0",
-    "otaHeaderString": "RBSH-TRV0-ZB-EU",
-    "modelId": "RBSH-TRV0-ZB-EU",
-    "releaseNotes": "1. A fault has been resolved that caused the radiator thermostat to sometimes enter an endless loop during auto-calibration"
   },
   {
     "fileName": "EntrySensor_4.0.2.zigbee",
@@ -1637,17 +1604,6 @@
     "manufacturerCode": 4617,
     "sha512": "63f232232252af0fbb3c4cc2efe2ce2564101405de4923238c71ccef2e66e6abef022deee45399a886af4019dfce64fdea969ff60f5b4b854e222b5ffcf7bcc2",
     "otaHeaderString": "RTH2_230"
-  },
-  {
-    "fileName": "VZM32-SN_0.09.ota",
-    "fileVersion": 16973833,
-    "fileSize": 227246,
-    "originalUrl": "https://files.inovelli.com/firmware/VZM32-SN/Beta/0.09/VZM32-SN_0.09.ota",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Inovelli/VZM32-SN_0.09.ota",
-    "imageType": 259,
-    "manufacturerCode": 4655,
-    "sha512": "639ae6284c4fd740573a6079c6164c0c73938a7efdb0d78059ea64342f4029a4470377c5577825fac52390b3d046ea3d1c1355da925ac6dfdaf20ff24b88dac2",
-    "otaHeaderString": "vzm32-sn_mmWave"
   },
   {
     "fileName": "DIM-A60_DIM_T-0x00CD-0x03203660.OTA",
@@ -2129,16 +2085,6 @@
     "releaseNotes": "1.Fix bug network leave related with green power device commission.\r\n2.Fix abnormal reboot caused by network status.\r\n3.Upgrade Zigbee stack to latest version 3.7.1.2. \r\n4.Support using recall scene to turn off plug in Hue system."
   },
   {
-    "fileName": "bl702_Dual_plug_v1.00.38.ota",
-    "fileVersion": 38,
-    "fileSize": 286202,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/bl702_Dual_plug_v1.00.38.ota",
-    "imageType": 54197,
-    "manufacturerCode": 5127,
-    "sha512": "42541b4f77769aa9ea23fa62db5b22dd7dee3ff85e74b27634ac35b7ff639225e50a75713e73d36ecfeebbd5305ed013176a7f62bcde7bc65415c3b64d50fc3d",
-    "otaHeaderString": "temp_humi_sensor"
-  },
-  {
     "fileName": "1021-000e-004d45ff-NLF.zigbee",
     "fileVersion": 5064191,
     "fileSize": 254231,
@@ -2485,16 +2431,6 @@
     "otaHeaderString": "ota-file-test"
   },
   {
-    "fileName": "1021-0016-00384203-NLD.zigbee",
-    "fileVersion": 3686915,
-    "fileSize": 205239,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Legrand/1021-0016-00384203-NLD.zigbee",
-    "imageType": 22,
-    "manufacturerCode": 4129,
-    "sha512": "23a60f45cebaff176df32fc3614feeed965562bd18f4658ae6e59c93f52530be212f2c33fbe8ee86e5296e62066c8bd06a724c38fb5a5522d042949ee1bc8a9f",
-    "otaHeaderString": "                                "
-  },
-  {
     "fileName": "1021-0019-002645ff-NLFN.zigbee",
     "fileVersion": 2508287,
     "fileSize": 239671,
@@ -2557,19 +2493,6 @@
     "otaHeaderString": "FIRMWARE"
   },
   {
-    "fileName": "6565-0394-10043001-air_quality_monitor_zrd.zigbee",
-    "fileVersion": 268709889,
-    "fileSize": 302674,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/SlackyDiy/6565-0394-10043001-air_quality_monitor_zrd.zigbee",
-    "imageType": 916,
-    "manufacturerCode": 25957,
-    "sha512": "2d47c772f50dcb56467fce2e3d5f8b362bd9cbba8401108633cc38cfc28dec2251ef351c9ec1d9f654d2c84b6f414ed4f0657fb5317d9572b6bd9480ac5f5d9a",
-    "otaHeaderString": "",
-    "manufacturerName": [
-      "Slacky-DIY"
-    ]
-  },
-  {
     "fileName": "trvzb_v1.4.1.ota",
     "fileVersion": 5121,
     "fileSize": 332092,
@@ -2615,42 +2538,6 @@
     "releaseNotes": "1.Support dynamic CCT&DIM.\r\n2.Support RGB\r\n3.Support RGB/TW. \r\n4.Support daylight harvest control.\r\n5.Enable OTA upgrade over Bluetooth."
   },
   {
-    "fileName": "SENSOR_DIRECT_LS_PD_7_IR_CI_ZB-0x1189-0x00F9-0x025C8000-MF_DIS-DOWM_DIS-20250717074332-3224010153640-lzma-encrypted.ota",
-    "fileVersion": 39616512,
-    "fileSize": 350950,
-    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=249&version=2.92.128.0",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/LEDVANCE/SENSOR_DIRECT_LS_PD_7_IR_CI_ZB-0x1189-0x00F9-0x025C8000-MF_DIS-DOWM_DIS-20250717074332-3224010153640-lzma-encrypted.ota",
-    "imageType": 249,
-    "manufacturerCode": 4489,
-    "sha512": "3ea5e433ef315dbd8196fb55af3cd64b3436cd0b4b2e4fb4ac7587dc27ff0316a009cbe4ea377c4e5a0e70e36fef88193690760303f632b8adc046efe49922a3",
-    "otaHeaderString": "SENSOR_DIRECT_LS_PD_7_IR_CI_ZB",
-    "releaseNotes": "1.Support occupancy control.\r\n2.Support daylight harvest control.\r\n3.Enable OTA upgrade over Bluetooth.\r\n4.Work with green power switch.\r\n5.Fix bugs reported in system test. "
-  },
-  {
-    "fileName": "DR_ZBD_NFC_P_30W_220_240V_0A7-0x1189-0x00FD-0x025E8000-MF_DIS-DOWM_DIS-20250804132155-3224010153640-lzma-encrypted.ota",
-    "fileVersion": 39747584,
-    "fileSize": 374022,
-    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=253&version=2.94.128.0",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/LEDVANCE/DR_ZBD_NFC_P_30W_220_240V_0A7-0x1189-0x00FD-0x025E8000-MF_DIS-DOWM_DIS-20250804132155-3224010153640-lzma-encrypted.ota",
-    "imageType": 253,
-    "manufacturerCode": 4489,
-    "sha512": "75a299173ed81528407c5b86d14f0e0d3746346eaf976e782a89836b89c5bfabb8d8a9b7e38b877a05b6644b81f453588fb5aa4293ebe653bd24fd29f60feafd",
-    "otaHeaderString": "DR_ZBD_NFC_P_30W_220_240V_0A7",
-    "releaseNotes": "1.Support occupancy control.\r\n2.Support daylight harvest control.\r\n3.Support Ledvance green power switch.\r\n4.Enable OTA upgrade over Bluetooth.\r\n5.Fix bugs reported in system test. "
-  },
-  {
-    "fileName": "DR_ZBD_NFC_P_45W_220_240V_1A2-0x1189-0x00FE-0x025E8000-MF_DIS-DOWM_DIS-20250804132854-3224010153640-lzma-encrypted.ota",
-    "fileVersion": 39747584,
-    "fileSize": 373962,
-    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=254&version=2.94.128.0",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/LEDVANCE/DR_ZBD_NFC_P_45W_220_240V_1A2-0x1189-0x00FE-0x025E8000-MF_DIS-DOWM_DIS-20250804132854-3224010153640-lzma-encrypted.ota",
-    "imageType": 254,
-    "manufacturerCode": 4489,
-    "sha512": "a8f2f8883d1f3447ec53237ed11dcdad6d090738191c4f53268683f59d90eab6c6a10af5f8f25b0f284d90f4e984220cf8c06bc4a6d11df9f60659f6b2dc095c",
-    "otaHeaderString": "DR_ZBD_NFC_P_45W_220_240V_1A2",
-    "releaseNotes": "1.Support occupancy control.\r\n2.Support daylight harvest control.\r\n3.Support Ledvance green power switch.\r\n4.Enable OTA upgrade over Bluetooth.\r\n5.Fix bugs reported in system test. "
-  },
-  {
     "fileName": "10F2-7B2D-0000-0001-01800460-m7b-h1.ota.zigbee",
     "fileVersion": 25166944,
     "fileSize": 182526,
@@ -2662,16 +2549,6 @@
     "otaHeaderString": "ubisys H1 1.8.0",
     "hardwareVersionMin": 0,
     "hardwareVersionMax": 1
-  },
-  {
-    "fileName": "Water_Leak_Sensor_V2_OTA_V12_v1.00.12.ota",
-    "fileVersion": 12,
-    "fileSize": 261554,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/Water_Leak_Sensor_V2_OTA_V12_v1.00.12.ota",
-    "imageType": 54210,
-    "manufacturerCode": 5127,
-    "sha512": "8153b046787330625d6b188510ed22d0b950c2ab4f5cad7b4af6b3df9db6fd93811bd29f4094855faa55ead54cd87a0702ba969eb201c621da64c35f25649086",
-    "otaHeaderString": "temp_humi_sensor"
   },
   {
     "fileName": "SmartSwitchGen3_PROD_OTA_V30_v1.00.30.ota",
@@ -2713,18 +2590,6 @@
     "manufacturerCode": 4151,
     "sha512": "2c85462302164a9588c74344ba642a5a436b02b5c9fe43ff85609c6c5b26000c8bf1a5152a031b873d187b5cf23c5fecde77996d64bd419006a1f1b5c15e00e6",
     "otaHeaderString": "DR1175r1v02--JN5169--ENCRYPTED00"
-  },
-  {
-    "fileName": "STRIP_CONTROL_DIRECT_TW_RGB-0x1189-0x00FA-0x01348000-MF_DIS-DOWM_DIS-20250711054618-3224010153640-lzma-encrypted.ota",
-    "fileVersion": 20217856,
-    "fileSize": 380246,
-    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=250&version=1.52.128.0",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/LEDVANCE/STRIP_CONTROL_DIRECT_TW_RGB-0x1189-0x00FA-0x01348000-MF_DIS-DOWM_DIS-20250711054618-3224010153640-lzma-encrypted.ota",
-    "imageType": 250,
-    "manufacturerCode": 4489,
-    "sha512": "11fdad46c4ee2919ef5e48ad85921a26a217c0bebc3d6e3fce09d20690ac4d8a49665f5997ee8bf1312be2fc47d98fb0197594b7c21f05a0e0a22c91bc4a479d",
-    "otaHeaderString": "STRIP_CONTROL_DIRECT_TW_RGB",
-    "releaseNotes": "1.Enable 5 channels for DIM,TW,RGB-TW control.\r\n2.Support occupancy control.\r\n3.Support daylight harvest control.\r\n4.Support Ledvance green power switch.\r\n5.Enable OTA upgrade over Bluetooth."
   },
   {
     "fileName": "SmartCurtainModule_Zigbee_PROD_OTA_V53_v1.00.53.ota",
@@ -2775,16 +2640,6 @@
     "manufacturerCode": 5127,
     "sha512": "dc6b5d83bf13fe67f56a83a6fe324d0ebe983e5489901de36f7f2c3909dcb85e8593cf4ea22ac473bbe772ba3499967274758452579e29a7d370e3a85a73a8c0",
     "otaHeaderString": "temp_humi_sensor"
-  },
-  {
-    "fileName": "Radar_PROD_OTA_V6_v1.00.06.ota",
-    "fileVersion": 6,
-    "fileSize": 136354,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/Radar_PROD_OTA_V6_v1.00.06.ota",
-    "imageType": 54194,
-    "manufacturerCode": 5127,
-    "sha512": "ef965246281a1b3da9f908b8c0d45e597c459b7db1e4b98a0ac1b3f3fab67058216eaf8c31ef5b6d9fd413c0cbb0030b38062581a2daa21c3ef42d09afcf5af8",
-    "otaHeaderString": "Telink OTA Sample Usage"
   },
   {
     "fileName": "100B-011B-02004D23-Sensor-EFR32MG22.zigbee",
@@ -2851,16 +2706,6 @@
     "sha512": "b3119f590b246b8994cbd8c2edd756f0d0c86f303259b6a8c2c284a174f8d6b697fea1e3679d008910e0ba856f1f2109b2e2503de62038ad6d324bc41ea126a3",
     "otaHeaderString": "temp_humi_sensor",
     "modelId": "3RPS01083Z"
-  },
-  {
-    "fileName": "128b-0022-000B_nodon_sem_4_1_00_V010011.ota",
-    "fileVersion": 11,
-    "fileSize": 219820,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/NodOn/128b-0022-000B_nodon_sem_4_1_00_V010011.ota",
-    "imageType": 34,
-    "manufacturerCode": 4747,
-    "sha512": "d7073e0b115ad7dafe8210ddad78bbbf01169f80cb3d789343f8eba7b976429d8a3d0b394e68faf474e12aba77a510c326af0559cf9b84162d60fc4983493b0b",
-    "otaHeaderString": ""
   },
   {
     "fileName": "128b-4002-010600-nodon_irb-4-1-00_fw_V010600.zigbee",
@@ -3147,16 +2992,6 @@
     "otaHeaderString": "PanicButton"
   },
   {
-    "fileName": "Smart_Air_Pressure_Sensor_OTA_V19_1.00.19.ota",
-    "fileVersion": 19,
-    "fileSize": 265874,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/Smart_Air_Pressure_Sensor_OTA_V19_1.00.19.ota",
-    "imageType": 54190,
-    "manufacturerCode": 5127,
-    "sha512": "e1486d6d44870cd48ee9862233ba2e1686f558c3470f78cfbb504cdecdb0666a2714aa19788045397106556b318592828de596d81fba349c02c16765c2c5db47",
-    "otaHeaderString": "temp_humi_sensor"
-  },
-  {
     "fileName": "60G_Radar_OTA_V35_v1.00.35.ota",
     "fileVersion": 35,
     "fileSize": 352278,
@@ -3171,7 +3006,7 @@
     "fileVersion": 30,
     "fileSize": 665598,
     "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.light.agl004/20251013120448_OTA_lumi.light.agl004_0.0.0_0030_20251011_137354.ota",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Aqara/20251013120448_OTA_lumi.light.agl004_0.0.0_0030_20251011_137354.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Lumi/20251013120448_OTA_lumi.light.agl004_0.0.0_0030_20251011_137354.ota",
     "imageType": 1044,
     "manufacturerCode": 4447,
     "sha512": "2fcf5b1013580f5ba204bbc8756a956ebedd5253730e80250b486380fcd096f7676502d8d5bcc09b66f57004671798688c2bdf09b42953e95c95221211509fa0",
@@ -3534,7 +3369,7 @@
     "fileVersion": 14889,
     "fileSize": 783338,
     "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.sensor_occupy.agl8/20260105174558_OTA_lumi.sensor_occupy.agl8_0.0.0_5841_20260105_8C0C5C.ota",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Aqara/20260105174558_OTA_lumi.sensor_occupy.agl8_0.0.0_5841_20260105_8C0C5C.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Lumi/20260105174558_OTA_lumi.sensor_occupy.agl8_0.0.0_5841_20260105_8C0C5C.ota",
     "imageType": 9792,
     "manufacturerCode": 4447,
     "sha512": "6f641849e3b379655571a876a3cde3b3f904f3e80433c767af8571ee36d2b0168374da8d452030cea0231f0025b0ef16364c5b57dab90bda9a309ece26257f15",
@@ -3567,5 +3402,429 @@
     "manufacturerName": [
       "Svetomaniya"
     ]
+  },
+  {
+    "fileName": "1021-0016-003945ff-NLD.zigbee",
+    "fileVersion": 3753471,
+    "fileSize": 207623,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Legrand/1021-0016-003945ff-NLD.zigbee",
+    "imageType": 22,
+    "manufacturerCode": 4129,
+    "sha512": "6bd78b7da69ee3a255889eb64334a246aa69147ec46c5402650a4776e42b4832852398adc079faf3181af5eb051f3306a7a1d50bd609b4ba89b3a4371823f165",
+    "otaHeaderString": "                                "
+  },
+  {
+    "fileName": "1021-002f-001245ff-NLH.zigbee",
+    "fileVersion": 1197567,
+    "fileSize": 214807,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Legrand/1021-002f-001245ff-NLH.zigbee",
+    "imageType": 47,
+    "manufacturerCode": 4129,
+    "sha512": "4bba71db84465cbc5c8bed40e354a01948818dfce6e130ac94a6cdcf5cd7e717ac5c603c596f3221f76f8e349d9c2f7b2a6247d8f3275e729e7a038396a503e7",
+    "otaHeaderString": "                                "
+  },
+  {
+    "fileName": "Radar_PROD_OTA_V14_v1.00.14.ota",
+    "fileVersion": 14,
+    "fileSize": 136594,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/Radar_PROD_OTA_V14_v1.00.14.ota",
+    "imageType": 54194,
+    "manufacturerCode": 5127,
+    "sha512": "54ff734daccbe523e08cfd9566a882db6eee040928bc0ad11072d65e59cddc315b52fb0fcefda83233d4165d350c453f4a4ac6dc895afea60a9ebed8b83b208c",
+    "otaHeaderString": "Telink OTA Sample Usage"
+  },
+  {
+    "fileName": "VZM32-SN_0.10.ota",
+    "fileVersion": 16973834,
+    "fileSize": 227210,
+    "originalUrl": "https://files.inovelli.com/firmware/VZM32-SN/Beta/0.10/VZM32-SN_0.10.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Inovelli/VZM32-SN_0.10.ota",
+    "imageType": 259,
+    "manufacturerCode": 4655,
+    "sha512": "a766719e1f13893adb17ce8aec13d198ce8371a0bb740203515524f972305e8f7cd2b4904b1a50bae9664b44f87d7132305a3348fd0e4481049439a71c19bf89",
+    "otaHeaderString": "vzm32-sn_mmWave"
+  },
+  {
+    "fileName": "20230704151031_OTA_lumi.curtain.vagl02_V41_20230703_563B.ota",
+    "fileVersion": 41,
+    "fileSize": 285742,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Lumi/20230704151031_OTA_lumi.curtain.vagl02_V41_20230703_563B.ota",
+    "imageType": 4616,
+    "manufacturerCode": 4447,
+    "sha512": "5c154c263bddba0ab0f5ffc0fb80d68f1c56c833b9018ad2a1942f30cec1efee977d6e2f431f8e06d617b241b1311ce4dc8d04f68757e889314e18075e485e5e",
+    "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000",
+    "modelId": "lumi.curtain.vagl02"
+  },
+  {
+    "fileName": "20211122110505_OTA_lumi.curtain.hagl07_V48_20211119_2C5A.ota",
+    "fileVersion": 48,
+    "fileSize": 284750,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Lumi/20211122110505_OTA_lumi.curtain.hagl07_V48_20211119_2C5A.ota",
+    "imageType": 4104,
+    "manufacturerCode": 4447,
+    "sha512": "41788737db26cfe01890a1c5f400b5f3ffb01f4d8ac81606e55a7bfbc0c1d8a22ae8725ff9ff2d9a4bff890fce3271a6fbc808c2a43f3bddf07c7ea75d630432",
+    "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000",
+    "modelId": "lumi.curtain.hagl07"
+  },
+  {
+    "fileName": "6565-0394-10053001-air_quality_monitor_zrd.zigbee",
+    "fileVersion": 268775425,
+    "fileSize": 303378,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/SlackyDiy/6565-0394-10053001-air_quality_monitor_zrd.zigbee",
+    "imageType": 916,
+    "manufacturerCode": 25957,
+    "sha512": "45beefbfd991d688cd095dc0f2da66e4fd099dcde2e0730f071cb74ab0af26680796fb7705c52aadc63feff2b5b5ab87e016d753c5bdf5784b1427a33869d4e9",
+    "otaHeaderString": "",
+    "manufacturerName": [
+      "Slacky-DIY"
+    ]
+  },
+  {
+    "fileName": "bl702_Dual_plug_1.00.42.ota",
+    "fileVersion": 42,
+    "fileSize": 286614,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/bl702_Dual_plug_1.00.42.ota",
+    "imageType": 54197,
+    "manufacturerCode": 5127,
+    "sha512": "c3e88377ac23f9eb87b316fd7c94bb07e20762421c638e1804c14f91b3f416c1da83a78e50d3d7b66b0bd0e606c01ad8527d94ffa680afbda104be0eadb6ef03",
+    "otaHeaderString": "temp_humi_sensor"
+  },
+  {
+    "fileName": "Smart_Air_Quality_Sensor_OTA_v16_v1.00.16.ota",
+    "fileVersion": 16,
+    "fileSize": 243102,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/Smart_Air_Quality_Sensor_OTA_v16_v1.00.16.ota",
+    "imageType": 54277,
+    "manufacturerCode": 5127,
+    "sha512": "d5a1236dc27f86157d2b83cc24a66c77c15b94f81d42cb2db3a46c34e3b8a4059642e1cc0e17622428abecb4790680c228b3f6a39313a3273b24c65b9f5bc60b",
+    "otaHeaderString": "test"
+  },
+  {
+    "fileName": "20231222194652_lumi.dimmer.acn004_0.0.0_0024_9FD15B.ota",
+    "fileVersion": 24,
+    "fileSize": 440714,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Lumi/20231222194652_lumi.dimmer.acn004_0.0.0_0024_9FD15B.ota",
+    "imageType": 6028,
+    "manufacturerCode": 4447,
+    "sha512": "56ecdbb4940e48ab4abeb2ca7a168f23e4c9c116818f842a36b3a28c935a3b8f6e99c42cdef4b2db1dcb9ad2a244548591a1d112d9c37bd4bc568b5c20a3fa07",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.dimmer.acn004"
+  },
+  {
+    "fileName": "20220524105221_OTA_lumi.motion.ac01_0.0.0_0054_20220509_EB279B.ota",
+    "fileVersion": 54,
+    "fileSize": 317658,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Lumi/20220524105221_OTA_lumi.motion.ac01_0.0.0_0054_20220509_EB279B.ota",
+    "imageType": 8347,
+    "manufacturerCode": 4447,
+    "sha512": "32174d5bc4abbb7295e7619a1684b0a37a9622dfc4cebbc6a39174e18fa3b9bde9b562cbb34e1eb9c61169c0f1f879245d4e452890dfc0645cd22e6ad36f468d",
+    "otaHeaderString": "\u0014OTA_lumi.motion.ac01",
+    "modelId": "lumi.motion.ac01"
+  },
+  {
+    "fileName": "20220607183723_OTA_lumi.remote.cagl02_V1.0.25_20220602_44D1AF.ota",
+    "fileVersion": 25,
+    "fileSize": 266926,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Lumi/20220607183723_OTA_lumi.remote.cagl02_V1.0.25_20220602_44D1AF.ota",
+    "imageType": 8840,
+    "manufacturerCode": 4447,
+    "sha512": "c92357df7603f9e33f7c818eabb42ba301886fed9a0f2c70df0d909932c024ea772929f62dce10a71deef723ecb69f67346f487260d9bcea76eb96b436569c9e",
+    "otaHeaderString": "OM15082-CUBE-JN5180-ENCRYPTED000",
+    "modelId": "lumi.remote.cagl02"
+  },
+  {
+    "fileName": "OTA_lumi.switch.b1nacn01_0.0.0_0026_20211101_E70B9E.ota",
+    "fileVersion": 26,
+    "fileSize": 286350,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Lumi/OTA_lumi.switch.b1nacn01_0.0.0_0026_20211101_E70B9E.ota",
+    "imageType": 268,
+    "manufacturerCode": 4447,
+    "sha512": "45cc317c491ba0d3cf84d9d16572920009481d9be2527d43be156af8cedb263ebe76320c1e55bcbf114578967efa30d2abec840adfe8394cbc850931c5e4b258",
+    "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000",
+    "modelId": "lumi.switch.b1nacn01"
+  },
+  {
+    "fileName": "20240312112538_OTA_lumi.switch.n1acn1_0.0.0_58_20240311_02B313.ota",
+    "fileVersion": 58,
+    "fileSize": 288030,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Lumi/20240312112538_OTA_lumi.switch.n1acn1_0.0.0_58_20240311_02B313.ota",
+    "imageType": 2572,
+    "manufacturerCode": 4447,
+    "sha512": "f5d7b9af469e2f627dd341ba70b677400e3e25b43118b8d32f8970f8674cbb8948c195b692a8f425d78fd178e931ca2d0572ca45cd4419a4e6367b47208a9410",
+    "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000",
+    "modelId": "lumi.switch.n1acn1"
+  },
+  {
+    "fileName": "20250918173547_OTA_lumi.switch.acn047_0.0.0_0033_20250917_8609D6.ota",
+    "fileVersion": 33,
+    "fileSize": 598474,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Lumi/20250918173547_OTA_lumi.switch.acn047_0.0.0_0033_20250917_8609D6.ota",
+    "imageType": 6416,
+    "manufacturerCode": 4447,
+    "sha512": "783e75a3b1e3dcf0c09ddedb5ca01ab0ca5b97f93154f2df156e5815b0c3061ce6cc9d960b76b8e2126f95b037689a98b869ceb391a04de413ba09805c5de952",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.switch.acn047"
+  },
+  {
+    "fileName": "20240204163609_OTA_lumi.switch.acn056_0.0.0_0034_20240204_80D522.ota",
+    "fileVersion": 34,
+    "fileSize": 579494,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Lumi/20240204163609_OTA_lumi.switch.acn056_0.0.0_0034_20240204_80D522.ota",
+    "imageType": 6424,
+    "manufacturerCode": 4447,
+    "sha512": "8bed0ef08684be7c182c00bb6226d301e94f73052c997b1adef7ed4379d953c54e870175eca3596e1a5fb3db91ebf8bacd6fa9d9ba65eb3c00556ff2406c1622",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.switch.acn056"
+  },
+  {
+    "fileName": "20240204163527_OTA_lumi.switch.acn057_0.0.0_0034_20240204_80D522.ota",
+    "fileVersion": 34,
+    "fileSize": 579494,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Lumi/20240204163527_OTA_lumi.switch.acn057_0.0.0_0034_20240204_80D522.ota",
+    "imageType": 6424,
+    "manufacturerCode": 4447,
+    "sha512": "8bed0ef08684be7c182c00bb6226d301e94f73052c997b1adef7ed4379d953c54e870175eca3596e1a5fb3db91ebf8bacd6fa9d9ba65eb3c00556ff2406c1622",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.switch.acn057"
+  },
+  {
+    "fileName": "20240204163449_OTA_lumi.switch.acn058_0.0.0_0034_20240204_80D522.ota",
+    "fileVersion": 34,
+    "fileSize": 579494,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Lumi/20240204163449_OTA_lumi.switch.acn058_0.0.0_0034_20240204_80D522.ota",
+    "imageType": 6424,
+    "manufacturerCode": 4447,
+    "sha512": "8bed0ef08684be7c182c00bb6226d301e94f73052c997b1adef7ed4379d953c54e870175eca3596e1a5fb3db91ebf8bacd6fa9d9ba65eb3c00556ff2406c1622",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.switch.acn058"
+  },
+  {
+    "fileName": "20240204163339_OTA_lumi.switch.acn059_0.0.0_0034_20240204_80D522.ota",
+    "fileVersion": 34,
+    "fileSize": 579494,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Lumi/20240204163339_OTA_lumi.switch.acn059_0.0.0_0034_20240204_80D522.ota",
+    "imageType": 6424,
+    "manufacturerCode": 4447,
+    "sha512": "8bed0ef08684be7c182c00bb6226d301e94f73052c997b1adef7ed4379d953c54e870175eca3596e1a5fb3db91ebf8bacd6fa9d9ba65eb3c00556ff2406c1622",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.switch.acn059"
+  },
+  {
+    "fileName": "20251013111834_OTA_lumi.light.agl001_0.0.0_0030_20251013_F7321F.ota",
+    "fileVersion": 30,
+    "fileSize": 688622,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.light.agl001/20251013111834_OTA_lumi.light.agl001_0.0.0_0030_20251013_F7321F.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Lumi/20251013111834_OTA_lumi.light.agl001_0.0.0_0030_20251013_F7321F.ota",
+    "imageType": 1043,
+    "manufacturerCode": 4447,
+    "sha512": "d8f11a0d36844e70288e688f9ef58ee553d0d4b1f45eb3975ffc94dff12d0c6b580e03b87311e15e8e8c06121c93d43a1c526872bd6bab10c7d1cb337f07bac5",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.light.agl001"
+  },
+  {
+    "fileName": "20251013121050_OTA_lumi.light.agl003_0.0.0_0030_20251013_F7321F.ota",
+    "fileVersion": 30,
+    "fileSize": 688622,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.light.agl003/20251013121050_OTA_lumi.light.agl003_0.0.0_0030_20251013_F7321F.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Lumi/20251013121050_OTA_lumi.light.agl003_0.0.0_0030_20251013_F7321F.ota",
+    "imageType": 1043,
+    "manufacturerCode": 4447,
+    "sha512": "d8f11a0d36844e70288e688f9ef58ee553d0d4b1f45eb3975ffc94dff12d0c6b580e03b87311e15e8e8c06121c93d43a1c526872bd6bab10c7d1cb337f07bac5",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.light.agl003",
+    "releaseNotes": ""
+  },
+  {
+    "fileName": "20251013120727_OTA_lumi.light.agl005_0.0.0_0030_20251013_F7321F.ota",
+    "fileVersion": 30,
+    "fileSize": 688622,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.light.agl005/20251013120727_OTA_lumi.light.agl005_0.0.0_0030_20251013_F7321F.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Lumi/20251013120727_OTA_lumi.light.agl005_0.0.0_0030_20251013_F7321F.ota",
+    "imageType": 1043,
+    "manufacturerCode": 4447,
+    "sha512": "d8f11a0d36844e70288e688f9ef58ee553d0d4b1f45eb3975ffc94dff12d0c6b580e03b87311e15e8e8c06121c93d43a1c526872bd6bab10c7d1cb337f07bac5",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.light.agl005"
+  },
+  {
+    "fileName": "20260306113631_OTA_lumi.airrtc.aeu005_0.0.0_2745_20260305_9BBD2E.ota",
+    "fileVersion": 6957,
+    "fileSize": 648362,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.airrtc.aeu005/20260306113631_OTA_lumi.airrtc.aeu005_0.0.0_2745_20260305_9BBD2E.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Lumi/20260306113631_OTA_lumi.airrtc.aeu005_0.0.0_2745_20260305_9BBD2E.ota",
+    "imageType": 5120,
+    "manufacturerCode": 4447,
+    "sha512": "fae4c28a8eec4173bcbfbc34026d376def2c3eefce19222f58f3f4b12ede89c3c6d245966344e9e98bade0a2736a44806c692b66d341f50ca0f539721d46f240",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.airrtc.aeu005",
+    "releaseNotes": "This version update focuses on temperature control precision and operational stability, specifically addressing:\n1. Reduced temperature fluctuation range for more precise temperature control;\n2. Optimized speed to reach temperature steady state for more efficient response;\n3. Resolved temperature fluctuation issues after small-range temperature control for smoother operation;\n4. Fixed abnormal temperature display issues with linked sensors for more accurate data."
+  },
+  {
+    "fileName": "20260206105339_OTA_lumi.vibration.agl002_0.0.0_0021_20260206_65FA7D.ota",
+    "fileVersion": 21,
+    "fileSize": 584766,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.vibration.agl002/20260206105339_OTA_lumi.vibration.agl002_0.0.0_0021_20260206_65FA7D.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Lumi/20260206105339_OTA_lumi.vibration.agl002_0.0.0_0021_20260206_65FA7D.ota",
+    "imageType": 9794,
+    "manufacturerCode": 4447,
+    "sha512": "18241266652316468a2c42ef54408670fd819b39a90dde3c49bfc3da6578f2806c87397b8215c6609a07d997b14530d949029a9c3ac2c11d6aa00bd35b6228dc",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.vibration.agl002",
+    "releaseNotes": ""
+  },
+  {
+    "fileName": "minizb1gsp_v1.0.3.ota",
+    "fileVersion": 4100,
+    "fileSize": 335742,
+    "originalUrl": "https://zigbee-ota.sonoff.tech/releases/minizb1gsp_v1.0.3.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Sonoff/minizb1gsp_v1.0.3.ota",
+    "imageType": 70,
+    "manufacturerCode": 4742,
+    "sha512": "cfe91590d0aad095903c8a309655744a7ac4b0d44429b9b10486ce07555fffcfcfaf22a78238173c38077760b5e3951a682906f7133617c13eb29e1d6091a4a2",
+    "otaHeaderString": "EBL FWPLUG_MINIZB1GSP_ELECTRICAL"
+  },
+  {
+    "fileName": "Smart_Filter_Sensor_OTA_25_1.00.25.ota",
+    "fileVersion": 25,
+    "fileSize": 266258,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/Smart_Filter_Sensor_OTA_25_1.00.25.ota",
+    "imageType": 54190,
+    "manufacturerCode": 5127,
+    "sha512": "8c27456b9ec89a572e125e514212b9f2e8315665259bc4c60bfe5e8488656bb7819d5db238cb42c66e3a8845b89423c436e1b5c422df3c8589834f69e3f6490c",
+    "otaHeaderString": "thirdreality"
+  },
+  {
+    "fileName": "TRV_GEN2_0x38011514_PROD.fw",
+    "fileVersion": 939595028,
+    "fileSize": 168715,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Bosch/TRV_GEN2_0x38011514_PROD.fw",
+    "imageType": 12298,
+    "manufacturerCode": 4617,
+    "sha512": "a5a7c00dead9a7a9ee42e7d914512281258131d1ad2bb8b4a43ec83aa94cad0a02a0427e6b51e0495d9c35782d1ba434d8185c34cdf4207cebabfd4d4d1ee2fd",
+    "otaHeaderString": "RBSH-TRV0-ZB-EU",
+    "modelId": "RBSH-TRV0-ZB-EU"
+  },
+  {
+    "fileName": "TRV_GEN2_DUAL_0x13027140_PROD.fw",
+    "fileVersion": 318927168,
+    "fileSize": 333078,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Bosch/TRV_GEN2_DUAL_0x13027140_PROD.fw",
+    "imageType": 12306,
+    "manufacturerCode": 4617,
+    "sha512": "2fce90ac4a558e40e13ecf84c0b8ec427d37ce7dd343954da593a5b1bb5de9f60ef251443e98f9ac002b13ce9cdd89ec55b4548ba7cd472fbf9a618f7484acc1",
+    "otaHeaderString": "TRV_GEN2_DUAL",
+    "modelId": "RBSH-TRV1-ZB-EU",
+    "releaseNotes": "New heating algorithm (like that used on the non-matter radiator thermostat II since November 2024)"
+  },
+  {
+    "fileName": "minizb1gp_v1.0.7.ota",
+    "fileVersion": 4103,
+    "fileSize": 323934,
+    "originalUrl": "https://zigbee-ota.sonoff.tech/releases/minizb1gp_v1.0.7.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Sonoff/minizb1gp_v1.0.7.ota",
+    "imageType": 71,
+    "manufacturerCode": 4742,
+    "sha512": "69d48905d3a3e64177ce41aeb98062610aa6f0ef6b04d5324e8d49352d458cf48c6e5b5d4641a8b1a8bb4d5ad56fe35c4c4da512349c0701cf771b940806ef9a",
+    "otaHeaderString": "EBL FWPLUG_MINIZB1GSP_ELECTRICAL"
+  },
+  {
+    "fileName": "702plug47_usa_h0xD3BD_b0xD3BD.ota",
+    "fileVersion": 47,
+    "fileSize": 281750,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/702plug47_usa_h0xD3BD_b0xD3BD.ota",
+    "imageType": 54205,
+    "manufacturerCode": 5127,
+    "sha512": "87f65bb17e35820179499ff4c74ac651a1af781bdfbbb3d048e7735c9a82cdcee2e52ce0190a3c183dc76d9fd9c3d63bdf1907711eb995bc3e376e52c56b184d",
+    "otaHeaderString": "thirdreality",
+    "minFileVersion": 40,
+    "modelId": "3RSP02064Z"
+  },
+  {
+    "fileName": "SN-TLSR8656-S60-01-v2.0.2.ota",
+    "fileVersion": 8194,
+    "fileSize": 147232,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Sonoff/SN-TLSR8656-S60-01-v2.0.2.ota",
+    "imageType": 11,
+    "manufacturerCode": 4742,
+    "sha512": "dfddb274c4d549f0ea0e155592191e19409ef7368072e9bf0f9af4889e23cd3dfeeee849cdfbfc4afcb595301b391e9d66ccef49985f02bc90a8043b4f34989a",
+    "otaHeaderString": "Telink OTA Sample Usage"
+  },
+  {
+    "fileName": "SENSOR_DIRECT_LS_PD_7_IR_CI_ZB-0x1189-0x00F9-0x026E8000-MF_DIS-DOWM_DIS-20251212102214-3224010153640-lzma-encrypted.ota",
+    "fileVersion": 40796160,
+    "fileSize": 349106,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=249&version=2.110.128.0",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/LEDVANCE/SENSOR_DIRECT_LS_PD_7_IR_CI_ZB-0x1189-0x00F9-0x026E8000-MF_DIS-DOWM_DIS-20251212102214-3224010153640-lzma-encrypted.ota",
+    "imageType": 249,
+    "manufacturerCode": 4489,
+    "sha512": "060e5821eb46b9fb3483750ec9243efab1d808c7bf30041f03a2bf1ac3eec77040a50bc355624cc77a65735fc7614840247466db0f27a6c784e6690a3320dfd5",
+    "otaHeaderString": "SENSOR_DIRECT_LS_PD_7_IR_CI_ZB",
+    "releaseNotes": "1.Fix bug LUM doesn't stay off in case of power cut and then power recovery.\r\n2.New solution for occupancy control to replace 90s sensor mute.\r\n3.Support both MCU V2.7 and MCU V2.8.\r\n4.Sync the platform modification to Sensor."
+  },
+  {
+    "fileName": "STRIP_CONTROL_DIRECT_TW_RGB-0x1189-0x00FA-0x01428000-MF_DIS-DOWM_DIS-20260129044906-3224010153640-lzma-encrypted.ota",
+    "fileVersion": 21135360,
+    "fileSize": 378814,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=250&version=1.66.128.0",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/LEDVANCE/STRIP_CONTROL_DIRECT_TW_RGB-0x1189-0x00FA-0x01428000-MF_DIS-DOWM_DIS-20260129044906-3224010153640-lzma-encrypted.ota",
+    "imageType": 250,
+    "manufacturerCode": 4489,
+    "sha512": "aadb90a51ea1a7fbad23bdf1ca5c1c5e23fe0bf1c21167c05da5621cb6d1f393db9cc5a21ad1ad7eb8f21502a5f0ccc8bd19ac3aeab7ff97e490609fd9c034d9",
+    "otaHeaderString": "STRIP_CONTROL_DIRECT_TW_RGB",
+    "releaseNotes": "1.Refine OnOff response with transition time.\r\n2.Modify min level in logarithm curve.\r\n3.Sync multi endpoints to same level when rapidly toggling in App.\r\n4.Fix off effect on Endpoint 2.\r\n5.Support Biolux dimming curve.\r\n6.Sync the platform modification."
+  },
+  {
+    "fileName": "DR_ZBD_NFC_P_30W_220_240V_0A7-0x1189-0x00FD-0x02728000-MF_DIS-DOWM_DIS-20251222133901-3224010153640-lzma-encrypted.ota",
+    "fileVersion": 41058304,
+    "fileSize": 372118,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=253&version=2.114.128.0",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/LEDVANCE/DR_ZBD_NFC_P_30W_220_240V_0A7-0x1189-0x00FD-0x02728000-MF_DIS-DOWM_DIS-20251222133901-3224010153640-lzma-encrypted.ota",
+    "imageType": 253,
+    "manufacturerCode": 4489,
+    "sha512": "d6026dfd30c182d3b564527e735ff6a7962b595cb5522ddde3d04cdf27c4fc9c714522049d5435c760dbd8c18ffec443aa39be81c2c7f1a6e88fc8d25561268d",
+    "otaHeaderString": "DR_ZBD_NFC_P_30W_220_240V_0A7",
+    "releaseNotes": "1. Refine responding to OnOff command with transition time. \r\n2. Modify min level 1% in logarithm dimming curve.\r\n3. Fix bug ZBD-1063. New solution for occupancy control to replacing 90s sensor mute.\r\n4. Sync the platform modification to Sensor."
+  },
+  {
+    "fileName": "DR_ZBD_NFC_P_45W_220_240V_1A2-0x1189-0x00FE-0x02728000-MF_DIS-DOWM_DIS-20251222134435-3224010153640-lzma-encrypted.ota",
+    "fileVersion": 41058304,
+    "fileSize": 372126,
+    "originalUrl": "https://api.update.ledvance.com/v1/zigbee/firmwares/download?company=4489&product=254&version=2.114.128.0",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/LEDVANCE/DR_ZBD_NFC_P_45W_220_240V_1A2-0x1189-0x00FE-0x02728000-MF_DIS-DOWM_DIS-20251222134435-3224010153640-lzma-encrypted.ota",
+    "imageType": 254,
+    "manufacturerCode": 4489,
+    "sha512": "cc630f84746aa851c94bd322936dcefe369f70e6a9b4b6d01c47477446f3b8d36f32f2e33813929a8b5695d1821c6c3edd97ed788fdc6ee49d7aa7f81a920b6d",
+    "otaHeaderString": "DR_ZBD_NFC_P_45W_220_240V_1A2",
+    "releaseNotes": "1. Refine responding to OnOff command with transition time. \r\n2. Modify min level 1% in logarithm dimming curve.\r\n3. Fix bug ZBD-1063. New solution for occupancy control to replacing 90s sensor mute.\r\n4. Sync the platform modification to Sensor."
+  },
+  {
+    "fileName": "Door_Sensor_PROD_OTA_V68_1.00.68.ota",
+    "fileVersion": 68,
+    "fileSize": 150098,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/Door_Sensor_PROD_OTA_V68_1.00.68.ota",
+    "imageType": 54178,
+    "manufacturerCode": 4659,
+    "sha512": "493bcbc65ad49d378d9e1cb84e769c58edd4c7278677c6023c506d7c103f37332a30277fbfd7e81466507dcb593e10f0cbc1717486f44b566bf17770c6209cd3",
+    "otaHeaderString": "Telink OTA Sample Usage"
+  },
+  {
+    "fileName": "Water_Leak_Sensor_V2_OTA_V17_v1.00.17.ota",
+    "fileVersion": 17,
+    "fileSize": 261534,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/Water_Leak_Sensor_V2_OTA_V17_v1.00.17.ota",
+    "imageType": 54210,
+    "manufacturerCode": 5127,
+    "sha512": "f47a8048a35d8ebf1c12abf0ce8d60ee408db4153ccea046045132de254c18ee68b6be79589f32615073ab5f9a9148f5cefb0b8e4feebf8d9099832293f1d31d",
+    "otaHeaderString": "temp_humi_sensor"
+  },
+  {
+    "fileName": "128b-0022-000B_nodon_sem_4_1_00_V010015.ota",
+    "fileVersion": 15,
+    "fileSize": 219812,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/NodOn/128b-0022-000B_nodon_sem_4_1_00_V010015.ota",
+    "imageType": 34,
+    "manufacturerCode": 4747,
+    "sha512": "9fdef2e260af34f928a7b210f37a7bebdec02fe5774a4664a132053c30ee2e843efa09dea65824b79b6adbee1c210462c527f93b6ed20adc406dff4f3676a290",
+    "otaHeaderString": ""
   }
 ]

@@ -206,11 +206,12 @@ export function hasManufacturerImage(list: RepoImageMeta[], image: RepoImageMeta
     return list.some(
         (i) =>
             path.posix.dirname(i.url) === imageBasePath &&
-            (i.sha512 === image.sha512 ||
+            ((i.sha512 === image.sha512 && !(i.modelId && image.modelId && i.modelId !== image.modelId)) ||
                 (i.fileVersion === image.fileVersion &&
                     i.imageType === image.imageType &&
                     i.manufacturerCode === image.manufacturerCode &&
-                    (!i.manufacturerName || extraManufacturerName?.some((v) => i.manufacturerName!.includes(v))))),
+                    (!i.manufacturerName || extraManufacturerName?.some((v) => i.manufacturerName!.includes(v))) &&
+                    ((!i.modelId && !image.modelId) || (i.modelId && image.modelId && i.modelId === image.modelId)))),
     );
 }
 
