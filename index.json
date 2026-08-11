@@ -10286,5 +10286,15 @@
     "sha512": "7463f5508b83fdece71c2bc30922b6476360cd512cda9e2dd51b796fbfe3f995940b2328887a224fec504ddc23631157933c2434b0d225471974cbfe510aa9de",
     "otaHeaderString": "",
     "releaseNotes": "Version: 13.0"
+  },
+  {
+    "fileName": "SN-TLSR8656-09P-01-v1.1.2.ota",
+    "fileVersion": 4354,
+    "fileSize": 110096,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/SN-TLSR8656-09P-01-v1.1.2.ota",
+    "imageType": 2069,
+    "manufacturerCode": 4742,
+    "sha512": "4c57888c0261085c384e7c165ae673b7328086e702033f4737ca704837a683f9a9237b91466d32d449cc8a3ed0afa1f0837d53755809b8ab45d684dffb5c186b",
+    "otaHeaderString": "Telink OTA Sample Usage"
   }
 ]
