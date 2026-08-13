@@ -10307,5 +10307,16 @@
     "sha512": "0187e2e2a420c56d8350457b6c0fd4f55ec93ec7b4fb66427d9b01c387dcf76a26e585632b1d6dca746532c6b06e6235b3eca757ae4fc8d99eca8b7bcb534ce2",
     "otaHeaderString": "FIRMWARE",
     "releaseNotes": "- Added support for Imperial gallons.\n- Fixed several RTC and battery reporting issues.\n- Improved Bluetooth connection reliability by automatically disconnecting after prolonged inactivity."
+  },
+  {
+    "fileName": "SN-TLSR8258-SWV2C-01-v1.0.9.ota",
+    "fileVersion": 4105,
+    "fileSize": 181584,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/SN-TLSR8258-SWV2C-01-v1.0.9.ota",
+    "imageType": 8460,
+    "manufacturerCode": 4742,
+    "sha512": "50ee6704e698ba258708f6477b4132a36bcddf7f9265ec4dfb27f5729bc89cae7eeaea1984e389fdd1ae636ad8c5b1ba8036694ce4fe1d39c80fa95ea522d52e",
+    "otaHeaderString": "FIRMWARE",
+    "releaseNotes": "- Added support for Imperial gallons.\n- Fixed several RTC and battery reporting issues.\n- Improved Bluetooth connection reliability by automatically disconnecting after prolonged inactivity."
   }
 ]
