@@ -10296,5 +10296,16 @@
     "manufacturerCode": 4742,
     "sha512": "4c57888c0261085c384e7c165ae673b7328086e702033f4737ca704837a683f9a9237b91466d32d449cc8a3ed0afa1f0837d53755809b8ab45d684dffb5c186b",
     "otaHeaderString": "Telink OTA Sample Usage"
+  },
+  {
+    "fileName": "SN-TLSR8656-SWV1C-01-v1.1.0.ota",
+    "fileVersion": 4352,
+    "fileSize": 180496,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/SN-TLSR8656-SWV1C-01-v1.1.0.ota",
+    "imageType": 8204,
+    "manufacturerCode": 4742,
+    "sha512": "0187e2e2a420c56d8350457b6c0fd4f55ec93ec7b4fb66427d9b01c387dcf76a26e585632b1d6dca746532c6b06e6235b3eca757ae4fc8d99eca8b7bcb534ce2",
+    "otaHeaderString": "FIRMWARE",
+    "releaseNotes": "- Added support for Imperial gallons.\n- Fixed several RTC and battery reporting issues.\n- Improved Bluetooth connection reliability by automatically disconnecting after prolonged inactivity."
   }
 ]
