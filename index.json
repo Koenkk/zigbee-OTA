@@ -6715,17 +6715,6 @@
     "modelId": "lumi.light.acn032"
   },
   {
-    "fileName": "20250827143703_lumi.sensor_occupy.agl1_0.0.0_0029_20250804_33D437.ota",
-    "fileVersion": 29,
-    "fileSize": 302938,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20250827143703_lumi.sensor_occupy.agl1_0.0.0_0029_20250804_33D437.ota",
-    "imageType": 8347,
-    "manufacturerCode": 4447,
-    "sha512": "4d57be7074089a2f2014f6d066da101da55267156a46f2ed0e90ef9c2db25471e99123ad12fd945769671e47d76d3d416d252a21c450ca0449caa0b8a8221fba",
-    "otaHeaderString": "\u0014OTA_lumi.motion.ac01",
-    "modelId": "lumi.sensor_occupy.agl1"
-  },
-  {
     "fileName": "ct-clamp-ota-lzma-TEST-v1_1_4.ota",
     "fileVersion": 65796,
     "fileSize": 160470,
@@ -10307,5 +10296,18 @@
     "otaHeaderString": "ubisys D1-R 2.7.1",
     "hardwareVersionMin": 0,
     "hardwareVersionMax": 4
+  },
+  {
+    "fileName": "20260722181319_OTA_lumi.sensor_occupy.agl1_0.0.0_0035_20260722_953106.ota",
+    "fileVersion": 35,
+    "fileSize": 305610,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.sensor_occupy.agl1/20260722181319_OTA_lumi.sensor_occupy.agl1_0.0.0_0035_20260722_953106.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20260722181319_OTA_lumi.sensor_occupy.agl1_0.0.0_0035_20260722_953106.ota",
+    "imageType": 8347,
+    "manufacturerCode": 4447,
+    "sha512": "f124a6ba1a0f7cac6f5ba33036a92d34f4dfe7e84ef537f3649c422718a6c79194acfe1502b90c71493914afa3f9b55023e59ec013c70ed246fe032ea2c524fb",
+    "otaHeaderString": "\u0014OTA_lumi.motion.ac01",
+    "modelId": "lumi.sensor_occupy.agl1",
+    "releaseNotes": "Bug Fixes"
   }
 ]

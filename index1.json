@@ -3838,5 +3838,16 @@
     "otaHeaderString": "ubisys D1-R 2.6.0",
     "hardwareVersionMin": 0,
     "hardwareVersionMax": 4
+  },
+  {
+    "fileName": "20250827143703_lumi.sensor_occupy.agl1_0.0.0_0029_20250804_33D437.ota",
+    "fileVersion": 29,
+    "fileSize": 302938,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Lumi/20250827143703_lumi.sensor_occupy.agl1_0.0.0_0029_20250804_33D437.ota",
+    "imageType": 8347,
+    "manufacturerCode": 4447,
+    "sha512": "4d57be7074089a2f2014f6d066da101da55267156a46f2ed0e90ef9c2db25471e99123ad12fd945769671e47d76d3d416d252a21c450ca0449caa0b8a8221fba",
+    "otaHeaderString": "\u0014OTA_lumi.motion.ac01",
+    "modelId": "lumi.sensor_occupy.agl1"
   }
 ]
