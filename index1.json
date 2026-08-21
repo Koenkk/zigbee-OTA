@@ -3849,5 +3849,17 @@
     "sha512": "4d57be7074089a2f2014f6d066da101da55267156a46f2ed0e90ef9c2db25471e99123ad12fd945769671e47d76d3d416d252a21c450ca0449caa0b8a8221fba",
     "otaHeaderString": "\u0014OTA_lumi.motion.ac01",
     "modelId": "lumi.sensor_occupy.agl1"
+  },
+  {
+    "fileName": "20230217145452_OTA_lumi.light.acn006_0.0.0_0039_20230216_216801.ota",
+    "fileVersion": 39,
+    "fileSize": 385152,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.light.acn006/20230217145452_OTA_lumi.light.acn006_0.0.0_0039_20230216_216801.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Lumi/20230217145452_OTA_lumi.light.acn006_0.0.0_0039_20230216_216801.ota",
+    "imageType": 132,
+    "manufacturerCode": 4447,
+    "sha512": "cf84026e63fdb9cce7886a4b209e059f76eb0426e5b26fe2c6bb02150e2527144b1287dc1496153038a217aa7957577df2dde02772839f6670aeb7f7d5962626",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.light.acn006"
   }
 ]
