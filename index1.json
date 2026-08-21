@@ -1151,32 +1151,6 @@
     "otaHeaderString": "Telink OTA Sample Usage"
   },
   {
-    "fileName": "10F2-7B2C-0000-0001-0150044D-ld6.ota.zigbee",
-    "fileVersion": 22021197,
-    "fileSize": 239358,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Ubisys/10F2-7B2C-0000-0001-0150044D-ld6.ota.zigbee",
-    "imageType": 31532,
-    "manufacturerCode": 4338,
-    "sha512": "6545ebd2a0a8ce5cdcf39a2146d2ac9f648632c889ba82b2adf2d285c4a83f42ec8ce1abd215466f7d5692738e66d1f9753572b541fd8e4c7f18ede723cbd041",
-    "otaHeaderString": "ubisys LD6 1.5.0",
-    "originalUrl": "http://fwu.ubisys.de/smarthome/OTA/release/10F2-7B2C-0000-0001-0150044D-ld6.ota.zigbee",
-    "hardwareVersionMax": 1,
-    "hardwareVersionMin": 0
-  },
-  {
-    "fileName": "10F2-7B31-0000-0006-02500447-spo-fmd.ota.zigbee",
-    "fileVersion": 38798407,
-    "fileSize": 152574,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Ubisys/10F2-7B31-0000-0006-02500447-spo-fmd.ota.zigbee",
-    "imageType": 31537,
-    "manufacturerCode": 4338,
-    "sha512": "9d8be9b4d07a5f46f0183179d552f73bc2d97aeab37dc01007d76783efeb593b3c0bd8945166bb0ebc5468fb9f91907650dbd1bf3f7f5baaa96c0cd078d9a79c",
-    "otaHeaderString": "ubisys D1 2.5.0",
-    "originalUrl": "http://fwu.ubisys.de/smarthome/OTA/release/10F2-7B31-0000-0006-02500447-spo-fmd.ota.zigbee",
-    "hardwareVersionMax": 6,
-    "hardwareVersionMin": 0
-  },
-  {
     "fileName": "10F2-7B32-0000-0001-02500447-spo-fms-rev0-1.ota.zigbee",
     "fileVersion": 38798407,
     "fileSize": 149758,
@@ -1264,19 +1238,6 @@
     "sha512": "b553db5f1cc27a6830e04b1d4f4fee2fd8c4477d9dbe44404e38ab563b5134b183555f04258306843578262ac75e136fa37f98cc1dea1b1fcebe473df8d886ca",
     "otaHeaderString": "ubisys J1-R 2.5.0",
     "originalUrl": "http://fwu.ubisys.de/smarthome/OTA/release/10F2-7B37-0000-0004-02500447-spo-rmsh.ota.zigbee",
-    "hardwareVersionMax": 4,
-    "hardwareVersionMin": 0
-  },
-  {
-    "fileName": "10F2-7B38-0000-0004-02500447-spo-rmd.ota.zigbee",
-    "fileVersion": 38798407,
-    "fileSize": 152574,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Ubisys/10F2-7B38-0000-0004-02500447-spo-rmd.ota.zigbee",
-    "imageType": 31544,
-    "manufacturerCode": 4338,
-    "sha512": "02ed2e254494a9242b2f132df1e87396cfcddb3fa15fe3f8960a70ccc57417355ff184abf9af13455d07f7b3c91d2afe94ef1ec26961a916d270f5f3c8712bbb",
-    "otaHeaderString": "ubisys D1-R 2.5.0",
-    "originalUrl": "http://fwu.ubisys.de/smarthome/OTA/release/10F2-7B38-0000-0004-02500447-spo-rmd.ota.zigbee",
     "hardwareVersionMax": 4,
     "hardwareVersionMin": 0
   },
@@ -3838,5 +3799,55 @@
     "manufacturerCode": 4107,
     "sha512": "fd32c44d86bf09e9f1b3566b3905c0c36f5c4c10f5748cdff4e92efbd02bb983959a162b12686a537de41d6c4d67bcedad3826f64898246ff004bafe8d6833c5",
     "otaHeaderString": ""
+  },
+  {
+    "fileName": "10F2-7B2C-0000-0001-01600461-ld6.ota.zigbee",
+    "fileVersion": 23069793,
+    "fileSize": 239870,
+    "originalUrl": "http://fwu.ubisys.de/smarthome/OTA/release/10F2-7B2C-0000-0001-01600461-ld6.ota.zigbee",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Ubisys/10F2-7B2C-0000-0001-01600461-ld6.ota.zigbee",
+    "imageType": 31532,
+    "manufacturerCode": 4338,
+    "sha512": "9586ae1a3b44d69293aa98c7fe326e91bb38fdf5287e0eb30aadef17e6575c6ac9d5075075adeb45095724f0f5e2410a447e6d6bec71a06c92d7f71c905f7b21",
+    "otaHeaderString": "ubisys LD6 1.6.0",
+    "hardwareVersionMin": 0,
+    "hardwareVersionMax": 1
+  },
+  {
+    "fileName": "10F2-7B31-0000-0006-02600460-spo-fmd.ota.zigbee",
+    "fileVersion": 39847008,
+    "fileSize": 153086,
+    "originalUrl": "http://fwu.ubisys.de/smarthome/OTA/release/10F2-7B31-0000-0006-02600460-spo-fmd.ota.zigbee",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Ubisys/10F2-7B31-0000-0006-02600460-spo-fmd.ota.zigbee",
+    "imageType": 31537,
+    "manufacturerCode": 4338,
+    "sha512": "07613f4b1fc618069b5bc7a41d93d08c20b51dd586a65559710ea3ce977f1825ed0f14eb7ae218f9ee6a31dc3478a7cc943d75fc4691b9b4f17d73a44200b4bc",
+    "otaHeaderString": "ubisys D1 2.6.0",
+    "hardwareVersionMin": 0,
+    "hardwareVersionMax": 6
+  },
+  {
+    "fileName": "10F2-7B38-0000-0004-02600460-spo-rmd.ota.zigbee",
+    "fileVersion": 39847008,
+    "fileSize": 153086,
+    "originalUrl": "http://fwu.ubisys.de/smarthome/OTA/release/10F2-7B38-0000-0004-02600460-spo-rmd.ota.zigbee",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Ubisys/10F2-7B38-0000-0004-02600460-spo-rmd.ota.zigbee",
+    "imageType": 31544,
+    "manufacturerCode": 4338,
+    "sha512": "334584f0986200600412c4f4111b8c5570bb471f961be8db0ec5e466fd63f8633258edd1bb9eb001030ae9020a8c93e5475e0ac5208ae8a9292a09530a6e96d1",
+    "otaHeaderString": "ubisys D1-R 2.6.0",
+    "hardwareVersionMin": 0,
+    "hardwareVersionMax": 4
+  },
+  {
+    "fileName": "20250827143703_lumi.sensor_occupy.agl1_0.0.0_0029_20250804_33D437.ota",
+    "fileVersion": 29,
+    "fileSize": 302938,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Lumi/20250827143703_lumi.sensor_occupy.agl1_0.0.0_0029_20250804_33D437.ota",
+    "imageType": 8347,
+    "manufacturerCode": 4447,
+    "sha512": "4d57be7074089a2f2014f6d066da101da55267156a46f2ed0e90ef9c2db25471e99123ad12fd945769671e47d76d3d416d252a21c450ca0449caa0b8a8221fba",
+    "otaHeaderString": "\u0014OTA_lumi.motion.ac01",
+    "modelId": "lumi.sensor_occupy.agl1"
   }
 ]
