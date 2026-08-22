@@ -3223,17 +3223,6 @@
     "modelId": "lumi.switch.b3l01"
   },
   {
-    "fileName": "lumi.switch.n0acn2_0.0.0_0039_20211230_6DCD12.ota",
-    "fileVersion": 39,
-    "fileSize": 287646,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/lumi.switch.n0acn2_0.0.0_0039_20211230_6DCD12.ota",
-    "imageType": 1409,
-    "manufacturerCode": 4447,
-    "sha512": "c830f68703a1556c619000b8b67c055676953d40ac32090f3ca4fa8abc7c30902614a2890dcd926b9e8d496be769e103ef32c40c9dbbc4caec15417d00465de6",
-    "otaHeaderString": "lumi.switch.n0acn2",
-    "modelId": "lumi.switch.n0acn2"
-  },
-  {
     "fileName": "lumi.zzjq_1.1.35_20180824_v35.20180824161828.ota",
     "fileVersion": 35,
     "fileSize": 176238,
@@ -10310,5 +10299,18 @@
     "otaHeaderString": "Aqara OTA Image",
     "modelId": "lumi.light.acn006",
     "releaseNotes": "Bugs fixed."
+  },
+  {
+    "fileName": "20260804193102_lumi.switch.n0acn2_0.0.0_0047_20260721_623D54.ota",
+    "fileVersion": 47,
+    "fileSize": 288166,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.switch.n0acn2/20260804193102_lumi.switch.n0acn2_0.0.0_0047_20260721_623D54.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20260804193102_lumi.switch.n0acn2_0.0.0_0047_20260721_623D54.ota",
+    "imageType": 1409,
+    "manufacturerCode": 4447,
+    "sha512": "e6170a915fc96e94b6ea67c527d100cd050e11993a535d505f1b88c9d6330fa629ac4d82fabcda328f657690d9c35300f793ecdb0bc567692da686c92cc539af",
+    "otaHeaderString": "lumi.switch.n0acn2",
+    "modelId": "lumi.switch.n0acn2",
+    "releaseNotes": "1.Fix known bugs"
   }
 ]
