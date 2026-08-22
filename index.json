@@ -10008,19 +10008,6 @@
     "modelId": "lumi.light.acn036"
   },
   {
-    "fileName": "20251124210151_lumi.bhf_light.acn001_0.0.7_0734_20251124_331AF1.ota",
-    "fileVersion": 460578,
-    "fileSize": 560210,
-    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.bhf_light.acn001/20251124210151_lumi.bhf_light.acn001_0.0.7_0734_20251124_331AF1.ota",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20251124210151_lumi.bhf_light.acn001_0.0.7_0734_20251124_331AF1.ota",
-    "imageType": 135,
-    "manufacturerCode": 4447,
-    "sha512": "aed2ef9ab1e3930567f4c48cb9cc4bb259c5bef781b220cc2131952dc42dd8654f2d9ee1139a87f2e274a5c94f1edff14ed3357029ddf6e127d1239b17659304",
-    "otaHeaderString": "Aqara OTA Image",
-    "modelId": "lumi.bhf_light.acn001",
-    "releaseNotes": "1. Fix known issues and optimize user experience"
-  },
-  {
     "fileName": "Door_Sensor_PROD_OTA_V69_1.00.69.ota",
     "fileVersion": 69,
     "fileSize": 148834,
@@ -10314,5 +10301,18 @@
     "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000",
     "modelId": "lumi.dimmer.rcbac1",
     "releaseNotes": "Fix known issues"
+  },
+  {
+    "fileName": "20260622120642_lumi.bhf_light.acn001_0.0.7_0735_20260604_91347C.ota",
+    "fileVersion": 460579,
+    "fileSize": 467938,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.bhf_light.acn001/20260622120642_lumi.bhf_light.acn001_0.0.7_0735_20260604_91347C.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20260622120642_lumi.bhf_light.acn001_0.0.7_0735_20260604_91347C.ota",
+    "imageType": 135,
+    "manufacturerCode": 4447,
+    "sha512": "7ee2adb344b0fe11b18231ec5c6c2193d0acb29eb63ada0299423fd126850401bb58fe32d6b9e7a5c563fed881e148422714e97e4c75e5ff9eeae6036171fbde",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.bhf_light.acn001",
+    "releaseNotes": "1. Fix known issues and optimize user experience"
   }
 ]
