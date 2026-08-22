@@ -3872,5 +3872,16 @@
     "sha512": "c830f68703a1556c619000b8b67c055676953d40ac32090f3ca4fa8abc7c30902614a2890dcd926b9e8d496be769e103ef32c40c9dbbc4caec15417d00465de6",
     "otaHeaderString": "lumi.switch.n0acn2",
     "modelId": "lumi.switch.n0acn2"
+  },
+  {
+    "fileName": "20240119171828_OTA_lumi.dimmer.rcbac1_0.0.0_0034_20240119_C8C27C.ota",
+    "fileVersion": 34,
+    "fileSize": 326270,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Lumi/20240119171828_OTA_lumi.dimmer.rcbac1_0.0.0_0034_20240119_C8C27C.ota",
+    "imageType": 6024,
+    "manufacturerCode": 4447,
+    "sha512": "ec8b02bda1c6c6ff53dcdb3d8e4cf7754aef2000335635c236cf88772dff11975a13d19e40c19206bc4d0ff8153c41bd16538b2929c6b8b748c9640b1b0dd239",
+    "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000",
+    "modelId": "lumi.dimmer.rcbac1"
   }
 ]

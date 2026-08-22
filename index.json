@@ -2656,17 +2656,6 @@
     "modelId": "lumi.switch.n0agl1"
   },
   {
-    "fileName": "20240119171828_OTA_lumi.dimmer.rcbac1_0.0.0_0034_20240119_C8C27C.ota",
-    "fileVersion": 34,
-    "fileSize": 326270,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20240119171828_OTA_lumi.dimmer.rcbac1_0.0.0_0034_20240119_C8C27C.ota",
-    "imageType": 6024,
-    "manufacturerCode": 4447,
-    "sha512": "ec8b02bda1c6c6ff53dcdb3d8e4cf7754aef2000335635c236cf88772dff11975a13d19e40c19206bc4d0ff8153c41bd16538b2929c6b8b748c9640b1b0dd239",
-    "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000",
-    "modelId": "lumi.dimmer.rcbac1"
-  },
-  {
     "fileName": "20240204163658_OTA_lumi.switch.acn055_0.0.0_0034_20240204_80D522.ota",
     "fileVersion": 34,
     "fileSize": 579494,
@@ -10312,5 +10301,18 @@
     "otaHeaderString": "lumi.switch.n0acn2",
     "modelId": "lumi.switch.n0acn2",
     "releaseNotes": "1.Fix known bugs"
+  },
+  {
+    "fileName": "20240815153023_OTA_lumi.dimmer.rcbac1_0.0.0_0037_20240815_811774.ota",
+    "fileVersion": 37,
+    "fileSize": 325102,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.dimmer.rcbac1/20240815153023_OTA_lumi.dimmer.rcbac1_0.0.0_0037_20240815_811774.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20240815153023_OTA_lumi.dimmer.rcbac1_0.0.0_0037_20240815_811774.ota",
+    "imageType": 6024,
+    "manufacturerCode": 4447,
+    "sha512": "2d3b5ef6f00c644153ce6b480dd9658ea0f9ac81e42e60e54b35b72a952981ea5eb32cb6cf7a7e4ef417262fa67fa4b54ac52648d16807feeaa01aefd5d664fd",
+    "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000",
+    "modelId": "lumi.dimmer.rcbac1",
+    "releaseNotes": "Fix known issues"
   }
 ]
