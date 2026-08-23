@@ -1440,12 +1440,6 @@
     "zigbeeStackVersion": "ZigbeePro"
   },
   {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20240119171828_OTA_lumi.dimmer.rcbac1_0.0.0_0034_20240119_C8C27C.ota",
-    "stack": "Unknown",
-    "stackDetails": "",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20240204163658_OTA_lumi.switch.acn055_0.0.0_0034_20240204_80D522.ota",
     "stack": "EmberZNet",
     "stackDetails": "GBL",
@@ -1743,12 +1737,6 @@
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/lumi.switch.b3l01_0.0.0_0033_20200414.ota",
     "stack": "Unknown",
     "stackDetails": "",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/lumi.switch.n0acn2_0.0.0_0039_20211230_6DCD12.ota",
-    "stack": "EmberZNet",
-    "stackDetails": "GBL",
     "zigbeeStackVersion": "ZigbeePro"
   },
   {
@@ -3552,12 +3540,6 @@
     "zigbeeStackVersion": "ZigbeePro"
   },
   {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20250827143703_lumi.sensor_occupy.agl1_0.0.0_0029_20250804_33D437.ota",
-    "stack": "Unknown",
-    "stackDetails": "",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Chameleon/ct-clamp-ota-lzma-TEST-v1_1_4.ota",
     "stack": "EmberZNet",
     "stackDetails": "GBL",
@@ -4884,12 +4866,6 @@
     "zigbeeStackVersion": "ZigbeePro"
   },
   {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20230217145452_OTA_lumi.light.acn006_0.0.0_0039_20230216_216801.ota",
-    "stack": "EmberZNet",
-    "stackDetails": "GBL",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20231222195103_lumi.light.acn023_0.0.0_0041_20231220_20F906.ota",
     "stack": "EmberZNet",
     "stackDetails": "GBL",
@@ -5250,12 +5226,6 @@
     "zigbeeStackVersion": "ZigbeePro"
   },
   {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20251124210151_lumi.bhf_light.acn001_0.0.7_0734_20251124_331AF1.ota",
-    "stack": "EmberZNet",
-    "stackDetails": "GBL",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Door_Sensor_PROD_OTA_V69_1.00.69.ota",
     "stack": "Telink",
     "stackDetails": "",
@@ -5371,6 +5341,42 @@
   },
   {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Ubisys/10F2-7B38-0000-0004-02710470-spo-rmd.ota.zigbee",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20260722181319_OTA_lumi.sensor_occupy.agl1_0.0.0_0035_20260722_953106.ota",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20231223115405_OTA_lumi.light.acn006_0.0.0_0040_20231222_83F4BE.ota",
+    "stack": "EmberZNet",
+    "stackDetails": "GBL",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20260804193102_lumi.switch.n0acn2_0.0.0_0047_20260721_623D54.ota",
+    "stack": "EmberZNet",
+    "stackDetails": "GBL",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20240815153023_OTA_lumi.dimmer.rcbac1_0.0.0_0037_20240815_811774.ota",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20260622120642_lumi.bhf_light.acn001_0.0.7_0735_20260604_91347C.ota",
+    "stack": "EmberZNet",
+    "stackDetails": "GBL",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/SN-TLSR8656-SWV1C-01-v1.1.0.ota",
     "stack": "Unknown",
     "stackDetails": "",
     "zigbeeStackVersion": "ZigbeePro"
