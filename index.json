@@ -10326,5 +10326,16 @@
     "otaHeaderString": "FIRMWARE",
     "modelId": "SWV-ZFE",
     "releaseNotes": "- Added support for Imperial gallons.\n- Fixed several RTC and battery reporting issues.\n- Improved Bluetooth connection reliability by automatically disconnecting after prolonged inactivity."
+  },
+  {
+    "fileName": "snzb-06p24_v1.0.4.ota",
+    "fileVersion": 4100,
+    "fileSize": 244304,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/snzb-06p24_v1.0.4.ota",
+    "imageType": 2066,
+    "manufacturerCode": 4742,
+    "sha512": "82d5f79965a501a2e67a052c39a5bbdd934596bfc76d820dfffd3f33af07016777226ee655a22a7edc4ce11d9ea07df8a97f23a9fb49db26a0df3601926a7d40",
+    "otaHeaderString": "FIRMWARE",
+    "releaseNotes": "Optimized sensitivity adjustment logic and refined the mapping between sensitivity levels and trigger thresholds for an improved detection experience.\n\nOptimized the spatial learning algorithm to reduce false triggers.\n\nChanged the default detection interval from 1 minute to 2 minutes."
   }
 ]
