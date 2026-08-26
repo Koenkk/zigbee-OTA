@@ -9444,16 +9444,6 @@
     "otaHeaderString": "thirdreality"
   },
   {
-    "fileName": "FWPLUG_MINIZB1GP_ELECTRICAL_EFR32MG21_v1.1.2.ota",
-    "fileVersion": 4354,
-    "fileSize": 323774,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/FWPLUG_MINIZB1GP_ELECTRICAL_EFR32MG21_v1.1.2.ota",
-    "imageType": 71,
-    "manufacturerCode": 4742,
-    "sha512": "aa17174b8bd95fd02575c3e9c5cbb57163cd917e0cc05244d6840ebe45b8bf0f211a795e2946a18b717667d46061196051a6ed9915df17db098481cf30497fd3",
-    "otaHeaderString": "EBL FWPLUG_MINIZB1GSP_ELECTRICAL"
-  },
-  {
     "fileName": "bl702_plug_gen3_usa_1.00.56.ota",
     "fileVersion": 56,
     "fileSize": 282386,
@@ -10365,5 +10355,16 @@
       "Hobeian"
     ],
     "modelId": "ZG-223Z-z"
+  },
+  {
+    "fileName": "SN-MG21-MINIZB1GP-01_v1.2.7.ota",
+    "fileVersion": 4615,
+    "fileSize": 329266,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/SN-MG21-MINIZB1GP-01_v1.2.7.ota",
+    "imageType": 71,
+    "manufacturerCode": 4742,
+    "sha512": "142ac26bf02fc6baa3f9abb29c3e3af90b91900f5dcac6b88047af81139d36694f0c8ad85523fc91e0402c9704217943628f5556b7a9e7a7de5d00412b86d3c8",
+    "otaHeaderString": "ota-file-test",
+    "releaseNotes": "1. Changed the Zigbee device ID to 0x0053.\n2. Optimized data storage to improve data reliability."
   }
 ]
