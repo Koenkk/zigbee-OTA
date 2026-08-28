@@ -10366,5 +10366,15 @@
     "sha512": "142ac26bf02fc6baa3f9abb29c3e3af90b91900f5dcac6b88047af81139d36694f0c8ad85523fc91e0402c9704217943628f5556b7a9e7a7de5d00412b86d3c8",
     "otaHeaderString": "ota-file-test",
     "releaseNotes": "1. Changed the Zigbee device ID to 0x0053.\n2. Optimized data storage to improve data reliability."
+  },
+  {
+    "fileName": "scale_v1.00.09.ota",
+    "fileVersion": 9,
+    "fileSize": 136182,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/scale_v1.00.09.ota",
+    "imageType": 54225,
+    "manufacturerCode": 5127,
+    "sha512": "8c056b1fa0c5ac514acbb9df9e73fb003af2f08e7457eee0430d5ac4378cab559248068c2a6857d07f8627b2dd8163f88d9dd108260bd638b76fd2127762b4dd",
+    "otaHeaderString": "temp_humi_sensor"
   }
 ]
