@@ -9954,6 +9954,42 @@
     "releaseNotes": "- Added support for Imperial gallons.\n- Fixed several RTC and battery reporting issues.\n- Improved Bluetooth connection reliability by automatically disconnecting after prolonged inactivity."
   },
   {
+    "fileName": "SN-TLSR8656-SWV1C-01-v1.1.0.ota",
+    "fileVersion": 4352,
+    "fileSize": 180496,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/SN-TLSR8656-SWV1C-01-v1.1.0.ota",
+    "imageType": 8204,
+    "manufacturerCode": 4742,
+    "sha512": "0187e2e2a420c56d8350457b6c0fd4f55ec93ec7b4fb66427d9b01c387dcf76a26e585632b1d6dca746532c6b06e6235b3eca757ae4fc8d99eca8b7bcb534ce2",
+    "otaHeaderString": "FIRMWARE",
+    "modelId": "SWV-ZFU",
+    "releaseNotes": "- Added support for Imperial gallons.\n- Fixed several RTC and battery reporting issues.\n- Improved Bluetooth connection reliability by automatically disconnecting after prolonged inactivity."
+  },
+  {
+    "fileName": "SN-TLSR8656-SWV1C-01-v1.1.0.ota",
+    "fileVersion": 4352,
+    "fileSize": 180496,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/SN-TLSR8656-SWV1C-01-v1.1.0.ota",
+    "imageType": 8204,
+    "manufacturerCode": 4742,
+    "sha512": "0187e2e2a420c56d8350457b6c0fd4f55ec93ec7b4fb66427d9b01c387dcf76a26e585632b1d6dca746532c6b06e6235b3eca757ae4fc8d99eca8b7bcb534ce2",
+    "otaHeaderString": "FIRMWARE",
+    "modelId": "SWV-ZNE",
+    "releaseNotes": "- Added support for Imperial gallons.\n- Fixed several RTC and battery reporting issues.\n- Improved Bluetooth connection reliability by automatically disconnecting after prolonged inactivity."
+  },
+  {
+    "fileName": "SN-TLSR8656-SWV1C-01-v1.1.0.ota",
+    "fileVersion": 4352,
+    "fileSize": 180496,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/SN-TLSR8656-SWV1C-01-v1.1.0.ota",
+    "imageType": 8204,
+    "manufacturerCode": 4742,
+    "sha512": "0187e2e2a420c56d8350457b6c0fd4f55ec93ec7b4fb66427d9b01c387dcf76a26e585632b1d6dca746532c6b06e6235b3eca757ae4fc8d99eca8b7bcb534ce2",
+    "otaHeaderString": "FIRMWARE",
+    "modelId": "SWV-ZNU",
+    "releaseNotes": "- Added support for Imperial gallons.\n- Fixed several RTC and battery reporting issues.\n- Improved Bluetooth connection reliability by automatically disconnecting after prolonged inactivity."
+  },
+  {
     "fileName": "snzb-06p24_v1.0.4.ota",
     "fileVersion": 4100,
     "fileSize": 244304,
