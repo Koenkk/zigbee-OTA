@@ -1557,16 +1557,6 @@
     "otaHeaderString": "RTH2_230"
   },
   {
-    "fileName": "0x1209_0x3011_0x03076a30.ota",
-    "fileVersion": 50817584,
-    "fileSize": 264354,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Bosch/0x1209_0x3011_0x03076a30.ota",
-    "imageType": 12305,
-    "manufacturerCode": 4617,
-    "sha512": "63f232232252af0fbb3c4cc2efe2ce2564101405de4923238c71ccef2e66e6abef022deee45399a886af4019dfce64fdea969ff60f5b4b854e222b5ffcf7bcc2",
-    "otaHeaderString": "RTH2_230"
-  },
-  {
     "fileName": "DIM-A60_DIM_T-0x00CD-0x03203660.OTA",
     "fileVersion": 52442720,
     "fileSize": 188384,
@@ -3909,5 +3899,16 @@
     "manufacturerCode": 4742,
     "sha512": "aa17174b8bd95fd02575c3e9c5cbb57163cd917e0cc05244d6840ebe45b8bf0f211a795e2946a18b717667d46061196051a6ed9915df17db098481cf30497fd3",
     "otaHeaderString": "EBL FWPLUG_MINIZB1GSP_ELECTRICAL"
+  },
+  {
+    "fileName": "ota_t0x3011_m0x1209_v0x03086a90.ota",
+    "fileVersion": 50883216,
+    "fileSize": 279314,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Bosch/ota_t0x3011_m0x1209_v0x03086a90.ota",
+    "imageType": 12305,
+    "manufacturerCode": 4617,
+    "sha512": "c36b0e5ea3119f89e6d34d09e294b27c999d401221bb336dcbdbf52445f6ed4e8290428135be83393e17b9f78e4539402cd026d61e7ee5f815ade69b3f05761b",
+    "otaHeaderString": "RTH2_230",
+    "releaseNotes": "New bootloader and support for connection to a central heating system"
   }
 ]
