@@ -28,6 +28,8 @@ const CACHE_FILENAME = `${NAME}_new`;
 const LOG_PREFIX = `[${NAME}_new]`;
 // requires cacerts/ikea_new.pem
 const FIRMWARE_URL = "https://fw.ota.homesmart.ikea.com/check/update/prod";
+// new link - currently same contents as above
+// const FIRMWARE_URL = "https://fw.ota.homesmart.ikea.com/DIRIGERA/version_info.json";
 
 function findInCache(image: DeviceImageJson, cachedData?: ImagesJson): DeviceImageJson | undefined {
     // `fw_type` compare ensures always `DeviceImagesJson`
