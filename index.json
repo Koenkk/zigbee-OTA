@@ -10423,5 +10423,25 @@
     "sha512": "a85f87b87ff388f9f0fe34ffb1e1419fb05c4d8864a44f9657ffd6ca565358f43ec96222fcaf4f26dcd9fb1e09ddde23773e924ce15caa548b0eec5ce0d0bf19",
     "otaHeaderString": "FIRMWARE",
     "releaseNotes": "Home Assistant and eWeLink ecosystem gateways now support two remote temperature and humidity data sources.\n\nFixed several known issues to improve system stability."
+  },
+  {
+    "fileName": "6565-021d-10163001-qs_zigbee_sec02_zrd.zigbee",
+    "fileVersion": 269889537,
+    "fileSize": 210866,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-021d-10163001-qs_zigbee_sec02_zrd.zigbee",
+    "imageType": 541,
+    "manufacturerCode": 25957,
+    "sha512": "cee1e74719b7ebd6086f45a89e8ac7d24741ea93a425251ad0a8c8789566b4d2684a1a1e1e1440b751c145050c6391877359d0190a11058fbc4d979e1b8df6fc",
+    "otaHeaderString": "Slacky-DIY OTA"
+  },
+  {
+    "fileName": "6565-021e-10113001-qs_zigbee_sec01_zrd.zigbee",
+    "fileVersion": 269561857,
+    "fileSize": 207826,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-021e-10113001-qs_zigbee_sec01_zrd.zigbee",
+    "imageType": 542,
+    "manufacturerCode": 25957,
+    "sha512": "9bcb87e6b4fc6f2ef0e046eed1d2f96e315691524aef6585aae0eae634763971c0095c1f797e6b8f111836e49b06ed26cc97c69441d0221748bfdd0e38927bd4",
+    "otaHeaderString": "Slacky-DIY OTA"
   }
 ]
