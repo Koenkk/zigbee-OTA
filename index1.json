@@ -3214,16 +3214,6 @@
     "modelId": "3RSP02064Z"
   },
   {
-    "fileName": "SN-TLSR8656-S60-01-v2.0.2.ota",
-    "fileVersion": 8194,
-    "fileSize": 147232,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Sonoff/SN-TLSR8656-S60-01-v2.0.2.ota",
-    "imageType": 11,
-    "manufacturerCode": 4742,
-    "sha512": "dfddb274c4d549f0ea0e155592191e19409ef7368072e9bf0f9af4889e23cd3dfeeee849cdfbfc4afcb595301b391e9d66ccef49985f02bc90a8043b4f34989a",
-    "otaHeaderString": "Telink OTA Sample Usage"
-  },
-  {
     "fileName": "SENSOR_DIRECT_LS_PD_7_IR_CI_ZB-0x1189-0x00F9-0x026E8000-MF_DIS-DOWM_DIS-20251212102214-3224010153640-lzma-encrypted.ota",
     "fileVersion": 40796160,
     "fileSize": 349106,
@@ -3922,5 +3912,15 @@
     "manufacturerCode": 4742,
     "sha512": "1aab2e361c65211f5db43ad8eb8781a8375953222f8e5fdae3716c3b07c5383b6a0ae88994fa48b1c71f1b53b2b5d6e9ac0f5a3f342506af2d778e5ed2e7073f",
     "otaHeaderString": "FIRMWARE"
+  },
+  {
+    "fileName": "SN-TLSR8656-S60-01-v2.0.3.ota",
+    "fileVersion": 8195,
+    "fileSize": 147808,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Sonoff/SN-TLSR8656-S60-01-v2.0.3.ota",
+    "imageType": 11,
+    "manufacturerCode": 4742,
+    "sha512": "dae1245594b9ba392c8acd0bcfaba682d22fa24c08147539cec5435856c0f26556b5e14f6ea983e8fd0f4b35c3f6ff5aca34e9f2598b6ba596b411cff6534c82",
+    "otaHeaderString": "Telink OTA Sample Usage"
   }
 ]

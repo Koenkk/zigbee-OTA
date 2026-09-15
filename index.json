@@ -9423,16 +9423,6 @@
     "modelId": "3RSP02064Z"
   },
   {
-    "fileName": "SN-TLSR8656-S60-01-v2.0.3.ota",
-    "fileVersion": 8195,
-    "fileSize": 147808,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/SN-TLSR8656-S60-01-v2.0.3.ota",
-    "imageType": 11,
-    "manufacturerCode": 4742,
-    "sha512": "dae1245594b9ba392c8acd0bcfaba682d22fa24c08147539cec5435856c0f26556b5e14f6ea983e8fd0f4b35c3f6ff5aca34e9f2598b6ba596b411cff6534c82",
-    "otaHeaderString": "Telink OTA Sample Usage"
-  },
-  {
     "fileName": "TUBE_T8_600_6_8W_830ZBVR_G3-0x1189-0x00E8-0x013B8000-MF_DIS-DOWM_DIS-20260709051649-3224010153640-lzma-encrypted.ota",
     "fileVersion": 20676608,
     "fileSize": 368806,
@@ -10443,5 +10433,15 @@
     "manufacturerCode": 25957,
     "sha512": "9bcb87e6b4fc6f2ef0e046eed1d2f96e315691524aef6585aae0eae634763971c0095c1f797e6b8f111836e49b06ed26cc97c69441d0221748bfdd0e38927bd4",
     "otaHeaderString": "Slacky-DIY OTA"
+  },
+  {
+    "fileName": "SN-TLSR8656-S60-01-v2.1.3.ota",
+    "fileVersion": 8451,
+    "fileSize": 148864,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/SN-TLSR8656-S60-01-v2.1.3.ota",
+    "imageType": 11,
+    "manufacturerCode": 4742,
+    "sha512": "d9ad45ad7641fdf7e01f7ea6487c3174a8314345045026b6f20e43b567b8e9799ce11232c59c19fc62c232f4f181475365fe9f623d83c65303566108e9c9c807",
+    "otaHeaderString": "Telink OTA Sample Usage"
   }
 ]
