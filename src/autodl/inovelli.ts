@@ -1,5 +1,5 @@
 import {getJson, getLatestImage, readCacheJson, writeCacheJson} from "../common.js";
-import {processFirmwareImage} from "../process_firmware_image.js";
+import {ProcessFirmwareImageStatus, processFirmwareImage} from "../process_firmware_image.js";
 
 type DeviceImageJson = {
     version: string;
@@ -11,10 +11,27 @@ type DeviceImageJson = {
 type ModelsJson = {
     [k: string]: DeviceImageJson[];
 };
+type GitHubTreeEntryJson = {
+    path: string;
+    sha: string;
+    type: "blob" | "commit" | "tree";
+};
+type GitHubTreeJson = {
+    tree: GitHubTreeEntryJson[];
+    truncated: boolean;
+};
+type GitHubFirmwareFile = {
+    path: string;
+    sha: string;
+};
 
 const NAME = "Inovelli";
 const LOG_PREFIX = `[${NAME}]`;
-const FIRMWARE_URL = "https://files.inovelli.com/firmware/firmware.json";
+const LEGACY_FIRMWARE_URL = "https://files.inovelli.com/firmware/firmware.json";
+const GITHUB_FIRMWARE_TREE_URL = "https://api.github.com/repos/InovelliUSA/Firmware/git/trees/main?recursive=1";
+const GITHUB_RAW_FIRMWARE_URL = "https://raw.githubusercontent.com/InovelliUSA/Firmware/main/";
+const GITHUB_ZIGBEE_PATH_PREFIX = "Blue-Series/Zigbee/";
+const GITHUB_CACHE_NAME = `${NAME}GitHub`;
 
 function sortByVersion(a: DeviceImageJson, b: DeviceImageJson): number {
     const aRadix = a.version.match(/[a-fA-F]/) ? 16 : 10;
@@ -29,16 +46,55 @@ function isDifferent(newData: DeviceImageJson, cachedData?: DeviceImageJson): bo
     return Boolean(process.env.IGNORE_CACHE) || !cachedData || cachedData.version !== newData.version;
 }
 
+export function getGitHubFirmwareFiles(githubTree: GitHubTreeJson): GitHubFirmwareFile[] {
+    if (githubTree.truncated) {
+        throw new Error(`${LOG_PREFIX} GitHub firmware tree is truncated.`);
+    }
+
+    return githubTree.tree
+        .filter((entry) => entry.type === "blob" && entry.path.startsWith(GITHUB_ZIGBEE_PATH_PREFIX) && entry.path.toLowerCase().endsWith(".ota"))
+        .map(({path, sha}) => ({path, sha}))
+        .sort((a, b) => a.path.localeCompare(b.path));
+}
+
+export function getChangedGitHubFirmwareFiles(
+    githubFiles: GitHubFirmwareFile[],
+    cachedFiles: GitHubFirmwareFile[] = [],
+    ignoreCache = Boolean(process.env.IGNORE_CACHE),
+): GitHubFirmwareFile[] {
+    if (ignoreCache) {
+        return githubFiles;
+    }
+
+    const cachedFilesByPath = new Map(cachedFiles.map((file) => [file.path, file.sha]));
+
+    return githubFiles.filter((file) => cachedFilesByPath.get(file.path) !== file.sha);
+}
+
+export function getGitHubFirmwareUrl(filePath: string): string {
+    return GITHUB_RAW_FIRMWARE_URL + filePath.split("/").map(encodeURIComponent).join("/");
+}
+
 export async function writeCache(): Promise<void> {
-    const models = await getJson<ModelsJson>(NAME, FIRMWARE_URL);
+    const [models, githubTree] = await Promise.all([
+        getJson<ModelsJson>(NAME, LEGACY_FIRMWARE_URL),
+        getJson<GitHubTreeJson>(NAME, GITHUB_FIRMWARE_TREE_URL),
+    ]);
 
     if (models) {
         writeCacheJson(NAME, models);
     }
+
+    if (githubTree) {
+        writeCacheJson(GITHUB_CACHE_NAME, getGitHubFirmwareFiles(githubTree));
+    }
 }
 
 export async function download(): Promise<void> {
-    const models = await getJson<ModelsJson>(NAME, FIRMWARE_URL);
+    const [models, githubTree] = await Promise.all([
+        getJson<ModelsJson>(NAME, LEGACY_FIRMWARE_URL),
+        getJson<GitHubTreeJson>(NAME, GITHUB_FIRMWARE_TREE_URL),
+    ]);
 
     if (models) {
         const cachedData = readCacheJson<ModelsJson>(NAME);
@@ -67,6 +123,31 @@ export async function download(): Promise<void> {
 
         writeCacheJson(NAME, models);
     } else {
-        console.error(`${LOG_PREFIX} No image data.`);
+        console.error(`${LOG_PREFIX} No legacy image data.`);
+    }
+
+    if (githubTree) {
+        const githubFiles = getGitHubFirmwareFiles(githubTree);
+        const cachedFiles = readCacheJson<GitHubFirmwareFile[]>(GITHUB_CACHE_NAME);
+        const changedFiles = getChangedGitHubFirmwareFiles(githubFiles, cachedFiles);
+        const processedFiles = new Map(cachedFiles?.map((file) => [file.path, file]));
+
+        for (const file of changedFiles) {
+            const firmwareFileName = file.path.split("/").pop()!;
+            const status = await processFirmwareImage(NAME, firmwareFileName, getGitHubFirmwareUrl(file.path));
+
+            if (status === ProcessFirmwareImageStatus.Success) {
+                processedFiles.set(file.path, file);
+            } else {
+                processedFiles.delete(file.path);
+            }
+        }
+
+        writeCacheJson(
+            GITHUB_CACHE_NAME,
+            githubFiles.filter((file) => processedFiles.get(file.path)?.sha === file.sha),
+        );
+    } else {
+        console.error(`${LOG_PREFIX} No GitHub image data.`);
     }
 }
