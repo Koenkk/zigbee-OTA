@@ -8285,21 +8285,6 @@
     "otaHeaderString": "Icon2 system package"
   },
   {
-    "fileName": "freezbee-v0.1.5.ota",
-    "fileVersion": 261,
-    "fileSize": 251022,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Netica/freezbee-v0.1.5.ota",
-    "imageType": 0,
-    "manufacturerCode": 65535,
-    "sha512": "2d3bf5a83b395c3202bceaa5000f3e3439f599fbcce12c1a51458fe4b29ae16160fa93f2687a5d0c25d7f12e10cdc3b350302b8ce8a878299912f308036259cc",
-    "otaHeaderString": "FRZ1",
-    "manufacturerName": [
-      "Netica"
-    ],
-    "modelId": "FRZ1",
-    "releaseNotes": "FreezBee v0.1.5 : détection chauffage et autonomie améliorées"
-  },
-  {
     "fileName": "Radar_60G(v1.00.40).ota",
     "fileVersion": 40,
     "fileSize": 352526,
@@ -10644,5 +10629,20 @@
     "manufacturerCode": 4655,
     "sha512": "a703bfa8f78e91d53f1f7962e9373e22da700b6089e7ca9dc83d1b9ecfc5863e474f9b08f2c3d02edda1c332353426e2b04a26303150dd44de92e256a3db499e",
     "otaHeaderString": "EBL VM_SWITCH"
+  },
+  {
+    "fileName": "freezbee-v0.1.6.ota",
+    "fileVersion": 262,
+    "fileSize": 251022,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Netica/freezbee-v0.1.6.ota",
+    "imageType": 0,
+    "manufacturerCode": 65535,
+    "sha512": "bb60901b1fb58d9dda90d4abc216e9d82a2ee38854c4313923e0547733ac31b88b7c9b826fd35addb82067d0dd92920622995107ba8eea43d1f9864ef01ebcac",
+    "otaHeaderString": "FRZ1",
+    "manufacturerName": [
+      "Netica"
+    ],
+    "modelId": "FRZ1",
+    "releaseNotes": "FreezBee v0.1.6 : améliorations mineures de performance et de stabilité"
   }
 ]
