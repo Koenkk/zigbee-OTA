@@ -10202,7 +10202,8 @@
     "imageType": 11,
     "manufacturerCode": 4742,
     "sha512": "d9ad45ad7641fdf7e01f7ea6487c3174a8314345045026b6f20e43b567b8e9799ce11232c59c19fc62c232f4f181475365fe9f623d83c65303566108e9c9c807",
-    "otaHeaderString": "Telink OTA Sample Usage"
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "releaseNotes": "1.Fixed several known issues.\n\n2.Fix measurement precision issues"
   },
   {
     "fileName": "SN-TLSR8258-TRV-01-v1.1.0.ota",
