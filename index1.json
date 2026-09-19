@@ -3824,66 +3824,6 @@
     "otaHeaderString": "Telink OTA Sample Usage"
   },
   {
-    "fileName": "1166-0331-191d3685-sp240-1.9.29.ota",
-    "fileVersion": 421344901,
-    "fileSize": 285058,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Innr/1166-0331-191d3685-sp240-1.9.29.ota",
-    "imageType": 817,
-    "manufacturerCode": 4454,
-    "sha512": "041ac46c276770f7179aed8222a52813d50d981776208fa4fa76bf432f0fa73dc8a09aabfe61894aa734f18fdc997a6842aaee7ab6a4d3554914a42e3fcdca00",
-    "otaHeaderString": "Telink OTA Sample Usage"
-  },
-  {
-    "fileName": "1166-0332-191d3685-sp242-1.9.29.ota",
-    "fileVersion": 421344901,
-    "fileSize": 285058,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Innr/1166-0332-191d3685-sp242-1.9.29.ota",
-    "imageType": 818,
-    "manufacturerCode": 4454,
-    "sha512": "d3f1728a8b6e70501b21414cb0bbbd17934a56a64d2249500db36e29821a3b5f0551b42c63abbe837426cf657d25fa497585cf86ba6f41209ce40a56cadb9319",
-    "otaHeaderString": "Telink OTA Sample Usage"
-  },
-  {
-    "fileName": "1166-0333-191d3685-sp244-1.9.29.ota",
-    "fileVersion": 421344901,
-    "fileSize": 285058,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Innr/1166-0333-191d3685-sp244-1.9.29.ota",
-    "imageType": 819,
-    "manufacturerCode": 4454,
-    "sha512": "447f8b22c7c9ed1b2d0d4266c9d20087f62c73a5e1f677388747d6050044512f884266565097a9dcc37893345e5d39cf79b99a63ef036296174c8054f7f372e6",
-    "otaHeaderString": "Telink OTA Sample Usage"
-  },
-  {
-    "fileName": "1166-0334-191e3685-sp240v2-1.9.30.ota",
-    "fileVersion": 421410437,
-    "fileSize": 285042,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Innr/1166-0334-191e3685-sp240v2-1.9.30.ota",
-    "imageType": 820,
-    "manufacturerCode": 4454,
-    "sha512": "72e94cc57ae49c53e11e98bdd4a24dd08c640e19d3e31b059e1df458aea80b1cc95a8d4edff30ba6b4e173d8d5e70607a833533656e6475bfa51d7c9edb6bc7b",
-    "otaHeaderString": "Telink OTA Sample Usage"
-  },
-  {
-    "fileName": "1166-0335-191e3685-sp242v2-1.9.30.ota",
-    "fileVersion": 421410437,
-    "fileSize": 285042,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Innr/1166-0335-191e3685-sp242v2-1.9.30.ota",
-    "imageType": 821,
-    "manufacturerCode": 4454,
-    "sha512": "b85050cf4f8352967966df3c65cb550fbaac54b4cd987fc8a0ca176acf42f30b38a0fcfe3b28562d670e630191247d2095b732a2230596feb5c7e8c9599a5044",
-    "otaHeaderString": "Telink OTA Sample Usage"
-  },
-  {
-    "fileName": "1166-0336-191e3685-sp244v2-1.9.30.ota",
-    "fileVersion": 421410437,
-    "fileSize": 285042,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Innr/1166-0336-191e3685-sp244v2-1.9.30.ota",
-    "imageType": 822,
-    "manufacturerCode": 4454,
-    "sha512": "857d8d4b4b179f92120072d8084d1f2b5b3e20a94fca6cf76ccc6afbbc8ba8f9e091a30144ab35e6edc6984fb45427289aaf8def4838a065b98cf9728716109d",
-    "otaHeaderString": "Telink OTA Sample Usage"
-  },
-  {
     "fileName": "1166-0401-19223685-ae262-1.9.34.ota",
     "fileVersion": 421672581,
     "fileSize": 280290,
@@ -3977,5 +3917,75 @@
     ],
     "modelId": "FRZ1",
     "releaseNotes": "FreezBee v0.1.5 : détection chauffage et autonomie améliorées"
+  },
+  {
+    "fileName": "1166-0331-19373685-sp240-1.9.55.ota",
+    "fileVersion": 423048837,
+    "fileSize": 284722,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Innr/1166-0331-19373685-sp240-1.9.55.ota",
+    "imageType": 817,
+    "manufacturerCode": 4454,
+    "sha512": "fe80aa24ffcc3f150b73b9956ba36e28720f7fd5a0e9904d3c831719d9f4d2423f5e378d9ce227b422da77ca798b55ac75498eaec17ae54ab36a1598fd63fc8e",
+    "otaHeaderString": "Telink OTA Sample Usage"
+  },
+  {
+    "fileName": "1166-0332-19373685-sp242-1.9.55.ota",
+    "fileVersion": 423048837,
+    "fileSize": 284722,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Innr/1166-0332-19373685-sp242-1.9.55.ota",
+    "imageType": 818,
+    "manufacturerCode": 4454,
+    "sha512": "dbad4c85e37a1883e93515dd6e9c33368fb86c1ed630784559c44493fb9d5b2881473469aab35be2848122587b8aec9cfe3b1db05d790a572319d8c10e446dbe",
+    "otaHeaderString": "Telink OTA Sample Usage"
+  },
+  {
+    "fileName": "1166-0333-19373685-sp244-1.9.55.ota",
+    "fileVersion": 423048837,
+    "fileSize": 284706,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Innr/1166-0333-19373685-sp244-1.9.55.ota",
+    "imageType": 819,
+    "manufacturerCode": 4454,
+    "sha512": "85529a4550ace16403489f07f2eaaec6fdcfda5255d6431a7e8715b943fe8ec73f9df3a2101025dde054c99b9d3e9453a14b3fc591cf125fe22b8df49cb96047",
+    "otaHeaderString": "Telink OTA Sample Usage"
+  },
+  {
+    "fileName": "1166-0334-19383685-sp240v2-1.9.56.ota",
+    "fileVersion": 423114373,
+    "fileSize": 284722,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Innr/1166-0334-19383685-sp240v2-1.9.56.ota",
+    "imageType": 820,
+    "manufacturerCode": 4454,
+    "sha512": "6c7ce394ed66388b19bea94254f1cd8ef9a3fc262fe7ab30ec23d39b296b5f69494baf9aabb9c5ac5e6628bd4da1f29ecfefde3f97fe0d3368a6e1dec7757129",
+    "otaHeaderString": "Telink OTA Sample Usage"
+  },
+  {
+    "fileName": "1166-0335-19383685-sp242v2-1.9.56.ota",
+    "fileVersion": 423114373,
+    "fileSize": 284722,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Innr/1166-0335-19383685-sp242v2-1.9.56.ota",
+    "imageType": 821,
+    "manufacturerCode": 4454,
+    "sha512": "93b7f5fe063b0938735fa9dbeeb950cf214b00e6bf437ddda158254d7db7346c6d426fbe0e6d9564c572ad42fcb125d37c1c603d31ce7807f2fbb1263353cb1e",
+    "otaHeaderString": "Telink OTA Sample Usage"
+  },
+  {
+    "fileName": "1166-0336-19383685-sp244v2-1.9.56.ota",
+    "fileVersion": 423114373,
+    "fileSize": 284706,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Innr/1166-0336-19383685-sp244v2-1.9.56.ota",
+    "imageType": 822,
+    "manufacturerCode": 4454,
+    "sha512": "9b93e8ea5c3ef23182e2126f172fc6afe7568ebcf0e59f7ecbe7ad7014e85155ad1a4c1b9a804eb2d3c138051c0b4c745966f57f6d5f8ea5a637d151ee6a4173",
+    "otaHeaderString": "Telink OTA Sample Usage"
+  },
+  {
+    "fileName": "1166-0337-19383685-osp240-1.9.56.ota",
+    "fileVersion": 423114373,
+    "fileSize": 284722,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Innr/1166-0337-19383685-osp240-1.9.56.ota",
+    "imageType": 823,
+    "manufacturerCode": 4454,
+    "sha512": "fd8281b4106889735455d74f06ce359038a440fa6d2af6adb7c795fd31d0c45617a76c9cb83e81f0eef032632f5d31ace49dfdd1a983ae2a74500b00b5d8df73",
+    "otaHeaderString": "Telink OTA Sample Usage"
   }
 ]
