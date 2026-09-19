@@ -7663,6 +7663,17 @@
     "releaseNotes": "1. Improve low-level dimming smoothness\r\n2. Add 500ms transition time to make the switch from RGB to CCT smoother\r\n3. Keep Lum level synced during rapid on off control\r\n4. Replace 90s sensor mute with new occupancy control\r\n5. Sync platform code changes"
   },
   {
+    "fileName": "VZM31-SN_3.04.ota",
+    "fileVersion": 16909060,
+    "fileSize": 319866,
+    "originalUrl": "https://files.inovelli.com/firmware/VZM31-SN/Production/3.04/VZM31-SN_3.04.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Inovelli/VZM31-SN_3.04.ota",
+    "imageType": 257,
+    "manufacturerCode": 4655,
+    "sha512": "95aac7aacb41c9437c9b372bade31c7a1201180c21083cd0ef588ecb9be9208d4d97593528f6ebbe1039d850ee6702eb3f1835488363b30b1a694ac19bf92ae2",
+    "otaHeaderString": "EBL VM_SWITCH"
+  },
+  {
     "fileName": "MCU_SELECT_TW_RGB-0x1189-0x00F7-0x013E8000-MF_DIS-DOWM_DIS-20251222101431-3224010153640-lzma-encrypted.ota",
     "fileVersion": 20873216,
     "fileSize": 356682,
@@ -10619,17 +10630,6 @@
     "manufacturerCode": 4454,
     "sha512": "569bb00886f82e7934daf7414fadeede7310c24381b514e02cdc1d478c56bb411d1921e9f9bb0679f77893ae296a33a5bf2f03a619dcc41181d6a2560f1d4738",
     "otaHeaderString": "Telink OTA Sample Usage"
-  },
-  {
-    "fileName": "VZM31-SN_ota_V307_20260326.ota",
-    "fileVersion": 16909063,
-    "fileSize": 322574,
-    "originalUrl": "https://raw.githubusercontent.com/InovelliUSA/Firmware/main/Blue-Series/Zigbee/VZM31-SN-2-1-Switch/Beta/3.07/VZM31-SN_ota_V307_20260326.ota",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Inovelli/VZM31-SN_ota_V307_20260326.ota",
-    "imageType": 257,
-    "manufacturerCode": 4655,
-    "sha512": "a703bfa8f78e91d53f1f7962e9373e22da700b6089e7ca9dc83d1b9ecfc5863e474f9b08f2c3d02edda1c332353426e2b04a26303150dd44de92e256a3db499e",
-    "otaHeaderString": "EBL VM_SWITCH"
   },
   {
     "fileName": "freezbee-v0.1.6.ota",

@@ -2223,6 +2223,16 @@
     "releaseNotes": "1. Standard brightness of Dot-It @70%.\r\n2. Improve Dimming Curve."
   },
   {
+    "fileName": "VZM31-SN_2.18-Production.ota",
+    "fileVersion": 16908818,
+    "fileSize": 310258,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Inovelli/VZM31-SN_2.18-Production.ota",
+    "imageType": 257,
+    "manufacturerCode": 4655,
+    "sha512": "6d480a5d621a16bb3a57fcc1af09071fc528dab2a8f3e479620c3bd75ddfa9e8f624c32b1dc35d5c1bc8db0f67a70ee150ce3a516a2026f717076dcbeba23df7",
+    "otaHeaderString": "EBL VM_SWITCH"
+  },
+  {
     "fileName": "MCU_SELECT_TW_RGB-0x1189-0x00F7-0x01368000-MF_DIS-DOWM_DIS-20250731080530-3224010153640-lzma-encrypted.ota",
     "fileVersion": 20348928,
     "fileSize": 359342,
@@ -2707,6 +2717,17 @@
     "manufacturerCode": 5127,
     "sha512": "54ff734daccbe523e08cfd9566a882db6eee040928bc0ad11072d65e59cddc315b52fb0fcefda83233d4165d350c453f4a4ac6dc895afea60a9ebed8b83b208c",
     "otaHeaderString": "Telink OTA Sample Usage"
+  },
+  {
+    "fileName": "VZM32-SN_0.10.ota",
+    "fileVersion": 16973834,
+    "fileSize": 227210,
+    "originalUrl": "https://files.inovelli.com/firmware/VZM32-SN/Beta/0.10/VZM32-SN_0.10.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Inovelli/VZM32-SN_0.10.ota",
+    "imageType": 259,
+    "manufacturerCode": 4655,
+    "sha512": "a766719e1f13893adb17ce8aec13d198ce8371a0bb740203515524f972305e8f7cd2b4904b1a50bae9664b44f87d7132305a3348fd0e4481049439a71c19bf89",
+    "otaHeaderString": "vzm32-sn_mmWave"
   },
   {
     "fileName": "20230704151031_OTA_lumi.curtain.vagl02_V41_20230703_563B.ota",
@@ -3941,28 +3962,6 @@
     "manufacturerCode": 4454,
     "sha512": "128de267c5c3ab0a1cff90ba0e19e8641674c27fde6c131bdd175eb86df5e2a07df60b610f974690d211350a79e08ca40f01e6dfbf6202548f03b9a933ec882f",
     "otaHeaderString": "Telink OTA Sample Usage"
-  },
-  {
-    "fileName": "VZM31-SN_3.04.ota",
-    "fileVersion": 16909060,
-    "fileSize": 319866,
-    "originalUrl": "https://files.inovelli.com/firmware/VZM31-SN/Production/3.04/VZM31-SN_3.04.ota",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Inovelli/VZM31-SN_3.04.ota",
-    "imageType": 257,
-    "manufacturerCode": 4655,
-    "sha512": "95aac7aacb41c9437c9b372bade31c7a1201180c21083cd0ef588ecb9be9208d4d97593528f6ebbe1039d850ee6702eb3f1835488363b30b1a694ac19bf92ae2",
-    "otaHeaderString": "EBL VM_SWITCH"
-  },
-  {
-    "fileName": "VZM32-SN_1.01.ota",
-    "fileVersion": 16974081,
-    "fileSize": 227402,
-    "originalUrl": "https://raw.githubusercontent.com/InovelliUSA/Firmware/main/Blue-Series/Zigbee/VZM32-SN-MMWave-Switch/Beta/1.01/VZM32-SN_1.01.ota",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Inovelli/VZM32-SN_1.01.ota",
-    "imageType": 259,
-    "manufacturerCode": 4655,
-    "sha512": "569dd788b1e49c4e6678a5149ce0370c0003a9133a8860b8d957e9722abcf1e6c5df3f70fe7dcb3dee3dc30c2ecf28f100182f25a0a7adbacb4b711ed77ebe4c",
-    "otaHeaderString": "vzm32-sn_mmWave"
   },
   {
     "fileName": "freezbee-v0.1.5.ota",
