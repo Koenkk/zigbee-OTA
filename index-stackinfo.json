@@ -2664,42 +2664,6 @@
     "zigbeeStackVersion": "ZigbeePro"
   },
   {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-0331-191d3685-sp240-1.9.29.ota",
-    "stack": "Telink",
-    "stackDetails": "TLSR8258",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-0332-191d3685-sp242-1.9.29.ota",
-    "stack": "Telink",
-    "stackDetails": "TLSR8258",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-0333-191d3685-sp244-1.9.29.ota",
-    "stack": "Telink",
-    "stackDetails": "TLSR8258",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-0334-191e3685-sp240v2-1.9.30.ota",
-    "stack": "Telink",
-    "stackDetails": "TLSR8258",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-0335-191e3685-sp242v2-1.9.30.ota",
-    "stack": "Telink",
-    "stackDetails": "TLSR8258",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-0336-191e3685-sp244v2-1.9.30.ota",
-    "stack": "Telink",
-    "stackDetails": "TLSR8258",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Namron/Namron_4512750_v32_2025_02_14.ota",
     "stack": "EmberZNet",
     "stackDetails": "GBL",
@@ -2787,72 +2751,6 @@
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-0387-30043001-electricity_meter_zrd.zigbee",
     "stack": "Telink",
     "stackDetails": "",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-0109-19223685-rb262-1.9.34.ota",
-    "stack": "Telink",
-    "stackDetails": "TLSR8258",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-010a-19223685-rb267-1.9.34.ota",
-    "stack": "Telink",
-    "stackDetails": "TLSR8258",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-010b-19223685-rb243-1.9.34.ota",
-    "stack": "Telink",
-    "stackDetails": "TLSR8258",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-010d-19223685-rf262-1.9.34.ota",
-    "stack": "Telink",
-    "stackDetails": "TLSR8258",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-0209-19223685-bb262-1.9.34.ota",
-    "stack": "Telink",
-    "stackDetails": "TLSR8258",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-0401-19223685-ae262-1.9.34.ota",
-    "stack": "Telink",
-    "stackDetails": "TLSR8258",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-0402-19223685-ae264-1.9.34.ota",
-    "stack": "Telink",
-    "stackDetails": "TLSR8258",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-0500-19223685-rs240-1.9.34.ota",
-    "stack": "Telink",
-    "stackDetails": "TLSR8258",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-0730-19223685-rcl232c-1.9.34.ota",
-    "stack": "Telink",
-    "stackDetails": "TLSR8258",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-0809-19223685-ols210-1.9.34.ota",
-    "stack": "Telink",
-    "stackDetails": "TLSR8258",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-0902-19223685-rcl231t-1.9.34.ota",
-    "stack": "Telink",
-    "stackDetails": "TLSR8258",
     "zigbeeStackVersion": "ZigbeePro"
   },
   {
@@ -2961,48 +2859,6 @@
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Amina/prod_Amina_S_v1.34.1_b03896a_zigbee_ota_amina_encr.zigbee",
     "stack": "Unknown",
     "stackDetails": "",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-0132-19243685-rb272t-1.9.36.ota",
-    "stack": "Telink",
-    "stackDetails": "TLSR8258",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-0133-19243685-rb247t-1.9.36.ota",
-    "stack": "Telink",
-    "stackDetails": "TLSR8258",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-0134-19243685-rf273t-1.9.36.ota",
-    "stack": "Telink",
-    "stackDetails": "TLSR8258",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-0135-19243685-rf274t-1.9.36.ota",
-    "stack": "Telink",
-    "stackDetails": "TLSR8258",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-0136-19243685-rf271t-1.9.36.ota",
-    "stack": "Telink",
-    "stackDetails": "TLSR8258",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-0430-19243685-ae270t-1.9.36.ota",
-    "stack": "Telink",
-    "stackDetails": "TLSR8258",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-0530-19243685-rs241t-1.9.36.ota",
-    "stack": "Telink",
-    "stackDetails": "TLSR8258",
     "zigbeeStackVersion": "ZigbeePro"
   },
   {
@@ -4518,12 +4374,6 @@
     "zigbeeStackVersion": "ZigbeePro"
   },
   {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Netica/freezbee-v0.1.5.ota",
-    "stack": "EmberZNet",
-    "stackDetails": "GBL",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Radar_60G(v1.00.40).ota",
     "stack": "Unknown",
     "stackDetails": "",
@@ -4953,12 +4803,6 @@
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/bl702_plug_gen3_usa_1.00.56.ota",
     "stack": "Unknown",
     "stackDetails": "",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/SN-TLSR8656-S60-01-v2.0.3.ota",
-    "stack": "Telink",
-    "stackDetails": "(fallback matching)",
     "zigbeeStackVersion": "ZigbeePro"
   },
   {
@@ -5427,6 +5271,294 @@
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/SN-TLSR8656-02DR2-01-v1.0.5.ota",
     "stack": "Unknown",
     "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-021d-10163001-qs_zigbee_sec02_zrd.zigbee",
+    "stack": "Telink",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-021e-10113001-qs_zigbee_sec01_zrd.zigbee",
+    "stack": "Telink",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/SN-TLSR8656-S60-01-v2.1.3.ota",
+    "stack": "Telink",
+    "stackDetails": "(fallback matching)",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/SN-TLSR8258-TRV-01-v1.1.0.ota",
+    "stack": "Telink",
+    "stackDetails": "(fallback matching)",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-0109-19363685-rb262-1.9.54.ota",
+    "stack": "Telink",
+    "stackDetails": "TLSR8258",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-010a-19363685-rb267-1.9.54.ota",
+    "stack": "Telink",
+    "stackDetails": "TLSR8258",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-010b-19363685-rb243-1.9.54.ota",
+    "stack": "Telink",
+    "stackDetails": "TLSR8258",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-010d-19363685-rf262-1.9.54.ota",
+    "stack": "Telink",
+    "stackDetails": "TLSR8258",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-0132-19363685-rb272t-1.9.54.ota",
+    "stack": "Telink",
+    "stackDetails": "TLSR8258",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-0133-19363685-rb247t-1.9.54.ota",
+    "stack": "Telink",
+    "stackDetails": "TLSR8258",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-0134-19363685-rf273t-1.9.54.ota",
+    "stack": "Telink",
+    "stackDetails": "TLSR8258",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-0135-19363685-rf274t-1.9.54.ota",
+    "stack": "Telink",
+    "stackDetails": "TLSR8258",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-0136-19363685-rf271t-1.9.54.ota",
+    "stack": "Telink",
+    "stackDetails": "TLSR8258",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-0137-19363685-rb246t-1.9.54.ota",
+    "stack": "Telink",
+    "stackDetails": "TLSR8258",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-01b0-19403685-rb282c-1.9.64.ota",
+    "stack": "Telink",
+    "stackDetails": "TLSR8258",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-01b1-19403685-rb287c-1.9.64.ota",
+    "stack": "Telink",
+    "stackDetails": "TLSR8258",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-01b2-19363685-rb252c-1.9.54.ota",
+    "stack": "Telink",
+    "stackDetails": "TLSR8258",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-01b3-19363685-rb256c-1.9.54.ota",
+    "stack": "Telink",
+    "stackDetails": "TLSR8258",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-0209-19363685-bb262-1.9.54.ota",
+    "stack": "Telink",
+    "stackDetails": "TLSR8258",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-02b0-19403685-bb282c-1.9.64.ota",
+    "stack": "Telink",
+    "stackDetails": "TLSR8258",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-02b1-19403685-bb287c-1.9.64.ota",
+    "stack": "Telink",
+    "stackDetails": "TLSR8258",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-0401-19363685-ae262-1.9.54.ota",
+    "stack": "Telink",
+    "stackDetails": "TLSR8258",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-0402-19363685-ae264-1.9.54.ota",
+    "stack": "Telink",
+    "stackDetails": "TLSR8258",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-0430-19363685-ae270t-1.9.54.ota",
+    "stack": "Telink",
+    "stackDetails": "TLSR8258",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-04b0-19363685-ae282c-1.9.54.ota",
+    "stack": "Telink",
+    "stackDetails": "TLSR8258",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-04b1-19363685-ae287c-1.9.54.ota",
+    "stack": "Telink",
+    "stackDetails": "TLSR8258",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-0500-19363685-rs240-1.9.54.ota",
+    "stack": "Telink",
+    "stackDetails": "TLSR8258",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-0530-19363685-rs241t-1.9.54.ota",
+    "stack": "Telink",
+    "stackDetails": "TLSR8258",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-05b0-19363685-rs242c-1.9.54.ota",
+    "stack": "Telink",
+    "stackDetails": "TLSR8258",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-0716-19443685-fl230c-1.9.68.ota",
+    "stack": "Telink",
+    "stackDetails": "TLSR8258",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-0717-19443685-fl250c-1.9.68.ota",
+    "stack": "Telink",
+    "stackDetails": "TLSR8258",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-0718-19403685-osl232c-1.9.64.ota",
+    "stack": "Telink",
+    "stackDetails": "TLSR8258",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-0719-19443685-fl290c-1.9.68.ota",
+    "stack": "Telink",
+    "stackDetails": "TLSR8258",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-071a-19443685-ofl250c-1.9.68.ota",
+    "stack": "Telink",
+    "stackDetails": "TLSR8258",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-071b-19443685-ofl290c-1.9.68.ota",
+    "stack": "Telink",
+    "stackDetails": "TLSR8258",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-0730-19403685-rcl232c-1.9.64.ota",
+    "stack": "Telink",
+    "stackDetails": "TLSR8258",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-0731-19403685-rcl242c-1.9.64.ota",
+    "stack": "Telink",
+    "stackDetails": "TLSR8258",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-0809-19363685-ols210-1.9.54.ota",
+    "stack": "Telink",
+    "stackDetails": "TLSR8258",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-0902-19443685-rcl231t-1.9.68.ota",
+    "stack": "Telink",
+    "stackDetails": "TLSR8258",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-0903-193c3685-rcl241t-1.9.60.ota",
+    "stack": "Telink",
+    "stackDetails": "TLSR8258",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Netica/freezbee-v0.1.6.ota",
+    "stack": "EmberZNet",
+    "stackDetails": "GBL",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-0331-19433685-sp240-1.9.67.ota",
+    "stack": "Telink",
+    "stackDetails": "TLSR8258",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-0332-19433685-sp242-1.9.67.ota",
+    "stack": "Telink",
+    "stackDetails": "TLSR8258",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-0333-19433685-sp244-1.9.67.ota",
+    "stack": "Telink",
+    "stackDetails": "TLSR8258",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-0334-19443685-sp240v2-1.9.68.ota",
+    "stack": "Telink",
+    "stackDetails": "TLSR8258",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-0335-19443685-sp242v2-1.9.68.ota",
+    "stack": "Telink",
+    "stackDetails": "TLSR8258",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-0336-19443685-sp244v2-1.9.68.ota",
+    "stack": "Telink",
+    "stackDetails": "TLSR8258",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Innr/1166-0337-19443685-osp240-1.9.68.ota",
+    "stack": "Telink",
+    "stackDetails": "TLSR8258",
     "zigbeeStackVersion": "ZigbeePro"
   }
 ]
