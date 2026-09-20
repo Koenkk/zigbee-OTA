@@ -10645,5 +10645,16 @@
     "manufacturerCode": 4454,
     "sha512": "1ef5d25db7dbd5048f2cb991b6658e22b357ad3519e403365489c5d91da0005a6b1606dbc6940e2ece3c99a426bf16b91cbe7a480238a4d036ec4e70f8b8d01a",
     "otaHeaderString": "Telink OTA Sample Usage"
+  },
+  {
+    "fileName": "4512735-Firmware-35.ota",
+    "fileVersion": 7,
+    "fileSize": 268162,
+    "originalUrl": "https://www.elektroimportoren.no/docs/lib/4512735-Firmware-35.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Namron/4512735-Firmware-35.ota",
+    "imageType": 112,
+    "manufacturerCode": 4644,
+    "sha512": "fb4a8d37f9d819016ac21b3abc199d6134e769dc28b965aca842fd702f3eb1fa2125243ba47243f545486a224d8926ceaeef55a5da3a8c6ceea255eaa8fc893d",
+    "otaHeaderString": "4512735"
   }
 ]
