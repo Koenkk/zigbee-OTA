@@ -10658,5 +10658,18 @@
     "sha512": "e876eb49659649e45af931fcd747eb2ee2f257593fe8e58b36fdb4e6ff7b90791632b6b3d1fdbdc18b2b44406a48a324e3251285a59d7c2c29c25adbfa54a3ec",
     "otaHeaderString": "Telink OTA Sample Usage",
     "releaseNotes": "1.Expanded energy data storage to retain up to 6 months of hourly data, 12 months of daily data, and 12 months of monthly data.\n2.Added exported energy monitoring.\n3.Added the ability to delete historical energy data.\n4.Optimized energy data storage for improved reliability."
+  },
+  {
+    "fileName": "20260916093205_OTA_lumi.models.4447_8295_0.0.0_6060_20260915_8F0793.ota",
+    "fileVersion": 15420,
+    "fileSize": 2012458,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.models.4447_8295/20260916093205_OTA_lumi.models.4447_8295_0.0.0_6060_20260915_8F0793.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20260916093205_OTA_lumi.models.4447_8295_0.0.0_6060_20260915_8F0793.ota",
+    "imageType": 56992,
+    "manufacturerCode": 4447,
+    "sha512": "3f6c23a287ccf3a3f338d94a7de168eb87df2c47babea88ba69e7cbe309d0baaf38f2b0757000b40d393c6a89c241978f8542ca105ccbb8c1b3f36290064e228",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.models.4447_8295",
+    "releaseNotes": "1. Optimized radar algorithm to fix abnormal detection in corner, wall mounting, seated on bed, and chandelier scenarios, resolving coordinate jitter and packet loss issues 2. Added current count reporting (enabled by default) 3. Fixed known issues"
   }
 ]
