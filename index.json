@@ -8796,16 +8796,6 @@
     "modelId": "lumi.plug.aeu001"
   },
   {
-    "fileName": "SN-TLSR8656-BASICZB1GSP-01-v1.0.5.ota",
-    "fileVersion": 4101,
-    "fileSize": 154512,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/SN-TLSR8656-BASICZB1GSP-01-v1.0.5.ota",
-    "imageType": 73,
-    "manufacturerCode": 4742,
-    "sha512": "41d3a384612384ff0c9e4d4559f162b270973b8a983638b617b3a9a2ac9337dddc8cdd7ef51764e735794b0b715c5a8bac960c7ccc285152d5cc84dc4515f69d",
-    "otaHeaderString": "Telink OTA Sample Usage"
-  },
-  {
     "fileName": "20230825154523_OTA_lumi.remote.cagl02_0.0.0_0028_20230825_4A5A4A.ota",
     "fileVersion": 28,
     "fileSize": 266734,
@@ -10656,5 +10646,16 @@
     "manufacturerCode": 4644,
     "sha512": "fb4a8d37f9d819016ac21b3abc199d6134e769dc28b965aca842fd702f3eb1fa2125243ba47243f545486a224d8926ceaeef55a5da3a8c6ceea255eaa8fc893d",
     "otaHeaderString": "4512735"
+  },
+  {
+    "fileName": "SN-TLSR8656-BASICZB1GSP-01-v1.3.3.ota",
+    "fileVersion": 4867,
+    "fileSize": 177616,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/SN-TLSR8656-BASICZB1GSP-01-v1.3.3.ota",
+    "imageType": 73,
+    "manufacturerCode": 4742,
+    "sha512": "e876eb49659649e45af931fcd747eb2ee2f257593fe8e58b36fdb4e6ff7b90791632b6b3d1fdbdc18b2b44406a48a324e3251285a59d7c2c29c25adbfa54a3ec",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "releaseNotes": "1.Expanded energy data storage to retain up to 6 months of hourly data, 12 months of daily data, and 12 months of monthly data.\n2.Added exported energy monitoring.\n3.Added the ability to delete historical energy data.\n4.Optimized energy data storage for improved reliability."
   }
 ]

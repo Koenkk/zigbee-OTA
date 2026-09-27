@@ -3987,5 +3987,15 @@
     "manufacturerCode": 4454,
     "sha512": "fd8281b4106889735455d74f06ce359038a440fa6d2af6adb7c795fd31d0c45617a76c9cb83e81f0eef032632f5d31ace49dfdd1a983ae2a74500b00b5d8df73",
     "otaHeaderString": "Telink OTA Sample Usage"
+  },
+  {
+    "fileName": "SN-TLSR8656-BASICZB1GSP-01-v1.0.5.ota",
+    "fileVersion": 4101,
+    "fileSize": 154512,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Sonoff/SN-TLSR8656-BASICZB1GSP-01-v1.0.5.ota",
+    "imageType": 73,
+    "manufacturerCode": 4742,
+    "sha512": "41d3a384612384ff0c9e4d4559f162b270973b8a983638b617b3a9a2ac9337dddc8cdd7ef51764e735794b0b715c5a8bac960c7ccc285152d5cc84dc4515f69d",
+    "otaHeaderString": "Telink OTA Sample Usage"
   }
 ]
