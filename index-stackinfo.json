@@ -5560,5 +5560,11 @@
     "stack": "Telink",
     "stackDetails": "TLSR8258",
     "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Namron/4512735-Firmware-35.ota",
+    "stack": "EmberZNet",
+    "stackDetails": "GBL",
+    "zigbeeStackVersion": "ZigbeePro"
   }
 ]
