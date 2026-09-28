@@ -3002,18 +3002,6 @@
     "releaseNotes": "New heating algorithm (like that used on the non-matter radiator thermostat II since November 2024)"
   },
   {
-    "fileName": "702plug47_usa_h0xD3BD_b0xD3BD.ota",
-    "fileVersion": 47,
-    "fileSize": 281750,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/702plug47_usa_h0xD3BD_b0xD3BD.ota",
-    "imageType": 54205,
-    "manufacturerCode": 5127,
-    "sha512": "87f65bb17e35820179499ff4c74ac651a1af781bdfbbb3d048e7735c9a82cdcee2e52ce0190a3c183dc76d9fd9c3d63bdf1907711eb995bc3e376e52c56b184d",
-    "otaHeaderString": "thirdreality",
-    "minFileVersion": 40,
-    "modelId": "3RSP02064Z"
-  },
-  {
     "fileName": "SENSOR_DIRECT_LS_PD_7_IR_CI_ZB-0x1189-0x00F9-0x026E8000-MF_DIS-DOWM_DIS-20251212102214-3224010153640-lzma-encrypted.ota",
     "fileVersion": 40796160,
     "fileSize": 349106,
@@ -3997,5 +3985,17 @@
     "manufacturerCode": 4742,
     "sha512": "41d3a384612384ff0c9e4d4559f162b270973b8a983638b617b3a9a2ac9337dddc8cdd7ef51764e735794b0b715c5a8bac960c7ccc285152d5cc84dc4515f69d",
     "otaHeaderString": "Telink OTA Sample Usage"
+  },
+  {
+    "fileName": "bl702_plug_gen3_usa_1.00.56.ota",
+    "fileVersion": 56,
+    "fileSize": 282386,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/bl702_plug_gen3_usa_1.00.56.ota",
+    "imageType": 54205,
+    "manufacturerCode": 5127,
+    "sha512": "3a933d01a1deea94759cd72d0b5c91c809b8d43f930b29c66fcf075041f648928ae33ef207395b795050c1748b48d72537befe63c18761183a7e8b862d1773eb",
+    "otaHeaderString": "thirdreality",
+    "minFileVersion": 40,
+    "modelId": "3RSP02064Z"
   }
 ]

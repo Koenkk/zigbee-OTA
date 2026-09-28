@@ -9147,18 +9147,6 @@
     "otaHeaderString": "thirdreality"
   },
   {
-    "fileName": "bl702_plug_gen3_usa_1.00.56.ota",
-    "fileVersion": 56,
-    "fileSize": 282386,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/bl702_plug_gen3_usa_1.00.56.ota",
-    "imageType": 54205,
-    "manufacturerCode": 5127,
-    "sha512": "3a933d01a1deea94759cd72d0b5c91c809b8d43f930b29c66fcf075041f648928ae33ef207395b795050c1748b48d72537befe63c18761183a7e8b862d1773eb",
-    "otaHeaderString": "thirdreality",
-    "minFileVersion": 40,
-    "modelId": "3RSP02064Z"
-  },
-  {
     "fileName": "TUBE_T8_600_6_8W_830ZBVR_G3-0x1189-0x00E8-0x013B8000-MF_DIS-DOWM_DIS-20260709051649-3224010153640-lzma-encrypted.ota",
     "fileVersion": 20676608,
     "fileSize": 368806,
@@ -10671,5 +10659,17 @@
     "otaHeaderString": "Aqara OTA Image",
     "modelId": "lumi.models.4447_8295",
     "releaseNotes": "1. Optimized radar algorithm to fix abnormal detection in corner, wall mounting, seated on bed, and chandelier scenarios, resolving coordinate jitter and packet loss issues 2. Added current count reporting (enabled by default) 3. Fixed known issues"
+  },
+  {
+    "fileName": "bl702_plug_gen3_usa_1.00.63.ota",
+    "fileVersion": 63,
+    "fileSize": 285854,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/bl702_plug_gen3_usa_1.00.63.ota",
+    "imageType": 54205,
+    "manufacturerCode": 5127,
+    "sha512": "f53bf98c996a2acd373146c90c2a56d374aee95a84b9b8cda20ff4bd614a460e6c486d63d01431376b0c9a3a2697dafb065c99a30052030d3fb063caa82a7d6a",
+    "otaHeaderString": "thirdreality",
+    "minFileVersion": 40,
+    "modelId": "3RSP02064Z"
   }
 ]
