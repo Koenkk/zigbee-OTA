@@ -9486,16 +9486,6 @@
     "releaseNotes": "Version: 13.0"
   },
   {
-    "fileName": "SN-TLSR8656-09P-01-v1.1.2.ota",
-    "fileVersion": 4354,
-    "fileSize": 110096,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/SN-TLSR8656-09P-01-v1.1.2.ota",
-    "imageType": 2069,
-    "manufacturerCode": 4742,
-    "sha512": "4c57888c0261085c384e7c165ae673b7328086e702033f4737ca704837a683f9a9237b91466d32d449cc8a3ed0afa1f0837d53755809b8ab45d684dffb5c186b",
-    "otaHeaderString": "Telink OTA Sample Usage"
-  },
-  {
     "fileName": "SN-TLSR8258-SWV2C-01-v1.0.9.ota",
     "fileVersion": 4105,
     "fileSize": 181584,
@@ -10671,5 +10661,16 @@
     "otaHeaderString": "thirdreality",
     "minFileVersion": 40,
     "modelId": "3RSP02064Z"
+  },
+  {
+    "fileName": "SN-TLSR8656-09P-01-v1.2.0.ota",
+    "fileVersion": 4608,
+    "fileSize": 110592,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/SN-TLSR8656-09P-01-v1.2.0.ota",
+    "imageType": 2069,
+    "manufacturerCode": 4742,
+    "sha512": "4c5fceada857cf8e5062b9363d22a2752d41cfb92aede57f23ba5f3a28d0524f6badb556bc7f822b1134d208c19e8ea39cd57b2cf603641535cc067cba9c9c14",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "releaseNotes": "1. Added 5 new alert sounds, including doorbell and chime tones.\n2. Provides more sound options for different notification scenarios."
   }
 ]
