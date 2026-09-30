@@ -8417,32 +8417,6 @@
     "modelId": "SBDV-00205"
   },
   {
-    "fileName": "6565-021d-10113001-qs_zigbee_sec02_zrd.zigbee",
-    "fileVersion": 269561857,
-    "fileSize": 208578,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-021d-10113001-qs_zigbee_sec02_zrd.zigbee",
-    "imageType": 541,
-    "manufacturerCode": 25957,
-    "sha512": "4f70bae1c157e3dda5c8032afe2831dbd619cd46997e27a5382b0026734c358d2f7c6cd072d2296dc208ba9a8b78f468abf0c2db6b862a741de0c9841404465c",
-    "otaHeaderString": "Slacky-DIY OTA",
-    "manufacturerName": [
-      "Svetomaniya"
-    ]
-  },
-  {
-    "fileName": "6565-021e-10073001-qs_zigbee_sec01_zrd.zigbee",
-    "fileVersion": 268906497,
-    "fileSize": 206370,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-021e-10073001-qs_zigbee_sec01_zrd.zigbee",
-    "imageType": 542,
-    "manufacturerCode": 25957,
-    "sha512": "506c8762b240e1501f8ea09df97726bcf534a1a9456ae9e640f30619192d28b00b4b06e76957e44789af19f68b163bf4c7e2e6e43fe11868f2b2d48eb01b1308",
-    "otaHeaderString": "Slacky-DIY OTA",
-    "manufacturerName": [
-      "Svetomaniya"
-    ]
-  },
-  {
     "fileName": "HS1RM-E-120B452F-20260615-V17-Release.ota.ota",
     "fileVersion": 23,
     "fileSize": 220634,
