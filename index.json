@@ -11214,5 +11214,21 @@
     "otaHeaderString": "schneider_wiser_fp_ota",
     "hardwareVersionMax": 767,
     "hardwareVersionMin": 527
+  },
+  {
+    "fileName": "1715138033-tk_common_link_lp_OTA_1.0.13.bin",
+    "fileVersion": 77,
+    "fileSize": 232066,
+    "originalUrl": "https://images.tuyaeu.com/smart/firmware/upgrade/20240508/1715138033-tk_common_link_lp_OTA_1.0.13.bin",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Tuya/1715138033-tk_common_link_lp_OTA_1.0.13.bin",
+    "imageType": 54179,
+    "manufacturerCode": 4417,
+    "sha512": "7dd8428ae9391ac653aaaf7fd93217479bbf55566e29e0afcdf2726150e583e98ba428f6c98f72f1188496f0d5d3212546596ef5c06e9ddb8c5736413d7f6fbe",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "manufacturerName": [
+      "_TZE284_2se8efxh"
+    ],
+    "modelId": "TS0601",
+    "releaseNotes": "1. Support the first reporting command 0x2C;\r\n2. Supports packet delivery of DP data larger than 64 bytes;\r\n3. Support weather acquisition 0x3A 0x3B;\r\n4. Fix the problem of shortened communication distance;"
   }
 ]
