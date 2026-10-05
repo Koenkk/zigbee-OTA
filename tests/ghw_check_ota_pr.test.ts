@@ -882,4 +882,34 @@ Text after end tag`);
             withExtraMetas(IMAGE_V13_1_METAS, {modelId: "model_b"}),
         ]);
     });
+    it.each([["modified"], ["renamed"], ["removed"]])("failure with existing image %s in PR", async (status) => {
+        setManifest(common.BASE_INDEX_MANIFEST_FILENAME, [structuredClone(IMAGE_V13_1_METAS_MAIN)]);
+        filePaths = [
+            useImage(IMAGE_V14_1),
+            {...useImage(IMAGE_V13_1), status, previous_filename: `${BASE_IMAGES_TEST_DIR_PATH}/renamed-${IMAGE_V13_1}`},
+        ];
+
+        await expect(async () => {
+            // @ts-expect-error mock
+            await checkOtaPR(github, core, context);
+        }).rejects.toThrow(
+            expect.objectContaining({
+                message: expect.stringContaining(
+                    `Detected modified/renamed/deleted existing images: ${BASE_IMAGES_TEST_DIR_PATH}/${IMAGE_V13_1} (${status})`,
+                ),
+            }),
+        );
+
+        expectNoChanges(false);
+    });
+
+    it("success with image renamed from outside images directory in PR", async () => {
+        filePaths = [{...useImage(IMAGE_V14_1), status: "renamed", previous_filename: `retracted-images/${IMAGE_V14_1}`}];
+
+        // @ts-expect-error mock
+        await checkOtaPR(github, core, context);
+
+        expect(addImageToBaseSpy).toHaveBeenCalledTimes(1);
+        expect(writeManifestSpy).toHaveBeenCalledWith(common.BASE_INDEX_MANIFEST_FILENAME, [IMAGE_V14_1_METAS]);
+    });
 });
