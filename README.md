@@ -13,7 +13,7 @@ Create a pull request with the image(s) in their proper subdirectories (manufact
 The pull request automation will validate the image. If any error occur, a comment will be posted in the pull request. If the validation succeed, a comment will be posted to inform of the changes that merging the pull request will commit (in a following commit).
 
 > [!IMPORTANT]
-> Do NOT delete, rename or replace current images (a new version must use a different file name, even if the manufacturer reuses the same one) and do NOT submit images in `images1` directory. The pull request automation will take care of archiving as appropriate for each file.
+> Do NOT delete, rename or replace current images and do NOT submit images in `images1` directory. The pull request automation will take care of archiving as appropriate for each file.
 
 ### Example using Github
 
