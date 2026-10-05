@@ -337,6 +337,27 @@ export function getValidMetas(metas: Partial<ExtraMetas & ExtraMetasWithFileName
     return validMetas;
 }
 
+/**
+ * Throw if the prev manifest has a different image (by sha512) under the given file name (for the given manufacturer).
+ * Adding/archiving an image under that file name would overwrite its binary while leaving its manifest entry (sha512, fileVersion...) behind.
+ * @param ignoredImage the prev entry about to be removed (replaced by the image being added/archived), if any
+ */
+function assertNoPrevFileNameConflict(
+    prevManifest: RepoImageMeta[],
+    manufacturer: string,
+    fileName: string,
+    sha512: string,
+    ignoredImage: RepoImageMeta | undefined,
+): void {
+    const prevUrl = getRepoFirmwareFileUrl(manufacturer, fileName, PREV_IMAGES_DIR);
+
+    if (prevManifest.some((i) => i !== ignoredImage && i.url === prevUrl && i.sha512 !== sha512)) {
+        throw new Error(
+            `Prev manifest already has a different image with file name '${fileName}' for '${manufacturer}'. Cannot add/archive without overwriting it`,
+        );
+    }
+}
+
 export function addImageToPrev(
     logPrefix: string,
     isNewer: boolean,
@@ -370,6 +391,9 @@ export function addImageToPrev(
     if (hasManufacturerImage(prevManifest, newMetas, extraMetas.manufacturerName)) {
         throw new Error("Image already present for manufacturer");
     }
+
+    // check before removing anything, so a failure leaves files and manifests untouched
+    assertNoPrevFileNameConflict(prevManifest, manufacturer, firmwareFileName, newMetas.sha512, isNewer ? prevMatch : undefined);
 
     if (isNewer) {
         console.log(`${logPrefix} Removing prev image.`);
@@ -429,6 +453,18 @@ export function addImageToBase(
             console.warn(`${logPrefix} Base image is new/newer but prev image is not older/non-existing.`);
         }
 
+        // make sure fileName exists for migration from old system
+        const baseFileName = baseMatch.fileName ? baseMatch.fileName : baseMatch.url.split("/").pop()!;
+
+        // check before removing anything, so a failure leaves files and manifests untouched
+        assertNoPrevFileNameConflict(
+            prevManifest,
+            manufacturer,
+            baseFileName,
+            baseMatch.sha512,
+            prevStatus !== ParsedImageStatus.New ? prevMatch : undefined,
+        );
+
         if (prevStatus !== ParsedImageStatus.New) {
             console.log(`${logPrefix} Removing prev image.`);
             prevManifest.splice(prevMatchIndex, 1);
@@ -440,8 +476,6 @@ export function addImageToBase(
         }
 
         // relocate base to prev
-        // make sure fileName exists for migration from old system
-        const baseFileName = baseMatch.fileName ? baseMatch.fileName : baseMatch.url.split("/").pop()!;
         const baseFilePath = path.join(baseOutDir, baseFileName);
 
         // if for some reason the file is no longer present (should not happen), don't add it to prev since link is broken
