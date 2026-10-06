@@ -1,4 +1,5 @@
 import {existsSync, mkdirSync, readFileSync, rmSync} from "node:fs";
+import path from "node:path";
 import {afterAll, afterEach, beforeAll, beforeEach, describe, expect, it, type MockInstance, vi} from "vitest";
 import * as common from "../src/common.js";
 import {ProcessFirmwareImageStatus, processFirmwareImage} from "../src/process_firmware_image.js";
@@ -304,6 +305,22 @@ describe("Process Firmware Image", () => {
         expect(writeManifestSpy).toHaveBeenCalledTimes(2);
         expect(writeManifestSpy).toHaveBeenCalledWith(common.BASE_INDEX_MANIFEST_FILENAME, [withOriginalUrl(IMAGE_V14_1, IMAGE_V14_1_METAS)]);
         expect(writeManifestSpy).toHaveBeenCalledWith(common.PREV_INDEX_MANIFEST_FILENAME, []);
+    });
+
+    it("failure adding image with same file name as a different base image", async () => {
+        // existing base image declared for model_a, a different binary is downloaded under the same file name for model_b (not a match, so not an upgrade)
+        setManifest(common.BASE_INDEX_MANIFEST_FILENAME, [withExtraMetas(withOriginalUrl(IMAGE_V13_1, IMAGE_V13_1_METAS), {modelId: "model_a"})]);
+        useImage(IMAGE_V13_1);
+
+        const status = await processFirmwareImage(IMAGES_TEST_DIR, IMAGE_V13_1, IMAGE_V14_1, {modelId: "model_b"});
+
+        expect(status).toStrictEqual(ProcessFirmwareImageStatus.Error);
+        expect(consoleErrorSpy).toHaveBeenCalledWith(
+            expect.stringContaining(`Base manifest already has a different image with file name '${IMAGE_V13_1}'`),
+        );
+        expect(writeManifestSpy).toHaveBeenCalledTimes(0);
+        // existing binary untouched
+        expect(common.computeSHA512(readFileSync(path.join(BASE_IMAGES_TEST_DIR_PATH, IMAGE_V13_1)))).toStrictEqual(IMAGE_V13_1_METAS.sha512);
     });
 
     it("success with extra metas", async () => {

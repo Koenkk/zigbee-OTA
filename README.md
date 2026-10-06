@@ -13,7 +13,7 @@ Create a pull request with the image(s) in their proper subdirectories (manufact
 The pull request automation will validate the image. If any error occur, a comment will be posted in the pull request. If the validation succeed, a comment will be posted to inform of the changes that merging the pull request will commit (in a following commit).
 
 > [!IMPORTANT]
-> Do NOT delete current images and do NOT submit images in `images1` directory. The pull request automation will take care of archiving as appropriate for each file.
+> Do NOT delete, rename or replace current images and do NOT submit images in `images1` directory. The pull request automation will take care of archiving as appropriate for each file.
 
 ### Example using Github
 
@@ -118,6 +118,8 @@ Example:
 - `images1` and `index1.json` contain automatically archived "downgrade" images (automatically moved from `images`/`index.json` after a merged PR introduced a newer version, or during auto download).
 
 If a manual modification of the manifests is necessary, it should be done in a PR that does not trigger the `update_ota_pr` workflow (no changes in `images/**` directory). As a last resort, the label `ignore-ota-workflow` can be added to prevent the workflow from running.
+
+A file name must identify a single image: the workflows refuse to add or archive an image where the target manifest already has a different image (by `sha512`) under the same file name, and refuse PRs that modify, rename or delete existing images. Auto download may legitimately re-download a newer version under the same file name, since it archives the current file before writing the new one.
 
 The metadata structure for images is as below (see above for details on extra metas):
 

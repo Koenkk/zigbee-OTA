@@ -24,6 +24,22 @@ export async function getChangedOtaFiles(
     core.info(`Changed files: ${compare.data.files.map((f) => f.filename).join(", ")}`);
 
     const fileList = compare.data.files.filter((f) => f.filename.startsWith(`${BASE_IMAGES_DIR}/`));
+    // existing images must not be replaced in place (same file name for a different image), renamed or deleted:
+    // the manifest entry would keep pointing at the old file name with the old sha512/version, and archiving would move the wrong binary
+    const alteredFiles = fileList.filter(
+        (f) =>
+            f.status === "modified" ||
+            f.status === "removed" ||
+            f.status === "changed" ||
+            // a rename from outside `images` (e.g. a retracted image added back) is a new image
+            (f.status === "renamed" && f.previous_filename?.startsWith(`${BASE_IMAGES_DIR}/`)),
+    );
+
+    if (alteredFiles.length > 0) {
+        throw new Error(
+            `Detected modified/renamed/deleted existing images: ${alteredFiles.map((f) => `${f.filename} (${f.status})`).join(", ")}. Existing images must not be altered, add new images under a different file name instead.`,
+        );
+    }
 
     if (throwIfFilesOutsideOfImages && fileList.length !== compare.data.files.length) {
         if (context.payload.pull_request) {
