@@ -11235,5 +11235,43 @@
     ],
     "modelId": "TS0601",
     "releaseNotes": "1. Support the first reporting command 0x2C;\r\n2. Supports packet delivery of DP data larger than 64 bytes;\r\n3. Support weather acquisition 0x3A 0x3B;\r\n4. Fix the problem of shortened communication distance;"
+  },
+  {
+    "fileName": "D091-G_V1.13_20260313_FW18.ota",
+    "fileVersion": 18,
+    "fileSize": 470878,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Namron/D091-G_V1.13_20260313_FW18.ota",
+    "imageType": 91,
+    "manufacturerCode": 4714,
+    "sha512": "6956f0c3ea5f6d10deafe28d0b86cb1da6b280a5174ae0768979b8e0b2d2671bde173196e91dd08fc40d519db1d56660fbdfc070d6d6c950413926efbbb8e15a",
+    "otaHeaderString": "EBL D091-ZG",
+    "modelId": "4512791",
+    "releaseNotes": "1. Modify production testing switching firmware. 2. Add production test to modify the model and manufacturer. 3. Add overload and short-circuit button filtering. 4. Fix forward/backward switching after touchlink/find and binding."
+  },
+  {
+    "fileName": "S728_ZG_FW4_1.09.ota",
+    "fileVersion": 4,
+    "fileSize": 288806,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Namron/S728_ZG_FW4_1.09.ota",
+    "imageType": 1003,
+    "manufacturerCode": 4098,
+    "sha512": "71b08cfd6d8f7d7cf3f555ea94a6a22a606cace4e53e63afb7415dedd9fd3d99e358e66698be1ba9f5a2ca2ba6c97d2ab260faee31e64c80488c2a8dd7deba39",
+    "otaHeaderString": "EBL S728-ZG",
+    "manufacturerName": [
+      "Namron AS"
+    ],
+    "modelId": "4512768",
+    "releaseNotes": "1. Calibrated measurement data."
+  },
+  {
+    "fileName": "S755-G_V1.21_20260804_FW33_TYPE_755.ota",
+    "fileVersion": 33,
+    "fileSize": 442462,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Namron/S755-G_V1.21_20260804_FW33_TYPE_755.ota",
+    "imageType": 755,
+    "manufacturerCode": 4714,
+    "sha512": "a2bf97a0b4cfcd41e3600880598fc6091f0748bba7f1cbb715278ce173f7516d446f9d97655a574125b448a551fc4ee55e99349e573f28dbb2e675f11df0230c",
+    "otaHeaderString": "EBL S755-ZG",
+    "modelId": "4512792"
   }
 ]
