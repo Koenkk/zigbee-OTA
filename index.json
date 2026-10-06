@@ -5188,8 +5188,10 @@
     "manufacturerCode": 4417,
     "sha512": "b08d60804f8c75ffce2c2362e88c473f80a7194a15bd1204c07f60fc9ca0817e5736836f0b9c861683cd2269055e79fbf1ee642f819b8857f1fd93f3dd5ed683",
     "otaHeaderString": "Telink OTA Sample Usage",
+    "releaseNotes": "Compatible with other gateways",
     "manufacturerName": [
-      "_TZ3000_x3ewpzyr"
+      "_TZ3000_x3ewpzyr",
+      "_TZ3000_aaifmpuq"
     ]
   },
   {
