@@ -11273,5 +11273,19 @@
     "sha512": "a2bf97a0b4cfcd41e3600880598fc6091f0748bba7f1cbb715278ce173f7516d446f9d97655a574125b448a551fc4ee55e99349e573f28dbb2e675f11df0230c",
     "otaHeaderString": "EBL S755-ZG",
     "modelId": "4512792"
+  },
+  {
+    "fileName": "1141-D3A3-00000041-app_sensor_UG_1.0.1.bin",
+    "fileVersion": 65,
+    "fileSize": 259714,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Rti-Tek/1141-D3A3-00000041-app_sensor_UG_1.0.1.bin",
+    "imageType": 54179,
+    "manufacturerCode": 4417,
+    "sha512": "9181dfd68303dfcad86050aef11cc0096223e4462615ac07962541564a7959e18857c67b80b3a9aba4ceb42209e256e3db0ddfbc38f375a2f6b587c097d40fc2",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "manufacturerName": [
+      "Rti-Tek"
+    ],
+    "modelId": "STHZB"
   }
 ]
