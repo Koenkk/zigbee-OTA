@@ -4606,6 +4606,7 @@
     "manufacturerCode": 4098,
     "sha512": "41ebf9932d11708b81144232b2c3fccc7a58d76116be63785b978b91afb1180e32d8ba4f4c8f2f0960637f1662ec9ac28aa42b74e5ab57574000889671d2b8b9",
     "otaHeaderString": "EBL sdk_route",
+    "modelId": "TS130F",
     "manufacturerName": [
       "_TZ3000_1dd0d5yi"
     ]
