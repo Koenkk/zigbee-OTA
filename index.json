@@ -7073,17 +7073,6 @@
     "otaHeaderString": ""
   },
   {
-    "fileName": "100B-0129-01000D06-Light-EFR32MG26.zigbee",
-    "fileVersion": 16780550,
-    "fileSize": 833604,
-    "originalUrl": "https://firmware.meethue.com/storage/100b-129/16780550/d44f751c-9def-4483-aeb9-940f59ed3aa1/100B-0129-01000D06-Light-EFR32MG26.zigbee",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-0129-01000D06-Light-EFR32MG26.zigbee",
-    "imageType": 297,
-    "manufacturerCode": 4107,
-    "sha512": "c21b60bca9276fb9c1cecfe4b61b91a4cc90ca9a48cd75c93fb2ed8fc33853e81b0f4e618afbc7ba6538b7a868669765698611c3db2430389aa5fae86c28c5d3",
-    "otaHeaderString": ""
-  },
-  {
     "fileName": "ConnectedLamp-TI-Target_0012_1.sbl-ota",
     "fileVersion": 1124103178,
     "fileSize": 258104,
@@ -11278,5 +11267,17 @@
       "Rti-Tek"
     ],
     "modelId": "STHZB"
+  },
+  {
+    "fileName": "100B-0129-01001200-Light-EFR32MG26.zigbee",
+    "fileVersion": 16781824,
+    "fileSize": 888130,
+    "originalUrl": "https://firmware.meethue.com/storage/100b-129/16781824/d33f6027-58b0-485c-ac4e-49af3360ab49/100B-0129-01001200-Light-EFR32MG26.zigbee",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-0129-01001200-Light-EFR32MG26.zigbee",
+    "imageType": 297,
+    "manufacturerCode": 4107,
+    "sha512": "ccf77eba75ac47fc7d892638d75ce5324ff5a4b5e9e650d7cd30fa1715ad1306a1cba8b130b8829a37f6f019f13c712a5d79e6b6f297d7033dc7e61564d01f97",
+    "otaHeaderString": "",
+    "releaseNotes": "Version: 18.0"
   }
 ]

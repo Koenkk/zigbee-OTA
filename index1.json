@@ -4007,5 +4007,16 @@
     "manufacturerCode": 4742,
     "sha512": "4c57888c0261085c384e7c165ae673b7328086e702033f4737ca704837a683f9a9237b91466d32d449cc8a3ed0afa1f0837d53755809b8ab45d684dffb5c186b",
     "otaHeaderString": "Telink OTA Sample Usage"
+  },
+  {
+    "fileName": "100B-0129-01000D06-Light-EFR32MG26.zigbee",
+    "fileVersion": 16780550,
+    "fileSize": 833604,
+    "originalUrl": "https://firmware.meethue.com/storage/100b-129/16780550/d44f751c-9def-4483-aeb9-940f59ed3aa1/100B-0129-01000D06-Light-EFR32MG26.zigbee",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Hue/100B-0129-01000D06-Light-EFR32MG26.zigbee",
+    "imageType": 297,
+    "manufacturerCode": 4107,
+    "sha512": "c21b60bca9276fb9c1cecfe4b61b91a4cc90ca9a48cd75c93fb2ed8fc33853e81b0f4e618afbc7ba6538b7a868669765698611c3db2430389aa5fae86c28c5d3",
+    "otaHeaderString": ""
   }
 ]
