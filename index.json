@@ -11279,5 +11279,16 @@
     "sha512": "ccf77eba75ac47fc7d892638d75ce5324ff5a4b5e9e650d7cd30fa1715ad1306a1cba8b130b8829a37f6f019f13c712a5d79e6b6f297d7033dc7e61564d01f97",
     "otaHeaderString": "",
     "releaseNotes": "Version: 18.0"
+  },
+  {
+    "fileName": "SN-TLSR8258-TP-01-v1.0.5.ota",
+    "fileVersion": 4101,
+    "fileSize": 237248,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/SN-TLSR8258-TP-01-v1.0.5.ota",
+    "imageType": 8206,
+    "manufacturerCode": 4742,
+    "sha512": "4244f474055a223e09d9c37256c4735dff020ef3f371112f0d4ac1f5cf976d7b9aeb4f74b60ebd81aca27931ecca0c8b9e5f6b3788938542b0c4d53dcbe5e562",
+    "otaHeaderString": "FIRMWARE",
+    "releaseNotes": "1. General bug fixes and stability improvements."
   }
 ]
