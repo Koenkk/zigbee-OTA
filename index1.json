@@ -2019,17 +2019,6 @@
     "otaHeaderString": "ota-file-test"
   },
   {
-    "fileName": "zbminir2_v1.0.2.ota",
-    "fileVersion": 4098,
-    "fileSize": 275788,
-    "originalUrl": "https://zigbee-ota.sonoff.tech/releases/zbminir2_v1.0.2.ota",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Sonoff/zbminir2_v1.0.2.ota",
-    "imageType": 8,
-    "manufacturerCode": 4742,
-    "sha512": "b5c5a93ab84607292248e5262ccf0b8c250326d6ed5395c0d8818697b4286df5d85567a63bad7734a959bbaf58b83f9289ff027783284b11de5dfea8a48921ba",
-    "otaHeaderString": "ota-file-test"
-  },
-  {
     "fileName": "6565-0391-10203001-tuya_thermostat_zrd.zigbee",
     "fileVersion": 270544897,
     "fileSize": 259570,
@@ -4018,5 +4007,16 @@
     "manufacturerCode": 4107,
     "sha512": "c21b60bca9276fb9c1cecfe4b61b91a4cc90ca9a48cd75c93fb2ed8fc33853e81b0f4e618afbc7ba6538b7a868669765698611c3db2430389aa5fae86c28c5d3",
     "otaHeaderString": ""
+  },
+  {
+    "fileName": "zbminir2_v1.0.8.ota",
+    "fileVersion": 4104,
+    "fileSize": 277180,
+    "originalUrl": "https://zigbee-ota.sonoff.tech/releases/zbminir2_v1.0.8.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Sonoff/zbminir2_v1.0.8.ota",
+    "imageType": 8,
+    "manufacturerCode": 4742,
+    "sha512": "051912851dffed4b49d3caece8d67b0fec9987dcbdf4d6db45c4e23f4ea0c9be867491758af12f153bc9672d4205129a9270be79e781d150734be295c44971bf",
+    "otaHeaderString": "ota-file-test"
   }
 ]

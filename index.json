@@ -7195,17 +7195,6 @@
     "otaHeaderString": "ota-file-test"
   },
   {
-    "fileName": "zbminir2_v1.0.8.ota",
-    "fileVersion": 4104,
-    "fileSize": 277180,
-    "originalUrl": "https://zigbee-ota.sonoff.tech/releases/zbminir2_v1.0.8.ota",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/zbminir2_v1.0.8.ota",
-    "imageType": 8,
-    "manufacturerCode": 4742,
-    "sha512": "051912851dffed4b49d3caece8d67b0fec9987dcbdf4d6db45c4e23f4ea0c9be867491758af12f153bc9672d4205129a9270be79e781d150734be295c44971bf",
-    "otaHeaderString": "ota-file-test"
-  },
-  {
     "fileName": "zigbeeminil2_100E_stand_ota_file.ota",
     "fileVersion": 4110,
     "fileSize": 259018,
@@ -11290,5 +11279,16 @@
     "sha512": "4244f474055a223e09d9c37256c4735dff020ef3f371112f0d4ac1f5cf976d7b9aeb4f74b60ebd81aca27931ecca0c8b9e5f6b3788938542b0c4d53dcbe5e562",
     "otaHeaderString": "FIRMWARE",
     "releaseNotes": "1. General bug fixes and stability improvements."
+  },
+  {
+    "fileName": "SN-MG21-ZGMR2-01-v1.1.0-20260826.150520.000_Signature_Encrypted.ota",
+    "fileVersion": 4352,
+    "fileSize": 283532,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/SN-MG21-ZGMR2-01-v1.1.0-20260826.150520.000_Signature_Encrypted.ota",
+    "imageType": 8,
+    "manufacturerCode": 4742,
+    "sha512": "edb8a973aa0d4630167643216856e507e620cc673e9a36b34e268f25d32cf62d3fff370a4caac7b2071111ce0afd2f395ec6ba6c01321ce997ba89a26afbd376",
+    "otaHeaderString": "ota-file-test",
+    "releaseNotes": "1. Added support for double-click and long-press event reporting in Pulse Switch mode.\n2. Added support for the Zigbee Scenes cluster and the Zigbee On with Timed Off command.\n3. Updated the External Switch pairing mode entry conditions and trigger methods.\n4. Fixed known issues and improved overall system stability."
   }
 ]
