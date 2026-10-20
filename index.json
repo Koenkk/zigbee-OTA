@@ -11290,5 +11290,16 @@
     "sha512": "edb8a973aa0d4630167643216856e507e620cc673e9a36b34e268f25d32cf62d3fff370a4caac7b2071111ce0afd2f395ec6ba6c01321ce997ba89a26afbd376",
     "otaHeaderString": "ota-file-test",
     "releaseNotes": "1. Added support for double-click and long-press event reporting in Pulse Switch mode.\n2. Added support for the Zigbee Scenes cluster and the Zigbee On with Timed Off command.\n3. Updated the External Switch pairing mode entry conditions and trigger methods.\n4. Fixed known issues and improved overall system stability."
+  },
+  {
+    "fileName": "SN-TLSR8656-02B-01-v1.0.7.ota",
+    "fileVersion": 4103,
+    "fileSize": 107344,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/SN-TLSR8656-02B-01-v1.0.7.ota",
+    "imageType": 2071,
+    "manufacturerCode": 4742,
+    "sha512": "02483e22ce12a3184db6522d0a621d610ce12a94a4487e02f8dfc7435b9aeadcdee41bbd6915bc4f60f72eb72dbd7c46e4438826ff9bc0259242ee50cc26e8d8",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "releaseNotes": "1. Optimized power consumption to extend battery life.\n2. Addressed known issues to improve device stability."
   }
 ]
