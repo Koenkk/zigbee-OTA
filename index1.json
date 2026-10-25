@@ -2178,17 +2178,6 @@
     "otaHeaderString": "                                "
   },
   {
-    "fileName": "Water_Leak_Sensor_PROD_OTA_V66_v1.00.66.ota",
-    "fileVersion": 66,
-    "fileSize": 133234,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/Water_Leak_Sensor_PROD_OTA_V66_v1.00.66.ota",
-    "imageType": 54179,
-    "manufacturerCode": 4659,
-    "sha512": "daba6b3ad69bb070aa46ddae95bf8fa4a3eed151063b9e14f07a5f8937baac5edc922f99b0f6207b9ece62ee65a4ba896721383947c552f94a82c89d4bd04f1d",
-    "otaHeaderString": "Telink OTA Sample Usage",
-    "originalUrl": "https://tr-zha.s3.amazonaws.com/z2m_firmware/Water_Leak_Sensor_PROD_OTA_V66_v1.00.66.ota"
-  },
-  {
     "fileName": "trvzb_v1.4.1.ota",
     "fileVersion": 5121,
     "fileSize": 332092,
@@ -4032,5 +4021,15 @@
       "Wing"
     ],
     "modelId": "TS0201-z"
+  },
+  {
+    "fileName": "Water_Leak_Sensor_PROD_OTA_V73_v1.00.73.ota",
+    "fileVersion": 73,
+    "fileSize": 145586,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/ThirdReality/Water_Leak_Sensor_PROD_OTA_V73_v1.00.73.ota",
+    "imageType": 54179,
+    "manufacturerCode": 4659,
+    "sha512": "ac780d5d2bd0da487099210a5abd7137cf52179966194e5637059a1724c12eabce2cc53057a7b0b94be7c37426e4d22b1d71fb60aba27ef93e41286d75ee0f03",
+    "otaHeaderString": "Telink OTA Sample Usage"
   }
 ]
