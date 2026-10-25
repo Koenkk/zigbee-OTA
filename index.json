@@ -7206,17 +7206,6 @@
     "otaHeaderString": "ota-file-test"
   },
   {
-    "fileName": "snzb02lwd_v1.1.0.ota",
-    "fileVersion": 4352,
-    "fileSize": 167888,
-    "originalUrl": "https://zigbee-ota.sonoff.tech/releases/snzb02lwd_v1.1.0.ota",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/snzb02lwd_v1.1.0.ota",
-    "imageType": 2061,
-    "manufacturerCode": 4742,
-    "sha512": "d84f2e016626b25a5ada1171c920ae31fae57c77edfedc7959c8d2bb56af8c331d8b2bd71346afef7c68ff7672e816faa935262db78aad1b030c99f7bf865879",
-    "otaHeaderString": "Telink OTA Sample Usage"
-  },
-  {
     "fileName": "86-0001-00001101.zigbee",
     "fileVersion": 4353,
     "fileSize": 131086,
@@ -11423,5 +11412,16 @@
     "manufacturerCode": 4659,
     "sha512": "c13ee0e885a4b40b0261d89a6b7c77e4eb9e0af8ff08d83ccef3d452a61612b1d63081d9d349d92b0dfaf4f07ed04c1c421a25b0989b3bc3aebf26d5fce0fb57",
     "otaHeaderString": "Telink OTA Sample Usage"
+  },
+  {
+    "fileName": "SN-TLSR8656-02LWD-01-v1.1.1.ota",
+    "fileVersion": 4353,
+    "fileSize": 168368,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/SN-TLSR8656-02LWD-01-v1.1.1.ota",
+    "imageType": 2061,
+    "manufacturerCode": 4742,
+    "sha512": "cce0157eb64aebb24542beef9094221eeca84dd777273549075dc8ccf10e85b323b1f5a74fd827e7c64afea17cb0ef772e75bfc0ddcf775aa8165665e2ae5cfa",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "releaseNotes": "1. Improved temperature and humidity measurement accuracy.\n2. Fixed known issues to enhance device stability and performance."
   }
 ]

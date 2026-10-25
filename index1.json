@@ -4031,5 +4031,16 @@
     "manufacturerCode": 4659,
     "sha512": "ac780d5d2bd0da487099210a5abd7137cf52179966194e5637059a1724c12eabce2cc53057a7b0b94be7c37426e4d22b1d71fb60aba27ef93e41286d75ee0f03",
     "otaHeaderString": "Telink OTA Sample Usage"
+  },
+  {
+    "fileName": "snzb02lwd_v1.1.0.ota",
+    "fileVersion": 4352,
+    "fileSize": 167888,
+    "originalUrl": "https://zigbee-ota.sonoff.tech/releases/snzb02lwd_v1.1.0.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Sonoff/snzb02lwd_v1.1.0.ota",
+    "imageType": 2061,
+    "manufacturerCode": 4742,
+    "sha512": "d84f2e016626b25a5ada1171c920ae31fae57c77edfedc7959c8d2bb56af8c331d8b2bd71346afef7c68ff7672e816faa935262db78aad1b030c99f7bf865879",
+    "otaHeaderString": "Telink OTA Sample Usage"
   }
 ]
