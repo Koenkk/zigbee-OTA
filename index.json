@@ -11413,5 +11413,15 @@
       "Sonoff"
     ],
     "modelId": "ZG-204ZS-z"
+  },
+  {
+    "fileName": "SAR70ZA_00000054_20260702.ota",
+    "fileVersion": 84,
+    "fileSize": 455106,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SalusControls/SAR70ZA_00000054_20260702.ota",
+    "imageType": 122,
+    "manufacturerCode": 4216,
+    "sha512": "5c8a49a7545a1dc1f717a069a29f124b51f85d1aaca0bfbc5c1b1a1b371f866c1bcb9edc88e24657aa9eff4366addd7f71d1519a2dcff7bb7cdb2ce3f0344c93",
+    "otaHeaderString": "SQ610"
   }
 ]
