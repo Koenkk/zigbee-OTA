@@ -11423,5 +11423,125 @@
     ],
     "modelId": "FRZ1",
     "releaseNotes": "FreezBee v0.1.7 : améliorations mineures de compatibilité"
+  },
+  {
+    "fileName": "ok-ac-h-aux-1-zb-s-a_hw1.x_f768_fw26.10.01_ota22.ota",
+    "fileVersion": 22,
+    "fileSize": 279070,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ONOKOM/ok-ac-h-aux-1-zb-s-a_hw1.x_f768_fw26.10.01_ota22.ota",
+    "imageType": 673,
+    "manufacturerCode": 18179,
+    "sha512": "6b38b3934ed41891808ca641aa404e1b5f1ac2e30f18727e5a13bffbce3eab78c00cc473051ff87d5f0ce797b83c3489122c3f09a4568f2715de8187887f7333",
+    "otaHeaderString": ""
+  },
+  {
+    "fileName": "ok-ac-h-dk-1-zb-s-a_hw1.x_f768_fw26.10.01_ota22.ota",
+    "fileVersion": 22,
+    "fileSize": 280186,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ONOKOM/ok-ac-h-dk-1-zb-s-a_hw1.x_f768_fw26.10.01_ota22.ota",
+    "imageType": 657,
+    "manufacturerCode": 18179,
+    "sha512": "e98e485cb6fe4f5491dad0bc23595e59c78769fc81b92a75b4d0d32cf18fe1ada514f7f9efc9c4ecd446f3198d91c3c5283ffad7e9bb0f6f316394b3f2295984",
+    "otaHeaderString": ""
+  },
+  {
+    "fileName": "ok-ac-h-gr-1-zb-s-a_hw1.x_f768_fw26.10.01_ota22.ota",
+    "fileVersion": 22,
+    "fileSize": 278882,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ONOKOM/ok-ac-h-gr-1-zb-s-a_hw1.x_f768_fw26.10.01_ota22.ota",
+    "imageType": 641,
+    "manufacturerCode": 18179,
+    "sha512": "458c15d6de41d6724c12037a793bf81038f1ecb3ce02487f20ba2c242948e346474b065aa0b44176b2abbe7d87834ac4dfa9d23313325cceeebf076d23e06d0d",
+    "otaHeaderString": ""
+  },
+  {
+    "fileName": "ok-ac-h-hr-1-zb-s-a_hw1.x_f768_fw26.10.01_ota22.ota",
+    "fileVersion": 22,
+    "fileSize": 281666,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ONOKOM/ok-ac-h-hr-1-zb-s-a_hw1.x_f768_fw26.10.01_ota22.ota",
+    "imageType": 689,
+    "manufacturerCode": 18179,
+    "sha512": "197ea0c1a63da9cfc6111befb54be63a440d21a0ecc826cac88c21e715ddcd2a09761bcac2a38e08f293c3e1d15724284297a4e4af17d880076f0e059fa83d26",
+    "otaHeaderString": ""
+  },
+  {
+    "fileName": "ok-ac-h-hs-3-zb-s-a_hw1.x_f768_fw26.10.01_ota22.ota",
+    "fileVersion": 22,
+    "fileSize": 280590,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ONOKOM/ok-ac-h-hs-3-zb-s-a_hw1.x_f768_fw26.10.01_ota22.ota",
+    "imageType": 707,
+    "manufacturerCode": 18179,
+    "sha512": "76280f488d70662ac40c7abcc28a26f4e66a3ef87dd57e793043b5cb6321a6168e0f0a74f207526bf7abfdf38dba2682b9489d5da1e8bfeaad315fc0ab4eac9c",
+    "otaHeaderString": ""
+  },
+  {
+    "fileName": "ok-ac-h-ht-1-zb-s-a_hw1.x_f768_fw26.10.01_ota22.ota",
+    "fileVersion": 22,
+    "fileSize": 278790,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ONOKOM/ok-ac-h-ht-1-zb-s-a_hw1.x_f768_fw26.10.01_ota22.ota",
+    "imageType": 785,
+    "manufacturerCode": 18179,
+    "sha512": "7afb9ce366a30e8064ea54274391588b7ee11dad41800de87428e81a2a0378854813c26ddf14f6fdc0c94120c267f25732329b6896276786deaa8af7250847f3",
+    "otaHeaderString": ""
+  },
+  {
+    "fileName": "ok-ac-h-md-1-zb-s-a_hw1.x_f768_fw26.10.01_ota22.ota",
+    "fileVersion": 22,
+    "fileSize": 283114,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ONOKOM/ok-ac-h-md-1-zb-s-a_hw1.x_f768_fw26.10.01_ota22.ota",
+    "imageType": 721,
+    "manufacturerCode": 18179,
+    "sha512": "a440018cc00d3b47833d7726d15056292b3589dbbcc56ca2b16079d0e7ca79c09567c7d5bab0e2371e879fa3ea9392c2bba08c3c5b9b44ef3dcafb6f8ee67841",
+    "otaHeaderString": ""
+  },
+  {
+    "fileName": "ok-ac-h-md-3-zb-s-a_hw1.x_f768_fw26.10.01_ota22.ota",
+    "fileVersion": 22,
+    "fileSize": 278426,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ONOKOM/ok-ac-h-md-3-zb-s-a_hw1.x_f768_fw26.10.01_ota22.ota",
+    "imageType": 723,
+    "manufacturerCode": 18179,
+    "sha512": "9c583ef5b1f7a7b3514b95db7e94e76d698fdf18a90673e1d324779cd17982278a4a8059f5412b984c7ac7d0920d2208822a6d80a01c461c199746b8598b939a",
+    "otaHeaderString": ""
+  },
+  {
+    "fileName": "ok-ac-h-me-1-zb-s-a_hw1.x_f768_fw26.10.01_ota22.ota",
+    "fileVersion": 22,
+    "fileSize": 278238,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ONOKOM/ok-ac-h-me-1-zb-s-a_hw1.x_f768_fw26.10.01_ota22.ota",
+    "imageType": 737,
+    "manufacturerCode": 18179,
+    "sha512": "3e359e47854be1026d8eb252fe9628d89171b3a9ca9bde10ed5bf4d834f6a1da8b1a40dcd4e1d1673e9331bdce4decd5116ec3f43468d0b46b08b19b4f14ed31",
+    "otaHeaderString": ""
+  },
+  {
+    "fileName": "ok-ac-h-tb-1-zb-s-a_hw1.x_f768_fw26.10.01_ota22.ota",
+    "fileVersion": 22,
+    "fileSize": 279482,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ONOKOM/ok-ac-h-tb-1-zb-s-a_hw1.x_f768_fw26.10.01_ota22.ota",
+    "imageType": 801,
+    "manufacturerCode": 18179,
+    "sha512": "b7d1d67b48d846a026e0add2c927a0359a275aebda4009bab4c00c78ad1bb78c9644f12d6a8044df4ce4680d84c7d750d166c2553203ed3ad915a66eb1e2eaf8",
+    "otaHeaderString": ""
+  },
+  {
+    "fileName": "ok-ac-h-tcl-1-zb-s-a_hw1.x_f768_fw26.10.01_ota22.ota",
+    "fileVersion": 22,
+    "fileSize": 280342,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ONOKOM/ok-ac-h-tcl-1-zb-s-a_hw1.x_f768_fw26.10.01_ota22.ota",
+    "imageType": 753,
+    "manufacturerCode": 18179,
+    "sha512": "bb8048affc6713a541251054946c8e82b17ec2d9330515ab8e310c0114ce44f4da93d1548268d1b96bfd31cc02688b86ed6d7d3a5e21568f23c9f7cfcbb75929",
+    "otaHeaderString": ""
+  },
+  {
+    "fileName": "ok-ac-h-tcl-3-zb-s-a_hw1.x_f768_fw26.10.01_ota22.ota",
+    "fileVersion": 22,
+    "fileSize": 281070,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ONOKOM/ok-ac-h-tcl-3-zb-s-a_hw1.x_f768_fw26.10.01_ota22.ota",
+    "imageType": 755,
+    "manufacturerCode": 18179,
+    "sha512": "9ce98b018741b5f49d447650e52bf9e105b13c4f4e08094e04922c53059515b636e43cf19fbefe8745186976997c7dd21276cf4cd206c0fe60babbef767a9342",
+    "otaHeaderString": ""
   }
 ]
