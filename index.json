@@ -8941,16 +8941,6 @@
     "releaseNotes": "The value for the valve opening when the battery is very low was reduced to 5% to prevent overheating when the battery is flat and to still guarantee frost protection."
   },
   {
-    "fileName": "FWPLUG_MINIZB1GSP_ELECTRICAL_EFR32MG21_v1.1.2.ota",
-    "fileVersion": 4354,
-    "fileSize": 329538,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/FWPLUG_MINIZB1GSP_ELECTRICAL_EFR32MG21_v1.1.2.ota",
-    "imageType": 70,
-    "manufacturerCode": 4742,
-    "sha512": "c217bfa6b83d0b186af326374613ce0fc8f9ae13d65e06924d1b22d728bbe04613c24e4321399c98b7308b3e4d2a0c88ba994ab7eb55f2e3dce61cca92eccced",
-    "otaHeaderString": "EBL FWPLUG_MINIZB1GSP_ELECTRICAL"
-  },
-  {
     "fileName": "Smart_Filter_Sensor_OTA_26_1.00.26.ota",
     "fileVersion": 26,
     "fileSize": 266250,
@@ -11543,5 +11533,16 @@
     "manufacturerCode": 18179,
     "sha512": "9ce98b018741b5f49d447650e52bf9e105b13c4f4e08094e04922c53059515b636e43cf19fbefe8745186976997c7dd21276cf4cd206c0fe60babbef767a9342",
     "otaHeaderString": ""
+  },
+  {
+    "fileName": "SN-MG21-MINIZB1GSP-01_v1.2.7.ota",
+    "fileVersion": 4615,
+    "fileSize": 335698,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/SN-MG21-MINIZB1GSP-01_v1.2.7.ota",
+    "imageType": 70,
+    "manufacturerCode": 4742,
+    "sha512": "9b34b8cac6c39f04a10c7929316871a7d5982da188e380cdc55b497bf9bd556f1f24096b87da368819cdb0d7d97055dd45290ba8f0d9e492d49aadbddea6f374",
+    "otaHeaderString": "ota-file-test",
+    "releaseNotes": "1. Added a backup storage partition for license data to prevent data loss.\n2. Fixed an issue where devices not assigned to a binding group could still be controlled by group commands.\n3. Added support for normally open (NO) and normally closed (NC) rebound switches.\n4. Fixed an issue where restoring factory settings caused the external switch type to revert to the factory test type instead of the default edge mode.\n5. Fixed indicator light display issues during power-up and device calibration."
   }
 ]
