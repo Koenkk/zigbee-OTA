@@ -11940,5 +11940,54 @@
     "sha512": "231aba1b206f9dcb73170af5aa72ac479f30c853e04a76580311589a61845c21444ed30557e5ebbcd356cd593b637ab4d0e9fdd686abe7c21a54514a9d613129",
     "otaHeaderString": "Aqara OTA Image",
     "modelId": "lumi.models.4447_6218"
+  },
+  {
+    "fileName": "20260428143526_OTA_lumi.curtain.fngl02_0.0.0_0032_20260427_304749.ota",
+    "fileVersion": 32,
+    "fileSize": 631694,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.curtain.fngl02/20260428143526_OTA_lumi.curtain.fngl02_0.0.0_0032_20260427_304749.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20260428143526_OTA_lumi.curtain.fngl02_0.0.0_0032_20260427_304749.ota",
+    "imageType": 56832,
+    "manufacturerCode": 4447,
+    "sha512": "4bc4948dc85eb10189280ec26d755e66aa4c840f2a5d1d75550dbd5d38b40df8df3854a7c9485b1ee903446ceafeec3d45eff047f18319d63c8485e555b7b65b",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.curtain.fngl02"
+  },
+  {
+    "fileName": "20260428143853_OTA_lumi.curtain.fngl01_0.0.0_0032_20260427_304749.ota",
+    "fileVersion": 32,
+    "fileSize": 631694,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.curtain.fngl01/20260428143853_OTA_lumi.curtain.fngl01_0.0.0_0032_20260427_304749.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20260428143853_OTA_lumi.curtain.fngl01_0.0.0_0032_20260427_304749.ota",
+    "imageType": 56832,
+    "manufacturerCode": 4447,
+    "sha512": "4bc4948dc85eb10189280ec26d755e66aa4c840f2a5d1d75550dbd5d38b40df8df3854a7c9485b1ee903446ceafeec3d45eff047f18319d63c8485e555b7b65b",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.curtain.fngl01"
+  },
+  {
+    "fileName": "20260723150440_OTA_lumi.models.4447_14469_0.0.0_2929_20260722_5E0AC1.ota",
+    "fileVersion": 7453,
+    "fileSize": 830890,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.models.4447_14469/20260723150440_OTA_lumi.models.4447_14469_0.0.0_2929_20260722_5E0AC1.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20260723150440_OTA_lumi.models.4447_14469_0.0.0_2929_20260722_5E0AC1.ota",
+    "imageType": 56224,
+    "manufacturerCode": 4447,
+    "sha512": "9456010c25850103199b9eb46c8f0615bce82961deb8e8af2268a3229915c04ee92950a07cf0b1be30279be2ce50a0424b6b659fd9e6fd73ac5af2352df44f41",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.models.4447_14469",
+    "releaseNotes": "Curtain Controller C100"
+  },
+  {
+    "fileName": "20260907111319_OTA_lumi.models.4447_14470_0.0.0_0018_20260904_D726F5.ota",
+    "fileVersion": 18,
+    "fileSize": 623678,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.models.4447_14470/20260907111319_OTA_lumi.models.4447_14470_0.0.0_0018_20260904_D726F5.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20260907111319_OTA_lumi.models.4447_14470_0.0.0_0018_20260904_D726F5.ota",
+    "imageType": 56833,
+    "manufacturerCode": 4447,
+    "sha512": "11158a0e3d6ef9cb54e81615c2fc5f0257bf921b0510a9982d6d8adda84bf13eeb6b4ea998c470482b99bdef377f546a11a1539f127a282e9206831173799620",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.models.4447_14470"
   }
 ]
