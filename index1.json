@@ -2897,19 +2897,6 @@
     "releaseNotes": "This version update focuses on temperature control precision and operational stability, specifically addressing:\n1. Reduced temperature fluctuation range for more precise temperature control;\n2. Optimized speed to reach temperature steady state for more efficient response;\n3. Resolved temperature fluctuation issues after small-range temperature control for smoother operation;\n4. Fixed abnormal temperature display issues with linked sensors for more accurate data."
   },
   {
-    "fileName": "20260206105339_OTA_lumi.vibration.agl002_0.0.0_0021_20260206_65FA7D.ota",
-    "fileVersion": 21,
-    "fileSize": 584766,
-    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.vibration.agl002/20260206105339_OTA_lumi.vibration.agl002_0.0.0_0021_20260206_65FA7D.ota",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Lumi/20260206105339_OTA_lumi.vibration.agl002_0.0.0_0021_20260206_65FA7D.ota",
-    "imageType": 9794,
-    "manufacturerCode": 4447,
-    "sha512": "18241266652316468a2c42ef54408670fd819b39a90dde3c49bfc3da6578f2806c87397b8215c6609a07d997b14530d949029a9c3ac2c11d6aa00bd35b6228dc",
-    "otaHeaderString": "Aqara OTA Image",
-    "modelId": "lumi.vibration.agl002",
-    "releaseNotes": ""
-  },
-  {
     "fileName": "Smart_Filter_Sensor_OTA_25_1.00.25.ota",
     "fileVersion": 25,
     "fileSize": 266258,
@@ -4156,5 +4143,53 @@
     "manufacturerCode": 25957,
     "sha512": "9bcb87e6b4fc6f2ef0e046eed1d2f96e315691524aef6585aae0eae634763971c0095c1f797e6b8f111836e49b06ed26cc97c69441d0221748bfdd0e38927bd4",
     "otaHeaderString": "Slacky-DIY OTA"
+  },
+  {
+    "fileName": "20260615192607_OTA_lumi.vibration.agl002_0.0.0_0024_20260615_4A41B3.ota",
+    "fileVersion": 24,
+    "fileSize": 604398,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.vibration.agl002/20260615192607_OTA_lumi.vibration.agl002_0.0.0_0024_20260615_4A41B3.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Lumi/20260615192607_OTA_lumi.vibration.agl002_0.0.0_0024_20260615_4A41B3.ota",
+    "imageType": 9794,
+    "manufacturerCode": 4447,
+    "sha512": "414dfe629810cbbbd536660f04a3b28d433334bbd640fa7cbd33b08281255d63c59a4cbe9c664d8d2f666e53a846cd53d97e6b31aa180261e7f0ae52e95398ac",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.vibration.agl002"
+  },
+  {
+    "fileName": "20221213122302_OTA_aqara.feeder.acn001_0.0.0_3833_20220914_03DFD1.ota",
+    "fileVersion": 9761,
+    "fileSize": 324224,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Lumi/20221213122302_OTA_aqara.feeder.acn001_0.0.0_3833_20220914_03DFD1.ota",
+    "imageType": 4873,
+    "manufacturerCode": 4447,
+    "sha512": "20955a8996973680d9b1f110c9d5583c072bcb99032a1070fc0c6663323539928d82d46f34a21109e68882272a459d205eecc0ae3b3bae66a8866dc0c2094b2f",
+    "otaHeaderString": "empower mcu",
+    "modelId": "aqara.feeder.acn001"
+  },
+  {
+    "fileName": "20250801110500_OTA_lumi.light.acn040_0.0.0_0024_20250728_C35D9C.ota",
+    "fileVersion": 24,
+    "fileSize": 666126,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.light.acn040/20250801110500_OTA_lumi.light.acn040_0.0.0_0024_20250728_C35D9C.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Lumi/20250801110500_OTA_lumi.light.acn040_0.0.0_0024_20250728_C35D9C.ota",
+    "imageType": 1045,
+    "manufacturerCode": 4447,
+    "sha512": "9b6f9ee722b877a5d61243f586129bd005e5e278acb6fda77e28ca444831e7c95c966bc9fd0bd030988410804d56bb8bbf5cc3c2aef51d0ced2381f66e319f94",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.light.acn040"
+  },
+  {
+    "fileName": "20260916093205_OTA_lumi.models.4447_8295_0.0.0_6060_20260915_8F0793.ota",
+    "fileVersion": 15420,
+    "fileSize": 2012458,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.models.4447_8295/20260916093205_OTA_lumi.models.4447_8295_0.0.0_6060_20260915_8F0793.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Lumi/20260916093205_OTA_lumi.models.4447_8295_0.0.0_6060_20260915_8F0793.ota",
+    "imageType": 56992,
+    "manufacturerCode": 4447,
+    "sha512": "3f6c23a287ccf3a3f338d94a7de168eb87df2c47babea88ba69e7cbe309d0baaf38f2b0757000b40d393c6a89c241978f8542ca105ccbb8c1b3f36290064e228",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.models.4447_8295",
+    "releaseNotes": "1. Optimized radar algorithm to fix abnormal detection in corner, wall mounting, seated on bed, and chandelier scenarios, resolving coordinate jitter and packet loss issues 2. Added current count reporting (enabled by default) 3. Fixed known issues"
   }
 ]
