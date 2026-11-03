@@ -8147,17 +8147,6 @@
     "otaHeaderString": "temp_humi_sensor"
   },
   {
-    "fileName": "1021-000f-004745ff-NLL.zigbee",
-    "fileVersion": 4670975,
-    "fileSize": 255143,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Legrand/1021-000f-004745ff-NLL.zigbee",
-    "imageType": 15,
-    "manufacturerCode": 4129,
-    "sha512": "dc9bb4669f947be422747de971285f917301b343bb1be5e78e7dbbe68988ea1fcaf1eaa0989a22a2f64647f0897c1d45d7967e08f36d2c4c8634a8fd9581efd4",
-    "otaHeaderString": "                                ",
-    "minFileVersion": 458752
-  },
-  {
     "fileName": "20230510105212_OTA_aqara.toilet.acn002_0.0.0_1233_20230505_35594D.ota",
     "fileVersion": 3105,
     "fileSize": 86722,
@@ -11544,5 +11533,16 @@
     "sha512": "9b34b8cac6c39f04a10c7929316871a7d5982da188e380cdc55b497bf9bd556f1f24096b87da368819cdb0d7d97055dd45290ba8f0d9e492d49aadbddea6f374",
     "otaHeaderString": "ota-file-test",
     "releaseNotes": "1. Added a backup storage partition for license data to prevent data loss.\n2. Fixed an issue where devices not assigned to a binding group could still be controlled by group commands.\n3. Added support for normally open (NO) and normally closed (NC) rebound switches.\n4. Fixed an issue where restoring factory settings caused the external switch type to revert to the factory test type instead of the default edge mode.\n5. Fixed indicator light display issues during power-up and device calibration."
+  },
+  {
+    "fileName": "1021-000f-004845ff-NLL.zigbee",
+    "fileVersion": 4736511,
+    "fileSize": 255143,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Legrand/1021-000f-004845ff-NLL.zigbee",
+    "imageType": 15,
+    "manufacturerCode": 4129,
+    "sha512": "9e0a5ac35c908b3de694150d82ea88f6b6b55ffa44aa97ed9e4a1688c4b75fde4ce3878467065fe962f94a97734ada52ab964ae29d81db2c65501603c6653348",
+    "otaHeaderString": "                                ",
+    "minFileVersion": 458752
   }
 ]

@@ -4151,5 +4151,16 @@
     "manufacturerCode": 4742,
     "sha512": "c217bfa6b83d0b186af326374613ce0fc8f9ae13d65e06924d1b22d728bbe04613c24e4321399c98b7308b3e4d2a0c88ba994ab7eb55f2e3dce61cca92eccced",
     "otaHeaderString": "EBL FWPLUG_MINIZB1GSP_ELECTRICAL"
+  },
+  {
+    "fileName": "1021-000f-004745ff-NLL.zigbee",
+    "fileVersion": 4670975,
+    "fileSize": 255143,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Legrand/1021-000f-004745ff-NLL.zigbee",
+    "imageType": 15,
+    "manufacturerCode": 4129,
+    "sha512": "dc9bb4669f947be422747de971285f917301b343bb1be5e78e7dbbe68988ea1fcaf1eaa0989a22a2f64647f0897c1d45d7967e08f36d2c4c8634a8fd9581efd4",
+    "otaHeaderString": "                                ",
+    "minFileVersion": 458752
   }
 ]
