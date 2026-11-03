@@ -9558,26 +9558,6 @@
     "releaseNotes": "Home Assistant and eWeLink ecosystem gateways now support two remote temperature and humidity data sources.\n\nFixed several known issues to improve system stability."
   },
   {
-    "fileName": "6565-021d-10163001-qs_zigbee_sec02_zrd.zigbee",
-    "fileVersion": 269889537,
-    "fileSize": 210866,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-021d-10163001-qs_zigbee_sec02_zrd.zigbee",
-    "imageType": 541,
-    "manufacturerCode": 25957,
-    "sha512": "cee1e74719b7ebd6086f45a89e8ac7d24741ea93a425251ad0a8c8789566b4d2684a1a1e1e1440b751c145050c6391877359d0190a11058fbc4d979e1b8df6fc",
-    "otaHeaderString": "Slacky-DIY OTA"
-  },
-  {
-    "fileName": "6565-021e-10113001-qs_zigbee_sec01_zrd.zigbee",
-    "fileVersion": 269561857,
-    "fileSize": 207826,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-021e-10113001-qs_zigbee_sec01_zrd.zigbee",
-    "imageType": 542,
-    "manufacturerCode": 25957,
-    "sha512": "9bcb87e6b4fc6f2ef0e046eed1d2f96e315691524aef6585aae0eae634763971c0095c1f797e6b8f111836e49b06ed26cc97c69441d0221748bfdd0e38927bd4",
-    "otaHeaderString": "Slacky-DIY OTA"
-  },
-  {
     "fileName": "SN-TLSR8656-S60-01-v2.1.3.ota",
     "fileVersion": 8451,
     "fileSize": 148864,
@@ -11544,5 +11524,31 @@
     "sha512": "9e0a5ac35c908b3de694150d82ea88f6b6b55ffa44aa97ed9e4a1688c4b75fde4ce3878467065fe962f94a97734ada52ab964ae29d81db2c65501603c6653348",
     "otaHeaderString": "                                ",
     "minFileVersion": 458752
+  },
+  {
+    "fileName": "6565-021d-10173001-qs_zigbee_sec02_zrd.zigbee",
+    "fileVersion": 269955073,
+    "fileSize": 210930,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-021d-10173001-qs_zigbee_sec02_zrd.zigbee",
+    "imageType": 541,
+    "manufacturerCode": 25957,
+    "sha512": "0d7bc38a33ea643834b9788522affd2d27d3b6cdc0dcb7541d3cd1eb303764111cb9e20feeed83bb1512dc9372eb93a6e6ff72fe4f74c523378db0d95d964f3a",
+    "otaHeaderString": "Slacky-DIY OTA",
+    "manufacturerName": [
+      "Svetomaniya"
+    ]
+  },
+  {
+    "fileName": "6565-021e-10123001-qs_zigbee_sec01_zrd.zigbee",
+    "fileVersion": 269627393,
+    "fileSize": 207858,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-021e-10123001-qs_zigbee_sec01_zrd.zigbee",
+    "imageType": 542,
+    "manufacturerCode": 25957,
+    "sha512": "221e986af5dc6143d27abf6784855410d77f03fb0ddc6c365bf7e14e952e0bcdbecd8daeaba5a9510f9766e5979b2baddf3222cef17992c993ca88d4f6abec62",
+    "otaHeaderString": "Slacky-DIY OTA",
+    "manufacturerName": [
+      "Svetomaniya"
+    ]
   }
 ]
