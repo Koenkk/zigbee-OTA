@@ -3,7 +3,7 @@ on:
     pull_request:
         types: [opened, synchronize]
         branches: [master]
-        paths: ['src/**', 'tests/**', 'package.json']
+        paths: ["src/**", "tests/**", "package.json"]
     workflow_dispatch:
 
 jobs:

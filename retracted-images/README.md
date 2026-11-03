@@ -18,7 +18,7 @@
 ### Lumi / Aqara
 
 - **Smoke sensor v21**
-  - https://github.com/Koenkk/zigbee-OTA/issues/938 
+  - https://github.com/Koenkk/zigbee-OTA/issues/938
   - alarm stops after 1 beep
 
 ### SONOFF
