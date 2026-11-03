@@ -11767,5 +11767,44 @@
     "sha512": "b706141dadf2bcc029e6612df317f9db67d531cb79d06399b7dfbcd7b6005afa1e4db849036d18cda1b8880a2c20337d96672ece46f3cc59713b21d98019b114",
     "otaHeaderString": "ROUTERX-----JN5180--ENCRYPTED000",
     "modelId": "lumi.switch.l1acn1"
+  },
+  {
+    "fileName": "20220421182547_OTA_lumi.lunar.acn01_0.0.0_0024_20220418_754691.ota",
+    "fileVersion": 24,
+    "fileSize": 289194,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.lunar.acn01/20220421182547_OTA_lumi.lunar.acn01_0.0.0_0024_20220418_754691.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20220421182547_OTA_lumi.lunar.acn01_0.0.0_0024_20220418_754691.ota",
+    "imageType": 4744,
+    "manufacturerCode": 4447,
+    "sha512": "f8c655e4cf8bbdf0e2e1462a344aa17c5857214762909564bbb638e4ead4f4c460419258953bbb4d085a0e93e0d8be06c8b4d3fe79a8326c53abaae733e3c75d",
+    "otaHeaderString": "\u0014OTA_lumi.lunar.acn01",
+    "modelId": "lumi.lunar.acn01",
+    "releaseNotes": "1. The time of data reporting is changed from 0 time zone to local time (to adapt to overseas environment)\n2. Optimize the rejoin mechanism"
+  },
+  {
+    "fileName": "20221111145001_OTA_lumi.flood.acn001_0.0.0_0009_20221107_3C5564.ota",
+    "fileVersion": 9,
+    "fileSize": 163152,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.flood.acn001/20221111145001_OTA_lumi.flood.acn001_0.0.0_0009_20221107_3C5564.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20221111145001_OTA_lumi.flood.acn001_0.0.0_0009_20221107_3C5564.ota",
+    "imageType": 10763,
+    "manufacturerCode": 4447,
+    "sha512": "72d1c74ab251aef7d7ab1f84f7784c43d49eb4f18a0b45746c7d3374b113f5e9f389c44d7ecf54afb1d095d86da7f9720e8c8b85c25d3dcc07c6e66d916bf334",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "modelId": "lumi.flood.acn001",
+    "releaseNotes": "1.Fix known problems"
+  },
+  {
+    "fileName": "20241111195049_OTA_lumi.airer.acn001_0.0.0_0629_20241025_F560CE.ota",
+    "fileVersion": 1565,
+    "fileSize": 418484,
+    "originalUrl": "https://cdn.aqara.com/cdn/opencloud-product/mainland/product-firmware/prd/lumi.airer.acn001/20241111195049_OTA_lumi.airer.acn001_0.0.0_0629_20241025_F560CE.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20241111195049_OTA_lumi.airer.acn001_0.0.0_0629_20241025_F560CE.ota",
+    "imageType": 129,
+    "manufacturerCode": 4447,
+    "sha512": "dc910601433dbc01f166481ff97e7f1f1fb48103d23c09f133bb35ea148b8597168dca9be7b2dd8132513f88b32abb7fcb1ba065cd7dd9f468a86f4cb5c4ba74",
+    "otaHeaderString": "Aqara OTA Image",
+    "modelId": "lumi.airer.acn001",
+    "releaseNotes": "1. Fix known problems."
   }
 ]
