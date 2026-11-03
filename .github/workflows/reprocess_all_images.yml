@@ -3,7 +3,7 @@ on:
     workflow_dispatch:
         inputs:
             remove_not_in_manifest:
-                description: 'Remove images not found in manifest (if false, will be moved to separate dir instead).'
+                description: "Remove images not found in manifest (if false, will be moved to separate dir instead)."
                 required: true
                 default: false
                 type: boolean

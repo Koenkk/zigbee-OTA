@@ -3,7 +3,7 @@ on:
     pull_request:
         types: [opened, synchronize, reopened, edited]
         branches: [master]
-        paths: ['images/**']
+        paths: ["images/**"]
 
 jobs:
     check-ota-pr:

@@ -2,7 +2,7 @@ name: Update manifests
 on:
     push:
         branches: [master]
-        paths: ['images/**']
+        paths: ["images/**"]
 
 permissions:
     contents: write

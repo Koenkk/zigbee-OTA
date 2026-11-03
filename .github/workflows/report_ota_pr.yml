@@ -1,7 +1,7 @@
 name: Report OTA PR
 on:
     workflow_run:
-        workflows: ['Check OTA PR']
+        workflows: ["Check OTA PR"]
         types:
             - completed
 

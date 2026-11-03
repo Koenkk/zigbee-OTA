@@ -3,9 +3,9 @@ on:
     workflow_dispatch:
         inputs:
             manufacturers:
-                description: 'Only trigger overwrite for given manufacturers (CSV, no space).'
+                description: "Only trigger overwrite for given manufacturers (CSV, no space)."
                 required: false
-                default: ''
+                default: ""
                 type: string
 
 permissions:
