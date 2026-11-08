@@ -1326,12 +1326,6 @@
     "zigbeeStackVersion": "ZigbeePro"
   },
   {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20221213122302_OTA_aqara.feeder.acn001_0.0.0_3833_20220914_03DFD1.ota",
-    "stack": "EmberZNet",
-    "stackDetails": "GBL",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20230110152017_OTA_lumi.sensor_ht.agl02_0.0.0_0029_20230109_88D8F4.ota",
     "stack": "Unknown",
     "stackDetails": "",
@@ -4284,12 +4278,6 @@
     "zigbeeStackVersion": "ZigbeePro"
   },
   {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Legrand/1021-000f-004745ff-NLL.zigbee",
-    "stack": "Unknown",
-    "stackDetails": "",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20230510105212_OTA_aqara.toilet.acn002_0.0.0_1233_20230505_35594D.ota",
     "stack": "Unknown",
     "stackDetails": "",
@@ -4443,12 +4431,6 @@
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20231222195251_lumi.light.acn025_0.0.0_0041_20231220_20F906.ota",
     "stack": "EmberZNet",
     "stackDetails": "GBL",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20250801110500_OTA_lumi.light.acn040_0.0.0_0024_20250728_C35D9C.ota",
-    "stack": "Unknown",
-    "stackDetails": "",
     "zigbeeStackVersion": "ZigbeePro"
   },
   {
@@ -4650,12 +4632,6 @@
     "zigbeeStackVersion": "ZigbeePro"
   },
   {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20260615192607_OTA_lumi.vibration.agl002_0.0.0_0024_20260615_4A41B3.ota",
-    "stack": "Unknown",
-    "stackDetails": "",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Smart_Outdoor_Repeater_OTA_4_1.00.04.ota",
     "stack": "Unknown",
     "stackDetails": "",
@@ -4777,72 +4753,6 @@
   },
   {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/NodOn/128b-0022-0011-nodon-SEM_4_1_00_v17.zigbee",
-    "stack": "EmberZNet",
-    "stackDetails": "GBL",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-0112-01002E00-ConfLightBLE-Lamps-EFR32MG13.zigbee",
-    "stack": "EmberZNet",
-    "stackDetails": "GBL",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-0114-01002A00-ConfLightBLE-Lamps-EFR32MG21.zigbee",
-    "stack": "EmberZNet",
-    "stackDetails": "GBL",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-0115-01001700-SmartPlug-EFR32MG13.zigbee",
-    "stack": "EmberZNet",
-    "stackDetails": "GBL",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-011A-01001200-SmartPlug-EFR32MG21.zigbee",
-    "stack": "EmberZNet",
-    "stackDetails": "GBL",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-011D-01002902-ConfLight-ModuLumV2-EFR32MG13.zigbee",
-    "stack": "EmberZNet",
-    "stackDetails": "GBL",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-011E-01002604-ConfLight-PortableV2-EFR32MG13.zigbee",
-    "stack": "EmberZNet",
-    "stackDetails": "GBL",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-011F-01002800-ConfLightBLE-ModuLumV3-EFR32MG21.zigbee",
-    "stack": "EmberZNet",
-    "stackDetails": "GBL",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-0120-01002600-ConfLightBLE-PortableV3-EFR32MG21.zigbee",
-    "stack": "EmberZNet",
-    "stackDetails": "GBL",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-0123-01000F00-PixelLumXL-EFR32MG21.zigbee",
-    "stack": "EmberZNet",
-    "stackDetails": "GBL",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-0127-01001000-MSD-EFR32MG21.zigbee",
-    "stack": "EmberZNet",
-    "stackDetails": "GBL",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-0128-01000D00-Chime-EFR32MG21.zigbee",
     "stack": "EmberZNet",
     "stackDetails": "GBL",
     "zigbeeStackVersion": "ZigbeePro"
@@ -4982,18 +4892,6 @@
   {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/SN-TLSR8656-02DR2-01-v1.0.5.ota",
     "stack": "Unknown",
-    "stackDetails": "",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-021d-10163001-qs_zigbee_sec02_zrd.zigbee",
-    "stack": "Telink",
-    "stackDetails": "",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-021e-10113001-qs_zigbee_sec01_zrd.zigbee",
-    "stack": "Telink",
     "stackDetails": "",
     "zigbeeStackVersion": "ZigbeePro"
   },
@@ -5277,12 +5175,6 @@
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/SN-TLSR8656-BASICZB1GSP-01-v1.3.3.ota",
     "stack": "Telink",
     "stackDetails": "(fallback matching)",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20260916093205_OTA_lumi.models.4447_8295_0.0.0_6060_20260915_8F0793.ota",
-    "stack": "Unknown",
-    "stackDetails": "",
     "zigbeeStackVersion": "ZigbeePro"
   },
   {
@@ -5983,6 +5875,324 @@
   },
   {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/SN-MG21-MINIZB1GSP-01_v1.2.7.ota",
+    "stack": "EmberZNet",
+    "stackDetails": "GBL",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Legrand/1021-000f-004845ff-NLL.zigbee",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-021d-10173001-qs_zigbee_sec02_zrd.zigbee",
+    "stack": "Telink",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-021e-10123001-qs_zigbee_sec01_zrd.zigbee",
+    "stack": "Telink",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20260907102538_OTA_lumi.vibration.agl002_0.0.0_0025_20260904_0832B8.ota",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20260915111536_OTA_aqara.feeder.acn001_0.0.0_3838_20260915_5B9048.ota",
+    "stack": "EmberZNet",
+    "stackDetails": "GBL",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20260928111158_OTA_lumi.light.acn040_0.0.0_0026_20260920_008BD8.ota",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20261026154241_OTA_lumi.models.4447_8295_0.0.0_6263_20261026_C64283.ota",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20251211115331_OTA_lumi.plug.aeu002_0.0.0_0006_20251209_8ECC9C.ota",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20260318103748_OTA_lumi.plug.aeu004_0.0.0_0021_20260317_43059A.ota",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20260318104128_OTA_lumi.plug.aeu005_0.0.0_0021_20260317_43059A.ota",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20260318104331_OTA_lumi.plug.aeu008_0.0.0_0021_20260317_43059A.ota",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20260318104858_OTA_lumi.plug.aeu009_0.0.0_0021_20260317_43059A.ota",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20260324115729_OTA_lumi.plug.aeu007_0.0.0_0021_20260317_43059A.ota",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20260324120054_OTA_lumi.plug.aeu006_0.0.0_0021_20260317_43059A.ota",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20251020142618_OTA_lumi.switch.aus003_0.0.0_2327_20251014_A354A9.ota",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20251021151105_OTA_lumi.switch.aus002_0.0.0_2327_20251014_A354A9.ota",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20251021151209_OTA_lumi.switch.aus001_0.0.0_2327_20251014_A354A9.ota",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20251210143939_lumi.switch.acn051_0.0.0_1345_20251210_46776C.ota",
+    "stack": "EmberZNet",
+    "stackDetails": "GBL",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20251210144325_lumi.switch.aeu001_0.0.0_1345_20251210_46776C.ota",
+    "stack": "EmberZNet",
+    "stackDetails": "GBL",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20260409155233_OTA_lumi.switch.agl031_0.0.0_2531_20260409_EB985A.ota",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20260409160241_OTA_lumi.switch.agl032_0.0.0_2531_20260409_EB985A.ota",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20260803180109_OTA_lumi.switch.l3acn1_0.0.0_1437_20260731_65E799.ota",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20260803181341_OTA_lumi.switch.l2acn1_0.0.0_1437_20260731_3C40F5.ota",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20260803181945_OTA_lumi.switch.l1acn1_0.0.0_1437_20260731_FE4A32.ota",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20220421182547_OTA_lumi.lunar.acn01_0.0.0_0024_20220418_754691.ota",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20221111145001_OTA_lumi.flood.acn001_0.0.0_0009_20221107_3C5564.ota",
+    "stack": "Telink",
+    "stackDetails": "(fallback matching)",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20241111195049_OTA_lumi.airer.acn001_0.0.0_0629_20241025_F560CE.ota",
+    "stack": "EmberZNet",
+    "stackDetails": "GBL",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20240708120431_lumi.dimmer.acn002_0.0.0_0025_079B33.ota",
+    "stack": "EmberZNet",
+    "stackDetails": "GBL",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20241111110212_lumi.light.acn033_0.0.0_0028_20240913_2FE600.ota",
+    "stack": "EmberZNet",
+    "stackDetails": "GBL",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20250718101340_OTA_lumi.light.acn037_0.0.0_0024_20250717_290BC9.ota",
+    "stack": "EmberZNet",
+    "stackDetails": "GBL",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20251125100237_OTA_lumi.light.agl007_0.0.0_0025_20251121_B45D6E.ota",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20260117142715_OTA_lumi.light.acn041_0.0.0_7254_20260117_79877E.ota",
+    "stack": "EmberZNet",
+    "stackDetails": "GBL",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20260806114638_OTA_lumi.models.4447_6209_0.0.0_0020_20260805_FAFD4D.ota",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20260810183740_OTA_lumi.models.4447_6208_0.0.0_0016_20260810_F561F3.ota",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20261012100635_OTA_lumi.models.4447_6207_0.0.0_0034_20261010_8F62E0.ota",
+    "stack": "ZBOSS",
+    "stackDetails": "Nordic (fuzzy matching)",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20261012104612_OTA_lumi.models.4447_6212_0.0.0_0034_20261010_8F62E0.ota",
+    "stack": "ZBOSS",
+    "stackDetails": "Nordic (fuzzy matching)",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20261022185149_OTA_lumi.models.4447_6219_0.0.0_0015_20261022_E08797.ota",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20261022185810_OTA_lumi.models.4447_6218_0.0.0_0015_20261022_989360.ota",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20260428143526_OTA_lumi.curtain.fngl02_0.0.0_0032_20260427_304749.ota",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20260428143853_OTA_lumi.curtain.fngl01_0.0.0_0032_20260427_304749.ota",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20260723150440_OTA_lumi.models.4447_14469_0.0.0_2929_20260722_5E0AC1.ota",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20260907111319_OTA_lumi.models.4447_14470_0.0.0_0018_20260904_D726F5.ota",
+    "stack": "Unknown",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-0112-01002F00-ConfLightBLE-Lamps-EFR32MG13.zigbee",
+    "stack": "EmberZNet",
+    "stackDetails": "GBL",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-0114-01002B00-ConfLightBLE-Lamps-EFR32MG21.zigbee",
+    "stack": "EmberZNet",
+    "stackDetails": "GBL",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-0115-01001800-SmartPlug-EFR32MG13.zigbee",
+    "stack": "EmberZNet",
+    "stackDetails": "GBL",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-011A-01001300-SmartPlug-EFR32MG21.zigbee",
+    "stack": "EmberZNet",
+    "stackDetails": "GBL",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-011D-01002A00-ConfLight-ModuLumV2-EFR32MG13.zigbee",
+    "stack": "EmberZNet",
+    "stackDetails": "GBL",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-011E-01002700-ConfLight-PortableV2-EFR32MG13.zigbee",
+    "stack": "EmberZNet",
+    "stackDetails": "GBL",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-011F-01002900-ConfLightBLE-ModuLumV3-EFR32MG21.zigbee",
+    "stack": "EmberZNet",
+    "stackDetails": "GBL",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-0120-01002700-ConfLightBLE-PortableV3-EFR32MG21.zigbee",
+    "stack": "EmberZNet",
+    "stackDetails": "GBL",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-0123-01001000-PixelLumXL-EFR32MG21.zigbee",
+    "stack": "EmberZNet",
+    "stackDetails": "GBL",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-0127-01001100-MSD-EFR32MG21.zigbee",
+    "stack": "EmberZNet",
+    "stackDetails": "GBL",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-0128-01000E00-Chime-EFR32MG21.zigbee",
     "stack": "EmberZNet",
     "stackDetails": "GBL",
     "zigbeeStackVersion": "ZigbeePro"
