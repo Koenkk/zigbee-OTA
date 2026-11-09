@@ -7521,16 +7521,6 @@
     "releaseNotes": "Version: 8.14"
   },
   {
-    "fileName": "mini-zb2gs_v1.0.7.ota",
-    "fileVersion": 4103,
-    "fileSize": 297974,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/mini-zb2gs_v1.0.7.ota",
-    "imageType": 68,
-    "manufacturerCode": 4742,
-    "sha512": "7389631847f6b78573a14ac370ab19cf760c0efc3727cb1aa30664e9c18064d707cd6224a019f48032614f49bee84f2b1cc34ade46793341f31fdc32bcb923cf",
-    "otaHeaderString": "ota-file-test"
-  },
-  {
     "fileName": "TQM300Z_OTA_ENC_V10_ENC.ota",
     "fileVersion": 10,
     "fileSize": 194814,
@@ -11989,5 +11979,16 @@
     "sha512": "802b0854c8ace1b54aa517ab6f9b272ba8f1276a2277aeee73d20543a32baad5fcd065e38793821546b8c2f91f2133a5347d5f29fb45f777d06a6e66bb87ab8f",
     "otaHeaderString": "",
     "releaseNotes": "Version: 14.0"
+  },
+  {
+    "fileName": "mini-zb2gs_v1.1.2.ota",
+    "fileVersion": 4354,
+    "fileSize": 303352,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/mini-zb2gs_v1.1.2.ota",
+    "imageType": 68,
+    "manufacturerCode": 4742,
+    "sha512": "87cce623f62b3114518042d4c9a6d932e3e08a10996e377b1e73cacf643d0e8d408353080bcdeefe526190ebb874da0ec005737be118f77fd3f8c340cc53216b",
+    "otaHeaderString": "ota-file-test",
+    "releaseNotes": "1. Added support for Scenes, Groups, and On with Timed Off.\n2. Improved Zigbee Binding functionality, supporting both binding source and target roles.\n3. Added double-click and long-press event reporting in Relay Detach mode, and separate Follow ON/OFF event reporting.\n4. Improved dual-channel operation response and external switch reliability.\n5. Improved connection stability and external switch pairing mechanism."
   }
 ]
