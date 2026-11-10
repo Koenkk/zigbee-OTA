@@ -2661,17 +2661,6 @@
     "otaHeaderString": "Telink OTA Sample Usage"
   },
   {
-    "fileName": "VZM32-SN_0.10.ota",
-    "fileVersion": 16973834,
-    "fileSize": 227210,
-    "originalUrl": "https://files.inovelli.com/firmware/VZM32-SN/Beta/0.10/VZM32-SN_0.10.ota",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Inovelli/VZM32-SN_0.10.ota",
-    "imageType": 259,
-    "manufacturerCode": 4655,
-    "sha512": "a766719e1f13893adb17ce8aec13d198ce8371a0bb740203515524f972305e8f7cd2b4904b1a50bae9664b44f87d7132305a3348fd0e4481049439a71c19bf89",
-    "otaHeaderString": "vzm32-sn_mmWave"
-  },
-  {
     "fileName": "20230704151031_OTA_lumi.curtain.vagl02_V41_20230703_563B.ota",
     "fileVersion": 41,
     "fileSize": 285742,
@@ -4225,5 +4214,16 @@
     "manufacturerCode": 4742,
     "sha512": "7389631847f6b78573a14ac370ab19cf760c0efc3727cb1aa30664e9c18064d707cd6224a019f48032614f49bee84f2b1cc34ade46793341f31fdc32bcb923cf",
     "otaHeaderString": "ota-file-test"
+  },
+  {
+    "fileName": "VZM32-SN_1.02.ota",
+    "fileVersion": 16974082,
+    "fileSize": 227442,
+    "originalUrl": "https://files.inovelli.com/firmware/VZM32-SN/Production/1.02/VZM32-SN_1.02.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Inovelli/VZM32-SN_1.02.ota",
+    "imageType": 259,
+    "manufacturerCode": 4655,
+    "sha512": "c203b8b462a2d5b71be3d760ea5ef4bd4ce4df051e3816775ec1f5386f1451e40f527109378208a183da8ad821a38e80ddacc71ab8e3bf3d79ca73062cad4ba2",
+    "otaHeaderString": "vzm32-sn_mmWave"
   }
 ]

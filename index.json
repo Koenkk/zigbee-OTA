@@ -8265,17 +8265,6 @@
     "otaHeaderString": "Telink OTA Sample Usage"
   },
   {
-    "fileName": "VZM32-SN_1.02.ota",
-    "fileVersion": 16974082,
-    "fileSize": 227442,
-    "originalUrl": "https://files.inovelli.com/firmware/VZM32-SN/Production/1.02/VZM32-SN_1.02.ota",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Inovelli/VZM32-SN_1.02.ota",
-    "imageType": 259,
-    "manufacturerCode": 4655,
-    "sha512": "c203b8b462a2d5b71be3d760ea5ef4bd4ce4df051e3816775ec1f5386f1451e40f527109378208a183da8ad821a38e80ddacc71ab8e3bf3d79ca73062cad4ba2",
-    "otaHeaderString": "vzm32-sn_mmWave"
-  },
-  {
     "fileName": "20251111112800_lumi.airrtc.aeu001_0.0.0_1030_20251110_525351.ota",
     "fileVersion": 2590,
     "fileSize": 681962,
@@ -11990,5 +11979,16 @@
     "sha512": "87cce623f62b3114518042d4c9a6d932e3e08a10996e377b1e73cacf643d0e8d408353080bcdeefe526190ebb874da0ec005737be118f77fd3f8c340cc53216b",
     "otaHeaderString": "ota-file-test",
     "releaseNotes": "1. Added support for Scenes, Groups, and On with Timed Off.\n2. Improved Zigbee Binding functionality, supporting both binding source and target roles.\n3. Added double-click and long-press event reporting in Relay Detach mode, and separate Follow ON/OFF event reporting.\n4. Improved dual-channel operation response and external switch reliability.\n5. Improved connection stability and external switch pairing mechanism."
+  },
+  {
+    "fileName": "VZM32-SN_1.03.ota",
+    "fileVersion": 16974083,
+    "fileSize": 227782,
+    "originalUrl": "https://files.inovelli.com/firmware/VZM32-SN/Production/1.03/VZM32-SN_1.03.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Inovelli/VZM32-SN_1.03.ota",
+    "imageType": 259,
+    "manufacturerCode": 4655,
+    "sha512": "ad65c23413182a9b0021e69851cc2a1e70be11464800aa561fc77bf5e0497dddf2ce2bcd6a9edd33f50b286f83c427cebdf81a3daf81bab278c28d2e1d2e2aed",
+    "otaHeaderString": "vzm32-sn_mmWave"
   }
 ]
