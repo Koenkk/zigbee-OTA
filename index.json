@@ -9373,17 +9373,6 @@
     "releaseNotes": "1.Fixed several known issues.\n\n2.Fix measurement precision issues"
   },
   {
-    "fileName": "SN-TLSR8258-TRV-01-v1.1.0.ota",
-    "fileVersion": 4352,
-    "fileSize": 289792,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/SN-TLSR8258-TRV-01-v1.1.0.ota",
-    "imageType": 900,
-    "manufacturerCode": 4742,
-    "sha512": "856af383a800b4c486c82ce4975fc594fa32330fab8741f6750fbda1c7e78711a07d6e7822da16754cc76828e5911485e6b3c55e659ba2ee035d9c5d9cc36bb4",
-    "otaHeaderString": "Telink OTA Sample Usage",
-    "releaseNotes": "1. Fixed several known issues. \n2. Improved device stability and reliability."
-  },
-  {
     "fileName": "1166-0109-19363685-rb262-1.9.54.ota",
     "fileVersion": 422983301,
     "fileSize": 280402,
@@ -11990,5 +11979,16 @@
     "manufacturerCode": 4655,
     "sha512": "ad65c23413182a9b0021e69851cc2a1e70be11464800aa561fc77bf5e0497dddf2ce2bcd6a9edd33f50b286f83c427cebdf81a3daf81bab278c28d2e1d2e2aed",
     "otaHeaderString": "vzm32-sn_mmWave"
+  },
+  {
+    "fileName": "SN-TLSR8258-TRV-01-v1.1.3.ota",
+    "fileVersion": 4355,
+    "fileSize": 295856,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/SN-TLSR8258-TRV-01-v1.1.3.ota",
+    "imageType": 900,
+    "manufacturerCode": 4742,
+    "sha512": "b3b0c0c118b4ebf9fe4a6063e5bc48e3f126ce574d2c07fac0a54ee234814254f085135e3d5a1ee95773b0ba551aadad42204bc2c423923d97b16075879f83b1",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "releaseNotes": "1. Improved heating percentage calculations for more accurate historical records.\n2. Optimised Zigbee reconnection to reduce waiting times after prolonged disconnections.\n3. Improved error recovery to enhance device stability."
   }
 ]

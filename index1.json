@@ -4225,5 +4225,16 @@
     "manufacturerCode": 4655,
     "sha512": "c203b8b462a2d5b71be3d760ea5ef4bd4ce4df051e3816775ec1f5386f1451e40f527109378208a183da8ad821a38e80ddacc71ab8e3bf3d79ca73062cad4ba2",
     "otaHeaderString": "vzm32-sn_mmWave"
+  },
+  {
+    "fileName": "SN-TLSR8258-TRV-01-v1.1.0.ota",
+    "fileVersion": 4352,
+    "fileSize": 289792,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Sonoff/SN-TLSR8258-TRV-01-v1.1.0.ota",
+    "imageType": 900,
+    "manufacturerCode": 4742,
+    "sha512": "856af383a800b4c486c82ce4975fc594fa32330fab8741f6750fbda1c7e78711a07d6e7822da16754cc76828e5911485e6b3c55e659ba2ee035d9c5d9cc36bb4",
+    "otaHeaderString": "Telink OTA Sample Usage",
+    "releaseNotes": "1. Fixed several known issues. \n2. Improved device stability and reliability."
   }
 ]
