@@ -11306,32 +11306,6 @@
     "minFileVersion": 458752
   },
   {
-    "fileName": "6565-021d-10173001-qs_zigbee_sec02_zrd.zigbee",
-    "fileVersion": 269955073,
-    "fileSize": 210930,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-021d-10173001-qs_zigbee_sec02_zrd.zigbee",
-    "imageType": 541,
-    "manufacturerCode": 25957,
-    "sha512": "0d7bc38a33ea643834b9788522affd2d27d3b6cdc0dcb7541d3cd1eb303764111cb9e20feeed83bb1512dc9372eb93a6e6ff72fe4f74c523378db0d95d964f3a",
-    "otaHeaderString": "Slacky-DIY OTA",
-    "manufacturerName": [
-      "Svetomaniya"
-    ]
-  },
-  {
-    "fileName": "6565-021e-10123001-qs_zigbee_sec01_zrd.zigbee",
-    "fileVersion": 269627393,
-    "fileSize": 207858,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-021e-10123001-qs_zigbee_sec01_zrd.zigbee",
-    "imageType": 542,
-    "manufacturerCode": 25957,
-    "sha512": "221e986af5dc6143d27abf6784855410d77f03fb0ddc6c365bf7e14e952e0bcdbecd8daeaba5a9510f9766e5979b2baddf3222cef17992c993ca88d4f6abec62",
-    "otaHeaderString": "Slacky-DIY OTA",
-    "manufacturerName": [
-      "Svetomaniya"
-    ]
-  },
-  {
     "fileName": "20260907102538_OTA_lumi.vibration.agl002_0.0.0_0025_20260904_0832B8.ota",
     "fileVersion": 25,
     "fileSize": 607582,
@@ -11990,5 +11964,31 @@
     "sha512": "b3b0c0c118b4ebf9fe4a6063e5bc48e3f126ce574d2c07fac0a54ee234814254f085135e3d5a1ee95773b0ba551aadad42204bc2c423923d97b16075879f83b1",
     "otaHeaderString": "Telink OTA Sample Usage",
     "releaseNotes": "1. Improved heating percentage calculations for more accurate historical records.\n2. Optimised Zigbee reconnection to reduce waiting times after prolonged disconnections.\n3. Improved error recovery to enhance device stability."
+  },
+  {
+    "fileName": "6565-021d-10183001-qs_zigbee_sec02_zrd.zigbee",
+    "fileVersion": 270020609,
+    "fileSize": 210914,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-021d-10183001-qs_zigbee_sec02_zrd.zigbee",
+    "imageType": 541,
+    "manufacturerCode": 25957,
+    "sha512": "478031b5e81cf2cc8557f363b40112108906891b872771d1d1097f0baee8d35332385705b08c7ad3cb1ed4829f510fed7a7a6d7162d11e59501d42100fec9dd4",
+    "otaHeaderString": "Slacky-DIY OTA",
+    "manufacturerName": [
+      "Svetomaniya"
+    ]
+  },
+  {
+    "fileName": "6565-021e-10133001-qs_zigbee_sec01_zrd.zigbee",
+    "fileVersion": 269692929,
+    "fileSize": 207858,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-021e-10133001-qs_zigbee_sec01_zrd.zigbee",
+    "imageType": 542,
+    "manufacturerCode": 25957,
+    "sha512": "47be79ba083f24284a706d53713ad59d13bacc7e5618e2c9a09ba20f9aa169f0daa356df45325500fe6b9b12730cb0c6031c3ec2174166752cf77cc72fa02a3c",
+    "otaHeaderString": "Slacky-DIY OTA",
+    "manufacturerName": [
+      "Svetomaniya"
+    ]
   }
 ]
