@@ -3936,12 +3936,6 @@
     "zigbeeStackVersion": "ZigbeePro"
   },
   {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/mini-zb2gs_v1.0.7.ota",
-    "stack": "EmberZNet",
-    "stackDetails": "GBL",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Jennic/TQM300Z_OTA_ENC_V10_ENC.ota",
     "stack": "Unknown",
     "stackDetails": "",
@@ -4341,12 +4335,6 @@
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/ThirdReality/Radar_PROD_OTA_V16_v1.00.16.ota",
     "stack": "Telink",
     "stackDetails": "",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Inovelli/VZM32-SN_1.02.ota",
-    "stack": "EmberZNet",
-    "stackDetails": "GBL",
     "zigbeeStackVersion": "ZigbeePro"
   },
   {
@@ -4897,12 +4885,6 @@
   },
   {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/SN-TLSR8656-S60-01-v2.1.3.ota",
-    "stack": "Telink",
-    "stackDetails": "(fallback matching)",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/SN-TLSR8258-TRV-01-v1.1.0.ota",
     "stack": "Telink",
     "stackDetails": "(fallback matching)",
     "zigbeeStackVersion": "ZigbeePro"
@@ -6195,6 +6177,24 @@
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-0128-01000E00-Chime-EFR32MG21.zigbee",
     "stack": "EmberZNet",
     "stackDetails": "GBL",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/mini-zb2gs_v1.1.2.ota",
+    "stack": "EmberZNet",
+    "stackDetails": "GBL",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Inovelli/VZM32-SN_1.03.ota",
+    "stack": "EmberZNet",
+    "stackDetails": "GBL",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/SN-TLSR8258-TRV-01-v1.1.3.ota",
+    "stack": "Telink",
+    "stackDetails": "(fallback matching)",
     "zigbeeStackVersion": "ZigbeePro"
   }
 ]
