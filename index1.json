@@ -4236,5 +4236,25 @@
     "sha512": "856af383a800b4c486c82ce4975fc594fa32330fab8741f6750fbda1c7e78711a07d6e7822da16754cc76828e5911485e6b3c55e659ba2ee035d9c5d9cc36bb4",
     "otaHeaderString": "Telink OTA Sample Usage",
     "releaseNotes": "1. Fixed several known issues. \n2. Improved device stability and reliability."
+  },
+  {
+    "fileName": "1166-01b0-19363685-rb282c-1.9.54.ota",
+    "fileVersion": 422983301,
+    "fileSize": 301010,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Innr/1166-01b0-19363685-rb282c-1.9.54.ota",
+    "imageType": 432,
+    "manufacturerCode": 4454,
+    "sha512": "eb1def246a108017c077d7e70ed48f8f52d247fc5d584f9dda98abd2728dd2e3c036d660f3d790aa5251ca12996b921555844dcfb636b98c864d924a7ad8e9d2",
+    "otaHeaderString": "Telink OTA Sample Usage"
+  },
+  {
+    "fileName": "1166-02b0-19363685-bb282c-1.9.54.ota",
+    "fileVersion": 422983301,
+    "fileSize": 301010,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Innr/1166-02b0-19363685-bb282c-1.9.54.ota",
+    "imageType": 688,
+    "manufacturerCode": 4454,
+    "sha512": "770c6db07f18a5c2c7553a070619a58057161a750d92b9d3377f3ba7643197aa4d3c0f8574ec9514e22c5aa2dc1c09ef3008070abf5608d531ba1d130fd8ff08",
+    "otaHeaderString": "Telink OTA Sample Usage"
   }
 ]
