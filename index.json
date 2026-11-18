@@ -2554,6 +2554,7 @@
     "manufacturerCode": 4447,
     "sha512": "25007f79ccb030715cd9fa1a0acd447554aa1b8c0627116b0ae06e5135e6c5922e64eace80452e9a05423487d499df1fa0a23a30aead31fac2f15c51f9d82895",
     "otaHeaderString": "Aqara OTA Image",
+    "maxFileVersion": 6682,
     "modelId": "lumi.light.acn132"
   },
   {
