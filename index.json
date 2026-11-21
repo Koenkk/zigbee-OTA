@@ -7572,16 +7572,6 @@
     "otaHeaderString": "                                "
   },
   {
-    "fileName": "trvzb_v1.4.4.ota",
-    "fileVersion": 5124,
-    "fileSize": 332220,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/trvzb_v1.4.4.ota",
-    "imageType": 8199,
-    "manufacturerCode": 4742,
-    "sha512": "c7640e2a238ab9807b77d36abc4b9e58d64c99a8fe8ac8d6246f48760bc85a2aec5c446630c94dd2e85fe3fe088011eccc992e543183b74ede7e061ae6f324b3",
-    "otaHeaderString": "vers:00001404,00001301\n"
-  },
-  {
     "fileName": "DOT_IT_ZBD_G01-0x1189-0x00FC-0x013E8000-MF_DIS-DOWM_DIS-20251212105551-3224010153640-lzma-encrypted.ota",
     "fileVersion": 20873216,
     "fileSize": 371006,
@@ -12003,5 +11993,16 @@
     "otaHeaderString": "ota-file-test",
     "modelId": "MINI-ZBRBS",
     "releaseNotes": "1. Optimized the Auto Calibration algorithm to improve the calibration success rate.\n2. Added support for Single Momentary Switch mode.\n3. Added support for activating pairing mode via the external switch after the device has been offline for more than 2 minutes.\n4. Added support for triggering Auto Calibration via the external switch in Pulse Trigger mode.\n5. Optimized the compensation time setting for Manual Calibration.\n6. Fixed known issues and improved overall system stability."
+  },
+  {
+    "fileName": "trvzb_v1.4.9.ota",
+    "fileVersion": 5129,
+    "fileSize": 332220,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/trvzb_v1.4.9.ota",
+    "imageType": 8199,
+    "manufacturerCode": 4742,
+    "sha512": "884ae0dfcc0404d8ffe1de107a52c78f6d6a9539588afc5a954ab587cd08fc6c912d1461d6ab35742315c9cfb8c9e2430f059b282446a46593e1efb7c460845a",
+    "otaHeaderString": "vers:00001409,00001301\n",
+    "releaseNotes": "1. Fixed an issue where heating switched on or off at temperatures that did not match the configured hysteresis thresholds.\n2. Fixed an issue in Smart Adaptive Mode where the valve only switched between fully open and fully closed."
   }
 ]
