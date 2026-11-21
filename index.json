@@ -7185,17 +7185,6 @@
     "otaHeaderString": "ota-file-test"
   },
   {
-    "fileName": "zigbeeminil2_100E_stand_ota_file.ota",
-    "fileVersion": 4110,
-    "fileSize": 259018,
-    "originalUrl": "https://zigbee-ota.sonoff.tech/releases/zigbeeminil2_100E_stand_ota_file.ota",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/zigbeeminil2_100E_stand_ota_file.ota",
-    "imageType": 4,
-    "manufacturerCode": 4742,
-    "sha512": "c80d29e84e3019a84f7a3bdb3e84a3b462e2516c7de5120cdbb68a0e474fcb8b1c5d8eb79b204ad2d9c5af2bed4e544588b192b7884d493a11f82d4ac8625177",
-    "otaHeaderString": "ota-file-test"
-  },
-  {
     "fileName": "86-0001-00001101.zigbee",
     "fileVersion": 4353,
     "fileSize": 131086,
@@ -12004,5 +11993,16 @@
     "sha512": "884ae0dfcc0404d8ffe1de107a52c78f6d6a9539588afc5a954ab587cd08fc6c912d1461d6ab35742315c9cfb8c9e2430f059b282446a46593e1efb7c460845a",
     "otaHeaderString": "vers:00001409,00001301\n",
     "releaseNotes": "1. Fixed an issue where heating switched on or off at temperatures that did not match the configured hysteresis thresholds.\n2. Fixed an issue in Smart Adaptive Mode where the valve only switched between fully open and fully closed."
+  },
+  {
+    "fileName": "zbminil2-v1.1.2-stand_ota-file.ota",
+    "fileVersion": 4354,
+    "fileSize": 278426,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/zbminil2-v1.1.2-stand_ota-file.ota",
+    "imageType": 4,
+    "manufacturerCode": 4742,
+    "sha512": "3cee3d5eebf6e8eb8e38dcb44b42c2fb3090803c4a906705ac673607684ed0baf58c4cfbc2575abf7901cf1f93623f746d82881f489e867dbc06ec1705da78a4",
+    "otaHeaderString": "ota-file-test",
+    "releaseNotes": "1. Optimized Zigbee signal handling and connection management to reduce unexpected disconnections and improve reconnection speed and reliability.\n2. Added support for configuring the external switch mode via software."
   }
 ]

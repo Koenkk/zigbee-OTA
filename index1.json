@@ -4261,5 +4261,16 @@
     "manufacturerCode": 4742,
     "sha512": "c7640e2a238ab9807b77d36abc4b9e58d64c99a8fe8ac8d6246f48760bc85a2aec5c446630c94dd2e85fe3fe088011eccc992e543183b74ede7e061ae6f324b3",
     "otaHeaderString": "vers:00001404,00001301\n"
+  },
+  {
+    "fileName": "zigbeeminil2_100E_stand_ota_file.ota",
+    "fileVersion": 4110,
+    "fileSize": 259018,
+    "originalUrl": "https://zigbee-ota.sonoff.tech/releases/zigbeeminil2_100E_stand_ota_file.ota",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Sonoff/zigbeeminil2_100E_stand_ota_file.ota",
+    "imageType": 4,
+    "manufacturerCode": 4742,
+    "sha512": "c80d29e84e3019a84f7a3bdb3e84a3b462e2516c7de5120cdbb68a0e474fcb8b1c5d8eb79b204ad2d9c5af2bed4e544588b192b7884d493a11f82d4ac8625177",
+    "otaHeaderString": "ota-file-test"
   }
 ]
