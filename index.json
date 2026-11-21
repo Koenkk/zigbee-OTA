@@ -11991,5 +11991,17 @@
     "manufacturerName": [
       "Svetomaniya"
     ]
+  },
+  {
+    "fileName": "mini-zbrbs_v1.2.1.ota",
+    "fileVersion": 4609,
+    "fileSize": 314954,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/mini-zbrbs_v1.2.1.ota",
+    "imageType": 8204,
+    "manufacturerCode": 4742,
+    "sha512": "256e66d6b812bed58af796e2f86d4a31a01fd0ad6ea75b2181698f38678b0eb7785fd71d09538a13bb9762e93db90dc611e7018b267ab7830a98e8243139dc1f",
+    "otaHeaderString": "ota-file-test",
+    "modelId": "MINI-ZBRBS",
+    "releaseNotes": "1. Optimized the Auto Calibration algorithm to improve the calibration success rate.\n2. Added support for Single Momentary Switch mode.\n3. Added support for activating pairing mode via the external switch after the device has been offline for more than 2 minutes.\n4. Added support for triggering Auto Calibration via the external switch in Pulse Trigger mode.\n5. Optimized the compensation time setting for Manual Calibration.\n6. Fixed known issues and improved overall system stability."
   }
 ]
