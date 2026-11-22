@@ -2338,18 +2338,6 @@
     "otaHeaderString": "FIRMWARE"
   },
   {
-    "fileName": "100B-012F-01000600-Switch-SiMG301.zigbee",
-    "fileVersion": 16778752,
-    "fileSize": 983900,
-    "originalUrl": "https://firmware.meethue.com/storage/100b-12f/16778752/bd83cc05-2945-4314-bf99-b2b0ae0c9055/100B-012F-01000600-Switch-SiMG301.zigbee",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Hue/100B-012F-01000600-Switch-SiMG301.zigbee",
-    "imageType": 303,
-    "manufacturerCode": 4107,
-    "sha512": "485d09cb4566626fbaf8c6253d99aa602d552e07a9bffe618273beee4b77b03bbe656a457c70a8b546738e531fdce41a978b739a3d1f7dc6e9efceaec984db78",
-    "otaHeaderString": "",
-    "releaseNotes": "Version: 6.0"
-  },
-  {
     "fileName": "VZM36_1.01-Beta.ota",
     "fileVersion": 67174657,
     "fileSize": 237938,
@@ -4272,5 +4260,17 @@
     "manufacturerCode": 4742,
     "sha512": "c80d29e84e3019a84f7a3bdb3e84a3b462e2516c7de5120cdbb68a0e474fcb8b1c5d8eb79b204ad2d9c5af2bed4e544588b192b7884d493a11f82d4ac8625177",
     "otaHeaderString": "ota-file-test"
+  },
+  {
+    "fileName": "100B-012F-01000706-Switch-SiMG301.zigbee",
+    "fileVersion": 16779014,
+    "fileSize": 993296,
+    "originalUrl": "https://firmware.meethue.com/storage/100b-12f/16779014/6fa6fc3d-81a1-4042-8ad9-9ce822638efa/100B-012F-01000706-Switch-SiMG301.zigbee",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Hue/100B-012F-01000706-Switch-SiMG301.zigbee",
+    "imageType": 303,
+    "manufacturerCode": 4107,
+    "sha512": "b07bafb93719e1bebc689a1bd3b5b39cbfb6752371e1ad8653c4c40731abcbd0e5959c7eb10864991cbc1cc0e9fc5c54b4411729fdf2eecc98abbce02b59364b",
+    "otaHeaderString": "",
+    "releaseNotes": "Version: 7.6"
   }
 ]

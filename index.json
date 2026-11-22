@@ -7763,18 +7763,6 @@
     "otaHeaderString": "test for custom"
   },
   {
-    "fileName": "100B-012F-01000706-Switch-SiMG301.zigbee",
-    "fileVersion": 16779014,
-    "fileSize": 993296,
-    "originalUrl": "https://firmware.meethue.com/storage/100b-12f/16779014/6fa6fc3d-81a1-4042-8ad9-9ce822638efa/100B-012F-01000706-Switch-SiMG301.zigbee",
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-012F-01000706-Switch-SiMG301.zigbee",
-    "imageType": 303,
-    "manufacturerCode": 4107,
-    "sha512": "b07bafb93719e1bebc689a1bd3b5b39cbfb6752371e1ad8653c4c40731abcbd0e5959c7eb10864991cbc1cc0e9fc5c54b4411729fdf2eecc98abbce02b59364b",
-    "otaHeaderString": "",
-    "releaseNotes": "Version: 7.6"
-  },
-  {
     "fileName": "VZM36_1.02.ota",
     "fileVersion": 67174658,
     "fileSize": 234866,
@@ -12004,5 +11992,17 @@
     "sha512": "3cee3d5eebf6e8eb8e38dcb44b42c2fb3090803c4a906705ac673607684ed0baf58c4cfbc2575abf7901cf1f93623f746d82881f489e867dbc06ec1705da78a4",
     "otaHeaderString": "ota-file-test",
     "releaseNotes": "1. Optimized Zigbee signal handling and connection management to reduce unexpected disconnections and improve reconnection speed and reliability.\n2. Added support for configuring the external switch mode via software."
+  },
+  {
+    "fileName": "100B-012F-01000B0A-Switch-SiMG301.zigbee",
+    "fileVersion": 16780042,
+    "fileSize": 991760,
+    "originalUrl": "https://firmware.meethue.com/storage/100b-12f/16780042/45ae634e-096f-47c3-be73-5a07c348bb46/100B-012F-01000B0A-Switch-SiMG301.zigbee",
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-012F-01000B0A-Switch-SiMG301.zigbee",
+    "imageType": 303,
+    "manufacturerCode": 4107,
+    "sha512": "c89febc96ffea9184529f0290091acd303d7a67a2c34361364d156d0a1e0a2b7ee17dcd43ddd81db57d4d9a06c19ae8952e1ef90f7715453ef516a5ec8a9c7b8",
+    "otaHeaderString": "",
+    "releaseNotes": "Version: 11.10"
   }
 ]

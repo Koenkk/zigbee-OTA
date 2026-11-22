@@ -3774,12 +3774,6 @@
     "zigbeeStackVersion": "ZigbeePro"
   },
   {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/zigbeeminil2_100E_stand_ota_file.ota",
-    "stack": "EmberZNet",
-    "stackDetails": "GBL",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/86-0001-00001101.zigbee",
     "stack": "zStack",
     "stackDetails": "CC13x2R1",
@@ -3966,12 +3960,6 @@
     "zigbeeStackVersion": "ZigbeePro"
   },
   {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/trvzb_v1.4.4.ota",
-    "stack": "EmberZNet",
-    "stackDetails": "GBL",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/LEDVANCE/DOT_IT_ZBD_G01-0x1189-0x00FC-0x013E8000-MF_DIS-DOWM_DIS-20251212105551-3224010153640-lzma-encrypted.ota",
     "stack": "EmberZNet",
     "stackDetails": "GBL",
@@ -4083,12 +4071,6 @@
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/EcoDim/ZB21S3_EcoDim_BV_eco-dim.07_zi.rSwitch_ZB3.0_4.03_O9_20260210.ota",
     "stack": "EmberZNet",
     "stackDetails": "GBL",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-012F-01000706-Switch-SiMG301.zigbee",
-    "stack": "Unknown",
-    "stackDetails": "",
     "zigbeeStackVersion": "ZigbeePro"
   },
   {
@@ -5868,18 +5850,6 @@
     "zigbeeStackVersion": "ZigbeePro"
   },
   {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-021d-10173001-qs_zigbee_sec02_zrd.zigbee",
-    "stack": "Telink",
-    "stackDetails": "",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-021e-10123001-qs_zigbee_sec01_zrd.zigbee",
-    "stack": "Telink",
-    "stackDetails": "",
-    "zigbeeStackVersion": "ZigbeePro"
-  },
-  {
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Lumi/20260907102538_OTA_lumi.vibration.agl002_0.0.0_0025_20260904_0832B8.ota",
     "stack": "Unknown",
     "stackDetails": "",
@@ -6195,6 +6165,42 @@
     "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/SN-TLSR8258-TRV-01-v1.1.3.ota",
     "stack": "Telink",
     "stackDetails": "(fallback matching)",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-021d-10183001-qs_zigbee_sec02_zrd.zigbee",
+    "stack": "Telink",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/SlackyDiy/6565-021e-10133001-qs_zigbee_sec01_zrd.zigbee",
+    "stack": "Telink",
+    "stackDetails": "",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/mini-zbrbs_v1.2.1.ota",
+    "stack": "EmberZNet",
+    "stackDetails": "GBL",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/trvzb_v1.4.9.ota",
+    "stack": "EmberZNet",
+    "stackDetails": "GBL",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Sonoff/zbminil2-v1.1.2-stand_ota-file.ota",
+    "stack": "EmberZNet",
+    "stackDetails": "GBL",
+    "zigbeeStackVersion": "ZigbeePro"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Hue/100B-012F-01000B0A-Switch-SiMG301.zigbee",
+    "stack": "Unknown",
+    "stackDetails": "",
     "zigbeeStackVersion": "ZigbeePro"
   }
 ]
