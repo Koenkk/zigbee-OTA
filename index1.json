@@ -4272,5 +4272,15 @@
     "sha512": "b07bafb93719e1bebc689a1bd3b5b39cbfb6752371e1ad8653c4c40731abcbd0e5959c7eb10864991cbc1cc0e9fc5c54b4411729fdf2eecc98abbce02b59364b",
     "otaHeaderString": "",
     "releaseNotes": "Version: 7.6"
+  },
+  {
+    "fileName": "Y809_G_V1.20_FW37_20260313.ota",
+    "fileVersion": 37,
+    "fileSize": 430882,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Namron/Y809_G_V1.20_FW37_20260313.ota",
+    "imageType": 809,
+    "manufacturerCode": 4714,
+    "sha512": "9a8eac82b7405163716ef111017da3aafc1f64dadc43f4efff0632c38f85d30b3d07f335e1c019d7df4f51325570d9eaf981fcf5bf4eba95c5d199f7ccdc04ca",
+    "otaHeaderString": "EBL y809-zg"
   }
 ]
