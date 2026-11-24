@@ -12003,6 +12003,10 @@
     "manufacturerCode": 4107,
     "sha512": "c89febc96ffea9184529f0290091acd303d7a67a2c34361364d156d0a1e0a2b7ee17dcd43ddd81db57d4d9a06c19ae8952e1ef90f7715453ef516a5ec8a9c7b8",
     "otaHeaderString": "",
-    "releaseNotes": "Version: 11.10"
+    "releaseNotes": "Version: 11.10",
+    "manufacturerName": [
+        "Signify Netherlands B.V.",
+        "Philips"
+    ]
   }
 ]
