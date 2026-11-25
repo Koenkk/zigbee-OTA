@@ -12009,5 +12009,19 @@
     "sha512": "93292286d521b07577a2f1c09c33f5f1c58e9f91b82d8abed729dc08ae072a4c5b0273a7de2748aad6c5549208430f8e429c7936b5fa34ce2839e723a02de2db",
     "otaHeaderString": "EBL y809-zg",
     "releaseNotes": "V1.21 (FW40)"
+  },
+  {
+    "fileName": "teelicht-pro-zigbee-0.5.0.ota",
+    "fileVersion": 327680,
+    "fileSize": 403720,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/teelicht/teelicht-pro-zigbee-0.5.0.ota",
+    "imageType": 1,
+    "manufacturerCode": 32481,
+    "sha512": "03ca946c294f53024d6e8d2dae14f2c1cf95550bc2c9f1a6ae33189f4267d4261cc1919b22ea0cd15917b67f24cd1ec2d4f0e9537f2f6baed324cc3090952ece",
+    "otaHeaderString": "teelicht pro zigbee 0.5.0+0",
+    "manufacturerName": [
+      "teelicht pro"
+    ],
+    "modelId": "teelicht-nrf"
   }
 ]
