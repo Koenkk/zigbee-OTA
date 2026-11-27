@@ -4282,5 +4282,15 @@
     "manufacturerCode": 4714,
     "sha512": "9a8eac82b7405163716ef111017da3aafc1f64dadc43f4efff0632c38f85d30b3d07f335e1c019d7df4f51325570d9eaf981fcf5bf4eba95c5d199f7ccdc04ca",
     "otaHeaderString": "EBL y809-zg"
+  },
+  {
+    "fileName": "WCM300Z_OTA_ENC_V4_ENC.ota",
+    "fileVersion": 4,
+    "fileSize": 222622,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images1/Jennic/WCM300Z_OTA_ENC_V4_ENC.ota",
+    "imageType": 4118,
+    "manufacturerCode": 4151,
+    "sha512": "bd2d9591d8c92655e42d30d9ade3772f6c7a32adf2126aa049b613f77cdb6965ca6ad3c13b5449bd9b8b79f0a09a26d5cd299670212cf21a89884f0a7f4ff4f6",
+    "otaHeaderString": "DR1175r1v02--JN5169--ENCRYPTED00"
   }
 ]

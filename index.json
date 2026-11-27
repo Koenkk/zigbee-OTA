@@ -6456,16 +6456,6 @@
     "otaHeaderString": "DR1175r1v02--JN5169--ENCRYPTED00"
   },
   {
-    "fileName": "WCM300Z_OTA_ENC_V4_ENC.ota",
-    "fileVersion": 4,
-    "fileSize": 222622,
-    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Jennic/WCM300Z_OTA_ENC_V4_ENC.ota",
-    "imageType": 4118,
-    "manufacturerCode": 4151,
-    "sha512": "bd2d9591d8c92655e42d30d9ade3772f6c7a32adf2126aa049b613f77cdb6965ca6ad3c13b5449bd9b8b79f0a09a26d5cd299670212cf21a89884f0a7f4ff4f6",
-    "otaHeaderString": "DR1175r1v02--JN5169--ENCRYPTED00"
-  },
-  {
     "fileName": "6565-0395-10043001-ts0201_tz3000_zed.zigbee",
     "fileVersion": 268709889,
     "fileSize": 148466,
@@ -12023,5 +12013,19 @@
       "teelicht pro"
     ],
     "modelId": "teelicht-nrf"
+  },
+  {
+    "fileName": "WCM300Z_OTA_ENC_V5_ENC.ota",
+    "fileVersion": 5,
+    "fileSize": 225646,
+    "url": "https://raw.githubusercontent.com/Koenkk/zigbee-OTA/master/images/Jennic/WCM300Z_OTA_ENC_V5_ENC.ota",
+    "imageType": 4118,
+    "manufacturerCode": 4151,
+    "sha512": "b6d75997441c2ab89502934e370a4393d65e2f6c95ae9eb96f90c5a66d82fd89eda2621694dfdc368a3d7d5cd76ec6e1feeb99bf442f997f1027ae4d4c004315",
+    "otaHeaderString": "DR1175r1v02--JN5169--ENCRYPTED00",
+    "manufacturerName": [
+      "ShinaSystem"
+    ],
+    "releaseNotes": "V5.00: power-factor based relay OFF timing for inductive loads"
   }
 ]
